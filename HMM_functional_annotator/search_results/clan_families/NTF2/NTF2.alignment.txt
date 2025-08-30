@@ -1,0 +1,321 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/NTF2.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/NTF2/NTF2.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/NTF2/NTF2.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       NTF2.aln  [M=154]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+   9.6e-109  365.0   0.5   1.1e-108  364.8   0.5    1.0  1  sp|Q3C1D4|TPDB2_COMSP  Terephthalate 1,2-dioxygenase, termina
+   3.6e-108  363.1   0.4     4e-108  362.9   0.4    1.0  1  sp|Q3C1E2|TPDB1_COMSP  Terephthalate 1,2-dioxygenase, termina
+    2.6e-26   97.3   0.0    2.9e-26   97.1   0.0    1.0  1  sp|Q84BZ2|ANDAD_BURCE  Anthranilate 1,2-dioxygenase small sub
+    2.9e-16   64.6   0.0    3.3e-16   64.5   0.0    1.0  1  sp|O52380|NAGH_RALSP   Salicylate 5-hydroxylase, small oxygen
+      9e-06   30.6   0.1    1.2e-05   30.2   0.1    1.1  1  sp|Q51975|CMTAC_PSEPU  p-cumate 2,3-dioxygenase system, small
+      9e-05   27.3   0.0    0.00011   27.1   0.0    1.1  1  sp|Q9RBG4|ABSAB_ALCSP  2-aminobenzenesulfonate 2,3-dioxygenas
+  ------ inclusion threshold ------
+       0.19   16.5   0.1       0.26   16.1   0.1    1.2  1  sp|Q53216|Y4VH_SINFN   Uncharacterized protein y4vH OS=Sinorh
+       0.23   16.2   0.0        8.8   11.1   0.0    2.2  2  sp|Q2KJ16|PHKG2_BOVIN  Phosphorylase b kinase gamma catalytic
+       0.76   14.6   0.0        1.6   13.5   0.0    1.5  1  sp|A7N6L2|GCH1_VIBC1   GTP cyclohydrolase 1 OS=Vibrio campbel
+        1.1   14.0   0.0        2.2   13.1   0.0    1.4  1  sp|A1S2C7|GCH1_SHEAM   GTP cyclohydrolase 1 OS=Shewanella ama
+        1.3   13.8   0.0         32    9.3   0.0    2.6  3  sp|B8JMH0|CAF17_DANRE  Iron-sulfur cluster assembly factor IB
+        1.3   13.8   0.0        2.3   13.0   0.0    1.4  1  sp|Q2NUE3|GCH1_SODGM   GTP cyclohydrolase 1 OS=Sodalis glossi
+          2   13.2   0.0        6.3   11.6   0.0    1.8  2  sp|G8H5M7|TPS9_SOLHA   Terpene synthase 9 OS=Solanum habrocha
+        2.1   13.1   0.0        3.8   12.3   0.0    1.4  1  sp|Q12SG0|GCH1_SHEDO   GTP cyclohydrolase 1 OS=Shewanella den
+        2.4   13.0   0.1        4.3   12.1   0.1    1.4  1  sp|Q6D3N3|GCH1_PECAS   GTP cyclohydrolase 1 OS=Pectobacterium
+        3.9   12.3   0.0          8   11.3   0.0    1.5  1  sp|P15735|PHKG2_HUMAN  Phosphorylase b kinase gamma catalytic
+        4.2   12.2   0.0        6.2   11.6   0.0    1.2  1  sp|O26223|Y120_METTH   Putative NADH dehydrogenase/NAD(P)H ni
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q3C1D4|TPDB2_COMSP  Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit beta 2 OS=Comamonas sp. OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  364.8   0.5  3.2e-113  1.1e-108       1     154 []       1     154 []       1     154 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 364.8 bits;  conditional E-value: 3.2e-113
+               NTF2.aln   1 mineiqiaafnaayaktvdsdameqwptfftkdchyrvtnvdnhdeglaagivwadsqdmltdrisalreaniyerhryrhilglpsi 88 
+                            mineiqiaafnaayakt+dsdameqwptfftkdchy+vtnvdnhdeglaagivwadsqdmltdrisalreaniyerhryrhilglpsi
+  sp|Q3C1D4|TPDB2_COMSP   1 MINEIQIAAFNAAYAKTIDSDAMEQWPTFFTKDCHYCVTNVDNHDEGLAAGIVWADSQDMLTDRISALREANIYERHRYRHILGLPSI 88 
+                            9*************************************************************************************** PP
+
+               NTF2.aln  89 qsgdatqasastpfmvlrimhtgetevfasgeyldkfttidgklrlqeriavcdstvtdtlmalpl 154
+                            qsgdatqasastpfmvlrimhtgetevfasgeyldkfttidgklrlqeriavcdstvtdtlmalpl
+  sp|Q3C1D4|TPDB2_COMSP  89 QSGDATQASASTPFMVLRIMHTGETEVFASGEYLDKFTTIDGKLRLQERIAVCDSTVTDTLMALPL 154
+                            *****************************************************************8 PP
+
+>> sp|Q3C1E2|TPDB1_COMSP  Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit beta 1 OS=Comamonas sp. OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  362.9   0.4  1.2e-112    4e-108       1     154 []       1     154 []       1     154 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 362.9 bits;  conditional E-value: 1.2e-112
+               NTF2.aln   1 mineiqiaafnaayaktvdsdameqwptfftkdchyrvtnvdnhdeglaagivwadsqdmltdrisalreaniyerhryrhilglpsi 88 
+                            mineiqiaafnaayaktvdsdameqwptfftkdchyrvtnvdnh+eglaagivwadsqdmltdrisalreaniyerhryrhilglpsi
+  sp|Q3C1E2|TPDB1_COMSP   1 MINEIQIAAFNAAYAKTVDSDAMEQWPTFFTKDCHYRVTNVDNHAEGLAAGIVWADSQDMLTDRISALREANIYERHRYRHILGLPSI 88 
+                            9*************************************************************************************** PP
+
+               NTF2.aln  89 qsgdatqasastpfmvlrimhtgetevfasgeyldkfttidgklrlqeriavcdstvtdtlmalpl 154
+                            qsgdatqasastpfmvlrimhtgetevfasgeyldkfttidgklrlqeriavcdstvtdtlmalpl
+  sp|Q3C1E2|TPDB1_COMSP  89 QSGDATQASASTPFMVLRIMHTGETEVFASGEYLDKFTTIDGKLRLQERIAVCDSTVTDTLMALPL 154
+                            *****************************************************************8 PP
+
+>> sp|Q84BZ2|ANDAD_BURCE  Anthranilate 1,2-dioxygenase small subunit OS=Burkholderia cepacia OX=292 GN=andAd PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.1   0.0   8.5e-31   2.9e-26       7     154 .]      14     161 .]       8     161 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 97.1 bits;  conditional E-value: 8.5e-31
+               NTF2.aln   7 iaafnaayaktvdsdameqwptfftkdchyrvtnvdnhdeglaagivwadsqdmltdrisalreaniyerhryrhilglpsiqsgdat 94 
+                            i  ++  y   +d d +e+wp +ft dc y +   +n d gl  giv +  q ml dr+ +lr aniye h yrh+    +i +    
+  sp|Q84BZ2|ANDAD_BURCE  14 IYMLQNRYIGHLDNDRLERWPEMFTEDCTYEIVPKENADLGLPVGIVHCTNQRMLRDRVVSLRHANIYEEHTYRHMTSGLAIVAQRDG 101
+                            55667789999****************************************************************9866666666667 PP
+
+               NTF2.aln  95 qasastpfmvlrimhtgetevfasgeyldkfttidgklrlqeriavcdstvtdtlmalpl 154
+                            +  + + ++v++    ge++v+ +g+y d +      lr + +  + d++  +tl+a p+
+  sp|Q84BZ2|ANDAD_BURCE 102 EIDTESNYVVVQTRSNGESNVYQAGKYYDTVVRTPDGLRYKAKRVIYDTSRVQTLLATPI 161
+                            7788889***********************9988888****9999************985 PP
+
+>> sp|O52380|NAGH_RALSP  Salicylate 5-hydroxylase, small oxygenase component OS=Ralstonia sp. OX=54061 GN=nagH PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.5   0.0   9.8e-21   3.3e-16      11     146 ..      14     153 ..       7     161 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 64.5 bits;  conditional E-value: 9.8e-21
+              NTF2.aln  11 naayaktvdsdameqwptfftkdchyrvtnvdnhdeglaagivwadsqdmltdrisalreaniyerhryrhilglpsiqs....gdatq 95 
+                            + ya   ds   e+wp ff     yr+   +n ++gl   ++  +s+ m+ dr+  ++e+  ++ +  rhi+g p + s     d  +
+  sp|O52380|NAGH_RALSP  14 YSDYAMVCDSANWEKWPDFFIETGTYRLQPRENFEQGLPLCLLALESKAMIRDRVYGVKETMYHDPYYQRHIVGTPRVLSverdADGER 102
+                           5689*********************************************************99999999*******9876332356788 PP
+
+              NTF2.aln  96 asastpfmvlrimhtgetevfasgeyldkfttidgklrlqeriavcdstvt 146
+                            +a + + v+r  + g++ +f +g y d +      l+l+ r++v ds + 
+  sp|O52380|NAGH_RALSP 103 ITAEASYAVIRTKYDGDSTIFNAGYYRDVIVRTPEGLKLKSRLCVYDSEMI 153
+                           99*****************************99999***********9875 PP
+
+>> sp|Q51975|CMTAC_PSEPU  p-cumate 2,3-dioxygenase system, small oxygenase component OS=Pseudomonas putida OX=303 GN=cmt
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.2   0.1   3.6e-10   1.2e-05      15     139 ..      36     163 ..      28     169 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 30.2 bits;  conditional E-value: 3.6e-10
+               NTF2.aln  15 aktvdsdameqwptfftkdchyrvtnvdnhdeglaagivw..adsqdmltdrisalrea...niyerhryrhilglpsiqsgdatqas 97 
+                            a  +d+  + +w ++ft dc y v   d      a   ++  ad    l +r+  l +      y r r rh++    i + +a +  
+  sp|Q51975|CMTAC_PSEPU  36 AELLDTWHLHDWLALFTEDCSYFVPSTDLPRTASADDSLFyiADDAVRLRERVIRLMKKtahAEYPRSRTRHLVSNIRILAANAEEIQ 123
+                            5667888999**************999987777766544312788888999988775431124599********************** PP
+
+               NTF2.aln  98 astpfmvlrimhtgetevfasgeyldkfttidgklrlqeria 139
+                             ++ f+  r m+ g+++ +       ++  idg+lr+ e+ +
+  sp|Q51975|CMTAC_PSEPU 124 VASAFVTYR-MKLGNSDAYVG-STHYRLRRIDGQLRIVEKRC 163
+                            *****9998.78899988864.3445899********99865 PP
+
+>> sp|Q9RBG4|ABSAB_ALCSP  2-aminobenzenesulfonate 2,3-dioxygenase subunit beta OS=Alcaligenes sp. OX=512 GN=absAb PE=1 S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.1   0.0   3.2e-09   0.00011       4     143 ..       3     139 ..       1     143 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 27.1 bits;  conditional E-value: 3.2e-09
+               NTF2.aln   4 eiqiaafnaayaktvdsdameqwptfftkdchyrvtnvdnhdeglaagivwadsqdmltdrisalreaniyerh..ryrhilglpsiq 89 
+                             + ia f  + a  ++ + ++ w    ++d  yr+t     +e l   + w d +         l++an +er+  r r  l +p + 
+  sp|Q9RBG4|ABSAB_ALCSP   3 TVSIAEFLYTNADLLNQEQFDSWLEQCSNDFSYRITT---FSEELGRPMDWMDKDKS--GLAHYLQNANNHERYtgRLRRHLAMPRVT 85 
+                            5789999999999*********************997...578999******98764..4456799999999975588999******9 PP
+
+               NTF2.aln  90 sgdatqasastpfmvlrimhtgetevfasgeyldkfttidgklrlqeriavcds 143
+                                +     t + +  i   get ++  g y+d++ +    lrl  r+   d+
+  sp|Q9RBG4|ABSAB_ALCSP  86 KQADSSFEVRTAVAIYVIEMNGETALYGIGSYVDNVMSESSGLRLTSRVVTLDT 139
+                            9888889999999999********************************998775 PP
+
+>> sp|Q53216|Y4VH_SINFN  Uncharacterized protein y4vH OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 GN=NG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.1   0.1   7.7e-06      0.26      32     142 ..      42     162 ..      18     167 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 7.7e-06
+              NTF2.aln  32 kdc.hyrvtnvdnhdeglaagivwadsqdmltdri.sa...lrea.niye.rhryrhilglpsiqsgdatqasastpfmvlrimh..tg 111
+                           +dc h     +d  de       w d++d       sa   ++ a n+++ + r  h l    i+   at+a+  + f  l+  h  tg
+  sp|Q53216|Y4VH_SINFN  42 RDClHRYCRGIDRADEAALRSCYWPDARDNHGSYSgSAagfIQHAlNVFKtKPRNIHQLTNIIIEFLGATEAAVESYFTALQRGHdaTG 130
+                           67734445678999999999999999999765433133222444437775244667777777888999*************99885678 PP
+
+              NTF2.aln 112 et.evfasgeyldkfttidgklrlqeriavcd 142
+                           e  +v+  g y d f   +g  r+ er  v d
+  sp|Q53216|Y4VH_SINFN 131 EIkQVLLCGRYCDLFQKREGEWRIVERTVVYD 162
+                           8536999********************99988 PP
+
+>> sp|Q2KJ16|PHKG2_BOVIN  Phosphorylase b kinase gamma catalytic chain, liver/testis isoform OS=Bos taurus OX=9913 GN=PH
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0   0.00026       8.8      52     113 ..      54     115 ..      34     128 .. 0.85
+   2 ?    2.8   0.0     0.099   3.3e+03      54     107 ..     257     310 ..     251     322 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00026
+               NTF2.aln  52 ivwadsqdmltdrisalreaniyerhryrhilglpsiqsgdatqasastpfmvlrimhtget 113
+                            i+   ++ +  +++  +rea   e h  r++ g p i +   +  s+s  f+v+ +m  ge 
+  sp|Q2KJ16|PHKG2_BOVIN  54 IMEVTAERLSPEQLEEVREATRRETHILRQVAGHPHIITLIDSYESSSFMFLVFDLMRKGEL 115
+                            55555666667788899*********************99999999*************985 PP
+
+  == domain 2  score: 2.8 bits;  conditional E-value: 0.099
+               NTF2.aln  54 wadsqdmltdrisalreaniyerhryrhilglpsiqsgdatqasastpfmvlri 107
+                            w d  d + d is l + +  er    + l  p  +  + +qa   tp   +r+
+  sp|Q2KJ16|PHKG2_BOVIN 257 WDDRSDTVKDLISRLLQVDPVERLTAEQALQHPFFERCEGSQAWNLTPRQRFRV 310
+                            99****************************************999999776665 PP
+
+>> sp|A7N6L2|GCH1_VIBC1  GTP cyclohydrolase 1 OS=Vibrio campbellii (strain ATCC BAA-1116) OX=2902295 GN=folE PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.0   4.8e-05       1.6      76     148 ..      39     108 ..      24     114 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 4.8e-05
+              NTF2.aln  76 rhryrhilglpsiqsgdatqasastpfmvlrimhtgetevfasgeyld..kfttidgklrlqeriavcdstvtdt 148
+                            h+ r ilgl  ++  d +     tp    ri +    e+f+  +y +  k+t i+ k+ + e + v d tvt t
+  sp|A7N6L2|GCH1_VIBC1  39 EHHMREILGLLQLDLTDDS--LEETPH---RIAKMYVDEIFSGLDYSNfpKITVIENKMNVSEMVRVKDITVTST 108
+                           5889999999888666643..456886...555566678999999854449**********************98 PP
+
+>> sp|A1S2C7|GCH1_SHEAM  GTP cyclohydrolase 1 OS=Shewanella amazonensis (strain ATCC BAA-1098 / SB2B) OX=326297 GN=folE 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.0   6.4e-05       2.2      76     148 ..      39     107 ..      26     112 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 6.4e-05
+              NTF2.aln  76 rhryrhilglpsiqsgdatqasastpfmvlrimhtgetevfasgey..ldkfttidgklrlqeriavcdstvtdt 148
+                           + + r ilgl s++  d +   a tp    ri +    e+f+  +y  + k+t id k+ ++e + v d ++t t
+  sp|A1S2C7|GCH1_SHEAM  39 Q-HMRAILGLMSLDLTDDSL--ADTPR---RIAKMYVDEIFSGLDYenFPKITVIDNKMGVDEMVRVQDISLTST 107
+                           3.469999999998887654..67886...55555566778766652277*******************999987 PP
+
+>> sp|B8JMH0|CAF17_DANRE  Iron-sulfur cluster assembly factor IBA57, mitochondrial OS=Danio rerio OX=7955 GN=iba57 PE=3 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.0   0.0       2.9   9.7e+04     104     115 ..      51      62 ..      24     107 .. 0.55
+   2 ?    1.2   0.0      0.29   9.9e+03     140     152 ..     123     135 ..     114     137 .. 0.85
+   3 ?    9.3   0.0   0.00094        32      55      87 ..     196     228 ..     170     248 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -2.0 bits;  conditional E-value: 2.9
+               NTF2.aln 104 vlrimhtgetev 115
+                              r+ h    +v
+  sp|B8JMH0|CAF17_DANRE  51 CYRLPHRTVLNV 62 
+                            444444333322 PP
+
+  == domain 2  score: 1.2 bits;  conditional E-value: 0.29
+               NTF2.aln 140 vcdstvtdtlmal 152
+                             cdstv d++m l
+  sp|B8JMH0|CAF17_DANRE 123 ECDSTVQDSVMQL 135
+                            6*********987 PP
+
+  == domain 3  score: 9.3 bits;  conditional E-value: 0.00094
+               NTF2.aln  55 adsqdmltdrisalreaniyerhryrhilglps 87 
+                            + +qd   d +sa r  n  e hr+r+ +glp 
+  sp|B8JMH0|CAF17_DANRE 196 TSAQDNPLDIVSACRLGNTEEYHRHRYEIGLPE 228
+                            56899999***********************95 PP
+
+>> sp|Q2NUE3|GCH1_SODGM  GTP cyclohydrolase 1 OS=Sodalis glossinidius (strain morsitans) OX=343509 GN=folE PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0   6.9e-05       2.3      82     148 ..      42     108 ..      25     114 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 6.9e-05
+              NTF2.aln  82 ilglpsiqsgdatqas.astpfmvlrimhtgetevfasgeyld..kfttidgklrlqeriavcdstvtdt 148
+                           +  + ++   d t+ s a tp    ri +    e+fa  +y +  k+t i+ k++++e ++v d t+t t
+  sp|Q2NUE3|GCH1_SODGM  42 MTEIMTLLNLDLTDDSlAETPH---RIAKMYVEEIFAGLDYANfpKITVIENKMKVDEMVTVRDITLTST 108
+                           5555555555666554356665...566666789****99965449*********************998 PP
+
+>> sp|G8H5M7|TPS9_SOLHA  Terpene synthase 9 OS=Solanum habrochaites OX=62890 GN=TPS9 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.9   0.0       2.6   8.9e+04     114     133 ..     111     130 ..      82     138 .. 0.73
+   2 ?   11.6   0.0   0.00019       6.3       7      79 ..     141     215 ..     133     225 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 2.6
+              NTF2.aln 114 evfasgeyldkfttidgklr 133
+                             + s + + +ft  dgk++
+  sp|G8H5M7|TPS9_SOLHA 111 GHYMSSDVFKQFTNQDGKFK 130
+                           45778888899999999875 PP
+
+  == domain 2  score: 11.6 bits;  conditional E-value: 0.00019
+              NTF2.aln   7 iaafnaayaktvdsdameqwptfftkdchyrvtnvdnhdeglaagivwadsq..dmltdrisalreaniyerhry 79 
+                           ++ ++a+y +  d + +e+  +f t   +  v+n+ n ++ l   +  a +q   m   r+ a r   iye    
+  sp|G8H5M7|TPS9_SOLHA 141 LSLYEASYLRVRDEEILEEALAFTTTHLKSIVSNMSNNNNSLKVEVSEALTQpiRMTLPRMEARRYISIYENNDA 215
+                           56799*****************************************9999883357789***********98643 PP
+
+>> sp|Q12SG0|GCH1_SHEDO  GTP cyclohydrolase 1 OS=Shewanella denitrificans (strain OS217 / ATCC BAA-1090 / DSM 15013) OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.0   0.00011       3.8      66     148 ..      28     107 ..      20     112 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00011
+              NTF2.aln  66 salreaniyerhryrhilglpsiqsgdatqasastpfmvlrimhtgetevfasgey..ldkfttidgklrlqeriavcdstvtdt 148
+                           s+  e +i   h+ r il l s++  d +     tp    ri +    e+f+  +y  + k+t id k+ ++e + v d ++t t
+  sp|Q12SG0|GCH1_SHEDO  28 STPEERKIKIEHHMREILTLMSLDLTDDSL--MDTPR---RIAKMYVDEIFSGLDYdnFPKITVIDNKMGFDEMVRVQDISLTST 107
+                           5566788899999******99998777543..56775...5666666789988777335699*****************999987 PP
+
+>> sp|Q6D3N3|GCH1_PECAS  GTP cyclohydrolase 1 OS=Pectobacterium atrosepticum (strain SCRI 1043 / ATCC BAA-672) OX=218491
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.1   0.00013       4.3      80     148 ..      43     108 ..      24     114 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00013
+              NTF2.aln  80 rhilglpsiqsgdatqasastpfmvlrimhtgetevfasgeyld..kfttidgklrlqeriavcdstvtdt 148
+                             i+ l s++ gd + a   tp    ri +    e+f+  +y +  k+t i+ k++++e ++v d t+t t
+  sp|Q6D3N3|GCH1_PECAS  43 TEIMNLLSLDLGDDSLA--ETPT---RIAKMYVDEIFSGLDYANfpKITIIENKMKVDEMVTVRDITLTST 108
+                           45777777777776554..5554...566666789999999965449*********************998 PP
+
+>> sp|P15735|PHKG2_HUMAN  Phosphorylase b kinase gamma catalytic chain, liver/testis isoform OS=Homo sapiens OX=9606 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.0   0.00024         8      50     113 ..      52     115 ..      33     128 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00024
+               NTF2.aln  50 agivwadsqdmltdrisalreaniyerhryrhilglpsiqsgdatqasastpfmvlrimhtget 113
+                              i+   ++ +  +++  +rea   e h  r++ g p i +   +  s+s  f+v+ +m  ge 
+  sp|P15735|PHKG2_HUMAN  52 VKIMEVTAERLSPEQLEEVREATRRETHILRQVAGHPHIITLIDSYESSSFMFLVFDLMRKGEL 115
+                            555555566666788899**********************99999999*************985 PP
+
+>> sp|O26223|Y120_METTH  Putative NADH dehydrogenase/NAD(P)H nitroreductase OS=Methanothermobacter thermautotrophicus (s
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   0.00018       6.2      21      70 ..     104     152 ..      89     171 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00018
+              NTF2.aln  21 dameqwptfftkdchyrvtnvdnhdeglaagivwadsqdmltdrisalre 70 
+                            ++e+ p f+ +dc  +  n+   +  l  g vw+     l dr+  +r 
+  sp|O26223|Y120_METTH 104 SSLEKIPGFWVQDCSIASQNILLAAHSLGLGAVWTGVY-PLEDRVEGIRR 152
+                           369*******************************9765.47888887775 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (154 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     11829  (0.0206202); expected 11473.2 (0.02)
+Passed bias filter:                    10678  (0.0186138); expected 11473.2 (0.02)
+Passed Vit filter:                       714  (0.00124464); expected 573.7 (0.001)
+Passed Fwd filter:                        17  (2.96342e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              17  [number of targets reported over threshold]
+# CPU time: 2.89u 0.18s 00:00:03.07 Elapsed: 00:00:01.49
+# Mc/sec: 21388.88
+//
+[ok]

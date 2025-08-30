@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+O-PVA.aln	sp|Q9LCQ7|OPH_PSESP	379	382	4.1e-247	824.0	3.4e-251	4.6e-247	823.8	1	381	1	379	1	379	1.0	1	1	0.9921465968586387	1.0052770448548813	O-PVA

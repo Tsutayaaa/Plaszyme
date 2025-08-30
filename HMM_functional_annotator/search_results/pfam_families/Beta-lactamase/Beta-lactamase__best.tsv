@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Beta-lactamase.aln	sp|P07062|NYLB2_PAEUR	392	429	2.4e-150	506.5	1.2e-153	5e-150	505.5	1	421	1	391	1	392	0.96	1	1	0.9114219114219114	1.0739795918367347	Beta-lactamase

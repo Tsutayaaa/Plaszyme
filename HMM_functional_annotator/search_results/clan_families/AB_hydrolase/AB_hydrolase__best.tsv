@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+AB_hydrolase.aln	sp|G8GER6|PETH1_THEFU	319	334	1.1e-95	326.5	3.7e-98	1.3e-95	326.2	11	276	28	318	13	319	0.89	1	1	0.8712574850299402	0.8338557993730408	AB_hydrolase

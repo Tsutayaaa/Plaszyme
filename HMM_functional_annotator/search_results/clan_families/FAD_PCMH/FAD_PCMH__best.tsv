@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+FAD_PCMH.aln	sp|O06997|YVDP_BACSU	447	448	4.3e-288	960.0	1.8e-291	4.8e-288	959.8	1	446	1	446	1	447	1.0	1	1	0.9955357142857143	0.9977628635346756	FAD_PCMH

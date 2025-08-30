@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Trypsin.aln	sp|Q00871|CTRB1_PENVA	271	236	5.1e-31	113.5	1e-33	7e-31	113.1	29	236	42	269	34	269	0.81	1	1	0.9661016949152542	0.7675276752767528	Trypsin

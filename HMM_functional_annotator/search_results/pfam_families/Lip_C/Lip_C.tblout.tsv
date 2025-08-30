@@ -1,0 +1,52 @@
+#                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name            accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#    ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+sp|Q5U780|LIP_BACSP      -          Lip_C.aln            -           1.4e-137  464.0   0.0  1.6e-137  463.8   0.0   1.0   1   0   0   1   1   1   1 Lipase OS=Bacillus sp. OX=1409 PE=1 SV=3
+sp|Q2FUU5|LIP1_STAA8     -          Lip_C.aln            -           1.5e-100  342.0   8.9  1.5e-100  342.0   8.9   1.6   2   0   0   2   2   2   1 Lipase 1 OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=lipA PE=1 SV=1
+sp|Q5HCM7|LIP1_STAAC     -          Lip_C.aln            -           1.5e-100  342.0   8.9  1.5e-100  342.0   8.9   1.6   2   0   0   2   2   2   1 Lipase 1 OS=Staphylococcus aureus (strain COL) OX=93062 GN=lip1 PE=3 SV=1
+sp|Q6G604|LIP1_STAAS     -          Lip_C.aln            -           1.5e-100  342.0   8.9  1.5e-100  342.0   8.9   1.6   2   0   0   2   2   2   1 Lipase 1 OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=lip1 PE=3 SV=2
+sp|Q8NUI5|LIP1_STAAW     -          Lip_C.aln            -           1.5e-100  342.0   8.9  1.5e-100  342.0   8.9   1.6   2   0   0   2   2   2   1 Lipase 1 OS=Staphylococcus aureus (strain MW2) OX=196620 GN=lip1 PE=3 SV=2
+sp|P65288|LIP1_STAAM     -          Lip_C.aln            -           1.7e-100  341.8   9.0  1.7e-100  341.8   9.0   1.6   2   0   0   2   2   2   1 Lipase 1 OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=lip1 PE=3 SV=2
+sp|P65289|LIP1_STAAN     -          Lip_C.aln            -           1.7e-100  341.8   9.0  1.7e-100  341.8   9.0   1.6   2   0   0   2   2   2   1 Lipase 1 OS=Staphylococcus aureus (strain N315) OX=158879 GN=lip1 PE=3 SV=2
+sp|Q6GDD3|LIP1_STAAR     -          Lip_C.aln            -           1.9e-100  341.6   9.2  1.9e-100  341.6   9.2   1.6   2   0   0   2   2   2   1 Lipase 1 OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=lip1 PE=3 SV=2
+sp|Q5HKP6|LIP_STAEQ      -          Lip_C.aln            -            1.2e-99  339.0  12.5   2.9e-99  337.8  12.5   1.5   1   0   0   1   1   1   1 Lipase OS=Staphylococcus epidermidis (strain ATCC 35984 / DSM 28319 / BCRC 17069 / CCUG 31568 / BM 3577 / RP62A) OX=176279 GN=lip PE=3 SV=1
+sp|P0C0R3|LIP_STAEP      -          Lip_C.aln            -            4.9e-99  337.0  13.1   1.3e-98  335.7  13.1   1.6   1   0   0   1   1   1   1 Lipase OS=Staphylococcus epidermidis OX=1282 GN=lip PE=1 SV=1
+sp|P0C0R4|LIP_STAES      -          Lip_C.aln            -            4.9e-99  337.0  13.1   1.3e-98  335.7  13.1   1.6   1   0   0   1   1   1   1 Lipase OS=Staphylococcus epidermidis (strain ATCC 12228 / FDA PCI 1200) OX=176280 GN=lip PE=3 SV=1
+sp|P10335|LIP2_STAAU     -          Lip_C.aln            -            1.9e-93  318.6   2.1   1.9e-93  318.6   2.1   1.6   2   0   0   2   2   2   1 Lipase 2 OS=Staphylococcus aureus OX=1280 GN=lip2 PE=1 SV=1
+sp|Q2G155|LIP2_STAA8     -          Lip_C.aln            -            1.9e-93  318.6   2.1   1.9e-93  318.6   2.1   1.6   2   0   0   2   2   2   1 Lipase 2 OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=lip2 PE=1 SV=1
+sp|Q5HJ48|LIP2_STAAC     -          Lip_C.aln            -            1.9e-93  318.6   2.1   1.9e-93  318.6   2.1   1.6   2   0   0   2   2   2   1 Lipase 2 OS=Staphylococcus aureus (strain COL) OX=93062 GN=lip2 PE=3 SV=2
+sp|Q6GCF1|LIP2_STAAS     -          Lip_C.aln            -              3e-93  317.9   2.2     3e-93  317.9   2.2   1.4   2   0   0   2   2   1   1 Lipase 2 OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=lip2 PE=3 SV=1
+sp|Q8NYC2|LIP2_STAAW     -          Lip_C.aln            -              3e-93  317.9   2.2     3e-93  317.9   2.2   1.4   2   0   0   2   2   1   1 Lipase 2 OS=Staphylococcus aureus (strain MW2) OX=196620 GN=lip2 PE=3 SV=1
+sp|Q7A7P2|LIP2_STAAN     -          Lip_C.aln            -            3.9e-93  317.5   2.1   3.9e-93  317.5   2.1   1.6   2   0   0   2   2   2   1 Lipase 2 OS=Staphylococcus aureus (strain N315) OX=158879 GN=lip2 PE=1 SV=1
+sp|Q99WQ6|LIP2_STAAM     -          Lip_C.aln            -            3.9e-93  317.5   2.1   3.9e-93  317.5   2.1   1.6   2   0   0   2   2   2   1 Lipase 2 OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=lip2 PE=3 SV=1
+sp|Q6GJZ6|LIP2_STAAR     -          Lip_C.aln            -            4.8e-93  317.3   2.8   4.8e-93  317.3   2.8   1.7   2   0   0   2   2   2   1 Lipase 2 OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=lip2 PE=3 SV=1
+sp|P04635|LIP_STAHY      -          Lip_C.aln            -            1.4e-92  315.8   8.5   2.1e-92  315.1   8.5   1.2   1   0   0   1   1   1   1 Lipase OS=Staphylococcus hyicus OX=1284 GN=lip PE=1 SV=1
+sp|P15493|LIP_VIBCH      -          Lip_C.aln            -            3.3e-10   44.3   1.1   5.7e-05   27.1   0.0   4.0   2   2   2   4   4   4   2 Triacylglycerol lipase OS=Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961) OX=243277 GN=hlyC PE=1 SV=2
+sp|P22088|LIP_BURCE      -          Lip_C.aln            -            5.2e-10   43.7   2.0   0.00032   24.6   0.1   4.0   2   1   2   4   4   4   2 Triacylglycerol lipase OS=Burkholderia cepacia OX=292 GN=lip PE=1 SV=2
+sp|P25275|LIP_PSES5      -          Lip_C.aln            -            7.7e-10   43.1   2.8   0.00063   23.6   0.2   4.1   2   1   2   4   4   4   3 Triacylglycerol lipase OS=Pseudomonas sp. (strain KWI-56) OX=311 GN=lip PE=1 SV=1
+sp|P0DUB8|LIP_BURPL      -          Lip_C.aln            -            9.9e-09   39.5   1.9      0.03   18.1   0.1   3.8   2   1   2   4   4   4   3 Triacylglycerol lipase OS=Burkholderia plantarii OX=41899 GN=lip PE=1 SV=1
+sp|P0DUB9|LIP_PSEPS      -          Lip_C.aln            -            1.5e-08   38.9   2.2     0.055   17.2   0.1   3.9   2   1   2   4   4   4   3 Triacylglycerol lipase OS=Pseudarthrobacter phenanthrenivorans OX=361575 GN=lip PE=1 SV=1
+sp|P26876|LIP_PSEAE      -          Lip_C.aln            -              5e-08   37.1   0.4    0.0026   21.6   0.0   3.2   1   1   2   3   3   3   2 Triacylglycerol lipase OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=lip PE=1 SV=2
+sp|P26877|LIP_PSEU0      -          Lip_C.aln            -            9.8e-08   36.2   0.3    0.0026   21.6   0.0   3.0   1   1   2   3   3   3   2 Triacylglycerol lipase OS=Pseudomonas sp. (strain 109) OX=72584 GN=lipL PE=1 SV=1
+sp|P54857|TGL2_YEAST     -          Lip_C.aln            -            4.7e-07   33.9   2.2       5.5   10.7   0.0   5.4   3   1   3   6   6   6   3 Triacylglycerol lipase 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TGL2 PE=1 SV=1
+sp|P08658|LIP_PSEFR      -          Lip_C.aln            -            3.6e-06   31.0   0.4     0.012   19.4   0.0   3.4   1   1   2   3   3   3   2 Triacylglycerol lipase OS=Pseudomonas fragi OX=296 GN=lips PE=1 SV=3
+sp|P75736|YBFF_ECOLI     -          Lip_C.aln            -            9.9e-05   26.3   0.0      0.83   13.4   0.0   2.2   2   0   0   2   2   2   2 Esterase YbfF OS=Escherichia coli (strain K12) OX=83333 GN=ybfF PE=1 SV=1
+sp|P37957|ESTA_BACSU     -          Lip_C.aln            -               0.92   13.2   1.3        40    7.8   0.1   2.2   1   1   1   2   2   2   0 Lipase EstA OS=Bacillus subtilis (strain 168) OX=224308 GN=estA PE=1 SV=2
+sp|Q2TAP9|ABHDB_XENLA    -          Lip_C.aln            -               0.98   13.1   0.1       2.4   11.8   0.0   1.6   2   0   0   2   2   2   0 sn-1-specific diacylglycerol lipase ABHD11 OS=Xenopus laevis OX=8355 GN=abhd11 PE=2 SV=1
+sp|Q57427|Y193_HAEIN     -          Lip_C.aln            -                  1   13.1   0.6       2.5   11.8   0.2   1.7   1   1   1   2   2   2   0 Putative esterase/lipase HI_0193 OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=HI_0193 PE=3 SV=1
+sp|Q0V9K2|ABHDB_XENTR    -          Lip_C.aln            -                1.4   12.6   0.0       3.7   11.2   0.0   1.6   2   0   0   2   2   2   0 sn-1-specific diacylglycerol lipase ABHD11 OS=Xenopus tropicalis OX=8364 GN=abhd11 PE=2 SV=2
+sp|P91143|ABH51_CAEEL    -          Lip_C.aln            -                1.4   12.6   0.1        75    6.9   0.0   2.7   3   0   0   3   3   3   0 Abhydrolase domain-containing protein abhd-5.1 OS=Caenorhabditis elegans OX=6239 GN=abhd-5.1 PE=3 SV=2
+sp|A0A061B0Q2|EAT1_CYBFA -          Lip_C.aln            -                2.2   12.0   0.1        67    7.1   0.0   2.1   1   1   0   2   2   2   0 Ethanol acetyltransferase 1 OS=Cyberlindnera fabianii OX=36022 GN=EAT1 PE=1 SV=1
+sp|H2KZ86|ABH52_CAEEL    -          Lip_C.aln            -                2.3   11.9   0.0   1.7e+02    5.7   0.0   2.8   3   0   0   3   3   3   0 Abhydrolase domain-containing protein abhd-5.2 OS=Caenorhabditis elegans OX=6239 GN=abhd-5.2 PE=1 SV=1
+sp|O10347|Y108_NPVOP     -          Lip_C.aln            -                2.5   11.8   0.0       7.8   10.2   0.0   1.6   1   1   1   2   2   2   0 Uncharacterized 11.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=ORF108 PE=3 SV=1
+sp|G8JVR4|EAT1_ERECY     -          Lip_C.aln            -                3.7   11.2   0.0   2.7e+02    5.1   0.0   2.2   2   0   0   2   2   2   0 Ethanol acetyltransferase 1 OS=Eremothecium cymbalariae (strain CBS 270.75 / DBVPG 7215 / KCTC 17166 / NRRL Y-17582) OX=931890 GN=EAT1 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Lip_C.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Lip_C/Lip_C.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Lip_C/Lip_C.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Lip_C.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:08:21 2025
+# [ok]

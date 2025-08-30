@@ -1,0 +1,702 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/O-PVA.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/O-PVA/O-PVA.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/O-PVA/O-PVA.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       O-PVA.aln  [M=382]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+   4.1e-247  824.0   8.4   4.6e-247  823.8   8.4    1.0  1  sp|Q9LCQ7|OPH_PSESP    Oxidized polyvinyl alcohol hydrolase O
+   4.2e-235  784.4  11.2   5.1e-235  784.2  11.2    1.1  1  sp|Q588Z2|OPH_SPHS1    Oxidized polyvinyl alcohol hydrolase O
+    0.00051   23.8   0.0    0.00084   23.1   0.0    1.3  1  sp|Q9HGR3|FAEB_NEUCR   Feruloyl esterase B OS=Neurospora cras
+     0.0029   21.3   0.0     0.0042   20.8   0.0    1.2  1  sp|Q08E20|ESTD_BOVIN   S-formylglutathione hydrolase OS=Bos t
+      0.006   20.3   1.3      0.011   19.4   1.3    1.5  1  sp|A1CSZ8|AXE1_ASPCL   Probable acetylxylan esterase A OS=Asp
+     0.0073   20.0   0.0      0.011   19.4   0.0    1.4  1  sp|A9JPE6|AXE1_ASPFL   Probable acetylxylan esterase A OS=Asp
+     0.0073   20.0   0.0      0.011   19.4   0.0    1.4  1  sp|Q75P26|AXE1_ASPOR   Acetylxylan esterase A OS=Aspergillus 
+  ------ inclusion threshold ------
+       0.01   19.5   0.0      0.016   18.9   0.0    1.4  1  sp|B8NBI2|AXE1_ASPFN   Probable acetylxylan esterase A OS=Asp
+      0.014   19.1   0.3      0.025   18.3   0.3    1.5  1  sp|Q5B037|AXE1_EMENI   Acetylxylan esterase A OS=Emericella n
+      0.015   19.0   0.0      0.023   18.4   0.0    1.2  1  sp|P10768|ESTD_HUMAN   S-formylglutathione hydrolase OS=Homo 
+       0.02   18.6   0.5      0.034   17.8   0.3    1.5  1  sp|Q0C8Z1|AXE1_ASPTN   Probable acetylxylan esterase A OS=Asp
+      0.031   17.9   0.0      0.047   17.4   0.0    1.2  1  sp|Q9GJT2|ESTD_PIG     S-formylglutathione hydrolase OS=Sus s
+      0.036   17.7   0.2      0.051   17.3   0.2    1.2  1  sp|A2QZI3|AXE1_ASPNC   Probable acetylxylan esterase A OS=Asp
+      0.037   17.7   0.3       0.05   17.3   0.3    1.1  1  sp|A1CC33|FAEC2_ASPCL  Probable feruloyl esterase C OS=Asperg
+      0.044   17.5   0.1       0.16   15.6   0.1    1.7  2  sp|Q7RWX8|FAED_NEUCR   Feruloyl esterase D OS=Neurospora cras
+      0.071   16.8   0.2        0.1   16.3   0.2    1.2  1  sp|A1C9D4|FAEC1_ASPCL  Probable feruloyl esterase C OS=Asperg
+      0.071   16.8   0.1        1.2   12.7   0.1    2.4  3  sp|Q9RRK5|Y2484_DEIRA  Uncharacterized WD repeat-containing p
+      0.092   16.4   0.0       0.13   15.9   0.0    1.1  1  sp|Q03L08|WHIA_STRTD   Probable cell division protein WhiA OS
+      0.092   16.4   0.0       0.13   15.9   0.0    1.1  1  sp|Q5M056|WHIA_STRT1   Probable cell division protein WhiA OS
+      0.092   16.4   0.0       0.13   15.9   0.0    1.1  1  sp|Q5M4R7|WHIA_STRT2   Probable cell division protein WhiA OS
+       0.15   15.7   0.0       0.21   15.2   0.0    1.2  1  sp|Q9R0P3|ESTD_MOUSE   S-formylglutathione hydrolase OS=Mus m
+       0.24   15.0   0.3       0.41   14.3   0.3    1.4  1  sp|A1DI08|FAEC_NEOFI   Probable feruloyl esterase C OS=Neosar
+       0.37   14.4   0.2       0.59   13.7   0.1    1.4  1  sp|A2QYU7|FAEC_ASPNC   Probable feruloyl esterase C OS=Asperg
+       0.44   14.2   0.1       0.77   13.4   0.1    1.4  1  sp|Q0CDX2|FAEC_ASPTN   Probable feruloyl esterase C OS=Asperg
+       0.46   14.1   0.3       0.72   13.5   0.3    1.3  1  sp|A4D9B6|FAEC_ASPFU   Probable feruloyl esterase C OS=Asperg
+       0.46   14.1   0.3       0.72   13.5   0.3    1.3  1  sp|B0XU32|FAEC_ASPFC   Probable feruloyl esterase C OS=Asperg
+       0.47   14.1   0.1       0.73   13.4   0.1    1.3  1  sp|G2QND5|FAEB_THET4   Feruloyl esterase B OS=Thermothelomyce
+       0.52   13.9   0.1        0.7   13.5   0.1    1.2  1  sp|Q5B2G3|FAEC_EMENI   Feruloyl esterase C OS=Emericella nidu
+       0.58   13.8   0.1        0.8   13.3   0.1    1.3  1  sp|B8N7Z6|FAEC_ASPFN   Probable feruloyl esterase C OS=Asperg
+        2.3   11.8   0.0        3.4   11.2   0.0    1.2  1  sp|Q3KFL0|ALLA_PSEPF   Ureidoglycolate lyase OS=Pseudomonas f
+        2.6   11.6   0.0        3.1   11.4   0.0    1.1  1  sp|A5UB17|URK_HAEIE    Uridine kinase OS=Haemophilus influenz
+        3.1   11.4   0.0        4.6   10.8   0.0    1.2  1  sp|Q4ZVG9|ALLA_PSEU2   Ureidoglycolate lyase OS=Pseudomonas s
+        3.7   11.1   0.0        5.4   10.6   0.0    1.2  1  sp|Q87YX3|ALLA_PSESM   Ureidoglycolate lyase OS=Pseudomonas s
+        3.7   11.1   0.0        5.1   10.7   0.0    1.1  1  sp|B7UW34|ALLA_PSEA8   Ureidoglycolate lyase OS=Pseudomonas a
+        3.7   11.1   0.0        5.1   10.7   0.0    1.1  1  sp|Q02JZ7|ALLA_PSEAB   Ureidoglycolate lyase OS=Pseudomonas a
+        3.7   11.1   0.0        5.1   10.7   0.0    1.1  1  sp|Q9I3J9|ALLA_PSEAE   Ureidoglycolate lyase OS=Pseudomonas a
+        3.8   11.1   0.0        5.1   10.7   0.0    1.1  1  sp|A6V7Z0|ALLA_PSEP7   Ureidoglycolate lyase OS=Pseudomonas p
+        4.2   10.9   0.0        6.2   10.4   0.0    1.1  1  sp|C3K0A8|ALLA_PSEFS   Ureidoglycolate lyase OS=Pseudomonas f
+        5.6   10.5   0.0        8.6    9.9   0.0    1.2  1  sp|Q48KS5|ALLA_PSE14   Ureidoglycolate lyase OS=Pseudomonas s
+        7.8   10.1   0.0         11    9.6   0.0    1.1  1  sp|Q4K8H2|ALLA_PSEF5   Ureidoglycolate lyase OS=Pseudomonas f
+        7.9   10.0   0.0         10    9.7   0.0    1.1  1  sp|A5UFT8|URK_HAEIG    Uridine kinase OS=Haemophilus influenz
+        7.9   10.0   0.0         10    9.7   0.0    1.1  1  sp|P44533|URK_HAEIN    Uridine kinase OS=Haemophilus influenz
+        7.9   10.0   0.0         10    9.7   0.0    1.1  1  sp|Q4QP55|URK_HAEI8    Uridine kinase OS=Haemophilus influenz
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q9LCQ7|OPH_PSESP  Oxidized polyvinyl alcohol hydrolase OS=Pseudomonas sp. OX=306 GN=pvaB PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  823.8   8.4  3.4e-251  4.6e-247       1     381 [.       1     379 []       1     379 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 823.8 bits;  conditional E-value: 3.4e-251
+            O-PVA.aln   1 mfkslvklrlsrsvialagclasvaatlsstaadksaatpaaanpaatepvkwecpegyevkeglnvdfpsdgkkrafvvvpakdvagga 90 
+                          m++sl++lrl+r+viala  lasva+++sst+ad++aatpaaanpaatepvkwecp+gyevkeglnvdfp++g+kraf+v+pak+v+g+a
+  sp|Q9LCQ7|OPH_PSESP   1 MNQSLGVLRLTRGVIALA--LASVASGCSSTGADRTAATPAAANPAATEPVKWECPAGYEVKEGLNVDFPHKGMKRAFIVYPAKNVSGPA 88 
+                          99****************..********************************************************************** PP
+
+            O-PVA.aln  91 pvwvpmvgsveatndnltvarsganaklaehgytviapvracaeqdpnlraeacngvgkdgwtwnpwfegraadasgekyktdegddvrf 180
+                          pvwvpm+gsve+tndnltvarsgan++la+hgytviapvraca+qdpn+r+e+cng+g++gw+wnpwfegraad+sge++k+deg+d++f
+  sp|Q9LCQ7|OPH_PSESP  89 PVWVPMTGSVESTNDNLTVARSGANSILADHGYTVIAPVRACANQDPNIRGERCNGPGSNGWNWNPWFEGRAADPSGEHWKNDEGPDSSF 178
+                          ****************************************************************************************** PP
+
+            O-PVA.aln 181 lvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisgewyvtkddgstlsfdearkavaaapakihqgrvgpyplpa 270
+                          +vamv+cvgtkyklda+rlflggis+ggtmtnrallf+s+fwagglpisgewyvt+ddg++lsfd+ar+avaaap+kihqgrvgpyplpa
+  sp|Q9LCQ7|OPH_PSESP 179 FVAMVQCVGTKYKLDARRLFLGGISSGGTMTNRALLFRSNFWAGGLPISGEWYVTSDDGTPLSFDDARAAVAAAPTKIHQGRVGPYPLPA 268
+                          ****************************************************************************************** PP
+
+            O-PVA.aln 271 kldplvvitvwggekdlwdctrpdgsrflcadyrpstqassnyfsaisdvvhvacsathghmwpqlntdefnlwaldtlashpkgsdpkd 360
+                          k++pl+v+tvwggekdlw+ctrpdgsrflcadyrpstqa+sn+fsa++dvvhvacs+thghmwpqlnt+efn+waldtlashpkgsdp++
+  sp|Q9LCQ7|OPH_PSESP 269 KVGPLIVMTVWGGEKDLWNCTRPDGSRFLCADYRPSTQAGSNFFSAQPDVVHVACSSTHGHMWPQLNTQEFNRWALDTLASHPKGSDPRS 358
+                          ****************************************************************************************** PP
+
+            O-PVA.aln 361 fkltappegysckvgrftdly 381
+                          fklt+ppegy+c+vg+ft+ly
+  sp|Q9LCQ7|OPH_PSESP 359 FKLTQPPEGYTCHVGPFTGLY 379
+                          *******************99 PP
+
+>> sp|Q588Z2|OPH_SPHS1  Oxidized polyvinyl alcohol hydrolase OS=Sphingopyxis sp. (strain 113P3) OX=292913 GN=oph PE=1 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  784.2  11.2  3.8e-239  5.1e-235       1     382 []       1     364 []       1     364 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 784.2 bits;  conditional E-value: 3.8e-239
+            O-PVA.aln   1 mfkslvklrlsrsvialagclasvaatlsstaadksaatpaaanpaatepvkwecpegyevkeglnvdfpsdgkkrafvvvpakdvagga 90 
+                          mfk++vk+r+srs+++lagcla+vaatlssta++ks               +w+cpeg+++k+gln+dfpsdgkkrafvvvp+kd+agga
+  sp|Q588Z2|OPH_SPHS1   1 MFKPVVKSRSSRSFCYLAGCLAMVAATLSSTAQAKS---------------EWACPEGFTPKAGLNTDFPSDGKKRAFVVVPPKDSAGGA 75 
+                          9***********************************...............9************************************** PP
+
+            O-PVA.aln  91 pvwvpmvgsveatndnltvarsganaklaehgytviapvracaeqdpnlraeacngvgkdgwtwnpwfegraadasgekyktdegddvrf 180
+                          pvwvpmvg+veatn+nl+v+rsg+naklaehgy+vi+pvr+caeqdpnl+a+acngvgkdgwtwnpw++gra+dasg+kyktd+gddvrf
+  sp|Q588Z2|OPH_SPHS1  76 PVWVPMVGTVEATNWNLNVPRSGNNAKLAEHGYMVISPVRQCAEQDPNLGAGACNGVGKDGWTWNPWNDGRAPDASGDKYKTDAGDDVRF 165
+                          ****************************************************************************************** PP
+
+            O-PVA.aln 181 lvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisgewyvtkddgstlsfdearkavaaapakihqgrvgpyplpa 270
+                          l+amvrcvgtk+kld+krlflggisaggtmtnrallfdsefwagg+pisgewy+tkddgst++f+e+rk+vaaapaki+qgrvgpyplp+
+  sp|Q588Z2|OPH_SPHS1 166 LEAMVRCVGTKWKLDRKRLFLGGISAGGTMTNRALLFDSEFWAGGMPISGEWYSTKDDGSTVPFQETRKMVAAAPAKIWQGRVGPYPLPS 255
+                          ****************************************************************************************** PP
+
+            O-PVA.aln 271 kldplvvitvwggekdlwdctrpdgsrflcadyrpstqassnyfsaisdvvhvacsathghmwpqlntdefnlwaldtlashpkgsdpkd 360
+                          kldp+vvitvwggekdlwdc++p+g   lc+dyrp+tqassnyfs+is+vvhvacsathghmwpq+ntd+fnlwal+t+ashpkgs+pkd
+  sp|Q588Z2|OPH_SPHS1 256 KLDPMVVITVWGGEKDLWDCGPPLG---LCSDYRPTTQASSNYFSSISNVVHVACSATHGHMWPQVNTDAFNLWALNTMASHPKGSSPKD 342
+                          *************************...************************************************************** PP
+
+            O-PVA.aln 361 fkltappegysckvgrftdlyk 382
+                          fkltappegysck+grftd+yk
+  sp|Q588Z2|OPH_SPHS1 343 FKLTAPPEGYSCKIGRFTDHYK 364
+                          *********************7 PP
+
+>> sp|Q9HGR3|FAEB_NEUCR  Feruloyl esterase B OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 125
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.1   0.0   6.3e-08   0.00084     173     230 ..     104     161 ..      95     184 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 23.1 bits;  conditional E-value: 6.3e-08
+             O-PVA.aln 173 degddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisg 230
+                            +g d+  +vamv+   +ky+ da r+++ g s+gg mtn       e +  g   sg
+  sp|Q9HGR3|FAEB_NEUCR 104 GAGGDSLGIVAMVNYTIAKYNADASRVYVMGTSSGGMMTNVMAATYPEVFEAGAAYSG 161
+                           589999**********************************876666666666666666 PP
+
+>> sp|Q08E20|ESTD_BOVIN  S-formylglutathione hydrolase OS=Bos taurus OX=9913 GN=ESD PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   0.0   3.2e-07    0.0042      75     209 ..      29     153 ..       8     161 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 3.2e-07
+             O-PVA.aln  75 krafvvv.pakdvaggapvwvpmvgsveatndnltvarsganaklaehgytviapvracaeqdpnlraeacngvg.kdgwtwnpwfegr 161
+                           k  f v+ p+k  +g +pv   + g + +t++n+ +++sg     +ehg +viap    + +        cn  g +d w++     g 
+  sp|Q08E20|ESTD_BOVIN  29 KMKFAVYlPPKAETGKCPVLYWLSG-LTCTEQNF-ISKSGYHQAASEHGLVVIAPDT--SPR-------GCNIKGeEDSWDFGT-GAGF 105
+                           45565544***********999988.56788886.89*****************943..334.......455555147898876.5799 PP
+
+             O-PVA.aln 162 aadasgekyktdegddvrflvamvrcvgtkykldakrlflggisaggt 209
+                             da+ + +kt+    +   + + + v  ++ +d +r+ + g s gg 
+  sp|Q08E20|ESTD_BOVIN 106 YVDATEDLWKTNYRMYSYVTKELPQLVNDNFPVDPQRMSVFGHSMGGH 153
+                           99***************99***********************999985 PP
+
+>> sp|A1CSZ8|AXE1_ASPCL  Probable acetylxylan esterase A OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 81
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.4   1.3   8.4e-07     0.011     159     230 ..     104     176 ..      90     224 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 19.4 bits;  conditional E-value: 8.4e-07
+             O-PVA.aln 159 egraadasgeky.ktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisg 230
+                           +g++ d s       + g +++ +  mv+    kyk ++ ++f+ g s+g  mtn       +++a g+  sg
+  sp|A1CSZ8|AXE1_ASPCL 104 QGKCWDVSSRASlTHNGGGNSNSIANMVKWTIKKYKTNTSKVFVTGSSSGAMMTNVMAATYPDMFAAGVVYSG 176
+                           6777777665540455677899999******************************988888888888888777 PP
+
+>> sp|A9JPE6|AXE1_ASPFL  Probable acetylxylan esterase A OS=Aspergillus flavus OX=5059 GN=axeA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.4   0.0   8.3e-07     0.011     158     230 ..     102     175 ..      84     219 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 19.4 bits;  conditional E-value: 8.3e-07
+             O-PVA.aln 158 fegraadasgekykt.degddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisg 230
+                           +eg + d s +   t + g +++ +  mv     +y+ d+ ++f+ g s+g  mtn       +++a g+  +g
+  sp|A9JPE6|AXE1_ASPFL 102 YEGTCWDVSSQATLThNGGGNSNSIANMVTWTTKQYNADSSKVFVTGTSSGAMMTNVMAATYPNLFAAGVAYAG 175
+                           577888887776655155678889999*****************************988888888888887655 PP
+
+>> sp|Q75P26|AXE1_ASPOR  Acetylxylan esterase A OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=axeA PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.4   0.0   8.3e-07     0.011     158     230 ..     102     175 ..      84     219 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 19.4 bits;  conditional E-value: 8.3e-07
+             O-PVA.aln 158 fegraadasgekykt.degddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisg 230
+                           +eg + d s +   t + g +++ +  mv     +y+ d+ ++f+ g s+g  mtn       +++a g+  +g
+  sp|Q75P26|AXE1_ASPOR 102 YEGTCWDVSSQATLThNGGGNSNSIANMVTWTTKQYNADSSKVFVTGTSSGAMMTNVMAATYPNLFAAGVAYAG 175
+                           577888887776655155678889999*****************************988888888888887655 PP
+
+>> sp|B8NBI2|AXE1_ASPFN  Probable acetylxylan esterase A OS=Aspergillus flavus (strain ATCC 200026 / FGSC A1120 / IAM 13
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.9   0.0   1.2e-06     0.016     158     230 ..     102     175 ..      84     219 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 18.9 bits;  conditional E-value: 1.2e-06
+             O-PVA.aln 158 fegraadasgekykt.degddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisg 230
+                           +eg + d s +   t + g +++ +  mv     +y+ d+ ++f+ g s+g  mtn       +++a g+  +g
+  sp|B8NBI2|AXE1_ASPFN 102 YEGTCWDVSSQATLThNGGGNSNSIANMVTWTTKQYNADSSKVFVTGTSSGAMMTNVMAATYPDLFAAGIAYAG 175
+                           577888887776655155678889999*****************************988888888888877655 PP
+
+>> sp|Q5B037|AXE1_EMENI  Acetylxylan esterase A OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.3   0.3   1.9e-06     0.025     160     230 ..     101     172 ..      94     220 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 18.3 bits;  conditional E-value: 1.9e-06
+             O-PVA.aln 160 graadasgeky.ktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisg 230
+                           g + d s +     + g +++ +  mv     +y+ da r+++ g s+g  mtn       +++a g+  +g
+  sp|Q5B037|AXE1_EMENI 101 GTCWDVSSQSTlTHNGGGNSNSIANMVDWTINQYNADASRVYVTGTSSGAMMTNVMAATYPNLFAAGIAYAG 172
+                           5556666555404456778999999*****************************988888888888877655 PP
+
+>> sp|P10768|ESTD_HUMAN  S-formylglutathione hydrolase OS=Homo sapiens OX=9606 GN=ESD PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.4   0.0   1.7e-06     0.023      74     209 ..      28     153 ..       9     161 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 1.7e-06
+             O-PVA.aln  74 kkrafvvv.pakdvaggapvwvpmvgsveatndnltvarsganaklaehgytviapvracaeqdpnlraeacngvgkd.gwtwnpwfeg 160
+                            k  f v+ p+k  +g +p    + g + +t++n+ +++sg     +ehg +viap               cn  g+d  w++     g
+  sp|P10768|ESTD_HUMAN  28 CKMKFAVYlPPKAETGKCPALYWLSG-LTCTEQNF-ISKSGYHQSASEHGLVVIAPDT---------SPRGCNIKGEDeSWDFGT-GAG 104
+                           3555655449*********9988887.56788886.89*****************943.........334566666652677765.579 PP
+
+             O-PVA.aln 161 raadasgekyktdegddvrflvamvrcvgtkykldakrlflggisaggt 209
+                              da+ + +kt+    +   + + + + +++ +d +r+ + g s gg 
+  sp|P10768|ESTD_HUMAN 105 FYVDATEDPWKTNYRMYSYVTEELPQLINANFPVDPQRMSIFGHSMGGH 153
+                           999******************************************9995 PP
+
+>> sp|Q0C8Z1|AXE1_ASPTN  Probable acetylxylan esterase A OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.8   0.3   2.5e-06     0.034     158     260 ..     105     214 ..      99     238 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 2.5e-06
+             O-PVA.aln 158 fegraadasgek.yktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfds..efwa.....gglpisgewyvtkdd 238
+                           +eg + d s ++    + g +++ +  mv    +ky+ d+ ++f+ g s+g  mt + ++  +  e++a      g+p +g +y+++++
+  sp|Q0C8Z1|AXE1_ASPTN 105 YEGTCWDVSSQEtLTHNGGGNSNSIANMVTWAISKYNADSSKVFVTGSSSGAMMTHQNVMAATypELFAaatvySGVP-AGCFYSSSNQ 192
+                           57777787665505566678899999*****************************98775432224444011114555.4667777766 PP
+
+             O-PVA.aln 239 gstlsfdearkavaaapakihq 260
+                               +   a+  v ++p +  +
+  sp|Q0C8Z1|AXE1_ASPTN 193 QDGWNSTCAQGQVITTPENWAN 214
+                           5555555555556666655555 PP
+
+>> sp|Q9GJT2|ESTD_PIG  S-formylglutathione hydrolase OS=Sus scrofa OX=9823 GN=ESD PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.4   0.0   3.5e-06     0.047      74     209 ..      29     153 ..       9     161 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 17.4 bits;  conditional E-value: 3.5e-06
+           O-PVA.aln  74 kkrafvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehgytviapvracaeqdpnlraeacngvgkd.gwtwnpwfegraa 163
+                         k +  + +p+k  +g +p    + g + +t++n+ +++sg     +ehg +viap               cn  g+d  w++     g   
+  sp|Q9GJT2|ESTD_PIG  29 KMKFAIYLPPKAETGKCPALYWLSG-LTCTEQNF-ITKSGYHQAASEHGLVVIAPDT---------SPRGCNIKGEDeSWDFGT-GAGFYL 107
+                         33344667**********9988887.56788886.789****************943.........334566666552677765.579999 PP
+
+           O-PVA.aln 164 dasgekyktdegddvrflvamvrcvgtkykldakrlflggisaggt 209
+                         da+ + +kt+    +   + + + + +++ +d +r+ + g s gg 
+  sp|Q9GJT2|ESTD_PIG 108 DATEDPWKTNYRMYSYVTEELPQLINANFPVDPQRMSIFGHSMGGH 153
+                         ****************************************999985 PP
+
+>> sp|A2QZI3|AXE1_ASPNC  Probable acetylxylan esterase A OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.3   0.2   3.8e-06     0.051     164     230 ..     106     172 ..      93     214 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 17.3 bits;  conditional E-value: 3.8e-06
+             O-PVA.aln 164 dasgekyktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisg 230
+                            +s      + g +++ +  mv    + y  d+k++f+ g s+g  mtn       e++a g   sg
+  sp|A2QZI3|AXE1_ASPNC 106 VSSQATLTHNGGGNSNSIANMVTWTISEYGADSKKVFVTGSSSGAMMTNVMAATYPELFAAGTVYSG 172
+                           3344455566778899999******************************988888888888877665 PP
+
+>> sp|A1CC33|FAEC2_ASPCL  Probable feruloyl esterase C OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 816 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.3   0.3   3.7e-06      0.05     162     213 ..     101     152 ..      73     180 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 17.3 bits;  conditional E-value: 3.7e-06
+              O-PVA.aln 162 aadasgekyktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnr 213
+                            a++     + +  g+d+ fl a+++ v ++y +d+   f  g s gg m+  
+  sp|A1CC33|FAEC2_ASPCL 101 APNGKSAGWANTGGQDIAFLDAIIKEVESNYCVDQSSRFATGFSWGGGMSYA 152
+                            4555666799**************************************9753 PP
+
+>> sp|Q7RWX8|FAED_NEUCR  Feruloyl esterase D OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 125
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.0       1.4   1.8e+04      51      91 ..      27      67 ..      14      84 .. 0.75
+   2 ?   15.6   0.1   1.2e-05      0.16     164     220 ..     116     172 ..     112     198 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -1.0 bits;  conditional E-value: 1.4
+             O-PVA.aln 51 vkwecpegyevkeglnvdfpsdgkkrafvvvpakdvaggap 91
+                              c +g + ++g  v    +gk r + v  + +   + p
+  sp|Q7RWX8|FAED_NEUCR 27 PSSGCGKGPTLRNGQTVTTNINGKSRRYTVRLPDNYNQNNP 67
+                          3457999999999999999999*999999988887776666 PP
+
+  == domain 2  score: 15.6 bits;  conditional E-value: 1.2e-05
+             O-PVA.aln 164 dasgekyktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdse 220
+                           d     + +++g+dv+f+  +++ v     +d++ +f  g s gg m+      +++
+  sp|Q7RWX8|FAED_NEUCR 116 DGLNAGWANQNGEDVSFFDNILQTVSDGLCIDTNLVFSTGFSYGGGMSFSLACSRAN 172
+                           55566799***************************************8665555555 PP
+
+>> sp|A1C9D4|FAEC1_ASPCL  Probable feruloyl esterase C OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 816 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.3   0.2   7.5e-06       0.1     162     231 ..     101     170 ..      71     184 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 7.5e-06
+              O-PVA.aln 162 aadasgekyktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisge 231
+                            a++     + ++ g+dv f+ a+++ v +   +d+   f  g s gg m+      +++ +     +sg 
+  sp|A1C9D4|FAEC1_ASPCL 101 APNGKNAGWANNGGEDVAFIDAIIKQVEADLCVDQSSRFATGFSWGGGMSYSLACSRAKQFKAVSVLSGG 170
+                            445555679****************************************865444444433333334444 PP
+
+>> sp|Q9RRK5|Y2484_DEIRA  Uncharacterized WD repeat-containing protein DR_2484 OS=Deinococcus radiodurans (strain ATCC 1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.9   0.0       1.2   1.7e+04     277     305 ..      34      62 ..      31      69 .. 0.82
+   2 ?    0.5   0.0      0.48   6.5e+03     163     202 ..      71     113 ..      63     131 .. 0.82
+   3 ?   12.7   0.1   9.1e-05       1.2      65     114 ..     157     205 ..     127     219 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -0.9 bits;  conditional E-value: 1.2
+              O-PVA.aln 277 vitvwggekdlwdctrpdgsrflcadyrp 305
+                             + v+ gek l++ t p  + +  + + p
+  sp|Q9RRK5|Y2484_DEIRA  34 TMQVYDGEKVLFQATTPGLNAVTASKFSP 62 
+                            5899***********99877777777666 PP
+
+  == domain 2  score: 0.5 bits;  conditional E-value: 0.48
+              O-PVA.aln 163 adasg..ekyktdegddvr.flvamvrcvgtkykldakrlflg 202
+                            ad sg  + + t +g+ v+ fl    r  g+ +  d+ rl+l 
+  sp|Q9RRK5|Y2484_DEIRA  71 ADGSGyvQLWDTAKGERVKtFLSVYFRIFGADFTPDSERLLLD 113
+                            56666435699999998863888899*************9985 PP
+
+  == domain 3  score: 12.7 bits;  conditional E-value: 9.1e-05
+              O-PVA.aln  65 lnvdfpsdgkkrafvvvpakdvaggapvwvpmvgsveatndnltvarsga 114
+                             +v f +dg + afv  p+  ++g+a vw   +g+  at   l  ++  a
+  sp|Q9RRK5|Y2484_DEIRA 157 GKVTFSQDGERMAFV-RPNAYSSGPASVWNAKTGAYIATISRLPYPKGAA 205
+                            4689******99995.79999***************99999988877655 PP
+
+>> sp|Q03L08|WHIA_STRTD  Probable cell division protein WhiA OS=Streptococcus thermophilus (strain ATCC BAA-491 / LMD-9)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.9   0.0   9.8e-06      0.13      78     133 ..      11      65 ..       4      81 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 9.8e-06
+             O-PVA.aln  78 fvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehgytviapvraca 133
+                           ++   +kd+a      + m gsv  tn+ lt++ s +nak+a h y +i    +c 
+  sp|Q03L08|WHIA_STRTD  11 IIAASSKDIAEL-SALIKMSGSVGLTNQGLTLSISTENAKIARHIYQLIENRYRCN 65 
+                           556666776654.45789*******************************9887774 PP
+
+>> sp|Q5M056|WHIA_STRT1  Probable cell division protein WhiA OS=Streptococcus thermophilus (strain CNRZ 1066) OX=299768 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.9   0.0   9.8e-06      0.13      78     133 ..      11      65 ..       4      81 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 9.8e-06
+             O-PVA.aln  78 fvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehgytviapvraca 133
+                           ++   +kd+a      + m gsv  tn+ lt++ s +nak+a h y +i    +c 
+  sp|Q5M056|WHIA_STRT1  11 IIAASSKDIAEL-SALIKMSGSVGLTNQGLTLSISTENAKIARHIYQLIENRYRCN 65 
+                           556666776654.45789*******************************9887774 PP
+
+>> sp|Q5M4R7|WHIA_STRT2  Probable cell division protein WhiA OS=Streptococcus thermophilus (strain ATCC BAA-250 / LMG 18
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.9   0.0   9.8e-06      0.13      78     133 ..      11      65 ..       4      81 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 9.8e-06
+             O-PVA.aln  78 fvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehgytviapvraca 133
+                           ++   +kd+a      + m gsv  tn+ lt++ s +nak+a h y +i    +c 
+  sp|Q5M4R7|WHIA_STRT2  11 IIAASSKDIAEL-SALIKMSGSVGLTNQGLTLSISTENAKIARHIYQLIENRYRCN 65 
+                           556666776654.45789*******************************9887774 PP
+
+>> sp|Q9R0P3|ESTD_MOUSE  S-formylglutathione hydrolase OS=Mus musculus OX=10090 GN=Esd PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.2   0.0   1.6e-05      0.21      72     209 ..      27     153 ..      11     162 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 1.6e-05
+             O-PVA.aln  72 dgkkrafvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehgytviapvracaeqdpnlraeacngvgk.dgwtwnpwfe 159
+                           + k r  v +p++  +g +p    + g + +t++n+ +++sg +   +ehg +viap    +          cn  g+ d w++     
+  sp|Q9R0P3|ESTD_MOUSE  27 KCKMRFAVYLPPQAESGKCPALYWLSG-LTCTEQNF-ISKSGYQQAASEHGLVVIAPDT--S-------PRGCNIKGEdDSWDFGT-GA 103
+                           45566667789*********9988887.56788886.89*****************943..2.......33466555415677765.56 PP
+
+             O-PVA.aln 160 graadasgekyktdegddvrflvamvrcvgtkykldakrlflggisaggt 209
+                           g   +a+ + +k++    +   + + + + +++ +d +r+ + g s gg 
+  sp|Q9R0P3|ESTD_MOUSE 104 GFYVNATEDPWKANYRMYSYVTEELPQLINANFPVDPQRMSIFGHSMGGH 153
+                           88899999999999999999999999999999999999999999999985 PP
+
+>> sp|A1DI08|FAEC_NEOFI  Probable feruloyl esterase C OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.3   0.3     3e-05      0.41     162     231 ..     101     170 ..      71     184 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 14.3 bits;  conditional E-value: 3e-05
+             O-PVA.aln 162 aadasgekyktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisge 231
+                           a++     + ++ g+d+ f+ a+++ v     +d+   f  g s gg m+      +++ +     +sg 
+  sp|A1DI08|FAEC_NEOFI 101 APNGKNAGWANNGGEDIAFIDAIIKQVEGDLCVDQSSRFATGFSWGGGMSYSLACSRAKQFRAVSVLSGG 170
+                           445555679****************************************865444443333333334444 PP
+
+>> sp|A2QYU7|FAEC_ASPNC  Probable feruloyl esterase C OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A15
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.7   0.1   4.4e-05      0.59     167     223 ..     104     161 ..      77     182 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 13.7 bits;  conditional E-value: 4.4e-05
+             O-PVA.aln 167 gekyktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfds.efwa 223
+                              + + +g+dv f+ a+++ v +   +d+   f  g s gg m+      ++ ef a
+  sp|A2QYU7|FAEC_ASPNC 104 NAGWANTNGEDVAFIDAIMEQVESDLCVDQSSRFATGFSWGGGMSYSLACSRAkEFRA 161
+                           56799***************************************86543333313333 PP
+
+>> sp|Q0CDX2|FAEC_ASPTN  Probable feruloyl esterase C OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.1   5.8e-05      0.77     165     232 ..     102     169 ..      72     182 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 5.8e-05
+             O-PVA.aln 165 asgekyktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnr.allfdsefwagglpisgew 232
+                                + ++ g+d+ ++ a+++ v +   +d+   f  g s gg m+   a    s+f a  + +sg  
+  sp|Q0CDX2|FAEC_ASPTN 102 GLNAGWANNGGEDTALMDAIIEAVEADLCIDQSSRFATGFSFGGGMSYAlACARASKFRAVSV-LSGGV 169
+                           4456799***************************************86414444555655443.44444 PP
+
+>> sp|A4D9B6|FAEC_ASPFU  Probable feruloyl esterase C OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.3   5.4e-05      0.72     163     232 ..     102     171 ..      71     184 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 5.4e-05
+             O-PVA.aln 163 adasgekyktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisgew 232
+                           ++     + +  g+d+ f+ a+++ v +   +d+   f  g s gg m+      +++ +     +sg  
+  sp|A4D9B6|FAEC_ASPFU 102 PNGKNAGWANYGGEDIAFIDAIIKQVESDLCVDQSSRFATGFSWGGGMSYSLACSRAKQFKAVSVLSGGV 171
+                           4445567999**************************************8655444444443333444444 PP
+
+>> sp|B0XU32|FAEC_ASPFC  Probable feruloyl esterase C OS=Aspergillus fumigatus (strain CBS 144.89 / FGSC A1163 / CEA10) 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.3   5.4e-05      0.72     163     232 ..     102     171 ..      71     184 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 5.4e-05
+             O-PVA.aln 163 adasgekyktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpisgew 232
+                           ++     + +  g+d+ f+ a+++ v +   +d+   f  g s gg m+      +++ +     +sg  
+  sp|B0XU32|FAEC_ASPFC 102 PNGKNAGWANYGGEDIAFIDAIIKQVESDLCVDQSSRFATGFSWGGGMSYSLACSRAKQFKAVSVLSGGV 171
+                           4445567999**************************************8655444444443333444444 PP
+
+>> sp|G2QND5|FAEB_THET4  Feruloyl esterase B OS=Thermothelomyces thermophilus (strain ATCC 42464 / BCRC 31852 / DSM 1799
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.1   5.5e-05      0.73     172     229 ..     103     160 ..      91     189 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 5.5e-05
+             O-PVA.aln 172 tdegddvrflvamvrcvgtkykldakrlflggisaggtmtnrallfdsefwagglpis 229
+                             +g d+  +v+mv+    k+  d+ r++  g s+gg mtn+      + +  g   s
+  sp|G2QND5|FAEB_THET4 103 HGQGGDALGIVSMVNYTLDKHSGDSSRVYAMGFSSGGMMTNQLAGSYPDVFEAGAVYS 160
+                           567899999********************************85544444443344444 PP
+
+>> sp|Q5B2G3|FAEC_EMENI  Feruloyl esterase C OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.1   5.2e-05       0.7     165     231 ..     102     168 ..      71     182 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 5.2e-05
+             O-PVA.aln 165 asgekyktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnr.allfdsefwagglpisge 231
+                                + + +g+dv f+ a+++ v     +d+   f  g s gg m+   a    +ef a  + +sg 
+  sp|Q5B2G3|FAEC_EMENI 102 GLNAGWANTNGEDVAFIDAIMEQVEDDLCVDQASRFATGFSWGGGMSYAlACARAAEFRAVSV-LSGG 168
+                           4456799**************************************985413333445544433.4444 PP
+
+>> sp|B8N7Z6|FAEC_ASPFN  Probable feruloyl esterase C OS=Aspergillus flavus (strain ATCC 200026 / FGSC A1120 / IAM 13836
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.3   0.1     6e-05       0.8     162     213 ..      99     150 ..      39     177 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 6e-05
+             O-PVA.aln 162 aadasgekyktdegddvrflvamvrcvgtkykldakrlflggisaggtmtnr 213
+                           a++     + + +g+dv ++ a+++ v     +d+   f  g s gg m+  
+  sp|B8N7Z6|FAEC_ASPFN  99 APNGRNAGWANTNGEDVALIDAIIKQVEDDLCIDQSSRFATGFSWGGGMSYA 150
+                           344445679***************************************9753 PP
+
+>> sp|Q3KFL0|ALLA_PSEPF  Ureidoglycolate lyase OS=Pseudomonas fluorescens (strain Pf0-1) OX=205922 GN=allA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00025       3.4      68     122 ..     100     154 ..      93     161 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00025
+             O-PVA.aln  68 dfpsdgkkrafvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehg 122
+                           d p  g  rafv    + +     vw   v ++e  +d l v rsg+     eh 
+  sp|Q3KFL0|ALLA_PSEPF 100 DVPVSGLVRAFVTNGRQGINYHRGVWHHPVLTIEKRDDFLVVDRSGKGNNCDEHF 154
+                           89********************************************998888885 PP
+
+>> sp|A5UB17|URK_HAEIE  Uridine kinase OS=Haemophilus influenzae (strain PittEE) OX=374930 GN=udk PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0   0.00023       3.1      13     109 ..       7     105 ..       1     132 [. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00023
+            O-PVA.aln  13 svialagclasvaatlsstaadksaatpa.aanpaatepvkwecpegyevkeglnvdfps.dgkkrafvvvpakdvaggapvwvpmvgsv 100
+                           +ia++g+ as  +++sst ++  +           te   ++  +  e+ e +++++ +   + r +++   k+   g+ v vp+   v
+  sp|A5UB17|URK_HAEIE   7 IIIAITGASASGKSSISSTVHKELCNELGcQEIGIITEDSYYKDQSHLEMTERVKTNYDHpSSMDRDLLIQHLKNLKNGSAVDVPVYSYV 96 
+                          5789999999999*****99888765544045567899999999888888888877776634699************************* PP
+
+            O-PVA.aln 101 eatndnltv 109
+                          e t  n t 
+  sp|A5UB17|URK_HAEIE  97 EHTRTNETT 105
+                          ***999765 PP
+
+>> sp|Q4ZVG9|ALLA_PSEU2  Ureidoglycolate lyase OS=Pseudomonas syringae pv. syringae (strain B728a) OX=205918 GN=allA PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   0.0   0.00035       4.6      68     123 ..     100     155 ..      93     162 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00035
+             O-PVA.aln  68 dfpsdgkkrafvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehgy 123
+                           d p+    rafv    + v     vw   v ++e  +d l v rsg+     eh +
+  sp|Q4ZVG9|ALLA_PSEU2 100 DVPESEATRAFVSNGRQGVNYHRGVWHHPVLTIEKRDDFLVVDRSGEGNNCDEHYF 155
+                           899999****************************************9998888865 PP
+
+>> sp|Q87YX3|ALLA_PSESM  Ureidoglycolate lyase OS=Pseudomonas syringae pv. tomato (strain ATCC BAA-871 / DC3000) OX=2232
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0004       5.4      68     122 ..     100     154 ..      93     163 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0004
+             O-PVA.aln  68 dfpsdgkkrafvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehg 122
+                           d p+    rafv    + v     vw   v ++e  +d l v rsg+     eh 
+  sp|Q87YX3|ALLA_PSESM 100 DAPESALTRAFVSNGRQGVNYHRGVWHHPVLTIEKQDDFLVVDRSGSGNNCDEHY 154
+                           7899999***************************************998888885 PP
+
+>> sp|B7UW34|ALLA_PSEA8  Ureidoglycolate lyase OS=Pseudomonas aeruginosa (strain LESB58) OX=557722 GN=allA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   0.00038       5.1      68     123 ..     100     155 ..      91     159 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00038
+             O-PVA.aln  68 dfpsdgkkrafvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehgy 123
+                           d p  g  raf+    + v     vw   v ++e  +d l v rsg+     eh +
+  sp|B7UW34|ALLA_PSEA8 100 DVPVPGLVRAFLTNGRQGVNYHRGVWHHPVLTIEKRDDFLVVDRSGSGNNCDEHFF 155
+                           89999*****************************************9999999876 PP
+
+>> sp|Q02JZ7|ALLA_PSEAB  Ureidoglycolate lyase OS=Pseudomonas aeruginosa (strain UCBPP-PA14) OX=208963 GN=allA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   0.00038       5.1      68     123 ..     100     155 ..      91     159 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00038
+             O-PVA.aln  68 dfpsdgkkrafvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehgy 123
+                           d p  g  raf+    + v     vw   v ++e  +d l v rsg+     eh +
+  sp|Q02JZ7|ALLA_PSEAB 100 DVPVPGLVRAFLTNGRQGVNYHRGVWHHPVLTIEKRDDFLVVDRSGSGNNCDEHFF 155
+                           89999*****************************************9999999876 PP
+
+>> sp|Q9I3J9|ALLA_PSEAE  Ureidoglycolate lyase OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / J
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   0.00038       5.1      68     123 ..     100     155 ..      91     159 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00038
+             O-PVA.aln  68 dfpsdgkkrafvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehgy 123
+                           d p  g  raf+    + v     vw   v ++e  +d l v rsg+     eh +
+  sp|Q9I3J9|ALLA_PSEAE 100 DVPVPGLVRAFLTNGRQGVNYHRGVWHHPVLTIEKRDDFLVVDRSGSGNNCDEHFF 155
+                           89999*****************************************9999999876 PP
+
+>> sp|A6V7Z0|ALLA_PSEP7  Ureidoglycolate lyase OS=Pseudomonas paraeruginosa (strain DSM 24068 / PA7) OX=381754 GN=allA P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   0.00038       5.1      68     123 ..     100     155 ..      91     159 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00038
+             O-PVA.aln  68 dfpsdgkkrafvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehgy 123
+                           d p  g  raf+    + v     vw   v ++e  +d l v rsg+     eh +
+  sp|A6V7Z0|ALLA_PSEP7 100 DVPVPGLVRAFLTNGRQGVNYHRGVWHHPVLTIEKRDDFLVVDRSGSGNNCDEHFF 155
+                           89999*****************************************9999999876 PP
+
+>> sp|C3K0A8|ALLA_PSEFS  Ureidoglycolate lyase OS=Pseudomonas fluorescens (strain SBW25) OX=216595 GN=allA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0   0.00046       6.2      68     122 ..     100     154 ..      94     160 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.00046
+             O-PVA.aln  68 dfpsdgkkrafvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehg 122
+                           d p  g  rafv    + +     vw   v ++e  +d l v rsg+     eh 
+  sp|C3K0A8|ALLA_PSEFS 100 DAPVSGLVRAFVTNGRQGINYHRGVWHHPVLTIEKRDDFLVVDRSGTGNNCDEHF 154
+                           7899******************************************998888885 PP
+
+>> sp|Q48KS5|ALLA_PSE14  Ureidoglycolate lyase OS=Pseudomonas savastanoi pv. phaseolicola (strain 1448A / Race 6) OX=264
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.9   0.0   0.00064       8.6      68     123 ..     100     155 ..      94     163 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.00064
+             O-PVA.aln  68 dfpsdgkkrafvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehgy 123
+                           d p+    rafv    + v     vw   v ++e  +d l v rsg+     eh +
+  sp|Q48KS5|ALLA_PSE14 100 DAPESELTRAFVSNGRQGVNYHRGVWHHPVLTIEKRDDFLVVDRSGEGNNCDEHYF 155
+                           7899999***************************************9998888865 PP
+
+>> sp|Q4K8H2|ALLA_PSEF5  Ureidoglycolate lyase OS=Pseudomonas fluorescens (strain ATCC BAA-477 / NRRL B-23932 / Pf-5) OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.6   0.0   0.00083        11      68     122 ..     100     154 ..      94     161 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.00083
+             O-PVA.aln  68 dfpsdgkkrafvvvpakdvaggapvwvpmvgsveatndnltvarsganaklaehg 122
+                           d p  g  rafv    + +     vw   v ++e  +d l v rsg+     eh 
+  sp|Q4K8H2|ALLA_PSEF5 100 DEPVSGLVRAFVSNGRQGINYHRGVWHHPVLTIEKRDDFLVVDRSGTGNNCDEHF 154
+                           67999*****************************************999888885 PP
+
+>> sp|A5UFT8|URK_HAEIG  Uridine kinase OS=Haemophilus influenzae (strain PittGG) OX=374931 GN=udk PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.7   0.0   0.00076        10      14     109 ..       8     105 ..       2     132 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 9.7 bits;  conditional E-value: 0.00076
+            O-PVA.aln  14 vialagclasvaatlsstaadksaatp.aaanpaatepvkwecpegyevkeglnvdfps.dgkkrafvvvpakdvaggapvwvpmvgsve 101
+                          +ia++g+ as  ++++st ++  +    +      te   ++  +  e+ e +++++ + + + r +++   k+   g+ v vp+   ve
+  sp|A5UFT8|URK_HAEIG   8 IIAITGASASGKSSIASTVHKELCNELgCQEIGIITEDSYYKDQSHLEMTERVKTNYDHpNSMDRDLLIQHLKNLKNGSAVDVPVYSYVE 97 
+                          678888889999999998877765544044556789999999999999988888888774689*************************** PP
+
+            O-PVA.aln 102 atndnltv 109
+                           t  n t 
+  sp|A5UFT8|URK_HAEIG  98 HTRTNETT 105
+                          **999765 PP
+
+>> sp|P44533|URK_HAEIN  Uridine kinase OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.7   0.0   0.00076        10      14     109 ..       8     105 ..       2     132 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 9.7 bits;  conditional E-value: 0.00076
+            O-PVA.aln  14 vialagclasvaatlsstaadksaatp.aaanpaatepvkwecpegyevkeglnvdfps.dgkkrafvvvpakdvaggapvwvpmvgsve 101
+                          +ia++g+ as  ++++st ++  +    +      te   ++  +  e+ e +++++ + + + r +++   k+   g+ v vp+   ve
+  sp|P44533|URK_HAEIN   8 IIAITGASASGKSSIASTVHKELCNELgCQEIGIITEDSYYKDQSHLEMTERVKTNYDHpNSMDRDLLIQHLKNLKNGSAVDVPVYSYVE 97 
+                          678888889999999998877765544044556789999999999999988888888774689*************************** PP
+
+            O-PVA.aln 102 atndnltv 109
+                           t  n t 
+  sp|P44533|URK_HAEIN  98 HTRTNETT 105
+                          **999765 PP
+
+>> sp|Q4QP55|URK_HAEI8  Uridine kinase OS=Haemophilus influenzae (strain 86-028NP) OX=281310 GN=udk PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.7   0.0   0.00076        10      14     109 ..       8     105 ..       2     132 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 9.7 bits;  conditional E-value: 0.00076
+            O-PVA.aln  14 vialagclasvaatlsstaadksaatp.aaanpaatepvkwecpegyevkeglnvdfps.dgkkrafvvvpakdvaggapvwvpmvgsve 101
+                          +ia++g+ as  ++++st ++  +    +      te   ++  +  e+ e +++++ + + + r +++   k+   g+ v vp+   ve
+  sp|Q4QP55|URK_HAEI8   8 IIAITGASASGKSSIASTVHKELCNELgCQEIGIITEDSYYKDQSHLEMTERVKTNYDHpNSMDRDLLIQHLKNLKNGSAVDVPVYSYVE 97 
+                          678888889999999998877765544044556789999999999999988888888774689*************************** PP
+
+            O-PVA.aln 102 atndnltv 109
+                           t  n t 
+  sp|Q4QP55|URK_HAEI8  98 HTRTNETT 105
+                          **999765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (382 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     12842  (0.022386); expected 11473.2 (0.02)
+Passed bias filter:                     9215  (0.0160635); expected 11473.2 (0.02)
+Passed Vit filter:                       574  (0.00100059); expected 573.7 (0.001)
+Passed Fwd filter:                        43  (7.49572e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              43  [number of targets reported over threshold]
+# CPU time: 4.68u 0.20s 00:00:04.88 Elapsed: 00:00:01.75
+# Mc/sec: 45327.74
+//
+[ok]

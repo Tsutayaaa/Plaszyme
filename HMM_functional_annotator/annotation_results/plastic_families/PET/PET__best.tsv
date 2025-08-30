@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PET.aln	f41c6d89a0	555	309	9.2e-08	26.5	3.4e-09	1.2e-07	26.1	69	186	107	237	45	308	0.79	1	1	0.42394822006472493	0.2126126126126126	PET.hmm

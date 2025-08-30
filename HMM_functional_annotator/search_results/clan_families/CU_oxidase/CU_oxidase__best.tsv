@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+CU_oxidase.aln	sp|I6WZK7|MMCO_MYCTU	504	483	2.2e-143	483.1	2.4e-146	5.8e-143	481.8	12	483	42	503	22	503	0.92	1	1	0.9565217391304348	0.9365079365079365	CU_oxidase

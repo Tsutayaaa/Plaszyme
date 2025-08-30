@@ -1,0 +1,24 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+# ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+sp|I3R9Z4|PHAC_HALMT  -          PHB_depo_C.aln       -            8.6e-08   36.5   0.0    0.0091   19.9   0.0   2.1   2   0   0   2   2   2   2 Poly(3-hydroxyalkanoate) polymerase subunit PhaC OS=Haloferax mediterranei (strain ATCC 33500 / DSM 1411 / JCM 8866 / NBRC 14739 / NCIMB 2177 / R-4) OX=523841 GN=phaC PE=1 SV=1
+sp|G0HQZ6|PHAC_HALHT  -          PHB_depo_C.aln       -            3.6e-06   31.1   0.0      0.14   16.0   0.0   2.1   2   0   0   2   2   2   2 Poly(3-hydroxyalkanoate) polymerase subunit PhaC OS=Haloarcula hispanica (strain ATCC 33960 / DSM 4426 / JCM 8911 / NBRC 102182 / NCIMB 2187 / VKM B-1755) OX=634497 GN=phaC PE=1 SV=1
+sp|Q5UYM0|PHAC_HALMA  -          PHB_depo_C.aln       -            4.6e-06   30.8   0.0      0.17   15.8   0.0   2.1   2   0   0   2   2   2   2 Poly(3-hydroxyalkanoate) polymerase subunit PhaC OS=Haloarcula marismortui (strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809) OX=272569 GN=phaC PE=1 SV=1
+sp|P45370|PHAC_ALLVD  -          PHB_depo_C.aln       -            0.00026   25.0   0.0    0.0028   21.6   0.0   2.0   1   1   0   1   1   1   1 Poly(3-hydroxyalkanoate) polymerase subunit PhaC OS=Allochromatium vinosum (strain ATCC 17899 / DSM 180 / NBRC 103801 / NCIMB 10441 / D) OX=572477 GN=phaC PE=1 SV=2
+sp|P73390|PHAC_SYNY3  -          PHB_depo_C.aln       -             0.0078   20.2   0.0       2.9   11.7   0.0   2.0   2   0   0   2   2   2   2 Poly(3-hydroxyalkanoate) polymerase subunit PhaC OS=Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa) OX=1111708 GN=phaC PE=1 SV=1
+sp|Q6BDR8|NSE4_SCHPO  -          PHB_depo_C.aln       -              0.082   16.8   0.0      0.14   16.1   0.0   1.3   1   0   0   1   1   1   0 Non-structural maintenance of chromosome element 4 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=nse4 PE=1 SV=1
+sp|P58156|CBPX2_SACS2 -          PHB_depo_C.aln       -               0.78   13.6   0.0       1.2   13.0   0.0   1.1   1   0   0   1   1   1   0 Thermostable carboxypeptidase 2 OS=Saccharolobus solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 / P2) OX=273057 GN=cpsA2 PE=3 SV=1
+sp|P80092|CBPX1_SACS2 -          PHB_depo_C.aln       -               0.89   13.4   0.0       1.3   12.8   0.0   1.1   1   0   0   1   1   1   0 Thermostable carboxypeptidase 1 OS=Saccharolobus solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 / P2) OX=273057 GN=cpsA1 PE=1 SV=2
+sp|Q5FUN5|RL32_GLUOX  -          PHB_depo_C.aln       -                  2   12.3   1.3       2.1   12.1   1.3   1.0   1   0   0   1   1   1   0 Large ribosomal subunit protein bL32 OS=Gluconobacter oxydans (strain 621H) OX=290633 GN=rpmF PE=3 SV=1
+sp|P54069|BEM46_SCHPO -          PHB_depo_C.aln       -                2.6   11.9   0.0       3.9   11.3   0.0   1.2   1   0   0   1   1   1   0 Protein bem46 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=bem46 PE=2 SV=3
+sp|A5FV67|RL32_ACICJ  -          PHB_depo_C.aln       -                3.2   11.5   1.4       3.3   11.5   1.4   1.0   1   0   0   1   1   1   0 Large ribosomal subunit protein bL32 OS=Acidiphilium cryptum (strain JF-5) OX=349163 GN=rpmF PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/PHB_depo_C.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/PHB_depo_C/PHB_depo_C.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/PHB_depo_C/PHB_depo_C.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/PHB_depo_C.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:08:35 2025
+# [ok]

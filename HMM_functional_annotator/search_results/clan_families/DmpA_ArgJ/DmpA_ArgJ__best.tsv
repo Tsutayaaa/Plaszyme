@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+DmpA_ArgJ.aln	sp|Q79F77|NYLC_PAEUR	355	344	1.5e-162	545.6	7.7e-167	1.7e-162	545.5	1	329	1	355	1	355	0.97	1	1	1.0319767441860466	0.9267605633802817	DmpA_ArgJ

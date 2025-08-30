@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PBS.aln	sp|A0A0K8P6T7|PETH_PISS1	290	332	7.1e-71	244.9	3.3e-74	8e-71	244.7	1	277	1	289	1	290	0.98	1	1	0.8704819277108434	0.9551724137931035	PBS

@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Cutinase.aln	sp|P00590|CUTI1_FUSVN	230	208	2.3e-90	306.9	5.3e-94	2.6e-90	306.7	1	208	1	225	1	225	0.99	1	1	1.0817307692307692	0.9043478260869565	Cutinase

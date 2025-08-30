@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+afb51f2a48           -          PBAT.aln             -            1.1e-12   42.9   0.0   1.5e-12   42.5   0.0   1.2   1   0   0   1   1   1   1 -
+03f3222488           -          PBAT.aln             -            1.4e-12   42.6   0.0   1.9e-12   42.1   0.0   1.2   1   0   0   1   1   1   1 -
+f41c6d89a0           -          PBAT.aln             -              2e-12   42.1   0.0   2.7e-12   41.6   0.0   1.2   1   0   0   1   1   1   1 -
+54b0f51654           -          PBAT.aln             -            2.1e-12   42.0   0.0     3e-12   41.5   0.0   1.2   1   0   0   1   1   1   1 -
+114e6d2abe           -          PBAT.aln             -            2.6e-12   41.7   0.0   3.7e-12   41.2   0.0   1.2   1   0   0   1   1   1   1 -
+4fd7439f5f           -          PBAT.aln             -              4e-12   41.1   0.0   5.6e-12   40.6   0.0   1.2   1   0   0   1   1   1   1 -
+59bb4d8994           -          PBAT.aln             -            4.1e-12   41.1   0.0   5.8e-12   40.6   0.0   1.2   1   0   0   1   1   1   1 -
+e542ce1613           -          PBAT.aln             -            4.2e-12   41.0   0.0   6.2e-12   40.5   0.0   1.2   1   0   0   1   1   1   1 -
+9c28e36175           -          PBAT.aln             -            7.3e-12   40.2   0.0   1.1e-11   39.7   0.0   1.2   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PBAT.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/plastic_families/PBAT/PBAT.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/plastic_families/PBAT/PBAT.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PBAT.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 12:47:13 2025
+# [ok]

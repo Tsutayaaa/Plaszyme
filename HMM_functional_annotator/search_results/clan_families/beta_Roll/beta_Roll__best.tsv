@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+beta_Roll.aln	sp|P41773|LIPB_PSEFL	476	617	9e-253	845.3	3e-232	3.2e-228	764.2	1	405	1	405	1	406	1.0	1	2	0.6564019448946515	0.8508403361344538	beta_Roll

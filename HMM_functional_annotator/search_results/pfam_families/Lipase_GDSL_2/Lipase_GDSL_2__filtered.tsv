@@ -1,0 +1,5 @@
+hmm	tlen	query	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+sp|Q9HZY8|EST_PSEAE	201	Lipase_GDSL_2.aln	201	3.7e-94	318.8	1.4e-98	4.1e-94	318.7	1	201	1	201	1	201	1.0	1	1	1.0	1.0	Lipase_GDSL_2
+sp|Q07792|ESTE_VIBMI	200	Lipase_GDSL_2.aln	201	9.5e-47	164.0	3.8e-51	1.1e-46	163.8	9	190	8	189	2	199	0.93	1	1	0.9054726368159204	0.91	Lipase_GDSL_2
+sp|P0ADA1|TESA_ECOLI	208	Lipase_GDSL_2.aln	201	9.5e-47	164.0	3.5e-51	1.1e-46	163.9	4	200	10	203	7	204	0.94	1	1	0.9651741293532339	0.9471153846153846	Lipase_GDSL_2
+sp|P0ADA2|TESA_ECOL6	208	Lipase_GDSL_2.aln	201	9.5e-47	164.0	3.5e-51	1.1e-46	163.9	4	200	10	203	7	204	0.94	1	1	0.9651741293532339	0.9471153846153846	Lipase_GDSL_2

@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Globin.aln	sp|Q3L8N0|LCP_STRK3	407	398	2.3e-206	690.2	3.6e-211	2.5e-206	690.1	1	397	1	406	1	407	1.0	1	1	1.020100502512563	0.9754299754299754	Globin

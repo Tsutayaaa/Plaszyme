@@ -1,0 +1,357 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Acyl-CoA_desat.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Acyl-CoA_desat/Acyl-CoA_desat.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Acyl-CoA_desat/Acyl-CoA_desat.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Acyl-CoA_desat.aln  [M=382]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+   1.4e-244  816.1  15.6   1.6e-244  816.0  15.6    1.0  1  sp|Q6H941|ALKB2_PSEAE  Alkane 1-monooxygenase 2 OS=Pseudomona
+   2.8e-235  785.6  14.3   3.1e-235  785.4  14.3    1.0  1  sp|Q9I0R2|ALKB1_PSEAE  Alkane 1-monooxygenase 1 OS=Pseudomona
+   3.3e-153  515.4  11.6   3.6e-153  515.3  11.6    1.0  1  sp|Q0VTH3|ALKB2_ALCBS  Alkane 1-monooxygenase 2 OS=Alcanivora
+    2.8e-87  298.4   0.1    3.5e-87  298.1   0.1    1.0  1  sp|O31250|ALKB_ACIAD   Alkane 1-monooxygenase OS=Acinetobacte
+    3.3e-85  291.6   7.3    4.3e-85  291.2   7.3    1.0  1  sp|P12691|ALKB_ECTOL   Alkane 1-monooxygenase OS=Ectopseudomo
+    5.1e-83  284.4   8.2    6.6e-83  284.0   8.2    1.0  1  sp|Q9WWW6|ALKB_PSEPU   Alkane 1-monooxygenase OS=Pseudomonas 
+    3.8e-81  278.2   9.1    4.9e-81  277.9   9.1    1.0  1  sp|Q0VKZ3|ALKB1_ALCBS  Alkane 1-monooxygenase 1 OS=Alcanivora
+    1.2e-23   88.9   1.1    2.1e-23   88.2   1.1    1.3  1  sp|P21395|XYLM_PSEPU   Xylene/toluene monooxygenase hydroxyla
+  ------ inclusion threshold ------
+       0.32   15.1   2.7       0.84   13.8   2.1    1.8  2  sp|Q53683|YOE1_STRAT   Putative ABC transporter permease prot
+        2.8   12.1   2.6        5.1   11.2   2.6    1.4  1  sp|P77529|TCYP_ECOLI   L-cystine transporter TcyP OS=Escheric
+        3.9   11.6   0.0        6.4   10.9   0.0    1.2  1  sp|Q9FVQ9|FB29_ARATH   Putative F-box protein At1g32140 OS=Ar
+        6.4   10.9   0.1         23    9.1   0.1    1.8  2  sp|Q9D071|MMS19_MOUSE  MMS19 nucleotide excision repair prote
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q6H941|ALKB2_PSEAE  Alkane 1-monooxygenase 2 OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  816.0  15.6  3.4e-249  1.6e-244       1     377 [.       1     377 []       1     377 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 816.0 bits;  conditional E-value: 3.4e-249
+     Acyl-CoA_desat.aln   1 mferlssatmlalkkyaywlwlllvlslplsywlaldseypaawafllvsvvfglipvldalvgrdpanpeeesevpellaqgyyvll 88 
+                            mf++lssa+ml+lkky+yw+wl++vl++plsyw++l+s+yp+aw++l++svvfglip+lda+vgrdpanpee+sevpe++aqgyy++l
+  sp|Q6H941|ALKB2_PSEAE   1 MFASLSSAWMLRLKKYGYWIWLIAVLGIPLSYWWSLGSDYPNAWPWLVISVVFGLIPILDAIVGRDPANPEEASEVPEMEAQGYYRVL 88 
+                            9*************************************************************************************** PP
+
+     Acyl-CoA_desat.aln  89 slatvplllgtlvwaagvlvdetrwdwlgrlgwilsvgtvmgavgivvahelihkdsaleqaagglllaavcyagfkvehvrGhhvhv 176
+                            slatvplllg+lvw++++l++etrwdw+g+lgwilsvgtvmga+gi+v+helihkd++leq+agglllaavcyagfkvehvrGhhvhv
+  sp|Q6H941|ALKB2_PSEAE  89 SLATVPLLLGMLVWSGWILAHETRWDWVGQLGWILSVGTVMGAIGITVSHELIHKDPQLEQNAGGLLLAAVCYAGFKVEHVRGHHVHV 176
+                            **************************************************************************************** PP
+
+     Acyl-CoA_desat.aln 177 stPedasssrfGqslyaflPhaykynflnawrleaerlkrkGlPalhwrneligwyllsvllllGfslafgwlGalfflgqalvaftl 264
+                            stPedasssr+Gqsly+flPhayk+nflnawrleaerlkrkGlPalhwrneli+wy++s+l+llGfslafgwlGa+fflgq+++aftl
+  sp|Q6H941|ALKB2_PSEAE 177 STPEDASSSRYGQSLYSFLPHAYKHNFLNAWRLEAERLKRKGLPALHWRNELIWWYAISALFLLGFSLAFGWLGAIFFLGQSVMAFTL 264
+                            **************************************************************************************** PP
+
+     Acyl-CoA_desat.aln 265 leivnyvehyglkrrklengryertthehswnsnflltnlvlfhlqrhsdhhayakrryqvlrhyddspqlpsgyagmvvlalipplw 352
+                            leivnyvehygl+rr+l+ngryertt+ehswnsnflltnl+lfhlqrhsdhhayakrryqvlrhyd+spqlp+gyagm+vlal+pplw
+  sp|Q6H941|ALKB2_PSEAE 265 LEIVNYVEHYGLHRRRLDNGRYERTTPEHSWNSNFLLTNLFLFHLQRHSDHHAYAKRRYQVLRHYDSSPQLPNGYAGMIVLALFPPLW 352
+                            **************************************************************************************** PP
+
+     Acyl-CoA_desat.aln 353 ravmdpkvkayyageeyqlsdeqsi 377
+                            ravmdpkv+ayyageeyql+d+q+i
+  sp|Q6H941|ALKB2_PSEAE 353 RAVMDPKVRAYYAGEEYQLTDTQRI 377
+                            ***********************96 PP
+
+>> sp|Q9I0R2|ALKB1_PSEAE  Alkane 1-monooxygenase 1 OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  785.4  14.3  6.4e-240  3.1e-235       1     382 []       1     382 []       1     382 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 785.4 bits;  conditional E-value: 6.4e-240
+     Acyl-CoA_desat.aln   1 mferlssatmlalkkyaywlwlllvlslplsywlaldseypaawafllvsvvfglipvldalvgrdpanpeeesevpellaqgyyvll 88 
+                            mfe++s++tmla+kkyaywlwlll+ls+p++yw+a+ds +pa+waf lv +vfg++p+ld+l+grdpanp+ee+++p+ll+qgyyvll
+  sp|Q9I0R2|ALKB1_PSEAE   1 MFENFSPSTMLAIKKYAYWLWLLLALSMPFNYWMAQDSAHPAFWAFSLVIAVFGIGPLLDMLFGRDPANPDEETQTPQLLGQGYYVLL 88 
+                            9*************************************************************************************** PP
+
+     Acyl-CoA_desat.aln  89 slatvplllgtlvwaagvlvdetrwdwlgrlgwilsvgtvmgavgivvahelihkdsaleqaagglllaavcyagfkvehvrGhhvhv 176
+                            +latvp+l+gtlvwaagv+v  ++w+wlgrlgwils+gtvmgavgivvahelihkdsaleqaagg+llaavcyagfkvehvrGhhvhv
+  sp|Q9I0R2|ALKB1_PSEAE  89 TLATVPVLIGTLVWAAGVFVAFQEWGWLGRLGWILSMGTVMGAVGIVVAHELIHKDSALEQAAGGILLAAVCYAGFKVEHVRGHHVHV 176
+                            **************************************************************************************** PP
+
+     Acyl-CoA_desat.aln 177 stPedasssrfGqslyaflPhaykynflnawrleaerlkrkGlPalhwrneligwyllsvllllGfslafgwlGalfflgqalvaftl 264
+                            stPedass+rfGqs+y+flPhaykynflnawrlea rl++kGlP+++w+neli+wylls++ll+Gf++afgwlG++fflgqa+va+tl
+  sp|Q9I0R2|ALKB1_PSEAE 177 STPEDASSARFGQSVYQFLPHAYKYNFLNAWRLEAVRLRKKGLPVFGWQNELIWWYLLSLALLVGFGWAFGWLGMVFFLGQAFVAVTL 264
+                            **************************************************************************************** PP
+
+     Acyl-CoA_desat.aln 265 leivnyvehyglkrrklengryertthehswnsnflltnlvlfhlqrhsdhhayakrryqvlrhyddspqlpsgyagmvvlalipplw 352
+                            lei+nyvehygl+rrk+e+gryert+h+hswnsnf++tnlvlfhlqrhsdhha+akr+yqvlrhyddspq+psgyagmvvlalipplw
+  sp|Q9I0R2|ALKB1_PSEAE 265 LEIINYVEHYGLHRRKGEDGRYERTNHTHSWNSNFVFTNLVLFHLQRHSDHHAFAKRPYQVLRHYDDSPQMPSGYAGMVVLALIPPLW 352
+                            **************************************************************************************** PP
+
+     Acyl-CoA_desat.aln 353 ravmdpkvkayyageeyqlsdeqsitpaas 382
+                            ravmdpkv+ayyagee+ql++eqs+ paas
+  sp|Q9I0R2|ALKB1_PSEAE 353 RAVMDPKVRAYYAGEEFQLTAEQSERPAAS 382
+                            ***************************986 PP
+
+>> sp|Q0VTH3|ALKB2_ALCBS  Alkane 1-monooxygenase 2 OS=Alcanivorax borkumensis (strain ATCC 700651 / DSM 11573 / NCIMB 13
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  515.3  11.6  7.6e-158  3.6e-153       1     374 [.       1     374 [.       1     382 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 515.3 bits;  conditional E-value: 7.6e-158
+     Acyl-CoA_desat.aln   1 mferlssatmlalkkyayw.lwlllvlslplsywlaldseypaawafllvsvvfglipvldalvgrdpanpeeesevpellaqgyyvl 87 
+                            mfe+ ++ +ml++kky+y  +w ++v  +p+s ++  +s   ++wa+ + + +fg+ipvld lvg+dp+np e+ +vp +  + +y++
+  sp|Q0VTH3|ALKB2_ALCBS   1 MFENTNPDVMLKMKKYGYLaFWAIMVPLVPFSAFVGVESGTQDYWAWFMYAFIFGIIPVLDYLVGKDPTNPSEDVQVPTMSEEVFYRV 88 
+                            899***************74799***************************************************************** PP
+
+     Acyl-CoA_desat.aln  88 lslatvplllgtlvwaagvlvdetrwdwlgrlgwilsvgtvmgavgivvahelihkdsaleqaagglllaavcyagfkvehvrGhhvh 175
+                             ++a   + + +l +a+ ++++ ++++ lg++gwi+s+gtv g + i + helihkd+++e+  gglll++v yagfkvehvrGhhvh
+  sp|Q0VTH3|ALKB2_ALCBS  89 SAIAMGFVWIAVLFYAGHIFMN-NGYGLLGKIGWIVSIGTVGGIIAINLGHELIHKDPKVENWMGGLLLSSVTYAGFKVEHVRGHHVH 175
+                            ********************86.69*************************************************************** PP
+
+     Acyl-CoA_desat.aln 176 vstPedasssrfGqslyaflPhaykynflnawrleaerlkrkGlPalhwrneligwyllsvllllGfslafgwlGalfflgqalvaft 263
+                            vstP+dasssr+ qsly+flP+a+ +nf+naw le++ l+rkG   +  +neli+wy +s+l+   f+l +gw G++fflgq+++a  
+  sp|Q0VTH3|ALKB2_ALCBS 176 VSTPDDASSSRYNQSLYNFLPKAFVHNFINAWSLEKKYLERKGKKNISVHNELIWWYSISALFAATFGLLWGWQGVVFFLGQSFFAAL 263
+                            **************************************************************************************** PP
+
+     Acyl-CoA_desat.aln 264 lleivnyvehyglkrrklengryertthehswnsnflltnlvlfhlqrhsdhhayakrryqvlrhyddspqlpsgyagmvvlalippl 351
+                             lei+ny+ehygl+rr  ++gr+er t+ hswnsnflltnl lf+lqrhsdhhayakrryqvlrhy++spqlp+gya m vlalippl
+  sp|Q0VTH3|ALKB2_ALCBS 264 ALEIINYIEHYGLHRRVNDKGRFERVTPAHSWNSNFLLTNLALFQLQRHSDHHAYAKRRYQVLRHYEESPQLPAGYATMYVLALIPPL 351
+                            **************************************************************************************** PP
+
+     Acyl-CoA_desat.aln 352 wravmdpkvkayyageeyqlsde 374
+                            wr vm+p+v+ayy ge  ql  +
+  sp|Q0VTH3|ALKB2_ALCBS 352 WRKVMNPRVEAYYEGELDQLFRD 374
+                            ****************9998654 PP
+
+>> sp|O31250|ALKB_ACIAD  Alkane 1-monooxygenase OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) OX=62977 GN=a
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  298.1   0.1   7.4e-92   3.5e-87      50     365 ..      65     377 ..      16     387 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 298.1 bits;  conditional E-value: 7.4e-92
+    Acyl-CoA_desat.aln  50 svvfglipvldalvgrdpanpeeesevpellaqgyyvllslatvplllgtlvwaagvlvdetrwdwlgrlgwilsvgtvmgavgivvah 138
+                            v+  +ipv+d+++g+d +np  e e+ +l+++ yy  l  + +pl     v+a+++ v +++ +++ ++   +s+g++ g + +  ah
+  sp|O31250|ALKB_ACIAD  65 IVLHIIIPVIDTIIGKDASNPTSE-EIKQLENDPYYARLVKSFIPLQYIANVYACYL-VSRKKTSFIDKILLGISMGAING-IAVNTAH 150
+                           4566789**************865.899********************9****9875.6677889*****999****9877.78999** PP
+
+    Acyl-CoA_desat.aln 139 elihkdsaleqaagglllaavcyagfkvehvrGhhvhvstPedasssrfGqslyaflPhaykynflnawrleaerlkrkGlPalhwrne 227
+                           el hk  +l++    l l    y +f++eh  Ghh + +tPed++ss++G+++y+f P+++  ++ +a ++e+ rlkrkG       ne
+  sp|O31250|ALKB_ACIAD 151 ELSHKADRLDHILSHLALVPTGYNHFRIEHPYGHHKRAATPEDPASSQMGETFYEFWPRTVFGSLKSAIEIETHRLKRKGKKFWSKDNE 239
+                           ***************************************************************************************** PP
+
+    Acyl-CoA_desat.aln 228 ligwyllsvllllGfslafgwlGalfflgqalvaftlleivnyvehyglkrrklengryertthehswnsnflltnlvlfhlqrhsdhh 316
+                           l+  + +s+++   +   fg   + ++++qa+++++l+ei+ny+ehyglkr+k  +g yert +ehswn+n ++tnl+l++lqrhsdhh
+  sp|O31250|ALKB_ACIAD 240 LLQGWGMSAAFHSSIIAIFGKGTIPYLVTQAFYGISLFEIINYIEHYGLKRQKRADGNYERTMPEHSWNNNNIVTNLFLYQLQRHSDHH 328
+                           ***********99999999987777**************************************************************** PP
+
+    Acyl-CoA_desat.aln 317 ayakrryqvlrhyddspqlpsgyagmvvlalipplwravmdpkvkayya 365
+                           ay  r++q lrh+d++p+lpsgya m++ a+ipplw  +md +v  +y 
+  sp|O31250|ALKB_ACIAD 329 AYPTRPFQALRHFDEAPELPSGYASMLLPAMIPPLWFKMMDKRVFEHYK 377
+                           *******************************************988886 PP
+
+>> sp|P12691|ALKB_ECTOL  Alkane 1-monooxygenase OS=Ectopseudomonas oleovorans OX=301 GN=alkB PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  291.2   7.3     9e-90   4.3e-85      14     371 ..      18     371 ..       7     382 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 291.2 bits;  conditional E-value: 9e-90
+    Acyl-CoA_desat.aln  14 kkyaywlwlllvl..slp.lsywlaldseypaawafllvsvvfglipvldalvgrdpanpeeesevpellaqgyyvllslatvplllgt 99 
+                           kky   lw+l +l  + p +  wla ++ +  ++ + ++ v +g  p+lda++g d  np ee  vp+l+ + yy++l+  tvp+    
+  sp|P12691|ALKB_ECTOL  18 KKY---LWILSTLwpATPmIGIWLANETGWGIFYGL-VLLVWYGALPLLDAMFGEDFNNPPEEV-VPKLEKERYYRVLTYLTVPMHYAA 101
+                           333...4444444225662579******99999986.55689******************9985.9*********************** PP
+
+    Acyl-CoA_desat.aln 100 lvwaagvlvdetrwdwlgrlgwilsvgtvmgavgivvahelihkdsaleqaagglllaavcyagfkvehvrGhhvhvstPedasssrfG 188
+                           l+ +a+  v  +  +wl      ls+g v g + +   hel hk  ++++    ++la v y++f +eh++Ghh  v+tP d+++sr+G
+  sp|P12691|ALKB_ECTOL 102 LIVSAWW-VGTQPMSWLEIGALALSLGIVNG-LALNTGHELGHKKETFDRWMAKIVLAVVGYGHFFIEHNKGHHRDVATPMDPATSRMG 188
+                           **99995.5566777777777789***9988.68999**************************************************** PP
+
+    Acyl-CoA_desat.aln 189 qslyaflPhaykynflnawrleaerlkrkGlPalhwrneligwyllsvllllGfslafgwlGalfflgqalvaftlleivnyvehyglk 277
+                           +s+y+f  + +  +f+ aw le +rl r+G  +  + ne++   +++v+l   +   fg    +f+ +q  ++   l   ny+ehygl 
+  sp|P12691|ALKB_ECTOL 189 ESIYKFSIREIPGAFIRAWGLEEQRLSRRGQSVWSFDNEILQPMIITVILYAVLLALFGPKMLVFLPIQMAFGWWQLTSANYIEHYGLL 277
+                           **********************************************996555555569999999************************* PP
+
+    Acyl-CoA_desat.aln 278 rrklengryertthehswnsnflltnlvlfhlqrhsdhhayakrryqvlrhyddspqlpsgyagmvvlalipplwravmdpkvkayyag 366
+                           r+k+e+grye+ +++hswnsn +++nlvlfhlqrhsdhha+  r yq lr +   p lp+gy g  ++a+ip  +r+vmdpkv  +  g
+  sp|P12691|ALKB_ECTOL 278 RQKMEDGRYEHQKPHHSWNSNHIVSNLVLFHLQRHSDHHAHPTRSYQSLRDFPGLPALPTGYPGAFLMAMIPQWFRSVMDPKVVDWAGG 366
+                           ***********************************************************************************998887 PP
+
+    Acyl-CoA_desat.aln 367 eeyql 371
+                           +  ++
+  sp|P12691|ALKB_ECTOL 367 DLNKI 371
+                           64443 PP
+
+>> sp|Q9WWW6|ALKB_PSEPU  Alkane 1-monooxygenase OS=Pseudomonas putida OX=303 GN=alkB PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  284.0   8.2   1.4e-87   6.6e-83      14     373 ..      17     373 ..       6     380 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 284.0 bits;  conditional E-value: 1.4e-87
+    Acyl-CoA_desat.aln  14 kkyaywlwlllvlslpl.sywlaldseypaawafllvsvvfglipvldalvgrdpanpeeesevpellaqgyyvllslatvplllgtlv 101
+                           kk  +w+      + p+   wla ++ +  ++ + +++v +g+ p+lda++g d  np ee  v +l+ + yy++l+  tvp+    l+
+  sp|Q9WWW6|ALKB_PSEPU  17 KKKYFWILSTFWPATPMiGIWLANETGWGIFYGL-VLAVWYGVLPLLDAMFGEDFNNPPEEV-VEKLEKERYYRVLTYLTVPMHYAALI 103
+                           4444676666666777527899999999988875.67899******************9985.899*********************** PP
+
+    Acyl-CoA_desat.aln 102 waagvlvdetrwdwlgrlgwilsvgtvmgavgivvahelihkdsaleqaagglllaavcyagfkvehvrGhhvhvstPedasssrfGqs 190
+                            +a+  v  ++ +w   +   ls+g v g + +   hel hk  a+++    ++la v y++f +eh++Ghh  v+tP d+++sr+G+ 
+  sp|Q9WWW6|ALKB_PSEPU 104 VSAWW-VGTQSMSWFEIVALALSLGIVNG-LALNTGHELGHKKEAFDRWMAKIVLAVVGYGHFFIEHNKGHHRDVATPMDPATSRMGEN 190
+                           ***95.678899*************9988.68999****************************************************** PP
+
+    Acyl-CoA_desat.aln 191 lyaflPhaykynflnawrleaerlkrkGlPalhwrneligwyllsvllllGfsla.fgwlGalfflgqalvaftlleivnyvehyglkr 278
+                           +y+f  + +  +f  aw le +rl r+G  +  + ne++   +++v +l+ + la fg    +f+ +q  ++   l   ny+ehygl r
+  sp|Q9WWW6|ALKB_PSEPU 191 IYKFSTREIPGAFRRAWGLEEQRLSRRGQSVWSFDNEILQPMVITV-VLYTLLLAfFGPKMLVFLPIQMAFGWWQLTSANYIEHYGLLR 278
+                           ********************************************99.7777777725777788999*********************** PP
+
+    Acyl-CoA_desat.aln 279 rklengryertthehswnsnflltnlvlfhlqrhsdhhayakrryqvlrhyddspqlpsgyagmvvlalipplwravmdpkvkayyage 367
+                           +k+ +grye+ +++hswnsn +++nlvlfhlqrhsdhha+  r yq lr +   p lp+gy g  ++a+ip  +r+vmdpkv  +  g+
+  sp|Q9WWW6|ALKB_PSEPU 279 EKMADGRYEHQKPHHSWNSNHIVSNLVLFHLQRHSDHHAHPTRSYQSLRDFPGLPALPTGYPGAFLMAMIPQWFRSVMDPKVVNWANGD 367
+                           **********************************************************************************9999998 PP
+
+    Acyl-CoA_desat.aln 368 eyqlsd 373
+                             ++  
+  sp|Q9WWW6|ALKB_PSEPU 368 LSKIQI 373
+                           665554 PP
+
+>> sp|Q0VKZ3|ALKB1_ALCBS  Alkane 1-monooxygenase 1 OS=Alcanivorax borkumensis (strain ATCC 700651 / DSM 11573 / NCIMB 13
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  277.9   9.1     1e-85   4.9e-81      18     367 ..      26     372 ..      19     382 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 277.9 bits;  conditional E-value: 1e-85
+     Acyl-CoA_desat.aln  18 ywlwlllvlslplsywlaldseypaawafllvsvvfglipvldalvgrdpanpeeesevpellaqgyyvllslatvplllgtlvwaag 105
+                             w+  +l  + p+   +  +    ++w  l++   +gl+p++d+++g d +np e s vp+l+ + yy++l+  tvp+    l+ +a+
+  sp|Q0VKZ3|ALKB1_ALCBS  26 LWILSVLWPATPIIGLYLVSQTGWSIWYGLVLILWYGLVPLIDTMLGEDYSNPPE-SVVPKLEQDRYYKVLTYLTVPIHYAALIISAW 112
+                            3444444446777665555566678999999999*******************87.67*****************************9 PP
+
+     Acyl-CoA_desat.aln 106 vlvdetrwdwlgrlgwilsvgtvmgavgivvahelihkdsaleqaagglllaavcyagfkvehvrGhhvhvstPedasssrfGqslya 193
+                              v  +  +    l   ls+g v g + +   hel hk  ++++    l+la v y++f +eh++Ghh  v+tP d+++sr+G+s+y+
+  sp|Q0VKZ3|ALKB1_ALCBS 113 W-VSTQPIGVFEFLALALSLGIVNG-LALNTGHELGHKKETFDRWMAKLVLAVVGYGHFFIEHNKGHHRDVATPMDPATSRMGESIYT 198
+                            6.677899999**********9988.68999********************************************************* PP
+
+     Acyl-CoA_desat.aln 194 flPhaykynflnawrleaerlkrkGlPalhwrneligwyllsvllllGfslafgwlGalfflgqalvaftlleivnyvehyglkrrkl 281
+                            f  + +  +f  aw le +rl r G  +    ne++   +l+v+l   +   fg l  +f+ +q  ++   l   ny+ehygl r+kl
+  sp|Q0VKZ3|ALKB1_ALCBS 199 FSLREIPGAFKRAWGLEEQRLSRCGKSVWSLDNEVLQPMILTVVLYAALLAFFGPLMLIFLPIQMAFGWWQLTSANYIEHYGLLREKL 286
+                            ***************************************99995555555557*********************************** PP
+
+     Acyl-CoA_desat.aln 282 engryertthehswnsnflltnlvlfhlqrhsdhhayakrryqvlrhyddspqlpsgyagmvvlalipplwravmdpkvkayyage 367
+                            +ngrye+ +++hswnsn +++nl+lfhlqrhsdhha+  r yq lr + d p lp+gy gm  +a++p  +r++md +v  +  g+
+  sp|Q0VKZ3|ALKB1_ALCBS 287 PNGRYEHQKPHHSWNSNHVMSNLILFHLQRHSDHHAHPTRSYQSLRDFSDLPTLPTGYPGMFFVAFFPSWFRSLMDDRVMEWAHGD 372
+                            *******************************************************************************9887776 PP
+
+>> sp|P21395|XYLM_PSEPU  Xylene/toluene monooxygenase hydroxylase component XylM OS=Pseudomonas putida OX=303 GN=xylM PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.2   1.1   4.3e-28   2.1e-23      96     363 ..      72     333 ..      19     352 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 88.2 bits;  conditional E-value: 4.3e-28
+    Acyl-CoA_desat.aln  96 llgtlvwaagvlvdetrwdwlgrlgwilsvgtvmgavgivvahelihkdsaleqaagglllaavcyagfkvehvrGhhvhvstPedass 184
+                           l g+lv+        +  + l   g ils+  + g   + v+hel+h+   l ++   ll       +  + hv  hh+ + tP d+ +
+  sp|P21395|XYLM_PSEPU  72 LYGLLVFGVE-NGRIELSEPLQVAGCILSLAWLSGVPTLPVSHELMHRRHWLPRKMAQLLAMFYGDPNRDIAHVNTHHLYLDTPLDSDT 159
+                           3444444322.22233345567789*****************************999888665556678899***************** PP
+
+    Acyl-CoA_desat.aln 185 srfGqslyaflPhaykynflnawrleaerlkrkGlPalhwrneligwyllsvllllGfslafg..wlGalfflgqalvaftlleivnyv 271
+                              Gq++y+f+  a   ++ +a ++eae l+rkG    +  n+    y+  +l l G+   +g   lG l  ++  ++a  ++e  ny 
+  sp|P21395|XYLM_PSEPU 160 PYRGQTIYSFVISATVGSVKDAIKIEAETLRRKGQSPWNLSNKTY-QYVALLLALPGLVSYLGgpALG-LVTIASMIIAKGIVEGFNYF 246
+                           ***********************************9999999864.3444444555655444411233.356788899*********** PP
+
+    Acyl-CoA_desat.aln 272 ehyglkrrklengryertthehswnsnflltnlvlfhlqrhsdhhayakrryqvlrhyddspqlpsgyagmvvlalipplwravm.dpk 359
+                           +hygl r  l++        +h+wn    +   +   +  h +hh     r+  lr   ++pq+ps +  + +l lipplw a++  pk
+  sp|P21395|XYLM_PSEPU 247 QHYGLVRD-LDQ----PILLHHAWNHMGTIVRPLGCEITNHINHHIDGYTRFYELRPEKEAPQMPSLFVCF-LLGLIPPLWFALIaKPK 329
+                           *****986.444....45678*******9***9*********************************99876.69*******99763799 PP
+
+    Acyl-CoA_desat.aln 360 vkay 363
+                           ++ +
+  sp|P21395|XYLM_PSEPU 330 LRDW 333
+                           8864 PP
+
+>> sp|Q53683|YOE1_STRAT  Putative ABC transporter permease protein ORF1 (Fragment) OS=Streptomyces antibioticus OX=1890 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.1      0.32   1.5e+04      24      55 ..      38      71 ..      28      84 .. 0.68
+   2 ?   13.8   2.1   1.8e-05      0.84      29     114 ..      77     161 ..      58     172 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 0.32
+    Acyl-CoA_desat.aln 24 lvlslplsywlaldseyp..aawafllvsvvfgl 55
+                          + ++ p++y +a++  +   aa  +++vs  f  
+  sp|Q53683|YOE1_STRAT 38 VLIATPMAYVMARHRTKAarAATGWVVVSQAFPF 71
+                          4567788999988766541156678888877754 PP
+
+  == domain 2  score: 13.8 bits;  conditional E-value: 1.8e-05
+    Acyl-CoA_desat.aln  29 plsywlaldseypaawafllvsvvfglipvldalvgrdpanpeeesevpellaqgyyvllslatvplllgtlvwaagvlvdetrwd 114
+                           pl   l +     ++  ++lv+vv+ l   l +l g+  a p e  e+  + + g  + l+  tvpll    + a+ +++  t w+
+  sp|Q53683|YOE1_STRAT  77 PLFLVLKRLRLIDSLTGLVLVYVVWSLPFALWMLAGHARAVPAELEEAAAVDGAGRVRTLTSVTVPLLAPG-IAATALFAFVTAWN 161
+                           55555555555556677899**********************************************98765.45666777777775 PP
+
+>> sp|P77529|TCYP_ECOLI  L-cystine transporter TcyP OS=Escherichia coli (strain K12) OX=83333 GN=tcyP PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   2.6   0.00011       5.1      44     136 ..      34     126 ..       4     144 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00011
+    Acyl-CoA_desat.aln  44 wafllvsvvfglipvldalvgrdpanpeeesevpellaqgyyvllslatvplllgtlvwaagvlvdetrwdwlgrl..gwilsvgtvmg 130
+                              l++ vvfgl   l +++g d    +++ +  ++ ++gy +ll +  +pl++  ++ a   l + ++ + +  l  g +l    +  
+  sp|P77529|TCYP_ECOLI  34 LVGLVMGVVFGL--ALHTIYGSDSQVLKDSVQWFNIVGNGYVQLLQMIVMPLVFASILSAVARLHNASQLGKISFLtiGTLLFTTLIAA 120
+                           233455566666..589***********************************9999988877777777766665431144444444444 PP
+
+    Acyl-CoA_desat.aln 131 avgivv 136
+                            vg+ v
+  sp|P77529|TCYP_ECOLI 121 LVGVLV 126
+                           566665 PP
+
+>> sp|Q9FVQ9|FB29_ARATH  Putative F-box protein At1g32140 OS=Arabidopsis thaliana OX=3702 GN=At1g32140 PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   0.00013       6.4     186     230 ..     412     452 ..     406     461 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00013
+    Acyl-CoA_desat.aln 186 rfGqslyaflPhaykynflnawrleaerlkrkGlPalhwrnelig 230
+                           rfG    + lP  +k++f ++w l + + ++  + +l w+n  + 
+  sp|Q9FVQ9|FB29_ARATH 412 RFG----QILPLPFKHSFRDTWTLSSVKEEKLAVAVLYWKNTCVM 452
+                           444....589*******************************8654 PP
+
+>> sp|Q9D071|MMS19_MOUSE  MMS19 nucleotide excision repair protein homolog OS=Mus musculus OX=10090 GN=Mms19 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   0.1   0.00047        23     292     350 ..      80     138 ..      65     149 .. 0.91
+   2 ?   -1.7   0.0      0.87   4.2e+04     182     224 ..     285     328 ..     283     340 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.00047
+     Acyl-CoA_desat.aln 292 ehswnsnflltnlvlfhlqrhsdhhayakrryqvlrhyddspqlpsgyagmvvlalipp 350
+                             hs  s+  +  l+lf+ +r  dhh       q lr    s  lp g a  v+ a++  
+  sp|Q9D071|MMS19_MOUSE  80 CHSLLSEKEVVHLILFYENRLKDHHLVVPSVLQGLRALSMSVALPPGLAVSVLKAIFQE 138
+                            68888999999***************************************999999875 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 0.87
+     Acyl-CoA_desat.aln 182 asssrfGqs.lyaflPhaykynflnawrleaerlkrkGlPalhw 224
+                            a+ + +Gq  l  flP  +     + ++  +er++ +Gl alh 
+  sp|Q9D071|MMS19_MOUSE 285 ACCAVYGQKeLKDFLPSLWASIRREVFQTASERVEAEGLAALHS 328
+                            5667788753788999888888889999**************96 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (382 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     13761  (0.023988); expected 11473.2 (0.02)
+Passed bias filter:                     7942  (0.0138444); expected 11473.2 (0.02)
+Passed Vit filter:                       500  (0.000871595); expected 573.7 (0.001)
+Passed Fwd filter:                        13  (2.26615e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              12  [number of targets reported over threshold]
+# CPU time: 4.63u 0.20s 00:00:04.83 Elapsed: 00:00:01.77
+# Mc/sec: 44715.45
+//
+[ok]

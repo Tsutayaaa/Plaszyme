@@ -1,0 +1,353 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Peptidase_S58.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Peptidase_S58/Peptidase_S58.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Peptidase_S58/Peptidase_S58.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Peptidase_S58.aln  [M=352]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+   4.5e-165  554.0   5.9   4.8e-165  553.9   5.9    1.0  1  sp|Q79F77|NYLC_PAEUR   6-aminohexanoate-oligomer endohydrolas
+   8.6e-164  549.8   5.8   9.2e-164  549.7   5.8    1.0  1  sp|Q1EPR5|NYLC_AGRS5   6-aminohexanoate-oligomer endohydrolas
+   5.5e-163  547.1   5.5     6e-163  547.0   5.5    1.0  1  sp|Q1EPR4|NYLC_KOCS2   6-aminohexanoate-oligomer endohydrolas
+     4e-156  524.6   6.1   4.5e-156  524.4   6.1    1.0  1  sp|Q14T92|NYLC2_AGRS5  Putative NylC-analogous protein OS=Agr
+      2e-99  338.0  13.7    2.2e-99  337.9  13.7    1.0  1  sp|Q52VH2|BAPA_SPHXN   Beta-peptidyl aminopeptidase BapA OS=S
+    1.3e-80  276.2  14.6    1.6e-80  275.9  14.6    1.0  1  sp|P53425|Y1167_MYCLE  Uncharacterized aminopeptidase ML1167 
+    8.1e-78  267.0   9.2      9e-78  266.9   9.2    1.0  1  sp|P64812|Y1368_MYCBO  Uncharacterized aminopeptidase Mb1368 
+    8.1e-78  267.0   9.2      9e-78  266.9   9.2    1.0  1  sp|P9WM22|Y1333_MYCTO  Uncharacterized aminopeptidase MT1375 
+    8.1e-78  267.0   9.2      9e-78  266.9   9.2    1.0  1  sp|P9WM23|Y1333_MYCTU  Uncharacterized aminopeptidase Rv1333 
+    5.7e-67  231.3  15.1    7.3e-67  231.0  15.1    1.0  1  sp|A0MTQ2|BAPA_SPHMI   Beta-peptidyl aminopeptidase BapA OS=S
+  ------ inclusion threshold ------
+       0.76   13.9   0.0       0.77   13.8   0.0    1.1  1  sp|Q46868|UBIK_ECOLI   Ubiquinone biosynthesis accessory fact
+       0.83   13.7   0.0       0.94   13.5   0.0    1.1  1  sp|Q8ZLY9|UBIK_SALTY   Ubiquinone biosynthesis accessory fact
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q79F77|NYLC_PAEUR  6-aminohexanoate-oligomer endohydrolase OS=Paenarthrobacter ureafaciens OX=37931 GN=nylC PE=1 S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  553.9   5.9    1e-169  4.8e-165       6     337 ..      32     355 .]       1     355 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 553.9 bits;  conditional E-value: 1e-169
+     Peptidase_S58.aln   6 ragnddldlapvrstgrenlitDvpGvkvGaaeyiegptGvTvilipagartavdvrgGavGlretgllevsggydfnhaivLaggsay 94 
+                            +gnd++dlapvrstgre+l++D+pGv++Gaa+y+egptG+Tvi+ipagartavd+rgGavGl        sggydfnhai+Lagg++y
+  sp|Q79F77|NYLC_PAEUR  32 GPGNDAFDLAPVRSTGREMLRFDFPGVSIGAAHYEEGPTGATVIHIPAGARTAVDARGGAVGL--------SGGYDFNHAICLAGGAGY 112
+                           599************************************************************........****************** PP
+
+     Peptidase_S58.aln  95 GleaaagvseallerleelrtgfaelqlVseaviyDlsvrdtavrpdkalgraAleaakdgefeeGrvGaGtgasagkvdldrtektGq 183
+                           Glea+agvs+allerle+ rtgfaelqlVs+aviyD+s+r+tav+pdkalgraAle+a++gef++Gr+GaG++asagkvd+drte+tGq
+  sp|Q79F77|NYLC_PAEUR 113 GLEAGAGVSDALLERLEH-RTGFAELQLVSSAVIYDFSARSTAVYPDKALGRAALEFAVPGEFPQGRAGAGMSASAGKVDWDRTEITGQ 200
+                           ******************.********************************************************************** PP
+
+     Peptidase_S58.aln 184 GaasrkvgdvtvlavvvaNpvgvvvdraggvvrGnydaqegkrrhpaadylealae.eapkteagnttisvivTnvrLspvelkrlakq 271
+                           Gaa+r++gdv++lavvv+Npvgv+vdrag+vvrGnydaq+g+rrhp++dy+ea+ae ++p+teagnttis+ivTnvr+spvel+++akq
+  sp|Q79F77|NYLC_PAEUR 201 GAAFRRLGDVRILAVVVPNPVGVIVDRAGTVVRGNYDAQTGVRRHPVFDYQEAFAEqVPPVTEAGNTTISAIVTNVRMSPVELNQFAKQ 289
+                           ***************************************************************************************** PP
+
+     Peptidase_S58.aln 272 vhsglargiqpfhtdldGDtlfAvtTdevdleekpgssrgrlsvnatalgalasevvedAvlnalk 337
+                           vhs+++rgiqpfhtd+dGDtlfAvtTde+dl+++pgssrgrlsvnatalga+asev++dAvl+a+k
+  sp|Q79F77|NYLC_PAEUR 290 VHSSMHRGIQPFHTDMDGDTLFAVTTDEIDLPTTPGSSRGRLSVNATALGAIASEVMWDAVLEAGK 355
+                           ***************************************************************986 PP
+
+>> sp|Q1EPR5|NYLC_AGRS5  6-aminohexanoate-oligomer endohydrolase OS=Agromyces sp. (strain KY5R) OX=388924 GN=nylC PE=1 S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  549.7   5.8  1.9e-168  9.2e-164       6     337 ..      32     355 .]       1     355 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 549.7 bits;  conditional E-value: 1.9e-168
+     Peptidase_S58.aln   6 ragnddldlapvrstgrenlitDvpGvkvGaaeyiegptGvTvilipagartavdvrgGavGlretgllevsggydfnhaivLaggsay 94 
+                            +gnd++dlapvrstgre+l++D+pGv++Gaa+y+egptG+Tvi+ipagartavd+rgGavGl        sggydfnhai+Lagg++y
+  sp|Q1EPR5|NYLC_AGRS5  32 GPGNDAFDLAPVRSTGREMLRFDFPGVSIGAAHYEEGPTGATVIHIPAGARTAVDARGGAVGL--------SGGYDFNHAICLAGGASY 112
+                           599************************************************************........****************** PP
+
+     Peptidase_S58.aln  95 GleaaagvseallerleelrtgfaelqlVseaviyDlsvrdtavrpdkalgraAleaakdgefeeGrvGaGtgasagkvdldrtektGq 183
+                           Glea+agvs allerle+ rtgfae qlVs+aviyD+s+r+tav+pdkalgraAle+a++gef++Gr+GaG++asagkvd+drte+tGq
+  sp|Q1EPR5|NYLC_AGRS5 113 GLEAGAGVSGALLERLEY-RTGFAEAQLVSSAVIYDFSARSTAVYPDKALGRAALEFAVPGEFPQGRAGAGMSASAGKVDWDRTEITGQ 200
+                           ******************.********************************************************************** PP
+
+     Peptidase_S58.aln 184 GaasrkvgdvtvlavvvaNpvgvvvdraggvvrGnydaqegkrrhpaadylealae.eapkteagnttisvivTnvrLspvelkrlakq 271
+                           Gaa+r++gdv++lavvv+Npvgv++drag+vvrGnydaq+g+rrhp++dy+ea+ae ++p+teagnttis+ivTnvr+spvel+++akq
+  sp|Q1EPR5|NYLC_AGRS5 201 GAAFRRLGDVRILAVVVPNPVGVIMDRAGTVVRGNYDAQTGVRRHPVFDYQEAFAEqVPPVTEAGNTTISAIVTNVRMSPVELNQFAKQ 289
+                           ***************************************************************************************** PP
+
+     Peptidase_S58.aln 272 vhsglargiqpfhtdldGDtlfAvtTdevdleekpgssrgrlsvnatalgalasevvedAvlnalk 337
+                           vhs+++rgiqpfhtd+dGDtlfAvtTde+dl+++pgssrgrlsvnatalga+asev++dAvl+a+k
+  sp|Q1EPR5|NYLC_AGRS5 290 VHSSMHRGIQPFHTDMDGDTLFAVTTDEIDLPTTPGSSRGRLSVNATALGAIASEVMWDAVLEAGK 355
+                           ***************************************************************986 PP
+
+>> sp|Q1EPR4|NYLC_KOCS2  6-aminohexanoate-oligomer endohydrolase OS=Kocuria sp. (strain KY2) OX=388923 GN=nylC PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  547.0   5.5  1.2e-167    6e-163       6     337 ..      32     355 .]       1     355 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 547.0 bits;  conditional E-value: 1.2e-167
+     Peptidase_S58.aln   6 ragnddldlapvrstgrenlitDvpGvkvGaaeyiegptGvTvilipagartavdvrgGavGlretgllevsggydfnhaivLaggsay 94 
+                            +gn ++dl+pvrstgre+l++D+pGv+vG+a+y+egptG+Tvi+ipagartavd+rgGavGl        sggydfnhai+Lagg++y
+  sp|Q1EPR4|NYLC_KOCS2  32 GPGNAAFDLVPVRSTGRETLRFDFPGVSVGSAHYEEGPTGATVIHIPAGARTAVDARGGAVGL--------SGGYDFNHAICLAGGASY 112
+                           499************************************************************........****************** PP
+
+     Peptidase_S58.aln  95 GleaaagvseallerleelrtgfaelqlVseaviyDlsvrdtavrpdkalgraAleaakdgefeeGrvGaGtgasagkvdldrtektGq 183
+                           Glea+agvs allerle+ rtgfae qlVs+aviyD+s+r+tav+pdkalgraAle+a++gef++Gr+GaG++asagkvd+drte+tGq
+  sp|Q1EPR4|NYLC_KOCS2 113 GLEAGAGVSGALLERLEY-RTGFAEAQLVSSAVIYDFSARSTAVYPDKALGRAALEFAVPGEFPQGRAGAGMSASAGKVDWDRTEITGQ 200
+                           ******************.********************************************************************** PP
+
+     Peptidase_S58.aln 184 GaasrkvgdvtvlavvvaNpvgvvvdraggvvrGnydaqegkrrhpaadylealae.eapkteagnttisvivTnvrLspvelkrlakq 271
+                           Gaa+r++gdv++lavvv+Npvgv++dragg+vrGnydaq+g+rrhp++dy+ea+ae  +p+t+agnttis+ivTnvr+spvel+++akq
+  sp|Q1EPR4|NYLC_KOCS2 201 GAAFRRLGDVRILAVVVPNPVGVIMDRAGGIVRGNYDAQTGVRRHPVFDYQEAFAEqLPPVTQAGNTTISAIVTNVRMSPVELNQFAKQ 289
+                           ********************************************************99******************************* PP
+
+     Peptidase_S58.aln 272 vhsglargiqpfhtdldGDtlfAvtTdevdleekpgssrgrlsvnatalgalasevvedAvlnalk 337
+                           vhs+++rgiqpfhtd+dGDtlfAvtTde+dl+++pgssrgrlsvnatalga+asev++dAvl+a+k
+  sp|Q1EPR4|NYLC_KOCS2 290 VHSSMHRGIQPFHTDMDGDTLFAVTTDEIDLPTTPGSSRGRLSVNATALGAIASEVMWDAVLEAAK 355
+                           ****************************************************************87 PP
+
+>> sp|Q14T92|NYLC2_AGRS5  Putative NylC-analogous protein OS=Agromyces sp. (strain KY5R) OX=388924 GN=nylC' PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  524.4   6.1  9.3e-161  4.5e-156      24     337 ..       1     306 []       1     306 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 524.4 bits;  conditional E-value: 9.3e-161
+      Peptidase_S58.aln  24 nlitDvpGvkvGaaeyiegptGvTvilipagartavdvrgGavGlretgllevsggydfnhaivLaggsayGleaaagvseallerle 111
+                            +l++D+pGv++Gaa+y+egptG+Tvi+ipagartavd+rgGavGl        sggydfnhai+Lagg++yGlea+agvs allerle
+  sp|Q14T92|NYLC2_AGRS5   1 MLRFDFPGVSIGAAHYEEGPTGATVIHIPAGARTAVDARGGAVGL--------SGGYDFNHAICLAGGAGYGLEAGAGVSGALLERLE 80 
+                            579******************************************........*********************************** PP
+
+      Peptidase_S58.aln 112 elrtgfaelqlVseaviyDlsvrdtavrpdkalgraAleaakdgefeeGrvGaGtgasagkvdldrtektGqGaasrkvgdvtvlavv 199
+                            + rtgfaelqlVs+aviyD+s+r+tav+pdkalgraAle+a++gef++Gr+GaG++asagkvd+drte+tGqGaa+r++gdv++lavv
+  sp|Q14T92|NYLC2_AGRS5  81 Y-RTGFAELQLVSSAVIYDFSARSTAVYPDKALGRAALEFAVPGEFPQGRAGAGMSASAGKVDWDRTEITGQGAAFRRLGDVRILAVV 167
+                            *.************************************************************************************** PP
+
+      Peptidase_S58.aln 200 vaNpvgvvvdraggvvrGnydaqegkrrhpaadylealae.eapkteagnttisvivTnvrLspvelkrlakqvhsglargiqpfhtd 286
+                            v+Npvgv+vdrag+vvrGnydaq+g+rrhp++dy+ea+ae ++p+teagnttis+ivTnvr+spvel+++akqvhs+++rgiqpfhtd
+  sp|Q14T92|NYLC2_AGRS5 168 VPNPVGVIVDRAGTVVRGNYDAQTGVRRHPVFDYQEAFAEqVPPVTEAGNTTISAIVTNVRMSPVELNQFAKQVHSSMHRGIQPFHTD 255
+                            **************************************************************************************** PP
+
+      Peptidase_S58.aln 287 ldGDtlfAvtTdevdleekpgssrgrlsvnatalgalasevvedAvlnalk 337
+                            +dGDtlfAvtTde+dl+++pgssrgrlsvnatalga+asev++dAvl+a+k
+  sp|Q14T92|NYLC2_AGRS5 256 MDGDTLFAVTTDEIDLPTTPGSSRGRLSVNATALGAIASEVMWDAVLEAGK 306
+                            ************************************************986 PP
+
+>> sp|Q52VH2|BAPA_SPHXN  Beta-peptidyl aminopeptidase BapA OS=Sphingosinicella xenopeptidilytica OX=364098 GN=bapA PE=1 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  337.9  13.7  4.6e-104   2.2e-99       5     352 .]      30     385 ..       1     385 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 337.9 bits;  conditional E-value: 4.6e-104
+     Peptidase_S58.aln   5 g.ragnddldlapvrstgrenlitDvpGvkvGaaeyieg...........ptGvTvilipagartavdvrgGav...Glre.tgllevs 77 
+                           g ra++++++++++  +g+ n+itDv+Gv+vG++++i+g           +tGvT+i++  g+++ + v++G++   G++e tg++ v+
+  sp|Q52VH2|BAPA_SPHXN  30 GpRARDLGVPFEGT--PGALNAITDVAGVEVGHTTVISGdgamvigkgpyRTGVTIIHP-LGKTSLDGVAAGRAvinGTGEwTGMHLVD 115
+                           669***********..******************************************9.************999************** PP
+
+     Peptidase_S58.aln  78 ggydfnhaivLaggsayGleaaagvseallerleelrtgfaelqlVseaviyDlsvrdtavrp.dkalgraAleaakdgefeeGrvGaG 165
+                           ++++f ++i+L+g+ ++Gl ++++++++ + ++ e++ +++ l++V+e+  +D++++d+ +++ ++++++aAl+ ak g+++eG+vG+G
+  sp|Q52VH2|BAPA_SPHXN 116 EVGQFLGPIALTGTGNVGL-VHQSMMDWSVGKVPEEALFSRLLPVVAET--LDNRLNDVFGHGlTRDHVFAALDGAKGGPVAEGNVGGG 201
+                           *******************.*****************************..************************************** PP
+
+     Peptidase_S58.aln 166 tgasagkvdldrtektGqGaasrkvgd....vtvlavvvaNpvgvvvdraggvvrGnydaqegkrrhpaadylealaeeapkteagntt 250
+                           tg++a+      t+k+G+G++sr+v++    +tv+++v+aN+++++++r++gv++G+    e+k ++p+++++ a++++a k++++n++
+  sp|Q52VH2|BAPA_SPHXN 202 TGMIAY------TFKGGIGTSSRVVSAgdtrYTVGVLVQANHGDRNDLRIAGVQIGK----EIKGAWPEVNGIVAAGPDAGKPQDKNSL 280
+                           ******......*************9999****************************....**************************** PP
+
+     Peptidase_S58.aln 251 isvivTnvrLspvelkrlakqvhsglargiqpfhtdldGDtlfAvtTdevdle.ekpgssrgrlsvnatalgala...sevvedAvlna 335
+                           ++vi+T+++L+p++l+r+a++++ g++r+++++++ l+G++++A++T++v++   kp+ ++ ++++++++++al+   ++++e+A++n+
+  sp|Q52VH2|BAPA_SPHXN 281 LIVIATDAPLMPHQLERMARRAALGVGRNGSTAGA-LSGEFALAFSTSHVIPLgGKPRLPAIINDTDSETMNALFrgvVQATEEALVNQ 368
+                           ***********************************.*****************9*********************************** PP
+
+     Peptidase_S58.aln 336 lkaaetmgGldndvvaa 352
+                           l+a+etm+G++n++v++
+  sp|Q52VH2|BAPA_SPHXN 369 LVASETMTGANNAKVYG 385
+                           ************99986 PP
+
+>> sp|P53425|Y1167_MYCLE  Uncharacterized aminopeptidase ML1167 OS=Mycobacterium leprae (strain TN) OX=272631 GN=ML1167 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  275.9  14.6   3.4e-85   1.6e-80      22     345 ..       7     342 ..       3     348 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 275.9 bits;  conditional E-value: 3.4e-85
+      Peptidase_S58.aln  22 renlitDvpGvkvGaaeyieg........ptGvTvilipagartavdvrgGavGlretgllevsggydfnhaivLaggsayGleaaag 101
+                            + n itD+ G++vG+ ++++         + GvTv+l p g + avd rgG++G+ret+ll + ++++f +a++LaggsayGl aa+g
+  sp|P53425|Y1167_MYCLE   7 PMNSITDISGIQVGHYHRLDPdaslgagwACGVTVVLTPPGTVGAVDCRGGVPGTRETDLLDPANSVRFVDAVLLAGGSAYGLAAADG 94 
+                            5689***************9999***************************************************************** PP
+
+      Peptidase_S58.aln 102 vseallerleelrtgfaelqlVseaviyDlsvrdtavrpdkalgraAleaa.......kdgefeeGrvGaGtgasagkvdldrtektG 182
+                            v+++l+e  +++   + ++++V++avi+Dlsv+d + rp++++g+ A++aa       +d+ +++G vGaG ga+ag      ++k+G
+  sp|P53425|Y1167_MYCLE  95 VMRWLEEHERGVVMLGGVVPIVPGAVIFDLSVGDFHCRPTAEFGYLACQAAydaavggQDATVAVGTVGAGVGARAG------VLKGG 176
+                            ************9*********************************99998333333334679**************......***** PP
+
+      Peptidase_S58.aln 183 qGaasrkvgd.vtvlavvvaNpvgvvvdraggvvrGnydaqegkrrhpaadylealaeeapkteagnttisvivTnvrLspvelkrla 269
+                            +G+as +++   tv+avvv+N+vg+vvdra+g+++  +   e++ r p  ++++ +a+ +    a ntti+v++T+++Lsp+  +r+a
+  sp|P53425|Y1167_MYCLE 177 VGTASITLESgPTVGAVVVVNSVGDVVDRATGLPWMTDLIDEFALRPPSPEQIAGFAQLKSPLSALNTTIGVVATDATLSPAACQRVA 264
+                            **********99*************************999******************999999************************ PP
+
+      Peptidase_S58.aln 270 kqvhsglargiqpfhtdldGDtlfAvtTdevdle.ekpgssrgrlsv.natalgalasevvedAvlnalkaaetmgGl 345
+                            + +++glar+i+p+ht ldGDt+fA++T  v+++ ++++ ++   ++  +t +ga a +  ++Avl a+ aae+++G+
+  sp|P53425|Y1167_MYCLE 265 MAAQDGLARTIRPAHTALDGDTVFALATGAVEATaTADVPVAMSPETgLITEVGAAADDCLARAVLVAVLAAESVAGI 342
+                            *********************************9666666655544415899************************98 PP
+
+>> sp|P64812|Y1368_MYCBO  Uncharacterized aminopeptidase Mb1368 OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  266.9   9.2   1.9e-82     9e-78      24     348 ..       2     336 ..       1     340 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 266.9 bits;  conditional E-value: 1.9e-82
+      Peptidase_S58.aln  24 nlitDvpGvkvGaaeyieg........ptGvTvilipagartavdvrgGavGlretgllevsggydfnhaivLaggsayGleaaagvs 103
+                            n itDv G++vG+ ++++         + GvTv+l+p g + avd rgGa+G+ret+ll + ++++f +a +LaggsayGl aa+gv+
+  sp|P64812|Y1368_MYCBO   2 NSITDVGGIRVGHYQRLDPdaslgagwACGVTVVLPPPGTVGAVDCRGGAPGTRETDLLDPANSVRFVDALLLAGGSAYGLAAADGVM 89 
+                            789**************9999******************************************************************* PP
+
+      Peptidase_S58.aln 104 eallerleelrtgfaelqlVseaviyDlsvrdtavrpdkalgraAleaakdgefeeGrvGaGtgasagkvdldrtektGqGaasrkvg 191
+                            ++l+e  ++++  + ++++V++avi+Dl v+ ++ rp++++g+ A+ aa   ++++G vG G ga+ag      ++k+G+G+as +++
+  sp|P64812|Y1368_MYCBO  90 RWLEEHRRGVAMDSGVVPIVPGAVIFDLPVGGWNCRPTADFGYSACAAA-GVDVAVGTVGVGVGARAG------ALKGGVGTASATLQ 170
+                            ***********************************************99.99****************......************** PP
+
+      Peptidase_S58.aln 192 d.vtvlavvvaNpvgvvvdraggvvrGnydaqegkrrhpaadylealae.eap...kteagnttisvivTnvrLspvelkrlakqvhs 274
+                              vtv+++ v+N+ g+vvd+a+g+++  +   e++ r+p a++++ala+   p     +  ntti+vi+ ++ Lsp+  +r+a  +h+
+  sp|P64812|Y1368_MYCBO 171 SgVTVGVLAVVNAAGNVVDPATGLPWMADLVGEFALRAPPAEQIAALAQlSSPlgaFNTPFNTTIGVIACDAALSPAACRRIAIAAHD 258
+                            99**************************9999*************9998755411145778*************************** PP
+
+      Peptidase_S58.aln 275 glargiqpfhtdldGDtlfAvtTdevdle.ekpgssrgrlsvn.atalgalasevvedAvlnalkaaetmgGl..dnd 348
+                            glar+i+p+ht+ldGDt+fA++T  v+ + e+ +  +   +++  ta+ga a++  ++Avl  + +a+ ++G+  ++d
+  sp|P64812|Y1368_MYCBO 259 GLARTIRPAHTPLDGDTVFALATGAVAVPpEAGVPAALSPETQlVTAVGAAAADCLARAVLAGVLNAQPVAGIptYRD 336
+                            ****************************955555544333333268899999********************977776 PP
+
+>> sp|P9WM22|Y1333_MYCTO  Uncharacterized aminopeptidase MT1375 OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  266.9   9.2   1.9e-82     9e-78      24     348 ..       2     336 ..       1     340 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 266.9 bits;  conditional E-value: 1.9e-82
+      Peptidase_S58.aln  24 nlitDvpGvkvGaaeyieg........ptGvTvilipagartavdvrgGavGlretgllevsggydfnhaivLaggsayGleaaagvs 103
+                            n itDv G++vG+ ++++         + GvTv+l+p g + avd rgGa+G+ret+ll + ++++f +a +LaggsayGl aa+gv+
+  sp|P9WM22|Y1333_MYCTO   2 NSITDVGGIRVGHYQRLDPdaslgagwACGVTVVLPPPGTVGAVDCRGGAPGTRETDLLDPANSVRFVDALLLAGGSAYGLAAADGVM 89 
+                            789**************9999******************************************************************* PP
+
+      Peptidase_S58.aln 104 eallerleelrtgfaelqlVseaviyDlsvrdtavrpdkalgraAleaakdgefeeGrvGaGtgasagkvdldrtektGqGaasrkvg 191
+                            ++l+e  ++++  + ++++V++avi+Dl v+ ++ rp++++g+ A+ aa   ++++G vG G ga+ag      ++k+G+G+as +++
+  sp|P9WM22|Y1333_MYCTO  90 RWLEEHRRGVAMDSGVVPIVPGAVIFDLPVGGWNCRPTADFGYSACAAA-GVDVAVGTVGVGVGARAG------ALKGGVGTASATLQ 170
+                            ***********************************************99.99****************......************** PP
+
+      Peptidase_S58.aln 192 d.vtvlavvvaNpvgvvvdraggvvrGnydaqegkrrhpaadylealae.eap...kteagnttisvivTnvrLspvelkrlakqvhs 274
+                              vtv+++ v+N+ g+vvd+a+g+++  +   e++ r+p a++++ala+   p     +  ntti+vi+ ++ Lsp+  +r+a  +h+
+  sp|P9WM22|Y1333_MYCTO 171 SgVTVGVLAVVNAAGNVVDPATGLPWMADLVGEFALRAPPAEQIAALAQlSSPlgaFNTPFNTTIGVIACDAALSPAACRRIAIAAHD 258
+                            99**************************9999*************9998755411145778*************************** PP
+
+      Peptidase_S58.aln 275 glargiqpfhtdldGDtlfAvtTdevdle.ekpgssrgrlsvn.atalgalasevvedAvlnalkaaetmgGl..dnd 348
+                            glar+i+p+ht+ldGDt+fA++T  v+ + e+ +  +   +++  ta+ga a++  ++Avl  + +a+ ++G+  ++d
+  sp|P9WM22|Y1333_MYCTO 259 GLARTIRPAHTPLDGDTVFALATGAVAVPpEAGVPAALSPETQlVTAVGAAAADCLARAVLAGVLNAQPVAGIptYRD 336
+                            ****************************955555544333333268899999********************977776 PP
+
+>> sp|P9WM23|Y1333_MYCTU  Uncharacterized aminopeptidase Rv1333 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  266.9   9.2   1.9e-82     9e-78      24     348 ..       2     336 ..       1     340 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 266.9 bits;  conditional E-value: 1.9e-82
+      Peptidase_S58.aln  24 nlitDvpGvkvGaaeyieg........ptGvTvilipagartavdvrgGavGlretgllevsggydfnhaivLaggsayGleaaagvs 103
+                            n itDv G++vG+ ++++         + GvTv+l+p g + avd rgGa+G+ret+ll + ++++f +a +LaggsayGl aa+gv+
+  sp|P9WM23|Y1333_MYCTU   2 NSITDVGGIRVGHYQRLDPdaslgagwACGVTVVLPPPGTVGAVDCRGGAPGTRETDLLDPANSVRFVDALLLAGGSAYGLAAADGVM 89 
+                            789**************9999******************************************************************* PP
+
+      Peptidase_S58.aln 104 eallerleelrtgfaelqlVseaviyDlsvrdtavrpdkalgraAleaakdgefeeGrvGaGtgasagkvdldrtektGqGaasrkvg 191
+                            ++l+e  ++++  + ++++V++avi+Dl v+ ++ rp++++g+ A+ aa   ++++G vG G ga+ag      ++k+G+G+as +++
+  sp|P9WM23|Y1333_MYCTU  90 RWLEEHRRGVAMDSGVVPIVPGAVIFDLPVGGWNCRPTADFGYSACAAA-GVDVAVGTVGVGVGARAG------ALKGGVGTASATLQ 170
+                            ***********************************************99.99****************......************** PP
+
+      Peptidase_S58.aln 192 d.vtvlavvvaNpvgvvvdraggvvrGnydaqegkrrhpaadylealae.eap...kteagnttisvivTnvrLspvelkrlakqvhs 274
+                              vtv+++ v+N+ g+vvd+a+g+++  +   e++ r+p a++++ala+   p     +  ntti+vi+ ++ Lsp+  +r+a  +h+
+  sp|P9WM23|Y1333_MYCTU 171 SgVTVGVLAVVNAAGNVVDPATGLPWMADLVGEFALRAPPAEQIAALAQlSSPlgaFNTPFNTTIGVIACDAALSPAACRRIAIAAHD 258
+                            99**************************9999*************9998755411145778*************************** PP
+
+      Peptidase_S58.aln 275 glargiqpfhtdldGDtlfAvtTdevdle.ekpgssrgrlsvn.atalgalasevvedAvlnalkaaetmgGl..dnd 348
+                            glar+i+p+ht+ldGDt+fA++T  v+ + e+ +  +   +++  ta+ga a++  ++Avl  + +a+ ++G+  ++d
+  sp|P9WM23|Y1333_MYCTU 259 GLARTIRPAHTPLDGDTVFALATGAVAVPpEAGVPAALSPETQlVTAVGAAAADCLARAVLAGVLNAQPVAGIptYRD 336
+                            ****************************955555544333333268899999********************977776 PP
+
+>> sp|A0MTQ2|BAPA_SPHMI  Beta-peptidyl aminopeptidase BapA OS=Sphingosinicella microcystinivorans OX=335406 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  231.0  15.1   1.5e-71   7.3e-67       5     346 ..      23     370 ..      12     376 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 231.0 bits;  conditional E-value: 1.5e-71
+     Peptidase_S58.aln   5 g.ragnddldlapvrstgrenlitDvpGvkvGaaeyieg...........ptGvTvilipagartavdvrgGav...Glre.tgllevs 77 
+                           g ra+++++++a+   +g++n+itDv+Gv+vG +++i+g           +tGvT++l+ +g+++ ++v++G      ++e tg+++++
+  sp|A0MTQ2|BAPA_SPHMI  23 GpRARDLGVPFAGK--PGANNAITDVAGVEVGYVSLISGegklergkgpvRTGVTAVLP-RGKESRTPVYAGWEtsnAAGEmTGTVWLE 108
+                           569********999..*****************************************98.************8878866777******* PP
+
+     Peptidase_S58.aln  78 ggydfnhaivLaggsayGleaaagvseallerleelrtgfaelqlVseaviyDlsvrdtavrp.dkalgraAleaakdgefeeGrvGaG 165
+                           + ++f +++++++++++G+ + ++v+ +l +       g +  ++V+e+  yD  ++d+++++ + ++  +A++ a++g+++eG+vG+G
+  sp|A0MTQ2|BAPA_SPHMI 109 ERGYFDGPMMITNTHSVGV-VRDAVVGWLADVKWP---GAWFTPVVAET--YDGMLNDINGFHvKPEHALRAIQTAASGPVAEGNVGGG 191
+                           *******************.*********998777...99*********..************9************************* PP
+
+     Peptidase_S58.aln 166 tgasagkvdldrtektGqGaasrkvgd....vtvlavvvaNpvgvvvdraggvvrGnydaqegkrrhpa.adylealaeeapkteagnt 249
+                            g++ +       +k+G+G+asr+v+     +tv+++v+ N++ + ++r +g ++G+ ++ +gk   p+ ++ ++a+a ++ ++   ++
+  sp|A0MTQ2|BAPA_SPHMI 192 VGMQCF------GFKGGTGTASRVVEMdgksYTVGVLVQCNFGMRPWLRVAGAPVGE-EL-AGKY-LPEtRGTQTAAATNNGVAPGDGS 271
+                           ******......**************99*****************************.22.4554.555155666667799999999** PP
+
+     Peptidase_S58.aln 250 tisvivTnvrLspvelkrlakqvhsglargiqpfhtdldGDtlfAvtTdevdleekpgssrgrlsvnatalgala...sevvedAvlna 335
+                           +i+v++T++++ p++lkrlak+++ g++r +    +  +GD+++A++T++ + +   g++  ++ + +  l  ++    +++e+A+ n 
+  sp|A0MTQ2|BAPA_SPHMI 272 IIVVMATDAPMLPHQLKRLAKRAAAGMGRMGDAGSN-GSGDIFVAFSTANANVQSVGGNVISVETMPNDKLTLIFeaaTQATEEAITNV 359
+                           ******************************999888.*****************9999999999999999999999999********** PP
+
+     Peptidase_S58.aln 336 lkaaetmgGld 346
+                           l+aa+t++G++
+  sp|A0MTQ2|BAPA_SPHMI 360 LVAADTLTGVN 370
+                           *********85 PP
+
+>> sp|Q46868|UBIK_ECOLI  Ubiquinone biosynthesis accessory factor UbiK OS=Escherichia coli (strain K12) OX=83333 GN=ubiK
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.8   0.0   1.6e-05      0.77     262     288 ..       4      30 ..       1      61 [. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 13.8 bits;  conditional E-value: 1.6e-05
+     Peptidase_S58.aln 262 pvelkrlakqvhsglargiqpfhtdld 288
+                           p++++++a+qvh+++ +gi+ f+ d++
+  sp|Q46868|UBIK_ECOLI   4 PKKIEQIARQVHESMPKGIREFGEDVE 30 
+                           7899******************99876 PP
+
+>> sp|Q8ZLY9|UBIK_SALTY  Ubiquinone biosynthesis accessory factor UbiK OS=Salmonella typhimurium (strain LT2 / SGSC1412 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.0     2e-05      0.94     261     288 ..      23      50 ..      18      79 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 2e-05
+     Peptidase_S58.aln 261 spvelkrlakqvhsglargiqpfhtdld 288
+                            p++++++a+qvh+++ +gi+ f+ d++
+  sp|Q8ZLY9|UBIK_SALTY  23 DPKKIEQIARQVHESMPKGIREFGEDIE 50 
+                           57899******************99876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (352 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     17898  (0.0311996); expected 11473.2 (0.02)
+Passed bias filter:                     9177  (0.0159973); expected 11473.2 (0.02)
+Passed Vit filter:                       528  (0.000920404); expected 573.7 (0.001)
+Passed Fwd filter:                        12  (2.09183e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              12  [number of targets reported over threshold]
+# CPU time: 4.52u 0.21s 00:00:04.72 Elapsed: 00:00:01.72
+# Mc/sec: 42524.97
+//
+[ok]

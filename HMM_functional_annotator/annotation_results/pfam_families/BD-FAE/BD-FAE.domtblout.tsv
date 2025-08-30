@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+afb51f2a48           -            545 BD-FAE.aln           -            293   1.6e-06   21.9   0.0   1   1   1.9e-07   7.5e-06   19.8   0.0   116   158   177   221   101   275 0.68 -
+59bb4d8994           -            545 BD-FAE.aln           -            293     2e-06   21.7   0.0   1   1   2.1e-07   8.5e-06   19.6   0.0   116   158   177   221    98   283 0.71 -
+54b0f51654           -            548 BD-FAE.aln           -            293   2.6e-06   21.3   0.0   1   1   1.1e-07   4.6e-06   20.5   0.0    56   158   112   224   104   250 0.71 -
+03f3222488           -            548 BD-FAE.aln           -            293   2.6e-06   21.2   0.0   1   1   1.2e-07   4.7e-06   20.4   0.0    56   159   112   225   104   249 0.71 -
+f41c6d89a0           -            555 BD-FAE.aln           -            293   2.7e-06   21.2   0.0   1   1   1.2e-07   4.7e-06   20.4   0.0    56   158   112   224   104   251 0.71 -
+4fd7439f5f           -            545 BD-FAE.aln           -            293   3.6e-06   20.8   0.0   1   1   2.4e-07   9.7e-06   19.4   0.0   116   158   177   221    97   268 0.72 -
+e542ce1613           -            545 BD-FAE.aln           -            293   1.4e-05   18.9   0.0   1   1   1.1e-06   4.3e-05   17.3   0.0    55   151   108   212    85   241 0.64 -
+114e6d2abe           -            545 BD-FAE.aln           -            293   2.3e-05   18.1   0.0   1   1   1.6e-06   6.4e-05   16.7   0.0   115   151   175   212    80   234 0.66 -
+9c28e36175           -            545 BD-FAE.aln           -            293   5.3e-05   17.0   0.0   1   1   2.8e-06   0.00011   15.9   0.0   116   151   177   212    91   236 0.81 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/BD-FAE.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/BD-FAE/BD-FAE.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/BD-FAE/BD-FAE.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/BD-FAE.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:05:26 2025
+# [ok]

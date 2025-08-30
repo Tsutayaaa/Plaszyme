@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+E-set.aln	sp|O05527|PHB_DELAC	494	497	5.4e-163	548.3	1e-166	6.1e-163	548.1	9	497	11	494	1	494	0.92	1	1	0.9738430583501007	0.9898785425101214	E-set

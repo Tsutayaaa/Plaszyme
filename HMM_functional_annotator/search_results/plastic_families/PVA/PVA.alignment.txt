@@ -1,0 +1,1411 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PVA.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/PVA/PVA.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/PVA/PVA.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PVA.aln  [M=502]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+   1.5e-228  764.5   6.1   1.7e-228  764.3   6.1    1.0  1  sp|P77931|PVADH_PSESP  Polyvinylalcohol dehydrogenase OS=Pseu
+     3e-220  737.1   7.0   3.5e-220  736.8   7.0    1.0  1  sp|Q588Z1|PVADH_SPHS1  Polyvinylalcohol dehydrogenase OS=Sphi
+   9.7e-156  524.3   0.7   1.2e-155  524.0   0.7    1.0  1  sp|Q9LCQ7|OPH_PSESP    Oxidized polyvinyl alcohol hydrolase O
+   8.2e-145  488.2   2.3   9.9e-145  488.0   2.3    1.0  1  sp|Q588Z2|OPH_SPHS1    Oxidized polyvinyl alcohol hydrolase O
+    5.8e-13   53.3   0.0    7.9e-13   52.8   0.0    1.1  1  sp|P54504|RSBRD_BACSU  RsbT co-antagonist protein RsbRD OS=Ba
+    6.3e-13   53.2   0.0    8.8e-13   52.7   0.0    1.2  1  sp|P42409|RSBRA_BACSU  RsbT co-antagonist protein RsbRA OS=Ba
+    6.7e-09   39.9   0.0    8.4e-09   39.6   0.0    1.1  1  sp|O34860|RSBRB_BACSU  RsbT co-antagonist protein RsbRB OS=Ba
+    4.7e-07   33.8   0.0    6.2e-07   33.4   0.0    1.1  1  sp|O31856|RSBRC_BACSU  RsbT co-antagonist protein RsbRC OS=Ba
+    5.4e-07   33.6   2.1        6.1   10.3   0.1    5.5  7  sp|Q60282|Y3523_METJA  Uncharacterized protein MJECL23 OS=Met
+    7.1e-06   29.9   0.6     0.0035   21.0   0.2    3.2  3  sp|Q8KIL1|SLDA_GLUTH   Glycerol dehydrogenase large subunit O
+      1e-05   29.4   0.1        3.5   11.1   0.0    3.6  3  sp|Q88JH5|PEDE_PSEPK   Quinoprotein alcohol dehydrogenase Ped
+    1.2e-05   29.1   1.0     0.0017   22.0   0.2    2.8  3  sp|Q70JN9|SLDA_GLUOX   Glycerol dehydrogenase large subunit O
+    1.5e-05   28.8   0.8     0.0035   21.0   0.0    3.1  3  sp|Q4W6G0|QGDA_PSEPU   Quinohemoprotein alcohol dehydrogenase
+    2.6e-05   28.1   8.1      0.024   18.3   0.1    3.6  4  sp|Q46444|QHED_COMTE   Quinohemoprotein alcohol dehydrogenase
+    3.6e-05   27.6   0.0        7.8   10.0   0.0    3.5  3  sp|A8R3S4|QEDH_PSEPU   Quinoprotein ethanol dehydrogenase OS=
+    6.7e-05   26.7   0.0        2.8   11.5   0.0    3.5  3  sp|Q9Z4J7|QEDH_PSEAE   Quinoprotein ethanol dehydrogenase OS=
+    0.00027   24.7   0.6        2.2   11.8   0.0    3.4  3  sp|Q9AGW3|BOH_THABB    1-butanol dehydrogenase (quinone) OS=T
+     0.0003   24.5   0.0     0.0003   24.5   0.0    1.0  1  sp|O31537|YEZB_BACSU   Uncharacterized protein YezB OS=Bacill
+    0.00036   24.3   0.1     0.0071   20.0   0.0    2.1  2  sp|Q9AF95|BDH_THABB    1-butanol dehydrogenase (cytochrome c)
+    0.00043   24.0   2.7        4.3   10.8   0.1    3.3  3  sp|Q8GR64|QHED_PSEPU   Quinohemoprotein alcohol dehydrogenase
+    0.00047   23.9   2.6      0.037   17.6   0.3    3.1  3  sp|C5AXV8|EXAF_METEA   Lanthanide-dependent ethanol dehydroge
+     0.0019   21.9   0.0     0.0023   21.6   0.0    1.1  1  sp|O34627|PHOT_BACSU   Blue-light photoreceptor OS=Bacillus s
+     0.0022   21.7   0.1       0.35   14.4   0.0    2.9  3  sp|Q88JH0|PEDH_PSEPK   Quinoprotein alcohol dehydrogenase Ped
+     0.0038   20.9   4.4       0.19   15.3   2.6    3.1  3  sp|Q7CJM5|BAMB_YERPE   Outer membrane protein assembly factor
+     0.0047   20.6   0.7       0.15   15.6   0.0    2.4  2  sp|F8GAQ8|BAMB_FRAST   Outer membrane protein assembly factor
+     0.0058   20.3   0.2       0.73   13.4   0.0    2.4  2  sp|Q5NIB1|BAMB_FRATT   Outer membrane protein assembly factor
+     0.0097   19.6   5.5         36    7.8   0.0    3.1  2  sp|I0JWN7|XOXF_METFB   Lanthanide-dependent methanol dehydrog
+  ------ inclusion threshold ------
+      0.016   18.8   0.0         23    8.5   0.0    2.9  3  sp|Q80WC9|ACSF4_MOUSE  Beta-alanine-activating enzyme OS=Mus 
+       0.02   18.5   0.1      0.021   18.4   0.1    1.0  1  sp|P42410|RSBS_BACSU   RsbT antagonist protein RsbS OS=Bacill
+      0.026   18.1   0.6        1.3   12.5   0.0    3.0  4  sp|O05542|ADHA_GLUOX   Alcohol dehydrogenase (quinone), dehyd
+      0.035   17.7   0.0         26    8.2   0.0    3.6  4  sp|Q5RG49|ACSF4_DANRE  Beta-alanine-activating enzyme OS=Dani
+      0.044   17.4   7.6       0.86   13.1   0.1    3.0  3  sp|Q934G0|LUH_PSESP    Lupanine 17-hydroxylase [cytochrome c]
+      0.075   16.6   2.8        2.6   11.6   0.6    3.2  4  sp|Q32D50|BAMB_SHIDS   Outer membrane protein assembly factor
+      0.077   16.6   2.7          3   11.3   0.6    3.2  4  sp|P77774|BAMB_ECOLI   Outer membrane protein assembly factor
+       0.19   15.3   0.3         16    8.9   0.0    2.2  2  sp|P54742|AFSK_STRGR   Serine/threonine-protein kinase AfsK O
+       0.19   15.3   0.8        4.2   10.9   0.0    2.7  2  sp|Q44002|ADHA_KOMEU   Alcohol dehydrogenase (quinone), dehyd
+       0.24   15.0   3.3        4.7   10.7   1.0    3.0  3  sp|H9L451|BAMB_SALTY   Outer membrane protein assembly factor
+       0.29   14.7   1.3        4.2   10.9   0.0    2.6  2  sp|P28036|ADHA_GLUPO   Alcohol dehydrogenase (quinone), dehyd
+       0.29   14.7   0.7         49    7.3   0.1    2.8  2  sp|C7R5S3|BAMB_KANKD   Outer membrane protein assembly factor
+       0.39   14.3   0.1       0.64   13.6   0.1    1.2  1  sp|Q727P3|FDNGA_NITV2  Formate dehydrogenase 2 subunit alpha 
+          1   12.9   0.0        1.1   12.8   0.0    1.0  1  sp|B8I4B5|RL9_RUMCH    Large ribosomal subunit protein bL9 OS
+        1.3   12.5   0.3         46    7.4   0.0    3.1  4  sp|Q9HXJ7|BAMB_PSEAE   Outer membrane protein assembly factor
+        1.5   12.3   0.0         16    9.0   0.0    2.3  2  sp|Q9RRH3|RQKA_DEIRA   DNA damage-responsive serine/threonine
+        2.6   11.6   0.0    2.7e+02    4.9   0.0    2.7  4  sp|Q4L235|ACSF4_HUMAN  Beta-alanine-activating enzyme OS=Homo
+        2.8   11.4   0.0          4   10.9   0.0    1.2  1  sp|Q03L08|WHIA_STRTD   Probable cell division protein WhiA OS
+        2.8   11.4   0.0          4   10.9   0.0    1.2  1  sp|Q5M056|WHIA_STRT1   Probable cell division protein WhiA OS
+        2.8   11.4   0.0          4   10.9   0.0    1.2  1  sp|Q5M4R7|WHIA_STRT2   Probable cell division protein WhiA OS
+        4.1   10.9   0.1         76    6.7   0.0    2.6  3  sp|Q0AE45|BAMB_NITEC   Outer membrane protein assembly factor
+        4.9   10.6   0.0        7.7   10.0   0.0    1.2  1  sp|Q19617|NLR1_CAEEL   Neurexin like receptor 1 OS=Caenorhabd
+        5.4   10.5   0.1    1.4e+02    5.9   0.0    2.8  2  sp|Q5E769|BAMB_ALIF1   Outer membrane protein assembly factor
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|P77931|PVADH_PSESP  Polyvinylalcohol dehydrogenase OS=Pseudomonas sp. OX=306 GN=pvaA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  764.3   6.1  1.4e-232  1.7e-228       5     502 .]       5     639 .]       1     639 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 764.3 bits;  conditional E-value: 1.4e-232
+                PVA.aln   5 v...........................................................vvsrnsrsfilaal.Gvlapvaaglsst 32 
+                            +                                                           v++rns++fi+aa+ Gv+ap+aagls++
+  sp|P77931|PVADH_PSESP   5 IernqvsmttsrfvwgavmalvalgsasaaelnlpdgaalyrarcgtchdnpqdrtpardVIARNSPAFIMAAMnGVMAPMAAGLSEA 92 
+                            5555555555555555555555555555566666666666666666666666666666669*************************** PP
+
+                PVA.aln  33 eqqria....................gtpaaatP.......aaiePvdleap............arfqpkegLnv.DlPklklkraFv 80 
+                            e+q+ia                    g+p+a++P       ++i+P+dl++p            arfqp++gL++ D+P+lk+k+aF+
+  sp|P77931|PVADH_PSESP  93 EKQAIAlhlgarpaggsqeinphaiwGPPSASMPldgpkckGKIPPIDLSTPdqwngwgagitnARFQPNPGLTAaDVPRLKVKWAFN 180
+                            **************************************************************************************** PP
+
+                PVA.aln  81 vvgskn....vvGdrlvvvsmsGavealnaklgvvrsrhnaklatrgstviaqlragapakdalffsdwtdaaaadasGedegldtrk 164
+                            ++gskn    vvGdrl+v+smsGav+alnak+g+v++rh+a++atr+s++++ql+agapa++a+ffsdwt+aa+a             
+  sp|P77931|PVADH_PSESP 181 YPGSKNgqatVVGDRLFVTSMSGAVYALNAKTGCVYWRHDAAAATRSSVHVVQLPAGAPAQYAIFFSDWTKAAVA------------- 255
+                            ***************************************************************************............. PP
+
+                PVA.aln 165 LDaqv.krlwktgi..spgvqmtgsallfdsklyagGvpisg.sEwfatkddleqlkfdealkaldaasgkilqkr..vekePlPfkl 246
+                            LDaq+ k+lwkt+i  +pgvqmtgs++++++kl+   vpis+ +E+fat+d++e++kf++al+alda+sgk+l+k+  ++keP+Pf+l
+  sp|P77931|PVADH_PSESP 256 LDAQTgKQLWKTTIddQPGVQMTGSPTYHEGKLF---VPISSgNEAFATNDQWECCKFRGALVALDALSGKVLWKTytTQKEPAPFRL 340
+                            **********************************...****99*********************************99********** PP
+
+                PVA.aln 247 nklvkqvWG.gekdlWsaptvdekrrLvYvatsnaysnvfseqsdvvmviesetggvrWi.qlntddfyiialkelAsfPkksgPdFs 332
+                            nkl+kq+WG +++++Wsapt+d+kr+LvYvatsn+y++v++e+sd+vm++e+etg+vrWi q+++dd+yii+++++A++P+k+gPdF+
+  sp|P77931|PVADH_PSESP 341 NKLGKQMWGpAGGSIWSAPTIDPKRGLVYVATSNSYTEVHHEGSDAVMAMEIETGKVRWInQVTKDDNYIIGCPRAANCPEKVGPDFA 428
+                            **************************************************************************************** PP
+
+                PVA.aln 333 lkapPilyt.....efllvgqk....yaldPknkGdkiW........algelefGlaadsekvyagvsdiarkergklgvyalkireG 403
+                            l+++Pil+t     ++++vgqk    ya+dP+n+G+ iW        +lg++efG+aad+e+vy+g+sd++++++gk+gvyal+ir+G
+  sp|P77931|PVADH_PSESP 429 LGNSPILHTlqdgrQYIVVGQKsgavYAMDPDNDGELIWmrrvspgsELGGVEFGMAADAENVYVGISDVITRKGGKPGVYALRIRDG 516
+                            **************************************************************************************** PP
+
+                PVA.aln 404 vlalafgald.........Ch...sqavsvvpesllagsvdghfraistitGkvlvdvdvaakllktvagikalGgvidGagPtiagg 479
+                            ++++af+a++         Ch   sqav+++p++++ags+dghfra+st++Gkvl+++++aa+++ktvag++a+Ggv+dGagPtiagg
+  sp|P77931|PVADH_PSESP 517 ADVWAFPAPRtpcrwnnifCHpavSQAVTAMPGVVFAGSMDGHFRAFSTSDGKVLWEFNTAAAPYKTVAGKQADGGVMDGAGPTIAGG 604
+                            **************************************************************************************** PP
+
+                PVA.aln 480 ivyv............GdLrGtegnllialsvdgk 502
+                            +vyv            GdLrG+egn+lia+svdgk
+  sp|P77931|PVADH_PSESP 605 MVYVhsgyagrstqnaGDLRGREGNVLIAFSVDGK 639
+                            *********************************98 PP
+
+>> sp|Q588Z1|PVADH_SPHS1  Polyvinylalcohol dehydrogenase OS=Sphingopyxis sp. (strain 113P3) OX=292913 GN=pvadh PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  736.8   7.0  3.1e-224  3.5e-220       6     502 .]      71     654 .]      13     654 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 736.8 bits;  conditional E-value: 3.1e-224
+                PVA.aln   6 vvsrnsrsfilaal..Gvlapvaaglssteqqria....................gtpaaatP.......aaiePvdleap....... 57 
+                            v+s+n++sfila++  G+++p+a+gl+ +e+++ia                    g+++++tP       +a++Pvdl+a+       
+  sp|Q588Z1|PVADH_SPHS1  71 VLSKNPASFILASMrtGAMVPMAEGLTLEEMTAIAravgkadaktddgidlrriwGNSVEGTPldapqcsSAPTPVDLGAAnqwngws 158
+                            89************************************************************************************** PP
+
+                PVA.aln  58 .....arfqpkegLnv.DlPklklkraFvvvgskn....vvGdrlvvvsmsGavealnaklgvvrsrhnaklatrgstviaqlragap 135
+                                 +rfq+k++L+v D+Pklklk+aF+++gskn    v+Gdrl+++s+sGav+alnak+g+v++rh+a++atr+s+via+l++gap
+  sp|Q588Z1|PVADH_SPHS1 159 tekdnGRFQRKPALDVaDIPKLKLKWAFQYPGSKNgqatVIGDRLFTTSTSGAVYALNAKTGCVYWRHAAEGATRTSPVIAALPEGAP 246
+                            **************************************************************************************** PP
+
+                PVA.aln 136 akdalffsdwtdaaaadasGedegldtrkLDaqv.krlwktgi..spgvqmtgsallfdsklyagGvpisg.sEwfatkddleqlkfd 219
+                            ak+alffsd+t+aa+a             LDa++ k+lwkt++  +p++qmtgs++++d+k+y   vpis+ +E+fa+++++e++kf+
+  sp|Q588Z1|PVADH_SPHS1 247 AKTALFFSDFTKAAVA-------------LDAETgKQLWKTVVddQPALQMTGSITYWDGKIY---VPISSgTEAFAQIPTWECCKFR 318
+                            ****************.............**********************************...****99**************** PP
+
+                PVA.aln 220 ealkaldaasgkilqkr..vekePlPfklnklvkqvWG.gekdlWsaptvdekrrLvYvatsnaysnvfseqsdvvmviesetggvrW 304
+                            +al+aldaa+gkil+kr  +e+eP+Pfklnk+++q+WG +++++W++ptvde+rrL+Yv+tsn+y++v++++sd+vm+i+++tg+vrW
+  sp|Q588Z1|PVADH_SPHS1 319 GALVALDAATGKILWKRytTEQEPRPFKLNKAGRQMWGpSGGAIWVTPTVDEARRLIYVGTSNSYTDVPYDNSDSVMAIDADTGAVRW 406
+                            ******************9********************************************************************* PP
+
+                PVA.aln 305 i.qlntddfyiial....kelAsfPkksgPdFslkapPilyt.....efllvgqk....yaldPknkGdkiW........algelefG 370
+                            + ql++dd+yi+++    ke+A++P+++gPdFs++a+Pi+++     efllvgqk    yaldP+nkG+kiW        alg++efG
+  sp|Q588Z1|PVADH_SPHS1 407 TvQLLADDNYIDGCwqkgKEHANCPNPLGPDFSIGAAPIYRKmadgkEFLLVGQKsgmiYALDPANKGAKIWerqlslgsALGGIEFG 494
+                            **************************************************************************************** PP
+
+                PVA.aln 371 laadsekvyagvsdiar..kergklgvyalkireGvlalaf.gald.........Ch...sqavsvvpesllagsvdghfraistitG 443
+                            +aad++kvyagvsdia+  k+rgk+g++al+ir+G++a++f +a+d         Ch   sqa+sv+p++++ags+dghfra++t+tG
+  sp|Q588Z1|PVADH_SPHS1 495 TAADDGKVYAGVSDIASqaKDRGKPGLWALDIRTGEVAWNFlNAPDtkcrwnnwwCHgafSQAISVIPGAIFAGSYDGHFRAFDTATG 582
+                            ***************9999********************************************************************* PP
+
+                PVA.aln 444 kvlvdvdvaakllktvagikalGgvidGagPtiaggivyv............G.dLrGtegnllialsvdgk 502
+                            k+++dvd+++k+++t++g+ka+Ggv+dGagPtiagg+vyv            G dLrGt+gn+l+a+svdgk
+  sp|Q588Z1|PVADH_SPHS1 583 KIIWDVDTGTKAVTTLSGAKAFGGVMDGAGPTIAGGMVYVhsgyagrssesgGrDLRGTDGNILMAFSVDGK 654
+                            ***************************************************989****************98 PP
+
+>> sp|Q9LCQ7|OPH_PSESP  Oxidized polyvinyl alcohol hydrolase OS=Pseudomonas sp. OX=306 GN=pvaB PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  524.0   0.7    1e-159  1.2e-155       1     341 [.       1     369 [.       1     375 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 524.0 bits;  conditional E-value: 1e-159
+              PVA.aln   1 mqqsvvvsrnsrsfilaalGvlapvaaglssteqqriagtpaaatPaaiePvdleaparfqpkegLnvDlPklklkraFvvvgsknvvGd 90 
+                          m+qs++v+r +r++i++a   la+va+g+sst+++r+a+tpaaa+Paa+ePv++e+pa++++kegLnvD+P++++kraF+v+++knv+G+
+  sp|Q9LCQ7|OPH_PSESP   1 MNQSLGVLRLTRGVIALA---LASVASGCSSTGADRTAATPAAANPAATEPVKWECPAGYEVKEGLNVDFPHKGMKRAFIVYPAKNVSGP 87 
+                          9*****************...6******************************************************************** PP
+
+              PVA.aln  91 rlvvvsmsGavealnaklgvvrsrhnaklatrgstviaqlraga.............pakdalffsdwtdaaaadasGe....degldtr 163
+                          ++v+v+m+G+ve++n++l+v+rs++n++la++g+tvia++ra+a             p+++++++++w++++aad+sGe    deg+d++
+  sp|Q9LCQ7|OPH_PSESP  88 APVWVPMTGSVESTNDNLTVARSGANSILADHGYTVIAPVRACAnqdpnirgercngPGSNGWNWNPWFEGRAADPSGEhwknDEGPDSS 177
+                          ****************************************************************************************** PP
+
+              PVA.aln 164 .............kLDaqvkrlwktgispgvqmtgsallfdsklyagGvpisgsEwfatkddleqlkfdealkaldaasgkilqkrveke 240
+                                       kLDa  +rl+++gis+g++mt++allf+s+++agG+pisg Ew++t+dd+++l+fd+a++a++aa++ki+q+rv+++
+  sp|Q9LCQ7|OPH_PSESP 178 ffvamvqcvgtkyKLDA--RRLFLGGISSGGTMTNRALLFRSNFWAGGLPISG-EWYVTSDDGTPLSFDDARAAVAAAPTKIHQGRVGPY 264
+                          *****************..**********************************.************************************ PP
+
+              PVA.aln 241 PlPfklnklvk.qvWGgekdlWsaptvdekrrLv..YvatsnaysnvfseqsdvvmviesetggvrWiqlntddfyiialkelAsfPkks 327
+                          PlP+k+++l++ +vWGgekdlW+++++d++r+L+  Y+++++a+sn+fs+q+dvv+v++s+t+g++W+qlnt++f+++al++lAs+Pk+s
+  sp|Q9LCQ7|OPH_PSESP 265 PLPAKVGPLIVmTVWGGEKDLWNCTRPDGSRFLCadYRPSTQAGSNFFSAQPDVVHVACSSTHGHMWPQLNTQEFNRWALDTLASHPKGS 354
+                          ****************************************************************************************** PP
+
+              PVA.aln 328 gP.dFslkapPilyt 341
+                          +P +F+l++pP++yt
+  sp|Q9LCQ7|OPH_PSESP 355 DPrSFKLTQPPEGYT 369
+                          **************9 PP
+
+>> sp|Q588Z2|OPH_SPHS1  Oxidized polyvinyl alcohol hydrolase OS=Sphingopyxis sp. (strain 113P3) OX=292913 GN=oph PE=1 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  488.0   2.3  8.6e-149  9.9e-145       1     341 [.       1     353 [.       1     362 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 488.0 bits;  conditional E-value: 8.6e-149
+              PVA.aln   1 mqqsvvvsrnsrsfilaalGvlapvaaglssteqqriagtpaaatPaaiePvdleaparfqpkegLnvDlPklklkraFvvvgsknvvGd 90 
+                          m+++vv+sr+srsf+++a G+la+vaa+lsst+q+++               ++++p++f+pk+gLn+D+P++++kraFvvv++k+++G+
+  sp|Q588Z2|OPH_SPHS1   1 MFKPVVKSRSSRSFCYLA-GCLAMVAATLSSTAQAKS---------------EWACPEGFTPKAGLNTDFPSDGKKRAFVVVPPKDSAGG 74 
+                          99****************.******************...............8************************************* PP
+
+              PVA.aln  91 rlvvvsmsGavealnaklgvvrsrhnaklatrgstviaqlraga.............pakdalffsdwtdaaaadasGe....degldtr 163
+                          ++v+v+m+G+vea+n++l+v+rs++nakla++g++vi+++r++a             ++kd++++++w+d++a+dasG+    d+g+d+r
+  sp|Q588Z2|OPH_SPHS1  75 APVWVPMVGTVEATNWNLNVPRSGNNAKLAEHGYMVISPVRQCAeqdpnlgagacngVGKDGWTWNPWNDGRAPDASGDkyktDAGDDVR 164
+                          ****************************************************************************************** PP
+
+              PVA.aln 164 .............kLDaqvkrlwktgispgvqmtgsallfdsklyagGvpisgsEwfatkddleqlkfdealkaldaasgkilqkrveke 240
+                                       kLD+  krl+++gis+g++mt++allfds+++agG+pisg Ew++tkdd+++++f+e++k+++aa++ki+q+rv+++
+  sp|Q588Z2|OPH_SPHS1 165 fleamvrcvgtkwKLDR--KRLFLGGISAGGTMTNRALLFDSEFWAGGMPISG-EWYSTKDDGSTVPFQETRKMVAAAPAKIWQGRVGPY 251
+                          *****************..**********************************.************************************ PP
+
+              PVA.aln 241 PlPfklnklvk.qvWGgekdlWsaptvdekrrLv..YvatsnaysnvfseqsdvvmviesetggvrWiqlntddfyiialkelAsfPkks 327
+                          PlP+kl+++v+ +vWGgekdlW+++++++   L+  Y++t++a+sn+fs++s+vv+v++s+t+g++W+q+ntd+f+++al+++As+Pk+s
+  sp|Q588Z2|OPH_SPHS1 252 PLPSKLDPMVViTVWGGEKDLWDCGPPLG---LCsdYRPTTQASSNYFSSISNVVHVACSATHGHMWPQVNTDAFNLWALNTMASHPKGS 338
+                          *****************************...********************************************************** PP
+
+              PVA.aln 328 gP.dFslkapPilyt 341
+                          +P dF+l+apP++y+
+  sp|Q588Z2|OPH_SPHS1 339 SPkDFKLTAPPEGYS 353
+                          *************98 PP
+
+>> sp|P54504|RSBRD_BACSU  RsbT co-antagonist protein RsbRD OS=Bacillus subtilis (strain 168) OX=224308 GN=rsbRD PE=1 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.8   0.0   6.9e-17   7.9e-13     379     498 ..     141     269 ..     121     272 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 52.8 bits;  conditional E-value: 6.9e-17
+                PVA.aln 379 yagvsdiar....kergklgvyalkireGvlalaf.galdChsqavsvvpesllagsvd.ghfraistitGkvlvdvdvaakllktva 460
+                            y +v  i+     +   +l+ +++ i +G  +l++ g  d h  +   + es+l           + +i G+++vd+ va + +k + 
+  sp|P54504|RSBRD_BACSU 141 YHQVTMIQLnaqkEMINELSAPIMPITDGIGILPLvGEIDTH--RARTILESVLEQCSAlKLSYLFLDISGVPIVDTMVAYQIFKVID 226
+                            344444333333155679**********************88..888899999977665566669*********************** PP
+
+                PVA.aln 461 gikalG..gvidGagPtiaggivyvG.dLrG..tegnllials 498
+                            ++k+lG  ++i+G++P+ia+++v +G d+    te  l+ al+
+  sp|P54504|RSBRD_BACSU 227 STKLLGieTIISGIRPEIAQTVVKLGlDFSNvkTEQSLAKALA 269
+                            *****************************99677777888876 PP
+
+>> sp|P42409|RSBRA_BACSU  RsbT co-antagonist protein RsbRA OS=Bacillus subtilis (strain 168) OX=224308 GN=rsbRA PE=1 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.7   0.0   7.6e-17   8.8e-13     358     488 ..     110     247 ..      93     268 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 52.7 bits;  conditional E-value: 7.6e-17
+                PVA.aln 358 GdkiWalgelefGlaadsekvya....gvsdiarkergklgvyalkireGvlalaf.galdChsqavsvvpesllagsvd.ghfrais 439
+                             + iW++      +  +  + y     ++  +++    +l+ + + + e   ++++ g+ d  + + + ++e ll g v   + + ++
+  sp|P42409|RSBRA_BACSU 110 TELIWQIDRFFSPINTEIFNQYSisweKTVSLQKIALQELSAPLIPVFENITVMPLvGTID--TERAKRIMENLLNGVVKhRSQVVLI 195
+                            566776666666666666555541111555566777889**********************..67**************9778889** PP
+
+                PVA.aln 440 titGkvlvdvdvaakllktvagikalG..gvidGagPtiaggivyvG.dLrG 488
+                            +itG+++vd+ va + +++  +++++G   ++ G++P+ia++iv +G dL  
+  sp|P42409|RSBRA_BACSU 196 DITGVPVVDTMVAHHIIQASEAVRLVGakCLLAGIRPEIAQTIVNLGiDLSQ 247
+                            ***************************8889******************976 PP
+
+>> sp|O34860|RSBRB_BACSU  RsbT co-antagonist protein RsbRB OS=Bacillus subtilis (strain 168) OX=224308 GN=rsbRB PE=1 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   0.0   7.4e-13   8.4e-09     384     498 ..     155     274 ..     113     276 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 7.4e-13
+                PVA.aln 384 diarkergklgvyalkireGvlalaf.galdChsqavsvvpesllagsvd.ghfraistitGkvlvdvdvaakllktvagikalG..g 467
+                            + +r+  ++l+ +++ + + +  l++ g  d  + + + + e  l+       +  +++  G+v+vd+ va + +k + + +++G  +
+  sp|O34860|RSBRB_BACSU 155 NAQREMILELSSPVITLSKSTALLPLvGDID--TERAKFILENTLQACAKrRVEHLLIDLSGVVVVDTMVAHQIFKLIEALNLIGvrS 240
+                            35667889******************99999..679999999999888876677789****************************999 PP
+
+                PVA.aln 468 vidGagPtiaggivyvG.dLrG..tegnllials 498
+                             ++G++P+ia++ v +G d+     ++nl++al 
+  sp|O34860|RSBRB_BACSU 241 TLSGIRPEIAQTAVQLGiDFSNitIKTNLAQALN 274
+                            ********************98878999999985 PP
+
+>> sp|O31856|RSBRC_BACSU  RsbT co-antagonist protein RsbRC OS=Bacillus subtilis (strain 168) OX=224308 GN=rsbRC PE=1 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.4   0.0   5.4e-11   6.2e-07     377     498 ..     145     274 ..     110     278 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 33.4 bits;  conditional E-value: 5.4e-11
+                PVA.aln 377 kvyagvsd.iar.ker.gklgvyalkireGvlalaf.galdChsqavsvvpesllagsvd.ghfraistitGkvlvdvdvaakllktv 459
+                            ++y+++s  ++  k++  +l+ +++ + + v  l++ g  d  + + + ++e  l         + +++  G+ ++d+ va +l+  +
+  sp|O31856|RSBRC_BACSU 145 EMYKNTSLqLQAqKDMiTELSAPVIVLFHSVGLLPLiGDID--TVRAKLIMENTLHQCAKkKVTQLYIDLSGVAVIDTMVAHQLFSLI 230
+                            67777775455556653699****************99999..6688888888877666535566679******************** PP
+
+                PVA.aln 460 agikalG..gvidGagPtiaggivyvG.dLrG..tegnllials 498
+                             + +++G  + ++G++P+ia++ v +G  + G    + l+ a++
+  sp|O31856|RSBRC_BACSU 231 EALRLIGvsSTLSGIRPEIAQTAVQLGlSFEGisLRSTLASAIA 274
+                            *******999****************999998655566666666 PP
+
+>> sp|Q60282|Y3523_METJA  Uncharacterized protein MJECL23 OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.0     0.037   4.2e+02     393     454 ..     112     172 ..      90     176 .. 0.80
+   2 ?    3.2   0.1     0.075   8.5e+02     357     420 ..     160     216 ..     150     254 .. 0.77
+   3 ?   -1.0   0.0       1.4   1.6e+04      87     116 ..     260     289 ..     253     318 .. 0.76
+   4 ?    4.9   0.0     0.023   2.6e+02     420     452 ..     502     534 ..     463     561 .. 0.75
+   5 !   10.3   0.1   0.00053       6.1     348     451 ..     516     627 ..     512     639 .. 0.74
+   6 !    7.2   0.0    0.0047        54     384     459 ..     600     674 ..     565     696 .. 0.75
+   7 !    8.8   0.0    0.0016        18     391     456 ..     725     788 ..     712     802 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 4.3 bits;  conditional E-value: 0.037
+                PVA.aln 393 lgvyalkireGvlalafgaldChsqavsvvpesllagsvd.ghfraistitGkvlvdvdvaak 454
+                              ++al+i++G+ +++++  +        + + +++ ++  gh   ++ +tG  +++ +v+++
+  sp|Q60282|Y3523_METJA 112 NHLFALDIKTGNKIWEYKVEH--NVDSLFIKDNIVMLEYRgGHVCVLDVMTGDKIWESKVGER 172
+                            5689*************7766..344556777777777776999999***********99976 PP
+
+  == domain 2  score: 3.2 bits;  conditional E-value: 0.075
+                PVA.aln 357 kGdkiW..algelefGlaadsekvyagvsdiarkergklgvyalkireGvlalafgaldChsqavs 420
+                            +GdkiW  ++ge   G +++++ v  g         g+  +ya+++r+G   ++f+a  C    +s
+  sp|Q60282|Y3523_METJA 160 TGDKIWesKVGERMWGFSLKDNIVILG--------DGDKYIYAIDVRTGGKLWEFEAEWCV-WELS 216
+                            699999877999999999988877665........577889**************999886.4444 PP
+
+  == domain 3  score: -1.0 bits;  conditional E-value: 1.4
+                PVA.aln  87 vvGdrlvvvsmsGavealnaklgvvrsrhn 116
+                            ++Gd  +   m G v+al+++l     r  
+  sp|Q60282|Y3523_METJA 260 ISGDVTILADMWGCVYALDTNLYSKIQRVR 289
+                            579999************999876655554 PP
+
+  == domain 4  score: 4.9 bits;  conditional E-value: 0.023
+                PVA.aln 420 svvpesllagsvdghfraistitGkvlvdvdva 452
+                            s+  + ++ g v gh  ai+  tGk l++++  
+  sp|Q60282|Y3523_METJA 502 SIKGDIVILGCVSGHVYAIDIKTGKKLWEFKAE 534
+                            444456788999999999999999999999754 PP
+
+  == domain 5  score: 10.3 bits;  conditional E-value: 0.00053
+                PVA.aln 348 qkyaldPknkGdkiW..algelefGlaadsekvyagvsdiar.......kergklg.vyalkireGvlalaf.galdChsqavsvvpe 424
+                              ya d k +G+k+W  +  + + Gl++++  v  g  +i +        + ++ g  yal+i +G  ++      d   + +s+  +
+  sp|Q60282|Y3523_METJA 516 HVYAIDIK-TGKKLWefKAEDTVWGLSIKDDIVVLGCGNIFEsivmlknGKILEEGyAYALDINTGREIWRSkIKHD--VRSLSIKDD 600
+                            45888876.69999955446788888888888888877754443344334445555379************944555..457888889 PP
+
+                PVA.aln 425 sllagsvdghfraistitGkvlvdvdv 451
+                             ++ g   g   a++   G +l++++ 
+  sp|Q60282|Y3523_METJA 601 IVVLGCKKGYILALDINAGNMLWEFKA 627
+                            9999********************986 PP
+
+  == domain 6  score: 7.2 bits;  conditional E-value: 0.0047
+                PVA.aln 384 diarkergklgvyalkireGvlalafgaldChsqavsvvpesllagsvdghfraistitGkvlvdvdvaakllktv 459
+                            di+     k  + al+i  G++ ++f+a   +s +   + + +l    d+   a++  tG+ l+ ++  +  +k +
+  sp|Q60282|Y3523_METJA 600 DIVVLGCKKGYILALDINAGNMLWEFKAKSGKSIRNLSIKNDILLFGCDNYLYALDIDTGRELWRFKA-EGEVKSL 674
+                            35555555667899************999999999999999998888998888***********9874.4445555 PP
+
+  == domain 7  score: 8.8 bits;  conditional E-value: 0.0016
+                PVA.aln 391 gklgvyalkireGvlalafgaldChsqavsvvpesllagsvdghfraistitGkvlvdvdvaakll 456
+                             +  vyal+i  G+  +af++       +s+  +++l g  +  + a++  tG  ++ +++ +++l
+  sp|Q60282|Y3523_METJA 725 NRECVYALDINAGENLWAFKTDG-DVNGLSIKNDAVLLGCDNYLY-ALDINTGEEIWKFKTESAVL 788
+                            56789**************6654.36799999*******877777.*************9987765 PP
+
+>> sp|Q8KIL1|SLDA_GLUTH  Glycerol dehydrogenase large subunit OS=Gluconobacter thailandicus OX=257438 GN=sldA PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   0.0      0.36   4.2e+03     144     200 ..     149     217 ..     106     222 .. 0.69
+   2 !   21.0   0.2     3e-07    0.0035     221     323 ..     296     407 ..     271     434 .. 0.72
+   3 ?    4.0   0.0     0.044     5e+02     420     449 ..     660     690 ..     642     718 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 1.0 bits;  conditional E-value: 0.36
+               PVA.aln 144 dwtdaaaadasGe.....degldtrkLDaqv.krlwktgi......spgvqmtgsallfdsklyagGvp 200
+                            w  +  +   G+      + +d  kLD  + k++w+  +       p       +++f s +  +G p
+  sp|Q8KIL1|SLDA_GLUTH 149 KWAAETTPIKVGDglytcSAMNDIIKLDPATgKQIWRRNVdvkyhsIPYTAACKGVTYFTSSVVPEGQP 217
+                           454444444444444445566677788888888888888766543223333445567777777766666 PP
+
+  == domain 2  score: 21.0 bits;  conditional E-value: 3e-07
+               PVA.aln 221 alkaldaasgkilqkr.vekePlPfklnklvkqvWG.gekdlWsaptvdekrrLvYvatsnaysnvfse........qsdvvmvieset 299
+                           +  + da sgk  +   v++     + ++ + + +  g  + W + t d++ +LvYv+t n+ ++++s+         s +v +i+++t
+  sp|Q8KIL1|SLDA_GLUTH 296 VIRGYDAESGKFVWAWdVNNSDD--HSQPTGNRHYSrGTPNSWATMTGDNEEGLVYVPTGNSAADYYSAlrsdaenkVSSAVVAIDVKT 382
+                           55566666666666654444333..33566666666577788*********************999875322222225779******** PP
+
+               PVA.aln 300 ggvrWi.qlntddfyiialkelAsf 323
+                           g+ rW+ q   +d   + +  +A  
+  sp|Q8KIL1|SLDA_GLUTH 383 GSPRWVfQTAHKDVWDYDIGSQATL 407
+                           ******9999888776666555555 PP
+
+  == domain 3  score: 4.0 bits;  conditional E-value: 0.044
+               PVA.aln 420 svvpesllagsvd.ghfraistitGkvlvdv 449
+                               + +++g  + ++ rai++ tGkv++  
+  sp|Q8KIL1|SLDA_GLUTH 660 VTGGGLIFIGAATdNQIRAIDEHTGKVVWSA 690
+                           33346799*998857899***********75 PP
+
+>> sp|Q88JH5|PEDE_PSEPK  Quinoprotein alcohol dehydrogenase PedE OS=Pseudomonas putida (strain ATCC 47054 / DSM 6125 / C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.1   0.0   0.00031       3.5     393     460 ..     120     197 ..     101     202 .. 0.77
+   2 ?    4.4   0.0     0.034     4e+02     342     363 ..     221     241 ..     194     263 .. 0.77
+   3 !    9.2   0.0    0.0012        14     423     455 ..     539     571 ..     499     593 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00031
+               PVA.aln 393 lgvyalkireGvlalaf..gald.....Ch..sqavsvvpesllagsvdghfraistitGkvlvdvdvaakll.ktva 460
+                             v+al+ ++G+  +++    +d     C    +   +  + ++ g++d   +a+++ tGkv+++ + + +    t++
+  sp|Q88JH5|PEDE_PSEPK 120 SRVFALDAKTGKRLWTYnhRLPDnirpcCDvvNRGAAIYGDKIYFGTLDARVIALDKRTGKVVWNKKFGDHSAgYTMT 197
+                           56899**********995334559999777844445555679***********************9999886414555 PP
+
+  == domain 2  score: 4.4 bits;  conditional E-value: 0.034
+               PVA.aln 342 efllvgqkyaldPknkGdkiWa 363
+                           ef +vgq +a dP+ +G+++W 
+  sp|Q88JH5|PEDE_PSEPK 221 EFGVVGQLFARDPD-TGEEVWM 241
+                           799**********8.599***4 PP
+
+  == domain 3  score: 9.2 bits;  conditional E-value: 0.0012
+               PVA.aln 423 pesllagsvdghfraistitGkvlvdvdvaakl 455
+                            + ++ g+ dg f+a++  tGk l+ +++++  
+  sp|Q88JH5|PEDE_PSEPK 539 GNLVFTGTGDGFFKAFDAKTGKELWKFQTGSGI 571
+                           45699***********************99765 PP
+
+>> sp|Q70JN9|SLDA_GLUOX  Glycerol dehydrogenase large subunit OS=Gluconobacter oxydans (strain 621H) OX=290633 GN=sldA P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.0       1.4   1.6e+04     157     177 ..     171     192 ..     130     246 .. 0.61
+   2 !   22.0   0.2   1.5e-07    0.0017     219     313 ..     298     401 ..     276     435 .. 0.77
+   3 ?    4.2   0.0     0.039   4.5e+02     407     449 ..     652     694 ..     646     723 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: -1.0 bits;  conditional E-value: 1.4
+               PVA.aln 157 degldtrkLDaqv.krlwktgi 177
+                            +++d  k+D  + k++w+  i
+  sp|Q70JN9|SLDA_GLUOX 171 SAQNDIMKIDPATgKEIWRHNI 192
+                           3334444444444444444444 PP
+
+  == domain 2  score: 22.0 bits;  conditional E-value: 1.5e-07
+               PVA.aln 219 dealkaldaasgkilqkrvekePlPfklnklvkqvWG.gekdlWsaptvdekrrLvYvatsnaysnvfse........qsdvvmviese 298
+                            ++  + da sgk l+    + P   + ++ + + +  g  + W a t d++ +LvYv+t n+ s+++s+         s +v +++++
+  sp|Q70JN9|SLDA_GLUOX 298 SGVIRGYDAESGKFLWAWDVNRPND-HSQPTGNNHYSrGTPNSWAAMTGDNALGLVYVPTGNSASDYYSAlrspeenkVSSAVVALDVK 385
+                           4678889999999999986666654.45788888887788999************************985332322225899******* PP
+
+               PVA.aln 299 tggvrWi.qlntddfy 313
+                           tg+ rW+ q   +d  
+  sp|Q70JN9|SLDA_GLUOX 386 TGSPRWVfQTVHKDVW 401
+                           *******987766654 PP
+
+  == domain 3  score: 4.2 bits;  conditional E-value: 0.039
+               PVA.aln 407 lafgaldChsqavsvvpesllagsvd.ghfraistitGkvlvdv 449
+                           +++g+++ +   v    +++++   + ++ rai++ tGkv++  
+  sp|Q70JN9|SLDA_GLUOX 652 WEIGTPN-NGGSVVTAGGVVFIAAATdNQIRAIDEHTGKVVWSA 694
+                           6667777.44455566788888776648899***********75 PP
+
+>> sp|Q4W6G0|QGDA_PSEPU  Quinohemoprotein alcohol dehydrogenase ADH-IIG OS=Pseudomonas putida OX=303 GN=qgdA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.0   0.0   3.1e-07    0.0035     395     470 ..     111     201 ..     101     226 .. 0.82
+   2 ?    2.1   0.0      0.17     2e+03     255     339 ..     260     357 ..     254     371 .. 0.66
+   3 ?    2.2   0.0      0.15   1.8e+03     424     456 ..     516     548 ..     493     577 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 21.0 bits;  conditional E-value: 3.1e-07
+               PVA.aln 395 vyalkireGvlalaf.gald........Ch..sqavsvvpesllagsvdghfraistitGkvlvdvdvaa..kllktvagi.k.alGgv 468
+                           vyal+ r+G l++++ +  d        C    + v v  + +++g +dg   ai+  tG+  + vd+ a  k   t++g+ + + G v
+  sp|Q4W6G0|QGDA_PSEPU 111 VYALDARDGRLIWKYdPQSDrhrageacCDavNRGVAVWKGKVYVGVLDGRLEAIDAKTGQRAWSVDTRAdhKRSYTITGApRvVNGKV 199
+                           89*************888889999999776878899****************************9998651134557776522134555 PP
+
+               PVA.aln 469 id 470
+                           + 
+  sp|Q4W6G0|QGDA_PSEPU 200 VI 201
+                           55 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.17
+               PVA.aln 255 GgekdlWsaptvdekrrLvYvatsnay...snvfse.qsd.....vvmviesetggvrWi.qlntdd.fyiial..kelAsfPkksgPd 330
+                           Gg++  W++   d++ +L+Y +  n +    ++ s+ + d     ++ +++++tg++ W  q +  d    +a     lA  P + +P 
+  sp|Q4W6G0|QGDA_PSEPU 260 GGGGTAWDSFAYDPELNLLYIGVGNGSlwdPKWRSQaKGDnlflsSIVAVNADTGEYVWHyQTTPGDaWDYTATqhMILAELPIDGKPR 348
+                           78888888888888888888887776522212222101122222278999*********999886551445555223458888888887 PP
+
+               PVA.aln 331 FslkapPil 339
+                             l ++P  
+  sp|Q4W6G0|QGDA_PSEPU 349 KVLMQAPKN 357
+                           777777765 PP
+
+  == domain 3  score: 2.2 bits;  conditional E-value: 0.15
+               PVA.aln 424 esllagsvdghfraistitGkvlvdvdvaakll 456
+                           + ++ gs dg  +a+   tG  l++   a+ ++
+  sp|Q4W6G0|QGDA_PSEPU 516 NLVFEGSADGRVIAYAADTGEKLWEQPAASGVM 548
+                           6799********************998887655 PP
+
+>> sp|Q46444|QHED_COMTE  Quinohemoprotein alcohol dehydrogenase OS=Comamonas testosteroni OX=285 GN=qheDH PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.4   0.0       1.9   2.2e+04      19      98 ..      23     116 ..      15     121 .. 0.53
+   2 !   18.3   0.1   2.1e-06     0.024     395     471 ..     120     211 ..     106     223 .. 0.84
+   3 ?    5.0   0.4     0.023   2.6e+02     255     312 ..     270     337 ..     256     360 .. 0.76
+   4 !    7.5   0.1    0.0039        45     422     466 ..     518     562 ..     498     573 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: -1.4 bits;  conditional E-value: 1.9
+               PVA.aln  19 lGvlapvaaglssteqqria........gtpaaatPaaiePvdleap......arfqpkegLnv.DlPklklkraFvvvgskn.....v 87 
+                           lG  a+ a++   +++++ +         + aa tP      d+ +        r+ + + +n+  +  l+l ++++  +++      v
+  sp|Q46444|QHED_COMTE  23 LGSAAAFAQTGPAAQAAAAVqrvdgdfiRANAARTP------DWPTIgvdyaeTRYSRLDQINAaNVKDLGLAWSYNLESTRGveatpV 105
+                           344444444433333333323333222222222222......33333444445788888888888888889999999998887555555 PP
+
+               PVA.aln  88 vGdrlvvvsms 98 
+                           v d ++ vs s
+  sp|Q46444|QHED_COMTE 106 VVDGIMYVSAS 116
+                           55555555555 PP
+
+  == domain 2  score: 18.3 bits;  conditional E-value: 2.1e-06
+               PVA.aln 395 vyalkireGvlalaf.gald........Ch..sqavsvvpesllagsvdghfraistitGkvlvdvdv..aakllktvagi.ka.lGgv 468
+                           v+a++ r+G+ ++++ +  d        C    + v    + +++g  dg  +a++ +tGk ++  ++  ++k   t++g+ ++  G v
+  sp|Q46444|QHED_COMTE 120 VHAIDTRTGNRIWTYdPQIDrstgfkgcCDvvNRGVALWKGKVYVGAWDGRLIALDAATGKEVWHQNTfeGQKGSLTITGApRVfKGKV 208
+                           7899***********999999******777878889999*************************9998557888888888633314566 PP
+
+               PVA.aln 469 idG 471
+                           i G
+  sp|Q46444|QHED_COMTE 209 IIG 211
+                           666 PP
+
+  == domain 3  score: 5.0 bits;  conditional E-value: 0.023
+               PVA.aln 255 GgekdlWsaptvdekrrLvYvatsnaysnvfseqs....d.....vvmviesetggvrWi.qlntddf 312
+                           Gg++ +W++ t d + + +Yv+t n +   ++  s    d     ++ +++ +tg+++W  q +  d+
+  sp|Q46444|QHED_COMTE 270 GGGGTMWDSMTFDAELNTMYVGTGNGSPWSHKVRSpkggDnlylaSIVALDPDTGKYKWHyQETPGDN 337
+                           799************99*******98765554433222323333367888999999999877666665 PP
+
+  == domain 4  score: 7.5 bits;  conditional E-value: 0.0039
+               PVA.aln 422 vpesllagsvdghfraistitGkvlvdvdvaakllktvagikalG 466
+                             +++++g+ dg  +a++ +tG  l++  +++ ++ + ++  ++G
+  sp|Q46444|QHED_COMTE 518 AGNVVFQGTADGRLVAYHAATGEKLWEAPTGTGVVAAPSTYMVDG 562
+                           5679**************************998887766655555 PP
+
+>> sp|A8R3S4|QEDH_PSEPU  Quinoprotein ethanol dehydrogenase OS=Pseudomonas putida OX=303 GN=qedA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.0   0.0   0.00068       7.8     394     456 ..     113     184 ..      96     195 .. 0.79
+   2 ?    4.3   0.0     0.035     4e+02     342     364 ..     213     234 ..     203     257 .. 0.76
+   3 !    8.5   0.0     0.002        23     394     456 ..     501     564 ..     477     588 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.00068
+               PVA.aln 394 gvyalkireGvlalaf..gald.....Ch..sqavsvvpesllagsvdghfraistitGkvlvdvdvaakll 456
+                            v+al+ ++G   +++    +d     C    +   +  + ++ g++d   +a+++ tGkv+++ + + +  
+  sp|A8R3S4|QEDH_PSEPU 113 RVFALDAKTGRRLWTYnhRLPDnirpcCDvvNRGAAIFGDKIYFGTLDARVIALNKDTGKVVWNKKFGDHSA 184
+                           6899**********995334559999777855556666789***********************99998864 PP
+
+  == domain 2  score: 4.3 bits;  conditional E-value: 0.035
+               PVA.aln 342 efllvgqkyaldPknkGdkiWal 364
+                           ef +vgq ya dP+ +G+++W  
+  sp|A8R3S4|QEDH_PSEPU 213 EFGVVGQLYARDPE-TGEEVWMR 234
+                           799**********7.69****43 PP
+
+  == domain 3  score: 8.5 bits;  conditional E-value: 0.002
+               PVA.aln 394 gvyalkireGvlalaf.galdChsqavsvvpesllagsvdghfraistitGkvlvdvdvaakll 456
+                           ++ a++  +G+++++  + l   +  +    + ++ g+ dg f+a++  tG  l+ +++++  +
+  sp|A8R3S4|QEDH_PSEPU 501 SLRAMDPTTGKVVWEHnERLPLWAGVLATKGNLVFTGTGDGYFKAFNAKTGEELWKFQTGSGIV 564
+                           6667777788888888444443333444445679************************998665 PP
+
+>> sp|Q9Z4J7|QEDH_PSEAE  Quinoprotein ethanol dehydrogenase OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.5   0.0   0.00024       2.8     393     461 ..     112     190 ..      94     202 .. 0.77
+   2 ?    2.4   0.0      0.13   1.5e+03     342     365 ..     213     235 ..     186     257 .. 0.75
+   3 !    8.1   0.0    0.0025        29     402     455 ..     509     563 ..     484     585 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.00024
+               PVA.aln 393 lgvyalkireGvlalaf..gald.....Ch..sqavsvvpesllagsvdghfraistitGkvlvdvdvaakll.ktvag 461
+                             ++al+ ++G+  +++    +d     C    +   +  + ++ g++d + +a+++ tGkv++  + a +    t++g
+  sp|Q9Z4J7|QEDH_PSEAE 112 SRLFALDAKTGKRLWTYnhRLPDdirpcCDvvNRGAAIYGDKVFFGTLDASVVALNKNTGKVVWKKKFADHGAgYTMTG 190
+                           568999*********995334559999777844445555679***********************99998853145555 PP
+
+  == domain 2  score: 2.4 bits;  conditional E-value: 0.13
+               PVA.aln 342 efllvgqkyaldPknkGdkiWalg 365
+                           ef +vg+ +a dP+ +G++iW   
+  sp|Q9Z4J7|QEDH_PSEAE 213 EFGVVGRLFARDPD-TGEEIWMRP 235
+                           799**********8.69****433 PP
+
+  == domain 3  score: 8.1 bits;  conditional E-value: 0.0025
+               PVA.aln 402 eGvlalaf.galdChsqavsvvpesllagsvdghfraistitGkvlvdvdvaakl 455
+                            G+++++  + l   +  +    + ++ g+ dg f+a++   Gk l+ +++++  
+  sp|Q9Z4J7|QEDH_PSEAE 509 SGKVVWEHkEHLPLWAGVLATAGNLVFTGTGDGYFKAFDAKSGKELWKFQTGSGI 563
+                           56666655444433333444455679************************99765 PP
+
+>> sp|Q9AGW3|BOH_THABB  1-butanol dehydrogenase (quinone) OS=Thauera butanivorans (strain ATCC 43655 / DSM 2080 / JCM 20
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.8   0.0   0.00019       2.2     393     461 ..     107     185 ..      89     190 .. 0.80
+   2 ?    1.4   0.0      0.28   3.2e+03     342     369 ..     208     234 ..     186     243 .. 0.74
+   3 !    7.3   0.0    0.0043        49     423     466 ..     536     579 ..     518     600 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00019
+              PVA.aln 393 lgvyalkireGvlalafgald.......Ch..sqavsvvpesllagsvdghfraistitGkvlvdvdvaakll.ktvag 461
+                            ++a++ r G+  ++++a         C    +   +  + ++ g++d  ++a++  tGkv++  + + + +  t++g
+  sp|Q9AGW3|BOH_THABB 107 SRIFAIDARSGKRLWEYNARLpddirpcCDvvNRGAAIYGDKVFFGTLDAAMVALDRKTGKVVWRKKFGDHKVgYTMTG 185
+                          56899************875445999*777844455555679***********************99999877236655 PP
+
+  == domain 2  score: 1.4 bits;  conditional E-value: 0.28
+              PVA.aln 342 efllvgqkyaldPknkGdkiWalgelef 369
+                          ef +vg  +a dP+ +G+++Wa   +e 
+  sp|Q9AGW3|BOH_THABB 208 EFGVVGWLFARDPD-TGEEVWARPMVEG 234
+                          899**********8.69****8666655 PP
+
+  == domain 3  score: 7.3 bits;  conditional E-value: 0.0043
+              PVA.aln 423 pesllagsvdghfraistitGkvlvdvdvaakllktvagikalG 466
+                           + ++ g+ dg  +a++  +Gk l+ +++++ ++    +  ++G
+  sp|Q9AGW3|BOH_THABB 536 GGWVFTGTSDGYLKAFDAKNGKELWKFQTGSGVVSVPVTWEMDG 579
+                          5789*************************998877655555555 PP
+
+>> sp|O31537|YEZB_BACSU  Uncharacterized protein YezB OS=Bacillus subtilis (strain 168) OX=224308 GN=yezB PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   0.0   2.6e-08    0.0003     438     496 ..      18      81 ..       1      86 [. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 24.5 bits;  conditional E-value: 2.6e-08
+               PVA.aln 438 istitGkvlvdvdvaakllktvagikalG..gvidGagPtiaggivyvG.dLrG..tegnllia 496
+                           + +  G+++vd+ va++l++   +  +lG  +v++G++P +a++ + +G d+    t g l +a
+  sp|O31537|YEZB_BACSU  18 VVDLSGVPIVDTMVAQQLYNLSKTLFLLGvkAVFSGIRPDVAQTSIQLGlDFSEyeTYGTLKQA 81 
+                           57999****************9999************************998765555555555 PP
+
+>> sp|Q9AF95|BDH_THABB  1-butanol dehydrogenase (cytochrome c) OS=Thauera butanivorans (strain ATCC 43655 / DSM 2080 / J
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.0   0.0   6.2e-07    0.0071     395     462 ..     103     183 ..      94     202 .. 0.78
+   2 ?    1.8   0.0       0.2   2.3e+03     424     456 ..     503     535 ..     489     553 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 20.0 bits;  conditional E-value: 6.2e-07
+              PVA.aln 395 vyalkireGvlalaf..gald.......Ch..sqavsvvpesllagsvdghfraistitGkvlvdvdvaa..kllktvagi 462
+                          v+al++r G+  +++  + ++       C    + v v  + +++gs+dg  +ai+  tGk +++ ++        t++g+
+  sp|Q9AF95|BDH_THABB 103 VHALDVRSGKRLWTYdpEVPRekgknacCDvvNRGVAVHEGKVFVGSLDGRLVAIDARTGKRVWERNTLIddDKPYTITGA 183
+                          789************8556669*****777888899999**************************9885311233344443 PP
+
+  == domain 2  score: 1.8 bits;  conditional E-value: 0.2
+              PVA.aln 424 esllagsvdghfraistitGkvlvdvdvaakll 456
+                          +++++g+ d    a++  +Gk l+   +++ ++
+  sp|Q9AF95|BDH_THABB 503 NVVFQGTADARLLAFDARDGKELWSAPMGTGVI 535
+                          689*********************988777655 PP
+
+>> sp|Q8GR64|QHED_PSEPU  Quinohemoprotein alcohol dehydrogenase ADH IIB OS=Pseudomonas putida OX=303 GN=qbdA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.8   0.1   0.00038       4.3     394     471 ..      99     190 ..      86     197 .. 0.71
+   2 !    9.6   0.1   0.00088        10     251     313 ..     242     316 ..     193     370 .. 0.70
+   3 ?    2.1   0.0      0.16   1.9e+03     418     473 ..     486     545 ..     460     575 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00038
+               PVA.aln 394 gvyalkireGvlalaf.gald........Ch..sqavsvvpesllagsvdghfraistitGkvlvdvdva..akllktvagik.alGgv 468
+                            v a++   G+  + + +           C    + v    + +++g++dg  +a++  tGk ++  +++  ak++    + + + G v
+  sp|Q8GR64|QHED_PSEPU  99 RVIAVDAASGKELWRYdPEVAkvkartscCDavNRGVALWGDKVYVGTLDGRLIALDAKTGKAIWSQQTTdpAKPYSITGAPRvVKGKV 187
+                           5677777788888887544446777788666656667778899**********************998862245555444444134566 PP
+
+               PVA.aln 469 idG 471
+                           i G
+  sp|Q8GR64|QHED_PSEPU 188 IIG 190
+                           655 PP
+
+  == domain 2  score: 9.6 bits;  conditional E-value: 0.00088
+               PVA.aln 251 kqvW..GgekdlWsaptvdekrrLvYvatsnay...snvfseqs.d.....vvmviesetggvrWi.qlntddfy 313
+                            q W  Gg++ +W++   d++  L+Yv+t n +    +v s +  d     ++ +i  +tg+  W  q++  d  
+  sp|Q8GR64|QHED_PSEPU 242 DQYWklGGGGTVWDSMAYDPELDLLYVGTGNGSpwnREVRSPGGgDnlylsSILAIRPDTGKLAWHyQVTPGDSW 316
+                           367755799********************99862224565543232233337899999*******9999976543 PP
+
+  == domain 3  score: 2.1 bits;  conditional E-value: 0.16
+               PVA.aln 418 avsvvpesllagsvdghfraistitGkvlvdvdvaakllktvagikalG....gvidGag 473
+                            +s   + +++g+  g++ a+s  +G  l++++  +  + +  +  + G    +++ G g
+  sp|Q8GR64|QHED_PSEPU 486 TLSTAGNLVFQGTAAGQMHAYSADKGEALWQFEAQSGIVAAPMTFELAGrqyvAIMAGWG 545
+                           555666789***********************9888777776666666666668888765 PP
+
+>> sp|C5AXV8|EXAF_METEA  Lanthanide-dependent ethanol dehydrogenase OS=Methylorubrum extorquens (strain ATCC 14718 / DSM
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.6   0.3   3.2e-06     0.037      57     280 ..      52     276 ..      10     327 .. 0.77
+   2 ?   -0.3   0.0      0.88     1e+04     259     306 ..     437     483 ..     425     500 .. 0.68
+   3 ?    4.2   0.1     0.039   4.5e+02     419     457 ..     494     532 ..     467     556 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 17.6 bits;  conditional E-value: 3.2e-06
+               PVA.aln  57 parfqpkegLnv.DlPklklkraFvvvgskn........vvGdrlvvvsmsGavealnaklgvvrsrhnaklatrgstviaqlraga.p 135
+                           ++rf p ++Ln   +  l   ++F + g k+        v  + l+v+      +a++a++g  ++  na+l +   +    +  ga  
+  sp|C5AXV8|EXAF_METEA  52 AQRFSPIKTLNRdNIKGLVPAWSFSFGGEKQrgqesqalVKDGVLYVTGSYSRLYAVDARTGEKKWEYNARLPEGILPCCDVVNRGAaL 140
+                           4899999999994565566689999999999999999988888888888899999***************9999998888777777636 PP
+
+               PVA.aln 136 akdalffsdwtdaaaadasGedegldtrkLDaqv.krlwktgi...spgvqmtgsallfdsklyagGvpisgsEwfatkddleqlkfde 220
+                            kd + f     +++a             LD ++ k +w+  i   ++g   t  +++ ++k+    +++sg E          + + e
+  sp|C5AXV8|EXAF_METEA 141 YKDKVYFGTLDAKLVA-------------LDQKTgKVVWRKDIddfKSGYSYTAAPMIVKGKII---TGVSGGEF-------GVVGRVE 206
+                           7999999999999999.............999999999**9999999999*************9...99999443.......3344433 PP
+
+               PVA.aln 221 alkaldaasgkilqkr.......vekePlPf....klnklvk.qvWG.gekdlWsaptvdekrrLvYvatsna 280
+                           a+   da +g + +kr        e + +P+    k n+      W  g+++ W  +t d++ +L+Y +t n 
+  sp|C5AXV8|EXAF_METEA 207 AR---DAETGEVVWKRpvieghmGELNGKPStmtgKANESWPgDTWKfGGGATWLGGTYDPELNLIYFGTGNP 276
+                           33...55666777776655444322334444111155665556788899999999999999999999999875 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 0.88
+               PVA.aln 259 dlWsaptvdekrrLvYvatsnaysnvfseqsdvvmviesetggvrWiq 306
+                           d+W+ p v+ k++  Y ++  +    f ++  + ++i+ +t++v W  
+  sp|C5AXV8|EXAF_METEA 437 DIWNEP-VNYKKGAAYLGAGFTIKPTFEDHIGSLKAIDPATKKVVWEY 483
+                           677655.34446667777777777777777777777777777777753 PP
+
+  == domain 3  score: 4.2 bits;  conditional E-value: 0.039
+               PVA.aln 419 vsvvpesllagsvdghfraistitGkvlvdvdvaakllk 457
+                           ++   + ++ g+ +g  +a++  tG  ++ ++v++ ++ 
+  sp|C5AXV8|EXAF_METEA 494 LTTAGNLVFTGTPEGFLKAFDAKTGEEVWKFQVGTGVVA 532
+                           455567799************************998775 PP
+
+>> sp|O34627|PHOT_BACSU  Blue-light photoreceptor OS=Bacillus subtilis (strain 168) OX=224308 GN=pfyP PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.6   0.0     2e-07    0.0023     373     497 ..     126     255 ..      79     258 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 21.6 bits;  conditional E-value: 2e-07
+               PVA.aln 373 adsekvyagvsdiarkergklgvyalkireGvlalaf.galdCh.sqavsvvpesllagsvdghfraistitGkvlvdvdvaakllktv 459
+                           + ++k y ++ +    e   l+++++ ir+G  al++ g l  +    +      +l  s d+    i++  G   v+ ++a + +k  
+  sp|O34627|PHOT_BACSU 126 ITKQKEYEKLLEDSLTEITALSTPIVPIRNGISALPLvGNLTEErFNSIVCTLTNILSTSKDDYL--IIDLSGLAQVNEQTADQIFKLS 212
+                           23456677777766689999*****************9777722245566667889999999888..9********************* PP
+
+               PVA.aln 460 agikalG..gvidGagPtiaggivyvG.dLrG..tegnllial 497
+                              k++G   +i G++P++a  +  +  ++    t +n+ +a+
+  sp|O34627|PHOT_BACSU 213 HLLKLTGteLIITGIKPELAMKMNKLDaNFSSlkTYSNVKDAV 255
+                           *******877***********9998855555555666777765 PP
+
+>> sp|Q88JH0|PEDH_PSEPK  Quinoprotein alcohol dehydrogenase PedH OS=Pseudomonas putida (strain ATCC 47054 / DSM 6125 / C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.0       0.3   3.5e+03      57     118 ..      52     123 ..      11     124 .. 0.65
+   2 !   14.4   0.0     3e-05      0.35     394     456 ..     105     176 ..      92     200 .. 0.79
+   3 ?    3.7   0.0     0.055   6.3e+02     424     466 ..     502     544 ..     467     559 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 0.3
+               PVA.aln  57 p.arfqpkegLnv.DlPklklkraFvvvgskn........vvGdrlvvvsmsGavealnaklgvvrsrhnak 118
+                             +r+ p + Lnv  + +l+  +aF + g k+        +  + ++ +     v a++a++g   ++ +a+
+  sp|Q88JH0|PEDH_PSEPK  52 QgQRYSPLDLLNVnNVKELRPVWAFSFGGEKQrgqqaqplIKDGVMYLTGSYSRVFAVDARTGKKLWQYDAR 123
+                           357899999999988988889999999999988877777544445556666667888888888888877775 PP
+
+  == domain 2  score: 14.4 bits;  conditional E-value: 3e-05
+               PVA.aln 394 gvyalkireGvlalafgald.......Ch..sqavsvvpesllagsvdghfraistitGkvlvdvdvaakll 456
+                            v+a++ r+G+  ++++a         C    + v    + ++ g++d + +a+++ tGkv++  +va +  
+  sp|Q88JH0|PEDH_PSEPK 105 RVFAVDARTGKKLWQYDARLpddirpcCDviNRGVALYGNLVFFGTLDAKLVALNKDTGKVVWSKKVADHKE 176
+                           589*************6643459***7778777788888899**************************9863 PP
+
+  == domain 3  score: 3.7 bits;  conditional E-value: 0.055
+               PVA.aln 424 esllagsvdghfraistitGkvlvdvdvaakllktvagikalG 466
+                           + ++ g+ +g  +a++  tG  ++++++++ +l    +  ++G
+  sp|Q88JH0|PEDH_PSEPK 502 NLVFTGTPEGFLQAFNAKTGDKVWEFQTGSGVLGSPVTWEMDG 544
+                           56899***********************998876666566655 PP
+
+>> sp|Q7CJM5|BAMB_YERPE  Outer membrane protein assembly factor BamB OS=Yersinia pestis OX=632 GN=bamB PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.5   0.1     0.016   1.8e+02     275     314 ..      64     104 ..      43     113 .. 0.71
+   2 !   15.3   2.6   1.7e-05      0.19     356     484 ..      87     225 ..      83     243 .. 0.72
+   3 ?    1.2   0.0      0.32   3.6e+03     420     453 ..     253     286 ..     216     308 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 5.5 bits;  conditional E-value: 0.016
+               PVA.aln 275 vatsnaysnvfseqsdvvmviesetggvrWi.qlntddfyi 314
+                           +++ + +s +  +    v++++++tg+  W   l ++ +++
+  sp|Q7CJM5|BAMB_YERPE  64 RPAWQGTSVFAADRKGLVKAMDADTGKQIWQtDLSEKTNFL 104
+                           66777777778888888999999999999986666666554 PP
+
+  == domain 2  score: 15.3 bits;  conditional E-value: 1.7e-05
+               PVA.aln 356 nkGdkiW..............algelefGlaadsekvyagvsdiarkergklgvyalkireGvlalaf.galdChsqavsvvpesllag 429
+                           ++G++iW                + l  G++a   +vy+g          k  vyal+ ++G++a++   a +    +  v  +++l+ 
+  sp|Q7CJM5|BAMB_YERPE  87 DTGKQIWqtdlsektnflssnHSAMLSGGVTASGSHVYVGS--------EKAVVYALNAYDGQVAWQTvVAGEAL-SRPVVSDGVVLIH 166
+                           57999999977766666666444445556677777777764........57889************997777744.455677899**** PP
+
+               PVA.aln 430 svdghfraistitGkvlvdvdvaakll..ktvag.ikalG.gvidGagPtiaggivyvG 484
+                           + +g  +a+++++G + + ++  + +l  +  ++ + a+G +++ G   +++  ++  G
+  sp|Q7CJM5|BAMB_YERPE 167 TSNGMLQALNESDGAIKWTLNLDTPALslRGESApAVAFGaAIVGGDNGRVSAVMMEQG 225
+                           ****************9987766555411444432667886777777777776666555 PP
+
+  == domain 3  score: 1.2 bits;  conditional E-value: 0.32
+               PVA.aln 420 svvpesllagsvdghfraistitGkvlvdvdvaa 453
+                            vv ++++a  ++g   a++   G++l+  ++++
+  sp|Q7CJM5|BAMB_YERPE 253 VVVDGVVYALAYNGNLTALDLRSGQILWKREIGS 286
+                           4677888888888888888888888888877665 PP
+
+>> sp|F8GAQ8|BAMB_FRAST  Outer membrane protein assembly factor BamB OS=Francisella salina OX=573569 GN=bamB PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.6   0.0   1.3e-05      0.15     395     453 ..      79     137 ..      73     157 .. 0.88
+   2 ?    2.9   0.1     0.095   1.1e+03     331     413 ..     233     311 ..     192     345 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 15.6 bits;  conditional E-value: 1.3e-05
+               PVA.aln 395 vyalkireGvlalafgaldChsqavsvvpesllagsvdghfraistitGkvlvdvdvaa 453
+                            y l i +G+++++ ++    s + + + ++++ gsv g   a+++ +Gk+l+ +d  +
+  sp|F8GAQ8|BAMB_FRAST  79 AYGLSITDGKIVWKHDTGTILSSQPNTIANAVIFGSVKGVLTAVDQKDGKILWRTDAPS 137
+                           47899**********888877888899999***********************998765 PP
+
+  == domain 2  score: 2.9 bits;  conditional E-value: 0.095
+               PVA.aln 331 FslkapPilytefllvgqk....yaldPknkGdkiW.algelefGlaadsekvyagvsdiarkergklgvyalkireGvlalafgald 413
+                             ++a P+ly ++l+         ald k++G+ +W + + ++  +a++++ +++         + +  + a +i++G  +++ ++l+
+  sp|F8GAQ8|BAMB_FRAST 233 VDITANPMLYGNYLIFAAFqgaiVALD-KDTGKMLWaKKASIINNMAINNGVIFTA--------QANSELKAYDIQTGDTVWTQSTLE 311
+                           567777777776666543334556666.4568888843567777777777766643........334455566777777777766666 PP
+
+>> sp|Q5NIB1|BAMB_FRATT  Outer membrane protein assembly factor BamB OS=Francisella tularensis subsp. tularensis (strain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.4   0.0   6.3e-05      0.73     395     452 ..      79     136 ..      66     145 .. 0.88
+   2 ?    4.5   0.0      0.03   3.5e+02     327     415 ..     226     313 ..     207     353 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 6.3e-05
+               PVA.aln 395 vyalkireGvlalafgaldChsqavsvvpesllagsvdghfraistitGkvlvdvdva 452
+                            yal i +G+++++ ++    s + + + ++++ gs+ g   ai++ +G+ l+ +d  
+  sp|Q5NIB1|BAMB_FRATT  79 AYALAITNGKIIWKNDTGTNLSVQPNTIANAVIFGSIKGTLTAIDDKDGQTLWRTDAP 136
+                           699***********9777745889999**************************99875 PP
+
+  == domain 2  score: 4.5 bits;  conditional E-value: 0.03
+               PVA.aln 327 sgP...dFslkapPilytefllvgqk....yaldPknkGdkiW.algelefGlaadsekvyagvsdiarkergklgvyalkireGvlal 407
+                           s+P      ++a P+ly ++l+         ald k+ G+ +W + + ++  +a++++ +++   d          + a +i++G  ++
+  sp|Q5NIB1|BAMB_FRATT 226 SSPadkMVDITANPMLYDHYLIFAAYqgaiVALD-KDSGKMLWaKKASIINNMAINNGVIFTTQDD--------SELKAYNIQTGDTVW 305
+                           4554224678999999998888765455777787.56899***54678999999999888765433........345567888888888 PP
+
+               PVA.aln 408 afgaldCh 415
+                           + ++l+ +
+  sp|Q5NIB1|BAMB_FRATT 306 TQDTLKWR 313
+                           88888733 PP
+
+>> sp|I0JWN7|XOXF_METFB  Lanthanide-dependent methanol dehydrogenase OS=Methylacidiphilum fumariolicum (strain SolV) OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.5   4.5    0.0039        44     163     308 ..     161     327 ..      44     342 .. 0.60
+   2 !    7.8   0.0    0.0031        36     416     453 ..     502     539 ..     472     567 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 7.5 bits;  conditional E-value: 0.0039
+               PVA.aln 163 r..kLDaqv.krlwktgi...spgvqmtgsallfdsklyagGvpisgsEwfatkddleqlkfdealkaldaasg...kilqkr..veke 240
+                           +   LDa++ k+lwk        g ++tg +l  + k+    v++sg E  +    +      + ++ l+   g    +l      ++ 
+  sp|I0JWN7|XOXF_METFB 161 QiiALDANTgKELWKMKHadvTKGETITGAPLVVKDKVL---VGVSGGEFGVRGRVGAYDINTGNRVWLAYSQGpdeEVLLDSdfNKEF 246
+                           133789999999998542333888899999999999998...88888776665555554444455555544333222455555433333 PP
+
+               PVA.aln 241 Pl...Pfklnklvk.qvWG.gekdlWsaptvdekrrLvYvatsnaysnvfseq.......sdvvmviesetggvrWi.qln 308
+                           P+   P    k    + W  g++  W   + d++  L Y +tsn ++    +        s ++ +   +tg+ rW  q++
+  sp|I0JWN7|XOXF_METFB 247 PQhggPGDGTKTWPgEQWKlGGGTTWGWYSYDPALDLFYYGTSNPGTWNAEQRkggdnkwSCTIFARRPDTGKARWAyQMT 327
+                           332225555555545667777777777777777777777777777663322211111112445667777777777777766 PP
+
+  == domain 2  score: 7.8 bits;  conditional E-value: 0.0031
+               PVA.aln 416 sqavsvvpesllagsvdghfraistitGkvlvdvdvaa 453
+                           s  v    +  + g++dg f+a++  tGkvl++ + ++
+  sp|I0JWN7|XOXF_METFB 502 SGPVVTAGGLAFYGTMDGWFKAVDIKTGKVLWQQKLGS 539
+                           556666677889********************988765 PP
+
+>> sp|Q80WC9|ACSF4_MOUSE  Beta-alanine-activating enzyme OS=Mus musculus OX=10090 GN=Aasdh PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.4   0.0    0.0084        96     275     317 ..     776     818 ..     735     826 .. 0.77
+   2 ?    8.5   0.0     0.002        23     395     452 ..     835     894 ..     830     906 .. 0.89
+   3 ?   -0.8   0.0       1.2   1.4e+04     402     458 ..     965    1022 ..     959    1027 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 6.4 bits;  conditional E-value: 0.0084
+                PVA.aln 275 vatsnaysnvfseqsdvvmviesetggvrWiqlntddfyiial 317
+                            v    +++ +  ++s +v++++ + g+ rW ql+ d     a+
+  sp|Q80WC9|ACSF4_MOUSE 776 VQDKPSTTVYIGSHSHTVKAVDLSSGETRWEQLLGDRIESSAC 818
+                            33445778888999**********************9999998 PP
+
+  == domain 2  score: 8.5 bits;  conditional E-value: 0.002
+                PVA.aln 395 vyalkireGvlalafgald.Ch.sqavsvvpesllagsvdghfraistitGkvlvdvdva 452
+                            vy+lk   G+  ++f++ d  + s av    + +++gs d h  a++  + k ++ ++  
+  sp|Q80WC9|ACSF4_MOUSE 835 VYVLKSNSGEKYWTFTTEDaVKsSPAVDPTTGLIYVGSHDQHAYALDIYEKKCVWKLNCE 894
+                            79*************9999434799******************************99875 PP
+
+  == domain 3  score: -0.8 bits;  conditional E-value: 1.2
+                PVA.aln  402 eGvlalafgald..ChsqavsvvpesllagsvdghfraistitGkvlvdvdvaakllkt 458 
+                              G++++ f+a      s  vs+  + ++ gs d  f+     +G + + ++++a+++ t
+  sp|Q80WC9|ACSF4_MOUSE  965 SGEQVWRFAAGGpiFSSPCVSAAEQEIFFGSHD-CFIYCCSKEGHLRWKFETTARVYAT 1022
+                             69999999554432558889999999****987.455788999********99999887 PP
+
+>> sp|P42410|RSBS_BACSU  RsbT antagonist protein RsbS OS=Bacillus subtilis (strain 168) OX=224308 GN=rsbS PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.4   0.1   1.9e-06     0.021     392     488 ..       3     101 ..       1     112 [. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 1.9e-06
+               PVA.aln 392 klgvyalkireGvlalafgaldChsqavsvvpesllagsvd.ghfraistitGkvlvdvdvaakllktvagikalG..gvidGagPtia 477
+                           ++ +++lk+++  l+     ld   q      e ll ++++ g    +++ t + ++d  +a+ l   ++  k++G   v+ G++P +a
+  sp|P42410|RSBS_BACSU   3 HPKIPILKLYNCLLVSIQWELD--DQTALTFQEDLLNKIYEtGANGVVIDLTSVDMIDSFIAKVLGDVITMSKLMGakVVLTGIQPAVA 89 
+                           5677788888877776666666..688899999*******989999******************************7779********* PP
+
+               PVA.aln 478 ggivyvG.dLrG 488
+                            +++ +G  L  
+  sp|P42410|RSBS_BACSU  90 VTLIELGiALEE 101
+                           ******977765 PP
+
+>> sp|O05542|ADHA_GLUOX  Alcohol dehydrogenase (quinone), dehydrogenase subunit OS=Gluconobacter oxydans (strain 621H) O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.8   0.0       5.2   5.9e+04      17      94 ..      21     101 ..      11     115 .. 0.58
+   2 ?   12.5   0.0   0.00012       1.3     395     484 ..     114     210 ..     103     226 .. 0.78
+   3 ?    2.2   0.1      0.16   1.8e+03     254     307 ..     272     335 ..     250     375 .. 0.75
+   4 ?   -2.3   0.0       3.5     4e+04     424     451 ..     533     560 ..     528     586 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -2.8 bits;  conditional E-value: 5.2
+               PVA.aln  17 aalGvlapvaaglssteqqriagtpaaatPaaiePvdleap......arfqpkegLnv.DlPklklkraFvvvgsknvvGdrlvv 94 
+                           aal   a  aa     +q+ + gt+  +     +P d+ +       +r+ p + +n+  + klkl + +     +   G  l+v
+  sp|O05542|ADHA_GLUOX  21 AAL---AFSAAVPVAFAQEDT-GTAITSSDNGGHPGDWLSYgrsyseQRYSPLDQINTeNVGKLKLAWHYDLDTNRGQEGTPLIV 101
+                           333...222222222223333.444444445555556555556666789999999999899888888877777666666665554 PP
+
+  == domain 2  score: 12.5 bits;  conditional E-value: 0.00012
+               PVA.aln 395 vyalkireGvlalaf.gald........Ch..sqavsvvpesllagsvdghfraistitGkvlvdvdvaakllktvagikalGgvidGa 472
+                           + al+  +G+l +++ +           C   s+      + ++ g++dg  +a++  tGk+++ v +  k  +   g +     +dGa
+  sp|O05542|ADHA_GLUOX 114 MKALDAATGKLLWSYdPKVPgniadrgcCDtvSRGAAYWNGKVYFGTFDGRLIALDAKTGKLVWSVYTIPKEAQL--GHQR-SYTVDGA 199
+                           567888899999998643336889999776889999999**************************9987665442..2222.2345665 PP
+
+               PVA.aln 473 gPtiaggivyvG 484
+                            P+ia+g v +G
+  sp|O05542|ADHA_GLUOX 200 -PRIAKGKVLIG 210
+                           .88888887776 PP
+
+  == domain 3  score: 2.2 bits;  conditional E-value: 0.16
+               PVA.aln 254 WGgekdlWsaptvdekrrLvYvatsnays.nvf..seqs.d.....vvmviesetggvrWi.ql 307
+                            Gg++ +W++   d+   LvY +  n +  n+   se+  d     ++ +i+ +tg++ W  q 
+  sp|O05542|ADHA_GLUOX 272 QGGGGTVWDSLVYDPVTDLVYLGVGNGSPwNYKfrSEGKgDnlflgSIVAINPDTGKYVWHfQE 335
+                           4999*****************9999876424431133222233333678888899999888764 PP
+
+  == domain 4  score: -2.3 bits;  conditional E-value: 3.5
+               PVA.aln 424 esllagsvdghfraistitGkvlvdvdv 451
+                           +++++g  +g f a++ ++G  l+ +  
+  sp|O05542|ADHA_GLUOX 533 NVIFQGLANGEFHAYDATNGNDLYSFPA 560
+                           689**************99998887755 PP
+
+>> sp|Q5RG49|ACSF4_DANRE  Beta-alanine-activating enzyme OS=Danio rerio OX=7955 GN=aasdh PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.2   0.0       1.7   1.9e+04     424     467 ..     815     857 ..     784     865 .. 0.72
+   2 ?    8.2   0.0    0.0023        26     394     450 ..     867     925 ..     834     934 .. 0.88
+   3 ?    2.0   0.0      0.18   2.1e+03     411     451 ..     976    1008 ..     953    1015 .. 0.76
+   4 ?    2.1   0.0      0.16   1.9e+03     418     458 ..    1036    1077 ..    1018    1090 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: -1.2 bits;  conditional E-value: 1.7
+                PVA.aln 424 esllagsvdghfraistitGkvlvdvdvaakllktvagikalGg 467
+                             ++++gs     +a++ + G v+++   + +l +  a+i   Gg
+  sp|Q5RG49|ACSF4_DANRE 815 TTVFIGSHSHRLQALDLSRGEVIWERILGDRL-ESSAAISSCGG 857
+                            47999**999999***********98877664.34455555554 PP
+
+  == domain 2  score: 8.2 bits;  conditional E-value: 0.0023
+                PVA.aln 394 gvyalkireGvlalafgald.Ch.sqavsvvpesllagsvdghfraistitGkvlvdvd 450
+                             +y l++  G  +++f++ d  + s  v    + ++ags dgh  a++  t   +++  
+  sp|Q5RG49|ACSF4_DANRE 867 QMYFLDVSCGDTVWTFETGDvVKsSPTVDPKTGLVFAGSHDGHVYALNPLTKTCTWQHY 925
+                            578999**********9999544788999999****************99999999865 PP
+
+  == domain 3  score: 2.0 bits;  conditional E-value: 0.18
+                PVA.aln  411 aldChsqavsvvpesllagsvdghfraistitGkvlvdvdv 451 
+                             +++C          s+++gsv+gh + is   G  l+d+ +
+  sp|Q5RG49|ACSF4_DANRE  976 SPHCS-------DSSVFIGSVNGHIIGISH-SGNTLWDFST 1008
+                             44455.......679**********88875.699****987 PP
+
+  == domain 4  score: 2.1 bits;  conditional E-value: 0.16
+                PVA.aln  418 avsvvp.esllagsvdghfraistitGkvlvdvdvaakllkt 458 
+                              v+  p   +  gs dgh   ++  +G +l++++++ k++ t
+  sp|Q5RG49|ACSF4_DANRE 1036 SVTTSPnHIVTCGSHDGHVYCLNAQNGSLLWQFQTTGKVFST 1077
+                             4444440456789**********************9998776 PP
+
+>> sp|Q934G0|LUH_PSESP  Lupanine 17-hydroxylase [cytochrome c] OS=Pseudomonas sp. OX=306 GN=luh PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.4      0.14   1.6e+03     358     450 ..     107     219 ..      88     223 .. 0.57
+   2 ?    7.3   0.3    0.0045        52     219     324 ..     201     332 ..     177     362 .. 0.66
+   3 ?   13.1   0.1   7.5e-05      0.86     424     467 ..     492     537 ..     482     576 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 2.3 bits;  conditional E-value: 0.14
+              PVA.aln 358 GdkiW.................algelefGlaadsekvyagvsd..iarkergklgvyalkireGvlalaf.galdChsqavsvvpesll 427
+                          G+++W                   + ++ Gla+d+ +vy g     +a   + +  ++  +  + +   a+ ga++          + ++
+  sp|Q934G0|LUH_PSESP 107 GKNLWtytpevqydkdtswtgfWGTHVNRGLAVDDDNVYIGSYCklLAVSRTTHKLTWSSQSCDPKKMQAItGAPRVG-------GGKVF 189
+                          455555555555555554454434568889999999999886433333344444445666666666666666666633.......33344 PP
+
+              PVA.aln 428 agsv......d.ghfraistitGkvlvdvd 450
+                          +g+       d gh  a++  tGk l+ + 
+  sp|Q934G0|LUH_PSESP 190 IGNAsgdfggDrGHLDAFDAKTGKHLWRFY 219
+                          443311112223677888888888888765 PP
+
+  == domain 2  score: 7.3 bits;  conditional E-value: 0.0045
+              PVA.aln 219 dealkaldaasgkilqkr...vekePlPfklnklvk..qvWGg........ekdlWsaptvdekrrLvYvat........snaysnv.fs 286
+                          ++ l a+da +gk l++     ++  +Pf  + l k  + WG+        + + W+a t de+   +Y +t        ++   +    
+  sp|Q934G0|LUH_PSESP 201 RGHLDAFDAKTGKHLWRFytmPGDPSKPFENDLLAKasKTWGTdywkytkgGVSPWDAITYDEASDTLYFGTdgpspwspAQRAPDAgDE 290
+                          67789999999999999774334445788888877766788862333332234779******9999998887222221111222222022 PP
+
+              PVA.aln 287 eqsdvvmviesetggvrWi.q.lntddfyiial..kelAsfP 324
+                            s ++ +++++tg+++W  q +++d  ++ a     lA  P
+  sp|Q934G0|LUH_PSESP 291 LFSHSIIAVDASTGAYKWHfQtVQNDGSNMSATmhIMLADLP 332
+                          347899************997256666777766333456666 PP
+
+  == domain 3  score: 13.1 bits;  conditional E-value: 7.5e-05
+              PVA.aln 424 esllagsvdghfraistitGkvlvdvdvaakllktvagikalG..g 467
+                          + +++g+ dghf a++  tG  l+ ++v+   l + +++ ++G   
+  sp|Q934G0|LUH_PSESP 492 GLVFQGTGDGHFEAFDANTGEKLWSFHVGGSILAAPTTVEVDGdqY 537
+                          679****************************999999999998652 PP
+
+>> sp|Q32D50|BAMB_SHIDS  Outer membrane protein assembly factor BamB OS=Shigella dysenteriae serotype 1 (strain Sd197) O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   0.2    0.0012        14     396     456 ..      82     152 ..      61     159 .. 0.75
+   2 ?   11.6   0.6   0.00022       2.6     358     456 ..      89     192 ..      85     226 .. 0.63
+   3 ?    2.5   0.0      0.12   1.4e+03     420     453 ..     252     285 ..     215     297 .. 0.75
+   4 ?   -1.0   0.0       1.4   1.6e+04     285     306 ..     298     319 ..     292     322 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.0012
+               PVA.aln 396 yalkireGvlalafgald.....Ch.....sqavsvvpesllagsvdghfraistitGkvlvdvdvaakll 456
+                            al+  +G+ +++++  +      +     s  v+v  + +++gs   +  a++t++G v ++++va ++l
+  sp|Q32D50|BAMB_SHIDS  82 KALNADDGKEIWSVSLAEkdgwfSKepallSGGVTVSGGHVYIGSEKAQVYALNTSDGTVAWQTKVAGEAL 152
+                           456666677777663333246652233345999**************8888***************98876 PP
+
+  == domain 2  score: 11.6 bits;  conditional E-value: 0.00022
+               PVA.aln 358 GdkiW.............algelefGlaadsekvyagvsdiarkergklgvyalkireGvlalaf.galdChsqavsvvpesllagsvd 432
+                           G++iW             + + l  G+++  ++vy g          k  vyal+  +G++a++   a +    +  v  + +l+ + +
+  sp|Q32D50|BAMB_SHIDS  89 GKEIWsvslaekdgwfskEPALLSGGVTVSGGHVYIG--------SEKAQVYALNTSDGTVAWQTkVAGEAL-SRPVVSDGLVLIHTSN 168
+                           6666655444444444443333444555555555554........3477899***********996666644.3445667889999999 PP
+
+               PVA.aln 433 ghfraistitGkvlvdvdvaakll 456
+                           g+ +a+++++G v + v+     l
+  sp|Q32D50|BAMB_SHIDS 169 GQLQALNEADGAVKWTVNLDMPSL 192
+                           ***********9999888655433 PP
+
+  == domain 3  score: 2.5 bits;  conditional E-value: 0.12
+               PVA.aln 420 svvpesllagsvdghfraistitGkvlvdvdvaa 453
+                            vv ++++a  ++g   a++   G++++  + ++
+  sp|Q32D50|BAMB_SHIDS 252 VVVNGVVFALAYNGNLTALDLRSGQIMWKRELGS 285
+                           578999*********************9987765 PP
+
+  == domain 4  score: -1.0 bits;  conditional E-value: 1.4
+               PVA.aln 285 fseqsdvvmviesetggvrWiq 306
+                             +q d vm++ ++ g   W+q
+  sp|Q32D50|BAMB_SHIDS 298 LVDQNDRVMALTIDGGVTLWTQ 319
+                           57899***************99 PP
+
+>> sp|P77774|BAMB_ECOLI  Outer membrane protein assembly factor BamB OS=Escherichia coli (strain K12) OX=83333 GN=bamB P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.9   0.2    0.0015        17     396     456 ..      82     152 ..      66     157 .. 0.75
+   2 ?   11.3   0.6   0.00027         3     358     454 ..      89     190 ..      85     224 .. 0.64
+   3 ?    2.8   0.0      0.11   1.2e+03     420     453 ..     252     285 ..     210     297 .. 0.72
+   4 ?   -1.0   0.0       1.4   1.6e+04     285     306 ..     298     319 ..     293     323 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 8.9 bits;  conditional E-value: 0.0015
+               PVA.aln 396 yalkireGvlalafgald.....Ch.....sqavsvvpesllagsvdghfraistitGkvlvdvdvaakll 456
+                            al+  +G+ +++++  +      +     s  v+v  + +++gs   +  a++t++G v ++++va ++l
+  sp|P77774|BAMB_ECOLI  82 KALNADDGKEIWSVSLAEkdgwfSKepallSGGVTVSGGHVYIGSEKAQVYALNTSDGTVAWQTKVAGEAL 152
+                           466666777777763333256662233345999**************8888***************98876 PP
+
+  == domain 2  score: 11.3 bits;  conditional E-value: 0.00027
+               PVA.aln 358 GdkiW.............algelefGlaadsekvyagvsdiarkergklgvyalkireGvlalaf.galdChsqavsvvpesllagsvd 432
+                           G++iW             + + l  G+++  ++vy g          k  vyal+  +G++a++   a +    +  v  + +l+ + +
+  sp|P77774|BAMB_ECOLI  89 GKEIWsvslaekdgwfskEPALLSGGVTVSGGHVYIG--------SEKAQVYALNTSDGTVAWQTkVAGEAL-SRPVVSDGLVLIHTSN 168
+                           5666644444444444443333444555555555554........346789999999999999996666633.3445667888999999 PP
+
+               PVA.aln 433 ghfraistitGkvlvdvdvaak 454
+                           g+ +a+++++G v + v+    
+  sp|P77774|BAMB_ECOLI 169 GQLQALNEADGAVKWTVNLDMP 190
+                           9999999999999998876544 PP
+
+  == domain 3  score: 2.8 bits;  conditional E-value: 0.11
+               PVA.aln 420 svvpesllagsvdghfraistitGkvlvdvdvaa 453
+                            vv ++++a  ++g   a++   G++++  + ++
+  sp|P77774|BAMB_ECOLI 252 VVVNGVVFALAYNGNLTALDLRSGQIMWKRELGS 285
+                           578999**********************987765 PP
+
+  == domain 4  score: -1.0 bits;  conditional E-value: 1.4
+               PVA.aln 285 fseqsdvvmviesetggvrWiq 306
+                             +q d vm++ ++ g   W+q
+  sp|P77774|BAMB_ECOLI 298 LVDQNDRVMALTIDGGVTLWTQ 319
+                           56899***************99 PP
+
+>> sp|P54742|AFSK_STRGR  Serine/threonine-protein kinase AfsK OS=Streptomyces griseus OX=1911 GN=afsK PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.0     0.035   4.1e+02     391     475 ..     494     566 ..     447     589 .. 0.81
+   2 ?    8.9   0.0    0.0014        16      85     137 ..     655     707 ..     634     720 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 4.3 bits;  conditional E-value: 0.035
+               PVA.aln 391 gklgvyalkireGvlalafgaldChsqavsvvpesllagsvdghfraistitGkvlvdvdvaakllktvagikalGgvidGagPt 475
+                             +++yal+   G+  + +++      a+++  +++l  +  g  +  + ++G  l++v  a+  ++t  +           gP 
+  sp|P54742|AFSK_STRGR 494 DGPSLYALDAASGAEQWRLATDA-WVYALKADRGTVLTATRGGGVQGWEASNGEKLWEVTGAQSDFETAEA-----------GPV 566
+                           4699***************8776.45899999******99999999*****************99999654...........444 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.0014
+               PVA.aln  85 knvvGdrlvvvsmsGavealnaklgvvrsrhnaklatrgstviaqlragapak 137
+                             v+G+ ++     G+v+al+a +g  r+r +++++   ++v++++ +  +++
+  sp|P54742|AFSK_STRGR 655 PAVTGGGVYLADYLGTVYALDATTGKDRWRIATEARSSIEPVLVAVGNVHVGS 707
+                           34899999999*******************************99998777665 PP
+
+>> sp|Q44002|ADHA_KOMEU  Alcohol dehydrogenase (quinone), dehydrogenase subunit OS=Komagataeibacter europaeus OX=33995 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   0.00037       4.2     396     484 ..     117     212 ..     102     217 .. 0.68
+   2 ?    1.6   0.3      0.23   2.6e+03     253     286 ..     273     307 ..     216     351 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00037
+               PVA.aln 396 yalkireGvlalaf.gald........Ch..sqavsvvpesllagsvdghfraistitGkvlvdvdvaakllktvagikalGgvidGag 473
+                            a++  +G+l +++ +           C    +      + ++ g++dg  +a++  tGk+++ v++     +   g++     +dGa 
+  sp|Q44002|ADHA_KOMEU 117 KAVDAATGKLLWSYdPRVPgniadkgcCDtvNRGAAYWNGKVYFGTFDGRLIALDAKTGKLVWSVNTIPPEAE--LGKQR-SYTVDGA- 201
+                           56777777777777433335777888665645556667899***********************998543222..22222.2234554. PP
+
+               PVA.aln 474 PtiaggivyvG 484
+                           P+ia+g v +G
+  sp|Q44002|ADHA_KOMEU 202 PRIAKGRVIIG 212
+                           66666666655 PP
+
+  == domain 2  score: 1.6 bits;  conditional E-value: 0.23
+               PVA.aln 253 vWGgekdlWsaptvdekrrLvYvatsnays.nvfs 286
+                             Gg++ +W++   d+   LvY +  n +  n+ +
+  sp|Q44002|ADHA_KOMEU 273 RQGGGGTVWDSIVYDPVADLVYLGVGNGSPwNYKY 307
+                           33899999999999999999999988865324444 PP
+
+>> sp|H9L451|BAMB_SALTY  Outer membrane protein assembly factor BamB OS=Salmonella typhimurium (strain LT2 / SGSC1412 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.1      0.06   6.9e+02     422     484 ..      68     125 ..      61     130 .. 0.77
+   2 ?   10.7   1.0   0.00041       4.7     357     469 ..      88     209 ..      85     226 .. 0.62
+   3 ?    1.2   0.0       0.3   3.5e+03     420     452 ..     252     284 ..     210     297 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 3.6 bits;  conditional E-value: 0.06
+               PVA.aln 422 vpesllagsvdghfraistitGkvlvdvdvaakl.lktvagikalGgvidGagPtiaggivyvG 484
+                           v ++++a    g  +a++  +Gk ++ v+ ++k      +++ + Ggv      t+agg vy+G
+  sp|H9L451|BAMB_SALTY  68 VDNVVYAADRAGVVKALNADDGKEIWSVNLGEKDgWFSRSSALLSGGV------TVAGGHVYIG 125
+                           55678888889*******************998613444555555554......8999999998 PP
+
+  == domain 2  score: 10.7 bits;  conditional E-value: 0.00041
+               PVA.aln 357 kGdkiW.............algelefGlaadsekvyagvsdiarkergklgvyalkireGvlalaf.galdChsqavsvvpesllagsv 431
+                           +G++iW               + l  G+++  ++vy g          k  vyal+  +G+ a++   a +    +  v  + +l+ + 
+  sp|H9L451|BAMB_SALTY  88 DGKEIWsvnlgekdgwfsrSSALLSGGVTVAGGHVYIG--------SEKAEVYALNTSDGTTAWQTkVAGEAL-SRPVVSDGIVLIHTS 167
+                           56666655444333333322222333444444444444........457889************996666644.445566788999999 PP
+
+               PVA.aln 432 dghfraistitGkvlvdvdvaakll..kt.vagikalG.gvi 469
+                           +g+ +a+++++G + + v+     l  +   a + a+G +++
+  sp|H9L451|BAMB_SALTY 168 NGQLQALNQADGAIKWTVNLDMPSLslRGeSAPATAFGaAIV 209
+                           9***********999998875544300331334566664444 PP
+
+  == domain 3  score: 1.2 bits;  conditional E-value: 0.3
+               PVA.aln 420 svvpesllagsvdghfraistitGkvlvdvdva 452
+                            vv ++++a  ++g   a++   G++++  + +
+  sp|H9L451|BAMB_SALTY 252 VVVNGVVYALAYNGNLTALDLRSGQIMWKRELG 284
+                           477889999999999999999999999987665 PP
+
+>> sp|P28036|ADHA_GLUPO  Alcohol dehydrogenase (quinone), dehydrogenase subunit OS=Gluconacetobacter polyoxogenes OX=439
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   0.00036       4.2     396     484 ..     117     212 ..     104     220 .. 0.69
+   2 ?    1.7   0.4      0.22   2.6e+03     254     286 ..     270     306 ..     215     347 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00036
+               PVA.aln 396 yalkireGvlalaf.gald........Ch..sqavsvvpesllagsvdghfraistitGkvlvdvdvaakllktvagikalGgvidGag 473
+                            a++  +G+l +++ +           C    +      + ++ g++dg  +a++  tGk+++ v++     +   g++     +dGa 
+  sp|P28036|ADHA_GLUPO 117 KAVDAATGKLLWSYdPRVPgniadkgcCDtvNRGAAYWNGKVYFGTFDGRLIALDAKTGKLVWSVNTIPPEAE--LGKQR-SYTVDGA- 201
+                           56777777777777433325777788665644555667899***********************998543222..22222.2334554. PP
+
+               PVA.aln 474 PtiaggivyvG 484
+                           P+ia+g v +G
+  sp|P28036|ADHA_GLUPO 202 PRIAKGRVIIG 212
+                           66666666665 PP
+
+  == domain 2  score: 1.7 bits;  conditional E-value: 0.22
+               PVA.aln 254 W...GgekdlWsaptvdekrrLvYvatsnays.nvfs 286
+                           W   Gg++ +W++   d+   LvY +  n +  n+ +
+  sp|P28036|ADHA_GLUPO 270 WtrqGGGGTVWDSIVYDPVADLVYLGVGNGSPwNYKY 306
+                           23338999****************9988865324444 PP
+
+>> sp|C7R5S3|BAMB_KANKD  Outer membrane protein assembly factor BamB OS=Kangiella koreensis (strain DSM 16069 / JCM 1231
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.3   0.1    0.0043        49     424     462 ..      68     106 ..      56     126 .. 0.86
+   2 ?    4.5   0.1     0.032   3.7e+02     413     451 ..     168     220 ..     112     285 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 7.3 bits;  conditional E-value: 0.0043
+               PVA.aln 424 esllagsvdghfraistitGkvlvdvdvaakllktvagi 462
+                           + ++   vdg   a++   Gkv+++++  + l   v++ 
+  sp|C7R5S3|BAMB_KANKD  68 DKIITADVDGLITAFDIKSGKVIWETNLKQPLSGGVTAN 106
+                           5688899********************999988888875 PP
+
+  == domain 2  score: 4.5 bits;  conditional E-value: 0.032
+               PVA.aln 413 d...............ChsqavsvvpesllagsvdghfraistitGkvlvdvdv 451
+                           +                 + a  +  ++++ g  +g++ a++  tG +l++  +
+  sp|C7R5S3|BAMB_KANKD 168 KqewfydriipnltlrG-TSAAVATSGVVITGFANGKMAAFNLRTGDMLWEQSI 220
+                           23344444333333212.234445667777777777777777777777777665 PP
+
+>> sp|Q727P3|FDNGA_NITV2  Formate dehydrogenase 2 subunit alpha (cytochrome c-553) OS=Nitratidesulfovibrio vulgaris (str
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.6   0.1   5.5e-05      0.64     403     479 ..     178     257 ..     157     276 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 5.5e-05
+                PVA.aln 403 GvlalafgaldChsqavsvvpesllagsvdghfraistitGkvlvdvdvaak...llktvagikalGgvidGagPtiagg 479
+                            Gv+ +  +a  +hs  v ++ es   g +++h++ i++++ ++++  + a++   ++k +  ++  G+v+  + P+ + +
+  sp|Q727P3|FDNGA_NITV2 178 GVVHMDHQARVUHSPTVAALAESFGRGAMTNHWIDIKNTDAVLIIGSNAAEHhpvAFKWIMRARDNGAVLMHVDPKFSRT 257
+                            44444446777***************************************9844458999999*******9999987765 PP
+
+>> sp|B8I4B5|RL9_RUMCH  Large ribosomal subunit protein bL9 OS=Ruminiclostridium cellulolyticum (strain ATCC 35319 / DSM
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.0   9.5e-05       1.1      91     172 ..      27     115 ..       3     135 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 9.5e-05
+              PVA.aln  91 rlvvvsmsGavealnaklgvvrsrhnaklatrgstviaqlraga.............pakdalffsdwtdaaaadasGedegldtrkLDa 167
+                          r +  +   avea+ a++++++ +++a+++ +++  +aq ++ a              ++++  f   t + +a     ++ +  +kLD 
+  sp|B8I4B5|RL9_RUMCH  27 RNFLLPKGLAVEATSANVNIMKTKKEAEAQ-KKEREVAQAKELAkkikditvtlkvkAGENGKLFGSITSKDVA-----EALKTQQKLDI 110
+                          678888889*****************9966.55667899999999**********999999999*999999999.....44555567777 PP
+
+              PVA.aln 168 qvkrl 172
+                          + k+l
+  sp|B8I4B5|RL9_RUMCH 111 DKKKL 115
+                          76666 PP
+
+>> sp|Q9HXJ7|BAMB_PSEAE  Outer membrane protein assembly factor BamB OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.0      0.31   3.5e+03     276     305 ..      62      91 ..      44      97 .. 0.70
+   2 ?    7.4   0.0     0.004        46     394     456 ..      77     139 ..      63     149 .. 0.83
+   3 ?   -1.8   0.0       2.6   2.9e+04     426     452 ..     194     220 ..     158     239 .. 0.85
+   4 ?    0.9   0.0      0.38   4.4e+03      78     117 ..     270     308 ..     225     319 .. 0.55
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 0.31
+               PVA.aln 276 atsnaysnvfseqsdvvmviesetggvrWi 305
+                           ++ + ++ +  +    vm+i+ etg v W 
+  sp|Q9HXJ7|BAMB_PSEAE  62 PAVDGSTIYAASAEGRVMAIQRETGDVLWK 91 
+                           555666667777777888888888888886 PP
+
+  == domain 2  score: 7.4 bits;  conditional E-value: 0.004
+               PVA.aln 394 gvyalkireGvlalafgaldChsqavsvvpesllagsvdghfraistitGkvlvdvdvaakll 456
+                            v+a++  +G + ++ +  +  s  v v  + +l+g++ g  +a++++tGk  +   v +++l
+  sp|Q9HXJ7|BAMB_PSEAE  77 RVMAIQRETGDVLWKKDLERPVSGGVGVGYGLVLVGTLRGDVIALDEATGKKKWTKRVNSEVL 139
+                           5778888899999988666655999999**************************988877665 PP
+
+  == domain 3  score: -1.8 bits;  conditional E-value: 2.6
+               PVA.aln 426 llagsvdghfraistitGkvlvdvdva 452
+                            lag   g+ +a++   G ++++  va
+  sp|Q9HXJ7|BAMB_PSEAE 194 ALAGLASGKVVAVDVQRGLPIWEQRVA 220
+                           577888899999999999999998877 PP
+
+  == domain 4  score: 0.9 bits;  conditional E-value: 0.38
+               PVA.aln  78 aFvvvgsknvvGdrlvvvsmsGavealnaklgvvrsrhna 117
+                           a  +vg  +  G+ ++v   sG+ve l+ + +   + ++a
+  sp|Q9HXJ7|BAMB_PSEAE 270 ASSYVGVAEGFGN-IYVSQASGSVEGLDSRGASSLWNNDA 308
+                           3344444444443.23344555555555555555555555 PP
+
+>> sp|Q9RRH3|RQKA_DEIRA  DNA damage-responsive serine/threonine-protein kinase RqkA OS=Deinococcus radiodurans (strain A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.0   0.0    0.0014        16     395     454 ..     420     479 ..     415     485 .. 0.86
+   2 ?    0.1   0.0      0.68   7.7e+03     395     441 ..     612     658 ..     578     662 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 9.0 bits;  conditional E-value: 0.0014
+               PVA.aln 395 vyalkireGvlalafgaldChsqavsvvpesllagsvdghfraistitGkvlvdvdvaak 454
+                           ++al +r+G+la+a+ a    +    v  ++ l+   +g   a++   G +l+ v+v++ 
+  sp|Q9RRH3|RQKA_DEIRA 420 LHALSLRTGELAWAYRAGGSLAASPLVWAGAALQCDETGWLHALDARSGTPLWKVEVGTV 479
+                           689************98883344455889***************************9975 PP
+
+  == domain 2  score: 0.1 bits;  conditional E-value: 0.68
+               PVA.aln 395 vyalkireGvlalafgaldChsqavs.vvpesllagsvdghfraisti 441
+                           + al++r+G++ ++        qa+  +  ++l++  +dg  ra+ ++
+  sp|Q9RRH3|RQKA_DEIRA 612 LLALDVRNGEVRWTCRERSG-VQATPlAASGTLYVAFMDGTLRAYRNA 658
+                           57999********9844442.588762567999999999999998765 PP
+
+>> sp|Q4L235|ACSF4_HUMAN  Beta-alanine-activating enzyme OS=Homo sapiens OX=9606 GN=AASDH PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0     0.077   8.9e+02     266     317 ..     766     819 ..     727     828 .. 0.79
+   2 ?    4.9   0.0     0.023   2.7e+02     395     452 ..     836     895 ..     830     902 .. 0.86
+   3 ?    0.2   0.0      0.64   7.3e+03     395     453 ..     878     938 ..     875     943 .. 0.78
+   4 ?   -3.3   0.0       7.3   8.4e+04     403     458 ..     967    1023 ..     965    1030 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 3.2 bits;  conditional E-value: 0.077
+                PVA.aln 266 vdekrrLvYvatsn..aysnvfseqsdvvmviesetggvrWiqlntddfyiial 317
+                              ++  Lv  +t +  +++ +  ++s  +++++   g+v+W q++ d     a+
+  sp|Q4L235|ACSF4_HUMAN 766 CVDASPLVVIPTFDksSTTVYIGSHSHRMKAVDFYSGKVKWEQILGDRIESSAC 819
+                            455566777777541134445568889999*****************9999988 PP
+
+  == domain 2  score: 4.9 bits;  conditional E-value: 0.023
+                PVA.aln 395 vyalkireGvlalafgald.Ch.sqavsvvpesllagsvdghfraistitGkvlvdvdva 452
+                            vy+lk   G+  + f++ d  + s  +    + +++gs d h  a++    k ++  + +
+  sp|Q4L235|ACSF4_HUMAN 836 VYVLKSNSGEKYWMFTTEDaVKsSATMDPTTGLIYIGSHDQHAYALDIYRKKCVWKSKCG 895
+                            799************9999444566778899***********99***9999999987765 PP
+
+  == domain 3  score: 0.2 bits;  conditional E-value: 0.64
+                PVA.aln 395 vyalkireGvlalafgaldCh..sqavsvvpesllagsvdghfraistitGkvlvdvdvaa 453
+                             yal+i+  + +++ ++      s  ++ +p  l+  ++ g   a++ +tG v++    ++
+  sp|Q4L235|ACSF4_HUMAN 878 AYALDIYRKKCVWKSKCGGTVfsSPCLNLIPHHLYFATLGGLLLAVNPATGNVIWKHSCGK 938
+                            57888888888887633331133778899**************************987765 PP
+
+  == domain 4  score: -3.3 bits;  conditional E-value: 7.3
+                PVA.aln  403 Gvlalafgald..ChsqavsvvpesllagsvdghfraistitGkvlvdvdvaakllkt 458 
+                             G+++++f++      s  +s   + ++ gs d  f+   +++G + + ++++++++ t
+  sp|Q4L235|ACSF4_HUMAN  967 GEQVWQFSTSGpiFSSPCTSPSEQKIFFGSHD-CFIYCCNMKGHLQWKFETTSRVYAT 1023
+                             77888886665442355556677789999987.4567899999999999999999887 PP
+
+>> sp|Q03L08|WHIA_STRTD  Probable cell division protein WhiA OS=Streptococcus thermophilus (strain ATCC BAA-491 / LMD-9)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   0.00035         4      74     136 ..       6      67 ..       3      98 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00035
+               PVA.aln  74 klkraFvvvgsknvvGdrlvvvsmsGavealnaklgvvrsrhnaklatrgstviaqlragapa 136
+                           k+k   +  +sk+++ +    + msG+v  +n+ l+   s +nak a + +  i +   + p 
+  sp|Q03L08|WHIA_STRTD   6 KVKEEIIAASSKDIA-ELSALIKMSGSVGLTNQGLTLSISTENAKIARHIYQLIENRYRCNPE 67 
+                           566666667777754.4556789*****************************99987788765 PP
+
+>> sp|Q5M056|WHIA_STRT1  Probable cell division protein WhiA OS=Streptococcus thermophilus (strain CNRZ 1066) OX=299768 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   0.00035         4      74     136 ..       6      67 ..       3      98 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00035
+               PVA.aln  74 klkraFvvvgsknvvGdrlvvvsmsGavealnaklgvvrsrhnaklatrgstviaqlragapa 136
+                           k+k   +  +sk+++ +    + msG+v  +n+ l+   s +nak a + +  i +   + p 
+  sp|Q5M056|WHIA_STRT1   6 KVKEEIIAASSKDIA-ELSALIKMSGSVGLTNQGLTLSISTENAKIARHIYQLIENRYRCNPE 67 
+                           566666667777754.4556789*****************************99987788765 PP
+
+>> sp|Q5M4R7|WHIA_STRT2  Probable cell division protein WhiA OS=Streptococcus thermophilus (strain ATCC BAA-250 / LMG 18
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   0.00035         4      74     136 ..       6      67 ..       3      98 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00035
+               PVA.aln  74 klkraFvvvgsknvvGdrlvvvsmsGavealnaklgvvrsrhnaklatrgstviaqlragapa 136
+                           k+k   +  +sk+++ +    + msG+v  +n+ l+   s +nak a + +  i +   + p 
+  sp|Q5M4R7|WHIA_STRT2   6 KVKEEIIAASSKDIA-ELSALIKMSGSVGLTNQGLTLSISTENAKIARHIYQLIENRYRCNPE 67 
+                           566666667777754.4556789*****************************99987788765 PP
+
+>> sp|Q0AE45|BAMB_NITEC  Outer membrane protein assembly factor BamB OS=Nitrosomonas eutropha (strain DSM 101675 / C91 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   0.0      0.54   6.2e+03     399     447 ..     111     158 ..      76     176 .. 0.63
+   2 ?    6.7   0.0    0.0066        76     390     453 ..     181     249 ..     152     260 .. 0.81
+   3 ?   -1.0   0.0       1.5   1.7e+04     357     385 ..     289     319 ..     282     339 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 0.4 bits;  conditional E-value: 0.54
+               PVA.aln 399 kireGvlalafgaldChsqavsvvpesllagsvdghfraistitGkvlv 447
+                           +  +G  ++ +++    s  v +  + +l g++ g   a++++ G  l+
+  sp|Q0AE45|BAMB_NITEC 111 DPVTGREIWRVETKSQLSGGVGAGGGMILLGTYKGEVLAFDEA-GNALW 158
+                           3345555555555553355555556666666666666666543.55555 PP
+
+  == domain 2  score: 6.7 bits;  conditional E-value: 0.0066
+               PVA.aln 390 rgklgvyalkireGvlalafgald....Ch.sqavsvvpesllagsvdghfraistitGkvlvdvdvaa 453
+                           +g+  ++ l+  +G+ ++++++       +    vs+  ++++ag   g+ +a++  tG v ++  v++
+  sp|Q0AE45|BAMB_NITEC 181 TGDSKLFGLNATDGKRIWSYQSVTppltVRsFVGVSITRGAVFAGFPGGKLIALDLLTGNVGWEETVSQ 249
+                           56677788888999999999655545664423569999**************************99887 PP
+
+  == domain 3  score: -1.0 bits;  conditional E-value: 1.5
+               PVA.aln 357 kGdkiWal.gelefGlaadsekvyagvsd.i 385
+                            G++iWa  +    G+ +d+ +vy      i
+  sp|Q0AE45|BAMB_NITEC 289 SGNQIWARdASSSMGMVIDNHHVYISEEHgI 319
+                           6999996514557899999999997655543 PP
+
+>> sp|Q19617|NLR1_CAEEL  Neurexin like receptor 1 OS=Caenorhabditis elegans OX=6239 GN=nlr-1 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.0   0.0   0.00067       7.7      10     114 ..     409     529 ..     377     535 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.00067
+               PVA.aln  10 nsrsfilaalGvlapvaaglssteqqria............gtpaaatP.........aaiePvdleaparfqpkegLnvDlPklklkr 77 
+                             + fil a G+  +v   l+s   +  +             +     P         +a +    ++ ++++ k+  ++DlP+    +
+  sp|Q19617|NLR1_CAEEL 409 RLSNFILSASGCYRSVTIDLTSVRVDGNVtrgectfqekclPN-----PcengggcvqSALDDYVCNCKEGYKGKNCHTTDLPHSCEEW 492
+                           4456777777888888888888877777656555554444422.....133334555577777777888******************** PP
+
+               PVA.aln  78 aFvvvgsknvvGdrlvvvsmsGavealnaklgvvrsr 114
+                            F+    + +v +r v + + G  e    ++++   r
+  sp|Q19617|NLR1_CAEEL 493 VFTKGNKQKAVQGRKVLIDIDGGGEMQPINVTCKTER 529
+                           **98777778888999999999988888888887666 PP
+
+>> sp|Q5E769|BAMB_ALIF1  Outer membrane protein assembly factor BamB OS=Aliivibrio fischeri (strain ATCC 700601 / ES114)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.9   0.0     0.012   1.4e+02     346     451 ..      72     179 ..      37     232 .. 0.59
+   2 ?   -0.5   0.0      0.99   1.1e+04      87     119 ..     245     277 ..     230     284 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 5.9 bits;  conditional E-value: 0.012
+               PVA.aln 346 vgqk....yaldPknkGdkiW.......algelefGlaadsekvyagvsd..iar.kergklgvyalkireGvlalafgaldChsqavs 420
+                           v  +     aldP+n G+ iW       + + l  Gl++  +kv+ g  +  +++        ++  k+   vla ++           
+  sp|Q5E769|BAMB_ALIF1  72 VASRdglvKALDPEN-GKTIWerdleqdDTARLSGGLTLTYGKVFIGSENgeLITlDAETGEELWREKVDGEVLAKPL----------- 148
+                           333335556778875.77888777777767777778888888887776544433322222223333333222222222........... PP
+
+               PVA.aln 421 vvpesllagsvdghfraistitGkvlvdvdv 451
+                           +  + +++ +  g  +a++  tG+  ++++ 
+  sp|Q5E769|BAMB_ALIF1 149 ADEGYVMVHTSRGALIAFDAETGVEQWQINS 179
+                           2235666667777777777777777777665 PP
+
+  == domain 2  score: -0.5 bits;  conditional E-value: 0.99
+               PVA.aln  87 vvGdrlvvvsmsGavealnaklgvvrsrhnakl 119
+                           + G rl++v   G   al+ ++g + ++ n   
+  sp|Q5E769|BAMB_ALIF1 245 ILGSRLYTVGYNGQLIALDLRTGQPVWKRNYSS 277
+                           567777777777777777777777777766544 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (502 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     12849  (0.0223982); expected 11473.2 (0.02)
+Passed bias filter:                     9685  (0.0168828); expected 11473.2 (0.02)
+Passed Vit filter:                       629  (0.00109647); expected 573.7 (0.001)
+Passed Fwd filter:                        52  (9.06459e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              50  [number of targets reported over threshold]
+# CPU time: 6.15u 0.18s 00:00:06.33 Elapsed: 00:00:01.73
+# Mc/sec: 60108.58
+//
+[ok]

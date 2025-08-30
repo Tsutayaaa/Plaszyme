@@ -1,0 +1,27 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q6H941|ALKB2_PSEAE -            377 FA_desaturase.aln    -            382  1.4e-244  816.1  15.6   1   1  3.4e-249  1.6e-244  816.0  15.6     1   377     1   377     1   377 1.00 Alkane 1-monooxygenase 2 OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=alkB2 PE=1 SV=1
+sp|Q9I0R2|ALKB1_PSEAE -            382 FA_desaturase.aln    -            382  2.8e-235  785.6  14.3   1   1  6.4e-240  3.1e-235  785.4  14.3     1   382     1   382     1   382 1.00 Alkane 1-monooxygenase 1 OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=alkB1 PE=1 SV=1
+sp|Q0VTH3|ALKB2_ALCBS -            382 FA_desaturase.aln    -            382  3.3e-153  515.4  11.6   1   1  7.6e-158  3.6e-153  515.3  11.6     1   374     1   374     1   382 0.98 Alkane 1-monooxygenase 2 OS=Alcanivorax borkumensis (strain ATCC 700651 / DSM 11573 / NCIMB 13689 / SK2) OX=393595 GN=alkB2 PE=2 SV=1
+sp|O31250|ALKB_ACIAD  -            408 FA_desaturase.aln    -            382   2.8e-87  298.4   0.1   1   1   7.4e-92   3.5e-87  298.1   0.1    50   365    65   377    16   387 0.93 Alkane 1-monooxygenase OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) OX=62977 GN=alkB PE=2 SV=1
+sp|P12691|ALKB_ECTOL  -            401 FA_desaturase.aln    -            382   3.3e-85  291.6   7.3   1   1     9e-90   4.3e-85  291.2   7.3    14   371    18   371     7   382 0.89 Alkane 1-monooxygenase OS=Ectopseudomonas oleovorans OX=301 GN=alkB PE=1 SV=1
+sp|Q9WWW6|ALKB_PSEPU  -            402 FA_desaturase.aln    -            382   5.1e-83  284.4   8.2   1   1   1.4e-87   6.6e-83  284.0   8.2    14   373    17   373     6   380 0.91 Alkane 1-monooxygenase OS=Pseudomonas putida OX=303 GN=alkB PE=3 SV=1
+sp|Q0VKZ3|ALKB1_ALCBS -            404 FA_desaturase.aln    -            382   3.8e-81  278.2   9.1   1   1     1e-85   4.9e-81  277.9   9.1    18   367    26   372    19   382 0.92 Alkane 1-monooxygenase 1 OS=Alcanivorax borkumensis (strain ATCC 700651 / DSM 11573 / NCIMB 13689 / SK2) OX=393595 GN=alkB1 PE=1 SV=1
+sp|P21395|XYLM_PSEPU  -            369 FA_desaturase.aln    -            382   1.2e-23   88.9   1.1   1   1   4.3e-28   2.1e-23   88.2   1.1    96   363    72   333    19   352 0.77 Xylene/toluene monooxygenase hydroxylase component XylM OS=Pseudomonas putida OX=303 GN=xylM PE=1 SV=1
+sp|Q53683|YOE1_STRAT  -            229 FA_desaturase.aln    -            382      0.32   15.1   2.7   1   2      0.32   1.5e+04   -0.2   0.1    24    55    38    71    28    84 0.68 Putative ABC transporter permease protein ORF1 (Fragment) OS=Streptomyces antibioticus OX=1890 PE=3 SV=1
+sp|Q53683|YOE1_STRAT  -            229 FA_desaturase.aln    -            382      0.32   15.1   2.7   2   2   1.8e-05      0.84   13.8   2.1    29   114    77   161    58   172 0.82 Putative ABC transporter permease protein ORF1 (Fragment) OS=Streptomyces antibioticus OX=1890 PE=3 SV=1
+sp|P77529|TCYP_ECOLI  -            463 FA_desaturase.aln    -            382       2.8   12.1   2.6   1   1   0.00011       5.1   11.2   2.6    44   136    34   126     4   144 0.70 L-cystine transporter TcyP OS=Escherichia coli (strain K12) OX=83333 GN=tcyP PE=1 SV=1
+sp|Q9FVQ9|FB29_ARATH  -            591 FA_desaturase.aln    -            382       3.9   11.6   0.0   1   1   0.00013       6.4   10.9   0.0   186   230   412   452   406   461 0.82 Putative F-box protein At1g32140 OS=Arabidopsis thaliana OX=3702 GN=At1g32140 PE=4 SV=1
+sp|Q9D071|MMS19_MOUSE -           1031 FA_desaturase.aln    -            382       6.4   10.9   0.1   1   2   0.00047        23    9.1   0.1   292   350    80   138    65   149 0.91 MMS19 nucleotide excision repair protein homolog OS=Mus musculus OX=10090 GN=Mms19 PE=1 SV=1
+sp|Q9D071|MMS19_MOUSE -           1031 FA_desaturase.aln    -            382       6.4   10.9   0.1   2   2      0.87   4.2e+04   -1.7   0.0   182   224   285   328   283   340 0.81 MMS19 nucleotide excision repair protein homolog OS=Mus musculus OX=10090 GN=Mms19 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/FA_desaturase.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/FA_desaturase/FA_desaturase.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/FA_desaturase/FA_desaturase.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/FA_desaturase.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:08:08 2025
+# [ok]

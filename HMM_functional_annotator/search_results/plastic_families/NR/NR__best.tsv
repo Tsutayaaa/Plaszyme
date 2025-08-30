@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+NR.aln	sp|Q3L8N0|LCP_STRK3	407	414	4.4e-192	643.3	8.5e-198	4.9e-192	643.1	1	413	1	406	1	407	0.99	1	1	0.9806763285024155	1.0147420147420148	NR

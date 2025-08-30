@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+afb51f2a48           -            545 PE.aln               -            329   2.1e-07   25.5   0.0   1   1   1.4e-08   5.7e-07   24.0   0.0    34   198    61   240     2   300 0.63 -
+4fd7439f5f           -            545 PE.aln               -            329   3.3e-07   24.8   0.0   1   1   2.3e-08   9.2e-07   23.4   0.0    46   198    82   240     2   301 0.61 -
+59bb4d8994           -            545 PE.aln               -            329   5.5e-07   24.1   0.0   1   1   5.5e-08   2.2e-06   22.1   0.1    46   162    82   217     2   250 0.61 -
+9c28e36175           -            545 PE.aln               -            329   6.7e-07   23.8   0.0   1   1   2.5e-08     1e-06   23.2   0.0    28   165    22   220     5   273 0.67 -
+114e6d2abe           -            545 PE.aln               -            329   7.1e-07   23.7   0.0   1   1   2.9e-08   1.1e-06   23.1   0.0    28   163    22   225     3   284 0.62 -
+e542ce1613           -            545 PE.aln               -            329   9.2e-07   23.4   0.0   1   1   3.7e-08   1.5e-06   22.7   0.0    85   165   100   220     3   274 0.63 -
+f41c6d89a0           -            555 PE.aln               -            329   2.6e-06   21.9   0.0   1   1   1.1e-07   4.2e-06   21.2   0.0    46   163    99   221     1   296 0.63 -
+54b0f51654           -            548 PE.aln               -            329     3e-06   21.7   0.0   1   1   1.3e-07     5e-06   20.9   0.0    34   162    64   220     1   279 0.63 -
+03f3222488           -            548 PE.aln               -            329   3.2e-06   21.6   0.0   1   1   1.5e-07   5.8e-06   20.7   0.0    46   163    99   221     3   271 0.66 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PE.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/plastic_families/PE/PE.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/plastic_families/PE/PE.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PE.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 12:47:13 2025
+# [ok]

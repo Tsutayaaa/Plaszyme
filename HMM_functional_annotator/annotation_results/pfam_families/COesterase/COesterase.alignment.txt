@@ -1,0 +1,348 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/COesterase.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/COesterase/COesterase.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/COesterase/COesterase.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       COesterase.aln  [M=500]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+      1e-65  217.2   0.0    1.5e-65  216.7   0.0    1.1  1  114e6d2abe  
+      5e-65  215.0   0.0      8e-65  214.3   0.0    1.2  1  e542ce1613  
+    5.4e-65  214.8   0.0    7.8e-65  214.3   0.0    1.1  1  03f3222488  
+    2.1e-64  212.9   0.0      3e-64  212.4   0.0    1.1  1  f41c6d89a0  
+    1.9e-63  209.7   0.0    2.8e-63  209.2   0.0    1.1  1  54b0f51654  
+    6.1e-63  208.1   0.0    8.7e-63  207.6   0.0    1.1  1  9c28e36175  
+    1.4e-62  206.9   0.0    2.2e-62  206.2   0.0    1.2  1  4fd7439f5f  
+      2e-62  206.3   0.0    3.2e-62  205.7   0.0    1.2  1  afb51f2a48  
+    9.1e-62  204.2   0.0    1.4e-61  203.5   0.0    1.2  1  59bb4d8994  
+
+
+Domain annotation for each sequence (and alignments):
+>> 114e6d2abe  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  216.7   0.0   3.7e-67   1.5e-65       8     421 ..      27     477 ..      22     508 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 216.7 bits;  conditional E-value: 3.7e-67
+  COesterase.aln   8 vvetkaGkvqgldaegvtrykGIpyAappvGnlRfkaPepl.eswegvkdateygasclqlraeidlvveeliesseDcLylnvwapa.teeakl 100
+                      v + +Gk++g d+ + ++y   pyA+ppvG+lRf+aP+p+ ++w++  dat+ ++ c+q  + i+   +   +++eDcL++ v++p+ +  + +
+      114e6d2abe  27 LVDLPNGKLRGRDNGNYYSYESLPYAEPPVGDLRFEAPQPYkQQWTDTFDATQPPVLCMQWDQFIQ--GDDKLAGNEDCLTVSVYKPKnSSRNSF 119
+                     57899***********************************8358*******************999..5999****************888889* PP
+
+  COesterase.aln 101 PVlvWihGGafsvGstsealydgeelarkgdvvvVtvnYRlgalGFlalselkaeedasaNlGllDqiaAlkWVrdnIaAFGGDpdnvTifGeSA 195
+                     PV+  ihGGaf+ G++s  +   e++ r+g+++ V + YRlg lGF+   +     d s+N+Gl+Dq++Al W+++nIa FGG p+n+ ++G SA
+      114e6d2abe 120 PVVAQIHGGAFMFGGAS--QNGHENFMREGNLILVKISYRLGPLGFVSTGD----ADLSGNFGLKDQRLALLWIKQNIASFGGEPENILVIGHSA 208
+                     *****************..456689**********************9887....5799************************************ PP
+
+  COesterase.aln 196 GgmsVlalLaspkakgLFqkaivqSGaastvlaaqaekkstafvlka.lgaa...eesevdk.Lrsvsaedlikannq.lrtalaefklsflpsv 284
+                     Gg+sV  ++       L ++ai  SG a +   +q+  +  af l + +g +   ++ +++k L+s +a ++++a  + l  a       f p+v
+      114e6d2abe 209 GGGSVHLQVLREDFSKLAKAAISFSGNALDPWVVQQGGRGRAFELGRiVGCGqasDSVTLKKcLKSKPASEIVSAVRNfLVFAYVP-FTPFGPVV 302
+                     ****************************99998888888888876551455565666677778****9998876554425544333.33444444 PP
+
+  COesterase.aln 285 D.....gkvlpkepkeaiaegeaknipvliGstkdEfelf..vasreevaseaelreileelfts..............lallkalaadlyqt.. 356
+                     +     + +++++p++ i +g+ +++p  +  t++++ +   +  +++  s  el   l+ +                 +  +  ++++l q   
+      114e6d2abe 303 EspdapEAFISQHPVDIIKSGKFAQVPWAVTYTTEDGGYNaaLLLEKQASSGRELIVDLNDRWFDwapyllfyrdsmttIKDMDDYSRKLRQEyl 397
+                     3211227899*****************87766555544443477777777777777766666666688888888877664555555555555543 PP
+
+  COesterase.aln 357 ..tnkalksslk.aalvtdllfslpavelae.aqaaqgapvymYefrwesei...........fnkgavHavdlpfvfnl 421
+                          + +s  + + l td+lf+  +   ++ ++   ++pvy + +++  ++            n g+vH  d   +f++
+      114e6d2abe 398 gdRRFSVESYWDlQRLFTDVLFKNSTEISLDlHRKHGKSPVYAFVYDNPANTgigqglakrtdINFGTVHGDDYFLIFEN 477
+                     34444455555577899999998777655551445556889999888888777666666666544566666666666655 PP
+
+>> e542ce1613  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  214.3   0.0     2e-66     8e-65       8     425 ..      27     481 ..      22     510 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 214.3 bits;  conditional E-value: 2e-66
+  COesterase.aln   8 vvetkaGkvqgldaegvtrykGIpyAappvGnlRfkaPepl.eswegvkdateygasclqlraeidlvveeliesseDcLylnvwapa.teeakl 100
+                      v + +Gk++g d+ + ++y   pyA+ppvG+lRf+aP+p+ ++w++  dat+ ++sc+q  + i    +   +++eDcL++ v++p+ +  + +
+      e542ce1613  27 LVDLPNGKLRGRDNGNYYSYESLPYAEPPVGDLRFEAPQPYkQQWTDTFDATQPPVSCMQWDQFIR--GDDKLAGNEDCLTVSVYRPKnSSRNSF 119
+                     57899***********************************8358*******************999..5999****************888889* PP
+
+  COesterase.aln 101 PVlvWihGGafsvGstsealydgeelarkgdvvvVtvnYRlgalGFlalselkaeedasaNlGllDqiaAlkWVrdnIaAFGGDpdnvTifGeSA 195
+                     PV+  ihGGaf+ G++s  +   e++ r+g+++ V + YRlg lGF+   +     d s+N+Gl+Dq++Al W+++nIa FGG p+n+ ++G SA
+      e542ce1613 120 PVVAQIHGGAFMFGGAS--QNGHENFMREGNLILVKISYRLGPLGFVSTGD----ADLSGNFGLKDQRLALLWIKQNIASFGGEPENILVIGHSA 208
+                     *****************..456689**********************9887....5799************************************ PP
+
+  COesterase.aln 196 GgmsVlalLaspkakgLFqkaivqSGaastvlaaqaekkstafvlka.lgaa...eesevdk.Lrsvsaedlikannq.lrtalaefklsflpsv 284
+                     Gg+sV  ++         ++ai  SG a +   +q+  +  af l + +g +   ++ +++k L+s +a ++++a  + l  a       f p+v
+      e542ce1613 209 GGGSVHLQVLREDFSKVAKAAISFSGNALDPWVVQQGGRGRAFELGRiVGCGqasDSVTLKKcLKSKPASEIVSAVRNfLVFAYVP-FTPFGPVV 302
+                     ****************************99998888888888876551455565666677778****9998876554425544333.33444444 PP
+
+  COesterase.aln 285 D.....gkvlpkepkeaiaegeaknipvliGstkdEfelf..vasreevaseae.lreileelfts.............lallkalaadlyqt.. 356
+                     +     + +++++p++ i +g+ +++p  +  t++++ +   +  +e+  s  e +    ++ f               +  +  ++++l q   
+      e542ce1613 303 EspdapEAFISQHPVDIIKSGKFAQVPWAVTYTTEDGGYNaaLLLEEQASSGREwIVDLNDRWFDWapyllfyrdsmttIKDMDDYSRKLRQEyl 397
+                     32112278999****************87766555544443455555555554414455555554478888888876664555555555555543 PP
+
+  COesterase.aln 357 ..tnkalksslk.aalvtdllfslpavelae.aqaaqgapvymYefrwesei...........fnkgavHavdlpfvfnlldke 425
+                          + +s  + + l td+lf+  +   ++ ++   ++pvy + +++  ++            n g+vH  d   +f++   e
+      e542ce1613 398 gdRRFSVESYWDlQRLFTDVLFKNSTEISLDlHRKHGKSPVYAFVYDNPANTgigqglaqrtdINFGTVHGDDYFLIFENIVRE 481
+                     344444455555778899999987776555514455568899888888887777777777766556777777777777766555 PP
+
+>> 03f3222488  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  214.3   0.0     2e-66   7.8e-65       8     422 ..      30     481 ..      26     510 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 214.3 bits;  conditional E-value: 2e-66
+  COesterase.aln   8 vvetkaGkvqgldaegvtrykGIpyAappvGnlRfkaPepl.eswegvkdateygasclqlraeidlvveeliesseDcLylnvwapa.teeakl 100
+                      +e+ +Gk++g d+   ++y  IpyA+pp G+lRf+ P+p+ ++w++  dat+ ++ c+q ++ i+   ++   + eDcL++ v++p+ +  +++
+      03f3222488  30 LIEIPNGKLRGRDNGHYYSYEAIPYAEPPTGELRFEVPKPYkQQWTNTFDATQPPVLCMQWNQFIN--GTNKLLGVEDCLTVSVYRPKnSSRNNF 122
+                     58999***********************************8358*********************9..58888999************888999* PP
+
+  COesterase.aln 101 PVlvWihGGafsvGstsealydgeelarkgdvvvVtvnYRlgalGFlalselkaeedasaNlGllDqiaAlkWVrdnIaAFGGDpdnvTifGeSA 195
+                     PV+  +hGGaf+ G+ s  +y  e++ r+g v+ Vt++YRlg lGF+   +     d s+N+Gl+Dq++Al W+++nIa FGG p+n+ ++G SA
+      03f3222488 123 PVVANLHGGAFMFGGPS--QYGHENIMREGSVILVTIGYRLGPLGFVSTGD----ADLSGNFGLKDQRLALLWIKQNIASFGGEPENILVVGHSA 211
+                     *****************..9***************************9887....5799************************************ PP
+
+  COesterase.aln 196 GgmsVlalLaspkakgLFqkaivqSGaastvlaaqaekkstafvlka.lgaa...eesevdk.Lrsvsaedlikannqlrtalae.....fklsf 280
+                     Gg sV  ++       L ++ai  SG a +    q+  +  af l + +g +   ++ +++k L+s +a ++++a  +   +             
+      03f3222488 212 GGASVHLQMLREDFSKLAKAAISFSGNALDPWVIQQGLRGRAFELGRiVGCGqasDSGTLKKcLKSKPAIEIVSAVRSFLVFSYVpftpfGPAIE 306
+                     **************************999988777777777776544155555567777877788888876666655533322221111123333 PP
+
+  COesterase.aln 281 lpsvDgkvlpkepkeaiaegeaknipvliGstkdEfelf..vasreevaseaelreileelfts..............lallkalaadlyqt... 356
+                      p   + +++++p + i +g+ +++p  +  t++++ +   +  +++  s  el   l+ +                 +  +  ++++l q    
+      03f3222488 307 SPDAPEAFITQHPIDIIKSGKFSQVPWAVTYTTEDGGYNaaLLLEKQASSGRELIVDLNDRWFDwapyllfyrdsmttIKDMDDYSRKLRQEylg 401
+                     44455789******************877665555444434777788888888877777766666999999998877755666666666555444 PP
+
+  COesterase.aln 357 .tnkalksslk.aalvtdllfslpavelae.aqaaqgapvymYefrwesei............fnkgavHavdlpfvfnll 422
+                         + +s  + + + tdllf+  +   ++ ++   ++pvy + +++ se             +  g+vH  d+  +fn+ 
+      03f3222488 402 dRRFSVESYWDvQRMFTDLLFKNSVTVSVDlHRKYGKSPVYAFVYDNPSEVgvgqilsgrndvY-FGTVHGDDVFLIFNVS 481
+                     44455555555889*******98765555415555789**********999999**99998864.7********9999986 PP
+
+>> f41c6d89a0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  212.4   0.0   7.5e-66     3e-64       8     422 ..      30     481 ..      26     512 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 212.4 bits;  conditional E-value: 7.5e-66
+  COesterase.aln   8 vvetkaGkvqgldaegvtrykGIpyAappvGnlRfkaPepl.eswegvkdateygasclqlraeidlvveeliesseDcLylnvwapa.teeakl 100
+                      +e+ +Gk++g d+   ++y  IpyA+pp G+lRf+ P+p+ ++w++  dat+ ++ c+q ++ i+   ++   + eDcL++ v++p+ +  +++
+      f41c6d89a0  30 LIEIPNGKLRGRDNGHYYSYEAIPYAEPPTGELRFEVPKPYkQQWTNTFDATQPPVLCMQWNQFIN--GTNKLLGVEDCLTVSVYRPKnSSRNNF 122
+                     58999***********************************8358*********************9..58888999************888999* PP
+
+  COesterase.aln 101 PVlvWihGGafsvGstsealydgeelarkgdvvvVtvnYRlgalGFlalselkaeedasaNlGllDqiaAlkWVrdnIaAFGGDpdnvTifGeSA 195
+                     PV+  +hGGaf+ G+ s  +y  e++ r+g v+ Vt++YRlg lGF+   +     d s+N+Gl+Dq++Al W+++nIa FGG p+n+ ++G SA
+      f41c6d89a0 123 PVVANLHGGAFMFGGPS--QYGHENIMREGSVILVTIGYRLGPLGFVSTGD----ADLSGNFGLKDQRLALLWIKQNIASFGGEPENILVVGHSA 211
+                     *****************..9***************************9887....5799************************************ PP
+
+  COesterase.aln 196 GgmsVlalLaspkakgLFqkaivqSGaastvlaaqaekkstaf.vlkalgaa...eesevdk.Lrsvsaedlikannqlrtalae.....fklsf 280
+                     Gg sV  ++         ++ai  SG a +    q+  +   f + + +g +   ++ +++k L+s +a ++++a ++   +             
+      f41c6d89a0 212 GGASVHLQMLREDFSKVAKAAISFSGNALDPWVIQQGLRGRTFeLGRIVGCGqasDSVTLKKcLKSKPASEIVSAVQSFLVFSYVpftpfGPAIE 306
+                     **************************9988774444444444404566666675666777778******99888877743333321111133334 PP
+
+  COesterase.aln 281 lpsvDgkvlpkepkeaiaegeaknipvliGstkdEfelf..vasreevaseaelreileelfts..............lallkalaadlyqt... 356
+                      p   + +++++p + i +g+ +++p  +  t++++ +   +  +++  s  el   l+ +                 +  +  ++++l q    
+      f41c6d89a0 307 SPDAPEAFITQHPIDIIKSGKFAQVPWAVTYTTEDGGYNaaLLLEKQASSGRELILDLNDRWFDwapyllfyrdsmttIKDMDDYSRKLRQEylg 401
+                     45555799******************877665555444434778888888888888777777777999999998877755666666666555444 PP
+
+  COesterase.aln 357 .tnkalksslk.aalvtdllfslpavelae.aqaaqgapvymYefrwesei............fnkgavHavdlpfvfnll 422
+                         + +s  + + + tdllf+  +   ++ ++   ++pvy + +++  e             +  g+vH  d+  +fn+ 
+      f41c6d89a0 402 dRRFSVESYWDvQRMFTDLLFKNSVTVSVDlHRKYGKSPVYAFVYDNPAEVgvgqilsgrndvY-FGTVHGDDVFLIFNVS 481
+                     44455555555889*******987655554155557899**99999999999999999998864.7*******99999986 PP
+
+>> 54b0f51654  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  209.2   0.0     7e-65   2.8e-63       8     422 ..      30     481 ..      26     510 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 209.2 bits;  conditional E-value: 7e-65
+  COesterase.aln   8 vvetkaGkvqgldaegvtrykGIpyAappvGnlRfkaPepl.eswegvkdateygasclqlraeidlvveeliesseDcLylnvwapa.teeakl 100
+                      +e+ +Gk++g d+   ++y  IpyA+pp G+lRf+ P+p+ ++w++  dat+ ++ c+q ++ i+   ++   + eDcL++ v++p+ +  +++
+      54b0f51654  30 LIEIPNGKLRGRDNGHYYSYEAIPYAEPPTGELRFEVPKPYkQQWTNTFDATQPPVLCMQWNQFIN--GTNKLLGVEDCLTVSVYRPKnSSRNNF 122
+                     58999***********************************8358*********************9..58888999************888999* PP
+
+  COesterase.aln 101 PVlvWihGGafsvGstsealydgeelarkgdvvvVtvnYRlgalGFlalselkaeedasaNlGllDqiaAlkWVrdnIaAFGGDpdnvTifGeSA 195
+                     PV+  +hGGaf+ G+ s  +y  e++ r+g v+ Vt++YRlg lGF+   +     d s+N+Gl+Dq++Al W+++nIa FGG p+n+ ++G SA
+      54b0f51654 123 PVVANLHGGAFMFGGPS--QYGHENIMREGSVILVTIGYRLGPLGFVSTGD----ADLSGNFGLKDQRLALLWIKQNIASFGGEPENILVVGHSA 211
+                     *****************..9***************************9887....5799************************************ PP
+
+  COesterase.aln 196 GgmsVlalLaspkakgLFqkaivqSGaastvlaaqaekkstafvlka.lgaa...eesevdk.Lrsvsaedlikannqlrtalae.....fklsf 280
+                     Gg sV  ++         ++ai  SG + +    q+  +  af l + +g +   ++ +++k L+s +a ++++a  +   +             
+      54b0f51654 212 GGASVHLQMLREDFSKVAKAAISFSGNSLDPWVIQQGLRGRAFELGRiVGCGqasDSVTLKKcLKSKPAIEIVSAVRSFLVFSYVpftpfGPAIE 306
+                     ***************************99988777777777776544155556455556666688877776665555532222221111122333 PP
+
+  COesterase.aln 281 lpsvDgkvlpkepkeaiaegeaknipvliGstkdEfelf..vasreevaseaelreileelfts..............lallkalaadlyqt... 356
+                      p   + +++++p + i +g+ +++p  +  t++++ +   +  +++  s  el   l+ +                 +  +  ++++l q    
+      54b0f51654 307 SPDAPEAFITHHPIDIIKRGKFSQVPWAVTYTTEDGGYNaaLLLEKQASSGRELIVDLNDRWFDwapyllfyrdsmttIKDMDDYSRKLRQEylg 401
+                     344457899*****************877665555444434777788888888877777766666999999998877755666666666555444 PP
+
+  COesterase.aln 357 .tnkalksslk.aalvtdllfslpavelae.aqaaqgapvymYefrwesei............fnkgavHavdlpfvfnll 422
+                         + +s  + + + tdllf+  +   ++ ++   ++pvy + +++ se             +  g+vH  d+  +fn+ 
+      54b0f51654 402 dRRFSVESYWDvQRMFTDLLFKNSVTVSVDlHRKYGKSPVYAFVYDNPSEVgvgqilsgrndvY-FGTVHGDDVFLIFNVS 481
+                     44455555555889*******98765555415555789**********9999999*99998864.7********9999986 PP
+
+>> 9c28e36175  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  207.6   0.0   2.2e-64   8.7e-63       8     421 ..      27     477 ..      22     508 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 207.6 bits;  conditional E-value: 2.2e-64
+  COesterase.aln   8 vvetkaGkvqgldaegvtrykGIpyAappvGnlRfkaPepl.eswegvkdateygasclqlraeidlvveeliesseDcLylnvwapa.teeakl 100
+                      v + +Gk++g d+ + ++y   pyA+ppvG+lRf+aP+p+ ++w++  dat+ ++ c+q  + i+   +   +++eDcL++ v++p+ +  + +
+      9c28e36175  27 LVDLPNGKLRGRDNGNYYSYESLPYAEPPVGDLRFEAPQPYkQQWTDTFDATQPPVLCMQWDQFIQ--GDDKLAGNEDCLTVSVYRPKnSSRNSF 119
+                     57899***********************************8358*******************999..5999****************888889* PP
+
+  COesterase.aln 101 PVlvWihGGafsvGstsealydgeelarkgdvvvVtvnYRlgalGFlalselkaeedasaNlGllDqiaAlkWVrdnIaAFGGDpdnvTifGeSA 195
+                     PV+  ihG af+ G++s  +   e++ r+g+++ V + YRlg lGF+   +     d s+N+Gl+Dq++Al W+++nIa FGG p+n+ ++G SA
+      9c28e36175 120 PVVAQIHGVAFMFGGAS--QNGHENFMREGNLILVKISYRLGPLGFVSTGD----ADLSGNFGLKDQRLALLWIKQNIASFGGEPENILVIGHSA 208
+                     *****************..456689**********************9887....5799************************************ PP
+
+  COesterase.aln 196 GgmsVlalLaspkakgLFqkaivqSGaastvlaaqaekkstafvlka.lgaa...eesevdk.Lrsvsaedlikannq.lrtalae....fklsf 280
+                     Gg+sV  ++         ++ai  SG a +   +q+  +  af l + +g +   ++ +++k L+s +a ++++a  + l  a         +  
+      9c28e36175 209 GGGSVHLQVLREDFSKVAKAAISFSGNALDPWVVQQGGRGRAFELGRiVGCGqasDSVTLKKcLKSKPASEIVSAVRNfLVFAYVPftpfGPVVE 303
+                     ****************************99998888888888876551455565666677778****9998876554425444332222244444 PP
+
+  COesterase.aln 281 lpsvDgkvlpkepkeaiaegeaknipvliGstkdEfelf..vasreevaseaelreileelfts..............lallkalaadlyqt... 356
+                      p   + +++++p + i +g+ +++p  +  t++++ +   +  +++  s  el   l+ +                 +  +  ++++l q    
+      9c28e36175 304 SPEAPEAFISQHPIDIIKSGKFAQVPWAVTYTTEDGGYNaaLLLEKQASSGRELIVDLNDRWFDwapyllfyrdsmttIKDMDDYSRKLRQEylg 398
+                     5666688999****************877665555444434777777777777777666666666888888888776645555555555555433 PP
+
+  COesterase.aln 357 .tnkalksslk.aalvtdllfslpavelae.aqaaqgapvymYefrwesei...........fnkgavHavdlpfvfnl 421
+                         + +s  + + l td+lf+  +   ++ ++   ++pvy + +++  ++            n g+vH  d   +f++
+      9c28e36175 399 dRRFSVESYWDlQRLFTDVLFKNSTEISLDlHRKHGKSPVYAFVYDNPANTgigqglakrtdINFGTVHGDDYFLIFEN 477
+                     4444455555577899999998777655551445556889999888888777666666666544566666666666655 PP
+
+>> 4fd7439f5f  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  206.2   0.0   5.5e-64   2.2e-62       9     454 ..      28     507 ..      23     511 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 206.2 bits;  conditional E-value: 5.5e-64
+  COesterase.aln   9 vetkaGkvqgldaegvtrykGIpyAappvGnlRfkaPepl.eswegvkdateygasclqlraeidlvveeliesseDcLylnvwapa.teeaklP 101
+                     v + +Gk++g d+   ++y   pyA+ppvG+lRf+aP+p+ ++w++  dat+ +++c+q ++ i    ++  ++ eDcL++ +++p+ t +  +P
+      4fd7439f5f  28 VDLPHGKIRGRDNGFYYSYESLPYAEPPVGELRFEAPQPYkQQWTDTFDATQPPVTCMQWNQFIF--GDNKLAGVEDCLTVSIYKPKnTSQSSFP 120
+                     77889**********************************8358******************9998..6999****************99999*** PP
+
+  COesterase.aln 102 VlvWihGGafsvGstsealydgeelarkgdvvvVtvnYRlgalGFlalselkaeedasaNlGllDqiaAlkWVrdnIaAFGGDpdnvTifGeSAG 196
+                     V+  +hGGaf+ G +   +   e++ r+g+++ V + YRlg lGF+   +     + s+N+Gl+Dq++Al W+++nIa FGG p+n+ ++G SAG
+      4fd7439f5f 121 VVAHMHGGAFMFGEAR--QNGHENMMREGKLILVKISYRLGPLGFASTGD----AGLSGNFGLKDQRLALLWIKQNIASFGGEPENIIVVGHSAG 209
+                     ***************9..556689*********************98877....5799************************************* PP
+
+  COesterase.aln 197 gmsVlalLaspkakgLFqkaivqSGaastvl.aaqaekkstafvlkalgaa...eesevdk.LrsvsaedlikannqlrtalaefklsflpsvD. 285
+                     g sV  ++     +   +++i   G a +     q +++ t  + + +g +   +++e+++ L+s +a ++++a  +   +       f p+v+ 
+      4fd7439f5f 210 GASVHLQMLREDFAQVAKAGISFGGNAMDPWvIHQSARGRTFELGRIVGCGqasDSTELKNcLKSKPAGEIVSAVHSFLVFAYVPFAPFGPVVEs 304
+                     *********99999999999988886665553555555555555666676676778888878******998887777443322233344444432 PP
+
+  COesterase.aln 286 ....gkvlpkepkeaiaegeaknipvliGstkdEfelf..vasreevaseaelreileelfts..............lallkalaadlyqt.... 356
+                         + +++++p++ i +g+ +++p  +  +++++ +   v  +++  s  el   l+                   +  +  ++++l q     
+      4fd7439f5f 305 pdapEAFISQHPVDIIKSGKFAQVPWAVTYNTEDGGYNaaVLLEKQASSGRELIFDLNDHWFDwapyllfyrdsmttIKDMDDYSRKLRQEylgd 399
+                     11227899*****************8877766665555346777777777777665555555568898988888776556666666665554444 PP
+
+  COesterase.aln 357 tnkalksslk.aalvtdllfslpavelaeaqaaqg.apvymYefrwesei...........fnkgavHavdlpfvfnlldkevraftg.tdeard 437
+                        + +s  + + l td+l++ ++  +++ + ++g +pvy + +++  ++           ++ g+vH  +   +f++l+       +  ++++ 
+      4fd7439f5f 400 RRFSVESYWDlQRLFTDILYKNATELALDLYRKHGkSPVYAFVYDNPANTgigqffskrtdVHFGTVHGDEYFLIFENLARG----PEmRSDEEI 490
+                     4445555555779999999999999888888766437999999998888888999888877446999999999999999888....333344455 PP
+
+  COesterase.aln 438 LskqmarawiaFartgd 454
+                     +s+++ +   +F+ +g+
+      4fd7439f5f 491 ISRNFLNMINDFVVSGN 507
+                     66777777777766665 PP
+
+>> afb51f2a48  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  205.7   0.0   8.1e-64   3.2e-62       9     454 ..      28     507 ..      23     511 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 205.7 bits;  conditional E-value: 8.1e-64
+  COesterase.aln   9 vetkaGkvqgldaegvtrykGIpyAappvGnlRfkaPepl.eswegvkdateygasclqlraeidlvveeliesseDcLylnvwapa.teeaklP 101
+                     v + +Gk++g d+   ++y   pyA+ppvG+lRf+aP+p+ ++w++  dat+ +++c+q ++ i    ++   + eDcL++ +++p+ t +  +P
+      afb51f2a48  28 VDLPHGKIRGRDNGFYYSYESLPYAEPPVGELRFEAPQPYkQQWTDTFDATQPPVTCMQWNQFIF--GDNKLVGVEDCLTVSIYKPKnTSQSSFP 120
+                     77889**********************************8358******************9998..69999***************99999*** PP
+
+  COesterase.aln 102 VlvWihGGafsvGstsealydgeelarkgdvvvVtvnYRlgalGFlalselkaeedasaNlGllDqiaAlkWVrdnIaAFGGDpdnvTifGeSAG 196
+                     V+  +hGGaf+ G +   +   e++ r+g+++ V + YRlg lGF+   +     d s+N+Gl+Dq++Al W+++nIa FGG p+n+ ++G SAG
+      afb51f2a48 121 VVAHMHGGAFMFGEAR--QNGHENMMREGKLILVKISYRLGPLGFASTGD----ADLSGNFGLKDQRLALLWIKQNIASFGGEPENIIVVGHSAG 209
+                     ***************9..556689*********************98877....579************************************** PP
+
+  COesterase.aln 197 gmsVlalLaspkakgLFqkaivqSGaastvl.aaqaekkstafvlkalgaa...eesevdk.LrsvsaedlikannqlrtalaefklsflpsvD. 285
+                     g sV  ++     +   +++i   G a +     q +++ t  + + +g +   ++ e+++ L+s +a ++++a  +   +       f p+v+ 
+      afb51f2a48 210 GASVHLQMLREDFAQVAKAGISFGGNAMDPWvIHQSARGRTFELGRIVGCGqasDSMELKNcLKSKPAGEIVSAVHSFLVFAYVPFAPFGPVVEs 304
+                     *********99999999999988886665553555555555555666676676666777667*****9998887777443322233344444432 PP
+
+  COesterase.aln 286 ....gkvlpkepkeaiaegeaknipvliGstkdEfelf..vasreevaseaelreileelfts..............lallkalaadlyqt.... 356
+                         + +++++p++ i +g+ +++p  +  +++++ +   v  +++  s  el   l+                   +  +  ++++l q     
+      afb51f2a48 305 pdapEAFISQHPVDIIKSGKFAQVPWAVTYNTEDGGYNaaVLLEKQASSGRELIFDLNDHWFDwapyllfyrdsmttIKDMDDYSRKLRQEylgd 399
+                     112278999****************8877766665555346777777777777665555555568898988888776556666666665554444 PP
+
+  COesterase.aln 357 tnkalksslk.aalvtdllfslpavelaeaqaaqg.apvymYefrwesei...........fnkgavHavdlpfvfnlldkevraftg.tdeard 437
+                        + +s  + + l td+l++ ++  +++ + ++g +pvy + +++  ++           ++ g+vH  +   +f++l+       +  ++++ 
+      afb51f2a48 400 RRFSVESYWDlQRLFTDILYKNATELALDLYRKHGkSPVYAFVYDNPANTgigqffakrtdVHFGTVHGDEYFLIFENLARG----PEmRSDEEI 490
+                     4445555555779999999999999888888766437999999998888888999888877447999999999999999888....333344455 PP
+
+  COesterase.aln 438 LskqmarawiaFartgd 454
+                     +s+++ +   +F+ +g+
+      afb51f2a48 491 ISRNFLNMINDFVVSGN 507
+                     66777777777766665 PP
+
+>> 59bb4d8994  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  203.5   0.0   3.6e-63   1.4e-61       9     453 ..      28     506 ..      23     511 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 203.5 bits;  conditional E-value: 3.6e-63
+  COesterase.aln   9 vetkaGkvqgldaegvtrykGIpyAappvGnlRfkaPepl.eswegvkdateygasclqlraeidlvveeliesseDcLylnvwapa.teeaklP 101
+                     v + +Gk++g d+   ++y   pyA+ppvG+lRf+aP+p+ ++w++  dat+ +++c+q ++ i    ++  ++ eDcL++ +++p+ t +  +P
+      59bb4d8994  28 VDLPHGKIRGRDNGFYYSYESLPYAEPPVGELRFEAPQPYkQQWTDTFDATQPPVTCMQWNQFIF--GDNKLAGVEDCLTVSIYKPKnTSQSSFP 120
+                     77889**********************************8358******************9998..6999****************99999*** PP
+
+  COesterase.aln 102 VlvWihGGafsvGstsealydgeelarkgdvvvVtvnYRlgalGFlalselkaeedasaNlGllDqiaAlkWVrdnIaAFGGDpdnvTifGeSAG 196
+                     V+  +hGGaf+ G +   +   e++ r+g+++ V + YRlg lGF+   +     + s+N+Gl+Dq++Al W+++nIa FGG p+n+ ++G SAG
+      59bb4d8994 121 VVAHMHGGAFMFGEAR--QNGHENMMREGKLILVKISYRLGPLGFASTGD----AGLSGNFGLKDQRLALLWIKQNIASFGGEPENIIVVGHSAG 209
+                     ***************9..556689*********************98877....5799************************************* PP
+
+  COesterase.aln 197 gmsVlalLaspkakgLFqkaivqSGaastvlaaqaekkstafv.lkalgaa...eesevdk.LrsvsaedlikannqlrtalaefklsflpsvD. 285
+                     g sV  ++     +   +++i   G a +      +++   f   + +g +   ++ e+++ L+s +a ++++a  +   +       f p+v+ 
+      59bb4d8994 210 GASVHLQMLREDFAQVAKAGISFGGNAMDPWVIHRSARGRTFElGRIVGCGqasDSMELKNcLKSKPAGEIVSAVHSFLVFAYVPFAPFGPVVEs 304
+                     *********99999999999988887776665444444444440455565565667777767******998887777443322233344444432 PP
+
+  COesterase.aln 286 ....gkvlpkepkeaiaegeaknipvliGstkdEfelf..vasreevaseaelreileelfts..............lallkalaadlyqt.... 356
+                         + +++++p++ i +g+ +++p  +  +++++ +   v  +++  s  el   l+                   +  +  ++++l q     
+      59bb4d8994 305 pdapEAFISQHPVDIIKSGKFAQVPWAVTYNTEDGGYNaaVLLEKQASSGRELIFDLNDHWFDwapyllfyrdsmttIKDMDDYSRKLRQEylgd 399
+                     112278999****************8877766665555346677777777777665555555568888888888776555666666665554434 PP
+
+  COesterase.aln 357 tnkalksslk.aalvtdllfslpavelaeaqaaqg.apvymYefrwesei...........fnkgavHavdlpfvfnlldkevraftg.tdeard 437
+                        + +s  + + l td+l++ ++  +++ + ++g +pvy + +++  ++           ++ g+vH  +   +f++l+       +  ++++ 
+      59bb4d8994 400 RRFSVESYWDlQRLFTDVLYKNATELALDLYRKHGkSPVYAFVYDNPANTgigqffakrtdVHFGTVHGDEYFLIFENLARG----PEmRSDEEI 490
+                     4445555555779999999999998888887766437899999998888788999888877446999999999999998887....332334455 PP
+
+  COesterase.aln 438 LskqmarawiaFartg 453
+                     +s+++ +   +F+ +g
+      59bb4d8994 491 ISRNFLNMINDFVLSG 506
+                     6666666666666655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (500 nodes)
+Target sequences:                        358  (244074 residues searched)
+Passed MSV filter:                        10  (0.027933); expected 7.2 (0.02)
+Passed bias filter:                        9  (0.0251397); expected 7.2 (0.02)
+Passed Vit filter:                         9  (0.0251397); expected 0.4 (0.001)
+Passed Fwd filter:                         9  (0.0251397); expected 0.0 (1e-05)
+Initial search space (Z):                358  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.05
+# Mc/sec: 2197.19
+//
+[ok]

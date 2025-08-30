@@ -1,0 +1,198 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PLA.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/plastic_families/PLA/PLA.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/plastic_families/PLA/PLA.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PLA.aln  [M=246]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    1.9e-07   25.7   0.0    2.5e-07   25.4   0.0    1.2  1  54b0f51654  
+      2e-07   25.7   0.0    2.6e-07   25.3   0.0    1.2  1  f41c6d89a0  
+    3.4e-07   24.9   0.0    4.3e-07   24.6   0.0    1.2  1  03f3222488  
+    4.8e-07   24.4   0.0    5.8e-07   24.1   0.0    1.2  1  59bb4d8994  
+    4.9e-07   24.4   0.0    5.9e-07   24.1   0.0    1.2  1  4fd7439f5f  
+    4.9e-07   24.4   0.0    6.5e-07   24.0   0.0    1.2  1  afb51f2a48  
+    1.7e-05   19.3   0.0    2.3e-05   18.9   0.0    1.2  1  e542ce1613  
+    2.2e-05   19.0   0.0      3e-05   18.5   0.0    1.2  1  9c28e36175  
+    4.2e-05   18.1   0.0    5.8e-05   17.6   0.0    1.2  1  114e6d2abe  
+
+
+Domain annotation for each sequence (and alignments):
+>> 54b0f51654  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.4   0.0   6.3e-09   2.5e-07      24     140 ..     102     236 ..      18     286 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 25.4 bits;  conditional E-value: 6.3e-09
+     PLA.aln  24 Gfgli.....vlP...aagpapvvvlvhGltasqgs..faglgtalag.....vasGfavyvadtsgsgsqs...gsrarasaaglaevvaalniarsr 104
+                 G++ +     ++P   +  ++pvv+++hG++ + g    +g+++  +      v+ G+++  + + ++g+      ++ ++++ +l ++ +  nia ++
+  54b0f51654 102 GVEDCltvsvYRPknsSRNNFPVVANLHGGAFMFGGpsQYGHENIMREgsvilVTIGYRLGPLGFVSTGDADlsgNFGLKDQRLALLWIKQ--NIASFG 198
+                 55555666677788888889*************9997766666666666666655664443333333333333333445588888888888..689*** PP
+
+     PLA.aln 105 gdskkvvvvGhSmGG.avalqaaqnr.Parvaavvtvg 140
+                 g+++++ vvGhS+GG +v lq+++   +  ++a+++++
+  54b0f51654 199 GEPENILVVGHSAGGaSVHLQMLREDfSKVAKAAISFS 236
+                 ***************88888877755445555555554 PP
+
+>> f41c6d89a0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.3   0.0   6.5e-09   2.6e-07      24     140 ..     102     236 ..      18     287 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 25.3 bits;  conditional E-value: 6.5e-09
+     PLA.aln  24 Gfgli.....vlP...aagpapvvvlvhGltasqgs..faglgtalag.....vasGfavyvadtsgsgsqs...gsrarasaaglaevvaalniarsr 104
+                 G++ +     ++P   +  ++pvv+++hG++ + g    +g+++  +      v+ G+++  + + ++g+      ++ ++++ +l ++ +  nia ++
+  f41c6d89a0 102 GVEDCltvsvYRPknsSRNNFPVVANLHGGAFMFGGpsQYGHENIMREgsvilVTIGYRLGPLGFVSTGDADlsgNFGLKDQRLALLWIKQ--NIASFG 198
+                 55555666677788888889*************9997766666666666666655664443333333333333333445588888888888..689*** PP
+
+     PLA.aln 105 gdskkvvvvGhSmGG.avalqaaqnr.Parvaavvtvg 140
+                 g+++++ vvGhS+GG +v lq+++   +  ++a+++++
+  f41c6d89a0 199 GEPENILVVGHSAGGaSVHLQMLREDfSKVAKAAISFS 236
+                 ***************88888877755445555555554 PP
+
+>> 03f3222488  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.6   0.0   1.1e-08   4.3e-07      24     128 ..     102     223 ..      17     284 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 24.6 bits;  conditional E-value: 1.1e-08
+     PLA.aln  24 Gfgli.....vlP...aagpapvvvlvhGltasqgs..faglgtalag.....vasGfavyvadtsgsgsqs...gsrarasaaglaevvaalniarsr 104
+                 G++ +     ++P   +  ++pvv+++hG++ + g    +g+++  +      v+ G+++  + + ++g+      ++ ++++ +l ++ +  nia ++
+  03f3222488 102 GVEDCltvsvYRPknsSRNNFPVVANLHGGAFMFGGpsQYGHENIMREgsvilVTIGYRLGPLGFVSTGDADlsgNFGLKDQRLALLWIKQ--NIASFG 198
+                 55555666677788888889*************9997766666666666666655664443333333333333333445588888888888..689*** PP
+
+     PLA.aln 105 gdskkvvvvGhSmGG.avalqaaqn 128
+                 g+++++ vvGhS+GG +v lq+++ 
+  03f3222488 199 GEPENILVVGHSAGGaSVHLQMLRE 223
+                 ***************7777776554 PP
+
+>> 59bb4d8994  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1   0.0   1.5e-08   5.8e-07      20     128 ..      95     220 ..       1     284 [. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 24.1 bits;  conditional E-value: 1.5e-08
+     PLA.aln  20 tsadGfgli.....vlP...aagpapvvvlvhGltasqgs..faglgtalagvasG........favyvadtsgsgsqs...gsrarasaaglaevvaa 97 
+                  +  G++ +     + P   +++ +pvv+ +hG++ + g+   +g++++ +    G        +++  + ++++g+      ++ ++++ +l ++ + 
+  59bb4d8994  95 NKLAGVEDCltvsiYKPkntSQSSFPVVAHMHGGAFMFGEarQNGHENMMRE---GklilvkisYRLGPLGFASTGDAGlsgNFGLKDQRLALLWIKQ- 189
+                 55667777887778778999999****************9999999999999...6666666666666666666665555556666678888888877. PP
+
+     PLA.aln  98 lniarsrgdskkvvvvGhSmGG.avalqaaqn 128
+                  nia ++g+++++ vvGhS+GG +v lq+++ 
+  59bb4d8994 190 -NIASFGGEPENIIVVGHSAGGaSVHLQMLRE 220
+                 .699******************7777776553 PP
+
+>> 4fd7439f5f  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1   0.0   1.5e-08   5.9e-07      20     127 ..      95     219 ..       1     284 [. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 24.1 bits;  conditional E-value: 1.5e-08
+     PLA.aln  20 tsadGfgli.....vlP...aagpapvvvlvhGltasqgs..faglgtalagvasG........favyvadtsgsgsqs...gsrarasaaglaevvaa 97 
+                  +  G++ +     + P   +++ +pvv+ +hG++ + g+   +g++++ +    G        +++  + ++++g+      ++ ++++ +l ++ + 
+  4fd7439f5f  95 NKLAGVEDCltvsiYKPkntSQSSFPVVAHMHGGAFMFGEarQNGHENMMRE---GklilvkisYRLGPLGFASTGDAGlsgNFGLKDQRLALLWIKQ- 189
+                 55667777887778778999999****************9999999999999...6666666666666666666665555556666678888888877. PP
+
+     PLA.aln  98 lniarsrgdskkvvvvGhSmGG.avalqaaq 127
+                  nia ++g+++++ vvGhS+GG +v lq+++
+  4fd7439f5f 190 -NIASFGGEPENIIVVGHSAGGaSVHLQMLR 219
+                 .699******************777777655 PP
+
+>> afb51f2a48  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.0   0.0   1.6e-08   6.5e-07      21     128 ..      96     220 ..       2     284 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 24.0 bits;  conditional E-value: 1.6e-08
+     PLA.aln  21 sadGfgli.....vlP...aagpapvvvlvhGltasqgs..faglgtalagvasG........favyvadtsgsgsqs...gsrarasaaglaevvaal 98 
+                 +  G++ +     + P   +++ +pvv+ +hG++ + g+   +g++++ +    G        +++  + ++++g+      ++ ++++ +l ++ +  
+  afb51f2a48  96 KLVGVEDCltvsiYKPkntSQSSFPVVAHMHGGAFMFGEarQNGHENMMRE---GklilvkisYRLGPLGFASTGDADlsgNFGLKDQRLALLWIKQ-- 189
+                 4557777777777778999999****************9998999999999...6566555555555555554444444444444488888888888.. PP
+
+     PLA.aln  99 niarsrgdskkvvvvGhSmGG.avalqaaqn 128
+                 nia ++g+++++ vvGhS+GG +v lq+++ 
+  afb51f2a48 190 NIASFGGEPENIIVVGHSAGGaSVHLQMLRE 220
+                 699******************7777776553 PP
+
+>> e542ce1613  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.9   0.0   5.8e-07   2.3e-05      24     137 ..      99     230 ..      26     285 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 18.9 bits;  conditional E-value: 5.8e-07
+     PLA.aln  24 Gfgli.....vlP...aagpapvvvlvhGltasqgs..faglgtalagvasG..............favy..vadtsgsgsqsgsrarasaaglaevva 96 
+                 G + +     ++P   +   +pvv+ +hG++ + g    +g+++  +    G                v    ad+sg+ +      ++++ +l ++ +
+  e542ce1613  99 GNEDCltvsvYRPknsSRNSFPVVAQIHGGAFMFGGasQNGHENFMRE---GnlilvkisyrlgplGFVStgDADLSGNFG-----LKDQRLALLWIKQ 189
+                 555556666677787766788999999999999888776777777777...444444444333344333300334443333.....4588888888888 PP
+
+     PLA.aln  97 alniarsrgdskkvvvvGhSmGG.avalqaaqnr.Parvaavv 137
+                   nia ++g+++++ v+GhS+GG +v lq ++   +  ++a++
+  e542ce1613 190 --NIASFGGEPENILVIGHSAGGgSVHLQVLREDfSKVAKAAI 230
+                 ..689******************77777754433334444444 PP
+
+>> 9c28e36175  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.5   0.0   7.5e-07     3e-05      25     137 ..     100     230 ..      37     285 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 7.5e-07
+     PLA.aln  25 fgli.....vlP...aagpapvvvlvhGltasqgs..faglgtalagvasG..............favy..vadtsgsgsqsgsrarasaaglaevvaa 97 
+                  + +     ++P   +   +pvv+ +hG++ + g    +g+++  +    G                v    ad+sg+ +      ++++ +l ++ + 
+  9c28e36175 100 NEDCltvsvYRPknsSRNSFPVVAQIHGVAFMFGGasQNGHENFMRE---GnlilvkisyrlgplGFVStgDADLSGNFG-----LKDQRLALLWIKQ- 189
+                 55555666667777766778999999999999888776777777777...444444444333344333300334443333.....4488888888888. PP
+
+     PLA.aln  98 lniarsrgdskkvvvvGhSmGG.avalqaaqnr.Parvaavv 137
+                  nia ++g+++++ v+GhS+GG +v lq ++   +  ++a++
+  9c28e36175 190 -NIASFGGEPENILVIGHSAGGgSVHLQVLREDfSKVAKAAI 230
+                 .689******************77777754433334444444 PP
+
+>> 114e6d2abe  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.6   0.0   1.4e-06   5.8e-05      29     126 ..     109     218 ..      48     284 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 17.6 bits;  conditional E-value: 1.4e-06
+     PLA.aln  29 vlP...aagpapvvvlvhGltasqgs..faglgtalagvasG..............favy..vadtsgsgsqsgsrarasaaglaevvaalniarsrgd 106
+                 + P   +   +pvv+ +hG++ + g    +g+++  +    G                v    ad+sg+ +      ++++ +l ++ +  nia ++g+
+  114e6d2abe 109 YKPknsSRNSFPVVAQIHGGAFMFGGasQNGHENFMRE---GnlilvkisyrlgplGFVStgDADLSGNFG-----LKDQRLALLWIKQ--NIASFGGE 197
+                 44566555678888889999888888776666666666...444433334333343233300333343333.....4488888888888..689***** PP
+
+     PLA.aln 107 skkvvvvGhSmGG.avalqaa 126
+                 ++++ v+GhS+GG +v lq +
+  114e6d2abe 198 PENILVIGHSAGGgSVHLQVL 218
+                 *************77777633 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (246 nodes)
+Target sequences:                        358  (244074 residues searched)
+Passed MSV filter:                        14  (0.0391061); expected 7.2 (0.02)
+Passed bias filter:                       12  (0.0335196); expected 7.2 (0.02)
+Passed Vit filter:                         9  (0.0251397); expected 0.4 (0.001)
+Passed Fwd filter:                         9  (0.0251397); expected 0.0 (1e-05)
+Initial search space (Z):                358  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 2977.31
+//
+[ok]

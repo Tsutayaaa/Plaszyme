@@ -1,0 +1,175 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Cytochrome-c.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Cytochrome-c/Cytochrome-c.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Cytochrome-c/Cytochrome-c.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Cytochrome-c.aln  [M=680]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+    2.2e-11   47.8   0.1    1.3e-08   38.6   0.0    2.4  2  sp|P55496|Y4IM_SINFN       Uncharacterized protein y4iM OS=Si
+    1.3e-09   41.9   0.5    4.1e-07   33.7   0.3    3.5  4  sp|P55493|Y4IJ_SINFN       Uncharacterized protein y4iJ OS=Si
+  ------ inclusion threshold ------
+       0.21   14.8   0.2    1.2e+02    5.7   0.0    3.1  3  sp|P0DV69|IDRP2_DENI1      Cytochrome-c peroxidase IdrP2 OS=D
+          1   12.6   0.0        3.7   10.7   0.0    1.9  2  sp|P37197|CCP_ECOLI        Cytochrome c peroxidase Ccp OS=Esc
+        7.8    9.6   2.7         95    6.0   0.0    2.7  3  sp|A0A391NKV7|IDRP2_PSEXS  Cytochrome-c peroxidase IdrP2 OS=P
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|P55496|Y4IM_SINFN  Uncharacterized protein y4iM OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 GN=NG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.0   0.1   0.00043        49     308     401 ..     152     234 ..     148     249 .. 0.77
+   2 !   38.6   0.0   1.1e-13   1.3e-08     457     549 ..     251     355 ..     241     392 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.00043
+      Cytochrome-c.aln 308 asm.dtpawwnrafrpvkfvdGvlssdavrvdmvfytpllglfgsvagilseaarrwlraegedantfleslkaaaypktidtalaeqG 395
+                           a++ d p+ wn+  r+   +dG++       +m+f+  + + +  v+++    ++  l + g  + +fl  l +aayp  +d a a +G
+  sp|P55496|Y4IM_SINFN 152 ATItDIPSVWNQQERSLAQWDGSV-------KMAFWRNIAAQLPIVGDP----SKIDLVNTGV-VANFLDGLPPAAYPFDVDMASAVRG 228
+                           555589999999999999999985.......577766665555555554....5555655554.5679********************* PP
+
+      Cytochrome-c.aln 396 avlfhe 401
+                             lf++
+  sp|P55496|Y4IM_SINFN 229 EALFKD 234
+                           999976 PP
+
+  == domain 2  score: 38.6 bits;  conditional E-value: 1.1e-13
+      Cytochrome-c.aln 457 riirtdpvrqklnneavqvaaasnffGypstk..gvandlgrqnradlrgnrel..........GylapplyGvwatapylhnGsvpnl 533
+                           r i td+ r  + n+a     a+ f     ++     +  g+  r    ++ ++          Gy+a  l Gvwa apylhnGs+p l
+  sp|P55496|Y4IM_SINFN 251 RDIGTDMNRAAVLNDAAFHLFAAGFQASCHDQdfLYRSPTGEEVRPCRMAGEDVitarttpavqGYVAEVLDGVWARAPYLHNGSIPTL 339
+                           6677888888888887766655555544433311233444444444444444444666667788************************* PP
+
+      Cytochrome-c.aln 534 wevlkpsdrkklwkrk 549
+                           + +l p+ r++ + r 
+  sp|P55496|Y4IM_SINFN 340 YHLLVPASRPEQFLRG 355
+                           *********9988775 PP
+
+>> sp|P55493|Y4IJ_SINFN  Uncharacterized protein y4iJ OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 GN=NG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0     0.013   1.4e+03     217     248 ..     137     171 ..     125     181 .. 0.69
+   2 ?   -0.1   0.0      0.06   6.9e+03     365     401 ..     337     377 ..     318     380 .. 0.79
+   3 !   33.7   0.3   3.6e-12   4.1e-07     497     546 ..     473     530 ..     412     556 .. 0.67
+   4 ?    0.2   0.0     0.047   5.4e+03     653     680 .]     560     596 .]     543     596 .] 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 2.1 bits;  conditional E-value: 0.013
+      Cytochrome-c.aln 217 sGriGvtcsachsg....aaeaafkpGsgsslqdlh 248
+                              +G+tc ach g       a     +g +l dl+
+  sp|P55493|Y4IJ_SINFN 137 LTTVGLTCAACHTGrftyKGTA-VMVDGGPALTDLG 171
+                           5679*********977533333.3344455666666 PP
+
+  == domain 2  score: -0.1 bits;  conditional E-value: 0.06
+      Cytochrome-c.aln 365 raegedantfleslkaaayp....ktidtalaeqGavlfhe 401
+                             + + a++ +  l+++ +p    ++idt la +Ga ++ +
+  sp|P55493|Y4IJ_SINFN 337 AGKQPTAENGFTGLRPPRWPsnlfGSIDTKLATEGAAVYAD 377
+                           55667777778889999988544468************976 PP
+
+  == domain 3  score: 33.7 bits;  conditional E-value: 3.6e-12
+      Cytochrome-c.aln 497 qnradlrgnrel......GylapplyGvwatapylhnGsvpnlwevlkps.drkk.lw 546
+                            +r +++gnr+        y a pl G+wat p+lhnGsvp +  +l p+ +r+k +w
+  sp|P55493|Y4IJ_SINFN 473 EQREIMNGNRQNgiqaplAYKARPLDGIWATPPFLHNGSVPTIDALLSPAgERPKtFW 530
+                           344555555543333333999****************************834554234 PP
+
+  == domain 4  score: 0.2 bits;  conditional E-value: 0.047
+      Cytochrome-c.aln 653 GqdnGGhtfna.........vltdserkalieylktl 680
+                           G+ n Gh+f++         +l   e+ ali ylktl
+  sp|P55493|Y4IJ_SINFN 560 GNSNAGHEFSDtpgpgvigpALKPDEKAALIAYLKTL 596
+                           8888899887633333333358899***********8 PP
+
+>> sp|P0DV69|IDRP2_DENI1  Cytochrome-c peroxidase IdrP2 OS=Denitromonas iodatirespirans OX=2795389 GN=idrP2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.7   0.0    0.0011   1.2e+02     213     232 ..      58      77 ..      47     129 .. 0.88
+   2 ?    0.5   0.1     0.039   4.4e+03     524     553 ..     228     257 ..     199     284 .. 0.78
+   3 ?    4.8   0.0    0.0019   2.2e+02     510     536 ..     284     310 ..     257     316 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 5.7 bits;  conditional E-value: 0.0011
+       Cytochrome-c.aln 213 dGrwsGriGvtcsachsgaa 232
+                            d r sG +Gv+c +ch+ a 
+  sp|P0DV69|IDRP2_DENI1  58 DTRLSGDMGVSCASCHDPAK 77 
+                            6789*************875 PP
+
+  == domain 2  score: 0.5 bits;  conditional E-value: 0.039
+       Cytochrome-c.aln 524 ylhnGsvpnlwevlkpsdrkklwkrkskaa 553
+                             +hn  vp+  evlk  +r+    r++ ++
+  sp|P0DV69|IDRP2_DENI1 228 QVHNTGVPENPEVLKNPNRTVTLLRHYATS 257
+                            478888888888888888887777777665 PP
+
+  == domain 3  score: 4.8 bits;  conditional E-value: 0.0019
+       Cytochrome-c.aln 510 ylapplyGvwatapylhnGsvpnlwev 536
+                            + +p l  +  tapy+hnG +  l +v
+  sp|P0DV69|IDRP2_DENI1 284 FATPSLRELKYTAPYMHNGMLTTLDQV 310
+                            45677999999********98877666 PP
+
+>> sp|P37197|CCP_ECOLI  Cytochrome c peroxidase Ccp OS=Escherichia coli (strain K12) OX=83333 GN=ccp PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.9   0.0      0.21   2.5e+04     308     329 ..     232     253 ..     223     259 .. 0.84
+   2 ?   10.7   0.0   3.3e-05       3.7     488     542 ..     378     431 ..     372     447 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 0.21
+     Cytochrome-c.aln 308 asmdtpawwnrafrpvkfvdGv 329
+                            +++p+ +n  f+  +f+dG 
+  sp|P37197|CCP_ECOLI 232 GPINAPTVFNSVFNVEQFWDGR 253
+                          45799***************96 PP
+
+  == domain 2  score: 10.7 bits;  conditional E-value: 3.3e-05
+     Cytochrome-c.aln 488 kgvandlgrqnradlrgnrelGylapplyGvwatapylhnGsvpnlwevlkpsdr 542
+                          +++a+d+gr+n ++ ++  +l    p l  v  tapy+h G vp l + +k   r
+  sp|P37197|CCP_ECOLI 378 EITAADIGRMNVTK-EERDKLRQKVPGLRNVALTAPYFHRGDVPTLDGAVKLMLR 431
+                          68999999999765.4556789999********************9998886555 PP
+
+>> sp|A0A391NKV7|IDRP2_PSEXS  Cytochrome-c peroxidase IdrP2 OS=Pseudomonas sp. (strain SCT) OX=412955 GN=idrP2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.5    0.0099   1.1e+03     213     232 ..      59      78 ..      45      93 .. 0.82
+   2 ?   -1.0   0.0      0.11   1.3e+04     312     350 ..      99     140 ..      85     227 .. 0.64
+   3 ?    6.0   0.0   0.00083        95     486     537 ..     262     312 ..     243     317 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 2.5 bits;  conditional E-value: 0.0099
+           Cytochrome-c.aln 213 dGrwsGriGvtcsachsgaa 232
+                                d r sG  Gv+c +ch+ a 
+  sp|A0A391NKV7|IDRP2_PSEXS  59 DRRLSGDWGVSCASCHDPAK 78 
+                                56789999********9874 PP
+
+  == domain 2  score: -1.0 bits;  conditional E-value: 0.11
+           Cytochrome-c.aln 312 tpawwnrafrpvkfvdGvlssdav...rvdmvfytpllglfg 350
+                                +p+  n a+r + ++dG l   ++     dm+  + ++ + g
+  sp|A0A391NKV7|IDRP2_PSEXS  99 SPTVLNAAHRKRFLWDGRLDGADPgtlARDMITEAHTMNMDG 140
+                                677777778877778877764433111335555444444444 PP
+
+  == domain 3  score: 6.0 bits;  conditional E-value: 0.00083
+           Cytochrome-c.aln 486 stkgvandlgrqnradlrgnrelGyl.applyGvwatapylhnGsvpnlwevl 537
+                                    + +d+g    a+ +++r++G + +  l  +  tapy+hnG    l ev+
+  sp|A0A391NKV7|IDRP2_PSEXS 262 NYMSARSDVGA--YAISKDERDVGKFqTAQLRDLKYTAPYMHNGVFDTLEEVV 312
+                                55555555553..5888999999965267899999*********998888775 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (680 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     12811  (0.022332); expected 11473.2 (0.02)
+Passed bias filter:                    10329  (0.0180054); expected 11473.2 (0.02)
+Passed Vit filter:                       611  (0.00106509); expected 573.7 (0.001)
+Passed Fwd filter:                         5  (8.71595e-06); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 7.37u 0.18s 00:00:07.55 Elapsed: 00:00:01.98
+# Mc/sec: 71307.83
+//
+[ok]

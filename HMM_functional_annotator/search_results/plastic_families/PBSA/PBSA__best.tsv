@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PBSA.aln	sp|F7IX06|PETH2_THEAE	300	285	3.2e-53	186.5	1.1e-55	4.5e-53	186.0	5	279	12	299	1	299	0.88	1	1	1.0105263157894737	0.9166666666666666	PBSA

@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Lipase_2.aln	sp|P37957|ESTA_BACSU	212	342	1e-40	144.8	9.6e-45	2.1e-40	143.7	34	193	28	181	21	212	0.93	1	1	0.4502923976608187	0.7547169811320755	Lipase_2
