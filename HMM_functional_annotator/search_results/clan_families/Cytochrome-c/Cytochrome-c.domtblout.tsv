@@ -1,0 +1,27 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|P55496|Y4IM_SINFN      -            432 Cytochrome-c.aln     -            680   2.2e-11   47.8   0.1   1   2   0.00043        49    7.0   0.1   308   401   152   234   148   249 0.77 Uncharacterized protein y4iM OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 GN=NGR_a03200 PE=4 SV=1
+sp|P55496|Y4IM_SINFN      -            432 Cytochrome-c.aln     -            680   2.2e-11   47.8   0.1   2   2   1.1e-13   1.3e-08   38.6   0.0   457   549   251   355   241   392 0.72 Uncharacterized protein y4iM OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 GN=NGR_a03200 PE=4 SV=1
+sp|P55493|Y4IJ_SINFN      -            596 Cytochrome-c.aln     -            680   1.3e-09   41.9   0.5   1   4     0.013   1.4e+03    2.1   0.0   217   248   137   171   125   181 0.69 Uncharacterized protein y4iJ OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 GN=NGR_a03230 PE=4 SV=1
+sp|P55493|Y4IJ_SINFN      -            596 Cytochrome-c.aln     -            680   1.3e-09   41.9   0.5   2   4      0.06   6.9e+03   -0.1   0.0   365   401   337   377   318   380 0.79 Uncharacterized protein y4iJ OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 GN=NGR_a03230 PE=4 SV=1
+sp|P55493|Y4IJ_SINFN      -            596 Cytochrome-c.aln     -            680   1.3e-09   41.9   0.5   3   4   3.6e-12   4.1e-07   33.7   0.3   497   546   473   530   412   556 0.67 Uncharacterized protein y4iJ OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 GN=NGR_a03230 PE=4 SV=1
+sp|P55493|Y4IJ_SINFN      -            596 Cytochrome-c.aln     -            680   1.3e-09   41.9   0.5   4   4     0.047   5.4e+03    0.2   0.0   653   680   560   596   543   596 0.75 Uncharacterized protein y4iJ OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 GN=NGR_a03230 PE=4 SV=1
+sp|P0DV69|IDRP2_DENI1     -            367 Cytochrome-c.aln     -            680      0.21   14.8   0.2   1   3    0.0011   1.2e+02    5.7   0.0   213   232    58    77    47   129 0.88 Cytochrome-c peroxidase IdrP2 OS=Denitromonas iodatirespirans OX=2795389 GN=idrP2 PE=1 SV=1
+sp|P0DV69|IDRP2_DENI1     -            367 Cytochrome-c.aln     -            680      0.21   14.8   0.2   2   3     0.039   4.4e+03    0.5   0.1   524   553   228   257   199   284 0.78 Cytochrome-c peroxidase IdrP2 OS=Denitromonas iodatirespirans OX=2795389 GN=idrP2 PE=1 SV=1
+sp|P0DV69|IDRP2_DENI1     -            367 Cytochrome-c.aln     -            680      0.21   14.8   0.2   3   3    0.0019   2.2e+02    4.8   0.0   510   536   284   310   257   316 0.76 Cytochrome-c peroxidase IdrP2 OS=Denitromonas iodatirespirans OX=2795389 GN=idrP2 PE=1 SV=1
+sp|P37197|CCP_ECOLI       -            465 Cytochrome-c.aln     -            680         1   12.6   0.0   1   2      0.21   2.5e+04   -1.9   0.0   308   329   232   253   223   259 0.84 Cytochrome c peroxidase Ccp OS=Escherichia coli (strain K12) OX=83333 GN=ccp PE=1 SV=1
+sp|P37197|CCP_ECOLI       -            465 Cytochrome-c.aln     -            680         1   12.6   0.0   2   2   3.3e-05       3.7   10.7   0.0   488   542   378   431   372   447 0.83 Cytochrome c peroxidase Ccp OS=Escherichia coli (strain K12) OX=83333 GN=ccp PE=1 SV=1
+sp|A0A391NKV7|IDRP2_PSEXS -            368 Cytochrome-c.aln     -            680       7.8    9.6   2.7   1   3    0.0099   1.1e+03    2.5   0.5   213   232    59    78    45    93 0.82 Cytochrome-c peroxidase IdrP2 OS=Pseudomonas sp. (strain SCT) OX=412955 GN=idrP2 PE=1 SV=1
+sp|A0A391NKV7|IDRP2_PSEXS -            368 Cytochrome-c.aln     -            680       7.8    9.6   2.7   2   3      0.11   1.3e+04   -1.0   0.0   312   350    99   140    85   227 0.64 Cytochrome-c peroxidase IdrP2 OS=Pseudomonas sp. (strain SCT) OX=412955 GN=idrP2 PE=1 SV=1
+sp|A0A391NKV7|IDRP2_PSEXS -            368 Cytochrome-c.aln     -            680       7.8    9.6   2.7   3   3   0.00083        95    6.0   0.0   486   537   262   312   243   317 0.77 Cytochrome-c peroxidase IdrP2 OS=Pseudomonas sp. (strain SCT) OX=412955 GN=idrP2 PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Cytochrome-c.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Cytochrome-c/Cytochrome-c.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Cytochrome-c/Cytochrome-c.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Cytochrome-c.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:06:31 2025
+# [ok]

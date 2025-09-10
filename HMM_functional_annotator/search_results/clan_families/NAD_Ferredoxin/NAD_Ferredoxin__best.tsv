@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+NAD_Ferredoxin.aln	sp|Q3C1D2|TPDR2_COMSP	336	336	6.4e-241	802.9	6.2e-244	7.1e-241	802.7	1	336	1	336	1	336	1.0	1	1	1.0	1.0	NAD_Ferredoxin

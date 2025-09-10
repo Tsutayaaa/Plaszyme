@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PETase.aln	sp|Q47RJ6|PETH2_THEFY	301	300	5e-137	461.0	3.6e-140	6e-137	460.7	14	290	23	301	8	301	0.93	1	1	0.93	0.920265780730897	PETase

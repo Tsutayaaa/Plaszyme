@@ -1,0 +1,180 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Globin.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Globin/Globin.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Globin/Globin.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Globin.aln  [M=398]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+   2.3e-206  690.2   0.2   2.5e-206  690.1   0.2    1.0  1  sp|Q3L8N0|LCP_STRK3   Rubber oxygenase OS=Streptomyces sp. (s
+  ------ inclusion threshold ------
+       0.23   15.3   0.0       0.32   14.8   0.0    1.1  1  sp|B7KIU7|PYRD_GLOC7  Dihydroorotate dehydrogenase (quinone) 
+        1.6   12.4   0.1         21    8.8   0.0    2.1  2  sp|C4LJL7|ATPD_CORK4  ATP synthase subunit delta OS=Corynebac
+        2.9   11.6   0.0        4.6   10.9   0.0    1.3  2  sp|Q5ZS10|IHFA_LEGPH  Integration host factor subunit alpha O
+        4.5   11.0   0.0        4.8   10.9   0.0    1.0  1  sp|B4F063|RNFH_PROMH  Protein RnfH OS=Proteus mirabilis (stra
+        5.9   10.6   0.0        8.2   10.1   0.0    1.1  1  sp|A6UFF8|FPG_SINMW   Formamidopyrimidine-DNA glycosylase OS=
+        7.2   10.3   0.0         11    9.7   0.0    1.2  1  sp|Q6G4T2|FPG_BARHE   Formamidopyrimidine-DNA glycosylase OS=
+        7.9   10.2   0.0         11    9.7   0.0    1.1  1  sp|Q59752|FPG_RHIME   Formamidopyrimidine-DNA glycosylase OS=
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q3L8N0|LCP_STRK3  Rubber oxygenase OS=Streptomyces sp. (strain K30) OX=256642 GN=lcp PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  690.1   0.2  3.6e-211  2.5e-206       1     397 [.       1     406 [.       1     407 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 690.1 bits;  conditional E-value: 3.6e-211
+           Globin.aln   1 mealsrrrilllggalgavgA........aaslwaWspadsvaGsgaGadprylwddeadpviarvidagqvpevnrllktwvrndqpvp 82 
+                          m+ +srrr+l++ggalgavgA        a++lw+Wsp++svaG+g+G+dp+y+wd+eadpv+a+vid+g+vp+vn+llk+w+rndq++p
+  sp|Q3L8N0|LCP_STRK3   1 MDGFSRRRMLMTGGALGAVGAlgaatralARPLWTWSPSASVAGTGVGVDPEYVWDEEADPVLAAVIDRGEVPAVNALLKQWTRNDQALP 90 
+                          999*************************************************************************************** PP
+
+           Globin.aln  83 gglpsdlrdfleqarrlPsWaDkakledavkfnkkkdtyvgvLyglgsglmstviprearavyyskggadvkDriaktaklGydlgslka 172
+                          gglp dlr+f+e+arr+PsWaDka+l+++++f+k+k++yvg+Lyglgsglmst+ipre+ravyyskggad+kDriakta+lGyd+g+l+a
+  sp|Q3L8N0|LCP_STRK3  91 GGLPGDLREFMEHARRMPSWADKAALDRGAQFSKTKGIYVGALYGLGSGLMSTAIPRESRAVYYSKGGADMKDRIAKTARLGYDIGDLDA 180
+                          ****************************************************************************************** PP
+
+           Globin.aln 173 ykptgemvvtavktrlvhaavrhllPqsplWea.sadekiPisqadilvtlhslpttvmrklkkWkvpipeaeseafLhvwqvtahllgv 261
+                          y p+g+m+vtavktr+vhaavrhllPqsp+W++ s+++kiPisqadi+vt+hsl+t+vmrk+k+W+v++++a++ea+Lhvwqv+ah+lgv
+  sp|Q3L8N0|LCP_STRK3 181 YLPHGSMIVTAVKTRMVHAAVRHLLPQSPAWSQtSGGQKIPISQADIMVTWHSLATFVMRKMKQWGVRVNTADAEAYLHVWQVSAHMLGV 270
+                          *********************************9******************************************************** PP
+
+           Globin.aln 262 rdeyipatwaaanaqakqvLdpilaitkeGaeladalldlgadldlgltrpllgaltryilgdkvadllalkrepvleplvetaWpllva 351
+                          +deyipatw+aanaq+kqvLdpila+t+eG++l+++ll+++a+ld+gltrpl+ga++ry+lg++v+d+++l+++pvle+l++taWpllva
+  sp|Q3L8N0|LCP_STRK3 271 SDEYIPATWDAANAQSKQVLDPILAHTPEGEALTEVLLGIVAELDAGLTRPLIGAFSRYTLGGEVGDMIGLAKQPVLERLIATAWPLLVA 360
+                          ****************************************************************************************** PP
+
+           Globin.aln 352 lreGllpvpavpetlwlldealRkfvllflselrpisieiPtvnra 397
+                          +reGl+p+pavp++lw+l+ealRkfvllflse+r+i+i+iP+vnr+
+  sp|Q3L8N0|LCP_STRK3 361 FREGLIPLPAVPAVLWTLEEALRKFVLLFLSEGRRIAIDIPDVNRP 406
+                          *********************************************8 PP
+
+>> sp|B7KIU7|PYRD_GLOC7  Dihydroorotate dehydrogenase (quinone) OS=Gloeothece citriformis (strain PCC 7424) OX=65393 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.8   0.0   4.4e-06      0.32     209     340 ..     134     270 ..     123     298 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 4.4e-06
+            Globin.aln 209 ekiPisqadilvtlhslpttv..mrklkkWkvpipeaeseafLhvw...qvtahllgvrdeyipatwaaanaqakqvLdpilaitkeGa 292
+                           +   i+++ +  t++  p t+    +l k k+   e+ +  +++++   ++ a  + v+    p+t+   ++qa   L+pila  +  +
+  sp|B7KIU7|PYRD_GLOC7 134 QGATILAKTLQETWDRHPRTIpiGINLCKSKITPLEEAASDYVESFralKDWADYFVVNV-SSPNTPGLRDLQATAQLEPILAALHREN 221
+                           566788888888888877665214577788875555555555554411145555555554.56************************** PP
+
+            Globin.aln 293 elada.lldlgadldlgltrpllgaltryilgdkvadllalkrepvlep 340
+                           +l +  ll++  dld g  + +++    y l++ +a   +++r+ + ++
+  sp|B7KIU7|PYRD_GLOC7 222 ALNQPlLLKISPDLDWGDLKDIVNLAKTYELAGIIATNTTISRQGLKTQ 270
+                           **9962579********99*****************9999999876655 PP
+
+>> sp|C4LJL7|ATPD_CORK4  ATP synthase subunit delta OS=Corynebacterium kroppenstedtii (strain DSM 44385 / JCM 11950 / CI
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.8   0.0   0.00029        21     291     360 ..      33     105 ..      10     115 .. 0.79
+   2 ?    1.7   0.0     0.042     3e+03      89     136 ..     129     172 ..     107     206 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 8.8 bits;  conditional E-value: 0.00029
+            Globin.aln 291 Gaelad..alldlgadldlgltrpllgaltryilgdkv.adllalkrepvleplvetaWpllvalreGllpvp 360
+                           G el d  ++ld  +dl ++l  p      r+ l+d+v ++ l+ +   vl++ v+  W+    +r+Gl++++
+  sp|C4LJL7|ATPD_CORK4  33 GPELFDvvEVLDSNRDLRVALIDPAASSEKRADLADRVfGEKLNQASRSVLRSAVDKDWSNTRDFRNGLVQLG 105
+                           44444411356777888999999999999********86889999999*********************9985 PP
+
+  == domain 2  score: 1.7 bits;  conditional E-value: 0.042
+            Globin.aln  89 lrdfleqarrlPs.WaDkakledavkfnkkkdtyvgvLyglgsglmstv 136
+                           l+  le+a +l    aD+      ++  ++++++ +vLyg   +++ t+
+  sp|C4LJL7|ATPD_CORK4 129 LARVLEDAPQLEMlLADR-----QASADRRRQLLASVLYGKVTSITETL 172
+                           555566666654413555.....566689***********999998885 PP
+
+>> sp|Q5ZS10|IHFA_LEGPH  Integration host factor subunit alpha OS=Legionella pneumophila subsp. pneumophila (strain Phil
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   6.5e-05       4.6     313     346 ..       2      34 ..       1      49 [. 0.89
+   2 ?   -3.5   0.0       1.6   1.1e+05     137     159 ..      74      96 ..      68      98 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 6.5e-05
+            Globin.aln 313 llgaltryilgdkvadllalkrepvleplvetaW 346
+                           +++al+++i+++ + d l+l++ pv++++ve  +
+  sp|Q5ZS10|IHFA_LEGPH   2 IVNALSKAIMAETLCDELKLNK-PVAKEMVENFF 34 
+                           79********************.*****999755 PP
+
+  == domain 2  score: -3.5 bits;  conditional E-value: 1.6
+            Globin.aln 137 iprearavyyskggadvkDriak 159
+                           ip ear v   k g ++k +i k
+  sp|Q5ZS10|IHFA_LEGPH  74 IPVEARRVVTFKPGLKLKTKIEK 96 
+                           66677776666666666666666 PP
+
+>> sp|B4F063|RNFH_PROMH  Protein RnfH OS=Proteus mirabilis (strain HI4320) OX=529507 GN=rnfH PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   6.7e-05       4.8     285     336 ..      25      77 ..       4      83 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 6.7e-05
+            Globin.aln 285 laitkeGaeladalldlgadldlgltrpllgaltr.yilgdkv..adllalkrep 336
+                           l+ t e a +a ++l +  d+d  lt+  +g+++r + l+d+v  +d +++ r  
+  sp|B4F063|RNFH_PROMH  25 LGDTVEQAIIASNILTICNDID--LTKNKVGIYSRpAKLSDNVrdGDRVEIYRPL 77 
+                           566888899*************..9999******9678****9445677777744 PP
+
+>> sp|A6UFF8|FPG_SINMW  Formamidopyrimidine-DNA glycosylase OS=Sinorhizobium medicae (strain WSM419) OX=366394 GN=mutM P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.0   0.00011       8.2     146     183 ..     245     282 ..     229     296 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.00011
+           Globin.aln 146 yskggadvkDriaktaklGydlgslkaykptgemvvta 183
+                           ++gg+ +kD+i +   lGy  +s ++y+++ge   t+
+  sp|A6UFF8|FPG_SINMW 245 IAAGGSSLKDHIQADGSLGYFQHSFSVYDREGEACRTS 282
+                          689*****************************987665 PP
+
+>> sp|Q6G4T2|FPG_BARHE  Formamidopyrimidine-DNA glycosylase OS=Bartonella henselae (strain ATCC 49882 / DSM 28221 / CCUG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.7   0.0   0.00015        11     115     182 ..     198     268 ..     193     272 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 9.7 bits;  conditional E-value: 0.00015
+           Globin.aln 115 nkkkdtyvgvLyglgsglmstviprearavy...yskggadvkDriaktaklGydlgslkaykptgemvvt 182
+                          + +++ ++ +L++  + ++++ + ++ r v     s+gg+ ++D i     lGy  +s ++y ++g+  + 
+  sp|Q6G4T2|FPG_BARHE 198 SPQRGAFTLALKTECARELAASLAQNIRNVIteaISSGGSTLRDYIRTDGSLGYFQHSFSVYGREGKECLH 268
+                          56899999**********************99999*****************************9987665 PP
+
+>> sp|Q59752|FPG_RHIME  Formamidopyrimidine-DNA glycosylase OS=Rhizobium meliloti (strain 1021) OX=266834 GN=mutM PE=3 S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.7   0.0   0.00015        11     142     180 ..     233     274 ..     224     289 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 9.7 bits;  conditional E-value: 0.00015
+           Globin.aln 142 ravy...yskggadvkDriaktaklGydlgslkaykptgemv 180
+                          rav     ++gg+ +kD+i +   lGy  +s ++y+++ge  
+  sp|Q59752|FPG_RHIME 233 RAVIadaIAAGGSSLKDHIQADGSLGYFQHSFSVYDREGEAC 274
+                          5665555689*****************************975 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (398 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     15818  (0.0275738); expected 11473.2 (0.02)
+Passed bias filter:                    13156  (0.0229334); expected 11473.2 (0.02)
+Passed Vit filter:                       921  (0.00160548); expected 573.7 (0.001)
+Passed Fwd filter:                         8  (1.39455e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):               8  [number of targets reported over threshold]
+# CPU time: 5.18u 0.18s 00:00:05.36 Elapsed: 00:00:01.60
+# Mc/sec: 51622.59
+//
+[ok]

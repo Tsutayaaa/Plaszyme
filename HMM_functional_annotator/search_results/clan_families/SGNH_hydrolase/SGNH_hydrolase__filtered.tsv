@@ -1,0 +1,5 @@
+hmm	tlen	query	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+sp|Q9HZY8|EST_PSEAE	201	SGNH_hydrolase.aln	201	2e-79	271.1	5.8e-84	2.2e-79	270.9	1	201	1	201	1	201	0.99	1	1	1.0	1.0	SGNH_hydrolase
+sp|P0ADA1|TESA_ECOLI	208	SGNH_hydrolase.aln	201	5.8e-41	145.5	1.7e-45	6.7e-41	145.3	18	201	24	204	10	204	0.95	1	1	0.900497512437811	0.8846153846153846	SGNH_hydrolase
+sp|P0ADA2|TESA_ECOL6	208	SGNH_hydrolase.aln	201	5.8e-41	145.5	1.7e-45	6.7e-41	145.3	18	201	24	204	10	204	0.95	1	1	0.900497512437811	0.8846153846153846	SGNH_hydrolase
+sp|Q07792|ESTE_VIBMI	200	SGNH_hydrolase.aln	201	1e-40	144.7	3.3e-45	1.3e-40	144.4	21	187	20	186	6	196	0.95	1	1	0.8308457711442786	0.835	SGNH_hydrolase

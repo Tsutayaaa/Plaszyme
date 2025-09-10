@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Di-copper.aln	sp|Q24995|ARY_GALME	702	733	0.0	1095.7	0.0	0.0	1095.6	13	733	3	702	1	702	0.97	1	1	0.9549795361527967	1.0270655270655271	Di-copper

@@ -1,0 +1,4 @@
+hmm	tlen	query	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+sp|P52960|PIP2_YEAST	996	Zn_clus.aln	996	0.0	2397.0	0.0	0.0	2396.8	1	996	1	996	1	996	1.0	1	1	1.0	1.0	Zn_clus
+sp|P39720|OAF1_YEAST	1047	Zn_clus.aln	996	1.9e-240	805.5	4.5e-214	1.4e-210	706.6	117	996	181	1045	163	1045	0.9	2	2	0.8684738955823293	0.8404966571155683	Zn_clus
+sp|Q12244|YL054_YEAST	843	Zn_clus.aln	996	8.6e-13	51.9	4.3e-11	1.4e-07	34.7	248	704	205	655	136	791	0.76	2	2	0.4528112449799197	0.5421115065243179	Zn_clus

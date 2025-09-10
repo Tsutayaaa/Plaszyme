@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+54b0f51654           -            548 PLA.aln              -            246   1.9e-07   25.7   0.0   1   1   6.3e-09   2.5e-07   25.4   0.0    24   140   102   236    18   286 0.78 -
+f41c6d89a0           -            555 PLA.aln              -            246     2e-07   25.7   0.0   1   1   6.5e-09   2.6e-07   25.3   0.0    24   140   102   236    18   287 0.77 -
+03f3222488           -            548 PLA.aln              -            246   3.4e-07   24.9   0.0   1   1   1.1e-08   4.3e-07   24.6   0.0    24   128   102   223    17   284 0.79 -
+59bb4d8994           -            545 PLA.aln              -            246   4.8e-07   24.4   0.0   1   1   1.5e-08   5.8e-07   24.1   0.0    20   128    95   220     1   284 0.74 -
+4fd7439f5f           -            545 PLA.aln              -            246   4.9e-07   24.4   0.0   1   1   1.5e-08   5.9e-07   24.1   0.0    20   127    95   219     1   284 0.74 -
+afb51f2a48           -            545 PLA.aln              -            246   4.9e-07   24.4   0.0   1   1   1.6e-08   6.5e-07   24.0   0.0    21   128    96   220     2   284 0.75 -
+e542ce1613           -            545 PLA.aln              -            246   1.7e-05   19.3   0.0   1   1   5.8e-07   2.3e-05   18.9   0.0    24   137    99   230    26   285 0.74 -
+9c28e36175           -            545 PLA.aln              -            246   2.2e-05   19.0   0.0   1   1   7.5e-07     3e-05   18.5   0.0    25   137   100   230    37   285 0.73 -
+114e6d2abe           -            545 PLA.aln              -            246   4.2e-05   18.1   0.0   1   1   1.4e-06   5.8e-05   17.6   0.0    29   126   109   218    48   284 0.72 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PLA.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/plastic_families/PLA/PLA.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/plastic_families/PLA/PLA.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PLA.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 12:47:14 2025
+# [ok]

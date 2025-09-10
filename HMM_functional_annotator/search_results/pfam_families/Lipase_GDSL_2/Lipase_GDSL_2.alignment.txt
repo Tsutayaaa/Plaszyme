@@ -1,0 +1,362 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Lipase_GDSL_2.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Lipase_GDSL_2/Lipase_GDSL_2.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Lipase_GDSL_2/Lipase_GDSL_2.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Lipase_GDSL_2.aln  [M=201]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    3.7e-94  318.8   2.9    4.1e-94  318.7   2.9    1.0  1  sp|Q9HZY8|EST_PSEAE    Esterase TesA OS=Pseudomonas aeruginos
+    9.5e-47  164.0   0.0    1.1e-46  163.8   0.0    1.0  1  sp|Q07792|ESTE_VIBMI   Arylesterase OS=Vibrio mimicus OX=674 
+    9.5e-47  164.0   0.0    1.1e-46  163.9   0.0    1.0  1  sp|P0ADA1|TESA_ECOLI   Thioesterase 1/protease 1/lysophosphol
+    9.5e-47  164.0   0.0    1.1e-46  163.9   0.0    1.0  1  sp|P0ADA2|TESA_ECOL6   Thioesterase 1/protease 1/lysophosphol
+     0.0082   20.6   0.0      0.012   20.1   0.0    1.2  1  sp|P54451|YQEF_BACSU   Uncharacterized lipoprotein YqeF OS=Ba
+  ------ inclusion threshold ------
+        0.1   17.0   0.2       0.16   16.3   0.2    1.3  1  sp|Q00017|RHA1_ASPAC   Rhamnogalacturonan acetylesterase OS=A
+       0.35   15.2   0.0       0.43   15.0   0.0    1.0  1  sp|Q979K3|RL18E_THEVO  Large ribosomal subunit protein eL18 O
+       0.48   14.8   0.0       0.64   14.4   0.0    1.1  1  sp|Q1IIY8|ARGR_KORVE   Arginine repressor OS=Koribacter versa
+        0.5   14.7   0.1       0.71   14.3   0.1    1.1  1  sp|B0U330|KDSB_XYLFM   3-deoxy-manno-octulosonate cytidylyltr
+        1.1   13.6   0.1         21    9.5   0.1    2.1  2  sp|Q9BYZ2|LDH6B_HUMAN  L-lactate dehydrogenase A-like 6B OS=H
+        1.3   13.3   0.1        1.9   12.9   0.1    1.1  1  sp|Q9PB46|KDSB_XYLFA   3-deoxy-manno-octulosonate cytidylyltr
+        1.4   13.3   0.0          2   12.7   0.0    1.2  1  sp|B8F5Q8|RECR_GLAP5   Recombination protein RecR OS=Glaesser
+        1.6   13.1   0.1        2.2   12.7   0.1    1.1  1  sp|Q87BW1|KDSB_XYLFT   3-deoxy-manno-octulosonate cytidylyltr
+        1.6   13.1   0.1        2.3   12.6   0.1    1.1  1  sp|B2I6C4|KDSB_XYLF2   3-deoxy-manno-octulosonate cytidylyltr
+        1.9   12.8   0.0        2.8   12.3   0.0    1.7  1  sp|Q09LX1|AXE2_GEOSE   Acetylxylan esterase OS=Geobacillus st
+        2.1   12.7   1.1         11   10.4   0.1    2.3  3  sp|Q0ABJ9|ARGC_ALKEH   N-acetyl-gamma-glutamyl-phosphate redu
+        2.6   12.4   0.2        4.2   11.7   0.2    1.3  1  sp|A8A1C2|DCYD_ECOHS   D-cysteine desulfhydrase OS=Escherichi
+        2.6   12.4   0.0          4   11.8   0.0    1.3  1  sp|B1KPT0|PIMT_SHEWM   Protein-L-isoaspartate O-methyltransfe
+        5.8   11.3   0.1         22    9.4   0.1    1.8  2  sp|Q4R816|LDH6B_MACFA  L-lactate dehydrogenase A-like 6B OS=M
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q9HZY8|EST_PSEAE  Esterase TesA OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  318.7   2.9   1.4e-98   4.1e-94       1     201 []       1     201 []       1     201 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 318.7 bits;  conditional E-value: 1.4e-98
+    Lipase_GDSL_2.aln   1 lrawwlsgalallfwaqgavagtllvvgdsisaafgldsrqgwvallekrlseegfehsvvnasisgdtsaggaarlsallaehkpelvi 90 
+                          +ra  lsg+lal++ +q a a tllvvgdsisaa+gld+ qgwvall+krl++eg+++ vvnasisgdtsagg arl allae kp lv+
+  sp|Q9HZY8|EST_PSEAE   1 MRALLLSGCLALVLLTQQAAAQTLLVVGDSISAALGLDTSQGWVALLQKRLADEGYDYRVVNASISGDTSAGGLARLPALLAEEKPALVV 90 
+                          89**************************************************************************************** PP
+
+    Lipase_GDSL_2.aln  91 ielggndglrgqppaqlqqnlasmveqsqqagakvlllgmklppnygvryttafaqvftdlaeqkqvslvpfflegvggvpgmmqadgih 180
+                          ielggndglrg  paqlqqnlasm ++++  gakvlllg++lppnyg ry  af++v+  +a q + +lvpfflegvggv gmmqadgih
+  sp|Q9HZY8|EST_PSEAE  91 IELGGNDGLRGMAPAQLQQNLASMAQKARAEGAKVLLLGIQLPPNYGPRYIEAFSRVYGAVAAQEKTALVPFFLEGVGGVQGMMQADGIH 180
+                          ****************************************************************************************** PP
+
+    Lipase_GDSL_2.aln 181 paeaaqeilldnvwptlkpml 201
+                          pa aaq  ll+nvwptlkp+l
+  sp|Q9HZY8|EST_PSEAE 181 PALAAQPRLLENVWPTLKPLL 201
+                          *******************97 PP
+
+>> sp|Q07792|ESTE_VIBMI  Arylesterase OS=Vibrio mimicus OX=674 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  163.8   0.0   3.8e-51   1.1e-46       9     190 ..       8     189 ..       2     199 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 163.8 bits;  conditional E-value: 3.8e-51
+     Lipase_GDSL_2.aln   9 alallfwaqgavagtllvvgdsisaafgldsrqgwvallekrlseegfehsvvnasisgdtsaggaarlsallaehkpelviielggnd 97 
+                           +l + + a +     llv+gds+sa + +   + w +ll   l e g + +v+n sisgdt+  g arl  ll +h p+lv+ielg nd
+  sp|Q07792|ESTE_VIBMI   8 VLFFCLSAASQASEKLLVLGDSLSAGYQMPIEKSWPSLLPDALLEHGQDVTVINGSISGDTTGNGLARLPQLLDQHTPDLVLIELGAND 96 
+                           344444556667789************************************************************************** PP
+
+     Lipase_GDSL_2.aln  98 glrgqppaqlqqnlasmveqsqqagakvlllgmklppnygvryttafaqvftdlaeqkqvslvpfflegvggvpgmmqadgihpaeaaq 186
+                           glrg pp  +  nl+ m+   +++ga+v+++ +++ppnyg ry+  f +++  lae++qv l+pffle v   p  m  dg+hp   aq
+  sp|Q07792|ESTE_VIBMI  97 GLRGFPPKVITSNLSKMISLIKDSGANVVMMQIRVPPNYGKRYSDMFYDIYPKLAEHQQVQLMPFFLEHVITKPEWMMDDGLHPKPEAQ 185
+                           ************************************************************************************99998 PP
+
+     Lipase_GDSL_2.aln 187 eill 190
+                             + 
+  sp|Q07792|ESTE_VIBMI 186 PWIA 189
+                           7655 PP
+
+>> sp|P0ADA1|TESA_ECOLI  Thioesterase 1/protease 1/lysophospholipase L1 OS=Escherichia coli (strain K12) OX=83333 GN=tes
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  163.9   0.0   3.5e-51   1.1e-46       4     200 ..      10     203 ..       7     204 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 163.9 bits;  conditional E-value: 3.5e-51
+     Lipase_GDSL_2.aln   4 wwlsgalallfwaqgavagtllvvgdsisaafgldsrqgwvallekrlseegfehsvvnasisgdtsaggaarlsallaehkpelviie 92 
+                           w+l   + +l+  ++a a tll++gds+sa + + +   w all+ +      + svvnasisgdts  g arl all +h+p  v++e
+  sp|P0ADA1|TESA_ECOLI  10 WHLPFLFLVLLTFRAAAADTLLILGDSLSAGYRMSASAAWPALLNDKWQS---KTSVVNASISGDTSQQGLARLPALLKQHQPRWVLVE 95 
+                           555555556666788999**************************998875...57********************************** PP
+
+     Lipase_GDSL_2.aln  93 lggndglrgqppaqlqqnlasmveqsqqagakvlllgmklppnygvryttafaqvftdlaeqkqvslvpfflegvggvpgmmqadgihp 181
+                           lggndglrg  p q +q l  ++++ + a a  ll+ ++lp nyg ry  af+ ++  la++ +v l+pff+e v   p  mq dgihp
+  sp|P0ADA1|TESA_ECOLI  96 LGGNDGLRGFQPQQTEQTLRQILQDVKAANAEPLLMQIRLPANYGRRYNEAFSAIYPKLAKEFDVPLLPFFMEEVYLKPQWMQDDGIHP 184
+                           ***************************************************************************************** PP
+
+     Lipase_GDSL_2.aln 182 aeaaqeilldnvwptlkpm 200
+                              aq  + d +   l+p+
+  sp|P0ADA1|TESA_ECOLI 185 NRDAQPFIADWMAKQLQPL 203
+                           **********999999887 PP
+
+>> sp|P0ADA2|TESA_ECOL6  Thioesterase 1/protease 1/lysophospholipase L1 OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  163.9   0.0   3.5e-51   1.1e-46       4     200 ..      10     203 ..       7     204 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 163.9 bits;  conditional E-value: 3.5e-51
+     Lipase_GDSL_2.aln   4 wwlsgalallfwaqgavagtllvvgdsisaafgldsrqgwvallekrlseegfehsvvnasisgdtsaggaarlsallaehkpelviie 92 
+                           w+l   + +l+  ++a a tll++gds+sa + + +   w all+ +      + svvnasisgdts  g arl all +h+p  v++e
+  sp|P0ADA2|TESA_ECOL6  10 WHLPFLFLVLLTFRAAAADTLLILGDSLSAGYRMSASAAWPALLNDKWQS---KTSVVNASISGDTSQQGLARLPALLKQHQPRWVLVE 95 
+                           555555556666788999**************************998875...57********************************** PP
+
+     Lipase_GDSL_2.aln  93 lggndglrgqppaqlqqnlasmveqsqqagakvlllgmklppnygvryttafaqvftdlaeqkqvslvpfflegvggvpgmmqadgihp 181
+                           lggndglrg  p q +q l  ++++ + a a  ll+ ++lp nyg ry  af+ ++  la++ +v l+pff+e v   p  mq dgihp
+  sp|P0ADA2|TESA_ECOL6  96 LGGNDGLRGFQPQQTEQTLRQILQDVKAANAEPLLMQIRLPANYGRRYNEAFSAIYPKLAKEFDVPLLPFFMEEVYLKPQWMQDDGIHP 184
+                           ***************************************************************************************** PP
+
+     Lipase_GDSL_2.aln 182 aeaaqeilldnvwptlkpm 200
+                              aq  + d +   l+p+
+  sp|P0ADA2|TESA_ECOL6 185 NRDAQPFIADWMAKQLQPL 203
+                           **********999999887 PP
+
+>> sp|P54451|YQEF_BACSU  Uncharacterized lipoprotein YqeF OS=Bacillus subtilis (strain 168) OX=224308 GN=yqeF PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.1   0.0   3.9e-07     0.012      40     128 ..      46     137 ..       8     152 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 20.1 bits;  conditional E-value: 3.9e-07
+     Lipase_GDSL_2.aln  40 rqgwvallekrlseegfehsvvnasisgdtsaggaarlsallaehkpelviielggndg...lrgqppaqlq...qnlasmveqsqqag 122
+                            q wv +l+   +e g +  ++na i g+t+     r+ + + ++kp+ + i +g nd      g+p    q   +nl  ++e+s++ g
+  sp|P54451|YQEF_BACSU  46 AQQWVNILKT--AERG-NLDILNAGIGGQTTEDARLRFQTDVLDQKPKYLFIMFGTNDAailTEGKPRVSKQrfrENLVYFIEESRKHG 131
+                           4789999864..5555.6789*************************************844336999765442227************* PP
+
+     Lipase_GDSL_2.aln 123 akvlll 128
+                            k +l+
+  sp|P54451|YQEF_BACSU 132 IKPILM 137
+                           *98886 PP
+
+>> sp|Q00017|RHA1_ASPAC  Rhamnogalacturonan acetylesterase OS=Aspergillus aculeatus OX=5053 GN=rha1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.3   0.2   5.3e-06      0.16       8      98 ..       4      93 ..       1     100 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 5.3e-06
+     Lipase_GDSL_2.aln  8 galallfwaqgavagtllvvgdsisaafglds.rqgwvallekrlseegfehsvvnasisgdtsaggaarlsallaehkpelviielggnd 97
+                          +ala lf+  +a+a t+ + gds  a  g  s  +gw   l   ls   ++ +v   s    t  g    ++ +++    + vi+e+g nd
+  sp|Q00017|RHA1_ASPAC  4 AALAPLFFLPSALATTVYLAGDSTMAKNGGGSgTNGWGEYLASYLSATVVNDAVAGRSARSYTREGRFENIADVVT--AGDYVIVEFGHND 92
+                          79999******************999988766379*************9999999999999999999999888876..4789********* PP
+
+     Lipase_GDSL_2.aln 98 g 98
+                          g
+  sp|Q00017|RHA1_ASPAC 93 G 93
+                          9 PP
+
+>> sp|Q979K3|RL18E_THEVO  Large ribosomal subunit protein eL18 OS=Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   0.0   1.4e-05      0.43     107     190 ..      13      96 ..       5     103 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 1.4e-05
+      Lipase_GDSL_2.aln 107 lqqnlasmveqsqqagakvlllgmklppnygvryttafaqvftdlaeqkqvslvpfflegvggvpgmmqadgihpaeaaqeill 190
+                            l +++ s+ve s+q  ak+         n   ry++     +  +a++ +v +vp  + gvg +   +    +h + aa e l+
+  sp|Q979K3|RL18E_THEVO  13 LVNEIRSLVEISRQNSAKIWRDMAERLANGRRRYASINLYKIDKFAKDGDVIVVPGSVLGVGKITKKVTIGAVHFSRAATEKLV 96 
+                            667899*************98777777888899*9999999999***********************************99886 PP
+
+>> sp|Q1IIY8|ARGR_KORVE  Arginine repressor OS=Koribacter versatilis (strain Ellin345) OX=204669 GN=argR PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.4   0.0   2.1e-05      0.64      38     105 ..      65     132 ..      54     145 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 2.1e-05
+     Lipase_GDSL_2.aln  38 dsrqgwvallekrlseegfehsvvnasisgdtsaggaarlsa.llaehkpelviielggndglrgqppa 105
+                           ds   w+  +e+ + e  ++  + + ++   tsag a  ++a l ae  pe+v   +gg+d +    p+
+  sp|Q1IIY8|ARGR_KORVE  65 DSNAAWLPSVERLIREFVYDVKIAQNTVVVKTSAGSAQPVAAaLDAEGWPEVV-GTVGGDDTIFVVTPS 132
+                           89999********************************9887516699999976.679999988766554 PP
+
+>> sp|B0U330|KDSB_XYLFM  3-deoxy-manno-octulosonate cytidylyltransferase OS=Xylella fastidiosa (strain M12) OX=405440 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.3   0.1   2.3e-05      0.71      34      99 ..      42     109 ..      33     134 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 14.3 bits;  conditional E-value: 2.3e-05
+     Lipase_GDSL_2.aln  34 afgldsrqgwvallekrlseegfehsvvnasisgdtsaggaarls..allaehkpelviielggndgl 99 
+                           a+   +r+ wva  + r++e       v  +i+ +t   g+ rl+  a +a   pe+ +++l g++ +
+  sp|B0U330|KDSB_XYLFM  42 ALSAGAREVWVATDDVRIAEAVASLDGVHVAITANTHLSGSDRLAecARIAGWDPEVCVVNLQGDEPF 109
+                           5666789*************************************644889*************99765 PP
+
+>> sp|Q9BYZ2|LDH6B_HUMAN  L-lactate dehydrogenase A-like 6B OS=Homo sapiens OX=9606 GN=LDHAL6B PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0      0.14   4.1e+03     119     151 ..      15      47 ..       5      55 .. 0.75
+   2 ?    9.5   0.1   0.00069        21      46     102 ..      57     110 ..      48     119 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 2.0 bits;  conditional E-value: 0.14
+      Lipase_GDSL_2.aln 119 qqagakvlllgmklppnygvryttafaqvftdl 151
+                               ga+ l lgm l p    r     + +ft +
+  sp|Q9BYZ2|LDH6B_HUMAN  15 SSVGANFLCLGMALCPRQATRIPLNGTWLFTPV 47 
+                            3579************99999877666666655 PP
+
+  == domain 2  score: 9.5 bits;  conditional E-value: 0.00069
+      Lipase_GDSL_2.aln  46 llekrlseegfehsvvnasisgdtsaggaarlsallaehkpelviielggndglrgq 102
+                            l+e+  se+ + hs v  si g  s g a+ +s ll     el +++l  +d l+g+
+  sp|Q9BYZ2|LDH6B_HUMAN  57 LIERFTSEKPVHHSKV--SIIGTGSVGMACAISILLKGLSDELALVDLD-EDKLKGE 110
+                            789999999****976..89***************************96.5778776 PP
+
+>> sp|Q9PB46|KDSB_XYLFA  3-deoxy-manno-octulosonate cytidylyltransferase OS=Xylella fastidiosa (strain 9a5c) OX=160492 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.1   6.3e-05       1.9      34      99 ..      42     109 ..      33     134 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 6.3e-05
+     Lipase_GDSL_2.aln  34 afgldsrqgwvallekrlseegfehsvvnasisgdtsaggaarls..allaehkpelviielggndgl 99 
+                           a+   +r+ wva  + r++e       v  +++ +t   g+ rl+  a +a   pe+ +++l g++ +
+  sp|Q9PB46|KDSB_XYLFA  42 ALSAGAREVWVATDDVRIAEAVASLDGVHVAMTANTHLSGSDRLAecARIAGWDPEMCVVNLQGDEPF 109
+                           5666789*************************************644889*************99765 PP
+
+>> sp|B8F5Q8|RECR_GLAP5  Recombination protein RecR OS=Glaesserella parasuis serovar 5 (strain SH0165) OX=557723 GN=recR
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   6.8e-05         2      18      79 ..      99     162 ..      89     174 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 6.8e-05
+     Lipase_GDSL_2.aln  18 gavagtllvvgdsisaafgldsrqgwvallekrlseegfehsvv..nasisgdtsaggaarlsa 79 
+                           g   g  +v+   +s   g+  r+  + ll+krl ee f+  ++  n +i gd++a   a + +
+  sp|B8F5Q8|RECR_GLAP5  99 GQFSGRYFVLMGHLSPLDGIGPREIGLDLLQKRLEEESFQEVILatNPTIEGDATANYIAEMCS 162
+                           66778888888889999999999999**************987533789*****9998887765 PP
+
+>> sp|Q87BW1|KDSB_XYLFT  3-deoxy-manno-octulosonate cytidylyltransferase OS=Xylella fastidiosa (strain Temecula1 / ATCC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.1   7.2e-05       2.2      34      99 ..      37     104 ..      28     129 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 7.2e-05
+     Lipase_GDSL_2.aln  34 afgldsrqgwvallekrlseegfehsvvnasisgdtsaggaarls..allaehkpelviielggndgl 99 
+                           a+   +r+ wva  + r++e       v  +++ +t   g+ rl+  a +a   pe+ +++l g++ +
+  sp|Q87BW1|KDSB_XYLFT  37 ALSTGAREVWVATDDVRIAEAVASLDGVHVAMTANTHLSGSDRLAecARIAGWDPEVCVVNLQGDEPF 104
+                           5667789*************************************644889*************99765 PP
+
+>> sp|B2I6C4|KDSB_XYLF2  3-deoxy-manno-octulosonate cytidylyltransferase OS=Xylella fastidiosa (strain M23) OX=405441 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.1   7.5e-05       2.3      34      99 ..      42     109 ..      33     134 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 7.5e-05
+     Lipase_GDSL_2.aln  34 afgldsrqgwvallekrlseegfehsvvnasisgdtsaggaarls..allaehkpelviielggndgl 99 
+                           a+   +r+ wva  + r++e       v  +++ +t   g+ rl+  a +a   pe+ +++l g++ +
+  sp|B2I6C4|KDSB_XYLF2  42 ALSTGAREVWVATDDVRIAEAVASLDGVHVAMTANTHLSGSDRLAecARIAGWDPEVCVVNLQGDEPF 109
+                           5667789*************************************644889*************99765 PP
+
+>> sp|Q09LX1|AXE2_GEOSE  Acetylxylan esterase OS=Geobacillus stearothermophilus OX=1422 GN=axe2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.0   9.3e-05       2.8      46     101 ..      44      97 ..       7     206 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 9.3e-05
+     Lipase_GDSL_2.aln  46 llekrlseegfehsvvnasisgdtsaggaarlsallaehkpelviielggndglrg 101
+                           ll+    e g+   vvn  isg+t     ar    +  +kp+ v i +g nd  r 
+  sp|Q09LX1|AXE2_GEOSE  44 LLQAVYPELGI--RVVNKGISGNTVRDLKARWEEDVIAQKPDWVSIMIGINDVWRQ 97 
+                           44544555454..69*************************************9885 PP
+
+>> sp|Q0ABJ9|ARGC_ALKEH  N-acetyl-gamma-glutamyl-phosphate reductase OS=Alkalilimnicola ehrlichii (strain ATCC BAA-1101 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.0       2.8   8.4e+04      65     100 ..       6      41 ..       2      45 .. 0.69
+   2 ?   10.4   0.1   0.00036        11      41     103 ..     156     212 ..     127     230 .. 0.78
+   3 ?    0.0   0.0      0.53   1.6e+04      45     121 ..     258     334 ..     239     338 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 2.8
+     Lipase_GDSL_2.aln  65 isgdtsaggaarlsallaeh.kpelviielggndglr 100
+                           i g t   g   l  lla h    l +i   gn g r
+  sp|Q0ABJ9|ARGC_ALKEH   6 IVGGTGYTGVE-LLRLLARHpEARLRVITSRGNAGTR 41 
+                           66666666654.5567787735678899999999987 PP
+
+  == domain 2  score: 10.4 bits;  conditional E-value: 0.00036
+     Lipase_GDSL_2.aln  41 qgwvallekrlseegfehsvvnasisgdtsaggaarlsallaehkpelviielggndglrgqp 103
+                            gw+ lle  l e      +v + +sg + ag aa +++ll+e +  +   +  g dg r  p
+  sp|Q0ABJ9|ARGC_ALKEH 156 LGWLPLLEAGLVET---RGLVASCVSGASGAGRAANVATLLCEVNESF---KAYGADGHRHLP 212
+                           49******999985...6789999******************987654...445677777666 PP
+
+  == domain 3  score: 0.0 bits;  conditional E-value: 0.53
+     Lipase_GDSL_2.aln  45 allekrlseegfehsvvnasisgdtsaggaarlsallaehkpel.viielggndglrgqppaqlqqnlasmveqsqqa 121
+                            l+e+r ++e f   v+ a    +t +   + l  l     pe   +i l   d l      q  qn+  m    + a
+  sp|Q0ABJ9|ARGC_ALKEH 258 VLFEQRYADEPFV-DVLPAGAHPETRTVRGTNLCRLAVRRAPESdQVIVLSVIDNLTKGAAGQAVQNMNLMFGLPETA 334
+                           5789999999996.5778888888888888889999999999863577899999999889999999998887655555 PP
+
+>> sp|A8A1C2|DCYD_ECOHS  D-cysteine desulfhydrase OS=Escherichia coli O9:H4 (strain HS) OX=331112 GN=dcyD PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.2   0.00014       4.2      58     139 ..     187     264 ..     163     295 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00014
+     Lipase_GDSL_2.aln  58 hsvvnasisgdtsaggaarlsallaehkpelviielggndglrgqppaqlqqnlasmveqsqqagakvlllgmklppnygvr 139
+                            svv as s  t ag a  l  ll e     v +     d l      +lqq +a  +e    a a +ll    + p ygv 
+  sp|A8A1C2|DCYD_ECOHS 187 SSVVVASGSAGTHAGLAVGLEHLLPESELIGVTVSRSVADQLP--KVVNLQQAIAKELE--LTASAEILLWDDYFAPGYGVP 264
+                           5789999999999999999999887765444444444444442..34688999988776..56899**************96 PP
+
+>> sp|B1KPT0|PIMT_SHEWM  Protein-L-isoaspartate O-methyltransferase OS=Shewanella woodyi (strain ATCC 51908 / MS32) OX=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.0   0.00013         4      74     124 ..      67     117 ..      37     135 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00013
+     Lipase_GDSL_2.aln  74 aarlsallaehkpelviielggndglrgqppaqlqqnlasmve.qsqqagak 124
+                            ar++ ll ehkp+ v +e+g   g +    aql  +l+++   +s q  a+
+  sp|B1KPT0|PIMT_SHEWM  67 VARMTELLLEHKPKKV-LEIGTGSGYQAAILAQLSPELCTVERiKSLQIQAR 117
+                           69***********986.7****************999987532245555555 PP
+
+>> sp|Q4R816|LDH6B_MACFA  L-lactate dehydrogenase A-like 6B OS=Macaca fascicularis OX=9541 GN=LDHAL6B PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.7   0.0      0.92   2.8e+04     119     152 ..      15      48 ..       6      55 .. 0.76
+   2 ?    9.4   0.1   0.00074        22      45      94 ..      56     103 ..      41     119 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: -0.7 bits;  conditional E-value: 0.92
+      Lipase_GDSL_2.aln 119 qqagakvlllgmklppnygvryttafaqvftdla 152
+                               ga+ l l m l p    r     a  ft ++
+  sp|Q4R816|LDH6B_MACFA  15 SSVGANFLCLKMALCPRQAARIPLKGAWRFTSVS 48 
+                            4579************999998887777777765 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 0.00074
+      Lipase_GDSL_2.aln  45 allekrlseegfehsvvnasisgdtsaggaarlsallaehkpelviielg 94 
+                             l+e+  see + hs v  si g  s g a+ +s ll     el +++l 
+  sp|Q4R816|LDH6B_MACFA  56 ELIERFTSEEPVHHSKV--SIIGTGSVGMACAISILLKGLIDELALVDLD 103
+                            5899999********76..89***********************999985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (201 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     16717  (0.0291409); expected 11473.2 (0.02)
+Passed bias filter:                    13057  (0.0227608); expected 11473.2 (0.02)
+Passed Vit filter:                       989  (0.00172401); expected 573.7 (0.001)
+Passed Fwd filter:                        19  (3.31206e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              19  [number of targets reported over threshold]
+# CPU time: 3.43u 0.17s 00:00:03.60 Elapsed: 00:00:01.60
+# Mc/sec: 26068.44
+//
+[ok]

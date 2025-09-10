@@ -1,0 +1,39 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+# ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+sp|P37957|ESTA_BACSU  -          Lipase_2.aln         -              1e-40  144.8   1.0   2.1e-40  143.7   1.0   1.5   1   1   0   1   1   1   1 Lipase EstA OS=Bacillus subtilis (strain 168) OX=224308 GN=estA PE=1 SV=2
+sp|Q79F14|ESTB_BACSU  -          Lipase_2.aln         -            1.1e-36  131.6   4.0     2e-36  130.6   2.7   1.7   1   1   1   2   2   2   1 Extracellular esterase EstB OS=Bacillus subtilis (strain 168) OX=224308 GN=estB PE=1 SV=1
+sp|P0DUB8|LIP_BURPL   -          Lipase_2.aln         -             0.0045   21.0   0.8     0.016   19.2   0.5   2.0   1   1   0   1   1   1   1 Triacylglycerol lipase OS=Burkholderia plantarii OX=41899 GN=lip PE=1 SV=1
+sp|P0DUB9|LIP_PSEPS   -          Lipase_2.aln         -             0.0099   19.9   0.6     0.038   17.9   0.2   2.1   1   1   0   1   1   1   1 Triacylglycerol lipase OS=Pseudarthrobacter phenanthrenivorans OX=361575 GN=lip PE=1 SV=1
+sp|Q49ZU9|FENR_STAS1  -          Lipase_2.aln         -              0.054   17.4   0.5      0.18   15.7   0.4   1.8   2   0   0   2   2   2   0 Ferredoxin--NADP reductase OS=Staphylococcus saprophyticus subsp. saprophyticus (strain ATCC 15305 / DSM 20229 / NCIMB 8711 / NCTC 7292 / S-41) OX=342451 GN=SSP0530 PE=3 SV=1
+sp|O46108|LIP3_DROME  -          Lipase_2.aln         -              0.066   17.1   0.0      0.13   16.2   0.0   1.4   1   0   0   1   1   1   0 Lipase 3 OS=Drosophila melanogaster OX=7227 GN=Lip3 PE=2 SV=1
+sp|P22088|LIP_BURCE   -          Lipase_2.aln         -               0.11   16.4   6.1       4.6   11.1   0.1   3.0   2   1   1   3   3   3   0 Triacylglycerol lipase OS=Burkholderia cepacia OX=292 GN=lip PE=1 SV=2
+sp|Q07950|YEH2_YEAST  -          Lipase_2.aln         -               0.13   16.2   0.0      0.22   15.5   0.0   1.2   1   0   0   1   1   1   0 Sterol esterase 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YEH2 PE=1 SV=1
+sp|Q89A58|DEOD_BUCBP  -          Lipase_2.aln         -               0.31   14.9   0.2      0.42   14.5   0.2   1.2   1   0   0   1   1   1   0 Purine nucleoside phosphorylase DeoD-type OS=Buchnera aphidicola subsp. Baizongia pistaciae (strain Bp) OX=224915 GN=deoD PE=3 SV=1
+sp|Q93V61|LCAT3_ARATH -          Lipase_2.aln         -               0.34   14.8   0.0       3.9   11.3   0.0   2.0   2   0   0   2   2   2   0 Phospholipase A(1) LCAT3 OS=Arabidopsis thaliana OX=3702 GN=LCAT3 PE=1 SV=1
+sp|Q9FNA9|PDAT1_ARATH -          Lipase_2.aln         -               0.61   14.0   0.0       1.2   13.0   0.0   1.4   1   0   0   1   1   1   0 Phospholipid:diacylglycerol acyltransferase 1 OS=Arabidopsis thaliana OX=3702 GN=PDAT1 PE=2 SV=1
+sp|O94680|PDAT_SCHPO  -          Lipase_2.aln         -               0.69   13.8   0.1       1.1   13.1   0.1   1.2   1   0   0   1   1   1   0 Phospholipid:diacylglycerol acyltransferase OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=plh1 PE=1 SV=2
+sp|P54857|TGL2_YEAST  -          Lipase_2.aln         -                  1   13.2   0.1       7.8   10.3   0.0   2.0   2   0   0   2   2   2   0 Triacylglycerol lipase 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TGL2 PE=1 SV=1
+sp|Q557B6|ARB2A_DICDI -          Lipase_2.aln         -                1.1   13.1   0.1       1.7   12.5   0.1   1.2   1   0   0   1   1   1   0 Cotranscriptional regulator ARB2A homolog OS=Dictyostelium discoideum OX=44689 GN=DDB_G0273237 PE=3 SV=1
+sp|I3R9Z4|PHAC_HALMT  -          Lipase_2.aln         -                1.2   13.0   0.0       1.7   12.5   0.0   1.2   1   0   0   1   1   1   0 Poly(3-hydroxyalkanoate) polymerase subunit PhaC OS=Haloferax mediterranei (strain ATCC 33500 / DSM 1411 / JCM 8866 / NBRC 14739 / NCIMB 2177 / R-4) OX=523841 GN=phaC PE=1 SV=1
+sp|Q04623|ECM18_YEAST -          Lipase_2.aln         -                1.4   12.7   0.0   1.2e+02    6.4   0.0   2.0   2   0   0   2   2   2   0 Protein ECM18 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ECM18 PE=1 SV=1
+sp|Q00302|MPPB_BLAEM  -          Lipase_2.aln         -                1.6   12.6   0.2       2.5   12.0   0.2   1.2   1   0   0   1   1   1   0 Mitochondrial-processing peptidase subunit beta OS=Blastocladiella emersonii OX=4808 GN=MPP1 PE=3 SV=1
+sp|P58778|SCX4_CENSC  -          Lipase_2.aln         -                2.1   12.2   0.5       2.2   12.1   0.5   1.0   1   0   0   1   1   1   0 Toxin CsEv4 OS=Centruroides sculpturatus OX=218467 PE=1 SV=1
+sp|O18391|KRAK_DROME  -          Lipase_2.aln         -                2.6   11.9   0.0   2.9e+02    5.2   0.0   2.1   1   1   1   2   2   2   0 Probable serine hydrolase OS=Drosophila melanogaster OX=7227 GN=kraken PE=2 SV=1
+sp|Q6CGL4|APTH1_YARLI -          Lipase_2.aln         -                2.8   11.8   0.1   1.7e+02    5.9   0.0   2.2   2   0   0   2   2   2   0 Acyl-protein thioesterase 1 OS=Yarrowia lipolytica (strain CLIB 122 / E 150) OX=284591 GN=YALI0A18337g PE=3 SV=1
+sp|P27747|ACOC_CUPNH  -          Lipase_2.aln         -                3.1   11.7   0.1       7.6   10.4   0.1   1.7   1   1   1   2   2   2   0 Dihydrolipoyllysine-residue acetyltransferase component of acetoin cleaving system OS=Cupriavidus necator (strain ATCC 17699 / DSM 428 / KCTC 22496 / NCIMB 10442 / H16 / Stanier 337) OX=381666 GN=acoC PE=1 SV=3
+sp|P55526|Y4KF_SINFN  -          Lipase_2.aln         -                3.9   11.3   0.0       5.7   10.8   0.0   1.2   1   0   0   1   1   1   0 Uncharacterized protein y4kF OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 GN=NGR_a02900 PE=4 SV=1
+sp|Q9FYC7|PDAT2_ARATH -          Lipase_2.aln         -                4.1   11.2   0.0       7.1   10.5   0.0   1.3   1   0   0   1   1   1   0 Putative phospholipid:diacylglycerol acyltransferase 2 OS=Arabidopsis thaliana OX=3702 GN=PDAT2 PE=3 SV=1
+sp|Q9BIB3|PPME1_CAEEL -          Lipase_2.aln         -                5.4   10.9   0.0       7.7   10.4   0.0   1.1   1   0   0   1   1   1   0 Probable protein phosphatase methylesterase 1 OS=Caenorhabditis elegans OX=6239 GN=B0464.9 PE=3 SV=1
+sp|Q8D2Q8|RS20_WIGBR  -          Lipase_2.aln         -                6.2   10.7   0.9       6.2   10.7   0.9   1.1   1   0   0   1   1   1   0 Small ribosomal subunit protein bS20 OS=Wigglesworthia glossinidia brevipalpis OX=36870 GN=rpsT PE=3 SV=1
+sp|P44800|PLDB_HAEIN  -          Lipase_2.aln         -                  8   10.3   0.0        11    9.8   0.0   1.2   1   0   0   1   1   1   0 Probable lysophospholipase L2 OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=pldB PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Lipase_2.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Lipase_2/Lipase_2.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Lipase_2/Lipase_2.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Lipase_2.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:08:23 2025
+# [ok]

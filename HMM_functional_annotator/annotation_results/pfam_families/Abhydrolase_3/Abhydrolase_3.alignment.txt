@@ -1,0 +1,198 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Abhydrolase_3.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/Abhydrolase_3/Abhydrolase_3.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/Abhydrolase_3/Abhydrolase_3.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Abhydrolase_3.aln  [M=333]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    1.4e-08   28.6   0.0      3e-08   27.5   0.0    1.5  1  4fd7439f5f  
+    1.4e-08   28.6   0.0      3e-08   27.5   0.0    1.5  1  59bb4d8994  
+    1.8e-08   28.3   0.0    4.2e-08   27.1   0.0    1.5  1  afb51f2a48  
+    1.9e-07   25.0   0.0    3.9e-07   23.9   0.0    1.4  1  03f3222488  
+    1.9e-07   24.9   0.0    3.9e-07   23.9   0.0    1.4  1  f41c6d89a0  
+    1.9e-07   24.9   0.0      4e-07   23.8   0.0    1.4  1  54b0f51654  
+      1e-06   22.5   0.0    2.2e-06   21.4   0.0    1.4  1  e542ce1613  
+    2.5e-06   21.3   0.0      5e-06   20.3   0.0    1.4  1  114e6d2abe  
+    4.3e-05   17.2   0.0    8.5e-05   16.2   0.0    1.4  1  9c28e36175  
+
+
+Domain annotation for each sequence (and alignments):
+>> 4fd7439f5f  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.5   0.0   7.6e-10     3e-08      74     183 ..      94     211 ..      74     229 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 27.5 bits;  conditional E-value: 7.6e-10
+  Abhydrolase_3.aln  74 qktikgdagdislrivwpa.vkgalprvllylHGGgwvlgdle..therlvralavvsgaavvvvdYrlaP.......Ea..kyPaavnday 153
+                        ++++ g++  +++ i++p+  +++   v+ ++HGG++++g+ +   he+++r+      ++ v + Yrl P       +a      ++ d  
+         4fd7439f5f  94 DNKLAGVEDCLTVSIYKPKnTSQSSFPVVAHMHGGAFMFGEARqnGHENMMREG----KLILVKISYRLGPlgfastgDAglSGNFGLKDQR 181
+                        667778888899*******74554446*************97522688888775....589999*****99433222212112234689999 PP
+
+  Abhydrolase_3.aln 154 aAtkwvaenaaelgvdpkrlavaGdSaGGn 183
+                         A  w+++n a++g +p++++v G SaGG 
+         4fd7439f5f 182 LALLWIKQNIASFGGEPENIIVVGHSAGGA 211
+                        *****************************5 PP
+
+>> 59bb4d8994  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.5   0.0   7.6e-10     3e-08      74     183 ..      94     211 ..      74     229 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 27.5 bits;  conditional E-value: 7.6e-10
+  Abhydrolase_3.aln  74 qktikgdagdislrivwpa.vkgalprvllylHGGgwvlgdle..therlvralavvsgaavvvvdYrlaP.......Ea..kyPaavnday 153
+                        ++++ g++  +++ i++p+  +++   v+ ++HGG++++g+ +   he+++r+      ++ v + Yrl P       +a      ++ d  
+         59bb4d8994  94 DNKLAGVEDCLTVSIYKPKnTSQSSFPVVAHMHGGAFMFGEARqnGHENMMREG----KLILVKISYRLGPlgfastgDAglSGNFGLKDQR 181
+                        667778888899*******74554446*************97522688888775....589999*****99433222212112234689999 PP
+
+  Abhydrolase_3.aln 154 aAtkwvaenaaelgvdpkrlavaGdSaGGn 183
+                         A  w+++n a++g +p++++v G SaGG 
+         59bb4d8994 182 LALLWIKQNIASFGGEPENIIVVGHSAGGA 211
+                        *****************************5 PP
+
+>> afb51f2a48  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.1   0.0   1.1e-09   4.2e-08      76     183 ..      96     211 ..      82     225 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 27.1 bits;  conditional E-value: 1.1e-09
+  Abhydrolase_3.aln  76 tikgdagdislrivwpa.vkgalprvllylHGGgwvlgdle..therlvralavvsgaavvvvdYrlaP.......Eaky..PaavndayaA 155
+                        ++ g++  +++ i++p+  +++   v+ ++HGG++++g+ +   he+++r+      ++ v + Yrl P       +a      ++ d   A
+         afb51f2a48  96 KLVGVEDCLTVSIYKPKnTSQSSFPVVAHMHGGAFMFGEARqnGHENMMREG----KLILVKISYRLGPlgfastgDADLsgNFGLKDQRLA 183
+                        55566777899*****974554446*************97522688888775....5899999****995444433222211457999**** PP
+
+  Abhydrolase_3.aln 156 tkwvaenaaelgvdpkrlavaGdSaGGn 183
+                          w+++n a++g +p++++v G SaGG 
+         afb51f2a48 184 LLWIKQNIASFGGEPENIIVVGHSAGGA 211
+                        ***************************5 PP
+
+>> 03f3222488  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.9   0.0   9.7e-09   3.9e-07      81     183 ..     104     214 ..      96     236 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 23.9 bits;  conditional E-value: 9.7e-09
+  Abhydrolase_3.aln  81 agdislrivwpa.vkgalprvllylHGGgwvlgdlet..herlvralavvsgaavvvvdYrlaP.......Eaky..PaavndayaAtkwva 160
+                        +  +++ +++p+ ++     v+  lHGG++++g +    he+++r+      ++ v+++Yrl P       +a      ++ d   A  w++
+         03f3222488 104 EDCLTVSVYRPKnSSRNNFPVVANLHGGAFMFGGPSQygHENIMREGS----VILVTIGYRLGPlgfvstgDADLsgNFGLKDQRLALLWIK 191
+                        5557899****964444446*************877511666666655....88999******944444432222114579999******** PP
+
+  Abhydrolase_3.aln 161 enaaelgvdpkrlavaGdSaGGn 183
+                        +n a++g +p+++ v G SaGG 
+         03f3222488 192 QNIASFGGEPENILVVGHSAGGA 214
+                        **********************5 PP
+
+>> f41c6d89a0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.9   0.0   9.7e-09   3.9e-07      81     183 ..     104     214 ..      95     236 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 23.9 bits;  conditional E-value: 9.7e-09
+  Abhydrolase_3.aln  81 agdislrivwpa.vkgalprvllylHGGgwvlgdlet..herlvralavvsgaavvvvdYrlaP.......Eaky..PaavndayaAtkwva 160
+                        +  +++ +++p+ ++     v+  lHGG++++g +    he+++r+      ++ v+++Yrl P       +a      ++ d   A  w++
+         f41c6d89a0 104 EDCLTVSVYRPKnSSRNNFPVVANLHGGAFMFGGPSQygHENIMREGS----VILVTIGYRLGPlgfvstgDADLsgNFGLKDQRLALLWIK 191
+                        5557899****964444446*************877511666666655....88999******944444432222114579999******** PP
+
+  Abhydrolase_3.aln 161 enaaelgvdpkrlavaGdSaGGn 183
+                        +n a++g +p+++ v G SaGG 
+         f41c6d89a0 192 QNIASFGGEPENILVVGHSAGGA 214
+                        **********************5 PP
+
+>> 54b0f51654  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.8   0.0     1e-08     4e-07      81     183 ..     104     214 ..      96     235 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 23.8 bits;  conditional E-value: 1e-08
+  Abhydrolase_3.aln  81 agdislrivwpa.vkgalprvllylHGGgwvlgdlet..herlvralavvsgaavvvvdYrlaP.......Eaky..PaavndayaAtkwva 160
+                        +  +++ +++p+ ++     v+  lHGG++++g +    he+++r+      ++ v+++Yrl P       +a      ++ d   A  w++
+         54b0f51654 104 EDCLTVSVYRPKnSSRNNFPVVANLHGGAFMFGGPSQygHENIMREGS----VILVTIGYRLGPlgfvstgDADLsgNFGLKDQRLALLWIK 191
+                        5557899****964444446*************877511666666655....88999******944444432222114579999******** PP
+
+  Abhydrolase_3.aln 161 enaaelgvdpkrlavaGdSaGGn 183
+                        +n a++g +p+++ v G SaGG 
+         54b0f51654 192 QNIASFGGEPENILVVGHSAGGA 214
+                        **********************5 PP
+
+>> e542ce1613  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.4   0.0   5.6e-08   2.2e-06      76     183 ..      96     211 ..      91     229 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 21.4 bits;  conditional E-value: 5.6e-08
+  Abhydrolase_3.aln  76 tikgdagdislrivwpa.vkgalprvllylHGGgwvlgdl..etherlvralavvsgaavvvvdYrlaP.......Eaky..PaavndayaA 155
+                        ++ g++  +++ +++p+ ++     v+   HGG++++g    + he+    + +  +++ v + Yrl P       +a      ++ d   A
+         e542ce1613  96 KLAGNEDCLTVSVYRPKnSSRNSFPVVAQIHGGAFMFGGAsqNGHEN----FMREGNLILVKISYRLGPlgfvstgDADLsgNFGLKDQRLA 183
+                        56677777899******64444336************9651145665....55567899**********44444432222114579999*** PP
+
+  Abhydrolase_3.aln 156 tkwvaenaaelgvdpkrlavaGdSaGGn 183
+                          w+++n a++g +p+++ v G SaGG+
+         e542ce1613 184 LLWIKQNIASFGGEPENILVIGHSAGGG 211
+                        **************************97 PP
+
+>> 114e6d2abe  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.3   0.0   1.3e-07     5e-06      76     183 ..      96     211 ..      86     229 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 20.3 bits;  conditional E-value: 1.3e-07
+  Abhydrolase_3.aln  76 tikgdagdislrivwpa.vkgalprvllylHGGgwvlgdl..etherlvralavvsgaavvvvdYrlaP.......Eaky..PaavndayaA 155
+                        ++ g++  +++ +++p+ ++     v+   HGG++++g    + he+    + +  +++ v + Yrl P       +a      ++ d   A
+         114e6d2abe  96 KLAGNEDCLTVSVYKPKnSSRNSFPVVAQIHGGAFMFGGAsqNGHEN----FMREGNLILVKISYRLGPlgfvstgDADLsgNFGLKDQRLA 183
+                        566777778999****964433336************9651145665....55567899*********944444432222114579999*** PP
+
+  Abhydrolase_3.aln 156 tkwvaenaaelgvdpkrlavaGdSaGGn 183
+                          w+++n a++g +p+++ v G SaGG+
+         114e6d2abe 184 LLWIKQNIASFGGEPENILVIGHSAGGG 211
+                        **************************97 PP
+
+>> 9c28e36175  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   0.0   2.1e-06   8.5e-05      76     183 ..      96     211 ..      85     230 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 16.2 bits;  conditional E-value: 2.1e-06
+  Abhydrolase_3.aln  76 tikgdagdislrivwpa.vkgalprvllylHGGgwvlgdl..etherlvralavvsgaavvvvdYrlaP.......Eaky..PaavndayaA 155
+                        ++ g++  +++ +++p+ ++     v+   HG ++++g    + he+    + +  +++ v + Yrl P       +a      ++ d   A
+         9c28e36175  96 KLAGNEDCLTVSVYRPKnSSRNSFPVVAQIHGVAFMFGGAsqNGHEN----FMREGNLILVKISYRLGPlgfvstgDADLsgNFGLKDQRLA 183
+                        566777778999*****64444336************9651145665....55567899*********944444432222114579999*** PP
+
+  Abhydrolase_3.aln 156 tkwvaenaaelgvdpkrlavaGdSaGGn 183
+                          w+++n a++g +p+++ v G SaGG+
+         9c28e36175 184 LLWIKQNIASFGGEPENILVIGHSAGGG 211
+                        **************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (333 nodes)
+Target sequences:                        358  (244074 residues searched)
+Passed MSV filter:                        10  (0.027933); expected 7.2 (0.02)
+Passed bias filter:                        9  (0.0251397); expected 7.2 (0.02)
+Passed Vit filter:                         9  (0.0251397); expected 0.4 (0.001)
+Passed Fwd filter:                         9  (0.0251397); expected 0.0 (1e-05)
+Initial search space (Z):                358  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.04
+# Mc/sec: 1650.04
+//
+[ok]

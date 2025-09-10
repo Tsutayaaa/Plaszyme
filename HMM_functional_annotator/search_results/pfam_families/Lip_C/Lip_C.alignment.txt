@@ -1,0 +1,1301 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Lip_C.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Lip_C/Lip_C.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Lip_C/Lip_C.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Lip_C.aln  [M=429]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+   1.4e-137  464.0   0.0   1.6e-137  463.8   0.0    1.0  1  sp|Q5U780|LIP_BACSP       Lipase OS=Bacillus sp. OX=1409 PE=1
+   1.5e-100  342.0   8.9   1.5e-100  342.0   8.9    1.6  2  sp|Q2FUU5|LIP1_STAA8      Lipase 1 OS=Staphylococcus aureus (
+   1.5e-100  342.0   8.9   1.5e-100  342.0   8.9    1.6  2  sp|Q5HCM7|LIP1_STAAC      Lipase 1 OS=Staphylococcus aureus (
+   1.5e-100  342.0   8.9   1.5e-100  342.0   8.9    1.6  2  sp|Q6G604|LIP1_STAAS      Lipase 1 OS=Staphylococcus aureus (
+   1.5e-100  342.0   8.9   1.5e-100  342.0   8.9    1.6  2  sp|Q8NUI5|LIP1_STAAW      Lipase 1 OS=Staphylococcus aureus (
+   1.7e-100  341.8   9.0   1.7e-100  341.8   9.0    1.6  2  sp|P65288|LIP1_STAAM      Lipase 1 OS=Staphylococcus aureus (
+   1.7e-100  341.8   9.0   1.7e-100  341.8   9.0    1.6  2  sp|P65289|LIP1_STAAN      Lipase 1 OS=Staphylococcus aureus (
+   1.9e-100  341.6   9.2   1.9e-100  341.6   9.2    1.6  2  sp|Q6GDD3|LIP1_STAAR      Lipase 1 OS=Staphylococcus aureus (
+    1.2e-99  339.0  12.5    2.9e-99  337.8  12.5    1.5  1  sp|Q5HKP6|LIP_STAEQ       Lipase OS=Staphylococcus epidermidi
+    4.9e-99  337.0  13.1    1.3e-98  335.7  13.1    1.6  1  sp|P0C0R3|LIP_STAEP       Lipase OS=Staphylococcus epidermidi
+    4.9e-99  337.0  13.1    1.3e-98  335.7  13.1    1.6  1  sp|P0C0R4|LIP_STAES       Lipase OS=Staphylococcus epidermidi
+    1.9e-93  318.6   2.1    1.9e-93  318.6   2.1    1.6  2  sp|P10335|LIP2_STAAU      Lipase 2 OS=Staphylococcus aureus O
+    1.9e-93  318.6   2.1    1.9e-93  318.6   2.1    1.6  2  sp|Q2G155|LIP2_STAA8      Lipase 2 OS=Staphylococcus aureus (
+    1.9e-93  318.6   2.1    1.9e-93  318.6   2.1    1.6  2  sp|Q5HJ48|LIP2_STAAC      Lipase 2 OS=Staphylococcus aureus (
+      3e-93  317.9   2.2      3e-93  317.9   2.2    1.4  1  sp|Q6GCF1|LIP2_STAAS      Lipase 2 OS=Staphylococcus aureus (
+      3e-93  317.9   2.2      3e-93  317.9   2.2    1.4  1  sp|Q8NYC2|LIP2_STAAW      Lipase 2 OS=Staphylococcus aureus (
+    3.9e-93  317.5   2.1    3.9e-93  317.5   2.1    1.6  2  sp|Q7A7P2|LIP2_STAAN      Lipase 2 OS=Staphylococcus aureus (
+    3.9e-93  317.5   2.1    3.9e-93  317.5   2.1    1.6  2  sp|Q99WQ6|LIP2_STAAM      Lipase 2 OS=Staphylococcus aureus (
+    4.8e-93  317.3   2.8    4.8e-93  317.3   2.8    1.7  2  sp|Q6GJZ6|LIP2_STAAR      Lipase 2 OS=Staphylococcus aureus (
+    1.4e-92  315.8   8.5    2.1e-92  315.1   8.5    1.2  1  sp|P04635|LIP_STAHY       Lipase OS=Staphylococcus hyicus OX=
+    3.3e-10   44.3   1.1    5.7e-05   27.1   0.0    4.0  4  sp|P15493|LIP_VIBCH       Triacylglycerol lipase OS=Vibrio ch
+    5.2e-10   43.7   2.0    0.00032   24.6   0.1    4.0  4  sp|P22088|LIP_BURCE       Triacylglycerol lipase OS=Burkholde
+    7.7e-10   43.1   2.8    0.00063   23.6   0.2    4.1  4  sp|P25275|LIP_PSES5       Triacylglycerol lipase OS=Pseudomon
+    9.9e-09   39.5   1.9       0.03   18.1   0.1    3.8  4  sp|P0DUB8|LIP_BURPL       Triacylglycerol lipase OS=Burkholde
+    1.5e-08   38.9   2.2      0.055   17.2   0.1    3.9  4  sp|P0DUB9|LIP_PSEPS       Triacylglycerol lipase OS=Pseudarth
+      5e-08   37.1   0.4     0.0026   21.6   0.0    3.2  3  sp|P26876|LIP_PSEAE       Triacylglycerol lipase OS=Pseudomon
+    9.8e-08   36.2   0.3     0.0026   21.6   0.0    3.0  3  sp|P26877|LIP_PSEU0       Triacylglycerol lipase OS=Pseudomon
+    4.7e-07   33.9   2.2        5.5   10.7   0.0    5.4  6  sp|P54857|TGL2_YEAST      Triacylglycerol lipase 2 OS=Sacchar
+    3.6e-06   31.0   0.4      0.012   19.4   0.0    3.4  3  sp|P08658|LIP_PSEFR       Triacylglycerol lipase OS=Pseudomon
+    9.9e-05   26.3   0.0       0.83   13.4   0.0    2.2  2  sp|P75736|YBFF_ECOLI      Esterase YbfF OS=Escherichia coli (
+  ------ inclusion threshold ------
+       0.92   13.2   1.3         40    7.8   0.1    2.2  2  sp|P37957|ESTA_BACSU      Lipase EstA OS=Bacillus subtilis (s
+       0.98   13.1   0.1        2.4   11.8   0.0    1.6  2  sp|Q2TAP9|ABHDB_XENLA     sn-1-specific diacylglycerol lipase
+          1   13.1   0.6        2.5   11.8   0.2    1.7  2  sp|Q57427|Y193_HAEIN      Putative esterase/lipase HI_0193 OS
+        1.4   12.6   0.0        3.7   11.2   0.0    1.6  2  sp|Q0V9K2|ABHDB_XENTR     sn-1-specific diacylglycerol lipase
+        1.4   12.6   0.1         75    6.9   0.0    2.7  3  sp|P91143|ABH51_CAEEL     Abhydrolase domain-containing prote
+        2.2   12.0   0.1         67    7.1   0.0    2.1  2  sp|A0A061B0Q2|EAT1_CYBFA  Ethanol acetyltransferase 1 OS=Cybe
+        2.3   11.9   0.0    1.7e+02    5.7   0.0    2.8  3  sp|H2KZ86|ABH52_CAEEL     Abhydrolase domain-containing prote
+        2.5   11.8   0.0        7.8   10.2   0.0    1.6  2  sp|O10347|Y108_NPVOP      Uncharacterized 11.7 kDa protein OS
+        3.7   11.2   0.0    2.7e+02    5.1   0.0    2.2  2  sp|G8JVR4|EAT1_ERECY      Ethanol acetyltransferase 1 OS=Erem
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q5U780|LIP_BACSP  Lipase OS=Bacillus sp. OX=1409 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  463.8   0.0  1.1e-141  1.6e-137      42     426 ..      29     414 ..      20     416 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 463.8 bits;  conditional E-value: 1.1e-141
+            Lip_C.aln  42 aisegneyPivlvhGllGfGrdellGlkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGeahakkyghery 130
+                          a   +n+ Pivl+hG++G+Gr+e+ G+kyWGG++ d+e+ l+++Gy++yt avGP+ssnwdra+e ya+++GGtvdyG+aha k+gh+r+
+  sp|Q5U780|LIP_BACSP  29 ASLRANDAPIVLLHGFTGWGREEMFGFKYWGGVRgDIEQWLNDNGYRTYTLAVGPLSSNWDRACEAYAQLVGGTVDYGAAHAAKHGHARF 118
+                          55679***************************9769****************************************************** PP
+
+            Lip_C.aln 131 GrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgksWvhsvtsiatPhdGstladlv 217
+                          GrtyPG+ +e+      ++  +ih+i+hs GGqt r+l+ ll++G++ee++   + + ++spl++Gg ++v svt+iatPhdG+tl ++v
+  sp|Q5U780|LIP_BACSP 119 GRTYPGLLPEL------KRGGRIHIIAHSQGGQTARMLVSLLENGSQEEREyakAHNVSLSPLFEGGHHFVLSVTTIATPHDGTTLVNMV 202
+                          ***********......67789***************************99654556689*************************99988 PP
+
+            Lip_C.aln 218 ndvkdl..ikelvaalaaiaGknkk..dlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGarelnrwvkaqpdvy 303
+                               +   ++ v ++aa+a +     ++ydfkldqWGl+++pGes+  y er+  s++W  + d+a ydls  Ga++ln+wv+a p+ y
+  sp|Q5U780|LIP_BACSP 203 DFTDRFfdLQKAVLEAAAVASNVPYtsQVYDFKLDQWGLRRQPGESFDHYFERLKRSPVWT-STDTARYDLSVSGAEKLNQWVQASPNTY 291
+                          75555522356677777777776544589********************************.78************************** PP
+
+            Lip_C.aln 304 yfsvsttatkeslltgyevpekkmnPllv.ktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveynGtvkkGvWna 392
+                          y+s+st +t++  ltg+++pe+ mn +     a ++Gsy +       id +WlendG+v+++s++gPk gs+d+iv y+Gt kkGvWn 
+  sp|Q5U780|LIP_BACSP 292 YLSFSTERTYRGALTGNHYPELGMNAFSAvVCAPFLGSYRNP--T-LGIDDRWLENDGIVNTVSMNGPKRGSSDRIVPYDGTLKKGVWND 378
+                          **************************97516789****9654..3.449***************************************** PP
+
+            Lip_C.aln 393 lgelentdhldiiglkvd...dvkswyedvaeflskl 426
+                          +g+  n+dhl+iig+  +   d++ +y  +ae+l +l
+  sp|Q5U780|LIP_BACSP 379 MGT-YNVDHLEIIGVDPNpsfDIRAFYLRLAEQLASL 414
+                          **9.79*********999999*************998 PP
+
+>> sp|Q2FUU5|LIP1_STAA8  Lipase 1 OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=lipA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.4   0.5       6.7   9.9e+04     146     187 ..      40      81 ..      31      88 .. 0.74
+   2 !  342.0   8.9    1e-104  1.5e-100      34     428 ..     289     666 ..     260     669 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -3.4 bits;  conditional E-value: 6.7
+             Lip_C.aln 146 ksgkenkihlighsmGGqtirllaqllkeGdeeelktgeedi 187
+                           + g+++   + + s+G q  r  a+  +e   +e++++e+  
+  sp|Q2FUU5|LIP1_STAA8  40 NMGNSQEDTVTAQSIGDQQTRENANYQRENGVDEQQHTENLT 81 
+                           556666667788999999999999999888888888887755 PP
+
+  == domain 2  score: 342.0 bits;  conditional E-value: 1e-104
+             Lip_C.aln  34 lepeensraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGe 119
+                            +    +++ +  n+ PivlvhG+ Gf  d       +yWGG + ++++ l+e+Gyk+y a++    sn+dra+ely+yikGG vdyG+
+  sp|Q2FUU5|LIP1_STAA8 289 NKV---AKQGQYKNQDPIVLVHGFNGFTDDINPSvlAHYWGGNKmNIRQDLEENGYKAYEASISAFGSNYDRAVELYYYIKGGRVDYGA 374
+                           111...2223457999***********99877665579***96539******************************************* PP
+
+             Lip_C.aln 120 ahakkygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.Wvhsvtsi 204
+                           aha kygheryG+ty Giyk++      +  +k+hl+ghsmGGqtir l +ll++G++ee++     +++ispl++G+ +  ++s+t++
+  sp|Q2FUU5|LIP1_STAA8 375 AHAAKYGHERYGKTYEGIYKDW------KPGQKVHLVGHSMGGQTIRQLEELLRNGNREEIEyqkKHGGEISPLFKGNHDnMISSITTL 457
+                           **********************......6789****************************9865567789*******99879******* PP
+
+             Lip_C.aln 205 atPhdGstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGareln 293
+                            tPh+G+ ++dl    + l++++v  ++ + G++++   df l qWGlk+kp es  +yv+rv +s+ Wk +kd   ydl+ eGa +ln
+  sp|Q2FUU5|LIP1_STAA8 458 GTPHNGTHASDLAG-NEALVRQIVFDIGKMFGNKNS-RVDFGLAQWGLKQKPNESYIDYVKRVKQSNLWK-SKDNGFYDLTREGATDLN 543
+                           ************98.89***************9876.57*******************************.9***************** PP
+
+             Lip_C.aln 294 rwvkaqpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveyn 382
+                           r    +p++ y +++  at++ l ++ + ++++m   +v t++liG+ t         +k+W endG+vsvis ++P  ++     +  
+  sp|Q2FUU5|LIP1_STAA8 544 RKTSLNPNIVYKTYTGEATHKALNSDRQKADLNMFFPFVITGNLIGKAT---------EKEWRENDGLVSVISSQHPFNQAYT---KAT 620
+                           *******************************999999999******977.........478****************977766...556 PP
+
+             Lip_C.aln 383 GtvkkGvWnalgelentdhldiiglkvddvkswyedvaeflsklpk 428
+                             ++kG W   ++ +++dh+d++g   +d+    e++ +f ++l++
+  sp|Q2FUU5|LIP1_STAA8 621 DKIQKGIWQVTPTKHDWDHVDFVGQDSSDTVRTREELQDFWHHLAD 666
+                           689**********************999888888888888887765 PP
+
+>> sp|Q5HCM7|LIP1_STAAC  Lipase 1 OS=Staphylococcus aureus (strain COL) OX=93062 GN=lip1 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.4   0.5       6.7   9.9e+04     146     187 ..      40      81 ..      31      88 .. 0.74
+   2 !  342.0   8.9    1e-104  1.5e-100      34     428 ..     289     666 ..     260     669 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -3.4 bits;  conditional E-value: 6.7
+             Lip_C.aln 146 ksgkenkihlighsmGGqtirllaqllkeGdeeelktgeedi 187
+                           + g+++   + + s+G q  r  a+  +e   +e++++e+  
+  sp|Q5HCM7|LIP1_STAAC  40 NMGNSQEDTVTAQSIGDQQTRENANYQRENGVDEQQHTENLT 81 
+                           556666667788999999999999999888888888887755 PP
+
+  == domain 2  score: 342.0 bits;  conditional E-value: 1e-104
+             Lip_C.aln  34 lepeensraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGe 119
+                            +    +++ +  n+ PivlvhG+ Gf  d       +yWGG + ++++ l+e+Gyk+y a++    sn+dra+ely+yikGG vdyG+
+  sp|Q5HCM7|LIP1_STAAC 289 NKV---AKQGQYKNQDPIVLVHGFNGFTDDINPSvlAHYWGGNKmNIRQDLEENGYKAYEASISAFGSNYDRAVELYYYIKGGRVDYGA 374
+                           111...2223457999***********99877665579***96539******************************************* PP
+
+             Lip_C.aln 120 ahakkygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.Wvhsvtsi 204
+                           aha kygheryG+ty Giyk++      +  +k+hl+ghsmGGqtir l +ll++G++ee++     +++ispl++G+ +  ++s+t++
+  sp|Q5HCM7|LIP1_STAAC 375 AHAAKYGHERYGKTYEGIYKDW------KPGQKVHLVGHSMGGQTIRQLEELLRNGNREEIEyqkKHGGEISPLFKGNHDnMISSITTL 457
+                           **********************......6789****************************9865567789*******99879******* PP
+
+             Lip_C.aln 205 atPhdGstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGareln 293
+                            tPh+G+ ++dl    + l++++v  ++ + G++++   df l qWGlk+kp es  +yv+rv +s+ Wk +kd   ydl+ eGa +ln
+  sp|Q5HCM7|LIP1_STAAC 458 GTPHNGTHASDLAG-NEALVRQIVFDIGKMFGNKNS-RVDFGLAQWGLKQKPNESYIDYVKRVKQSNLWK-SKDNGFYDLTREGATDLN 543
+                           ************98.89***************9876.57*******************************.9***************** PP
+
+             Lip_C.aln 294 rwvkaqpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveyn 382
+                           r    +p++ y +++  at++ l ++ + ++++m   +v t++liG+ t         +k+W endG+vsvis ++P  ++     +  
+  sp|Q5HCM7|LIP1_STAAC 544 RKTSLNPNIVYKTYTGEATHKALNSDRQKADLNMFFPFVITGNLIGKAT---------EKEWRENDGLVSVISSQHPFNQAYT---KAT 620
+                           *******************************999999999******977.........478****************977766...556 PP
+
+             Lip_C.aln 383 GtvkkGvWnalgelentdhldiiglkvddvkswyedvaeflsklpk 428
+                             ++kG W   ++ +++dh+d++g   +d+    e++ +f ++l++
+  sp|Q5HCM7|LIP1_STAAC 621 DKIQKGIWQVTPTKHDWDHVDFVGQDSSDTVRTREELQDFWHHLAD 666
+                           689**********************999888888888888887765 PP
+
+>> sp|Q6G604|LIP1_STAAS  Lipase 1 OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=lip1 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.4   0.5       6.7   9.9e+04     146     187 ..      40      81 ..      31      88 .. 0.74
+   2 !  342.0   8.9    1e-104  1.5e-100      34     428 ..     289     666 ..     260     669 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -3.4 bits;  conditional E-value: 6.7
+             Lip_C.aln 146 ksgkenkihlighsmGGqtirllaqllkeGdeeelktgeedi 187
+                           + g+++   + + s+G q  r  a+  +e   +e++++e+  
+  sp|Q6G604|LIP1_STAAS  40 NMGNSQEDTVTAQSIGDQQTRENANYQRENGVDEQQHTENLT 81 
+                           556666667788999999999999999888888888887755 PP
+
+  == domain 2  score: 342.0 bits;  conditional E-value: 1e-104
+             Lip_C.aln  34 lepeensraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGe 119
+                            +    +++ +  n+ PivlvhG+ Gf  d       +yWGG + ++++ l+e+Gyk+y a++    sn+dra+ely+yikGG vdyG+
+  sp|Q6G604|LIP1_STAAS 289 NKV---AKQGQYKNQDPIVLVHGFNGFTDDINPSvlAHYWGGNKmNIRQDLEENGYKAYEASISAFGSNYDRAVELYYYIKGGRVDYGA 374
+                           111...2223457999***********99877665579***96539******************************************* PP
+
+             Lip_C.aln 120 ahakkygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.Wvhsvtsi 204
+                           aha kygheryG+ty Giyk++      +  +k+hl+ghsmGGqtir l +ll++G++ee++     +++ispl++G+ +  ++s+t++
+  sp|Q6G604|LIP1_STAAS 375 AHAAKYGHERYGKTYEGIYKDW------KPGQKVHLVGHSMGGQTIRQLEELLRNGNREEIEyqkKHGGEISPLFKGNHDnMISSITTL 457
+                           **********************......6789****************************9865567789*******99879******* PP
+
+             Lip_C.aln 205 atPhdGstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGareln 293
+                            tPh+G+ ++dl    + l++++v  ++ + G++++   df l qWGlk+kp es  +yv+rv +s+ Wk +kd   ydl+ eGa +ln
+  sp|Q6G604|LIP1_STAAS 458 GTPHNGTHASDLAG-NEALVRQIVFDIGKMFGNKNS-RVDFGLAQWGLKQKPNESYIDYVKRVKQSNLWK-SKDNGFYDLTREGATDLN 543
+                           ************98.89***************9876.57*******************************.9***************** PP
+
+             Lip_C.aln 294 rwvkaqpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveyn 382
+                           r    +p++ y +++  at++ l ++ + ++++m   +v t++liG+ t         +k+W endG+vsvis ++P  ++     +  
+  sp|Q6G604|LIP1_STAAS 544 RKTSLNPNIVYKTYTGEATHKALNSDRQKADLNMFFPFVITGNLIGKAT---------EKEWRENDGLVSVISSQHPFNQAYT---KAT 620
+                           *******************************999999999******977.........478****************977766...556 PP
+
+             Lip_C.aln 383 GtvkkGvWnalgelentdhldiiglkvddvkswyedvaeflsklpk 428
+                             ++kG W   ++ +++dh+d++g   +d+    e++ +f ++l++
+  sp|Q6G604|LIP1_STAAS 621 DKIQKGIWQVTPTKHDWDHVDFVGQDSSDTVRTREELQDFWHHLAD 666
+                           689**********************999888888888888887765 PP
+
+>> sp|Q8NUI5|LIP1_STAAW  Lipase 1 OS=Staphylococcus aureus (strain MW2) OX=196620 GN=lip1 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.4   0.5       6.7   9.9e+04     146     187 ..      40      81 ..      31      88 .. 0.74
+   2 !  342.0   8.9    1e-104  1.5e-100      34     428 ..     289     666 ..     260     669 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -3.4 bits;  conditional E-value: 6.7
+             Lip_C.aln 146 ksgkenkihlighsmGGqtirllaqllkeGdeeelktgeedi 187
+                           + g+++   + + s+G q  r  a+  +e   +e++++e+  
+  sp|Q8NUI5|LIP1_STAAW  40 NMGNSQEDTVTAQSIGDQQTRENANYQRENGVDEQQHTENLT 81 
+                           556666667788999999999999999888888888887755 PP
+
+  == domain 2  score: 342.0 bits;  conditional E-value: 1e-104
+             Lip_C.aln  34 lepeensraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGe 119
+                            +    +++ +  n+ PivlvhG+ Gf  d       +yWGG + ++++ l+e+Gyk+y a++    sn+dra+ely+yikGG vdyG+
+  sp|Q8NUI5|LIP1_STAAW 289 NKV---AKQGQYKNQDPIVLVHGFNGFTDDINPSvlAHYWGGNKmNIRQDLEENGYKAYEASISAFGSNYDRAVELYYYIKGGRVDYGA 374
+                           111...2223457999***********99877665579***96539******************************************* PP
+
+             Lip_C.aln 120 ahakkygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.Wvhsvtsi 204
+                           aha kygheryG+ty Giyk++      +  +k+hl+ghsmGGqtir l +ll++G++ee++     +++ispl++G+ +  ++s+t++
+  sp|Q8NUI5|LIP1_STAAW 375 AHAAKYGHERYGKTYEGIYKDW------KPGQKVHLVGHSMGGQTIRQLEELLRNGNREEIEyqkKHGGEISPLFKGNHDnMISSITTL 457
+                           **********************......6789****************************9865567789*******99879******* PP
+
+             Lip_C.aln 205 atPhdGstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGareln 293
+                            tPh+G+ ++dl    + l++++v  ++ + G++++   df l qWGlk+kp es  +yv+rv +s+ Wk +kd   ydl+ eGa +ln
+  sp|Q8NUI5|LIP1_STAAW 458 GTPHNGTHASDLAG-NEALVRQIVFDIGKMFGNKNS-RVDFGLAQWGLKQKPNESYIDYVKRVKQSNLWK-SKDNGFYDLTREGATDLN 543
+                           ************98.89***************9876.57*******************************.9***************** PP
+
+             Lip_C.aln 294 rwvkaqpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveyn 382
+                           r    +p++ y +++  at++ l ++ + ++++m   +v t++liG+ t         +k+W endG+vsvis ++P  ++     +  
+  sp|Q8NUI5|LIP1_STAAW 544 RKTSLNPNIVYKTYTGEATHKALNSDRQKADLNMFFPFVITGNLIGKAT---------EKEWRENDGLVSVISSQHPFNQAYT---KAT 620
+                           *******************************999999999******977.........478****************977766...556 PP
+
+             Lip_C.aln 383 GtvkkGvWnalgelentdhldiiglkvddvkswyedvaeflsklpk 428
+                             ++kG W   ++ +++dh+d++g   +d+    e++ +f ++l++
+  sp|Q8NUI5|LIP1_STAAW 621 DKIQKGIWQVTPTKHDWDHVDFVGQDSSDTVRTREELQDFWHHLAD 666
+                           689**********************999888888888888887765 PP
+
+>> sp|P65288|LIP1_STAAM  Lipase 1 OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=lip1 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.4   0.5       6.7   9.9e+04     146     187 ..      40      81 ..      31      88 .. 0.74
+   2 !  341.8   9.0  1.2e-104  1.7e-100      34     428 ..     289     666 ..     260     669 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -3.4 bits;  conditional E-value: 6.7
+             Lip_C.aln 146 ksgkenkihlighsmGGqtirllaqllkeGdeeelktgeedi 187
+                           + g+++   + + s+G q  r  a+  +e   +e++++e+  
+  sp|P65288|LIP1_STAAM  40 NMGNSQEDTVTAQSIGDQQTRENANYQRENGVDEQQHTENLT 81 
+                           556666667788999999999999999888888888887755 PP
+
+  == domain 2  score: 341.8 bits;  conditional E-value: 1.2e-104
+             Lip_C.aln  34 lepeensraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGe 119
+                            +    +++ +  n+ PivlvhG+ Gf  d       +yWGG + ++++ l+e+Gyk+y a++    sn+dra+ely+yikGG vdyG+
+  sp|P65288|LIP1_STAAM 289 NKV---AKQGQYKNQDPIVLVHGFNGFTDDINPSvlAHYWGGNKmNIRQDLEENGYKAYEASISAFGSNYDRAVELYYYIKGGRVDYGA 374
+                           111...2223457999***********99877665579***96539******************************************* PP
+
+             Lip_C.aln 120 ahakkygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.Wvhsvtsi 204
+                           aha kygheryG+ty Giyk++      +  +k+hl+ghsmGGqtir l +ll++G++ee++     +++ispl++G+ +  ++s+t++
+  sp|P65288|LIP1_STAAM 375 AHAAKYGHERYGKTYEGIYKDW------KPGQKVHLVGHSMGGQTIRQLEELLRNGNREEIEyqkKHGGEISPLFKGNNDnMISSITTL 457
+                           **********************......6789****************************9865567789*******99879******* PP
+
+             Lip_C.aln 205 atPhdGstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGareln 293
+                            tPh+G+ ++dl    + l++++v  ++ + G++++   df l qWGlk+kp es  +yv+rv +s+ Wk +kd   ydl+ eGa +ln
+  sp|P65288|LIP1_STAAM 458 GTPHNGTHASDLAG-NEALVRQIVFDIGKMFGNKNS-RVDFGLAQWGLKQKPNESYIDYVKRVKQSNLWK-SKDNGFYDLTREGATDLN 543
+                           ************98.89***************9876.57*******************************.9***************** PP
+
+             Lip_C.aln 294 rwvkaqpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveyn 382
+                           r    +p++ y +++  at++ l ++ + ++++m   +v t++liG+ t         +k+W endG+vsvis ++P  ++     +  
+  sp|P65288|LIP1_STAAM 544 RKTSLNPNIVYKTYTGEATHKALNSDRQKADLNMFFPFVITGNLIGKAT---------EKEWRENDGLVSVISSQHPFNQAYT---NAT 620
+                           *******************************999999999******977.........478****************966554...777 PP
+
+             Lip_C.aln 383 GtvkkGvWnalgelentdhldiiglkvddvkswyedvaeflsklpk 428
+                             ++kG W   ++ +++dh+d++g   +d+    e++ +f ++l++
+  sp|P65288|LIP1_STAAM 621 DKIQKGIWQVTPTKHDWDHVDFVGQDSSDTVRTREELQDFWHHLAD 666
+                           89***********************999888888888888887765 PP
+
+>> sp|P65289|LIP1_STAAN  Lipase 1 OS=Staphylococcus aureus (strain N315) OX=158879 GN=lip1 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.4   0.5       6.7   9.9e+04     146     187 ..      40      81 ..      31      88 .. 0.74
+   2 !  341.8   9.0  1.2e-104  1.7e-100      34     428 ..     289     666 ..     260     669 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -3.4 bits;  conditional E-value: 6.7
+             Lip_C.aln 146 ksgkenkihlighsmGGqtirllaqllkeGdeeelktgeedi 187
+                           + g+++   + + s+G q  r  a+  +e   +e++++e+  
+  sp|P65289|LIP1_STAAN  40 NMGNSQEDTVTAQSIGDQQTRENANYQRENGVDEQQHTENLT 81 
+                           556666667788999999999999999888888888887755 PP
+
+  == domain 2  score: 341.8 bits;  conditional E-value: 1.2e-104
+             Lip_C.aln  34 lepeensraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGe 119
+                            +    +++ +  n+ PivlvhG+ Gf  d       +yWGG + ++++ l+e+Gyk+y a++    sn+dra+ely+yikGG vdyG+
+  sp|P65289|LIP1_STAAN 289 NKV---AKQGQYKNQDPIVLVHGFNGFTDDINPSvlAHYWGGNKmNIRQDLEENGYKAYEASISAFGSNYDRAVELYYYIKGGRVDYGA 374
+                           111...2223457999***********99877665579***96539******************************************* PP
+
+             Lip_C.aln 120 ahakkygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.Wvhsvtsi 204
+                           aha kygheryG+ty Giyk++      +  +k+hl+ghsmGGqtir l +ll++G++ee++     +++ispl++G+ +  ++s+t++
+  sp|P65289|LIP1_STAAN 375 AHAAKYGHERYGKTYEGIYKDW------KPGQKVHLVGHSMGGQTIRQLEELLRNGNREEIEyqkKHGGEISPLFKGNNDnMISSITTL 457
+                           **********************......6789****************************9865567789*******99879******* PP
+
+             Lip_C.aln 205 atPhdGstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGareln 293
+                            tPh+G+ ++dl    + l++++v  ++ + G++++   df l qWGlk+kp es  +yv+rv +s+ Wk +kd   ydl+ eGa +ln
+  sp|P65289|LIP1_STAAN 458 GTPHNGTHASDLAG-NEALVRQIVFDIGKMFGNKNS-RVDFGLAQWGLKQKPNESYIDYVKRVKQSNLWK-SKDNGFYDLTREGATDLN 543
+                           ************98.89***************9876.57*******************************.9***************** PP
+
+             Lip_C.aln 294 rwvkaqpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveyn 382
+                           r    +p++ y +++  at++ l ++ + ++++m   +v t++liG+ t         +k+W endG+vsvis ++P  ++     +  
+  sp|P65289|LIP1_STAAN 544 RKTSLNPNIVYKTYTGEATHKALNSDRQKADLNMFFPFVITGNLIGKAT---------EKEWRENDGLVSVISSQHPFNQAYT---NAT 620
+                           *******************************999999999******977.........478****************966554...777 PP
+
+             Lip_C.aln 383 GtvkkGvWnalgelentdhldiiglkvddvkswyedvaeflsklpk 428
+                             ++kG W   ++ +++dh+d++g   +d+    e++ +f ++l++
+  sp|P65289|LIP1_STAAN 621 DKIQKGIWQVTPTKHDWDHVDFVGQDSSDTVRTREELQDFWHHLAD 666
+                           89***********************999888888888888887765 PP
+
+>> sp|Q6GDD3|LIP1_STAAR  Lipase 1 OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=lip1 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.4   0.5       6.7   9.9e+04     146     187 ..      40      81 ..      31      88 .. 0.74
+   2 !  341.6   9.2  1.3e-104  1.9e-100      40     428 ..     292     666 ..     261     669 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -3.4 bits;  conditional E-value: 6.7
+             Lip_C.aln 146 ksgkenkihlighsmGGqtirllaqllkeGdeeelktgeedi 187
+                           + g+++   + + s+G q  r  a+  +e   +e++++e+  
+  sp|Q6GDD3|LIP1_STAAR  40 NMGNSQEDTVTAQSIGDQQTRENANYQRENGVDEQQHTENLT 81 
+                           556666667788999999999999999888888888887755 PP
+
+  == domain 2  score: 341.6 bits;  conditional E-value: 1.3e-104
+             Lip_C.aln  40 sraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGeahakky 125
+                           +++ +  n+ PivlvhG+ Gf  d       +yWGG + ++++ l+e+Gyk+y a++    sn+dra+ely+yikGG vdyG+aha ky
+  sp|Q6GDD3|LIP1_STAAR 292 AKQGQYKNQDPIVLVHGFNGFTDDINPSvlAHYWGGNKmNIRQDLEENGYKAYEASISAFGSNYDRAVELYYYIKGGRVDYGAAHAAKY 380
+                           2233457999***********99877665579***96539************************************************* PP
+
+             Lip_C.aln 126 gheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.WvhsvtsiatPhdG 210
+                           gheryG+ty Giyk++      +  +k+hl+ghsmGGqtir l +ll++G++ee++     +++ispl++G+ +  ++s+t++ tPh+G
+  sp|Q6GDD3|LIP1_STAAR 381 GHERYGKTYEGIYKDW------KPGQKVHLVGHSMGGQTIRQLEELLRNGSREEIEyqkKHSGEISPLFKGNNDnMISSITTLGTPHNG 463
+                           ****************......6789****************************9865567789*******99879************* PP
+
+             Lip_C.aln 211 stladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGarelnrwvkaq 299
+                           + ++dl    + l++++v  ++ + G++++   df l qWGlk+kp es  +yv+rv +s+ Wk +kd   ydl+ eGa +lnr    +
+  sp|Q6GDD3|LIP1_STAAR 464 THASDLAG-NEALVRQIVFDIGKMFGNKNS-RVDFGLAQWGLKQKPNESYIDYVKRVKQSNLWK-SKDNGFYDLTREGATDLNRKTSLN 549
+                           ******98.89***************9876.57*******************************.9*********************** PP
+
+             Lip_C.aln 300 pdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveynGtvkkG 388
+                           p++ y +++  at++ l ++ + ++++m   +v t++liG+ t         +k+W endG+vsvis ++P  ++     +    ++kG
+  sp|Q6GDD3|LIP1_STAAR 550 PNIVYKTYTGEATHKALNSDRQKADLNMFFPFVITGNLIGKAT---------EKEWRENDGLVSVISSQHPFNQAYT---NATDKIQKG 626
+                           *************************999999999******977.........478****************966554...77789**** PP
+
+             Lip_C.aln 389 vWnalgelentdhldiiglkvddvkswyedvaeflsklpk 428
+                            W   ++ +++dh+d++g   +d+    e++ +f ++l++
+  sp|Q6GDD3|LIP1_STAAR 627 IWQVTPTKHDWDHVDFVGQDSSDTVRTREELQDFWHHLAD 666
+                           *******************999888888888888887765 PP
+
+>> sp|Q5HKP6|LIP_STAEQ  Lipase OS=Staphylococcus epidermidis (strain ATCC 35984 / DSM 28319 / BCRC 17069 / CCUG 31568 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  337.8  12.5  1.9e-103   2.9e-99      23     427 ..     281     674 ..     272     678 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 337.8 bits;  conditional E-value: 1.9e-103
+            Lip_C.aln  23 aeekkykediale....peensraisegneyPivlvhGllGfGrdellG..lkyWGG.iedlekklrekGykvytaavGPvssnwdraie 105
+                          +++k++k++++ +    +++ +++++  n+ Pi+lvhG+ Gf  d       +yWGG + ++++ l+e+Gy++y a++    sn+dra+e
+  sp|Q5HKP6|LIP_STAEQ 281 TTNKQSKQQVSEKnedqTNKSAKQKQYKNNDPIILVHGFNGFTDDINPSvlTHYWGGdKMNIRQDLEENGYEAYEASISAFGSNYDRAVE 370
+                          33455555555552211444455677789*************99877665579***94569***************************** PP
+
+            Lip_C.aln 106 lyayikGGtvdyGeahakkygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedisplls 192
+                          ly+yikGG vdyG+aha kygheryG+ty G+yk++      +  +kihl+ghsmGGqtir l +ll++G++ee +   + +++ispl++
+  sp|Q5HKP6|LIP_STAEQ 371 LYYYIKGGRVDYGAAHAAKYGHERYGKTYEGVYKDW------KPGQKIHLVGHSMGGQTIRQLEELLRHGNPEEVEyqkQHGGEISPLFQ 454
+                          ************************************......6789****************************8865567789****** PP
+
+            Lip_C.aln 193 Ggks.WvhsvtsiatPhdGstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlan 281
+                          Gg +  v+s+t++ tPh+G+ ++dl    + ++++l   ++ + G++++   df l++WGlk+kp es  +yv+rv +s+ Wk +kd   
+  sp|Q5HKP6|LIP_STAEQ 455 GGHDnMVSSITTLGTPHNGTHASDLLG-NEAIVRQLAYDVGKMYGNKDSR-VDFGLEHWGLKQKPNESYIQYVKRVQNSKLWK-SKDSGL 541
+                          **9879*******************99.899**************99885.6*******************************.9***** PP
+
+            Lip_C.aln 282 ydlsteGarelnrwvkaqpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPk 371
+                          +dl+ +Ga +lnr    +p++ y +++  +t++  l+g + ++++m   ++ t++liG+           +k+W endG+vsvis ++P 
+  sp|Q5HKP6|LIP_STAEQ 542 HDLTRDGATDLNRKTSLNPNIVYKTYTGESTHK-TLAGKQKADLNMFLPFTITGNLIGKAK---------EKEWRENDGLVSVISSQHPF 621
+                          ***************************998876.68999999*999999999******743.........478****************7 PP
+
+            Lip_C.aln 372 igsndviveynGtvkkGvWnalgelentdhldiiglkvddvkswyedvaeflsklp 427
+                             n++ ve     +kGvW   ++ +++dh+d++g   +d+k    ++ +f + l+
+  sp|Q5HKP6|LIP_STAEQ 622 ---NQKYVEATDKNQKGVWQVTPTKHDWDHVDFVGQDSTDTKRTRDELQQFWHGLA 674
+                          ...788999999************************99988888777777776665 PP
+
+>> sp|P0C0R3|LIP_STAEP  Lipase OS=Staphylococcus epidermidis OX=1282 GN=lip PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.7  13.1  8.5e-103   1.3e-98      23     427 ..     281     674 ..     272     679 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 335.7 bits;  conditional E-value: 8.5e-103
+            Lip_C.aln  23 aeekkykediale....peensraisegneyPivlvhGllGfGrdellG..lkyWGG.iedlekklrekGykvytaavGPvssnwdraie 105
+                          +++k++k++++ +    +++ +++++  n+ Pi+lvhG+ Gf  d       +yWGG + ++++ l+e+Gy++y a++    sn+dra+e
+  sp|P0C0R3|LIP_STAEP 281 TTNKQSKQQVSEKnedqTNKSAKQKQYKNNDPIILVHGFNGFTDDINPSvlTHYWGGdKMNIRQDLEENGYEAYEASISAFGSNYDRAVE 370
+                          33455555555552211444455677789*************99877665579***94569***************************** PP
+
+            Lip_C.aln 106 lyayikGGtvdyGeahakkygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedisplls 192
+                          ly+yikGG vdyG+aha kygheryG+ty G+yk++      +  +kihl+ghsmGGqtir l +ll++G++ee +   + +++ispl++
+  sp|P0C0R3|LIP_STAEP 371 LYYYIKGGRVDYGAAHAAKYGHERYGKTYEGVYKDW------KPGQKIHLVGHSMGGQTIRQLEELLRHGNPEEVEyqkQHGGEISPLYQ 454
+                          ************************************......6789****************************8865567789****** PP
+
+            Lip_C.aln 193 Ggks.WvhsvtsiatPhdGstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlan 281
+                          Gg +  v+s+t++ tPh+G+ ++dl    + ++++l   ++ + G++++   df l++WGlk+kp es  +yv+rv +s+ Wk +kd   
+  sp|P0C0R3|LIP_STAEP 455 GGHDnMVSSITTLGTPHNGTHASDLLG-NEAIVRQLAYDVGKMYGNKDSR-VDFGLEHWGLKQKPNESYIQYVKRVQNSKLWK-SKDSGL 541
+                          **9879*******************99.899**************99885.6*******************************.9***** PP
+
+            Lip_C.aln 282 ydlsteGarelnrwvkaqpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPk 371
+                          +dl+ +Ga +lnr    +p++ y +++  +t++  l+g + ++++m   ++ t++liG+           +k+W endG+vsvis ++P 
+  sp|P0C0R3|LIP_STAEP 542 HDLTRDGATDLNRKTSLNPNIVYKTYTGESTHK-TLAGKQKADLNMFLPFTITGNLIGKAK---------EKEWRENDGLVSVISSQHPF 621
+                          ***************************998876.68999999*999999999******743.........478****************7 PP
+
+            Lip_C.aln 372 igsndviveynGtvkkGvWnalgelentdhldiiglkvddvkswyedvaeflsklp 427
+                             n++ ve     +kGvW   ++ +++dh+d++g   +d+k    ++ +f + l+
+  sp|P0C0R3|LIP_STAEP 622 ---NQKYVEATDKNQKGVWQVTPTKHDWDHVDFVGQDSTDTKRTRDELQQFWHGLA 674
+                          ...788999999***********************999987777777666666555 PP
+
+>> sp|P0C0R4|LIP_STAES  Lipase OS=Staphylococcus epidermidis (strain ATCC 12228 / FDA PCI 1200) OX=176280 GN=lip PE=3 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.7  13.1  8.5e-103   1.3e-98      23     427 ..     281     674 ..     272     679 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 335.7 bits;  conditional E-value: 8.5e-103
+            Lip_C.aln  23 aeekkykediale....peensraisegneyPivlvhGllGfGrdellG..lkyWGG.iedlekklrekGykvytaavGPvssnwdraie 105
+                          +++k++k++++ +    +++ +++++  n+ Pi+lvhG+ Gf  d       +yWGG + ++++ l+e+Gy++y a++    sn+dra+e
+  sp|P0C0R4|LIP_STAES 281 TTNKQSKQQVSEKnedqTNKSAKQKQYKNNDPIILVHGFNGFTDDINPSvlTHYWGGdKMNIRQDLEENGYEAYEASISAFGSNYDRAVE 370
+                          33455555555552211444455677789*************99877665579***94569***************************** PP
+
+            Lip_C.aln 106 lyayikGGtvdyGeahakkygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedisplls 192
+                          ly+yikGG vdyG+aha kygheryG+ty G+yk++      +  +kihl+ghsmGGqtir l +ll++G++ee +   + +++ispl++
+  sp|P0C0R4|LIP_STAES 371 LYYYIKGGRVDYGAAHAAKYGHERYGKTYEGVYKDW------KPGQKIHLVGHSMGGQTIRQLEELLRHGNPEEVEyqkQHGGEISPLYQ 454
+                          ************************************......6789****************************8865567789****** PP
+
+            Lip_C.aln 193 Ggks.WvhsvtsiatPhdGstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlan 281
+                          Gg +  v+s+t++ tPh+G+ ++dl    + ++++l   ++ + G++++   df l++WGlk+kp es  +yv+rv +s+ Wk +kd   
+  sp|P0C0R4|LIP_STAES 455 GGHDnMVSSITTLGTPHNGTHASDLLG-NEAIVRQLAYDVGKMYGNKDSR-VDFGLEHWGLKQKPNESYIQYVKRVQNSKLWK-SKDSGL 541
+                          **9879*******************99.899**************99885.6*******************************.9***** PP
+
+            Lip_C.aln 282 ydlsteGarelnrwvkaqpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPk 371
+                          +dl+ +Ga +lnr    +p++ y +++  +t++  l+g + ++++m   ++ t++liG+           +k+W endG+vsvis ++P 
+  sp|P0C0R4|LIP_STAES 542 HDLTRDGATDLNRKTSLNPNIVYKTYTGESTHK-TLAGKQKADLNMFLPFTITGNLIGKAK---------EKEWRENDGLVSVISSQHPF 621
+                          ***************************998876.68999999*999999999******743.........478****************7 PP
+
+            Lip_C.aln 372 igsndviveynGtvkkGvWnalgelentdhldiiglkvddvkswyedvaeflsklp 427
+                             n++ ve     +kGvW   ++ +++dh+d++g   +d+k    ++ +f + l+
+  sp|P0C0R4|LIP_STAES 622 ---NQKYVEATDKNQKGVWQVTPTKHDWDHVDFVGQDSTDTKRTRDELQQFWHGLA 674
+                          ...788999999***********************999987777777666666555 PP
+
+>> sp|P10335|LIP2_STAAU  Lipase 2 OS=Staphylococcus aureus OX=1280 GN=lip2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.1       3.3   4.8e+04       5      39 ..      17      53 ..      13      64 .. 0.66
+   2 !  318.6   2.1   1.3e-97   1.9e-93      39     422 ..     295     666 ..     268     676 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 3.3
+             Lip_C.aln  5 ilisillvltvlipta..asaeekkykedialepeen 39
+                          i ++ +l+ t++++++  a a+ek + +  a +++ n
+  sp|P10335|LIP2_STAAU 17 IGVVSVLAATMFVVSSheAQASEKTSTNAAAQKETLN 53
+                          5567788999999988656667777666665555444 PP
+
+  == domain 2  score: 318.6 bits;  conditional E-value: 1.3e-97
+             Lip_C.aln  39 nsraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGeahakk 124
+                           ++++++  n+yP+v+vhG+lG   d+      +yWGG + ++ ++lr++Gy+v+ a+v    sn+dra+ely+yikGG vdyG+aha k
+  sp|P10335|LIP2_STAAU 295 KANQVQPLNKYPVVFVHGFLGLVGDNAPAlyPNYWGGNKfKVIEELRKQGYNVHQASVSAFGSNYDRAVELYYYIKGGRVDYGAAHAAK 383
+                           33566778*************987777762247****7648999********************************************* PP
+
+             Lip_C.aln 125 ygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.WvhsvtsiatPhd 209
+                           ygheryG+ty Gi +++      +  +k+hl+ghsmGGqtirl+ ++l++G++ee+    + +++ispl++Gg +  v s+t++atPh+
+  sp|P10335|LIP2_STAAU 384 YGHERYGKTYKGIMPNW------EPGKKVHLVGHSMGGQTIRLMEEFLRNGNKEEIAyhkAHGGEISPLFTGGHNnMVASITTLATPHN 466
+                           *****************......7789****************************875557889*********9889************ PP
+
+             Lip_C.aln 210 GstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGarelnrwvka 298
+                           Gs++ad     ++ +++++ al  + G++ +++ d+ l qWG+k+ p es  +y++rv ks+iW  ++d a+ydl+ +G+ +ln+    
+  sp|P10335|LIP2_STAAU 467 GSQAADKFG-NTEAVRKIMFALNRFMGNKYSNI-DLGLTQWGFKQLPNESYIDYIKRVSKSKIWT-SDDNAAYDLTLDGSAKLNNMTSM 552
+                           ******999.56778899999*******99987.*******************************.9********************** PP
+
+             Lip_C.aln 299 qpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveynGtvkk 387
+                           +p++ y +++ ++++   l gye p++    l+  t+++iG+ +r+         +W +ndGvv vis  +P  ++   + + + ++++
+  sp|P10335|LIP2_STAAU 553 NPNITYTTYTGVSSHTGPL-GYENPDLGTFFLMATTSRIIGHDARE---------EWRKNDGVVPVISSLHPSNQPFVNVTNDEPATRR 631
+                           ****************998.8999**999999*********98764.........6********************************* PP
+
+             Lip_C.aln 388 GvWnalgelentdhldiiglkvddvkswyedvaef 422
+                           G W   + ++ +dh+d+ig+   d k    ++a+f
+  sp|P10335|LIP2_STAAU 632 GIWQVKPIIQGWDHVDFIGVDFLDFKRKGAELANF 666
+                           *******************9887776666666665 PP
+
+>> sp|Q2G155|LIP2_STAA8  Lipase 2 OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=lip2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.1       3.3   4.8e+04       5      39 ..      17      53 ..      13      64 .. 0.66
+   2 !  318.6   2.1   1.3e-97   1.9e-93      39     422 ..     295     666 ..     268     676 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 3.3
+             Lip_C.aln  5 ilisillvltvlipta..asaeekkykedialepeen 39
+                          i ++ +l+ t++++++  a a+ek + +  a +++ n
+  sp|Q2G155|LIP2_STAA8 17 IGVVSVLAATMFVVSSheAQASEKTSTNAAAQKETLN 53
+                          5567788999999988656667777666665555444 PP
+
+  == domain 2  score: 318.6 bits;  conditional E-value: 1.3e-97
+             Lip_C.aln  39 nsraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGeahakk 124
+                           ++++++  n+yP+v+vhG+lG   d+      +yWGG + ++ ++lr++Gy+v+ a+v    sn+dra+ely+yikGG vdyG+aha k
+  sp|Q2G155|LIP2_STAA8 295 KANQVQPLNKYPVVFVHGFLGLVGDNAPAlyPNYWGGNKfKVIEELRKQGYNVHQASVSAFGSNYDRAVELYYYIKGGRVDYGAAHAAK 383
+                           33566778*************987777762247****7648999********************************************* PP
+
+             Lip_C.aln 125 ygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.WvhsvtsiatPhd 209
+                           ygheryG+ty Gi +++      +  +k+hl+ghsmGGqtirl+ ++l++G++ee+    + +++ispl++Gg +  v s+t++atPh+
+  sp|Q2G155|LIP2_STAA8 384 YGHERYGKTYKGIMPNW------EPGKKVHLVGHSMGGQTIRLMEEFLRNGNKEEIAyhkAHGGEISPLFTGGHNnMVASITTLATPHN 466
+                           *****************......7789****************************875557889*********9889************ PP
+
+             Lip_C.aln 210 GstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGarelnrwvka 298
+                           Gs++ad     ++ +++++ al  + G++ +++ d+ l qWG+k+ p es  +y++rv ks+iW  ++d a+ydl+ +G+ +ln+    
+  sp|Q2G155|LIP2_STAA8 467 GSQAADKFG-NTEAVRKIMFALNRFMGNKYSNI-DLGLTQWGFKQLPNESYIDYIKRVSKSKIWT-SDDNAAYDLTLDGSAKLNNMTSM 552
+                           ******999.56778899999*******99987.*******************************.9********************** PP
+
+             Lip_C.aln 299 qpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveynGtvkk 387
+                           +p++ y +++ ++++   l gye p++    l+  t+++iG+ +r+         +W +ndGvv vis  +P  ++   + + + ++++
+  sp|Q2G155|LIP2_STAA8 553 NPNITYTTYTGVSSHTGPL-GYENPDLGTFFLMATTSRIIGHDARE---------EWRKNDGVVPVISSLHPSNQPFVNVTNDEPATRR 631
+                           ****************998.8999**999999*********98764.........6********************************* PP
+
+             Lip_C.aln 388 GvWnalgelentdhldiiglkvddvkswyedvaef 422
+                           G W   + ++ +dh+d+ig+   d k    ++a+f
+  sp|Q2G155|LIP2_STAA8 632 GIWQVKPIIQGWDHVDFIGVDFLDFKRKGAELANF 666
+                           *******************9887776666666665 PP
+
+>> sp|Q5HJ48|LIP2_STAAC  Lipase 2 OS=Staphylococcus aureus (strain COL) OX=93062 GN=lip2 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.1       3.3   4.8e+04       5      39 ..      17      53 ..      13      64 .. 0.66
+   2 !  318.6   2.1   1.3e-97   1.9e-93      39     422 ..     295     666 ..     268     676 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 3.3
+             Lip_C.aln  5 ilisillvltvlipta..asaeekkykedialepeen 39
+                          i ++ +l+ t++++++  a a+ek + +  a +++ n
+  sp|Q5HJ48|LIP2_STAAC 17 IGVVSVLAATMFVVSSheAQASEKTSTNAAAQKETLN 53
+                          5567788999999988656667777666665555444 PP
+
+  == domain 2  score: 318.6 bits;  conditional E-value: 1.3e-97
+             Lip_C.aln  39 nsraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGeahakk 124
+                           ++++++  n+yP+v+vhG+lG   d+      +yWGG + ++ ++lr++Gy+v+ a+v    sn+dra+ely+yikGG vdyG+aha k
+  sp|Q5HJ48|LIP2_STAAC 295 KANQVQPLNKYPVVFVHGFLGLVGDNAPAlyPNYWGGNKfKVIEELRKQGYNVHQASVSAFGSNYDRAVELYYYIKGGRVDYGAAHAAK 383
+                           33566778*************987777762247****7648999********************************************* PP
+
+             Lip_C.aln 125 ygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.WvhsvtsiatPhd 209
+                           ygheryG+ty Gi +++      +  +k+hl+ghsmGGqtirl+ ++l++G++ee+    + +++ispl++Gg +  v s+t++atPh+
+  sp|Q5HJ48|LIP2_STAAC 384 YGHERYGKTYKGIMPNW------EPGKKVHLVGHSMGGQTIRLMEEFLRNGNKEEIAyhkAHGGEISPLFTGGHNnMVASITTLATPHN 466
+                           *****************......7789****************************875557889*********9889************ PP
+
+             Lip_C.aln 210 GstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGarelnrwvka 298
+                           Gs++ad     ++ +++++ al  + G++ +++ d+ l qWG+k+ p es  +y++rv ks+iW  ++d a+ydl+ +G+ +ln+    
+  sp|Q5HJ48|LIP2_STAAC 467 GSQAADKFG-NTEAVRKIMFALNRFMGNKYSNI-DLGLTQWGFKQLPNESYIDYIKRVSKSKIWT-SDDNAAYDLTLDGSAKLNNMTSM 552
+                           ******999.56778899999*******99987.*******************************.9********************** PP
+
+             Lip_C.aln 299 qpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveynGtvkk 387
+                           +p++ y +++ ++++   l gye p++    l+  t+++iG+ +r+         +W +ndGvv vis  +P  ++   + + + ++++
+  sp|Q5HJ48|LIP2_STAAC 553 NPNITYTTYTGVSSHTGPL-GYENPDLGTFFLMATTSRIIGHDARE---------EWRKNDGVVPVISSLHPSNQPFVNVTNDEPATRR 631
+                           ****************998.8999**999999*********98764.........6********************************* PP
+
+             Lip_C.aln 388 GvWnalgelentdhldiiglkvddvkswyedvaef 422
+                           G W   + ++ +dh+d+ig+   d k    ++a+f
+  sp|Q5HJ48|LIP2_STAAC 632 GIWQVKPIIQGWDHVDFIGVDFLDFKRKGAELANF 666
+                           *******************9887776666666665 PP
+
+>> sp|Q6GCF1|LIP2_STAAS  Lipase 2 OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=lip2 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  317.9   2.2     2e-97     3e-93      39     422 ..     295     666 ..     268     676 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 317.9 bits;  conditional E-value: 2e-97
+             Lip_C.aln  39 nsraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGeahakk 124
+                           ++++++  n+yP+v+vhG+lG   d+      +yWGG + ++ ++lr++Gy+v+ a+v    sn+dra+ely+yikGG vdyG+aha k
+  sp|Q6GCF1|LIP2_STAAS 295 KANQVQPLNKYPVVFVHGFLGLVGDNAPAlyPNYWGGNKfKVIEELRKQGYNVHQASVSAFGSNYDRAVELYYYIKGGRVDYGAAHAAK 383
+                           33566778*************987777762247****7648999********************************************* PP
+
+             Lip_C.aln 125 ygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.WvhsvtsiatPhd 209
+                           ygheryG+ty Gi +++      +  +k+hl+ghsmGGqtirl+ ++l++G++ee+    + +++ispl++Gg +  v s+t++atPh+
+  sp|Q6GCF1|LIP2_STAAS 384 YGHERYGKTYKGIMPNW------EPGKKVHLVGHSMGGQTIRLMEEFLRNGNKEEIAyhkAHGGEISPLFTGGHNnMVASITTLATPHN 466
+                           *****************......7789****************************875557889*********9889************ PP
+
+             Lip_C.aln 210 GstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGarelnrwvka 298
+                           Gs++ad     ++ +++++ al  + G++ +++ d+ l qWG+k+ p es  +y++rv ks+iW  ++d a+ydl+ +G+ +ln+    
+  sp|Q6GCF1|LIP2_STAAS 467 GSQAADKFG-NTEAVRKIMFALNRFMGNKYSNI-DLGLTQWGFKQLPNESYIDYIKRVSKSKIWT-SDDNAAYDLTLDGSAKLNNMTSM 552
+                           ******999.56778899999*******99987.*******************************.9********************** PP
+
+             Lip_C.aln 299 qpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveynGtvkk 387
+                           +p++ y +++ ++++   l gye p++    l+  t+++iG+ +r+         +W +ndGvv vis  +P  ++   + + + ++++
+  sp|Q6GCF1|LIP2_STAAS 553 NPNITYTTYTGVSSHTGPL-GYENPDLGTFFLMDTTSRIIGHDARE---------EWRKNDGVVPVISSLHPSNQPFVNVTNDEPATRR 631
+                           ****************998.8999**9999999********98764.........6********************************* PP
+
+             Lip_C.aln 388 GvWnalgelentdhldiiglkvddvkswyedvaef 422
+                           G W   + ++ +dh+d+ig+   d k    ++a+f
+  sp|Q6GCF1|LIP2_STAAS 632 GIWQVKPIIQGWDHVDFIGVDFLDFKRKGAELANF 666
+                           *******************9887776666666665 PP
+
+>> sp|Q8NYC2|LIP2_STAAW  Lipase 2 OS=Staphylococcus aureus (strain MW2) OX=196620 GN=lip2 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  317.9   2.2     2e-97     3e-93      39     422 ..     295     666 ..     268     676 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 317.9 bits;  conditional E-value: 2e-97
+             Lip_C.aln  39 nsraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGeahakk 124
+                           ++++++  n+yP+v+vhG+lG   d+      +yWGG + ++ ++lr++Gy+v+ a+v    sn+dra+ely+yikGG vdyG+aha k
+  sp|Q8NYC2|LIP2_STAAW 295 KANQVQPLNKYPVVFVHGFLGLVGDNAPAlyPNYWGGNKfKVIEELRKQGYNVHQASVSAFGSNYDRAVELYYYIKGGRVDYGAAHAAK 383
+                           33566778*************987777762247****7648999********************************************* PP
+
+             Lip_C.aln 125 ygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.WvhsvtsiatPhd 209
+                           ygheryG+ty Gi +++      +  +k+hl+ghsmGGqtirl+ ++l++G++ee+    + +++ispl++Gg +  v s+t++atPh+
+  sp|Q8NYC2|LIP2_STAAW 384 YGHERYGKTYKGIMPNW------EPGKKVHLVGHSMGGQTIRLMEEFLRNGNKEEIAyhkAHGGEISPLFTGGHNnMVASITTLATPHN 466
+                           *****************......7789****************************875557889*********9889************ PP
+
+             Lip_C.aln 210 GstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGarelnrwvka 298
+                           Gs++ad     ++ +++++ al  + G++ +++ d+ l qWG+k+ p es  +y++rv ks+iW  ++d a+ydl+ +G+ +ln+    
+  sp|Q8NYC2|LIP2_STAAW 467 GSQAADKFG-NTEAVRKIMFALNRFMGNKYSNI-DLGLTQWGFKQLPNESYIDYIKRVSKSKIWT-SDDNAAYDLTLDGSAKLNNMTSM 552
+                           ******999.56778899999*******99987.*******************************.9********************** PP
+
+             Lip_C.aln 299 qpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveynGtvkk 387
+                           +p++ y +++ ++++   l gye p++    l+  t+++iG+ +r+         +W +ndGvv vis  +P  ++   + + + ++++
+  sp|Q8NYC2|LIP2_STAAW 553 NPNITYTTYTGVSSHTGPL-GYENPDLGTFFLMDTTSRIIGHDARE---------EWRKNDGVVPVISSLHPSNQPFVNVTNDEPATRR 631
+                           ****************998.8999**9999999********98764.........6********************************* PP
+
+             Lip_C.aln 388 GvWnalgelentdhldiiglkvddvkswyedvaef 422
+                           G W   + ++ +dh+d+ig+   d k    ++a+f
+  sp|Q8NYC2|LIP2_STAAW 632 GIWQVKPIIQGWDHVDFIGVDFLDFKRKGAELANF 666
+                           *******************9887776666666665 PP
+
+>> sp|Q7A7P2|LIP2_STAAN  Lipase 2 OS=Staphylococcus aureus (strain N315) OX=158879 GN=lip2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.7   0.0       4.3   6.3e+04       5      38 ..      17      52 ..      13      64 .. 0.64
+   2 !  317.5   2.1   2.7e-97   3.9e-93      39     422 ..     296     667 ..     269     677 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -2.7 bits;  conditional E-value: 4.3
+             Lip_C.aln  5 ilisillvltvlipta..asaeekkykedialepee 38
+                          i ++ +l+ t++++++  a a+ek   ++ a ++e+
+  sp|Q7A7P2|LIP2_STAAN 17 IGVVSVLAATMFVVSSheAQASEKTPTSNAAAQKET 52
+                          556778899999999855556666666666655544 PP
+
+  == domain 2  score: 317.5 bits;  conditional E-value: 2.7e-97
+             Lip_C.aln  39 nsraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGeahakk 124
+                           ++++++  n+yP+v+vhG+lG   d+      +yWGG + ++ ++lr++Gy+v+ a+v    sn+dra+ely+yikGG vdyG+aha k
+  sp|Q7A7P2|LIP2_STAAN 296 KANQVQPLNKYPVVFVHGFLGLVGDNAPAlyPNYWGGNKfKVIEELRKQGYNVHQASVSAFGSNYDRAVELYYYIKGGRVDYGAAHAAK 384
+                           33566778*************987777762247****7648999********************************************* PP
+
+             Lip_C.aln 125 ygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.WvhsvtsiatPhd 209
+                           ygheryG+ty Gi +++      +  +k+hl+ghsmGGqtirl+ ++l++G++ee+    + +++ispl++Gg +  v s+t++atPh+
+  sp|Q7A7P2|LIP2_STAAN 385 YGHERYGKTYKGIMPNW------EPGKKVHLVGHSMGGQTIRLMEEFLRNGNKEEIAyhkAHGGEISPLFTGGHNnMVASITTLATPHN 467
+                           *****************......7789****************************875557889*********9889************ PP
+
+             Lip_C.aln 210 GstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGarelnrwvka 298
+                           Gs++ad     ++ +++++ al  + G++ +++ d+ l qWG+k+ p es  +y++rv ks+iW  ++d a+ydl+ +G+ +ln+    
+  sp|Q7A7P2|LIP2_STAAN 468 GSQAADKFG-NTEAVRKIMFALNRFMGNKYSNI-DLGLTQWGFKQLPNESYIDYIKRVSKSKIWT-SDDNAAYDLTLDGSAKLNNMTSM 553
+                           ******999.56778899999*******99987.*******************************.9********************** PP
+
+             Lip_C.aln 299 qpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveynGtvkk 387
+                           +p++ y +++ ++++   l gye p++    l+  t+++iG+ +r+         +W +ndGvv vis  +P  ++   + + + ++++
+  sp|Q7A7P2|LIP2_STAAN 554 NPNITYTTYTGVSSHTGPL-GYENPDLGTFFLMDTTSRIIGHDARE---------EWRKNDGVVPVISSLHPSNQPFINVTNDEPATRR 632
+                           ****************998.8999**9999999********98764.........6********************************* PP
+
+             Lip_C.aln 388 GvWnalgelentdhldiiglkvddvkswyedvaef 422
+                           G W   + ++ +dh+d+ig+   d k    ++a+f
+  sp|Q7A7P2|LIP2_STAAN 633 GIWQVKPIIQGWDHVDFIGVDFLDFKRKGAELANF 667
+                           *******************9887776666666665 PP
+
+>> sp|Q99WQ6|LIP2_STAAM  Lipase 2 OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=lip2 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.7   0.0       4.3   6.3e+04       5      38 ..      17      52 ..      13      64 .. 0.64
+   2 !  317.5   2.1   2.7e-97   3.9e-93      39     422 ..     296     667 ..     269     677 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -2.7 bits;  conditional E-value: 4.3
+             Lip_C.aln  5 ilisillvltvlipta..asaeekkykedialepee 38
+                          i ++ +l+ t++++++  a a+ek   ++ a ++e+
+  sp|Q99WQ6|LIP2_STAAM 17 IGVVSVLAATMFVVSSheAQASEKTPTSNAAAQKET 52
+                          556778899999999855556666666666655544 PP
+
+  == domain 2  score: 317.5 bits;  conditional E-value: 2.7e-97
+             Lip_C.aln  39 nsraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGeahakk 124
+                           ++++++  n+yP+v+vhG+lG   d+      +yWGG + ++ ++lr++Gy+v+ a+v    sn+dra+ely+yikGG vdyG+aha k
+  sp|Q99WQ6|LIP2_STAAM 296 KANQVQPLNKYPVVFVHGFLGLVGDNAPAlyPNYWGGNKfKVIEELRKQGYNVHQASVSAFGSNYDRAVELYYYIKGGRVDYGAAHAAK 384
+                           33566778*************987777762247****7648999********************************************* PP
+
+             Lip_C.aln 125 ygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.WvhsvtsiatPhd 209
+                           ygheryG+ty Gi +++      +  +k+hl+ghsmGGqtirl+ ++l++G++ee+    + +++ispl++Gg +  v s+t++atPh+
+  sp|Q99WQ6|LIP2_STAAM 385 YGHERYGKTYKGIMPNW------EPGKKVHLVGHSMGGQTIRLMEEFLRNGNKEEIAyhkAHGGEISPLFTGGHNnMVASITTLATPHN 467
+                           *****************......7789****************************875557889*********9889************ PP
+
+             Lip_C.aln 210 GstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGarelnrwvka 298
+                           Gs++ad     ++ +++++ al  + G++ +++ d+ l qWG+k+ p es  +y++rv ks+iW  ++d a+ydl+ +G+ +ln+    
+  sp|Q99WQ6|LIP2_STAAM 468 GSQAADKFG-NTEAVRKIMFALNRFMGNKYSNI-DLGLTQWGFKQLPNESYIDYIKRVSKSKIWT-SDDNAAYDLTLDGSAKLNNMTSM 553
+                           ******999.56778899999*******99987.*******************************.9********************** PP
+
+             Lip_C.aln 299 qpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveynGtvkk 387
+                           +p++ y +++ ++++   l gye p++    l+  t+++iG+ +r+         +W +ndGvv vis  +P  ++   + + + ++++
+  sp|Q99WQ6|LIP2_STAAM 554 NPNITYTTYTGVSSHTGPL-GYENPDLGTFFLMDTTSRIIGHDARE---------EWRKNDGVVPVISSLHPSNQPFINVTNDEPATRR 632
+                           ****************998.8999**9999999********98764.........6********************************* PP
+
+             Lip_C.aln 388 GvWnalgelentdhldiiglkvddvkswyedvaef 422
+                           G W   + ++ +dh+d+ig+   d k    ++a+f
+  sp|Q99WQ6|LIP2_STAAM 633 GIWQVKPIIQGWDHVDFIGVDFLDFKRKGAELANF 667
+                           *******************9887776666666665 PP
+
+>> sp|Q6GJZ6|LIP2_STAAR  Lipase 2 OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=lip2 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.0       3.1   4.6e+04       5      38 ..      17      52 ..      13      64 .. 0.62
+   2 !  317.3   2.8   3.2e-97   4.8e-93      39     422 ..     296     667 ..     269     677 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 3.1
+             Lip_C.aln  5 ilisillvltvlipta..asaeekkykedialepee 38
+                          i ++ +l+ t++++t+  a a+ek    + a ++e+
+  sp|Q6GJZ6|LIP2_STAAR 17 IGVVSVLAATMFVVTSheAQASEKIPTTNAAAQKET 52
+                          556778999999999954455555555555444443 PP
+
+  == domain 2  score: 317.3 bits;  conditional E-value: 3.2e-97
+             Lip_C.aln  39 nsraisegneyPivlvhGllGfGrdellG..lkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayikGGtvdyGeahakk 124
+                           ++++++  n+yP+v+vhG+lG   d+      +yWGG + ++ ++lr++Gy+v+ a+v    sn+dra+ely+yikGG vdyG+aha k
+  sp|Q6GJZ6|LIP2_STAAR 296 KANQVQPLNKYPVVFVHGFLGLVGDNAPAlyPNYWGGNKyKVIEELRKQGYNVHQASVSAFGSNYDRAVELYYYIKGGRVDYGAAHAAK 384
+                           33566778*************987777762247****7637899********************************************* PP
+
+             Lip_C.aln 125 ygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks.WvhsvtsiatPhd 209
+                           ygheryG+ty Gi +++      +  +k+hl+ghsmGGqtirl+ ++l++G++ee+    + +++ispl++Gg +  v s+t++atPh+
+  sp|Q6GJZ6|LIP2_STAAR 385 YGHERYGKTYKGIMPNW------EPGKKVHLVGHSMGGQTIRLMEEFLRNGNKEEIAyhkAHGGEISPLFTGGHNnMVASITTLATPHN 467
+                           *****************......7789****************************875557889*********9889************ PP
+
+             Lip_C.aln 210 GstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlsteGarelnrwvka 298
+                           Gs++ad     ++ +++++ al  + G++ +++ d+ l qWG+k+ p es  +y++rv ks+iW  ++d a+ydl+ +G+ +ln+    
+  sp|Q6GJZ6|LIP2_STAAR 468 GSQAADKFG-NTEAVRKIMFALNRFMGNKYSNI-DLGLTQWGFKQLPNESYIDYIKRVSKSKIWT-SDDNAAYDLTLNGSAKLNNMTSM 553
+                           ******999.56778899999*******99987.*******************************.9********************** PP
+
+             Lip_C.aln 299 qpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsndviveynGtvkk 387
+                           +p++ y +++ ++++   l gye p++    l+  t+++iG+ +r+         +W +ndGvv vis  +P  ++   + + + ++++
+  sp|Q6GJZ6|LIP2_STAAR 554 NPNITYTTYTGVSSHTGPL-GYENPDLGTFFLMDTTSRIIGHDARE---------EWRKNDGVVPVISSLHPSNQPFVNVTNDEPATRR 632
+                           ****************998.8999**9999999********98764.........6********************************* PP
+
+             Lip_C.aln 388 GvWnalgelentdhldiiglkvddvkswyedvaef 422
+                           G W   + ++ +dh+d+ig+   d k    ++a+f
+  sp|Q6GJZ6|LIP2_STAAR 633 GIWQVKPIIQGWDHVDFIGVDFLDFKRKGAELANF 667
+                           *******************9887776666666665 PP
+
+>> sp|P04635|LIP_STAHY  Lipase OS=Staphylococcus hyicus OX=1284 GN=lip PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  315.1   8.5   1.5e-96   2.1e-92      23     427 ..     239     626 ..     227     634 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 315.1 bits;  conditional E-value: 1.5e-96
+            Lip_C.aln  23 aeekkykedialepeensraisegneyPivlvhGllGf.GrdellGlkyWGGie.dlekklrekGykvytaavGPvssnwdraielyayi 110
+                          a+  ++k+ ++  pe  ++ +   n+ P v+vhG++Gf G+    G + WGG + +l+++lr+ Gy++y a+v  ++sn++ra+ely+y+
+  sp|P04635|LIP_STAHY 239 AS--DKKPTVKAAPEAVQNPENPKNKDPFVFVHGFTGFvGEVAAKGENHWGGTKaNLRNHLRKAGYETYEASVSALASNHERAVELYYYL 326
+                          33..34555666666666688899*************967778889******76389********************************* PP
+
+            Lip_C.aln 111 kGGtvdyGeahakkygheryGrtyPGiykeigeidksgkenkihlighsmGGqtirllaqllkeGdeeelk...tgeedispllsGgks. 196
+                          kGG vdyG+ah++kygheryG+ty G+ k++      +  + +h+ighsmGGqtirll + l+ Gd+ e+    + ++ is l++Gg++ 
+  sp|P04635|LIP_STAHY 327 KGGRVDYGAAHSEKYGHERYGKTYEGVLKDW------KPGHPVHFIGHSMGGQTIRLLEHYLRFGDKAEIAyqqQHGGIISELFKGGQDn 410
+                          *******************************......45567***************************98443445669*******988 PP
+
+            Lip_C.aln 197 WvhsvtsiatPhdGstladlvndvkdlikelvaalaaiaGknkkdlydfkldqWGlkkkpGeslrayvervlkseiWkktkdlanydlst 286
+                           v s+t+iatPh+G+ ++d +   ++ i++++ + a ++ +  +   df +d+WG+k+k+Gesl++y++r+ +s+iW+ ++d+  ydl+ 
+  sp|P04635|LIP_STAHY 411 MVTSITTIATPHNGTHASDDIG-NTPTIRNILYSFAQMSSHLGT--IDFGMDHWGFKRKDGESLTDYNKRIAESKIWD-SEDTGLYDLTR 496
+                          9*****************9998.7899*******9999877665..9*******************************.9********** PP
+
+            Lip_C.aln 287 eGarelnrwvkaqpdvyyfsvsttatkeslltgyevpekkmnPllvktailiGsytrnksdeviidksWlendGvvsvisakgPkigsnd 376
+                          eGa+++n+    +p++yy +++ +at+e  l + +++++ m+     t+++iGs           d  W +ndG+vs is ++P    n 
+  sp|P04635|LIP_STAHY 497 EGAEKINQKTELNPNIYYKTYTGVATHETQLGK-HIADLGMEFTKILTGNYIGSV---------DDILWRPNDGLVSEISSQHPSDEKNI 576
+                          *****************************9966.589999*99999999999974.........2456****************987765 PP
+
+            Lip_C.aln 377 viveynGtvkkGvWnalgelentdhldiiglkvddvkswyedvaeflsklp 427
+                            v+ n   +kG+W  +++++ +dh d+ig  + d+k+   ++++f ++++
+  sp|P04635|LIP_STAHY 577 -SVDENSELHKGTWQVMPTMKGWDHSDFIGNDALDTKHSAIELTNFYHSIS 626
+                          .6788999**********************988766555555555555443 PP
+
+>> sp|P15493|LIP_VIBCH  Triacylglycerol lipase OS=Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961) 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.1   0.0   3.9e-09   5.7e-05      46     110 ..      33      92 ..       4      95 .. 0.86
+   2 !   10.4   0.0   0.00045       6.6     150     170 ..     101     121 ..      89     125 .. 0.86
+   3 ?    2.5   0.0      0.11   1.6e+03     197     222 ..     126     151 ..     121     167 .. 0.86
+   4 ?    0.1   0.0       0.6   8.8e+03     301     328 ..     221     248 ..     190     280 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 27.1 bits;  conditional E-value: 3.9e-09
+            Lip_C.aln  46 gneyPivlvhGllGfGrdellGlkyWGGiedlekklrekGykvytaavGPvssnwdraielyayi 110
+                             yPivlvhGl+Gf  d l+G+ y+ Gi    + l+  G +vy+a v    s   r  +l a++
+  sp|P15493|LIP_VIBCH  33 QTRYPIVLVHGLFGF--DTLAGMDYFHGI---PQSLTRDGAQVYVAQVSATNSSERRGEQLLAQV 92 
+                          568*********998..89******9886...689**************9999998888887776 PP
+
+  == domain 2  score: 10.4 bits;  conditional E-value: 0.00045
+            Lip_C.aln 150 enkihlighsmGGqtirllaq 170
+                           +k+ lighs GG tir +a 
+  sp|P15493|LIP_VIBCH 101 AKKVNLIGHSHGGPTIRYVAS 121
+                          68***************9875 PP
+
+  == domain 3  score: 2.5 bits;  conditional E-value: 0.11
+            Lip_C.aln 197 WvhsvtsiatPhdGstladlvndvkd 222
+                           v svtsi   h Gs +adlv  v++
+  sp|P15493|LIP_VIBCH 126 LVASVTSIGGVHKGSAVADLVRGVIP 151
+                          589*****************998776 PP
+
+  == domain 4  score: 0.1 bits;  conditional E-value: 0.6
+            Lip_C.aln 301 dvyyfsvsttatkeslltgyevpekkmn 328
+                           v y+s+s +at  ++l   +v+ + + 
+  sp|P15493|LIP_VIBCH 221 GVRYYSWSGAATVTNILDPSDVAMGLIG 248
+                          4778888888888888877777765554 PP
+
+>> sp|P22088|LIP_BURCE  Triacylglycerol lipase OS=Burkholderia cepacia OX=292 GN=lip PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.6   0.1   2.2e-08   0.00032      38      98 ..      42      98 ..       9     116 .. 0.76
+   2 ?    3.9   0.0     0.042   6.1e+02     150     169 ..     122     141 ..     112     146 .. 0.84
+   3 !    9.5   0.0   0.00086        13     198     221 ..     148     171 ..     143     203 .. 0.85
+   4 ?    2.4   0.0      0.12   1.8e+03     346     376 ..     295     325 ..     251     339 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 24.6 bits;  conditional E-value: 2.2e-08
+            Lip_C.aln 38 ensraisegneyPivlvhGllGfGrdellG.lkyWGGiedlekklrekGykvytaavGPvss 98
+                         +   a   +  yPi+lvhGl G   d  +G l+yW Gi   ++ l+++G +vy+a +    s
+  sp|P22088|LIP_BURCE 42 TAPAAGYAATRYPIILVHGLSG--TDKYAGvLEYWYGI---QEDLQQNGATVYVANLSGFQS 98
+                         44455567789*********96..78899989***996...689**********99866555 PP
+
+  == domain 2  score: 3.9 bits;  conditional E-value: 0.042
+            Lip_C.aln 150 enkihlighsmGGqtirlla 169
+                            k+ l+ghs GG + r +a
+  sp|P22088|LIP_BURCE 122 ATKVNLVGHSQGGLSSRYVA 141
+                          689***********999887 PP
+
+  == domain 3  score: 9.5 bits;  conditional E-value: 0.00086
+            Lip_C.aln 198 vhsvtsiatPhdGstladlvndvk 221
+                          v svt+i tPh Gs++ad v+dv 
+  sp|P22088|LIP_BURCE 148 VASVTTIGTPHRGSEFADFVQDVL 171
+                          89******************9985 PP
+
+  == domain 4  score: 2.4 bits;  conditional E-value: 0.12
+            Lip_C.aln 346 sdeviidksWlendGvvsvisakgPkigsnd 376
+                          +++v+i++   +ndG+vs  sa + k+ s++
+  sp|P22088|LIP_BURCE 295 TGTVMINRGSGQNDGLVSKCSALYGKVLSTS 325
+                          57899999999************99999986 PP
+
+>> sp|P25275|LIP_PSES5  Triacylglycerol lipase OS=Pseudomonas sp. (strain KWI-56) OX=311 GN=lip PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.6   0.2   4.3e-08   0.00063      45      98 ..      49      98 ..       9     116 .. 0.77
+   2 !    6.7   0.0    0.0061        89     149     170 ..     121     142 ..     111     146 .. 0.84
+   3 !    8.3   0.0    0.0019        29     198     221 ..     148     171 ..     142     199 .. 0.85
+   4 ?    2.0   0.0      0.16   2.3e+03     347     376 ..     296     325 ..     265     338 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 23.6 bits;  conditional E-value: 4.3e-08
+            Lip_C.aln 45 egneyPivlvhGllGfGrdellG.lkyWGGiedlekklrekGykvytaavGPvss 98
+                          +  yPi+lvhGl G   d  +G ++yW Gi   ++ l+++G +vy+a +    s
+  sp|P25275|LIP_PSES5 49 AATRYPIILVHGLSG--TDKYAGvVEYWYGI---QEDLQQNGATVYVANLSGFQS 98
+                         5678*********96..78899989***996...689***********9876655 PP
+
+  == domain 2  score: 6.7 bits;  conditional E-value: 0.0061
+            Lip_C.aln 149 kenkihlighsmGGqtirllaq 170
+                             k+ l+ghs GG t r +a 
+  sp|P25275|LIP_PSES5 121 GATKVNLVGHSQGGLTSRYVAA 142
+                          568***************9875 PP
+
+  == domain 3  score: 8.3 bits;  conditional E-value: 0.0019
+            Lip_C.aln 198 vhsvtsiatPhdGstladlvndvk 221
+                          v svt+i tPh Gs++ad v++v 
+  sp|P25275|LIP_PSES5 148 VASVTTIGTPHRGSEFADFVQNVL 171
+                          89****************999875 PP
+
+  == domain 4  score: 2.0 bits;  conditional E-value: 0.16
+            Lip_C.aln 347 deviidksWlendGvvsvisakgPkigsnd 376
+                          ++v+i++   +ndG+vs  sa + k+ s++
+  sp|P25275|LIP_PSES5 296 GTVMINRGSGQNDGLVSKCSALYGKVLSTS 325
+                          6789999999***********999999986 PP
+
+>> sp|P0DUB8|LIP_BURPL  Triacylglycerol lipase OS=Burkholderia plantarii OX=41899 GN=lip PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.1   0.1   2.1e-06      0.03      43      98 ..      42      93 ..      26     110 .. 0.79
+   2 !    7.5   0.1    0.0033        48     149     169 ..     116     136 ..     105     140 .. 0.84
+   3 !   10.2   0.0   0.00051       7.6     196     222 ..     141     167 ..     137     198 .. 0.84
+   4 ?   -0.2   0.0      0.76   1.1e+04     347     376 ..     290     319 ..     285     331 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 18.1 bits;  conditional E-value: 2.1e-06
+            Lip_C.aln 43 isegneyPivlvhGllGfGrdellG.lkyWGGiedlekklrekGykvytaavGPvss 98
+                         +  +  yP++lvhGl G   d ++  + yW Gi   ++ l+++G kvy+a +    s
+  sp|P0DUB8|LIP_BURPL 42 TYAATRYPVILVHGLAG--TDKFANvVDYWYGI---QSDLQSHGAKVYVANLSGFQS 93
+                         456779*********97..677777699**997...5699*********99866555 PP
+
+  == domain 2  score: 7.5 bits;  conditional E-value: 0.0033
+            Lip_C.aln 149 kenkihlighsmGGqtirlla 169
+                             k+ lighs GG t r +a
+  sp|P0DUB8|LIP_BURPL 116 GATKVNLIGHSQGGLTSRYVA 136
+                          4689**************987 PP
+
+  == domain 3  score: 10.2 bits;  conditional E-value: 0.00051
+            Lip_C.aln 196 sWvhsvtsiatPhdGstladlvndvkd 222
+                          + v svt+i tPh Gs++ad v+dv +
+  sp|P0DUB8|LIP_BURPL 141 QLVASVTTIGTPHRGSEFADFVQDVLK 167
+                          5699******************99864 PP
+
+  == domain 4  score: -0.2 bits;  conditional E-value: 0.76
+            Lip_C.aln 347 deviidksWlendGvvsvisakgPkigsnd 376
+                          + v+i+++  +ndG+vs  s    ++ s++
+  sp|P0DUB8|LIP_BURPL 290 GAVMINRASGQNDGLVSRCSSLFGQVISTS 319
+                          6789999999******99988777777765 PP
+
+>> sp|P0DUB9|LIP_PSEPS  Triacylglycerol lipase OS=Pseudarthrobacter phenanthrenivorans OX=361575 GN=lip PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.2   0.1   3.8e-06     0.055      47      98 ..       7      54 ..       2      71 .. 0.81
+   2 !    7.9   0.1    0.0026        38     149     170 ..      77      98 ..      66     103 .. 0.84
+   3 !   10.5   0.0   0.00043       6.3     196     222 ..     102     128 ..      98     161 .. 0.83
+   4 ?    0.0   0.0      0.63   9.3e+03     347     376 ..     251     280 ..     245     292 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 17.2 bits;  conditional E-value: 3.8e-06
+            Lip_C.aln 47 neyPivlvhGllGfGrdellG.lkyWGGiedlekklrekGykvytaavGPvss 98
+                           yP++lvhGl G   d ++  + yW Gi   ++ l+++G kvy+a +    s
+  sp|P0DUB9|LIP_PSEPS  7 TRYPVILVHGLAG--TDKFANvVDYWYGI---QSDLQSHGAKVYVANLSGFQS 54
+                         68*********97..677777699**997...5699*********99866555 PP
+
+  == domain 2  score: 7.9 bits;  conditional E-value: 0.0026
+            Lip_C.aln 149 kenkihlighsmGGqtirllaq 170
+                             k+ lighs GG t r +a 
+  sp|P0DUB9|LIP_PSEPS  77 GATKVNLIGHSQGGLTSRYVAA 98 
+                          4689**************9875 PP
+
+  == domain 3  score: 10.5 bits;  conditional E-value: 0.00043
+            Lip_C.aln 196 sWvhsvtsiatPhdGstladlvndvkd 222
+                          + v svt+i tPh Gs++ad v+dv +
+  sp|P0DUB9|LIP_PSEPS 102 QLVASVTTIGTPHRGSEFADFVQDVLK 128
+                          5699******************99864 PP
+
+  == domain 4  score: 0.0 bits;  conditional E-value: 0.63
+            Lip_C.aln 347 deviidksWlendGvvsvisakgPkigsnd 376
+                          + v+i+++  +ndG+vs  s    ++ s++
+  sp|P0DUB9|LIP_PSEPS 251 GAVMINRASGQNDGLVSRCSSLFGQVISTS 280
+                          6789999999******99988777777765 PP
+
+>> sp|P26876|LIP_PSEAE  Triacylglycerol lipase OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / J
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.6   0.0   1.7e-07    0.0026      44      99 ..      29      79 ..      17      92 .. 0.81
+   2 !   10.7   0.0   0.00037       5.5     141     169 ..      90     118 ..      85     123 .. 0.81
+   3 ?    1.4   0.0      0.24   3.6e+03     198     220 ..     125     147 ..     119     150 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 21.6 bits;  conditional E-value: 1.7e-07
+            Lip_C.aln 44 segneyPivlvhGllGfGrdellGlkyWGGiedlekklrekGykvytaavGPvssn 99
+                          +  +yPivl hG+lGf  d++lG+ yW Gi +    lr  G +vy++ v  + + 
+  sp|P26876|LIP_PSEAE 29 YTQTKYPIVLAHGMLGF--DNILGVDYWFGIPS---ALRRDGAQVYVTEVSQLDTS 79
+                         45679**********99..89*********865...7999******9999776655 PP
+
+  == domain 2  score: 10.7 bits;  conditional E-value: 0.00037
+            Lip_C.aln 141 igeidksgkenkihlighsmGGqtirlla 169
+                          + ei   + + k+ lighs GG tir +a
+  sp|P26876|LIP_PSEAE  90 VEEIVALSGQPKVNLIGHSHGGPTIRYVA 118
+                          55666667788***************987 PP
+
+  == domain 3  score: 1.4 bits;  conditional E-value: 0.24
+            Lip_C.aln 198 vhsvtsiatPhdGstladlvndv 220
+                          + s ts+ +Ph Gs +ad   ++
+  sp|P26876|LIP_PSEAE 125 IASATSVGAPHKGSDTADFLRQI 147
+                          7899************9987765 PP
+
+>> sp|P26877|LIP_PSEU0  Triacylglycerol lipase OS=Pseudomonas sp. (strain 109) OX=72584 GN=lipL PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.6   0.0   1.7e-07    0.0026      44      99 ..      29      79 ..      17      92 .. 0.81
+   2 !   10.8   0.0   0.00034         5     140     170 ..      89     119 ..      84     125 .. 0.82
+   3 ?    0.2   0.0      0.57   8.3e+03     199     220 ..     126     147 ..     121     158 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 21.6 bits;  conditional E-value: 1.7e-07
+            Lip_C.aln 44 segneyPivlvhGllGfGrdellGlkyWGGiedlekklrekGykvytaavGPvssn 99
+                          +  +yPivl hG+lGf  d++lG+ yW Gi +    lr  G +vy++ v  + + 
+  sp|P26877|LIP_PSEU0 29 YTQTKYPIVLAHGMLGF--DNILGVDYWFGIPS---ALRRDGAQVYVTEVSQLDTS 79
+                         45679**********99..89*********865...7999******9999776655 PP
+
+  == domain 2  score: 10.8 bits;  conditional E-value: 0.00034
+            Lip_C.aln 140 eigeidksgkenkihlighsmGGqtirllaq 170
+                          ++ ei   + + k+ lighs GG tir +a 
+  sp|P26877|LIP_PSEU0  89 QVEEIVALSGQPKVNLIGHSHGGPTIRYVAA 119
+                          555666667788***************9875 PP
+
+  == domain 3  score: 0.2 bits;  conditional E-value: 0.57
+            Lip_C.aln 199 hsvtsiatPhdGstladlvndv 220
+                           s ts+ +Ph Gs +ad   ++
+  sp|P26877|LIP_PSEU0 126 PSATSVGAPHKGSDTADFLRQI 147
+                          6899***********9988766 PP
+
+>> sp|P54857|TGL2_YEAST  Triacylglycerol lipase 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0      0.26   3.9e+03      47      62 ..      24      39 ..       2      43 .. 0.75
+   2 ?    1.9   0.0      0.17   2.5e+03      65     110 ..      80     122 ..      76     124 .. 0.86
+   3 !   10.7   0.0   0.00037       5.5     139     171 ..     124     156 ..     120     163 .. 0.86
+   4 !    7.3   0.0    0.0039        57     198     221 ..     164     187 ..     158     202 .. 0.83
+   5 ?   -1.0   0.0       1.3   1.9e+04     279     310 ..     202     233 ..     194     237 .. 0.87
+   6 !    7.3   0.0    0.0038        56     385     415 ..     264     295 ..     248     304 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 1.3 bits;  conditional E-value: 0.26
+             Lip_C.aln 47 neyPivlvhGllGfGr 62
+                           + Piv+ hGl Gf +
+  sp|P54857|TGL2_YEAST 24 PKNPIVFCHGLSGFDK 39
+                          567**********975 PP
+
+  == domain 2  score: 1.9 bits;  conditional E-value: 0.17
+             Lip_C.aln  65 llGlkyWGGiedlekklrekGykvytaavGPvssnwdraielyayi 110
+                           ll ++yW G++   k l++kG +v t+ v    s  +ra+ l a++
+  sp|P54857|TGL2_YEAST  80 LLEIEYWIGVK---KFLQSKGCTVITTKVPGFGSIEERAMALDAQL 122
+                           66789999986...5699*********************9998775 PP
+
+  == domain 3  score: 10.7 bits;  conditional E-value: 0.00037
+             Lip_C.aln 139 keigeidksgkenkihlighsmGGqtirllaql 171
+                           ke+ +i++++k + + li+hsmGG   r l+  
+  sp|P54857|TGL2_YEAST 124 KEVKKIESKDKRHSLNLIAHSMGGLDCRYLICN 156
+                           78889999******************9999755 PP
+
+  == domain 4  score: 7.3 bits;  conditional E-value: 0.0039
+             Lip_C.aln 198 vhsvtsiatPhdGstladlvndvk 221
+                           + s+t+i+tPh Gs++ad v d+ 
+  sp|P54857|TGL2_YEAST 164 ILSLTTISTPHRGSEMADYVVDLF 187
+                           679**************9998765 PP
+
+  == domain 5  score: -1.0 bits;  conditional E-value: 1.3
+             Lip_C.aln 279 lanydlsteGarelnrwvkaqpdvyyfsvstt 310
+                           ++ y l+t   + +n      p v yfs+ ++
+  sp|P54857|TGL2_YEAST 202 ICFYQLTTAYMKYFNLVTPNSPKVSYFSYGCS 233
+                           6779999999999**9999*********9885 PP
+
+  == domain 6  score: 7.3 bits;  conditional E-value: 0.0038
+             Lip_C.aln 385 vkkGvWn.algelentdhldiiglkvddvksw 415
+                           ++  +W  + g+l+++dhld+i++k +   +w
+  sp|P54857|TGL2_YEAST 264 INSSKWGeYRGTLKDMDHLDVINWKNKLQDDW 295
+                           45567751569*************99755555 PP
+
+>> sp|P08658|LIP_PSEFR  Triacylglycerol lipase OS=Pseudomonas fragi OX=296 GN=lips PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.4   0.0   8.4e-07     0.012      46     110 ..       6      65 ..       1      67 [. 0.85
+   2 !    5.9   0.0      0.01   1.5e+02     139     170 ..      63      94 ..      60      98 .. 0.86
+   3 ?    3.5   0.0     0.055   8.1e+02     198     217 ..     100     119 ..      96     137 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 19.4 bits;  conditional E-value: 8.4e-07
+            Lip_C.aln  46 gneyPivlvhGllGfGrdellGlkyWGGiedlekklrekGykvytaavGPvssnwdraielyayi 110
+                             yPi+lvhGl+Gf r  ++  +y+ Gi   ++ l+e G  v+++ +     n  r  +l  +i
+  sp|P08658|LIP_PSEFR   6 NTRYPILLVHGLFGFDR--IGSHHYFHGI---KQALNECGASVFVPIISAANDNEARGDQLLKQI 65 
+                          568*********99965..6778998876...689***************999999998888887 PP
+
+  == domain 2  score: 5.9 bits;  conditional E-value: 0.01
+            Lip_C.aln 139 keigeidksgkenkihlighsmGGqtirllaq 170
+                          k+i ++ ++   +++ lighs G  t r +a 
+  sp|P08658|LIP_PSEFR  63 KQIHNLRRQVGAQRVNLIGHSQGALTARYVAA 94 
+                          788888888899****************9876 PP
+
+  == domain 3  score: 3.5 bits;  conditional E-value: 0.055
+            Lip_C.aln 198 vhsvtsiatPhdGstladlv 217
+                          + svts++ P+ Gs+lad  
+  sp|P08658|LIP_PSEFR 100 IASVTSVSGPNHGSELADRL 119
+                          89*************99865 PP
+
+>> sp|P75736|YBFF_ECOLI  Esterase YbfF OS=Escherichia coli (strain K12) OX=83333 GN=ybfF PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.8   0.0   0.00033       4.8      39      59 ..       7      27 ..       1      40 [. 0.80
+   2 !   13.4   0.0   5.6e-05      0.83     133     173 ..      63     103 ..      61     117 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00033
+             Lip_C.aln 39 nsraisegneyPivlvhGllG 59
+                           ++a+ + n+ PivlvhGl+G
+  sp|P75736|YBFF_ECOLI  7 AQTAQNQHNNSPIVLVHGLFG 27
+                          34567799***********98 PP
+
+  == domain 2  score: 13.4 bits;  conditional E-value: 5.6e-05
+             Lip_C.aln 133 tyPGiykeigeidksgkenkihlighsmGGqtirllaqllk 173
+                            yP + +++ +  ++++ +k  +ighsmGG+++  l+ l +
+  sp|P75736|YBFF_ECOLI  63 NYPAMAQDLVDTLDAQQIDKATFIGHSMGGKAVMALTALAS 103
+                           59999999988889999*******************99876 PP
+
+>> sp|P37957|ESTA_BACSU  Lipase EstA OS=Bacillus subtilis (strain 168) OX=224308 GN=estA PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.7   0.2     0.023   3.4e+02      45      69 ..      31      54 ..      17      87 .. 0.82
+   2 ?    7.8   0.1    0.0027        40     146     191 ..      95     140 ..      58     145 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 4.7 bits;  conditional E-value: 0.023
+             Lip_C.aln 45 egneyPivlvhGllGfGrdellGlk 69
+                           +++ P+v+vhG++G    +++G+k
+  sp|P37957|ESTA_BACSU 31 AAEHNPVVMVHGIGGASF-NFAGIK 54
+                          55678********99644.456655 PP
+
+  == domain 2  score: 7.8 bits;  conditional E-value: 0.0027
+             Lip_C.aln 146 ksgkenkihlighsmGGqtirllaqllkeGdeeelktgeedispll 191
+                           ++   +k+ +++hsmGG      ++ l+ G++  + ++ +  + l 
+  sp|P37957|ESTA_BACSU  95 DETGAKKVDIVAHSMGGANTLYYIKNLDGGNKVANVVTLGGANRLT 140
+                           455679***********98888888888887766656655555555 PP
+
+>> sp|Q2TAP9|ABHDB_XENLA  sn-1-specific diacylglycerol lipase ABHD11 OS=Xenopus laevis OX=8355 GN=abhd11 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.5   0.0       3.7   5.4e+04      50      60 ..      63      73 ..      56      78 .. 0.85
+   2 ?   11.8   0.0   0.00016       2.4     133     169 ..     110     146 ..      98     156 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -2.5 bits;  conditional E-value: 3.7
+              Lip_C.aln 50 PivlvhGllGf 60
+                           P+vl+hGl+G 
+  sp|Q2TAP9|ABHDB_XENLA 63 PLVLLHGLFGS 73
+                           99******996 PP
+
+  == domain 2  score: 11.8 bits;  conditional E-value: 0.00016
+              Lip_C.aln 133 tyPGiykeigeidksgkenkihlighsmGGqtirlla 169
+                            tyP +  ++ +i ++ +     lighsmGG+t  ++a
+  sp|Q2TAP9|ABHDB_XENLA 110 TYPAMSADVCQILHQLQITNCVLIGHSMGGKTAMTVA 146
+                            9********9999999999999**********98765 PP
+
+>> sp|Q57427|Y193_HAEIN  Putative esterase/lipase HI_0193 OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.7   0.0         1   1.5e+04      38      60 ..      35      58 ..       1      93 [. 0.52
+   2 ?   11.8   0.2   0.00017       2.5     148     171 ..     108     131 ..      81     140 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: -0.7 bits;  conditional E-value: 1
+             Lip_C.aln 38 ensraisegneyP.ivlvhGllGf 60
+                           + +++ ++ + P ++++hGl+G 
+  sp|Q57427|Y193_HAEIN 35 YQFHQVKQTINTPvLIFIHGLFGD 58
+                          233334444444516789999874 PP
+
+  == domain 2  score: 11.8 bits;  conditional E-value: 0.00017
+             Lip_C.aln 148 gkenkihlighsmGGqtirllaql 171
+                            +  k+ lighsmGG+t   ++ l
+  sp|Q57427|Y193_HAEIN 108 LNLSKVILIGHSMGGKTAMKITAL 131
+                           5788*************9888877 PP
+
+>> sp|Q0V9K2|ABHDB_XENTR  sn-1-specific diacylglycerol lipase ABHD11 OS=Xenopus tropicalis OX=8364 GN=abhd11 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.4   0.0       3.5   5.2e+04      50      60 ..      70      80 ..      63      85 .. 0.84
+   2 ?   11.2   0.0   0.00025       3.7     133     169 ..     117     153 ..     105     165 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: -2.4 bits;  conditional E-value: 3.5
+              Lip_C.aln 50 PivlvhGllGf 60
+                           P+vl+hGl+G 
+  sp|Q0V9K2|ABHDB_XENTR 70 PLVLLHGLFGS 80
+                           99******996 PP
+
+  == domain 2  score: 11.2 bits;  conditional E-value: 0.00025
+              Lip_C.aln 133 tyPGiykeigeidksgkenkihlighsmGGqtirlla 169
+                            tyP +  ++ +i ++ +     lighsmGG+t  ++a
+  sp|Q0V9K2|ABHDB_XENTR 117 TYPAMSADVCQILHKLQITSCVLIGHSMGGKTAMTVA 153
+                            89*******99999999999************98765 PP
+
+>> sp|P91143|ABH51_CAEEL  Abhydrolase domain-containing protein abhd-5.1 OS=Caenorhabditis elegans OX=6239 GN=abhd-5.1 P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.9   0.0    0.0051        75      32      58 ..      57      81 ..      31      97 .. 0.69
+   2 ?    2.0   0.0      0.16   2.4e+03     146     163 ..     136     153 ..     126     160 .. 0.81
+   3 ?   -0.7   0.0       1.1   1.6e+04      48      90 ..     276     318 ..     255     323 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 6.9 bits;  conditional E-value: 0.0051
+              Lip_C.aln 32 ialepeensraisegneyPivlvhGll 58
+                           i+++ e+  ++     +yPivl+hG++
+  sp|P91143|ABH51_CAEEL 57 ITVNCEN--ESSELKSKYPIVLIHGFG 81
+                           3333333..45566789*******985 PP
+
+  == domain 2  score: 2.0 bits;  conditional E-value: 0.16
+              Lip_C.aln 146 ksgkenkihlighsmGGq 163
+                             + + +k+ l+ghs GG 
+  sp|P91143|ABH51_CAEEL 136 VKMNLEKMNLVGHSFGGY 153
+                            566889**********96 PP
+
+  == domain 3  score: -0.7 bits;  conditional E-value: 1.1
+              Lip_C.aln  48 eyPivlvhGllGfGrdellGlkyWGGiedlekklre.kGykvyt 90 
+                              P+ ++hG + +  d  +  +++G +  +e+++ e  G++vy+
+  sp|P91143|ABH51_CAEEL 276 TVPVKFIHGGMSWV-DWKTTREMFGSMDHVESHIIEgAGHHVYA 318
+                            56999999999996.55667899999999998865438999997 PP
+
+>> sp|A0A061B0Q2|EAT1_CYBFA  Ethanol acetyltransferase 1 OS=Cyberlindnera fabianii OX=36022 GN=EAT1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.1   0.0    0.0045        67      21      62 ..      19      60 ..       6      75 .. 0.81
+   2 ?    2.8   0.0     0.092   1.4e+03     133     171 ..      95     132 ..      79     197 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 7.1 bits;  conditional E-value: 0.0045
+                 Lip_C.aln 21 asaeekkykedialepeensraisegneyPivlvhGllGfGr 62
+                                ae +k+  d+ l +++  + +  + + Piv+vhG++G  +
+  sp|A0A061B0Q2|EAT1_CYBFA 19 PHAETVKMAYDLHLPKKTLHQNMNITSDEPIVFVHGIFGSKK 60
+                              567778888888888777778899999**********99655 PP
+
+  == domain 2  score: 2.8 bits;  conditional E-value: 0.092
+                 Lip_C.aln 133 tyPGiykeigeidksgkenkihlighsmGGqtirllaql 171
+                                y  + ++i e  ++ +   i l+g+s+G +    la l
+  sp|A0A061B0Q2|EAT1_CYBFA  95 NYDTLVQDIKEFCSTHNLSNIKLVGYSLGAKVSM-LAAL 132
+                               466777888888999*************987654.4433 PP
+
+>> sp|H2KZ86|ABH52_CAEEL  Abhydrolase domain-containing protein abhd-5.2 OS=Caenorhabditis elegans OX=6239 GN=abhd-5.2 P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.7   0.0     0.012   1.7e+02      36      58 ..     148     170 ..     126     185 .. 0.75
+   2 ?    2.0   0.0      0.16   2.4e+03     145     163 ..     224     242 ..     216     249 .. 0.80
+   3 ?   -0.5   0.0       0.9   1.3e+04      41      90 ..     358     407 ..     342     410 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 5.7 bits;  conditional E-value: 0.012
+              Lip_C.aln  36 peensraisegneyPivlvhGll 58 
+                             + +s++ ++  +yPivl+hG++
+  sp|H2KZ86|ABH52_CAEEL 148 VNCESEQPIVKAKYPIVLIHGFG 170
+                            3344556788899*******985 PP
+
+  == domain 2  score: 2.0 bits;  conditional E-value: 0.16
+              Lip_C.aln 145 dksgkenkihlighsmGGq 163
+                             ++ + +k+ l+ghs GG 
+  sp|H2KZ86|ABH52_CAEEL 224 RDKMNLEKMNLVGHSFGGY 242
+                            4567889**********95 PP
+
+  == domain 3  score: -0.5 bits;  conditional E-value: 0.9
+              Lip_C.aln  41 raisegneyPivlvhGllGfGrdellGlkyWGGiedlekkl.rekGykvyt 90 
+                            r +   n  P+ ++hG   +  d  +  +++G +e +e+++  + G++vy+
+  sp|H2KZ86|ABH52_CAEEL 358 RFHELDNTVPVTFIHGERSWI-DWRTTRRLFGELEHVESHImDSAGHHVYA 407
+                            455567999********9996.666778999****9998861567999997 PP
+
+>> sp|O10347|Y108_NPVOP  Uncharacterized 11.7 kDa protein OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=2621
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.2   0.0   0.00053       7.8     185     232 ..       5      55 ..       1      58 [. 0.82
+   2 ?   -0.6   0.1      0.99   1.4e+04       4      26 ..      58      80 ..      56      96 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.00053
+             Lip_C.aln 185 edispllsGgks...WvhsvtsiatPhdGstladlvndvkdlikelvaala 232
+                           +++ + l+Gg+     v+ + s atP dG +l + v+  ++like+v +l+
+  sp|O10347|Y108_NPVOP   5 SHVVSRLTGGRAgnpIVEVIRSNATPTDGDQLEQFVARNRSLIKEFVLVLC 55 
+                           45566677776545589999***************************9876 PP
+
+  == domain 2  score: -0.6 bits;  conditional E-value: 0.99
+             Lip_C.aln  4 lilisillvltvliptaasaeek 26
+                          l++i+i+l +t+l+  +++a  +
+  sp|O10347|Y108_NPVOP 58 LVVIMIILFFTLLVAVLTNAYAV 80
+                          57888999999998877665544 PP
+
+>> sp|G8JVR4|EAT1_ERECY  Ethanol acetyltransferase 1 OS=Eremothecium cymbalariae (strain CBS 270.75 / DBVPG 7215 / KCTC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.0   0.0     0.039   5.8e+02      49      62 ..      58      71 ..      23      79 .. 0.84
+   2 ?    5.1   0.0     0.019   2.7e+02     149     168 ..     122     140 ..     106     171 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 4.0 bits;  conditional E-value: 0.039
+             Lip_C.aln 49 yPivlvhGllGfGr 62
+                           Piv++hGl+G+ r
+  sp|G8JVR4|EAT1_ERECY 58 EPIVFIHGLFGWKR 71
+                          6***********76 PP
+
+  == domain 2  score: 5.1 bits;  conditional E-value: 0.019
+             Lip_C.aln 149 kenkihlighsmGGqtirll 168
+                           + +k+ lig+smGG+   +l
+  sp|G8JVR4|EAT1_ERECY 122 DIKKVNLIGYSMGGKMS-ML 140
+                           678***********865.34 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (429 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     13105  (0.0228445); expected 11473.2 (0.02)
+Passed bias filter:                    10125  (0.0176498); expected 11473.2 (0.02)
+Passed Vit filter:                       807  (0.00140675); expected 573.7 (0.001)
+Passed Fwd filter:                        39  (6.79844e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              39  [number of targets reported over threshold]
+# CPU time: 5.24u 0.22s 00:00:05.46 Elapsed: 00:00:01.86
+# Mc/sec: 47888.72
+//
+[ok]

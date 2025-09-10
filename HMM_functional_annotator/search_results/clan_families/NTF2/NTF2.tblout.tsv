@@ -1,0 +1,30 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+# ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+sp|Q3C1D4|TPDB2_COMSP -          NTF2.aln             -           9.6e-109  365.0   0.5  1.1e-108  364.8   0.5   1.0   1   0   0   1   1   1   1 Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit beta 2 OS=Comamonas sp. OX=34028 GN=tphA3II PE=1 SV=1
+sp|Q3C1E2|TPDB1_COMSP -          NTF2.aln             -           3.6e-108  363.1   0.4    4e-108  362.9   0.4   1.0   1   0   0   1   1   1   1 Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit beta 1 OS=Comamonas sp. OX=34028 GN=tphA3I PE=1 SV=1
+sp|Q84BZ2|ANDAD_BURCE -          NTF2.aln             -            2.6e-26   97.3   0.0   2.9e-26   97.1   0.0   1.0   1   0   0   1   1   1   1 Anthranilate 1,2-dioxygenase small subunit OS=Burkholderia cepacia OX=292 GN=andAd PE=1 SV=1
+sp|O52380|NAGH_RALSP  -          NTF2.aln             -            2.9e-16   64.6   0.0   3.3e-16   64.5   0.0   1.0   1   0   0   1   1   1   1 Salicylate 5-hydroxylase, small oxygenase component OS=Ralstonia sp. OX=54061 GN=nagH PE=1 SV=1
+sp|Q51975|CMTAC_PSEPU -          NTF2.aln             -              9e-06   30.6   0.1   1.2e-05   30.2   0.1   1.1   1   0   0   1   1   1   1 p-cumate 2,3-dioxygenase system, small oxygenase component OS=Pseudomonas putida OX=303 GN=cmtAc PE=1 SV=1
+sp|Q9RBG4|ABSAB_ALCSP -          NTF2.aln             -              9e-05   27.3   0.0   0.00011   27.1   0.0   1.1   1   0   0   1   1   1   1 2-aminobenzenesulfonate 2,3-dioxygenase subunit beta OS=Alcaligenes sp. OX=512 GN=absAb PE=1 SV=2
+sp|Q53216|Y4VH_SINFN  -          NTF2.aln             -               0.19   16.5   0.1      0.26   16.1   0.1   1.2   1   0   0   1   1   1   0 Uncharacterized protein y4vH OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 GN=NGR_a01160 PE=4 SV=1
+sp|Q2KJ16|PHKG2_BOVIN -          NTF2.aln             -               0.23   16.2   0.0       8.8   11.1   0.0   2.2   2   0   0   2   2   2   0 Phosphorylase b kinase gamma catalytic chain, liver/testis isoform OS=Bos taurus OX=9913 GN=PHKG2 PE=2 SV=1
+sp|A7N6L2|GCH1_VIBC1  -          NTF2.aln             -               0.76   14.6   0.0       1.6   13.5   0.0   1.5   1   0   0   1   1   1   0 GTP cyclohydrolase 1 OS=Vibrio campbellii (strain ATCC BAA-1116) OX=2902295 GN=folE PE=3 SV=1
+sp|A1S2C7|GCH1_SHEAM  -          NTF2.aln             -                1.1   14.0   0.0       2.2   13.1   0.0   1.4   1   0   0   1   1   1   0 GTP cyclohydrolase 1 OS=Shewanella amazonensis (strain ATCC BAA-1098 / SB2B) OX=326297 GN=folE PE=3 SV=1
+sp|B8JMH0|CAF17_DANRE -          NTF2.aln             -                1.3   13.8   0.0        32    9.3   0.0   2.6   3   0   0   3   3   3   0 Iron-sulfur cluster assembly factor IBA57, mitochondrial OS=Danio rerio OX=7955 GN=iba57 PE=3 SV=1
+sp|Q2NUE3|GCH1_SODGM  -          NTF2.aln             -                1.3   13.8   0.0       2.3   13.0   0.0   1.4   1   0   0   1   1   1   0 GTP cyclohydrolase 1 OS=Sodalis glossinidius (strain morsitans) OX=343509 GN=folE PE=3 SV=1
+sp|G8H5M7|TPS9_SOLHA  -          NTF2.aln             -                  2   13.2   0.0       6.3   11.6   0.0   1.8   1   1   1   2   2   2   0 Terpene synthase 9 OS=Solanum habrochaites OX=62890 GN=TPS9 PE=1 SV=1
+sp|Q12SG0|GCH1_SHEDO  -          NTF2.aln             -                2.1   13.1   0.0       3.8   12.3   0.0   1.4   1   0   0   1   1   1   0 GTP cyclohydrolase 1 OS=Shewanella denitrificans (strain OS217 / ATCC BAA-1090 / DSM 15013) OX=318161 GN=folE PE=3 SV=1
+sp|Q6D3N3|GCH1_PECAS  -          NTF2.aln             -                2.4   13.0   0.1       4.3   12.1   0.1   1.4   1   0   0   1   1   1   0 GTP cyclohydrolase 1 OS=Pectobacterium atrosepticum (strain SCRI 1043 / ATCC BAA-672) OX=218491 GN=folE PE=3 SV=1
+sp|P15735|PHKG2_HUMAN -          NTF2.aln             -                3.9   12.3   0.0         8   11.3   0.0   1.5   1   0   0   1   1   1   0 Phosphorylase b kinase gamma catalytic chain, liver/testis isoform OS=Homo sapiens OX=9606 GN=PHKG2 PE=1 SV=1
+sp|O26223|Y120_METTH  -          NTF2.aln             -                4.2   12.2   0.0       6.2   11.6   0.0   1.2   1   0   0   1   1   1   0 Putative NADH dehydrogenase/NAD(P)H nitroreductase OS=Methanothermobacter thermautotrophicus (strain ATCC 29096 / DSM 1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 GN=MTH_120 PE=3 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/NTF2.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/NTF2/NTF2.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/NTF2/NTF2.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/NTF2.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:06:51 2025
+# [ok]

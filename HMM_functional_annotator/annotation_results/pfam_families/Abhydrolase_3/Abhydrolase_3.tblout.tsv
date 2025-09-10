@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+4fd7439f5f           -          Abhydrolase_3.aln    -            1.4e-08   28.6   0.0     3e-08   27.5   0.0   1.5   1   1   0   1   1   1   1 -
+59bb4d8994           -          Abhydrolase_3.aln    -            1.4e-08   28.6   0.0     3e-08   27.5   0.0   1.5   1   1   0   1   1   1   1 -
+afb51f2a48           -          Abhydrolase_3.aln    -            1.8e-08   28.3   0.0   4.2e-08   27.1   0.0   1.5   1   1   0   1   1   1   1 -
+03f3222488           -          Abhydrolase_3.aln    -            1.9e-07   25.0   0.0   3.9e-07   23.9   0.0   1.4   1   1   0   1   1   1   1 -
+f41c6d89a0           -          Abhydrolase_3.aln    -            1.9e-07   24.9   0.0   3.9e-07   23.9   0.0   1.4   1   1   0   1   1   1   1 -
+54b0f51654           -          Abhydrolase_3.aln    -            1.9e-07   24.9   0.0     4e-07   23.8   0.0   1.4   1   1   0   1   1   1   1 -
+e542ce1613           -          Abhydrolase_3.aln    -              1e-06   22.5   0.0   2.2e-06   21.4   0.0   1.4   1   1   0   1   1   1   1 -
+114e6d2abe           -          Abhydrolase_3.aln    -            2.5e-06   21.3   0.0     5e-06   20.3   0.0   1.4   1   1   0   1   1   1   1 -
+9c28e36175           -          Abhydrolase_3.aln    -            4.3e-05   17.2   0.0   8.5e-05   16.2   0.0   1.4   1   1   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Abhydrolase_3.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/Abhydrolase_3/Abhydrolase_3.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/Abhydrolase_3/Abhydrolase_3.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Abhydrolase_3.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:05:26 2025
+# [ok]

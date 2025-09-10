@@ -1,0 +1,37 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+59b2a8967d           -          Glyco_hydro_18.aln   -            6.2e-35  115.3   0.0   1.9e-33  110.4   0.0   2.0   1   1   0   1   1   1   1 -
+4363ef0515           -          Glyco_hydro_18.aln   -            2.2e-34  113.5   0.0   1.7e-32  107.2   0.0   2.0   1   1   0   1   1   1   1 -
+d067f42a88           -          Glyco_hydro_18.aln   -            2.3e-34  113.4   0.0   6.5e-33  108.7   0.0   2.0   1   1   0   1   1   1   1 -
+bbcdf9d411           -          Glyco_hydro_18.aln   -            3.5e-34  112.8   0.0   2.5e-32  106.7   0.0   2.0   1   1   0   1   1   1   1 -
+2dfc35b340           -          Glyco_hydro_18.aln   -              1e-33  111.3   0.0   8.5e-32  105.0   0.0   2.0   1   1   0   1   1   1   1 -
+e50684fc1d           -          Glyco_hydro_18.aln   -            5.8e-33  108.8   0.0   9.5e-32  104.8   0.0   1.9   1   1   0   1   1   1   1 -
+a31a183afc           -          Glyco_hydro_18.aln   -            6.7e-33  108.6   0.0   4.2e-31  102.7   0.0   2.0   1   1   0   1   1   1   1 -
+c6e7853f94           -          Glyco_hydro_18.aln   -            1.5e-32  107.5   0.1   9.6e-31  101.5   0.1   2.0   1   1   0   1   1   1   1 -
+2fbb6704a4           -          Glyco_hydro_18.aln   -            9.8e-32  104.8   0.0   1.4e-29   97.7   0.0   2.0   1   1   0   1   1   1   1 -
+66be5d4ef2           -          Glyco_hydro_18.aln   -            1.6e-31  104.1   0.1   8.8e-30   98.4   0.1   2.0   1   1   0   1   1   1   1 -
+bc53177eef           -          Glyco_hydro_18.aln   -            1.3e-27   91.2   0.0   1.6e-25   84.3   0.0   2.0   1   1   1   2   2   2   1 -
+501458601d           -          Glyco_hydro_18.aln   -            1.4e-27   91.1   0.0   1.5e-24   81.1   0.0   2.0   1   1   1   2   2   2   2 -
+98f5319ea1           -          Glyco_hydro_18.aln   -            6.1e-17   56.0   0.1   4.5e-08   26.8   0.0   3.2   3   0   0   3   3   3   3 -
+d77c72ad06           -          Glyco_hydro_18.aln   -            3.9e-14   46.8   0.1   5.4e-09   29.9   0.0   3.2   3   0   0   3   3   3   3 -
+64eb7a2b19           -          Glyco_hydro_18.aln   -            4.6e-12   40.0   3.3   3.1e-08   27.3   0.1   3.0   3   0   0   3   3   3   2 -
+f85305f363           -          Glyco_hydro_18.aln   -            1.7e-10   34.8   0.1   1.6e-05   18.4   0.0   3.1   3   0   0   3   3   3   3 -
+c357c6404c           -          Glyco_hydro_18.aln   -            1.1e-09   32.1   0.0     1e-05   19.1   0.0   3.3   3   1   0   3   3   3   1 -
+f2ac448666           -          Glyco_hydro_18.aln   -            5.2e-08   26.6   0.0   0.00021   14.7   0.0   3.1   3   0   0   3   3   3   2 -
+60fd82c1bd           -          Glyco_hydro_18.aln   -            1.4e-07   25.2   0.0    0.0033   10.8   0.0   3.2   3   0   0   3   3   3   2 -
+7d95f6a24a           -          Glyco_hydro_18.aln   -            2.6e-07   24.3   0.0   0.00041   13.8   0.0   3.0   3   1   0   3   3   3   2 -
+16a5214e78           -          Glyco_hydro_18.aln   -            2.9e-07   24.2   0.0   0.00041   13.8   0.0   2.8   3   1   0   3   3   3   2 -
+545a61cacd           -          Glyco_hydro_18.aln   -            6.3e-07   23.1   0.0     0.003   10.9   0.0   3.2   3   1   0   3   3   3   2 -
+464cecdd28           -          Glyco_hydro_18.aln   -            4.6e-06   20.2   0.0   0.00013   15.4   0.0   2.5   3   0   0   3   3   3   1 -
+e560d46d60           -          Glyco_hydro_18.aln   -            5.4e-06   20.0   0.0    0.0078    9.6   0.0   3.0   3   0   0   3   3   3   2 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Glyco_hydro_18.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/Glyco_hydro_18/Glyco_hydro_18.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/Glyco_hydro_18/Glyco_hydro_18.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Glyco_hydro_18.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:05:27 2025
+# [ok]

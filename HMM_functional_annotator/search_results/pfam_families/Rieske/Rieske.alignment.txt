@@ -1,0 +1,1967 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Rieske.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Rieske/Rieske.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Rieske/Rieske.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Rieske.aln  [M=413]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+     1e-300 1001.3   0.2   1.1e-300 1001.1   0.2    1.0  1  sp|Q3C1E3|TPDA1_COMSP      Terephthalate 1,2-dioxygenase, ter
+   1.5e-300 1000.7   0.3   1.7e-300 1000.5   0.3    1.0  1  sp|Q3C1D5|TPDA2_COMSP      Terephthalate 1,2-dioxygenase, ter
+   6.7e-119  402.4   0.0     8e-119  402.1   0.0    1.0  1  sp|Q84BZ3|ANDAC_BURCE      Anthranilate 1,2-dioxygenase large
+    5.5e-90  307.2   0.0    6.7e-90  306.9   0.0    1.0  1  sp|O52379|NAGG_RALSP       Salicylate 5-hydroxylase, large ox
+    1.2e-31  115.0   0.0    2.1e-31  114.2   0.0    1.3  1  sp|Q52028|BPHA_METFU       Biphenyl dioxygenase subunit alpha
+    2.2e-31  114.1   0.0    3.4e-31  113.5   0.0    1.2  1  sp|P37333|BPHA_PARXL       Biphenyl dioxygenase subunit alpha
+    1.3e-30  111.6   0.0      2e-30  111.0   0.0    1.1  1  sp|Q53122|BPHA1_RHOJR      Biphenyl 2,3-dioxygenase subunit a
+      3e-30  110.4   0.0      6e-30  109.4   0.1    1.4  1  sp|P07769|BENA_ACIAD       Benzoate 1,2-dioxygenase subunit a
+    3.5e-30  110.2   0.1      5e-30  109.7   0.1    1.1  1  sp|P23099|XYLX_PSEPU       Toluate 1,2-dioxygenase subunit al
+    8.4e-30  108.9   0.0    1.4e-29  108.2   0.0    1.3  1  sp|Q46372|BPHA_COMTE       Biphenyl dioxygenase subunit alpha
+    1.5e-29  108.1   0.0    2.2e-28  104.2   0.0    2.0  2  sp|Q0T1Y1|HCAE_SHIF8       3-phenylpropionate/cinnamic acid d
+    1.8e-29  107.8   0.0    2.5e-28  104.0   0.0    2.0  2  sp|A8A344|HCAE_ECOHS       3-phenylpropionate/cinnamic acid d
+    2.9e-29  107.2   0.0    2.5e-28  104.0   0.0    1.9  2  sp|P0ABR5|HCAE_ECOLI       3-phenylpropionate/cinnamic acid d
+    2.9e-29  107.2   0.0    2.5e-28  104.0   0.0    1.9  2  sp|P0ABR6|HCAE_ECO57       3-phenylpropionate/cinnamic acid d
+    2.9e-29  107.2   0.0    2.5e-28  104.0   0.0    1.9  2  sp|Q3YZ15|HCAE_SHISS       3-phenylpropionate/cinnamic acid d
+    6.8e-29  105.9   0.0    5.9e-28  102.8   0.0    1.9  2  sp|Q31XV2|HCAE_SHIBS       3-phenylpropionate/cinnamic acid d
+    7.2e-29  105.9   0.1    1.7e-28  104.6   0.0    1.5  2  sp|Q7N4W0|HCAE_PHOLL       3-phenylpropionate/cinnamic acid d
+    1.1e-28  105.2   0.0    9.7e-28  102.1   0.0    1.9  2  sp|Q83K39|HCAE_SHIFL       3-phenylpropionate/cinnamic acid d
+    7.8e-28  102.4   0.0    1.1e-27  101.9   0.0    1.1  1  sp|Q52438|BPHA1_PSES1      Biphenyl dioxygenase subunit alpha
+    1.5e-27  101.5   0.1    5.3e-26   96.4   0.2    2.0  2  sp|Q9RBG5|ABSAA_ALCSP      2-aminobenzenesulfonate 2,3-dioxyg
+    3.3e-27  100.4   0.1    7.7e-27   99.2   0.1    1.4  1  sp|O85673|ANTDA_ACIAD      Anthranilate 1,2-dioxygenase large
+    4.5e-27   99.9   0.0    7.1e-27   99.3   0.0    1.2  1  sp|O24676|TECA1_CUPXP      Chlorobenzene dioxygenase subunit 
+    1.2e-25   95.2   0.1    1.9e-25   94.6   0.1    1.2  1  sp|Q07944|BEDC1_PSEPU      Benzene 1,2-dioxygenase subunit al
+    1.5e-25   94.9   0.1    3.2e-21   80.6   0.0    2.1  2  sp|O07824|NDOB_PSEFL       Naphthalene 1,2-dioxygenase system
+    1.7e-25   94.7   0.1    2.7e-25   94.1   0.1    1.2  1  sp|A5W4F2|BNZA_PSEP1       Benzene 1,2-dioxygenase subunit al
+    1.7e-25   94.7   0.1    2.7e-25   94.1   0.1    1.2  1  sp|P0C618|BNZA_PSEPU       Benzene 1,2-dioxygenase subunit al
+    3.1e-25   93.9   0.3    9.3e-21   79.1   0.0    2.1  2  sp|Q51494|NDOB_PSEAI       Naphthalene 1,2-dioxygenase system
+    3.7e-24   90.3   0.2      5e-20   76.7   0.0    2.1  2  sp|Q45695|DNTAC_BURSR      2,4-dinitrotoluene dioxygenase sys
+    1.4e-23   88.4   0.1    3.8e-19   73.8   0.0    2.1  2  sp|O52382|NDOB_RALSP       Naphthalene 1,2-dioxygenase system
+    1.7e-23   88.1   0.1    1.1e-19   75.6   0.0    2.1  2  sp|P0A110|NDOB_PSEPU       Naphthalene 1,2-dioxygenase system
+    1.7e-23   88.1   0.1    1.1e-19   75.6   0.0    2.1  2  sp|P0A111|NDOB_PSEU8       Naphthalene 1,2-dioxygenase system
+    2.3e-22   84.5   0.1    6.4e-19   73.1   0.1    2.0  2  sp|Q51974|CMTAB_PSEPU      p-cumate 2,3-dioxygenase system, l
+    6.4e-22   83.0   0.1    1.4e-19   75.2   0.1    2.0  2  sp|Q51601|CBDA_BURCE       2-halobenzoate 1,2-dioxygenase lar
+    2.3e-21   81.1   0.0    8.6e-21   79.2   0.0    1.7  2  sp|Q9X404|MSMA_METHY       Methanesulfonate monooxygenase hyd
+    3.8e-21   80.4   0.0    5.4e-21   79.9   0.0    1.1  1  sp|Q9HTF4|GBMOO_PSEAE      Glycine betaine monooxygenase oxyg
+    3.8e-21   80.4   0.0    5.4e-21   79.9   0.0    1.1  1  sp|A0A0H2ZIF3|GBMOO_PSEAB  Glycine betaine monooxygenase oxyg
+    7.7e-20   76.1   0.0    1.1e-19   75.7   0.0    1.1  1  sp|S5RR11|PDMA_SPHYB       N,N-dimethyl phenylurea N-demethyl
+    6.6e-18   69.7   0.0    9.8e-18   69.2   0.0    1.2  1  sp|Q1QYU7|GBMOO_CHRSD      Glycine betaine monooxygenase oxyg
+    1.3e-16   65.5   0.2    1.9e-16   64.9   0.2    1.1  1  sp|F0KFI5|CNTA_ACIP2       Carnitine monooxygenase oxygenase 
+    2.1e-15   61.5   0.2    3.2e-15   60.9   0.2    1.2  1  sp|D0C9N6|CNTA_ACIB2       Carnitine monooxygenase oxygenase 
+    3.6e-15   60.7   0.1    5.9e-15   60.0   0.1    1.2  1  sp|P0ABR7|CNTA_ECOLI       Carnitine monooxygenase oxygenase 
+    3.6e-15   60.7   0.1    5.9e-15   60.0   0.1    1.2  1  sp|P0ABR8|CNTA_ECO57       Carnitine monooxygenase oxygenase 
+    1.7e-14   58.5   0.1    2.8e-14   57.8   0.1    1.3  1  sp|Q9SZR0|CHMO_ARATH       Choline monooxygenase, chloroplast
+    6.9e-14   56.5   0.0    1.1e-13   55.9   0.0    1.2  1  sp|Q9LKN0|CHMO_ATRHO       Choline monooxygenase, chloroplast
+    4.2e-13   53.9   0.2    1.2e-12   52.4   0.2    1.6  1  sp|Q92ZP9|STC2_RHIME       Stachydrine N-demethylase OS=Rhizo
+    3.1e-12   51.1   0.0    5.8e-12   50.2   0.0    1.3  1  sp|O04121|CHMO_SPIOL       Choline monooxygenase, chloroplast
+    1.4e-10   45.6   0.0    2.7e-10   44.7   0.0    1.4  1  sp|Q93XE1|CHMO_AMATR       Choline monooxygenase, chloroplast
+    1.9e-10   45.2   0.0    3.3e-10   44.4   0.0    1.3  1  sp|O22553|CHMO_BETVU       Choline monooxygenase, chloroplast
+    2.5e-06   31.6   0.0    3.6e-06   31.1   0.0    1.2  1  sp|P94679|TSAM1_COMTE      Toluene-4-sulfonate monooxygenase 
+    7.1e-06   30.1   0.0    1.3e-05   29.3   0.0    1.3  1  sp|Q8XX92|PUT2H_RALN1      Putrescine 2-hydroxylase OS=Ralsto
+    0.00061   23.7   0.0        0.4   14.5   0.0    2.1  2  sp|G8FRC5|MDPJ_AQUTE       Tert-butanol monooxygenase / tert-
+    0.00061   23.7   0.0     0.0022   21.9   0.0    1.8  2  sp|Q8G8B6|CARAA_METRE      Carbazole 1,9a-dioxygenase, termin
+     0.0015   22.5   0.0     0.0028   21.6   0.0    1.3  1  sp|H9N291|NDMD_PSEPU       Oxidoreductase NdmD OS=Pseudomonas
+     0.0034   21.3   0.0     0.0046   20.8   0.0    1.2  1  sp|H9N289|NDMA_PSEPU       Methylxanthine N1-demethylase NdmA
+     0.0053   20.7   0.0       0.04   17.8   0.0    1.9  2  sp|Q05183|PHT3_PSEPU       Phthalate 4,5-dioxygenase oxygenas
+  ------ inclusion threshold ------
+      0.011   19.5   0.0      0.016   19.0   0.0    1.2  1  sp|H9N290|NDMB_PSEPU       Methylxanthine N3-demethylase NdmB
+      0.017   19.0   0.0      0.024   18.5   0.0    1.1  1  sp|Q60A55|SDMA_METCA       4beta-methylsterol monooxygenase O
+       0.02   18.8   0.0      0.045   17.6   0.0    1.6  1  sp|A0A0H3LKV3|PUT2H_BORBR  Putrescine 2-hydroxylase OS=Bordet
+      0.045   17.6   0.0        0.1   16.4   0.0    1.5  1  sp|Q0DV66|PAO_ORYSJ        Pheophorbide a oxygenase, chloropl
+      0.088   16.6   0.0       0.13   16.0   0.0    1.2  1  sp|F7J188|NVD_HEMPU        Cholesterol 7-desaturase nvd OS=He
+      0.095   16.5   0.0       0.15   15.9   0.0    1.2  1  sp|O49931|TIC55_PEA        Protein TIC 55, chloroplastic OS=P
+      0.098   16.5   0.0       0.15   15.9   0.0    1.2  1  sp|D5IGG0|CARAA_SPHSX      Carbazole 1,9a-dioxygenase, termin
+        0.2   15.4   0.0       0.36   14.6   0.0    1.3  1  sp|G2IN04|LIGXA_SPHSK      5,5'-dehydrodivanillate O-demethyl
+       0.39   14.5   0.0       0.46   14.3   0.0    1.1  1  sp|Q8GI16|CARAC_METRE      Ferredoxin CarAc OS=Metapseudomona
+       0.47   14.2   0.0       0.77   13.5   0.0    1.3  1  sp|Q9SK50|TIC55_ARATH      Protein TIC 55, chloroplastic OS=A
+        0.6   13.9   0.0       0.94   13.2   0.0    1.2  1  sp|Q9FYC2|PAO_ARATH        Pheophorbide a oxygenase, chloropl
+       0.66   13.7   0.0          1   13.1   0.0    1.2  1  sp|Q9MBA1|CAO_ARATH        Chlorophyllide a oxygenase, chloro
+       0.68   13.7   0.0        1.2   12.9   0.0    1.3  1  sp|Q9ZWM5|CAO_CHLRE        Chlorophyllide a oxygenase, chloro
+        0.7   13.7   0.0       0.73   13.6   0.0    1.1  1  sp|P42436|NASE_BACSU       Assimilatory nitrite reductase [NA
+       0.78   13.5   0.0        1.1   13.0   0.0    1.1  1  sp|F7J184|NVD_XENLA        Cholesterol 7-desaturase nvd OS=Xe
+        0.8   13.5   0.0        1.1   13.0   0.0    1.1  1  sp|Q6DHJ3|NVD_DANRE        Cholesterol 7-desaturase nvd OS=Da
+       0.85   13.4   0.0        1.4   12.7   0.0    1.2  1  sp|Q9XJ38|CAO_DUNSA        Chlorophyllide a oxygenase, chloro
+       0.93   13.2   0.0        1.4   12.7   0.0    1.2  1  sp|F1CMY8|KSHA5_RHORH      3-ketosteroid-9-alpha-monooxygenas
+        1.1   13.0   0.0        1.7   12.4   0.0    1.2  1  sp|Q8W496|PTC52_ARATH      Protochlorophyllide-dependent tran
+        1.2   12.9   0.0        2.3   12.0   0.0    1.4  1  sp|Q5CC93|UCRIA_CYAPA      Cytochrome b6-f complex iron-sulfu
+        1.3   12.8   0.0        1.9   12.2   0.0    1.2  1  sp|Q44256|CBAA_COMTE       3-chlorobenzoate-3,4-dioxygenase o
+        1.4   12.7   0.0        4.5   11.0   0.0    1.7  1  sp|A0A076FFM5|F8H1_OCIBA   Flavonoid 8-hydroxylase 1, chlorop
+        1.4   12.6   0.0        2.2   12.0   0.0    1.2  1  sp|P95483|PRND_PSEFL       Aminopyrrolnitrin oxygenase PrnD O
+        1.4   12.6   0.0        2.1   12.1   0.0    1.2  1  sp|B6V6V5|KSHA4_RHORH      3-ketosteroid-9-alpha-monooxygenas
+        1.6   12.4   0.0        2.4   11.9   0.0    1.2  1  sp|Q9AHG3|TSAM2_COMTE      Putative toluene-4-sulfonate monoo
+        1.9   12.2   0.0        8.2   10.1   0.0    2.0  2  sp|A0A059WLZ7|CNDA_RHIWD   Chloroacetanilide N-alkylformylase
+          2   12.1   0.2        3.3   11.4   0.2    1.2  1  sp|Q54PI4|T1841_DICDI      Transmembrane protein 184 homolog 
+        2.1   12.1   0.1        5.1   10.8   0.1    1.6  1  sp|Q52185|POBA_ECTOL       Phenoxybenzoate dioxygenase subuni
+        3.1   11.5   0.3        4.3   11.0   0.3    1.1  1  sp|Q54WM0|T1843_DICDI      Transmembrane protein 184 homolog 
+        3.3   11.5   0.0        7.4   10.3   0.0    1.4  1  sp|A0A076FF10|F8H2_OCIBA   Flavonoid 8-hydroxylase 2, chlorop
+        3.5   11.4   0.0        4.9   10.9   0.0    1.1  1  sp|Q5CC92|UCRIB_CYAPA      Cytochrome b6-f complex iron-sulfu
+        3.8   11.3   0.0          4   11.2   0.0    1.0  1  sp|Q54KK8|Y7397_DICDI      Putative uncharacterized protein D
+        4.3   11.1   0.0        8.5   10.1   0.0    1.4  1  sp|Q6PAD2|PLK4_XENLA       Serine/threonine-protein kinase PL
+        4.7   10.9   0.0        6.1   10.6   0.0    1.1  1  sp|P26291|UCRIA_PEA        Cytochrome b6-f complex iron-sulfu
+        5.1   10.8   0.0        6.8   10.4   0.0    1.2  1  sp|P12609|VANA_PSES9       Vanillate O-demethylase oxygenase 
+        5.7   10.7   0.0        7.4   10.3   0.0    1.1  1  sp|O49078|UCRIA_FRIAG      Cytochrome b6-f complex iron-sulfu
+        7.5   10.3   0.0        9.8    9.9   0.0    1.1  1  sp|Q9ZR03|UCRIA_ARATH      Cytochrome b6-f complex iron-sulfu
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q3C1E3|TPDA1_COMSP  Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit alpha 1 OS=Comamonas sp. O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1001.1   0.2  1.8e-304  1.1e-300       1     413 []       1     413 []       1     413 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1001.1 bits;  conditional E-value: 1.8e-304
+             Rieske.aln   1 mqesiiqwhgatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgal 88 
+                            mqesiiqwhgatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgal
+  sp|Q3C1E3|TPDA1_COMSP   1 MQESIIQWHGATNTRVPFGIYTDTANADQEQQRIYRGEVWNYLCLESEIPGAGDFRTTFAGETPIVVVRDADQEIYAFENRCAHRGAL 88 
+                            9*************************************************************************************** PP
+
+             Rieske.aln  89 ialeksgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceri 176
+                            ialeksgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceri
+  sp|Q3C1E3|TPDA1_COMSP  89 IALEKSGRTDSFQCVYHAWSYNRQGDLTGVAFEKGVKGQGGMPASFCKEEHGPRKLRVAVFCGLVFGSFSEDVPSIEDYLGPEICERI 176
+                            **************************************************************************************** PP
+
+             Rieske.aln 177 ervlhkpvevigrftqklpnnwklyfenvkdsyhasllhmffttfelnrlsqkggvivdesgghhvsysmidrsakddsykdqairsd 264
+                            ervlhkpvevigrftqklpnnwklyfenvkdsyhasllhmffttfelnrlsqkggvivdesgghhvsysmidrsakddsykdqairsd
+  sp|Q3C1E3|TPDA1_COMSP 177 ERVLHKPVEVIGRFTQKLPNNWKLYFENVKDSYHASLLHMFFTTFELNRLSQKGGVIVDESGGHHVSYSMIDRSAKDDSYKDQAIRSD 264
+                            **************************************************************************************** PP
+
+             Rieske.aln 265 neryrlkdpsllegfeefedgvtlqilsvfpgfvlqqiqnsiavrqllpksissselnwtylgyaddsaeqrkvrlkqanligpagfi 352
+                            neryrlkdpsllegfeefedgvtlqilsvfpgfvlqqiqnsiavrqllpksissselnwtylgyadds+eqrkvrlkqanligpagfi
+  sp|Q3C1E3|TPDA1_COMSP 265 NERYRLKDPSLLEGFEEFEDGVTLQILSVFPGFVLQQIQNSIAVRQLLPKSISSSELNWTYLGYADDSTEQRKVRLKQANLIGPAGFI 352
+                            **************************************************************************************** PP
+
+             Rieske.aln 353 smedgavggfvqrgiagaanldaviemggdhegssegratetsvrgfwkayrkhmgqemqa 413
+                            smedgavggfvqrgiagaanldaviemggdhegssegratetsvrgfwkayrkhmgqemqa
+  sp|Q3C1E3|TPDA1_COMSP 353 SMEDGAVGGFVQRGIAGAANLDAVIEMGGDHEGSSEGRATETSVRGFWKAYRKHMGQEMQA 413
+                            ************************************************************8 PP
+
+>> sp|Q3C1D5|TPDA2_COMSP  Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit alpha 2 OS=Comamonas sp. O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1000.5   0.3  2.7e-304  1.7e-300       1     413 []       1     413 []       1     413 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1000.5 bits;  conditional E-value: 2.7e-304
+             Rieske.aln   1 mqesiiqwhgatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgal 88 
+                            mqesiiqwhgatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgal
+  sp|Q3C1D5|TPDA2_COMSP   1 MQESIIQWHGATNTRVPFGIYTDTANADQEQQRIYRGEVWNYLCLESEIPGAGDFRTTFAGETPIVVVRDADQEIYAFENRCAHRGAL 88 
+                            9*************************************************************************************** PP
+
+             Rieske.aln  89 ialeksgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceri 176
+                            ialeksgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceri
+  sp|Q3C1D5|TPDA2_COMSP  89 IALEKSGRTDSFQCVYHAWSYNRQGDLTGVAFEKGVKGQGGMPASFCKEEHGPRKLRVAVFCGLVFGSFSEDVPSIEDYLGPEICERI 176
+                            **************************************************************************************** PP
+
+             Rieske.aln 177 ervlhkpvevigrftqklpnnwklyfenvkdsyhasllhmffttfelnrlsqkggvivdesgghhvsysmidrsakddsykdqairsd 264
+                            ervlhkpvevigrftqklpnnwklyfenvkdsyhasllhmffttfelnrlsqkggvivdesgghhvsysmidr+akddsykdqairsd
+  sp|Q3C1D5|TPDA2_COMSP 177 ERVLHKPVEVIGRFTQKLPNNWKLYFENVKDSYHASLLHMFFTTFELNRLSQKGGVIVDESGGHHVSYSMIDRGAKDDSYKDQAIRSD 264
+                            **************************************************************************************** PP
+
+             Rieske.aln 265 neryrlkdpsllegfeefedgvtlqilsvfpgfvlqqiqnsiavrqllpksissselnwtylgyaddsaeqrkvrlkqanligpagfi 352
+                            neryrlkdpsllegfeefedgvtlqilsvfpgfvlqqiqnsiavrqllpksissselnwtylgyaddsaeqrkvrlkqanligpagfi
+  sp|Q3C1D5|TPDA2_COMSP 265 NERYRLKDPSLLEGFEEFEDGVTLQILSVFPGFVLQQIQNSIAVRQLLPKSISSSELNWTYLGYADDSAEQRKVRLKQANLIGPAGFI 352
+                            **************************************************************************************** PP
+
+             Rieske.aln 353 smedgavggfvqrgiagaanldaviemggdhegssegratetsvrgfwkayrkhmgqemqa 413
+                            smedgavggfvqrgiagaanldaviemggdhegssegratetsvrgfwkayrkhmgqemqa
+  sp|Q3C1D5|TPDA2_COMSP 353 SMEDGAVGGFVQRGIAGAANLDAVIEMGGDHEGSSEGRATETSVRGFWKAYRKHMGQEMQA 413
+                            ************************************************************8 PP
+
+>> sp|Q84BZ3|ANDAC_BURCE  Anthranilate 1,2-dioxygenase large subunit OS=Burkholderia cepacia OX=292 GN=andAc PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  402.1   0.0  1.3e-122    8e-119      13     408 ..      26     422 ..      16     423 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 402.1 bits;  conditional E-value: 1.3e-122
+             Rieske.aln  13 ntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsf 100
+                             +rvp+ +++  a  d+eq+ri+rg  wn+++le+eip agdf++tf g+tp+vv r  d  + a+ nrcahrga ++ +  g + s 
+  sp|Q84BZ3|ANDAC_BURCE  26 GSRVPYKVFSSRAVYDREQERIFRGPTWNFVALEAEIPNAGDFKSTFVGDTPVVVTRTEDGALSAWVNRCAHRGAQVCRKSRGNASSH 113
+                            58************************************************************************************** PP
+
+             Rieske.aln 101 qcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhkpvevig 188
+                             cvyh ws++ +g+l gv f +g kg  gmpa f  ++hg rklrv  + glvf +fs+dv  + dylg ++   i+r++hkp+e +g
+  sp|Q84BZ3|ANDAC_BURCE 114 TCVYHQWSFDNEGNLLGVPFRRGQKGMTGMPADFDPKQHGLRKLRVDSYRGLVFATFSDDVAPLPDYLGAQMRPWIDRIFHKPIEYLG 201
+                            **************************************************************************************** PP
+
+             Rieske.aln 189 rftqklpnnwklyfenvkdsyhasllhmffttfelnrlsqkggvivdesgghhvsysmidrsak.ddsykdqairsdneryrlkdpsl 275
+                               q    nwkly+envkd yhas+lh+f ttf++ r+  k   i d + g h   ++   +     +yk+q irs +e ++l+d s+
+  sp|Q84BZ3|ANDAC_BURCE 202 CTRQYSKSNWKLYMENVKDPYHASMLHLFHTTFNIFRVGMKARSIPDANHGLHSIITVTKTGDDtSAAYKQQNIRSFDEGFHLEDESI 289
+                            *************************************************9999777666554431357******************** PP
+
+             Rieske.aln 276 legfeefedgvtlqilsvfpgfvlqqiqnsiavrqllpksissselnwtylgyaddsaeqrkvrlkqanligpagfismedgavggfv 363
+                            l+ + e+++  t +i  +fp +v+qqi+n++  rq+lpk   + el + ++gyadd+ e r +r+kqanl+gpag+ismed     +v
+  sp|Q84BZ3|ANDAC_BURCE 290 LDLVSEYDEDCTNHIQPIFPQLVIQQIHNTLVARQILPKGPDNFELIFHFFGYADDTPELRALRIKQANLVGPAGYISMEDTEATELV 377
+                            **************************************************************************************** PP
+
+             Rieske.aln 364 qrgiagaanldaviemggdhegssegratetsvrgfwkayrkhmg 408
+                            qrg    a+  +viem        +   te+ +r fw  y+k mg
+  sp|Q84BZ3|ANDAC_BURCE 378 QRGTVRDADATSVIEMSRGNPEQQDTVITESLIRKFWVGYQKLMG 422
+                            *****************99999999*******************9 PP
+
+>> sp|O52379|NAGG_RALSP  Salicylate 5-hydroxylase, large oxygenase component OS=Ralstonia sp. OX=54061 GN=nagG PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  306.9   0.0   1.1e-93   6.7e-90       7     408 ..      16     422 ..      14     423 .] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 306.9 bits;  conditional E-value: 1.1e-93
+            Rieske.aln   7 qwhgatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksg 95 
+                           +w g   +rvpf  yt      +e +r++  + w y+ le+eip  gdf+ t+ ge  +++vrd d  i  +en cahrg   + e+ g
+  sp|O52379|NAGG_RALSP  16 KWPGEGSSRVPFWAYTREDLYKRELERLFYANHWCYVGLEAEIPNPGDFKRTVIGERSVIMVRDPDGGINVVENVCAHRGMRFCRERHG 104
+                           69999************************************************************************************ PP
+
+            Rieske.aln  96 rtdsfqcvyhawsynrqgdltgvafekgvkg....qggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervl 180
+                            +  f c yh w+y  +gdl gv f +gvk     +ggmp  f  eehg  kl+va   g vf sf  dv   e++lgp i    +rv+
+  sp|O52379|NAGG_RALSP 105 NAKDFFCPYHQWNYSLKGDLQGVPFRRGVKQdgkvNGGMPKDFKLEEHGLTKLKVAARGGAVFASFDHDVEPFEEFLGPTILHYFDRVF 193
+                           *****************************86222258***************************************************9 PP
+
+            Rieske.aln 181 h.kpvevigrftqklpnnwklyfenvkdsyhasllhmffttfelnrlsqkggvivdesgghhvsysmidrsakddsykdqairsdnery 268
+                             + ++++g   q++p nwkl  en+kd yh  llh +f+tf l r  +k  + +d    h    s   ++ k++      + s +e+ 
+  sp|O52379|NAGG_RALSP 194 NgRKLKILGYRRQRIPGNWKLMQENIKDPYHPGLLHTWFSTFGLWRADNKSELKMDAKFRHAAMISTRGQGGKNEEVV-SGVDSFKEQM 281
+                           74789*********************************************************9999999999998875.6799****** PP
+
+            Rieske.aln 269 rlkdpsllegfee.fedgvtlqilsvfpgfvlqqiqnsiavrqllpksissselnwtylgyaddsaeqrkvrlkqanligpagfismed 356
+                           +++dp ll+ + e +  g t  + ++fp +++qq  ns++ r++ p+   s ++ wt++g+ dd+ e  + rl qanl gpagf+s +d
+  sp|O52379|NAGG_RALSP 282 KVNDPRLLDIVPEpWWGGPTAVMTTIFPSVIIQQQVNSVSTRHIQPNGHGSFDFVWTHFGFEDDNEEWTQRRLIQANLFGPAGFVSADD 370
+                           *********985537889999999***************************************************************** PP
+
+            Rieske.aln 357 gavggfvqrgiagaanldaviemggdhegssegratetsvrgfwkayrkhmg 408
+                           g v  + q g        +viemgg   g ++   tet +rg++  +rk mg
+  sp|O52379|NAGG_RALSP 371 GEVIEWSQEGFEQKPTHRTVIEMGGHEIGDTDHMVTETLIRGMYDYWRKVMG 422
+                           ***************************************************9 PP
+
+>> sp|Q52028|BPHA_METFU  Biphenyl dioxygenase subunit alpha OS=Metapseudomonas furukawaii OX=1149133 GN=bphA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  114.2   0.0   3.4e-35   2.1e-31      20     214 ..      39     237 ..      32     244 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 114.2 bits;  conditional E-value: 3.4e-35
+            Rieske.aln  20 iytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhaws 108
+                           iy+d +  + e +r++ g  w  l  es +p +gdf +t+ ge p+v+vr+ d+ i  f n+c hrg  i+   +g + +f c yh w+
+  sp|Q52028|BPHA_METFU  39 IYADQSLYELELERVF-GRSWLLLGHESHVPETGDFLATYMGEDPVVMVRQKDKSIKVFLNQCRHRGMRICRSDAGNAKAFTCSYHGWA 126
+                           8999999999999998.899********************************************************************* PP
+
+            Rieske.aln 109 ynrqgdltgvafekgvkg.qggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylg...peiceriervlhkpvevigrftqk 193
+                           y+  g l  v fek     +    + f k e gp + rva + glvf ++  + p +e ylg   p +   ++r     v + g     
+  sp|Q52028|BPHA_METFU 127 YDIAGKLVNVPFEKEAFCdKKEGDCGFDKAEWGPLQARVATYKGLVFANWDVQAPDLETYLGdarPYMDVMLDRTPAGTVAIGGMQKWV 215
+                           **************875414455789***********************************9555566777888888889888888889 PP
+
+            Rieske.aln 194 lpnnwklyfen.vkdsyhasll 214
+                           +p nwk+  e+   d yha  +
+  sp|Q52028|BPHA_METFU 216 IPCNWKFAAEQfCSDMYHAGTM 237
+                           ********99835899**9754 PP
+
+>> sp|P37333|BPHA_PARXL  Biphenyl dioxygenase subunit alpha OS=Paraburkholderia xenovorans (strain LB400) OX=266265 GN=b
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  113.5   0.0   5.4e-35   3.4e-31      20     212 ..      39     235 ..      32     244 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 113.5 bits;  conditional E-value: 5.4e-35
+            Rieske.aln  20 iytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhaws 108
+                           iy+d +  + e +r++ g  w  l  es +p +gdf +t+ ge p+v+vr+ d+ i  f n+c hrg  i+   +g + +f c yh w+
+  sp|P37333|BPHA_PARXL  39 IYADQSLYELELERVF-GRSWLLLGHESHVPETGDFLATYMGEDPVVMVRQKDKSIKVFLNQCRHRGMRICRSDAGNAKAFTCSYHGWA 126
+                           8999999999999998.899********************************************************************* PP
+
+            Rieske.aln 109 ynrqgdltgvafekgvkg.qggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylg...peiceriervlhkpvevigrftqk 193
+                           y+  g l  v fek     +    + f k e gp + rva + glvf ++  + p +e ylg   p +   ++r     v + g     
+  sp|P37333|BPHA_PARXL 127 YDIAGKLVNVPFEKEAFCdKKEGDCGFDKAEWGPLQARVATYKGLVFANWDVQAPDLETYLGdarPYMDVMLDRTPAGTVAIGGMQKWV 215
+                           **************875414455789***********************************9555566777888888889888888889 PP
+
+            Rieske.aln 194 lpnnwklyfen.vkdsyhas 212
+                           +p nwk+  e+   d yha 
+  sp|P37333|BPHA_PARXL 216 IPCNWKFAAEQfCSDMYHAG 235
+                           ********99835799**96 PP
+
+>> sp|Q53122|BPHA1_RHOJR  Biphenyl 2,3-dioxygenase subunit alpha OS=Rhodococcus jostii (strain RHA1) OX=101510 GN=bphA1 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.0   0.0   3.2e-34     2e-30      15     212 ..      32     226 ..      22     234 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 111.0 bits;  conditional E-value: 3.2e-34
+             Rieske.aln  15 rvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqc 102
+                            r+   iytd a  +qe +ri+ g  w  +  e++ip agdf t + ge p++vvr+ + ei  f n+c hrg  i+    g + sf c
+  sp|Q53122|BPHA1_RHOJR  32 RLDPRIYTDEALYEQELERIF-GRSWLLMGHETQIPKAGDFMTNYMGEDPVMVVRQKNGEIRVFLNQCRHRGMRICRADGGNAKSFTC 118
+                            56667***************9.899*************************************************************** PP
+
+             Rieske.aln 103 vyhawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhk...pvevi 187
+                             yh w+y+  g+l  v fe+       +p  + ke+ gp + rv  + gl+f ++  d p ++ ylg      ++++l +     e i
+  sp|Q53122|BPHA1_RHOJR 119 SYHGWAYDTGGNLVSVPFEEQA-----FP-GLRKEDWGPLQARVETYKGLIFANWDADAPDLDTYLGEAK-FYMDHMLDRteaGTEAI 199
+                            ******************9753.....44.478**********************************753.33444443311145666 PP
+
+             Rieske.aln 188 .grftqklpnnwklyfen.vkdsyhas 212
+                             g     +p nwk+  e+   d yha 
+  sp|Q53122|BPHA1_RHOJR 200 pGIQKWVIPCNWKFAAEQfCSDMYHAG 226
+                            25555679******999835799**96 PP
+
+>> sp|P07769|BENA_ACIAD  Benzoate 1,2-dioxygenase subunit alpha OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.4   0.1   9.6e-34     6e-30      16     239 ..      30     254 ..      16     264 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 109.4 bits;  conditional E-value: 9.6e-34
+            Rieske.aln  16 vpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvy 104
+                           +   ++td a  d e + i+ g+ w yl+ es+ip   d+ tt+ g  pi++ r+ + e+ a+ n c+hrga ++  k g   ++ c +
+  sp|P07769|BENA_ACIAD  30 LHRSVFTDQALFDLEMKYIFEGN-WVYLAHESQIPNNNDYYTTYIGRQPILIARNRNGELNAMINACSHRGAQLCRHKRGNKTTYTCPF 117
+                           55679****************97.***************************************************************** PP
+
+            Rieske.aln 105 hawsynrqgdltgvafekgvkgqggmpasfcke.ehgprkl.rvavfcglvfgsfsedvpsiedylgp..eiceriervlhkpvevi.g 188
+                           h w++n  g l  v        + g    f ++  h  +k+ r   + g++fgs++ dvps++++lg   +i + i     + +ev+ g
+  sp|P07769|BENA_ACIAD 118 HGWTFNNSGKLLKVKD----PSDAGYSDCFNQDgSHDLKKVaRFESYKGFLFGSLNPDVPSLQEFLGEttKIIDMIVGQSDQGLEVLrG 202
+                           ***********87743....2345555555544245555543677889******************95336888888888999**9857 PP
+
+            Rieske.aln 189 rftqklpnnwklyfenvkdsyhasllhmffttfelnr.lsqkggvivdesgg 239
+                             t     nwkl  en  d yh s +h  +++    r   q g  i   s g
+  sp|P07769|BENA_ACIAD 203 VSTYTYEGNWKLTAENGADGYHVSAVHWNYAATTQHRkEKQAGDTIRAMSAG 254
+                           789999*********************9887655555056667677666655 PP
+
+>> sp|P23099|XYLX_PSEPU  Toluate 1,2-dioxygenase subunit alpha OS=Pseudomonas putida OX=303 GN=xylX PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.7   0.1     8e-34     5e-30      19     225 ..      30     236 ..      21     253 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 109.7 bits;  conditional E-value: 8e-34
+            Rieske.aln  19 giytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhaw 107
+                            ++td    d e ++i+ g+ w yl+ es+ip   d+ tt  g  pi + r+ d e+ af n c+hrga ++  +sg   +  c +h w
+  sp|P23099|XYLX_PSEPU  30 EMFTDPRLFDLEMKHIFEGN-WIYLAHESQIPEKNDYYTTQMGRQPIFITRNKDGELNAFVNACSHRGATLCRFRSGNKATHTCSFHGW 117
+                           578999999*********97.******************************************************************** PP
+
+            Rieske.aln 108 synrqgdltgvafekgvkgqggmpasf.ckeehgprkl.rvavfcglvfgsfsedvpsiedylgpeiceriervlhkp...vevi.grf 190
+                           ++   g l  v   kg     g p sf c   h  +k+ r a + g++fgs+ edv  +e++lg    + i+ v+ +    +ev+ g  
+  sp|P23099|XYLX_PSEPU 118 TFSNSGKLLKVKDPKG----AGYPDSFdCDGSHDLKKVaRFASYRGFLFGSLREDVAPLEEFLGE-SRKVIDMVVDQSpegLEVLrGSS 201
+                           *********9976665....47899988999***9996599**********************95.45677777765412267765888 PP
+
+            Rieske.aln 191 tqklpnnwklyfenvkdsyhasllhmffttfelnr 225
+                           t     nwk+ +en  d yh s +h  +++ + +r
+  sp|P23099|XYLX_PSEPU 202 TYVYEGNWKVQVENGADGYHVSTVHWNYAATQQQR 236
+                           9999*********************9887665554 PP
+
+>> sp|Q46372|BPHA_COMTE  Biphenyl dioxygenase subunit alpha OS=Comamonas testosteroni OX=285 GN=bphA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  108.2   0.0   2.2e-33   1.4e-29      13     214 ..      32     237 ..      22     282 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 108.2 bits;  conditional E-value: 2.2e-33
+            Rieske.aln  13 ntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfq 101
+                           n ++   iy+d    + e +r++ g  w  l  e+ ip  gd+ tt+ ge p+++vr+ dq i  f n+c hrg  i     g + +f 
+  sp|Q46372|BPHA_COMTE  32 NGKLDARIYADQDLYQLELERVF-GRSWLMLGHETHIPKIGDYLTTYMGEDPVIMVRQKDQSIKVFLNQCRHRGMRIVRSDGGNAKAFT 119
+                           66777789999999999999998.899************************************************************** PP
+
+            Rieske.aln 102 cvyhawsynrqgdltgvafekgvkg.qggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervl...hkpvev 186
+                           c yh w+y+  g+l  v fek     +    + f k + gp + rv  + glvf ++  + p ++ yl   +   ++ +l       e 
+  sp|Q46372|BPHA_COMTE 120 CTYHGWAYDIAGNLVNVPFEKEAFCdKKEGDCGFDKADWGPLQARVETYKGLVFANWDPEAPDLKTYLSDAMP-YMDVMLdrtEAGTEA 207
+                           *********************875414455789***********************************86653.333333000456899 PP
+
+            Rieske.aln 187 igrftq.klpnnwklyfen.vkdsyhasll 214
+                           ig + +  +p nwk+  e+   d yha  +
+  sp|Q46372|BPHA_COMTE 208 IGGIQKwVIPCNWKFAAEQfCSDMYHAGTM 237
+                           998765258*******99835899**9755 PP
+
+>> sp|Q0T1Y1|HCAE_SHIF8  3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Shigella flexneri serotype 5b (st
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.2   0.0   3.6e-32   2.2e-28       5     215 ..       9     218 ..       6     225 .. 0.89
+   2 ?    1.6   0.0       0.5   3.1e+03     323     385 ..     336     402 ..     313     435 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 104.2 bits;  conditional E-value: 3.6e-32
+            Rieske.aln   5 iiqwhgatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialek 93 
+                           i q   + n rv   iytd    + e +ri+ g  w +l+ es+ip  gdf  t+ ge  +vvvr+ d  i af n+c hr   ++   
+  sp|Q0T1Y1|HCAE_SHIF8   9 IYQLIDTQNGRVTPRIYTDPDIYQLELERIF-GRCWLFLAHESQIPKPGDFFNTYMGEDAVVVVRQKDGSIKAFLNQCRHRAMRVSYAD 96 
+                           66778889**********************8.99******************************************************* PP
+
+            Rieske.aln  94 sgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprkl.rvavfcglvfgsfsedvpsiedylgpeiceriervlh 181
+                            g t +f c yh wsy  +g+l  v +e         p  +ck   g  ++  v  + gl+fg++    p + dylg +i+  ++ +l 
+  sp|Q0T1Y1|HCAE_SHIF8  97 CGNTRAFTCPYHGWSYGINGELIDVPLEPRA-----YPQGLCKSHWGLNEVpCVESYKGLIFGNWDTSAPGLHDYLG-DIAWYLDGMLD 179
+                           ***************************9876.....56669999999988735889********************9.68888998887 PP
+
+            Rieske.aln 182 k...pvevigrftqklpn.nwklyfenv.kdsyhasllh 215
+                           +     e++g + + + n nwk+  e+   d yha + h
+  sp|Q0T1Y1|HCAE_SHIF8 180 RregGTEIVGGVQKWVINcNWKFPAEQFaSDQYHALFSH 218
+                           63335899999887665449***999852799**98777 PP
+
+  == domain 2  score: 1.6 bits;  conditional E-value: 0.5
+            Rieske.aln 323 wtylgyaddsaeqrkvrlkq..anligpagfismedgavggfvqrgiag..aanldaviemggdheg 385
+                           wt+      ++++ k  +++  +   gpagf+  +d      +q+ + g  a n    +emg  +e 
+  sp|Q0T1Y1|HCAE_SHIF8 336 WTFCITDKAASDEVKAAFENsaTRAFGPAGFLEQDDSENWCEIQKLLKGhrARNSKLCLEMGLGQEK 402
+                           55554444444444554443114578************9999**99998556788889999965553 PP
+
+>> sp|A8A344|HCAE_ECOHS  3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Escherichia coli O9:H4 (strain HS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.0   0.0   4.1e-32   2.5e-28       5     215 ..       9     218 ..       6     225 .. 0.89
+   2 ?    1.5   0.0      0.54   3.4e+03     334     385 ..     347     402 ..     309     435 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 104.0 bits;  conditional E-value: 4.1e-32
+            Rieske.aln   5 iiqwhgatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialek 93 
+                           i q   + n rv   iytd    + e +ri+ g  w +l+ es+ip  gdf  t+ ge  +vvvr+ d  i af n+c hr   ++   
+  sp|A8A344|HCAE_ECOHS   9 IYQLIDTQNGRVTPRIYTDPDIYQLELERIF-GRCWLFLAHESQIPKPGDFFNTYMGEDAVVVVRQKDGSIKAFLNQCRHRAMRVSYAD 96 
+                           66778889**********************8.99******************************************************* PP
+
+            Rieske.aln  94 sgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprkl.rvavfcglvfgsfsedvpsiedylgpeiceriervlh 181
+                            g t +f c yh wsy  +g+l  v +e         p  +ck   g  ++  v  + gl+fg++    p + dylg +i+  ++ +l 
+  sp|A8A344|HCAE_ECOHS  97 CGNTRAFTCPYHGWSYGINGELIDVPLEPRA-----YPQGLCKSHWGLNEVpCVESYKGLIFGNWDTSAPGLRDYLG-DIAWYLDGMLD 179
+                           ***************************9876.....56669999999988735889********************9.68888998887 PP
+
+            Rieske.aln 182 k...pvevigrftqklpn.nwklyfenv.kdsyhasllh 215
+                           +     e++g + + + n nwk+  e+   d yha + h
+  sp|A8A344|HCAE_ECOHS 180 RregGTEIVGGVQKWVINcNWKFPAEQFaSDQYHALFSH 218
+                           63335899999887665449***999852799**98777 PP
+
+  == domain 2  score: 1.5 bits;  conditional E-value: 0.54
+            Rieske.aln 334 eqrkvrlkq..anligpagfismedgavggfvqrgiag..aanldaviemggdheg 385
+                           ++ k  +++  +   gpagf+  +d      +q+ + g  a n    +emg  +e 
+  sp|A8A344|HCAE_ECOHS 347 DEVKAAFENsaTRAFGPAGFLEQDDSENWCEIQKLLKGhrARNSKLCLEMGLGQEK 402
+                           344444433114578************9999**99998556788889999965553 PP
+
+>> sp|P0ABR5|HCAE_ECOLI  3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Escherichia coli (strain K12) OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.0   0.0   4.1e-32   2.5e-28       5     215 ..       9     218 ..       6     225 .. 0.89
+   2 ?    0.8   0.0      0.92   5.7e+03     343     385 ..     358     402 ..     321     435 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 104.0 bits;  conditional E-value: 4.1e-32
+            Rieske.aln   5 iiqwhgatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialek 93 
+                           i q   + n rv   iytd    + e +ri+ g  w +l+ es+ip  gdf  t+ ge  +vvvr+ d  i af n+c hr   ++   
+  sp|P0ABR5|HCAE_ECOLI   9 IYQLIDTQNGRVTPRIYTDPDIYQLELERIF-GRCWLFLAHESQIPKPGDFFNTYMGEDAVVVVRQKDGSIKAFLNQCRHRAMRVSYAD 96 
+                           66778889**********************8.99******************************************************* PP
+
+            Rieske.aln  94 sgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprkl.rvavfcglvfgsfsedvpsiedylgpeiceriervlh 181
+                            g t +f c yh wsy  +g+l  v +e         p  +ck   g  ++  v  + gl+fg++    p + dylg +i+  ++ +l 
+  sp|P0ABR5|HCAE_ECOLI  97 CGNTRAFTCPYHGWSYGINGELIDVPLEPRA-----YPQGLCKSHWGLNEVpCVESYKGLIFGNWDTSAPGLRDYLG-DIAWYLDGMLD 179
+                           ***************************9876.....56669999999988735889********************9.68888998887 PP
+
+            Rieske.aln 182 k...pvevigrftqklpn.nwklyfenv.kdsyhasllh 215
+                           +     e++g + + + n nwk+  e+   d yha + h
+  sp|P0ABR5|HCAE_ECOLI 180 RregGTEIVGGVQKWVINcNWKFPAEQFaSDQYHALFSH 218
+                           63335899999887665449***999852799**98777 PP
+
+  == domain 2  score: 0.8 bits;  conditional E-value: 0.92
+            Rieske.aln 343 anligpagfismedgavggfvqrgiag..aanldaviemggdheg 385
+                           +   gpagf+  +d      +q+ + g  a n    +emg  +e 
+  sp|P0ABR5|HCAE_ECOLI 358 TRAFGPAGFLEQDDSENWCEIQKLLKGhrARNSKLCLEMGLGQEK 402
+                           4568***********999999999988546688888999965553 PP
+
+>> sp|P0ABR6|HCAE_ECO57  3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Escherichia coli O157:H7 OX=83334
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.0   0.0   4.1e-32   2.5e-28       5     215 ..       9     218 ..       6     225 .. 0.89
+   2 ?    0.8   0.0      0.92   5.7e+03     343     385 ..     358     402 ..     321     435 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 104.0 bits;  conditional E-value: 4.1e-32
+            Rieske.aln   5 iiqwhgatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialek 93 
+                           i q   + n rv   iytd    + e +ri+ g  w +l+ es+ip  gdf  t+ ge  +vvvr+ d  i af n+c hr   ++   
+  sp|P0ABR6|HCAE_ECO57   9 IYQLIDTQNGRVTPRIYTDPDIYQLELERIF-GRCWLFLAHESQIPKPGDFFNTYMGEDAVVVVRQKDGSIKAFLNQCRHRAMRVSYAD 96 
+                           66778889**********************8.99******************************************************* PP
+
+            Rieske.aln  94 sgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprkl.rvavfcglvfgsfsedvpsiedylgpeiceriervlh 181
+                            g t +f c yh wsy  +g+l  v +e         p  +ck   g  ++  v  + gl+fg++    p + dylg +i+  ++ +l 
+  sp|P0ABR6|HCAE_ECO57  97 CGNTRAFTCPYHGWSYGINGELIDVPLEPRA-----YPQGLCKSHWGLNEVpCVESYKGLIFGNWDTSAPGLRDYLG-DIAWYLDGMLD 179
+                           ***************************9876.....56669999999988735889********************9.68888998887 PP
+
+            Rieske.aln 182 k...pvevigrftqklpn.nwklyfenv.kdsyhasllh 215
+                           +     e++g + + + n nwk+  e+   d yha + h
+  sp|P0ABR6|HCAE_ECO57 180 RregGTEIVGGVQKWVINcNWKFPAEQFaSDQYHALFSH 218
+                           63335899999887665449***999852799**98777 PP
+
+  == domain 2  score: 0.8 bits;  conditional E-value: 0.92
+            Rieske.aln 343 anligpagfismedgavggfvqrgiag..aanldaviemggdheg 385
+                           +   gpagf+  +d      +q+ + g  a n    +emg  +e 
+  sp|P0ABR6|HCAE_ECO57 358 TRAFGPAGFLEQDDSENWCEIQKLLKGhrARNSKLCLEMGLGQEK 402
+                           4568***********999999999988546688888999965553 PP
+
+>> sp|Q3YZ15|HCAE_SHISS  3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Shigella sonnei (strain Ss046) OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.0   0.0   4.1e-32   2.5e-28       5     215 ..       9     218 ..       6     225 .. 0.89
+   2 ?    0.8   0.0      0.92   5.7e+03     343     385 ..     358     402 ..     321     435 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 104.0 bits;  conditional E-value: 4.1e-32
+            Rieske.aln   5 iiqwhgatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialek 93 
+                           i q   + n rv   iytd    + e +ri+ g  w +l+ es+ip  gdf  t+ ge  +vvvr+ d  i af n+c hr   ++   
+  sp|Q3YZ15|HCAE_SHISS   9 IYQLIDTQNGRVTPRIYTDPDIYQLELERIF-GRCWLFLAHESQIPKPGDFFNTYMGEDAVVVVRQKDGSIKAFLNQCRHRAMRVSYAD 96 
+                           66778889**********************8.99******************************************************* PP
+
+            Rieske.aln  94 sgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprkl.rvavfcglvfgsfsedvpsiedylgpeiceriervlh 181
+                            g t +f c yh wsy  +g+l  v +e         p  +ck   g  ++  v  + gl+fg++    p + dylg +i+  ++ +l 
+  sp|Q3YZ15|HCAE_SHISS  97 CGNTRAFTCPYHGWSYGINGELIDVPLEPRA-----YPQGLCKSHWGLNEVpCVESYKGLIFGNWDTSAPGLRDYLG-DIAWYLDGMLD 179
+                           ***************************9876.....56669999999988735889********************9.68888998887 PP
+
+            Rieske.aln 182 k...pvevigrftqklpn.nwklyfenv.kdsyhasllh 215
+                           +     e++g + + + n nwk+  e+   d yha + h
+  sp|Q3YZ15|HCAE_SHISS 180 RregGTEIVGGVQKWVINcNWKFPAEQFaSDQYHALFSH 218
+                           63335899999887665449***999852799**98777 PP
+
+  == domain 2  score: 0.8 bits;  conditional E-value: 0.92
+            Rieske.aln 343 anligpagfismedgavggfvqrgiag..aanldaviemggdheg 385
+                           +   gpagf+  +d      +q+ + g  a n    +emg  +e 
+  sp|Q3YZ15|HCAE_SHISS 358 TRAFGPAGFLEQDDSENWCEIQKLLKGhrARNSKLCLEMGLGQEK 402
+                           4568***********999999999988546688888999965553 PP
+
+>> sp|Q31XV2|HCAE_SHIBS  3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Shigella boydii serotype 4 (strai
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.8   0.0   9.5e-32   5.9e-28       5     215 ..       9     218 ..       6     225 .. 0.89
+   2 ?    0.8   0.0      0.92   5.7e+03     343     385 ..     358     402 ..     321     435 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 102.8 bits;  conditional E-value: 9.5e-32
+            Rieske.aln   5 iiqwhgatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialek 93 
+                           i q   + n rv   iytd    + e +ri+ g  w +l+ es+ip  gdf  t+ ge  +vvvr+ d  i af n+c hr   ++   
+  sp|Q31XV2|HCAE_SHIBS   9 IYQLIDTQNGRVTPRIYTDPDIYQLELERIF-GRCWLFLAHESQIPKPGDFFNTYMGEDAVVVVRQKDGSIKAFLNQCRHRAMRVSYAD 96 
+                           66778889**********************8.99******************************************************* PP
+
+            Rieske.aln  94 sgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprkl.rvavfcglvfgsfsedvpsiedylgpeiceriervlh 181
+                            g t +f c yh wsy  +g+l  v +e         p  +ck   g  ++  v  + gl+fg++    p + dylg +i+  ++ +l 
+  sp|Q31XV2|HCAE_SHIBS  97 CGNTRAFTCPYHGWSYGINGELIDVPLEPRA-----YPQGLCKSHWGLNEVpCVESYKGLIFGNWDTSAPGLRDYLG-DIAWYLDGMLD 179
+                           ***************************9876.....56669999999988735889********************9.68888998887 PP
+
+            Rieske.aln 182 k...pvevigrftqklpn.nwklyfenv.kdsyhasllh 215
+                           +     e++g + + + n nwk   e+   d yha + h
+  sp|Q31XV2|HCAE_SHIBS 180 RregGTEIVGGVQKWVINcNWKSPAEQFaSDQYHALFSH 218
+                           63335899999887665449***999852799**98777 PP
+
+  == domain 2  score: 0.8 bits;  conditional E-value: 0.92
+            Rieske.aln 343 anligpagfismedgavggfvqrgiag..aanldaviemggdheg 385
+                           +   gpagf+  +d      +q+ + g  a n    +emg  +e 
+  sp|Q31XV2|HCAE_SHIBS 358 TRAFGPAGFLEQDDSENWCEIQKLLKGhrARNSKLCLEMGLGQEK 402
+                           4568***********999999999988546688888999965553 PP
+
+>> sp|Q7N4W0|HCAE_PHOLL  3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Photorhabdus laumondii subsp. lau
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.6   0.0   2.8e-32   1.7e-28      10     216 ..      14     219 ..       6     241 .. 0.90
+   2 ?   -2.4   0.0       8.2   5.1e+04     345     370 ..     360     385 ..     336     426 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 104.6 bits;  conditional E-value: 2.8e-32
+            Rieske.aln  10 gatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtd 98 
+                            a   rv   iy d    + e +ri+ g  w +l+ +s+ip  gdf  t+ ge  +vvvr+ +  + af n+c hr   ++   sg t 
+  sp|Q7N4W0|HCAE_PHOLL  14 DARAGRVTPQIYIDPELYQLELERIF-GRCWLFLAHQSQIPNPGDFFNTYMGEDSVVVVRQKNGSVKAFLNQCRHRSMRVCYADSGNTR 101
+                           677889999****************8.99************************************************************ PP
+
+            Rieske.aln  99 sfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprkl.rvavfcglvfgsfsedvpsiedylgpeiceriervlhk...p 183
+                           +f c yh wsy  +g l  v +e         p  +cke+ g +++  v  + gl+fg++    ps+ dylg  ++  ++ vl +    
+  sp|Q7N4W0|HCAE_PHOLL 102 AFTCPYHGWSYGVDGRLIDVPLEAC-----AYPHGLCKEQWGLQEVpCVENYKGLIFGNWDTTAPSLIDYLGD-MAWYLDGVLDRregG 184
+                           **********************975.....67999*******999845889********************95.677899999763335 PP
+
+            Rieske.aln 184 vevigrftqklpn.nwklyfenv.kdsyhasllhm 216
+                            evig + + l n nwkl  e+   d yha + h 
+  sp|Q7N4W0|HCAE_PHOLL 185 TEVIGGVQKWLINcNWKLPAEQFaGDQYHALFSHA 219
+                           8*****999887669****99862699**987774 PP
+
+  == domain 2  score: -2.4 bits;  conditional E-value: 8.2
+            Rieske.aln 345 ligpagfismedgavggfvqrgiaga 370
+                             gpagf+  +d      +q+ + g 
+  sp|Q7N4W0|HCAE_PHOLL 360 AFGPAGFLEQDDSENWVEIQKVLRGY 385
+                           57888888888877766666666653 PP
+
+>> sp|Q83K39|HCAE_SHIFL  3-phenylpropionate/cinnamic acid dioxygenase subunit alpha OS=Shigella flexneri OX=623 GN=hcaE 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.1   0.0   1.6e-31   9.7e-28       5     215 ..       9     218 ..       6     225 .. 0.89
+   2 ?    0.8   0.0      0.92   5.7e+03     343     385 ..     358     402 ..     321     435 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 102.1 bits;  conditional E-value: 1.6e-31
+            Rieske.aln   5 iiqwhgatntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialek 93 
+                           i q   + n rv   iytd    + e +ri+ g  w +l+ es+ip  gdf  t+ ge  +vvvr+ d  i af n+c hr   ++   
+  sp|Q83K39|HCAE_SHIFL   9 IYQLIDTQNGRVTPRIYTDPDIYQLELERIF-GRCWLFLAHESQIPKPGDFFNTYMGEDAVVVVRQKDGSIKAFLNQCRHRAMRVSYAD 96 
+                           66778889**********************8.99******************************************************* PP
+
+            Rieske.aln  94 sgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprkl.rvavfcglvfgsfsedvpsiedylgpeiceriervlh 181
+                            g + +f c yh wsy  +g+l  v +e         p  +ck   g  ++  v  + gl+fg++    p + dylg +i+  ++ +l 
+  sp|Q83K39|HCAE_SHIFL  97 CGNSRAFTCPYHGWSYGINGELIDVPLEPRA-----YPQGLCKSHWGLNEVpCVESYKGLIFGNWDTSAPGLHDYLG-DIAWYLDGMLD 179
+                           ***************************9876.....56669999999988735889********************9.68888998887 PP
+
+            Rieske.aln 182 k...pvevigrftqklpn.nwklyfenv.kdsyhasllh 215
+                           +     e++g + + + n nwk+  e+   d yha + h
+  sp|Q83K39|HCAE_SHIFL 180 RregGTEIVGGVQKWVINcNWKFPAEQFaSDQYHALFSH 218
+                           63335899999887665449***999852799**98777 PP
+
+  == domain 2  score: 0.8 bits;  conditional E-value: 0.92
+            Rieske.aln 343 anligpagfismedgavggfvqrgiag..aanldaviemggdheg 385
+                           +   gpagf+  +d      +q+ + g  a n    +emg  +e 
+  sp|Q83K39|HCAE_SHIFL 358 TRAFGPAGFLEQDDSENWCEIQKLLKGhrARNSKLCLEMGLGQEK 402
+                           4568***********999999999988546688888999965553 PP
+
+>> sp|Q52438|BPHA1_PSES1  Biphenyl dioxygenase subunit alpha OS=Pseudomonas sp. (strain KKS102) OX=307 GN=bphA1 PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.9   0.0   1.8e-31   1.1e-27      20     214 ..      40     238 ..      29     278 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 101.9 bits;  conditional E-value: 1.8e-31
+             Rieske.aln  20 iytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhaw 107
+                            iy+d    + e +ri+    w  l  e+ ip +gd+ tt+ ge p+++vr+ d  i  f n+c hrg  i+   +g + +f c yh w
+  sp|Q52438|BPHA1_PSES1  40 IYADQDLYEIELERIFA-RSWLLLGHEAHIPKTGDYLTTYMGEDPVIMVRQKDGSIKVFLNQCRHRGMRICRSDAGNAKAFTCTYHGW 126
+                            89999999999999995.68******************************************************************** PP
+
+             Rieske.aln 108 synrqgdltgvafekgvkg.qggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpei...ceriervlhkpvevigrf. 190
+                            +y+  g+l  v +ek     +    + f k + gp + rv  + gl+f ++  + p ++ yl   +      ++r       v+g + 
+  sp|Q52438|BPHA1_PSES1 127 AYDIAGNLVNVPYEKEAFCdKKEGDCGFDKADWGPLQARVETYKGLIFANWDAEAPDLKTYLSDAMpymDVMLDRTEAG-TTVVGGMq 213
+                            ***************875414455789***********************************86541104445555444.45665550 PP
+
+             Rieske.aln 191 tqklpnnwklyfen.vkdsyhasll 214
+                               +p nwk+  e+   d yha  +
+  sp|Q52438|BPHA1_PSES1 214 KWVIPCNWKFAAEQfCSDMYHAGTM 238
+                            5579*******99835899**9754 PP
+
+>> sp|Q9RBG5|ABSAA_ALCSP  2-aminobenzenesulfonate 2,3-dioxygenase subunit alpha OS=Alcaligenes sp. OX=512 GN=absAa PE=1 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.4   0.2   8.5e-30   5.3e-26      19     212 ..      23     211 ..      12     228 .. 0.90
+   2 ?    2.9   0.0      0.21   1.3e+03     266     362 ..     242     346 ..     236     365 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 96.4 bits;  conditional E-value: 8.5e-30
+             Rieske.aln  19 giytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyha 106
+                             +y d    ++e++ri+  +vw+++c  seip + d+rt    +tp+vv+r  d+++ +f n c+hrg  i     g + +++c++h 
+  sp|Q9RBG5|ABSAA_ALCSP  23 RVYWDHEIFEEEKKRIF-SKVWKFVCHVSEIPSTFDYRTIKVADTPLVVIRGKDEKVRTFVNACSHRGIQIVRRPRGNAKTMECIFHR 109
+                            57888888999*****9.58******************************************************************** PP
+
+             Rieske.aln 107 wsynr.qgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhkpvevigrftqk 193
+                            w+y+  +g+ltg    k   g    p++f  ++ g r++r   + glvf ++ +   s+ +++g  +    + +  + +ev   + q 
+  sp|Q9RBG5|ABSAA_ALCSP 110 WNYDStNGELTGAP-RKEAYG----PSNFDLKQCGLREVRTETYLGLVFVNLDDSAVSLSEFIGDALEMEKDILGAEELEVFDYYEQV 192
+                            ***85379***965.444443....999999999******************************99877777777899********** PP
+
+             Rieske.aln 194 lpnnwklyfenvkdsyhas 212
+                            l  nwk + e   d yh  
+  sp|Q9RBG5|ABSAA_ALCSP 193 LDTNWKNWQETNLDLYHEF 211
+                            ****************964 PP
+
+  == domain 2  score: 2.9 bits;  conditional E-value: 0.21
+             Rieske.aln 266 eryrlkdpsllegfeefedgvtl........qilsvfpgfvlqqiqnsiavrqllpksissselnwtylgyaddsaeqrkvrlkq.an 344
+                            eryr +  s   g+++ +dg+ l        q++++fp + ++     i +    p s   + +++  lg   ds  +r  r+++ + 
+  sp|Q9RBG5|ABSAA_ALCSP 242 ERYRAQ-YSNYAGWQDRDDGIRLpglhpnefQLVNLFPDLAINARGTVIRIDSQTPISPGKTLVQYRGLGLKRDSERERVQRVRDyTS 328
+                            677764.4566778888888764444444449999********************************************999987256 PP
+
+             Rieske.aln 345 ligpagfismedgavggf 362
+                            + gp g    ed     +
+  sp|Q9RBG5|ABSAA_ALCSP 329 IWGPFGTNLAEDTLATSL 346
+                            679999888888766555 PP
+
+>> sp|O85673|ANTDA_ACIAD  Anthranilate 1,2-dioxygenase large subunit OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.2   0.1   1.2e-30   7.7e-27      35     343 ..      47     365 ..      26     392 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 99.2 bits;  conditional E-value: 1.2e-30
+             Rieske.aln  35 yrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafek 122
+                            +  +vw y c eseip   df t   g  p++v rd   e++a+ n c hrga ++    g    f c +haw y+ +g l       
+  sp|O85673|ANTDA_ACIAD  47 F-EKVWIYACHESEIPNNNDFVTVQIGRQPMIVSRDGKGELHAMVNACEHRGATLTRVAKGNQSVFTCPFHAWCYKSDGRLVK----- 128
+                            4.57****************************************************************************975..... PP
+
+             Rieske.aln 123 gvkgqggmpasfckeehgprklrvavfcglvfgsfsed.vpsiedylgpeice...riervlhkpvevi.grftqklpnnwklyfenv 205
+                             vk  g     f k  +g ++ r+a + g+vf s+  +   s+ed+lg   +     +++     +ev+ g+ +  +  nwkl  en 
+  sp|O85673|ANTDA_ACIAD 129 -VKAPGEYCEDFDKSSRGLKQGRIASYRGFVFVSLDTQaTDSLEDFLGDAKVFldlMVDQSPTGELEVLqGKSAYTFAGNWKLQNENG 215
+                            .7999*****************************9765168*******8765411134555555678865899999************ PP
+
+             Rieske.aln 206 kdsyhasllhmffttfelnrlsqkggvivdesgghhvsysmidrsakdd...sykd..qairsdner......yrlkdpsllegfeef 282
+                             d yh s +h  + +    r  q      de      s      s  dd   s+k+    + sd         y    p l+e f e 
+  sp|O85673|ANTDA_ACIAD 216 LDGYHVSTVHYNYVSTVQHR-QQVNAAKGDELDTLDYSKLGAGDSETDDgwfSFKNghSVLFSDMPNptvrpgYNTVMPYLVEKFGEK 302
+                            **********9887654444.4555666677665544444444455555344566522456677432112233777889999999887 PP
+
+             Rieske.aln 283 edgvt...lqilsvfpg.fvlqqiqnsiavrqllpksissselnwtylgyaddsaeqrkvrlkqa 343
+                                +   l+ l+++p  f ++qi  s  +r + p + + +e+    +g   +s+e r+ r++q 
+  sp|O85673|ANTDA_ACIAD 303 RAEWAmhrLRNLNLYPSlFFMDQI--SSQLRIIRPVAWNKTEVISQCIGVKGESSEARRNRIRQF 365
+                            654431126778889973456666..455688889999999999999999999999999999885 PP
+
+>> sp|O24676|TECA1_CUPXP  Chlorobenzene dioxygenase subunit alpha OS=Cupriavidus sp. (strain PS12) OX=393999 GN=tecA1 PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.3   0.0   1.1e-30   7.1e-27      18     213 ..      33     225 ..      23     232 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 99.3 bits;  conditional E-value: 1.1e-30
+             Rieske.aln  18 fgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyh 105
+                              iytd    + e +r++ g  w  l  e++i   gd+ t + ge p++vvr+ d  i  f n+c hrg  i+   +g + +f c yh
+  sp|O24676|TECA1_CUPXP  33 PRIYTDEDLYQIELERVF-GRSWLLLGHETQIKKPGDYTTNYMGEDPVLVVRQKDGSIAVFLNQCRHRGMRICRSDAGNAKAFTCSYH 119
+                            569***999999999998.899****************************************************************** PP
+
+             Rieske.aln 106 awsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhk...pvevi.gr 189
+                             w+y+  g+l  v fe        +p  + k+e  p k rva + gl+f ++  d p ++ ylg      ++++l +     e i g 
+  sp|O24676|TECA1_CUPXP 120 GWAYDTAGNLVNVPFEAE-----SFP-CLDKKEWSPLKARVATYKGLIFANWDHDAPDLDTYLGEAK-FYMDHMLDRteaGTEAIpGV 200
+                            ***************975.....455.57899********************************753.33444443311145666255 PP
+
+             Rieske.aln 190 ftqklpnnwklyfenv.kdsyhasl 213
+                                +p nwkl  e+   d+yha+ 
+  sp|O24676|TECA1_CUPXP 201 QKWVIPCNWKLAAEQFcWDAYHAAT 225
+                            66679********98527****974 PP
+
+>> sp|Q07944|BEDC1_PSEPU  Benzene 1,2-dioxygenase subunit alpha OS=Pseudomonas putida OX=303 GN=bedC1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.6   0.1   3.1e-29   1.9e-25      14     212 ..      29     224 ..      19     233 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 94.6 bits;  conditional E-value: 3.1e-29
+             Rieske.aln  14 trvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfq 101
+                             r+   iytd    + e +r++    w  l  e+ i   gd+ tt+ ge p+vvvr+ d  i  f n+c hrg  i+   +g + +f 
+  sp|Q07944|BEDC1_PSEPU  29 GRIDPRIYTDEDLYQLELERVFA-RSWLLLGHETHIRKPGDYFTTYMGEDPVVVVRQKDASIAVFLNQCRHRGMRICRSDAGNAKAFT 115
+                            5777789****99999****995.68************************************************************** PP
+
+             Rieske.aln 102 cvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervl...hkpvev 186
+                            c yh w+y+  g+l  v +e          a + k+e  p k rv  + gl+f ++ e+   ++ ylg      ++++l       ev
+  sp|Q07944|BEDC1_PSEPU 116 CSYHGWAYDTAGNLINVPYEAE------SFACLDKKEWSPLKARVETYKGLIFANWDENAIDLDTYLGEAK-FYMDHMLdrtEAGTEV 196
+                            *******************965......468999**********************************754.3444444110456899 PP
+
+             Rieske.aln 187 igrftq.klpnnwklyfen.vkdsyhas 212
+                            i  + +  +p nwk+  e+   d yha 
+  sp|Q07944|BEDC1_PSEPU 197 IPGIQKwVIPCNWKFAAEQfCSDMYHAG 224
+                            966554268******999835799**96 PP
+
+>> sp|O07824|NDOB_PSEFL  Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas fluorescens OX=294
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.6   0.0   5.2e-25   3.2e-21      30     215 ..      29     213 ..      20     237 .. 0.86
+   2 !   12.2   0.1   0.00031       1.9     322     408 ..     326     425 ..     304     430 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 80.6 bits;  conditional E-value: 5.2e-25
+            Rieske.aln  30 eqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgv 118
+                            + r      w +l  +s ip  gd+ t+  g   ++v r++d  i af n c hrg  +   ++g +  f c yh w +  +g+l  v
+  sp|O07824|NDOB_PSEFL  29 HELRTIXARNWLFLTHDSLIPSPGDYVTAKMGIDEVIVSRQSDGSIRAFLNVCRHRGKTLVNAEAGNAKGFVCSYHGWGFGSNGELQSV 117
+                           4556677789**************************************************99*************************** PP
+
+            Rieske.aln 119 afekgvkgqggmpasfckeehgprkl.rvavfcglvfgsfsedvpsiedylgpeiceriervlhk..pvevigrftqk.lpnnwklyfe 203
+                            fek + g+     s+ k+  g +++ rv  f g+++g f ++ ps+ dylg      +e ++++   +e++g   +  +  nwk   e
+  sp|O07824|NDOB_PSEFL 118 PFEKELYGE-----SLNKKCLGLKEVaRVESFHGFIYGCFDQEAPSLMDYLGDAA-WYLEPIFKHsgGLELVGPPGKVvIKANWKAPAE 200
+                           ******997.....56666666665439************************765.56676665412589999877652679******9 PP
+
+            Rieske.aln 204 n.vkdsyhasllh 215
+                           n v d+yh    h
+  sp|O07824|NDOB_PSEFL 201 NfVGDAYHVGWTH 213
+                           9678****98777 PP
+
+  == domain 2  score: 12.2 bits;  conditional E-value: 0.00031
+            Rieske.aln 322 nwtylgyaddsaeqrkvrlkqa..nligpagfismedg.avggfvqrgiaga...anldaviemggdhegss.......egratetsvr 397
+                            wty     d  e+ k rl +a     gpagf   +d   +    q g       ++l + + +g d  g +       +    ets r
+  sp|O07824|NDOB_PSEFL 326 VWTYAIVEKDMPEDLKRRLADAvqRTFGPAGFWESDDNdNMETASQNGKKYQsrdSDLISNLGFGKDVYGDAvypgvvgKSAIGETSYR 414
+                           5******************99833579*****9777652566666777543310033333344455555543121121133457***** PP
+
+            Rieske.aln 398 gfwkayrkhmg 408
+                           gf++ay+ h+ 
+  sp|O07824|NDOB_PSEFL 415 GFYRAYQAHVS 425
+                           ********986 PP
+
+>> sp|A5W4F2|BNZA_PSEP1  Benzene 1,2-dioxygenase subunit alpha OS=Pseudomonas putida (strain ATCC 700007 / DSM 6899 / JC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.1   0.1   4.3e-29   2.7e-25      15     212 ..      30     224 ..      20     232 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 94.1 bits;  conditional E-value: 4.3e-29
+            Rieske.aln  15 rvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcv 103
+                           r+   iytd    + e +r++    w  l  e++i   gd+ tt+ ge p+vvvr+ d  i  f n+c hrg  i+   +g + +f c 
+  sp|A5W4F2|BNZA_PSEP1  30 RIDPRIYTDEDLYQLELERVFA-RSWLLLGHETQIRKPGDYITTYMGEDPVVVVRQKDASIAVFLNQCRHRGMRICRADAGNAKAFTCS 117
+                           777789****99999****995.68**************************************************************** PP
+
+            Rieske.aln 104 yhawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhk...pvevi.g 188
+                           yh w+y+  g+l  v +e          a + k+e  p k rv  + gl+f ++ e+   ++ ylg      ++++l +     e i g
+  sp|A5W4F2|BNZA_PSEP1 118 YHGWAYDTAGNLVNVPYEAE------SFACLNKKEWSPLKARVETYKGLIFANWDENAVDLDTYLGEAK-FYMDHMLDRteaGTEAIpG 199
+                           *****************965......568999**********************************753.3344444331114566625 PP
+
+            Rieske.aln 189 rftqklpnnwklyfen.vkdsyhas 212
+                                +p nwk+  e+   d yha 
+  sp|A5W4F2|BNZA_PSEP1 200 VQKWVIPCNWKFAAEQfCSDMYHAG 224
+                           566679******999835799**96 PP
+
+>> sp|P0C618|BNZA_PSEPU  Benzene 1,2-dioxygenase subunit alpha OS=Pseudomonas putida OX=303 GN=bnzA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.1   0.1   4.3e-29   2.7e-25      15     212 ..      30     224 ..      20     232 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 94.1 bits;  conditional E-value: 4.3e-29
+            Rieske.aln  15 rvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcv 103
+                           r+   iytd    + e +r++    w  l  e++i   gd+ tt+ ge p+vvvr+ d  i  f n+c hrg  i+   +g + +f c 
+  sp|P0C618|BNZA_PSEPU  30 RIDPRIYTDEDLYQLELERVFA-RSWLLLGHETQIRKPGDYITTYMGEDPVVVVRQKDASIAVFLNQCRHRGMRICRADAGNAKAFTCS 117
+                           777789****99999****995.68**************************************************************** PP
+
+            Rieske.aln 104 yhawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhk...pvevi.g 188
+                           yh w+y+  g+l  v +e          a + k+e  p k rv  + gl+f ++ e+   ++ ylg      ++++l +     e i g
+  sp|P0C618|BNZA_PSEPU 118 YHGWAYDTAGNLVNVPYEAE------SFACLNKKEWSPLKARVETYKGLIFANWDENAVDLDTYLGEAK-FYMDHMLDRteaGTEAIpG 199
+                           *****************965......568999**********************************753.3344444331114566625 PP
+
+            Rieske.aln 189 rftqklpnnwklyfen.vkdsyhas 212
+                                +p nwk+  e+   d yha 
+  sp|P0C618|BNZA_PSEPU 200 VQKWVIPCNWKFAAEQfCSDMYHAG 224
+                           566679******999835799**96 PP
+
+>> sp|Q51494|NDOB_PSEAI  Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas aeruginosa OX=287 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.1   0.0   1.5e-24   9.3e-21      37     215 ..      36     213 ..      18     219 .. 0.84
+   2 !   12.9   0.1   0.00019       1.2     322     408 ..     326     425 ..     308     430 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 79.1 bits;  conditional E-value: 1.5e-24
+            Rieske.aln  37 gevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafekgvk 125
+                              w +l  +s ip  gd+ t+  g   ++v r+ d  i af n c hrg  +   ++g +  f c yh w +  +g+l  v fek + 
+  sp|Q51494|NDOB_PSEAI  36 ARNWLFLTHDSLIPSPGDYVTAKMGVDEVIVSRQNDGSIRAFLNVCRHRGKTLVHAEAGNAKGFVCSYHGWGFGANGELQSVPFEKELY 124
+                           45699***********************************************************************************9 PP
+
+            Rieske.aln 126 gqggmpasfckeehgprk.lrvavfcglvfgsfsedvpsiedylgpeiceriervlhk..pvevigrftqk.lpnnwklyfenvk.dsy 209
+                           g+        k+  g ++  rv  f g+++g f e+ ps++dy+g      +e ++++   +e+ig   +  +  nwk   en   d+y
+  sp|Q51494|NDOB_PSEAI 125 GEALD-----KKCMGLKEvARVESFHGFIYGCFDEEAPSLKDYMGDAG-WYLEPMFKHsgGLELIGPPGKViIKANWKAPAENFTgDAY 207
+                           98644.....44445444159************************764.55666554313589**9987652578*******9744999 PP
+
+            Rieske.aln 210 hasllh 215
+                           h    h
+  sp|Q51494|NDOB_PSEAI 208 HVGWTH 213
+                           987766 PP
+
+  == domain 2  score: 12.9 bits;  conditional E-value: 0.00019
+            Rieske.aln 322 nwtylgyaddsaeqrkvrlkqa..nligpagfismedgavggfvq....rgiagaanldaviemggdhegss.......egratetsvr 397
+                            wty     d  e+ k rl +a     gpagf   +d      v     +  +   +l + + +ggd  g         +    ets r
+  sp|Q51494|NDOB_PSEAI 326 VWTYAMVEKDMPEDLKRRLVDAvqRTFGPAGFWESDDNDNMETVSqnakKYQSRDGDLVSNLGFGGDVYGDEvypgivgKSAIGETSYR 414
+                           5******************99833579*****9998875444443010034445556667778899988764222221133457***** PP
+
+            Rieske.aln 398 gfwkayrkhmg 408
+                           gf++ay  h+ 
+  sp|Q51494|NDOB_PSEAI 415 GFYRAYGAHIS 425
+                           *******9986 PP
+
+>> sp|Q45695|DNTAC_BURSR  2,4-dinitrotoluene dioxygenase system, large oxygenase component OS=Burkholderia sp. (strain R
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.7   0.0     8e-24     5e-20      20     215 ..      23     216 ..       8     223 .. 0.85
+   2 !   11.6   0.0   0.00046       2.9     322     408 ..     329     427 ..     314     432 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 76.7 bits;  conditional E-value: 8e-24
+             Rieske.aln  20 iytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhaw 107
+                            iy d    ++e + i+    w +l  +s ip  gd+  +  g   ++v r+ d  + af n c hrg  i   ++g +  f c yh w
+  sp|Q45695|DNTAC_BURSR  23 IYGDKELFQHELKTIFA-RNWLFLTHDSLIPSPGDYVKAKMGVDEVIVSRQNDGSVRAFLNVCRHRGKTIVDAEAGNAKGFVCGYHGW 109
+                            67777777777777775.57******************************************************************** PP
+
+             Rieske.aln 108 synrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhk..pvevigrftqk 193
+                             y  +g+l  v fek + g+      +  +e      r+  f g+++g f  + p + dylg  ++  +e  +++   +e++g  ++ 
+  sp|Q45695|DNTAC_BURSR 110 GYGSNGELQSVPFEKELYGDAIKKKCLGLKEV----PRIESFHGFIYGCFDAEAPPLIDYLGD-VAWYLEPTFKHsgGLELVGPPAKV 192
+                            ******************98765555444332....3899**********************6.666777665441358****98876 PP
+
+             Rieske.aln 194 .lpnnwklyfen.vkdsyhasllh 215
+                             +  nwk++ en v d yh    h
+  sp|Q45695|DNTAC_BURSR 193 vVKGNWKVFAENfVGDIYHIGWTH 216
+                            1578*******967899*988776 PP
+
+  == domain 2  score: 11.6 bits;  conditional E-value: 0.00046
+             Rieske.aln 322 nwtylgyaddsaeqrkvrlkqan..ligpagfismedgavggfvqrgia.gaanldaviemg..gdheg.......ssegratetsvr 397
+                             wty     d  e+ k rl +a     gpag+   +d     + q      ++n d + ++g   d  g        s+   +et+ r
+  sp|Q45695|DNTAC_BURSR 329 AWTYAIVEKDMPEDLKRRLADAAqrSTGPAGYWESDDNDNMVLSQNAKKyQSSNSDLIADLGfgKDVYGdecypgvVSKSAFSETNHR 416
+                            7******************99862258******99998877777765431455666555554225554422222224677789***** PP
+
+             Rieske.aln 398 gfwkayrkhmg 408
+                            gf++ay+ h+ 
+  sp|Q45695|DNTAC_BURSR 417 GFYRAYQAHIS 427
+                            *********86 PP
+
+>> sp|O52382|NDOB_RALSP  Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Ralstonia sp. OX=54061 GN=nagA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.8   0.0   6.1e-23   3.8e-19      33     215 ..      31     211 ..      13     216 .. 0.85
+   2 !   12.6   0.0   0.00024       1.5     322     408 ..     324     423 ..     301     428 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 73.8 bits;  conditional E-value: 6.1e-23
+            Rieske.aln  33 riyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafe 121
+                            i+    w +l  +s ip  gd+ t+  g   ++v r+ d  + af n c hrg  +   ++g +  f c yh w +  +g+l  v fe
+  sp|O52382|NDOB_RALSP  31 TIF-ARNWLFLTHDSLIPSPGDYVTAKMGVDEVIVSRQNDGSVRAFLNVCRHRGKTLVHAEAGNAKGFVCSYHGWGFGSNGELQSVPFE 118
+                           444.45799******************************************************************************** PP
+
+            Rieske.aln 122 kgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhk..pvevigrftqk.lpnnwklyfen.vk 206
+                           k + g+      +  +e      r+  f g+++g f  + p++ dylg      +e ++++   +e++g   +  +  nwk   en v 
+  sp|O52382|NDOB_RALSP 119 KELYGDTIKKKCLGLKEV----PRIESFHGFIYGCFDAEAPTLVDYLGDAA-WYLEPIFKHsgGLELVGPPGKVvIKANWKAPAENfVG 202
+                           ***998765555444432....3899**********************765.56676665412589999877652679******99678 PP
+
+            Rieske.aln 207 dsyhasllh 215
+                           d+yh    h
+  sp|O52382|NDOB_RALSP 203 DAYHVGWTH 211
+                           ****98776 PP
+
+  == domain 2  score: 12.6 bits;  conditional E-value: 0.00024
+            Rieske.aln 322 nwtylgyaddsaeqrkvrlkqa..nligpagfismedga.vggfvqrg...iagaanldaviemggdhegs.......segratetsvr 397
+                            wty     d  e+ k rl +a     gpagf   +d   +    q      +  ++l a + +g d  g        ++    ets r
+  sp|O52382|NDOB_RALSP 324 VWTYAIVEKDMPEDLKRRLADAvqRTFGPAGFWESDDNDnMETESQNAkkyQSSNSDLIANLGFGKDVYGDecypgvvAKSAIGETSYR 412
+                           5******************99833579*****9887764144444443100334444445555555554431111111455668***** PP
+
+            Rieske.aln 398 gfwkayrkhmg 408
+                           gf++ay+ h+ 
+  sp|O52382|NDOB_RALSP 413 GFYRAYQAHIS 423
+                           *********86 PP
+
+>> sp|P0A110|NDOB_PSEPU  Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas putida OX=303 GN=n
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.6   0.0   1.7e-23   1.1e-19      35     215 ..      35     213 ..      19     219 .. 0.85
+   2 !   10.5   0.1     0.001       6.4     322     408 ..     326     425 ..     304     430 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 75.6 bits;  conditional E-value: 1.7e-23
+            Rieske.aln  35 yrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafekg 123
+                           +    w +l  +s ip  gd+ t+  g   ++v r+ d  i af n c hrg  +   ++g +  f c yh w +  +g+l  v fek 
+  sp|P0A110|NDOB_PSEPU  35 F-ARNWLFLTHDSLIPAPGDYVTAKMGIDEVIVSRQNDGSIRAFLNVCRHRGKTLVSVEAGNAKGFVCSYHGWGFGSNGELQSVPFEKD 122
+                           3.45799*********************************************98888889***************************** PP
+
+            Rieske.aln 124 vkgqggmpasfckeehgprkl.rvavfcglvfgsfsedvpsiedylgpeiceriervl.hk.pvevigrftqk.lpnnwklyfen.vkd 207
+                           + g+     s+ k+  g +++ rv  f g+++g f ++ p + dylg      +e ++ h   +e++g   +  +  nwk   en v d
+  sp|P0A110|NDOB_PSEPU 123 LYGE-----SLNKKCLGLKEVaRVESFHGFIYGCFDQEAPPLMDYLGDAAW-YLEPMFkHSgGLELVGPPGKVvIKANWKAPAENfVGD 205
+                           *997.....56666666665439************************8765.5665551443589999877652679*****999678* PP
+
+            Rieske.aln 208 syhasllh 215
+                           +yh    h
+  sp|P0A110|NDOB_PSEPU 206 AYHVGWTH 213
+                           ***98776 PP
+
+  == domain 2  score: 10.5 bits;  conditional E-value: 0.001
+            Rieske.aln 322 nwtylgyaddsaeqrkvrlkqa..nligpagfismedg.avggfvqrgiag...aanldaviemggdhegss.......egratetsvr 397
+                            wty     d  e+ k rl ++     gpagf   +d   +    q g       ++l + + +g d  g +       +    ets r
+  sp|P0A110|NDOB_PSEPU 326 VWTYAIVEKDMPEDLKRRLADSvqRTFGPAGFWESDDNdNMETASQNGKKYqsrDSDLLSNLGFGEDVYGDAvypgvvgKSAIGETSYR 414
+                           5*************9999987622679*****9777652566667777543101344445555566655543222121133457***** PP
+
+            Rieske.aln 398 gfwkayrkhmg 408
+                           gf++ay+ h+ 
+  sp|P0A110|NDOB_PSEPU 415 GFYRAYQAHVS 425
+                           ********986 PP
+
+>> sp|P0A111|NDOB_PSEU8  Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas sp. (strain C18) O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.6   0.0   1.7e-23   1.1e-19      35     215 ..      35     213 ..      19     219 .. 0.85
+   2 !   10.5   0.1     0.001       6.4     322     408 ..     326     425 ..     304     430 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 75.6 bits;  conditional E-value: 1.7e-23
+            Rieske.aln  35 yrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafekg 123
+                           +    w +l  +s ip  gd+ t+  g   ++v r+ d  i af n c hrg  +   ++g +  f c yh w +  +g+l  v fek 
+  sp|P0A111|NDOB_PSEU8  35 F-ARNWLFLTHDSLIPAPGDYVTAKMGIDEVIVSRQNDGSIRAFLNVCRHRGKTLVSVEAGNAKGFVCSYHGWGFGSNGELQSVPFEKD 122
+                           3.45799*********************************************98888889***************************** PP
+
+            Rieske.aln 124 vkgqggmpasfckeehgprkl.rvavfcglvfgsfsedvpsiedylgpeiceriervl.hk.pvevigrftqk.lpnnwklyfen.vkd 207
+                           + g+     s+ k+  g +++ rv  f g+++g f ++ p + dylg      +e ++ h   +e++g   +  +  nwk   en v d
+  sp|P0A111|NDOB_PSEU8 123 LYGE-----SLNKKCLGLKEVaRVESFHGFIYGCFDQEAPPLMDYLGDAAW-YLEPMFkHSgGLELVGPPGKVvIKANWKAPAENfVGD 205
+                           *997.....56666666665439************************8765.5665551443589999877652679*****999678* PP
+
+            Rieske.aln 208 syhasllh 215
+                           +yh    h
+  sp|P0A111|NDOB_PSEU8 206 AYHVGWTH 213
+                           ***98776 PP
+
+  == domain 2  score: 10.5 bits;  conditional E-value: 0.001
+            Rieske.aln 322 nwtylgyaddsaeqrkvrlkqa..nligpagfismedg.avggfvqrgiag...aanldaviemggdhegss.......egratetsvr 397
+                            wty     d  e+ k rl ++     gpagf   +d   +    q g       ++l + + +g d  g +       +    ets r
+  sp|P0A111|NDOB_PSEU8 326 VWTYAIVEKDMPEDLKRRLADSvqRTFGPAGFWESDDNdNMETASQNGKKYqsrDSDLLSNLGFGEDVYGDAvypgvvgKSAIGETSYR 414
+                           5*************9999987622679*****9777652566667777543101344445555566655543222121133457***** PP
+
+            Rieske.aln 398 gfwkayrkhmg 408
+                           gf++ay+ h+ 
+  sp|P0A111|NDOB_PSEU8 415 GFYRAYQAHVS 425
+                           ********986 PP
+
+>> sp|Q51974|CMTAB_PSEPU  p-cumate 2,3-dioxygenase system, large oxygenase component OS=Pseudomonas putida OX=303 GN=cmt
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.1   0.1     1e-22   6.4e-19      33     221 ..      36     222 ..      19     256 .. 0.83
+   2 !    9.4   0.0    0.0022        14     290     370 ..     299     379 ..     270     418 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 73.1 bits;  conditional E-value: 1e-22
+             Rieske.aln  33 riyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvaf 120
+                            +i+    w y+   se    gdf t       ++v   +d+ i af n c hrga ++ e+sg + +fqc yh w +  +g+l     
+  sp|Q51974|CMTAB_PSEPU  36 KIF-DRCWLYVGHTSEFKKPGDFVTRTVARRNLLVTMGTDRTINAFFNTCPHRGATVCRERSGNSKNFQCFYHGWVFGCDGNL----- 117
+                            554.468*******************999*****************************************************9..... PP
+
+             Rieske.aln 121 ekgvkgqggmpasfckeehgpr..klrvavfcglvfgsfsedvpsiedylgp..eiceriervlhkpvevi.grftqklpnnwklyfe 203
+                             k   g+    a f     g      r  +++g+ f sf+ +v  + dyl    e  e + +     + +  g     +  nwkl +e
+  sp|Q51974|CMTAB_PSEPU 118 -KSQPGKERYCADFITGGAGNLvpVPRFDIYAGFCFVSFNAEVEPLPDYLAGakEYLELVSKYSESGMGITtGTQEYAIRANWKLLVE 204
+                            .5567888899999999888652146999*********************7412555555555555554321334446789******* PP
+
+             Rieske.aln 204 nvkdsyhasllhmffttf 221
+                            n  d yha   h  +  +
+  sp|Q51974|CMTAB_PSEPU 205 NSIDGYHAVSTHASYLDY 222
+                            ********9999877655 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 0.0022
+             Rieske.aln 290 ilsvfpgfvlqqiqnsiavrqllpksissselnwtylgyaddsaeqrkvrlkq.anligpagfismedgavggfvqrgiaga 370
+                             l +fp +++++i  +i+vr + p++ +   +n   l   ++s   rk rl +  +++gp gf + +d       q g +  
+  sp|Q51974|CMTAB_PSEPU 299 NLLIFPNLIINDIM-AITVRTFYPQAPNYMHVNGWSLAPNEESDWARKYRLSNfLEFLGPGGFATPDDVEALESCQNGFSNY 379
+                            5779********96.79****************999***************873689*******999988777777777654 PP
+
+>> sp|Q51601|CBDA_BURCE  2-halobenzoate 1,2-dioxygenase large subunit OS=Burkholderia cepacia OX=292 GN=cbdA PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.2   0.1   2.3e-23   1.4e-19      12     219 ..      29     236 ..      20     253 .. 0.83
+   2 ?    5.7   0.0      0.03   1.9e+02     280     344 ..     300     365 ..     292     400 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 75.2 bits;  conditional E-value: 2.3e-23
+            Rieske.aln  12 tntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsf 100
+                            n r    i+td+a  d e + i+  + w +l+ es++    d+  +  g  p+++ r+   ++ a+ n c+hrga ++  k g   +f
+  sp|Q51601|CBDA_BURCE  29 GNFRCRRDIFTDAALFDYEMKYIFE-QNWVFLAHESQVANPDDYLVSNIGRQPVIITRNKAGDVSAVINACSHRGAELCRRKQGNRSTF 116
+                           57788889***************97.56************************************************************* PP
+
+            Rieske.aln 101 qcvyhawsynrqgdltgvafekgvkgqggmpasfcke.ehg.prklrvavfcglvfgsfsedvpsiedylgpe..iceriervlhkpve 185
+                            c +h w++   g l  v   +        p  f  +  h   r    a + g++fgs++ d   ie++lg    i +++       +e
+  sp|Q51601|CBDA_BURCE 117 TCQFHGWTFSNTGKLLKVKDGQD----DNYPEGFNVDgSHDlTRIPSFANYRGFLFGSMNPDACPIEEHLGGSkaILDQVIDQTPGELE 201
+                           **************988754332....35677775441455145557899********************9761245554444455578 PP
+
+            Rieske.aln 186 vi.grftqklpnnwklyfenvkdsyhasllhmfft 219
+                           v+ g  +     nwkl +en  d yh   +h  + 
+  sp|Q51601|CBDA_BURCE 202 VLrGSSSYIYDGNWKLQIENGADGYHVGSVHWNYV 236
+                           874666777889**************999997554 PP
+
+  == domain 2  score: 5.7 bits;  conditional E-value: 0.03
+            Rieske.aln 280 eefedgvtlqi..lsvfpg.fvlqqiqnsiavrqllpksissselnwtylgyaddsaeqrkvrlkqan 344
+                           ee+ d +  q   l ++p  +v++qi     +r + p s+  +e+    +   d+s e r+ r++q +
+  sp|Q51601|CBDA_BURCE 300 EEVADAIVNQTrnLCIYPNlYVMDQISTQ--IRVVRPISVDKTEVTIYCFAPRDESEEVRNARIRQYE 365
+                           66677776654338899974688888665..5778899*******99999999***********9964 PP
+
+>> sp|Q9X404|MSMA_METHY  Methanesulfonate monooxygenase hydroxylase subunit alpha OS=Methylosulfonomonas methylovora OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.2   0.0   1.4e-24   8.6e-21      18     222 ..      23     232 ..      11     254 .. 0.84
+   2 ?   -1.1   0.0       3.4   2.1e+04     294     351 ..     285     343 ..     279     356 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 79.2 bits;  conditional E-value: 1.4e-24
+            Rieske.aln  18 fgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialek.........sgrt 97 
+                             +ytd    d+e ++i++ + w  +  ese+p a dfrtt   + pi+v r  d+e+ af n c hrg li             sg  
+  sp|Q9X404|MSMA_METHY  23 SRVYTDQEIFDEELEKIFK-KAWVPFRHESELPKAYDFRTTSIANEPIIVTRGPDNEVRAFLNVCPHRGMLIERRPsgslyegqpSGNP 110
+                           569***************8.58999***********************************************86551111111225667 PP
+
+            Rieske.aln  98 dsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvav.fcglvfgsfsedvpsiedylg.peiceriervlhkpv 184
+                             + c++haw ++ +g+   ++ ek      g    + ke  g r+lr  v f g+v+ ++ ++  s+ed+ g p  c r + +  +p+
+  sp|Q9X404|MSMA_METHY 111 KRMTCMFHAWQFDMKGNCVYISREKE-----GYQDRLPKESVGLRRLRCEVkFGGFVWVNLDDNPISLEDWAGePFQCLR-KTLEAEPM 193
+                           7899*************999998874.....6677788**********9886999******99999******93445555.556679** PP
+
+            Rieske.aln 185 evigrftqklpnnwklyfenvkdsyhasl.lhmffttfe 222
+                           ev       +  n+kl+ +   + yh  +  h  +t f+
+  sp|Q9X404|MSMA_METHY 194 EVFHYHKAIVDTNYKLWHDTNCEFYHDFMhYHNRVTGFN 232
+                           ********************9999998652455566665 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 3.4
+            Rieske.aln 294 fpgfvlqqiqnsiavrqllpksissselnwtylgyaddsaeqrkvrlkqanli.gpagf 351
+                           fpg+ ++    ++    + p   +   +++  lg   d+ e+r+ r+++ n i gp g 
+  sp|Q9X404|MSMA_METHY 285 FPGMNFNLRGSALRCDVVTPLGPNKVMIEFRGLGLKSDTPEERQTRINHHNSIwGPFGR 343
+                           555555555555555555555556666788889999***********998866488775 PP
+
+>> sp|Q9HTF4|GBMOO_PSEAE  Glycine betaine monooxygenase oxygenase subunit OS=Pseudomonas aeruginosa (strain ATCC 15692 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.9   0.0   8.6e-25   5.4e-21      17     215 ..      34     222 ..      28     237 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 79.9 bits;  conditional E-value: 8.6e-25
+             Rieske.aln  17 pfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvy 104
+                            p   y d    + + q i++ e w    +  eip  g+f t   g+ p++v+r a+ +++af n c hrg+ +++ + g+   + c y
+  sp|Q9HTF4|GBMOO_PSEAE  34 PQPFYCDQRLFEIDMQEIFHKE-WLIAGMTCEIPAKGNFLTLQIGKNPVLVIRGAEGQVHAFHNVCRHRGSRLCVSEKGKVAKLVCPY 120
+                            5566888888888899999877.99999************************************************************ PP
+
+             Rieske.aln 105 hawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhkpvevigrftq 192
+                            h w+y+ +g l              m a f  +e+g + ++v    g +f s++e+ p+i+d+l   +   +e    +  +v  + t 
+  sp|Q9HTF4|GBMOO_PSEAE 121 HQWTYELDGRLLFAG--------TEMGADFDMKEYGLKPIQVKTAGGYIFISLAENPPAIDDFLAT-LEHYMEPYDMENAKVAVQTTI 199
+                            ******999986544........458899***********************************75.67789999999999******* PP
+
+             Rieske.aln 193 klpnnwklyfenvkdsyhasllh 215
+                            +   nwkl +en ++ yh++  h
+  sp|Q9HTF4|GBMOO_PSEAE 200 REAANWKLVIENNRECYHCNGSH 222
+                            ******************87555 PP
+
+>> sp|A0A0H2ZIF3|GBMOO_PSEAB  Glycine betaine monooxygenase oxygenase subunit OS=Pseudomonas aeruginosa (strain UCBPP-PA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.9   0.0   8.6e-25   5.4e-21      17     215 ..      34     222 ..      28     237 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 79.9 bits;  conditional E-value: 8.6e-25
+                 Rieske.aln  17 pfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsf 100
+                                p   y d    + + q i++ e w    +  eip  g+f t   g+ p++v+r a+ +++af n c hrg+ +++ + g+   +
+  sp|A0A0H2ZIF3|GBMOO_PSEAB  34 PQPFYCDQRLFEIDMQEIFHKE-WLIAGMTCEIPAKGNFLTLQIGKNPVLVIRGAEGQVHAFHNVCRHRGSRLCVSEKGKVAKL 116
+                                5566888888888899999877.99999******************************************************** PP
+
+                 Rieske.aln 101 qcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhkpv 184
+                                 c yh w+y+ +g l              m a f  +e+g + ++v    g +f s++e+ p+i+d+l   +   +e    +  
+  sp|A0A0H2ZIF3|GBMOO_PSEAB 117 VCPYHQWTYELDGRLLFAG--------TEMGADFDMKEYGLKPIQVKTAGGYIFISLAENPPAIDDFLAT-LEHYMEPYDMENA 191
+                                **********999986544........458899***********************************75.6778999999999 PP
+
+                 Rieske.aln 185 evigrftqklpnnwklyfenvkdsyhasllh 215
+                                +v  + t +   nwkl +en ++ yh++  h
+  sp|A0A0H2ZIF3|GBMOO_PSEAB 192 KVAVQTTIREAANWKLVIENNRECYHCNGSH 222
+                                9*************************87555 PP
+
+>> sp|S5RR11|PDMA_SPHYB  N,N-dimethyl phenylurea N-demethylase subunit alpha OS=Sphingobium sp. (strain YBL2) OX=484429 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.7   0.0   1.7e-23   1.1e-19      17     218 ..      33     233 ..      24     265 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 75.7 bits;  conditional E-value: 1.7e-23
+            Rieske.aln  17 pfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyh 105
+                           p  ++ d      e +ri+    w +++ e+eip +gdf     g   ++v r a   i  + n+c hrg+ ++ e sg t  f+c yh
+  sp|S5RR11|PDMA_SPHYB  33 PSHVFRDERVFKVEMDRIFT-RAWVFVAHETEIPKSGDFVLRKVGLDQVIVTRSAGGAINVLLNHCRHRGTEVCHEDSGNTTHFKCPYH 120
+                           66677777777889999995.68****************************************************************** PP
+
+            Rieske.aln 106 awsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpe..iceriervlhkpvevigrftq 192
+                            w y+ +gd+ g    +     gg   s  k++   r  +v  + g++f  +se  ps+ +ylg    + + i ++    ++v+g   +
+  sp|S5RR11|PDMA_SPHYB 121 GWIYKNDGDFVGAPAMREA--YGGRLDS--KKNGLLRAPQVESYHGFIFTCLSESGPSLSEYLGDVswMLDAIVKLHPAGLKVLGAPER 205
+                           ************9766654..4565544..777778999*************************742267778777778899**97665 PP
+
+            Rieske.aln 193 k.lpnnwklyfenvk.dsyhasllhmff 218
+                             +  +wk+  en   d yh +  h+ +
+  sp|S5RR11|PDMA_SPHYB 206 FiIRTDWKIGAENFAgDVYHIATAHLSV 233
+                           415789*******74499**99999754 PP
+
+>> sp|Q1QYU7|GBMOO_CHRSD  Glycine betaine monooxygenase oxygenase subunit OS=Chromohalobacter salexigens (strain ATCC BA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.2   0.0   1.6e-21   9.8e-18      19     214 ..      53     238 ..      42     247 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 69.2 bits;  conditional E-value: 1.6e-21
+             Rieske.aln  19 giytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyha 106
+                              y d      e + i+  e w ++ +  eip  g++ t   g+ pi+vvr  +  i+af n c hrg+ ++ +  g+   + c yh 
+  sp|Q1QYU7|GBMOO_CHRSD  53 PFYNDPRVFALEMREIFEHE-WLFVGMTCEIPAKGNYLTVQIGDNPIIVVRGDQGTIHAFHNVCRHRGSRLCTQAKGKVAKLVCPYHQ 139
+                            56666666677778888766.99***************************************************************** PP
+
+             Rieske.aln 107 wsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhkpvevigrftqkl 194
+                            w+y+ +g l          gq  m   f    hg + + v+   g++f s++++ p+i+d+l   + + +       v+v        
+  sp|Q1QYU7|GBMOO_CHRSD 140 WTYELDGRLLF-------AGQ-DMGEDFDLGAHGLKPVAVTHAGGFLFVSLADQPPAIDDFLAT-LDDYLAPYEMDNVKVAAESNIVE 218
+                            ****9999864.......344.588899999*******************************75.788899999999****9999999 PP
+
+             Rieske.aln 195 pnnwklyfenvkdsyhasll 214
+                              nwkl +en ++ yh++  
+  sp|Q1QYU7|GBMOO_CHRSD 219 QANWKLVIENNRECYHCNGA 238
+                            9***************8755 PP
+
+>> sp|F0KFI5|CNTA_ACIP2  Carnitine monooxygenase oxygenase subunit OS=Acinetobacter pittii (strain PHEA-2) OX=871585 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.9   0.2     3e-20   1.9e-16      18     215 ..      23     213 ..      16     224 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 64.9 bits;  conditional E-value: 3e-20
+            Rieske.aln  18 fgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrt.dsfqcvyh 105
+                              yt +   ++e++ i+  + w  ++  se+    d+ t       iv++r  d  + af n c hrg  + l  sg++ + + c yh
+  sp|F0KFI5|CNTA_ACIP2  23 KVFYTSSQVFEHEKEAIFA-KSWICVAHGSELAQPNDYITRKVIGENIVIIRGKDSVLRAFYNVCPHRGHEL-LSGSGKAkNVITCPYH 109
+                           5678888888999999985.68999999***********99887789**********************976.667777616789**** PP
+
+            Rieske.aln 106 awsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeicerierv..lhkpvevigrftq 192
+                           aw+++ +g l+     +    +     sf ke+     l+v  ++g+vf ++ e+   +ed l pe +er+++   + k +++  rf  
+  sp|F0KFI5|CNTA_ACIP2 110 AWTFKLDGSLALA---R----NCDHVESFDKENSSMVPLKVEEYAGFVFINMDENATCVEDQL-PEFAERLNQAcsVIKDLKLAARFVT 190
+                           ********98643...3....3455679*********************************99.9******986226799********* PP
+
+            Rieske.aln 193 klpnnwklyfenvkdsyhasllh 215
+                           + p nwk+ ++n  + yh+   h
+  sp|F0KFI5|CNTA_ACIP2 191 ETPANWKVIVDNYLECYHCGPAH 213
+                           ******************98766 PP
+
+>> sp|D0C9N6|CNTA_ACIB2  Carnitine monooxygenase oxygenase subunit OS=Acinetobacter baumannii (strain ATCC 19606 / DSM 3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.9   0.2   5.1e-19   3.2e-15      17     215 ..      22     213 ..      16     224 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 60.9 bits;  conditional E-value: 5.1e-19
+            Rieske.aln  17 pfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrt.dsfqcvy 104
+                           p   yt +   ++e++ i+  + w  ++  se+    d+ t       iv++r  d  + af n c hrg  + l  sg++ + + c y
+  sp|D0C9N6|CNTA_ACIB2  22 PKVFYTSSQVFEHEKEAIFA-KSWICVAHSSELAQPNDYITRKVIGENIVIIRGKDSVLRAFYNVCPHRGHEL-LSGSGKAkNVITCPY 108
+                           55678888888999999985.68999999***********99887789**********************976.667777616789*** PP
+
+            Rieske.aln 105 hawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeicerierv..lhkpvevigrft 191
+                           haw+++ +g l+     +    +     sf ke+     l+v  ++g++f ++ e+   +ed l p  +er+++   + k +++  rf 
+  sp|D0C9N6|CNTA_ACIB2 109 HAWTFKLDGSLALA---R----NCDHVESFDKENSSMVPLKVEEYAGFLFINMDENATCVEDQL-PGFAERLNQAcgVIKDLKLAARFV 189
+                           *********98643...3....3455679*********************************99.899****986336799******** PP
+
+            Rieske.aln 192 qklpnnwklyfenvkdsyhasllh 215
+                            + p nwk+ ++n  + yh+   h
+  sp|D0C9N6|CNTA_ACIB2 190 TETPANWKVIVDNYMECYHCGPAH 213
+                           *******************98766 PP
+
+>> sp|P0ABR7|CNTA_ECOLI  Carnitine monooxygenase oxygenase subunit OS=Escherichia coli (strain K12) OX=83333 GN=yeaW PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.0   0.1   9.4e-19   5.9e-15      16     216 ..      24     217 ..      18     230 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 60.0 bits;  conditional E-value: 9.4e-19
+            Rieske.aln  16 vpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvy 104
+                           +p   ytd    ++e++ ++  + w  ++  se+  a d+ t       iv+vr  d+ + af n c hrg  +   +    + + c y
+  sp|P0ABR7|CNTA_ECOLI  24 IPARFYTDQNAFEHEKENVFA-KSWICVAHSSELANANDYVTREIIGESIVLVRGRDKVLRAFYNVCPHRGHQLLSGEGKAKNVITCPY 111
+                           78889***9999999999985.78*999*************98777778**********************98766666667889**** PP
+
+            Rieske.aln 105 hawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedyl...gpeiceriervlhkpvevigrf 190
+                           haw+++ +g+l+     +         a+f  ++     +r+  ++g+vf ++  +  s+ed l   g ++ e    v  + +++  rf
+  sp|P0ABR7|CNTA_ECOLI 112 HAWAFKLDGNLAHARNCEN-------VANFDSDKAQLVPVRLEEYAGFVFINMDPNATSVEDQLpglGAKVLEACPEV--HDLKLAARF 191
+                           **********987654444.......46777777777789999*******************9622266666666655..458899*** PP
+
+            Rieske.aln 191 tqklpnnwklyfenvkdsyhasllhm 216
+                           t + p nwk  ++n  + yh+   h 
+  sp|P0ABR7|CNTA_ECOLI 192 TTRTPANWKNIVDNYLECYHCGPAHP 217
+                           ********************987775 PP
+
+>> sp|P0ABR8|CNTA_ECO57  Carnitine monooxygenase oxygenase subunit OS=Escherichia coli O157:H7 OX=83334 GN=yeaW PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.0   0.1   9.4e-19   5.9e-15      16     216 ..      24     217 ..      18     230 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 60.0 bits;  conditional E-value: 9.4e-19
+            Rieske.aln  16 vpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvy 104
+                           +p   ytd    ++e++ ++  + w  ++  se+  a d+ t       iv+vr  d+ + af n c hrg  +   +    + + c y
+  sp|P0ABR8|CNTA_ECO57  24 IPARFYTDQNAFEHEKENVFA-KSWICVAHSSELANANDYVTREIIGESIVLVRGRDKVLRAFYNVCPHRGHQLLSGEGKAKNVITCPY 111
+                           78889***9999999999985.78*999*************98777778**********************98766666667889**** PP
+
+            Rieske.aln 105 hawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedyl...gpeiceriervlhkpvevigrf 190
+                           haw+++ +g+l+     +         a+f  ++     +r+  ++g+vf ++  +  s+ed l   g ++ e    v  + +++  rf
+  sp|P0ABR8|CNTA_ECO57 112 HAWAFKLDGNLAHARNCEN-------VANFDSDKAQLVPVRLEEYAGFVFINMDPNATSVEDQLpglGAKVLEACPEV--HDLKLAARF 191
+                           **********987654444.......46777777777789999*******************9622266666666655..458899*** PP
+
+            Rieske.aln 191 tqklpnnwklyfenvkdsyhasllhm 216
+                           t + p nwk  ++n  + yh+   h 
+  sp|P0ABR8|CNTA_ECO57 192 TTRTPANWKNIVDNYLECYHCGPAHP 217
+                           ********************987775 PP
+
+>> sp|Q9SZR0|CHMO_ARATH  Choline monooxygenase, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=At4g29890 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.8   0.1   4.4e-18   2.8e-14      17     239 ..      74     301 ..      69     320 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 57.8 bits;  conditional E-value: 4.4e-18
+            Rieske.aln  17 pfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyh 105
+                           p   ytd      e +r++ g  w+ +    +i  + df t   g+   vv rd + +i+af n c+h+ +++a   +gr   f c+yh
+  sp|Q9SZR0|CHMO_ARATH  74 PSSWYTDPQFYSFELDRVFYGG-WQAVGYSDQIKESRDFFTGRLGDVDFVVCRDENGKIHAFHNVCSHHASILAS-GNGRKSCFVCLYH 160
+                           566799999999999***9995.*********************************************9998885.68*********** PP
+
+            Rieske.aln 106 awsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvf..........gsfsedvpsiedylgpeiceriervlhkpv 184
+                            w+y   g l   +   g++       +f   e g + lrvav+  +v+          g +  d     ++lg  +    +  +  p+
+  sp|Q9SZR0|CHMO_ARATH 161 GWTYSLSGSLVKATRMSGIQ-------NFSLSEMGLKPLRVAVWGPFVLlkvtaatsrkGEVETDELVASEWLGTSVGRLSQGGVDSPL 242
+                           ********998777666664.......5788899999999999887765222222111133334444566899999998889999**** PP
+
+            Rieske.aln 185 evigrftqklpnnwklyfenvkd.syhasllhm.ffttfelnrlsqk..ggvivdesgg 239
+                             i r    +  nwk++ +n  d  yh    h  +++ ++l+  s      v ++e gg
+  sp|Q9SZR0|CHMO_ARATH 243 SYICRREYTIDCNWKVFCDNYLDgGYHVPYAHKgLMSGLDLETYSTTifEKVSIQECGG 301
+                           ********************88736**99998635566777777654224555555543 PP
+
+>> sp|Q9LKN0|CHMO_ATRHO  Choline monooxygenase, chloroplastic OS=Atriplex hortensis OX=34272 GN=CMO PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   0.0   1.7e-17   1.1e-13      17     220 ..      99     298 ..      93     325 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 1.7e-17
+            Rieske.aln  17 pfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyh 105
+                           p   yt+ a   +e +ri+  + w+      ++  a ++ t   g+   +v rd + +++af n c+hr +++a   sg+   f c yh
+  sp|Q9LKN0|CHMO_ATRHO  99 PSSWYTEPAFYAHELDRIFY-KGWQVAGYSDQVKEANQYFTGTLGNVEYLVCRDGEGKVHAFHNVCTHRASILAC-GSGKKSCFVCPYH 185
+                           55679999999999999975.45999999****************************************999997.69*********** PP
+
+            Rieske.aln 106 awsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsied....ylgpeicerier.vlhkpvevigr 189
+                            w y  +g lt  +  k          s+  +e g   l+vav+  +++ s+      + d    +lg   +e ++   +   ++ i r
+  sp|Q9LKN0|CHMO_ATRHO 186 GWVYGMNGSLTKAS--KAT-----PEQSLNPDELGLVPLKVAVWGPFILISLDRSSREVGDvgseWLGSC-AEDVKAhAFDPNLQFINR 266
+                           **********9653..333.....345788899**********999999887655555444111155554.455554045555899*** PP
+
+            Rieske.aln 190 ftqklpnnwklyfenvkd.syhasllhmfftt 220
+                               +  nwk++ +n  d syh    h +++t
+  sp|Q9LKN0|CHMO_ATRHO 267 SEFPIESNWKIFSDNYLDsSYHVPYAHKYYAT 298
+                           ***************87737********9987 PP
+
+>> sp|Q92ZP9|STC2_RHIME  Stachydrine N-demethylase OS=Rhizobium meliloti (strain 1021) OX=266834 GN=stc2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.4   0.2   1.9e-16   1.2e-12      38     216 ..      42     210 ..      24     234 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 52.4 bits;  conditional E-value: 1.9e-16
+            Rieske.aln  38 evwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafekgvkg 126
+                           + w y +   ++  ag + t   g   +v+vr  d e+ af n c hrg+li+  + g+   + c yh w+y+ +g l           
+  sp|Q92ZP9|STC2_RHIME  42 KQWLYAVPVCQLAKAGSYTTLRVGAYEVVIVRSRDGEVRAFHNSCRHRGSLICKARQGQVAKLVCPYHQWTYELDGKLIWA-------- 122
+                           459999999999****************************************************************99753........ PP
+
+            Rieske.aln 127 qggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhkpvevigrftqklpnnwklyfenvkdsyhasllh 215
+                              m   f   ++g + + +  + gl++  +s+  p  + +        +e    k  +v    t     nwkl +en ++ yh+s  h
+  sp|Q92ZP9|STC2_RHIME 123 -NDMGPDFDASKYGLKPVNLRNLDGLIYICLSDTPPDFQTFAQL-ARPYLEVHDLKDAKVAFTSTIIEKGNWKLVWENNRECYHCSSNH 209
+                           .4577788888999999999999*********999988877543.2334454445666665555555678***************9887 PP
+
+            Rieske.aln 216 m 216
+                            
+  sp|Q92ZP9|STC2_RHIME 210 P 210
+                           4 PP
+
+>> sp|O04121|CHMO_SPIOL  Choline monooxygenase, chloroplastic OS=Spinacia oleracea OX=3562 GN=CMO PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.2   0.0   9.4e-16   5.8e-12      17     224 ..      98     300 ..      93     317 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 50.2 bits;  conditional E-value: 9.4e-16
+            Rieske.aln  17 pfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyh 105
+                           p   yt+ a   +e +ri+  + w+   +  +i    ++ t   g+   +v rd + +++af n c+hr +++a   sg+   f c yh
+  sp|O04121|CHMO_SPIOL  98 PSSWYTEPAFYSHELERIFY-KGWQVAGISDQIKEPNQYFTGSLGNVEYLVSRDGEGKVHAFHNVCTHRASILAC-GSGKKSCFVCPYH 184
+                           56679999999999999975.45**********************************************999997.69*********** PP
+
+            Rieske.aln 106 awsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsi....edylgpeiceriervlhkpvevigrf 190
+                            w y  +g l+  +  k    q     ++  +e g   l+vav+  +v+ s+   +        ++lg    +   + +   ++ i r 
+  sp|O04121|CHMO_SPIOL 185 GWVYGMDGSLAKASKAKP--EQ-----NLDPKELGLVPLKVAVWGPFVLISLDRSLEEGgdvgTEWLGTSAEDVKAHAFDPSLQFIHRS 266
+                           ********9986553332..23.....34457899************99988765554400014577776655555666667899**** PP
+
+            Rieske.aln 191 tqklpnnwklyfenvkd.syhasllhmffttfeln 224
+                              +  nwk++ +n  d syh    h +++t eln
+  sp|O04121|CHMO_SPIOL 267 EFPMESNWKIFSDNYLDsSYHVPYAHKYYAT-ELN 300
+                           **************87737********9987.555 PP
+
+>> sp|Q93XE1|CHMO_AMATR  Choline monooxygenase, chloroplastic OS=Amaranthus tricolor OX=29722 GN=CMO PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.7   0.0   4.3e-14   2.7e-10      18     220 ..     102     300 ..      96     319 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 44.7 bits;  conditional E-value: 4.3e-14
+            Rieske.aln  18 fgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyha 106
+                              ytd +   +e +ri+  + w+      +i    ++ t   g+   +v rd + +++af n c+hr +++a   +g+   f c yh 
+  sp|Q93XE1|CHMO_AMATR 102 STWYTDPSLYSHELDRIFS-KGWQVAGYSDQIKEPNQYFTGSLGNVEYLVCRDGQGKVHAFHNVCTHRASILACG-TGKKSCFVCPYHG 188
+                           567999999999*****96.67***********************************************999975.7999********* PP
+
+            Rieske.aln 107 wsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpe.i...ceriervlhkp.vevigrf 190
+                           w +  +g l      k  k +      f  +e g   l+va++  +v+ s+        + +g e i   +e +++  + p ++ i r 
+  sp|Q93XE1|CHMO_AMATR 189 WVFGLDGSLM-----KATKTE---NQVFDPKELGLVTLKVAIWGPFVLISLDRSGSEGTEDVGKEwIgscAEEVKKHAFDPsLQFINRS 269
+                           ****999885.....444544...4568899****************999876655444445554231113455544444437899999 PP
+
+            Rieske.aln 191 tqklpnnwklyfenvkds.yhasllhmfftt 220
+                              +  nwk++ +n  ds yh    h ++++
+  sp|Q93XE1|CHMO_AMATR 270 EFPMESNWKVFCDNYLDSaYHVPYAHKYYAA 300
+                           999***********988669**999999864 PP
+
+>> sp|O22553|CHMO_BETVU  Choline monooxygenase, chloroplastic OS=Beta vulgaris OX=161934 GN=CMO PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.4   0.0   5.4e-14   3.3e-10      18     220 ..     106     304 ..     101     322 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 44.4 bits;  conditional E-value: 5.4e-14
+            Rieske.aln  18 fgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyha 106
+                              yt+ a   +e +ri+  + w+      ++    ++ t   g+   +v rd + e++af n c+hr +++a   sg+   f c yh 
+  sp|O22553|CHMO_BETVU 106 STWYTEPAFYSHELERIFY-KGWQVAGYSEQVKEKNQYFTGSLGNVEYLVSRDGQGELHAFHNVCTHRASILAC-GSGKKSCFVCPYHG 192
+                           5679999999999999975.45999999999*************************************999997.69************ PP
+
+            Rieske.aln 107 wsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvfgsfsedvpsiedylgpeiceriervlhkpvevigrftqk.. 193
+                           w y  +g l+     k  + q   p     +e g   l+va +  +++ s+   + +  d     i +  e v  +  +   +ft++  
+  sp|O22553|CHMO_BETVU 193 WVYGLDGSLAKA--SKATETQNLDP-----KELGLAPLKVAEWGPFILISLDRSLDANADVGTEWIGKSAEDVKAHAFDPNLKFTHRse 274
+                           *******99865..46666666555.....6889999*****************99999987778999999999999888888887634 PP
+
+            Rieske.aln 194 ..lpnnwklyfenvkd.syhasllhmfftt 220
+                             +  nwk++ +n  d syh    h ++++
+  sp|O22553|CHMO_BETVU 275 fpMECNWKVFCDNYLDsSYHVPYAHKYYAA 304
+                           33568********87736****99999864 PP
+
+>> sp|P94679|TSAM1_COMTE  Toluene-4-sulfonate monooxygenase system iron-sulfur subunit TsaM1 OS=Comamonas testosteroni O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.1   0.0   5.8e-10   3.6e-06      38     115 ..       5      80 ..       1      97 [. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 31.1 bits;  conditional E-value: 5.8e-10
+             Rieske.aln  38 evwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdl 115
+                            + w   + ++eip  g f+ t+  e p+++ rd++  + a+enrc+hr a + + +    d ++c+yh   +n  g  
+  sp|P94679|TSAM1_COMTE   5 NCWYVAAWDTEIPAEGLFHRTLLNE-PVLLYRDTQGRVVALENRCCHRSAPLHIGRQ-EGDCVRCLYHGLKFNPSGAC 80 
+                            578888999************9876.99**********************9999875.579***********998865 PP
+
+>> sp|Q8XX92|PUT2H_RALN1  Putrescine 2-hydroxylase OS=Ralstonia nicotianae (strain ATCC BAA-1114 / GMI1000) OX=267608 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.3   0.0   2.1e-09   1.3e-05      13     118 ..      14     116 ..       9     124 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 29.3 bits;  conditional E-value: 2.1e-09
+             Rieske.aln  13 ntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsf 100
+                            +t++p+  y d a  + e +r+++     y+  e  +p  gd++t  a     v+vr+ +  +  + n c hr a+  l+  g ++++
+  sp|Q8XX92|PUT2H_RALN1  14 ETQLPVSAYFDEALYQTEIERLFKHG-PSYVGHELMVPEVGDYHTLAAEAEGRVLVRNPN-GVELLSNVCRHRQAI-MLNGRGNAQNI 98 
+                            7999*******************965.68***************9999888999999875.688899******995.69999****** PP
+
+             Rieske.aln 101 qcvyhawsynrqgdltgv 118
+                             c  h w+y+ +g+l g 
+  sp|Q8XX92|PUT2H_RALN1  99 VCPLHRWTYDLKGELLGA 116
+                            ***************986 PP
+
+>> sp|G8FRC5|MDPJ_AQUTE  Tert-butanol monooxygenase / tert-amyl alcohol desaturase oxygenase subunit OS=Aquincola tertia
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.5   0.0   6.4e-05       0.4      38     116 ..      49     124 ..      44     147 .. 0.79
+   2 ?    7.2   0.0     0.011        66     190     222 ..     183     215 ..     163     232 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 6.4e-05
+            Rieske.aln  38 evwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdlt 116
+                             w+ +cl  e+               +v  rd   ++  +  +cahrga + +    +   ++c yh w ++ +g l 
+  sp|G8FRC5|MDPJ_AQUTE  49 RYWQPVCLSQELTDVPKAIRI--LHEDLVAFRDRRGNVGVLHRKCAHRGASLEFGIV-QERGIRCCYHGWHFDVDGSLL 124
+                           567788888887766543333..3456899********************8877654.55689**********999886 PP
+
+  == domain 2  score: 7.2 bits;  conditional E-value: 0.011
+            Rieske.aln 190 ftqklpnnwklyfenvkdsyhasllhmffttfe 222
+                           f++ +  nw   +en  d yh++llh  +t   
+  sp|G8FRC5|MDPJ_AQUTE 183 FSNVFDCNWLQVYENQIDHYHTALLHNNMTVAG 215
+                           7777889*******************9888765 PP
+
+>> sp|Q8G8B6|CARAA_METRE  Carbazole 1,9a-dioxygenase, terminal oxygenase component CarAa OS=Metapseudomonas resinovorans
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.9   0.0   3.5e-07    0.0022      66     112 ..      53     100 ..      26     117 .. 0.82
+   2 ?   -1.4   0.0       4.1   2.5e+04     181     211 ..     155     184 ..     151     192 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 21.9 bits;  conditional E-value: 3.5e-07
+             Rieske.aln  66 vvvrdadqeiyafenrcahrgalialeksgrtds.fqcvyhawsynrq 112
+                            ++v   d ++y++++rc hrg  ++++   +t s + c yhaw+y  +
+  sp|Q8G8B6|CARAA_METRE  53 LLVNRIDGKLYCLKDRCLHRGVQLSVKVECKTKStITCWYHAWTYRWE 100
+                            45677899*******************9999987479********754 PP
+
+  == domain 2  score: -1.4 bits;  conditional E-value: 4.1
+             Rieske.aln 181 hkpvevigrftqklpnnwklyfenvkdsyha 211
+                               +e++g+  q +  nw+l +en  d  h 
+  sp|Q8G8B6|CARAA_METRE 155 DDDMEILGK-NQIIKSNWRLAVENGFDPSHI 184
+                            566788887.68999*********9998876 PP
+
+>> sp|H9N291|NDMD_PSEPU  Oxidoreductase NdmD OS=Pseudomonas putida OX=303 GN=ndmD PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.6   0.0   4.4e-07    0.0028      43     111 ..      12      78 ..       5      92 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 21.6 bits;  conditional E-value: 4.4e-07
+            Rieske.aln  43 lcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynr 111
+                           ++   ++p    f++t+ g+  + + rd    + a+enrc hrg  ++l  +   + ++c yh w+y+ 
+  sp|H9N291|NDMD_PSEPU  12 IATTEDLPKRHVFHATLLGQE-MAIWRDDSGSVNAWENRCPHRGLRLTLGAN-TGNELRCQYHGWTYES 78 
+                           555667888888999999975.6789*******************9999765.56789*********85 PP
+
+>> sp|H9N289|NDMA_PSEPU  Methylxanthine N1-demethylase NdmA OS=Pseudomonas putida OX=303 GN=ndmA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   0.0   7.4e-07    0.0046      65     114 ..      45      93 ..       3     127 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 7.4e-07
+            Rieske.aln  65 ivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgd 114
+                            +vv    +e  a+ +rcahr a ++l      + +qc yh w y+ +g 
+  sp|H9N289|NDMA_PSEPU  45 QLVVAKLGDEYVAMRDRCAHRSAKLSLGTV-SGNRLQCPYHGWQYDTHGA 93 
+                           345666777899***************864.4578***********9986 PP
+
+>> sp|Q05183|PHT3_PSEPU  Phthalate 4,5-dioxygenase oxygenase subunit OS=Pseudomonas putida OX=303 GN=pht3 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.0   6.4e-06      0.04      39     120 ..      26     107 ..      16     130 .. 0.82
+   2 ?    0.6   0.0       1.1   6.7e+03     193     215 ..     164     186 ..     132     192 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 6.4e-06
+            Rieske.aln  39 vwnylclesei..pgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvaf 120
+                            w  +cl  e+  p    +r+ + ge  +vv rd+d  +  +++ c hr   +   ++     ++c+yh w  + +g++  +  
+  sp|Q05183|PHT3_PSEPU  26 HWTPVCLLEEVsePDGTPVRARLFGED-LVVFRDTDGRVGVMDEYCPHRRVSLIYGRN-ENSGLRCLYHGWKMDVDGNVVEMVS 107
+                           588899877764467788999999995.8999****************9877766554.45679**********9999877655 PP
+
+  == domain 2  score: 0.6 bits;  conditional E-value: 1.1
+            Rieske.aln 193 klpnnwklyfenvkdsyhasllh 215
+                            +p nw   +e   ds h+s lh
+  sp|Q05183|PHT3_PSEPU 164 IIPCNWAQILEGAIDSAHSSSLH 186
+                           589*****************999 PP
+
+>> sp|H9N290|NDMB_PSEPU  Methylxanthine N3-demethylase NdmB OS=Pseudomonas putida OX=303 GN=ndmB PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   19.0   0.0   2.6e-06     0.016      47     114 ..      31      99 ..       9     128 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 19.0 bits;  conditional E-value: 2.6e-06
+            Rieske.aln  47 seipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialek...sgrtdsfqcvyhawsynrqgd 114
+                           ++  g g +  t+ ge   v+    + +i a  +rcahr a +++ +   +   d ++c yh w y+  g 
+  sp|H9N290|NDMB_PSEPU  31 ANASGHGPMGVTLLGEKL-VLA-RLNSKIIAAADRCAHRSAQLSIGRvcsNAGKDYLECPYHGWRYDEAGA 99 
+                           345677888999999963.444.4677899999********999876221345799**********99885 PP
+
+>> sp|Q60A55|SDMA_METCA  4beta-methylsterol monooxygenase OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.5   0.0   3.9e-06     0.024      40     129 ..      29     115 ..      16     123 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 3.9e-06
+            Rieske.aln  40 wnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafekgvkgqg 128
+                           w  + ++  +      r  f g+  i + rda  e++a+e+rc hr   ++        ++ c yh w ++  g  t +  e g kg+ 
+  sp|Q60A55|SDMA_METCA  29 WYVVEIDGRLKPRQVKRVRFWGQ-DIALFRDAAGELHAVEDRCPHRQLPLSQ-GFVEGGNLVCTYHGWKFDGCGRCTEIHHELG-KGRT 114
+                           55555555555555567777775.6999******************866554.345567899****************999987.5655 PP
+
+            Rieske.aln 129 g 129
+                            
+  sp|Q60A55|SDMA_METCA 115 R 115
+                           5 PP
+
+>> sp|A0A0H3LKV3|PUT2H_BORBR  Putrescine 2-hydroxylase OS=Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.6   0.0   7.3e-06     0.045      13     118 ..      61     178 ..      54     184 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 17.6 bits;  conditional E-value: 7.3e-06
+                 Rieske.aln  13 ntrvpfgiytdtanadqeqqriyrgevwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgali....ale 92 
+                                 t++p+  y d a   +eq+ i++     y+  +  +p  gd+rt +  +    +vr+ ++ +  + n c hr al+    a +
+  sp|A0A0H3LKV3|PUT2H_BORBR  61 RTQLPVSAYFDEARFAREQELIFKQSS-LYVGHQKLVPELGDWRTLVQEDGGRALVRN-QRGVELVSNVCRHRQALMlggeAGN 142
+                                6899*******************9765.69**********************999*97.56788999*********83333334 PP
+
+                 Rieske.aln  93 ksgrtd..........sfqcvyhawsynrqgdltgv 118
+                                 sg ++          ++ c  h w+yn +g+l g 
+  sp|A0A0H3LKV3|PUT2H_BORBR 143 VSGNANtrgslkdtggNIVCPLHRWTYNDRGELLGA 178
+                                4554331221111222467999********999885 PP
+
+>> sp|Q0DV66|PAO_ORYSJ  Pheophorbide a oxygenase, chloroplastic OS=Oryza sativa subsp. japonica OX=39947 GN=PAO PE=2 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.4   0.0   1.6e-05       0.1      72     117 ..     114     159 ..      99     167 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 16.4 bits;  conditional E-value: 1.6e-05
+           Rieske.aln  72 dqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltg 117
+                            e  a+++rc hr a ++  +   t  +qc yh ws++  g  t 
+  sp|Q0DV66|PAO_ORYSJ 114 SGEWVALDDRCPHRLAPLSEGRIDETGCLQCSYHGWSFDGSGACTR 159
+                          357889*********************************9998775 PP
+
+>> sp|F7J188|NVD_HEMPU  Cholesterol 7-desaturase nvd OS=Hemicentrotus pulcherrimus OX=7650 GN=nvd-Hp PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.0   0.0   2.2e-05      0.13      53     120 ..     143     211 ..     130     233 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 2.2e-05
+           Rieske.aln  53 gdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsyn.rqgdltgvaf 120
+                          gd++   a      v r  d e ya++  c h ga +a+    + + + c +h w ++ ++g    + +
+  sp|F7J188|NVD_HEMPU 143 GDVKYISAVGNEFAVYRGEDGEAYAVDAYCPHLGANMAIGGMVKGNCLTCPFHGWVFEgKEGKCVDIPY 211
+                          777777788888999****************************************99735566666655 PP
+
+>> sp|O49931|TIC55_PEA  Protein TIC 55, chloroplastic OS=Pisum sativum OX=3888 GN=TIC55 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.9   0.0   2.4e-05      0.15      40     115 ..     103     176 ..      85     203 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 2.4e-05
+           Rieske.aln  40 wnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdl 115
+                          w  l l  ++p    +      +  iv+ rd +++  ++e+rc hr a ++         ++c+yh w ++ +g  
+  sp|O49931|TIC55_PEA 103 WYPLYLTKNVPHDAPLGLK-VYDKNIVLFRDGNDQFQCYEDRCPHRLAKLSE-GQLIDGRLECLYHGWQFEGEGKC 176
+                          5555555666655555443.346789********************887653.333445699********988875 PP
+
+>> sp|D5IGG0|CARAA_SPHSX  Carbazole 1,9a-dioxygenase, terminal oxygenase component CarAa OS=Sphingomonas sp. OX=28214 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.9   0.0   2.3e-05      0.15      40     115 ..      29     104 ..      21     129 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 2.3e-05
+             Rieske.aln  40 wnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgaliale.ksgrtdsfqcvyhawsynr.qgdl 115
+                            w  + l sei     +   + ge  i ++     ++ya+++rc hrg  ++   +    +++ c yh w+y   +g l
+  sp|D5IGG0|CARAA_SPHSX  29 WYPVRLASEIAEGTPVPVKLLGEK-I-LLNRVGGKVYAIQDRCLHRGVTLSDRvECYSKNTISCWYHGWTYRWdDGRL 104
+                            555667777777777777777775.3.34456678************988755145567899*********7514555 PP
+
+>> sp|G2IN04|LIGXA_SPHSK  5,5'-dehydrodivanillate O-demethylase oxygenase subunit OS=Sphingobium sp. (strain NBRC 103272
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.6   0.0   5.8e-05      0.36      61     128 ..      48     113 ..      24     127 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.6 bits;  conditional E-value: 5.8e-05
+             Rieske.aln  61 getpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafekgvkgqg 128
+                            ge  +v+ +d   +   ++ +c hr a +a      +d ++c yh w ++ qg  t   fe   + +g
+  sp|G2IN04|LIGXA_SPHSK  48 GE-DLVLYKDLSGNYGLMDRHCPHRRADMACGM-VEADGLRCSYHGWMFDAQGACTEQPFEDTANPKG 113
+                            54.366777887777788899********9876.579***********************98876665 PP
+
+>> sp|Q8GI16|CARAC_METRE  Ferredoxin CarAc OS=Metapseudomonas resinovorans OX=53412 GN=carAc PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.3   0.0   7.3e-05      0.46      38     111 ..       3      74 ..       1      82 [. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 14.3 bits;  conditional E-value: 7.3e-05
+             Rieske.aln  38 evwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynr 111
+                            ++w  +c  s++      r    g +p+ v r  dq  ya e+ c+h  a ++ e +   d ++c +h  ++n 
+  sp|Q8GI16|CARAC_METRE   3 QIWLKVCAASDMQPGTIRRVNRVGAAPLAVYRVGDQ-FYATEDTCTHGIASLS-EGTLDGDVIECPFHGGAFNV 74 
+                            68999******98888889999**********9998.8*********777654.67778899999999988885 PP
+
+>> sp|Q9SK50|TIC55_ARATH  Protein TIC 55, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=TIC55 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.0   0.00012      0.77      38     115 ..      86     161 ..      72     176 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 0.00012
+             Rieske.aln  38 evwnylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdl 115
+                            e w  l l  ++p    +  t+  +  iv+ +d +  + ++e+rc hr a ++         ++c+yh w ++ +g  
+  sp|Q9SK50|TIC55_ARATH  86 EEWYPLYLTKNVPEDAPLGLTVY-DRQIVLYKDGEGTLRCYEDRCPHRLAKLSE-GQLIDGRLECLYHGWQFEGEGKC 161
+                            66777888888888877777654.6789********************887653.333445699********988865 PP
+
+>> sp|Q9FYC2|PAO_ARATH  Pheophorbide a oxygenase, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PAO PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.0   0.00015      0.94      70     117 ..     118     165 ..     103     177 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00015
+           Rieske.aln  70 dadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltg 117
+                            dq+  af++ c hr a ++  +      +qc yh ws+   g  t 
+  sp|Q9FYC2|PAO_ARATH 118 RNDQKWAAFDDLCPHRLAPLSEGRLDENGHLQCSYHGWSFGGCGSCTR 165
+                          57999*************999999999999**********98888775 PP
+
+>> sp|Q9MBA1|CAO_ARATH  Chlorophyllide a oxygenase, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=CAO PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.0   0.00017         1      62     118 ..     242     297 ..     233     313 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 0.00017
+           Rieske.aln  62 etpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgv 118
+                          e p v+ r  d +  ++ n cahr + + l        +qc yh w y  +g+   +
+  sp|Q9MBA1|CAO_ARATH 242 EQPWVIFRGEDGKPGCVRNTCAHRACPLDLGTVN-EGRIQCPYHGWEYSTDGECKKM 297
+                          78999*********************99997654.4579***********9987655 PP
+
+>> sp|Q9ZWM5|CAO_CHLRE  Chlorophyllide a oxygenase, chloroplastic OS=Chlamydomonas reinhardtii OX=3055 GN=CAO PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.0   0.00018       1.2      64     118 ..     328     381 ..     317     403 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00018
+           Rieske.aln  64 pivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgv 118
+                          p v+ rd   +  ++ + cahrg+ ++l k      + c yh w +n +g  t +
+  sp|Q9ZWM5|CAO_CHLRE 328 PWVMFRDEKGQPSCIRDECAHRGCPLSLGKVVEG-QVMCPYHGWEFNGDGACTKM 381
+                          78999999999999****************9876.578**********9998865 PP
+
+>> sp|P42436|NASE_BACSU  Assimilatory nitrite reductase [NAD(P)H] small subunit OS=Bacillus subtilis (strain 168) OX=224
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.6   0.0   0.00012      0.73      56     109 ..      23      75 ..       9      91 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 0.00012
+            Rieske.aln  56 rttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsy 109
+                           +t +  +  + v + +d  i a+enrc h+g ++a       + + c  h w  
+  sp|P42436|NASE_BACSU  23 KTVYIEDKELAVFKLSDGSIRAIENRCPHKGGVLAEGI-VSGQYVFCPMHDWKI 75 
+                           5778888899999*******************998544.334456688888865 PP
+
+>> sp|F7J184|NVD_XENLA  Cholesterol 7-desaturase nvd OS=Xenopus laevis OX=8355 GN=nvd PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0   0.00018       1.1      42     118 ..     118     195 ..      97     208 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 0.00018
+           Rieske.aln  42 ylcleseipgagdfr.ttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsyn.rqgdltgv 118
+                          y +l+s +   g ++  t+ ge  + v r  + ++y ++  c h ga +a+      d ++c +h w +   +g  t +
+  sp|F7J184|NVD_XENLA 118 YRALDSHLLPPGTVQdCTLLGEQ-LAVYRTLEGKVYVVDAYCPHLGANLAVGGKVVGDCIECPFHGWQFRgEDGKCTRI 195
+                          55666665444444315777775.7889***************************************996245666655 PP
+
+>> sp|Q6DHJ3|NVD_DANRE  Cholesterol 7-desaturase nvd OS=Danio rerio OX=7955 GN=nvd PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0   0.00018       1.1      42     110 ..     124     192 ..     100     206 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 0.00018
+           Rieske.aln  42 ylcleseipgagdfrttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsyn 110
+                          y +l+s +   gd+++       + v r  d + y ++  c h ga +a+        ++c +h w + 
+  sp|Q6DHJ3|NVD_DANRE 124 YRVLDSHMLERGDVKSVTVLGQQVAVFRGQDGKAYVVDAYCPHLGANLAVGGRVVGGCIECPFHGWQFR 192
+                          78999*********99888888999*************************9999999*********985 PP
+
+>> sp|Q9XJ38|CAO_DUNSA  Chlorophyllide a oxygenase, chloroplastic OS=Dunaliella salina OX=3046 GN=CAO PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00022       1.4      63     137 ..     156     228 ..     152     233 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 0.00022
+           Rieske.aln  63 tpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfcke 137
+                           p v+ rd      ++++ cahr + ++l k      +qc yh w ++  g  t +   +  +g g + a  c e
+  sp|Q9XJ38|CAO_DUNSA 156 VPWVLFRDEHSAPTCIKDSCAHRACPLSLGKVIN-GHVQCPYHGWEFDGSGACTKMPSTRMCHGVG-VAALPCVE 228
+                          588999999999999***************9865.579**************99998888777764.45555555 PP
+
+>> sp|F1CMY8|KSHA5_RHORH  3-ketosteroid-9-alpha-monooxygenase, oxygenase component OS=Rhodococcus rhodochrous OX=1829 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00023       1.4      60     124 ..      51     114 ..      28     130 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 0.00023
+             Rieske.aln  60 agetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafekgv 124
+                            a  t +vv  d+  ++  ++  c h g  ++     + ds+ c +h w +n +g  t + + + v
+  sp|F1CMY8|KSHA5_RHORH  51 AFGTKLVVFADSKGQLNVLDAYCRHMGGDLSRG-EVKGDSIACPFHDWRWNGKGKCTDIPYARRV 114
+                            556899********************9987754.4578*******************99887765 PP
+
+>> sp|Q8W496|PTC52_ARATH  Protochlorophyllide-dependent translocon component 52, chloroplastic OS=Arabidopsis thaliana O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0   0.00027       1.7      72     115 ..     117     160 ..     104     165 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00027
+             Rieske.aln  72 dqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdl 115
+                            +++   +++ c hr a ++  +  +   +qcvyh w +n  gd 
+  sp|Q8W496|PTC52_ARATH 117 EKQWKVMDDTCPHRLAPLSDGRIDQWGRLQCVYHGWCFNGSGDC 160
+                            3445578999****999988888888889************996 PP
+
+>> sp|Q5CC93|UCRIA_CYAPA  Cytochrome b6-f complex iron-sulfur subunit 1, cyanelle OS=Cyanophora paradoxa OX=2762 GN=petC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.0   0.00037       2.3      38     115 ..     122     198 ..     105     203 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00037
+             Rieske.aln  38 evwnylcleseipgagdfrttfagetpi.vvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdl 115
+                            +v     le+  pg   +   + g++   +v  d   e y ++  c+h g+++  + s   + f c  h   y+r g +
+  sp|Q5CC93|UCRIA_CYAPA 122 DVKVSSWLETHKPGDRSLAQGLKGDATYlIVKEDGTLENYGLNAVCTHLGCVVPWNASE--NKFMCPCHGSQYDRTGKV 198
+                            5555667899999999999999998665055568899****************998875..78************9976 PP
+
+>> sp|Q44256|CBAA_COMTE  3-chlorobenzoate-3,4-dioxygenase oxygenase subunit OS=Comamonas testosteroni OX=285 GN=cbaA PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.0    0.0003       1.9      55     115 ..      43     101 ..      23     127 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 0.0003
+            Rieske.aln  55 frttfagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdl 115
+                           +r  + ge  +v  r+    +  ++ rc hrg  + + +      ++cvyh w +  +g  
+  sp|Q44256|CBAA_COMTE  43 VRLLLLGEK-LVAFREPSGAVGVMDSRCPHRGVSLFMGRVE-EGGLRCVYHGWKFSAEGKC 101
+                           566666664.6788999999999*********999887654.4579*********998864 PP
+
+>> sp|A0A076FFM5|F8H1_OCIBA  Flavonoid 8-hydroxylase 1, chloroplastic OS=Ocimum basilicum OX=39350 GN=F8H-1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0   0.00072       4.5      66     114 ..     106     155 ..      99     291 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00072
+                Rieske.aln  66 vvvrdadqe.iyafenrcahrgalialeksgrtdsfqcvyhawsynrqgd 114
+                               vv  d  ++    f++ c hr a ++  +  +   +qcvyh w ++  g 
+  sp|A0A076FFM5|F8H1_OCIBA 106 VVWWDRKENaWKVFDDTCPHRLAPLSEGRIDQWGRLQCVYHGWCFDGVGA 155
+                               55555544414579*******999998888888899********987765 PP
+
+>> sp|P95483|PRND_PSEFL  Aminopyrrolnitrin oxygenase PrnD OS=Pseudomonas fluorescens OX=294 GN=prnD PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.0   0.00036       2.2      63     116 ..      50     102 ..      29     118 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00036
+            Rieske.aln  63 tpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdlt 116
+                            p v  r a      ++ +c+h ga +a  +  +   +qc +h w y+ qg+  
+  sp|P95483|PRND_PSEFL  50 RPCVAWRGATGRAVVMDRHCSHLGANLADGR-IKDGCIQCPFHHWRYDEQGQCV 102
+                           488899999999999**********999654.456789*************876 PP
+
+>> sp|B6V6V5|KSHA4_RHORH  3-ketosteroid-9-alpha-monooxygenase, oxygenase component OS=Rhodococcus rhodochrous OX=1829 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.0   0.00034       2.1      62     122 ..      47     106 ..      22     125 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00034
+             Rieske.aln  62 etpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafek 122
+                             t +vv  d+  +++ ++  c h g  +a  +  + d++ c +h w +n qg    v + +
+  sp|B6V6V5|KSHA4_RHORH  47 GTDLVVFADTAGKLHVLDAFCRHMGGNLARGE-IKGDTIACPFHDWRWNGQGRCEAVPYAR 106
+                            47899********************9998654.57899**************999888766 PP
+
+>> sp|Q9AHG3|TSAM2_COMTE  Putative toluene-4-sulfonate monooxygenase system iron-sulfur subunit TsaM2 OS=Comamonas testo
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.0   0.00039       2.4      59     115 ..      25      79 ..      13      96 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.00039
+             Rieske.aln  59 fagetpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdl 115
+                            f  e  +v+ r  d    a+e+rc+hr a ++l        ++c yh   +n  g  
+  sp|Q9AHG3|TSAM2_COMTE  25 FLNE-KVVLFRTHDGHAVALEDRCCHRLAPLSLGDVE-DAGIRCRYHGMVFNASGAC 79 
+                            5544.58899*******************99998765.4579**********99865 PP
+
+>> sp|A0A059WLZ7|CNDA_RHIWD  Chloroacetanilide N-alkylformylase, oxygenase component OS=Rhizorhabdus wittichii (strain D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.0    0.0013       8.2      66     133 ..      31      97 ..       7     106 .. 0.81
+   2 ?   -1.4   0.0       4.2   2.6e+04     376     405 ..     233     269 ..     211     306 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.0013
+                Rieske.aln  66 vvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpas 133
+                                + rd + +  a+ nrc hr a ++l k    d++qc yh   +  +g         gv  +   p+ 
+  sp|A0A059WLZ7|CNDA_RHIWD  31 ALFRDGEGQPRAILNRCPHRFAPLSLGKR-IGDAIQCPYHGLHFGPDGRCVHNPHGDGVVPDVATPTF 97 
+                               56799999999***************996.57*********999988887777777776666666655 PP
+
+  == domain 2  score: -1.4 bits;  conditional E-value: 4.2
+                Rieske.aln 376 viemggdhegssegra.......tetsvrgfwkayrk 405
+                               v+ +ggd+e     r        tets + fw   r+
+  sp|A0A059WLZ7|CNDA_RHIWD 233 VVAVGGDREDGLRVRGahmitpeTETSAHYFWAVVRN 269
+                               5566666655443332112222267777777776665 PP
+
+>> sp|Q54PI4|T1841_DICDI  Transmembrane protein 184 homolog DDB_G0284525 OS=Dictyostelium discoideum OX=44689 GN=tmem184
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.2   0.00053       3.3     167     219 ..      78     131 ..      66     139 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00053
+             Rieske.aln 167 ylgpeiceriervl.hkpvevigrftqklpnnwklyfenvkdsyhasllhmfft 219
+                            y  p+    i r++   p+  i  +   l  n+++yf  ++d y a +l+mff+
+  sp|Q54PI4|T1841_DICDI  78 YTQPDHQRYIVRIVfMIPIYAIYSLLSLLLHNYQVYFALLRDCYEAYVLYMFFA 131
+                            666777777777551579999999999**************************7 PP
+
+>> sp|Q52185|POBA_ECTOL  Phenoxybenzoate dioxygenase subunit alpha OS=Ectopseudomonas oleovorans OX=301 GN=pobA PE=2 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   0.1   0.00082       5.1      66     222 ..      69     222 ..      40     230 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00082
+            Rieske.aln  66 vvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdltgvafekgvkgqggmpasfckeehgprklrvavfcglvf 154
+                           v+ rd       +  rc hrg+ +   +      ++c yh w +  +    g ++++  + +gg+    +++   p + r     glvf
+  sp|Q52185|POBA_ECTOL  69 VLFRDKAGRPGLLYPRCMHRGTSLYYGHVE-EAGIRCCYHGWLFAVD----GTCLNQPCEPEGGLRREAARQPWYPVEERY----GLVF 148
+                           5556665555666789*****998876655.45799******99865....56788999999**99999999999988886....5555 PP
+
+            Rieske.aln 155 gsfs..edvpsiedy..l.gpeiceriervlhkpvevigrftq.klpnnwklyfenvkdsyhasllhmffttfe 222
+                             +   e  p +  y  l   e  e ie +    v    ++ + ++p  w   +en+ d yh  +lh  f+ ++
+  sp|Q52185|POBA_ECTOL 149 AYMGppEKKPVLPRYdiLeDLEEGEFIEVISGGFVSYADHVEDpNVPYHWLQNWENIMDPYHVYILHSTFSGIQ 222
+                           5443225556555441131346677788777778887777754379*********************9998655 PP
+
+>> sp|Q54WM0|T1843_DICDI  Transmembrane protein 184 homolog DDB_G0279555 OS=Dictyostelium discoideum OX=44689 GN=tmem184
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.3    0.0007       4.3     156     219 ..      16      80 ..       3      88 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.0007
+             Rieske.aln 156 sfsedvpsiedylgpeiceriervl.hkpvevigrftqklpnnwklyfenvkdsyhasllhmfft 219
+                            sf      + +y  pe+ + i r+l   p+  +  +      +  lyf+ v+d+y a +l+ ff+
+  sp|Q54WM0|T1843_DICDI  16 SFYLIYKHLRNYTNPELQKYIVRILiMVPIYSVDSWLSLRFVELSLYFDVVRDTYEAYVLYCFFS 80 
+                            55555667889************98357999999999999999********************97 PP
+
+>> sp|A0A076FF10|F8H2_OCIBA  Flavonoid 8-hydroxylase 2, chloroplastic OS=Ocimum basilicum OX=39350 GN=F8H-2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0    0.0012       7.4      66     113 ..     102     150 ..      94     160 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0012
+                Rieske.aln  66 vvvrdadqe.iyafenrcahrgalialeksgrtdsfqcvyhawsynrqg 113
+                               vv  d  ++    f++ c hr a ++  +  +   +qcvyh w ++  g
+  sp|A0A076FF10|F8H2_OCIBA 102 VVWWDRKENaWKVFDDTCPHRLAPLSEGRIDQWGRLQCVYHGWCFDGAG 150
+                               55555544414579*******999998888888899********98776 PP
+
+>> sp|Q5CC92|UCRIB_CYAPA  Cytochrome b6-f complex iron-sulfur subunit 2, cyanelle OS=Cyanophora paradoxa OX=2762 GN=petC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   0.00078       4.9      44     115 ..     130     200 ..     110     205 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00078
+             Rieske.aln  44 cleseipgagdfrttfagetp.ivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdl 115
+                             le+  pg   +   + g++  ++v  d   e y ++  c+h g+++  ++s     f c  h   y+r g +
+  sp|Q5CC92|UCRIB_CYAPA 130 WLETXKPGDRSLAQGLKGDATyLIVKEDGTLEKYGLNAVCTHLGCVVPWNQSE--GKFMCPCHGSQYDRTGKV 200
+                            5788889999999999998661555568999*****************99986..57************9976 PP
+
+>> sp|Q54KK8|Y7397_DICDI  Putative uncharacterized protein DDB_G0287283 OS=Dictyostelium discoideum OX=44689 GN=DDB_G028
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00065         4      54      80 ..      10      36 ..       3      41 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00065
+             Rieske.aln 54 dfrttfagetpivvvrdadqeiyafen 80
+                           +f+ t+  +tpiv+v d d+ i  f+ 
+  sp|Q54KK8|Y7397_DICDI 10 EFKNTYITKTPIVIVIDNDKIIPNFDR 36
+                           79******************9999986 PP
+
+>> sp|Q6PAD2|PLK4_XENLA  Serine/threonine-protein kinase PLK4 OS=Xenopus laevis OX=8355 GN=plk4 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.0    0.0014       8.5     238     288 ..      34      85 ..      15     104 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.0014
+            Rieske.aln 238 gghhvsysmidrsakddsykdqairsdne.ryrlkdpsllegfeefedgvtl 288
+                            g  v+  mid+ a +     q +r++ e + +lk ps+le ++ fed   +
+  sp|Q6PAD2|PLK4_XENLA  34 TGIDVAIKMIDKKAMQKVGMVQRVRNEVEiHCQLKHPSILELYNYFEDSNYV 85 
+                           5788999*******************9993469***************8544 PP
+
+>> sp|P26291|UCRIA_PEA  Cytochrome b6-f complex iron-sulfur subunit, chloroplastic OS=Pisum sativum OX=3888 GN=petC PE=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0   0.00098       6.1      45     115 ..     119     188 ..     105     193 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.00098
+           Rieske.aln  45 leseipgagdfrttfage.tpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdl 115
+                          l++  pg   +   + g+ t +vv +d     +a++  c+h g+++ ++++   + f c  h   yn qg +
+  sp|P26291|UCRIA_PEA 119 LKTHAPGDRTLTQGLKGDpTYLVVEKDRTLATFAINAVCTHLGCVVPFNQAE--NKFICPCHGSQYNDQGRV 188
+                          5667777777777788874667888999999****************99875..78*************976 PP
+
+>> sp|P12609|VANA_PSES9  Vanillate O-demethylase oxygenase subunit OS=Pseudomonas sp. (strain ATCC 19151) OX=315 GN=vanA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0    0.0011       6.8      64     114 ..       6      55 ..       1      81 [. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.0011
+            Rieske.aln  64 pivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgd 114
+                            +v+ r a q + a+e+ c hrga ++l  s +   + c yh    + +g 
+  sp|P12609|VANA_PSES9   6 RMVIYRGAGQRVAALEDFCPHRGAPLSLG-SIQDGKLVCGYHGLVMDCDGR 55 
+                           58999*********************996.566778999999988777775 PP
+
+>> sp|O49078|UCRIA_FRIAG  Cytochrome b6-f complex iron-sulfur subunit, chloroplastic OS=Fritillaria agrestis OX=64177 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0    0.0012       7.4      50     115 ..     125     189 ..     110     194 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0012
+             Rieske.aln  50 pgagdfrttfage.tpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdl 115
+                            pg   +   + g+ t +vv  d     y ++  c+h g+++  +k+   + f c  h   yn qg +
+  sp|O49078|UCRIA_FRIAG 125 PGDRTLAQGLRGDpTYLVVENDRSLATYGINAVCTHLGCVVPWNKAE--NKFLCPCHGSQYNNQGKV 189
+                            555555555666535677778889999****************9985..68**************86 PP
+
+>> sp|Q9ZR03|UCRIA_ARATH  Cytochrome b6-f complex iron-sulfur subunit, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.9   0.0    0.0016       9.8      50     115 ..     124     188 ..     111     193 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.0016
+             Rieske.aln  50 pgagdfrttfage.tpivvvrdadqeiyafenrcahrgalialeksgrtdsfqcvyhawsynrqgdl 115
+                            pg   +   + g+ t +vv  d     y ++  c+h g+++  +k+   + f c  h   yn qg +
+  sp|Q9ZR03|UCRIA_ARATH 124 PGDRTLTQGLKGDpTYLVVENDKTLATYGINAVCTHLGCVVPWNKAE--NKFLCPCHGSQYNAQGRV 188
+                            555555555666635667777888899****************9985..68*************976 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (413 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     14157  (0.0246783); expected 11473.2 (0.02)
+Passed bias filter:                    12029  (0.0209688); expected 11473.2 (0.02)
+Passed Vit filter:                       724  (0.00126207); expected 573.7 (0.001)
+Passed Fwd filter:                        92  (0.000160373); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              92  [number of targets reported over threshold]
+# CPU time: 5.36u 0.20s 00:00:05.56 Elapsed: 00:00:01.65
+# Mc/sec: 51980.88
+//
+[ok]

@@ -1,0 +1,19 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|O06836|STYC_PSEFL  -            169 PS.aln               -            168   3.9e-85  288.7   4.0   1   1   3.1e-90   4.4e-85  288.5   4.0     1   167     2   167     2   168 0.98 Styrene-oxide isomerase OS=Pseudomonas fluorescens OX=294 GN=styC PE=1 SV=1
+sp|Q21EC5|NHAA3_SACD2 -            397 PS.aln               -            168      0.64   14.7   0.8   1   2   0.00041        59    8.3   0.2    11    50   204   245   199   255 0.86 Na(+)/H(+) antiporter NhaA 3 OS=Saccharophagus degradans (strain 2-40 / ATCC 43961 / DSM 17024) OX=203122 GN=nhaA3 PE=3 SV=1
+sp|Q21EC5|NHAA3_SACD2 -            397 PS.aln               -            168      0.64   14.7   0.8   2   2    0.0087   1.3e+03    4.0   0.0   111   159   351   396   317   397 0.82 Na(+)/H(+) antiporter NhaA 3 OS=Saccharophagus degradans (strain 2-40 / ATCC 43961 / DSM 17024) OX=203122 GN=nhaA3 PE=3 SV=1
+sp|P86935|GPI10_TRYBB -            558 PS.aln               -            168       1.3   13.7   0.4   1   2      0.54   7.8e+04   -1.9   0.4    18    36   233   251   221   309 0.70 GPI mannosyltransferase 3 OS=Trypanosoma brucei brucei OX=5702 GN=GPI10 PE=2 SV=1
+sp|P86935|GPI10_TRYBB -            558 PS.aln               -            168       1.3   13.7   0.4   2   2   2.9e-05       4.1   12.0   0.0    51    90   402   441   362   450 0.84 GPI mannosyltransferase 3 OS=Trypanosoma brucei brucei OX=5702 GN=GPI10 PE=2 SV=1
+sp|Q7Z269|SP4_POLDO   -            277 PS.aln               -            168       4.8   11.8   0.0   1   1   5.3e-05       7.6   11.2   0.0   126   166   142   182   111   184 0.86 Venom serine protease OS=Polistes dominula OX=743375 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PS.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/PS/PS.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/PS/PS.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PS.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 12:58:01 2025
+# [ok]

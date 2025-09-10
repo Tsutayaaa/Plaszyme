@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+TIM_barrel.aln	59b2a8967d	383	428	6.2e-35	115.3	1.3e-34	1.9e-33	110.4	40	387	20	357	14	365	0.79	1	1	0.7897196261682243	0.9086161879895561	TIM_barrel.hmm

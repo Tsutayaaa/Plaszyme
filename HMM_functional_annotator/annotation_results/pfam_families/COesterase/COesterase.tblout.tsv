@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+114e6d2abe           -          COesterase.aln       -              1e-65  217.2   0.0   1.5e-65  216.7   0.0   1.1   1   0   0   1   1   1   1 -
+e542ce1613           -          COesterase.aln       -              5e-65  215.0   0.0     8e-65  214.3   0.0   1.2   1   1   0   1   1   1   1 -
+03f3222488           -          COesterase.aln       -            5.4e-65  214.8   0.0   7.8e-65  214.3   0.0   1.1   1   0   0   1   1   1   1 -
+f41c6d89a0           -          COesterase.aln       -            2.1e-64  212.9   0.0     3e-64  212.4   0.0   1.1   1   0   0   1   1   1   1 -
+54b0f51654           -          COesterase.aln       -            1.9e-63  209.7   0.0   2.8e-63  209.2   0.0   1.1   1   0   0   1   1   1   1 -
+9c28e36175           -          COesterase.aln       -            6.1e-63  208.1   0.0   8.7e-63  207.6   0.0   1.1   1   0   0   1   1   1   1 -
+4fd7439f5f           -          COesterase.aln       -            1.4e-62  206.9   0.0   2.2e-62  206.2   0.0   1.2   1   0   0   1   1   1   1 -
+afb51f2a48           -          COesterase.aln       -              2e-62  206.3   0.0   3.2e-62  205.7   0.0   1.2   1   0   0   1   1   1   1 -
+59bb4d8994           -          COesterase.aln       -            9.1e-62  204.2   0.0   1.4e-61  203.5   0.0   1.2   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/COesterase.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/COesterase/COesterase.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/COesterase/COesterase.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/COesterase.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:05:26 2025
+# [ok]

@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Peptidase_S8.aln	sp|P06873|PRTK_PARAQ	384	373	7.9e-169	566.6	5.8e-172	8.9e-169	566.5	1	373	1	382	1	382	0.99	1	1	1.0241286863270778	0.9713541666666666	Peptidase_S8

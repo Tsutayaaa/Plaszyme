@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Peptidase_S9.aln	sp|Q588Z2|OPH_SPHS1	364	269	9.4e-87	295.8	1.3e-89	1.1e-86	295.5	8	269	22	364	3	364	0.92	1	1	1.275092936802974	0.7197802197802198	Peptidase_S9

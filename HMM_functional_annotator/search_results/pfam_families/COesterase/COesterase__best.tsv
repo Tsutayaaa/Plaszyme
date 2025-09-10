@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+COesterase.aln	sp|P37967|PNBA_BACSU	489	500	5.3e-200	670.8	2.8e-203	5.9e-200	670.6	5	499	2	488	1	489	0.99	1	1	0.974	1.0122699386503067	COesterase

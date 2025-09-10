@@ -1,0 +1,725 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Glyco_hydro_18.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/Glyco_hydro_18/Glyco_hydro_18.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/Glyco_hydro_18/Glyco_hydro_18.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Glyco_hydro_18.aln  [M=428]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    6.2e-35  115.3   0.0    1.9e-33  110.4   0.0    2.0  1  59b2a8967d  
+    2.2e-34  113.5   0.0    1.7e-32  107.2   0.0    2.0  1  4363ef0515  
+    2.3e-34  113.4   0.0    6.5e-33  108.7   0.0    2.0  1  d067f42a88  
+    3.5e-34  112.8   0.0    2.5e-32  106.7   0.0    2.0  1  bbcdf9d411  
+      1e-33  111.3   0.0    8.5e-32  105.0   0.0    2.0  1  2dfc35b340  
+    5.8e-33  108.8   0.0    9.5e-32  104.8   0.0    1.9  1  e50684fc1d  
+    6.7e-33  108.6   0.0    4.2e-31  102.7   0.0    2.0  1  a31a183afc  
+    1.5e-32  107.5   0.1    9.6e-31  101.5   0.1    2.0  1  c6e7853f94  
+    9.8e-32  104.8   0.0    1.4e-29   97.7   0.0    2.0  1  2fbb6704a4  
+    1.6e-31  104.1   0.1    8.8e-30   98.4   0.1    2.0  1  66be5d4ef2  
+    1.3e-27   91.2   0.0    1.6e-25   84.3   0.0    2.0  2  bc53177eef  
+    1.4e-27   91.1   0.0    1.5e-24   81.1   0.0    2.0  2  501458601d  
+    6.1e-17   56.0   0.1    4.5e-08   26.8   0.0    3.2  3  98f5319ea1  
+    3.9e-14   46.8   0.1    5.4e-09   29.9   0.0    3.2  3  d77c72ad06  
+    4.6e-12   40.0   3.3    3.1e-08   27.3   0.1    3.0  3  64eb7a2b19  
+    1.7e-10   34.8   0.1    1.6e-05   18.4   0.0    3.1  3  f85305f363  
+    1.1e-09   32.1   0.0      1e-05   19.1   0.0    3.3  3  c357c6404c  
+    5.2e-08   26.6   0.0    0.00021   14.7   0.0    3.1  3  f2ac448666  
+    1.4e-07   25.2   0.0     0.0033   10.8   0.0    3.2  3  60fd82c1bd  
+    2.6e-07   24.3   0.0    0.00041   13.8   0.0    3.0  3  7d95f6a24a  
+    2.9e-07   24.2   0.0    0.00041   13.8   0.0    2.8  3  16a5214e78  
+    6.3e-07   23.1   0.0      0.003   10.9   0.0    3.2  3  545a61cacd  
+    4.6e-06   20.2   0.0    0.00013   15.4   0.0    2.5  3  464cecdd28  
+    5.4e-06   20.0   0.0     0.0078    9.6   0.0    3.0  3  e560d46d60  
+
+
+Domain annotation for each sequence (and alignments):
+>> 59b2a8967d  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  110.4   0.0   1.3e-34   1.9e-33      40     387 ..      20     357 ..      14     365 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 110.4 bits;  conditional E-value: 1.3e-34
+  Glyco_hydro_18.aln  40 vayknagyfvnwaiygr...nfqpaqlqaaqlthvlyafanlrpdgsvflsdtyadlekhypedswnepgtnlfgcakqiyllkkkhrsmk 127
+                          ayk   y+  w+ y        p  l+    th++y+fan+  d                  d+w+     l+g       lk++  ++k
+          59b2a8967d  20 SAYKLVCYYTSWSQYREgdgSCFPDALDRFLCTHIIYSFANISNDH--------------I--DTWEWNDVTLYGML---NTLKNRNPNLK 91 
+                         6999999999999995422245688899999999999999997763..............2..55666668899975...579******** PP
+
+  Glyco_hydro_18.aln 128 vllsiggwtyss.nfaaaastpttralfvstaveivkdlgfdgldidweyptneteaknyvlllkacregldayananakgykfqltiaap 217
+                          lls+ggw + s  f+  as   +r  f+ +    ++  gfdgld+ w yp    + + +  l+k  +  +       a+  k ql ++a 
+          59b2a8967d  92 TLLSVGGWNFGSqRFSKIASNTQSRRTFIKSVPPFLRTHGFDGLDLAWLYPGRR-DKQHFTTLIKEMKAEFIKE----AQPGKKQLLLSAA 177
+                         *********976269************************************976.5567888888776555443....4444445555554 PP
+
+  Glyco_hydro_18.aln 218 agpdkyni...lkmkemdayldawhlmaydyagswstvaghdanlypsktvpegtpys.tdkavvdyikagvpaakiiigvplygrsfq.. 302
+                             k  i     + ++  +ld   +m+yd+ g+w   +gh + l+  +       +s td av   ++ g pa+k+++g+p +grsf   
+          59b2a8967d 178 LSAGKVTIdssYDIAKISQHLDFISIMTYDFHGAWRGTTGHHSPLFRGQEDASPDRFSnTDYAVGYMLRLGAPASKLVMGIPTFGRSFTla 268
+                         44444444222456667889**************************9988777666664889998899********************732 PP
+
+  Glyco_hydro_18.aln 303 .ategmgkkfsgig...egswengvwdykvlpk..agatvkidndakarysydpatkelisfdtvedaktkaeyvktkglggamywetsad 387
+                          +  g+g  +sg g     + e g   y  +     gatv+       +  y    ++ + +d  e  k+k +y+k + l gam w    d
+          59b2a8967d 269 sSETGVGAPISGPGipgRFTKEAGTLAYYEICDflRGATVHRILG--QQVPYATKGNQWVGYDDQESVKSKVQYLKDRQLAGAMVWALDLD 357
+                         23469******976211557799*999887776225888765554..55667778899****************************87655 PP
+
+>> 4363ef0515  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  107.2   0.0   1.2e-33   1.7e-32      40     387 ..      20     357 ..      12     371 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 107.2 bits;  conditional E-value: 1.2e-33
+  Glyco_hydro_18.aln  40 vayknagyfvnwaiygr...nfqpaqlqaaqlthvlyafanlrpdgsvflsdtyadlekhypedswnepgtnlfgcakqiyllkkkhrsmk 127
+                          ayk   y+  w+ y        p  ++    thv+y+fan+  +                  d+w+     l+     +  lk++  ++k
+          4363ef0515  20 AAYKLICYYTSWSQYREgdgSCFPDAIDPFLCTHVIYSFANISNNE----------------IDTWEWNDVTLYD---TLNTLKNRNPNLK 91 
+                         5777777777777774311134466666777777777777764432................2455555566665...56789******** PP
+
+  Glyco_hydro_18.aln 128 vllsiggwtyss.nfaaaastpttralfvstaveivkdlgfdgldidweyptneteaknyvlllkacregldayananakgykfqltiaap 217
+                          lls+ggw + s  f+  as   +r  f+ +    ++  gfdgld+ w yp      +    l+k  +  +    +a+a   ++ l+ a p
+          4363ef0515  92 TLLSVGGWNFGSqRFSKIASKTQSRRTFIKSVPPFLRTHGFDGLDLAWLYPGWRD-KRHLTTLVKEMKAEF--VREAQAGTEQLLLSAAVP 179
+                         *********976269************************************9765.556677777777655..456667777899999999 PP
+
+  Glyco_hydro_18.aln 218 agpdkyn.ilkmkemdayldawhlmaydyagswstvaghdanlypsktvpegtpyst.dkavvdyikagvpaakiiigvplygrsfqat.. 304
+                         ag    +    + ++  +ld   l++yd+ g+w    gh + l+  +       +s  d av   ++ g pa k+++g+p +grs+  +  
+          4363ef0515 180 AGKIAIDrGYDIAQISRHLDFISLLTYDFHGAWRQTVGHHSPLFRGQEDASSDRFSNaDYAVSYMLRLGAPANKLVMGIPTFGRSYTLAss 270
+                         99765441467788999*****************************999999998852677777789******************975411 PP
+
+  Glyco_hydro_18.aln 305 .egmgkkfsgi...gegswengvwdykvlpk..agatvkidndakarysydpatkelisfdtvedaktkaeyvktkglggamywetsad 387
+                            +g  +sg    g+ + e+g+  y  +     gat +   d +  y+     ++ +++d  e  k ka y+k + l gam w    d
+          4363ef0515 271 kTDVGAPISGPgipGQFTKEKGILAYYEICDflHGATTHRFRDQQVPYA--TKGNQWVAYDDQESVKNKARYLKNRQLAGAMVWALDLD 357
+                         15689999986113466789***99987765337999999999887665..567899***************************87665 PP
+
+>> d067f42a88  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  108.7   0.0   4.3e-34   6.5e-33      40     387 ..      47     384 ..      41     391 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 108.7 bits;  conditional E-value: 4.3e-34
+  Glyco_hydro_18.aln  40 vayknagyfvnwaiygr...nfqpaqlqaaqlthvlyafanlrpdgsvflsdtyadlekhypedswnepgtnlfgcakqiyllkkkhrsmk 127
+                          ayk   y+  w+ y        p  ++    th++y+fan+  d                  d+w+     l+g       lk++  ++k
+          d067f42a88  47 SAYKLVCYYTSWSQYREgdgSCFPDAIDRFLCTHIIYSFANISNDH----------------IDTWEWNDVTLYGML---NTLKNRNPNLK 118
+                         6899999999999985411235577788888899999999987663................255666668899975...579******** PP
+
+  Glyco_hydro_18.aln 128 vllsiggwtyss.nfaaaastpttralfvstaveivkdlgfdgldidweyptneteaknyvlllkacregldayananakgykfqltiaap 217
+                          lls+ggw + s  f+  as   +r  f+ +    ++  gfdgld+ w yp +  + + +  l+k  r  +   a+      k ql ++a 
+          d067f42a88 119 TLLSVGGWNFGSqRFSNIASNTQSRRTFIKSVPPFLRTHGFDGLDLAWLYPGQR-DKQHFTTLIKEMRAEFIKEAQPG----KKQLLLSAA 204
+                         *********976269************************************876.56789999999997765554444....444444444 PP
+
+  Glyco_hydro_18.aln 218 agpdkyni...lkmkemdayldawhlmaydyagswstvaghdanlypsktvpegtpys.tdkavvdyikagvpaakiiigvplygrsfq.. 302
+                             k  i     + ++  +ld   +m+yd+ g+w   +gh + l+  +       +s td av   ++   pa+k+++g+p +grsf   
+          d067f42a88 205 VSAGKVTIdssYDIAKISQHLDFISIMTYDFHGAWRGTTGHHSPLFRGQEDASPDRFSnTDYAVGYMLRLEAPASKLVMGIPTFGRSFTla 295
+                         44444444112456667889**************************9988777666664888988889********************732 PP
+
+  Glyco_hydro_18.aln 303 .ategmgkkfsgig...egswengvwdykvlpk..agatvkidndakarysydpatkelisfdtvedaktkaeyvktkglggamywetsad 387
+                          +  g+g  +sg g     + e g   y  +     gatv+       +  y    ++ + +d  e  k+k +y+k + l gam w    d
+          d067f42a88 296 sSETGVGAPISGPGipgRFTKEAGTLAYYEICDflRGATVHRILG--QQVPYATKGNQWVGYDDQESVKSKVQYLKERQLAGAMVWALDLD 384
+                         23469******976211557799*999887776225888765554..55667778899****************************87655 PP
+
+>> bbcdf9d411  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.7   0.0   1.7e-33   2.5e-32      40     386 ..      20     356 ..       7     363 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 106.7 bits;  conditional E-value: 1.7e-33
+  Glyco_hydro_18.aln  40 vayknagyfvnwaiygr...nfqpaqlqaaqlthvlyafanlrpdgsvflsdtyadlekhypedswnepgtnlfgcakqiyllkkkhrsmk 127
+                          ayk   y+  w+ y        p  ++    th++y+fan+  +                  d+w+     l+     +  lk++  ++k
+          bbcdf9d411  20 AAYKLVCYYTSWSQYREgdgSCFPDAIDPFLCTHIIYSFANISNNE----------------IDTWEWNDVTLYD---TLNTLKNRNPNLK 91 
+                         5666666666666663311133455566666666666666654332................2455555556665...56789******** PP
+
+  Glyco_hydro_18.aln 128 vllsiggwtyss.nfaaaastpttralfvstaveivkdlgfdgldidweyptneteaknyvlllkacregldayananakgykfqltiaap 217
+                          lls+ggw + s  f+  as   +r  f+ +    ++  gfdgld+ w yp      +    l+k  +  +    +a+a   ++ l+ a  
+          bbcdf9d411  92 TLLSVGGWNFGSqRFSKIASKTQSRRTFIKSVPPFLRTHGFDGLDLAWLYPGRRD-KRHLTTLVKEMKAEFIR--EAQAGTEQLLLSAAVS 179
+                         *********976269************************************9765.56667777777765544..4455555556666666 PP
+
+  Glyco_hydro_18.aln 218 agpdkyni.lkmkemdayldawhlmaydyagswstvaghdanlypsktvpegtpyst.dkavvdyikagvpaakiiigvplygrsfqat.. 304
+                         ag    +    + ++  +ld   l++yd+ g+w   +gh + l+  +       +s  d av   ++ g pa k+++g+p +grsf  +  
+          bbcdf9d411 180 AGKVAIDRgYDIAQISQHLDFISLLTYDFHGAWRQTTGHHSPLFRGQEDASSDRFSNaDYAVSYVLRLGAPANKLVMGIPTFGRSFTLAss 270
+                         66543322256778899*****************************9999999998626666666799******************85411 PP
+
+  Glyco_hydro_18.aln 305 .egmgkkfsgig...egswengvwdykvlpk..agatvkidndakarysydpatkelisfdtvedaktkaeyvktkglggamywetsa 386
+                            +g  +sg g     + e+g+  y  +     gat +   d +  y+     ++ + +d  e  k ka+y+k++ l gam w    
+          bbcdf9d411 271 kTDVGAPVSGPGipgRFTKEKGILAYYEICDflQGATTHRFRDQQVPYA--TKGNQWVGYDDQESVKNKAKYLKSRQLAGAMVWALDL 356
+                         15689999986521156789***99987765337999999999887665..567899***************************8765 PP
+
+>> 2dfc35b340  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  105.0   0.0   5.7e-33   8.5e-32      40     387 ..      20     357 ..      14     366 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 105.0 bits;  conditional E-value: 5.7e-33
+  Glyco_hydro_18.aln  40 vayknagyfvnwaiygr...nfqpaqlqaaqlthvlyafanlrpdgsvflsdtyadlekhypedswnepgtnlfgcakqiyllkkkhrsmk 127
+                          ayk   y+  w+ y        p  ++    thv+y+fan+  +                  d+w+     l+     +  lk++   +k
+          2dfc35b340  20 AAYKLICYYTSWSQYREgdgSCFPDAIDPFLCTHVIYSFANISNNE----------------IDTWEWNDVTLYD---TLNTLKNRNPKLK 91 
+                         5777777777777774311134466666677777777777764432................2455555566665...56789******** PP
+
+  Glyco_hydro_18.aln 128 vllsiggwtyss.nfaaaastpttralfvstaveivkdlgfdgldidweyptneteaknyvlllkacregldayananakgykfqltiaap 217
+                          lls+ggw + s  f+  as   +r  f+ +    ++  gfdgld+ w yp      +    l+k  +  +    +a+a   ++ l+ a p
+          2dfc35b340  92 TLLSVGGWNFGSqRFSKIASKTQSRRTFIKSVPPFLRTHGFDGLDLAWLYPGWRD-KRHLTTLVKEMKAEF--VREAQAGTEQLLLSAAVP 179
+                         *********976269************************************9765.556677777777655..456667777899999999 PP
+
+  Glyco_hydro_18.aln 218 agpdkyn.ilkmkemdayldawhlmaydyagswstvaghdanlypsktvpegtpyst.dkavvdyikagvpaakiiigvplygrsfqat.. 304
+                         ag    +    + ++  +ld   l++yd+ g+w    gh + l+  +       +s  d av   ++ g pa k+++g+p +g+s+  +  
+          2dfc35b340 180 AGKIAIDrGYDIAQISRHLDFISLLTYDFHGAWRQTVGHHSPLFRGQEDASSDRFSNaDYAVSYMLRLGAPANKLVMGIPTFGKSYTLAss 270
+                         99765441467788999*****************************999999998852677777789******************975411 PP
+
+  Glyco_hydro_18.aln 305 .egmgkkfsgi...gegswengvwdykvlpk..agatvkidndakarysydpatkelisfdtvedaktkaeyvktkglggamywetsad 387
+                            +g  +sg    g+ + e+g+  y  +     gat +   d +  y+     ++ +++d  e  k ka y+k + l gam w    d
+          2dfc35b340 271 kTDVGAPISGPgipGQFTKEKGILAYYEICDflHGATTHRFRDQQVPYA--TKGNQWVAYDDQESVKNKARYLKNRQLAGAMVWALDLD 357
+                         15689999986113466789***99987765337999999999887665..567899***************************87655 PP
+
+>> e50684fc1d  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.8   0.0   6.4e-33   9.5e-32     106     387 ..      52     335 ..       1     350 [. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 104.8 bits;  conditional E-value: 6.4e-33
+  Glyco_hydro_18.aln 106 gtnlfgcakqiyllkkkhrsmkvllsiggwtys.snfaaaastpttralfvstaveivkdlgfdgldidweyptneteaknyvlllkacre 195
+                            l+     +  lk++   +k lls+ggw +    f+a as   +r  f+ +    ++  gfdgld+ w yp      +    l+k  + 
+          e50684fc1d  52 DVTLY---DTLNTLKNRNPKLKTLLSVGGWNFGpERFSAIASKTQSRRTFIKSVPPFLRTHGFDGLDLAWLYPGRRD-KRHLTTLVKEMKA 138
+                         44444...34667999999*************8357*************************************9765.5666777777766 PP
+
+  Glyco_hydro_18.aln 196 gldayananakgykfqltiaapagpdkyni.lkmkemdayldawhlmaydyagswstvaghdanlypsktvpegtpystdkavvdyikagv 285
+                          +    +a+a   ++ l+ a  ag    +    + ++  +ld   l++yd+ g+w    gh + l+  +        ++d av   ++ g 
+          e50684fc1d 139 EFIR--EAQAGTEQLLLSAAVSAGKIAIDRgYDIAQISRHLDFISLLTYDFHGAWRQTVGHHSPLFAGNEDASSRFSNADYAVSYMLRLGA 227
+                         5544..444555555556666666433322256778899*****************************999998888999999999***** PP
+
+  Glyco_hydro_18.aln 286 paakiiigvplygrsfqat...egmgkkfsgig...egswengvwdykvlpk..agatvkidndakarysydpatkelisfdtvedaktka 368
+                         pa k+++g+p +grsf  +     +g  +sg g     + e+g+  y  +     gat +   d +  y+     ++ +++d  e  k ka
+          e50684fc1d 228 PANKLVMGIPTFGRSFTLAsskTDVGAPVSGPGvpgRFTKEKGILAYYEICDflHGATTHRFRDQQVPYA--TKGNQWVAYDDQESVKNKA 316
+                         ****************8541115689999997621145779***99987765337999999999887665..567899************* PP
+
+  Glyco_hydro_18.aln 369 eyvktkglggamywetsad 387
+                          y+k + l gam w    d
+          e50684fc1d 317 RYLKNRQLAGAMVWALDLD 335
+                         **************87665 PP
+
+>> a31a183afc  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.7   0.0   2.8e-32   4.2e-31      60     387 ..      43     357 ..      14     370 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 102.7 bits;  conditional E-value: 2.8e-32
+  Glyco_hydro_18.aln  60 paqlqaaqlthvlyafanlrpdgsvflsdtyadlekhypedswnepgtnlfgcakqiyllkkkhrsmkvllsiggwtys.snfaaaastpt 149
+                         p  ++    th++y+fan+  +                  d+w+     l+     +  lk++   +k lls+ggw +    f+  as   
+          a31a183afc  43 PDAIDPFLCTHIIYSFANISNN----------------EIDTWEWNDVTLYD---TLNTLKNRNPKLKTLLSVGGWNFGpERFSKIASKTQ 114
+                         4455555555555555555332................22445544555664...5678999****************83579******** PP
+
+  Glyco_hydro_18.aln 150 tralfvstaveivkdlgfdgldidweyptneteaknyvlllkacregldayananakgykfqltiaapagpdkyn.ilkmkemdayldawh 239
+                         +r  f+ +    ++  gfdgld+ w yp      +    l+k  +  +     a+a   ++ l+ a  ag    +    + ++  +ld   
+          a31a183afc 115 SRRTFIKSVPPFLRTHGFDGLDLAWLYPGRRD-KRHLTGLVKEMKAEFARE--AQAGTERLLLSAAVSAGKIAIDrGYDIAQISRHLDFIS 202
+                         ****************************9764.566667777777665544..45555667777777777544331356778899****** PP
+
+  Glyco_hydro_18.aln 240 lmaydyagswstvaghdanlypsktvpegtpyst.dkavvdyikagvpaakiiigvplygrsfqat...egmgkkfsgig...egswengv 323
+                         l++yd+ g+w    gh + l+  +       +s  d av   ++ g pa k+++g+p +grsf  +     +g  +sg g     + e+g+
+          a31a183afc 203 LLTYDFHGAWRQTVGHHSPLFRGQEDASSDRFSNaDYAVSYMLRLGAPANKLVMGIPTFGRSFTLAsskTDVGAPISGPGipgRFTKEKGI 293
+                         ***********************999999998852677777789*******************8541115689999986521156789*** PP
+
+  Glyco_hydro_18.aln 324 wdykvlpk..agatvkidndakarysydpatkelisfdtvedaktkaeyvktkglggamywetsad 387
+                           y  +     gat +   d +  y+     ++ +++d  e  k ka y+k + l gam w    d
+          a31a183afc 294 LAYYEICDflHGATTHRFRDQQVPYA--TKGNQWVAYDDQESVKNKARYLKNRQLAGAMVWALDLD 357
+                         99987765337999999999887665..567899***************************87665 PP
+
+>> c6e7853f94  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.5   0.1   6.5e-32   9.6e-31      39     386 ..      27     365 ..      13     372 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 101.5 bits;  conditional E-value: 6.5e-32
+  Glyco_hydro_18.aln  39 avayknagyfvnwaiygr...nfqpaqlqaaqlthvlyafanlrpdgsvflsdtyadlekhypedswnepgtnlfgcakqiyllkkkhrsm 126
+                         + ayk   yf  w+ y      f p  +q    th++y+fan+  d    ls              wn+          ++  lk +  ++
+          c6e7853f94  27 CSAYKLVCYFTSWSQYREgvgSFLPDAIQPFLCTHIIYSFANISSDNM--LST-----------WEWNDESN-----YDKLNKLKTRNTNL 99 
+                         679*************65333799*******************99864..442...........24666532.....2467789******* PP
+
+  Glyco_hydro_18.aln 127 kvllsiggwtyss.nfaaaastpttralfvstaveivkdlgfdgldidweyptneteakny.vlllkacregldayananak..gykfqlt 213
+                         k lls+ggw +    f+  as    r+ fv +    ++  gfdgld+ w yp      k+y   l+k      +a    + +    k+ l+
+          c6e7853f94 100 KTLLSVGGWKFGEkRFSEIASNTERRTAFVRSVAPFLRSYGFDGLDLAWLYPRLR--DKQYfSTLIKEL----NAEFTKEVQpgREKLLLS 184
+                         **********9752799***********************************864..455505555544....443333333003466666 PP
+
+  Glyco_hydro_18.aln 214 iaapagpdkyni.lkmkemdayldawhlmaydyagswstvaghdanlypsktvpegtpystdkavvdy.ikagvpaakiiigvplygrsfq 302
+                          a  ag    +    + ++  +ld   lm+yd+ g w  ++gh + l+  +       ys  +  v+y i+ g  a+k+++g+p +g+sf 
+          c6e7853f94 185 AALSAGKVAIDTgYDIAQIAQHLDFINLMTYDFHGVWRQITGHHSPLFQGQKDTRFDRYSNVNYAVQYmIRLGAQASKLLMGIPTFGKSFT 275
+                         666666554443357888999*****************************9999999**987766665489*******************7 PP
+
+  Glyco_hydro_18.aln 303 at...egmgkkfsgig...egswengvwdykvlpkagatvkidndakarysydpatkelisfdtvedaktkaeyvktkglggamywetsa 386
+                          +   + +g  +sg g     + e g   y  +       ++   ++ +  +    ++ + ++  e  k k  ++k k l gam w    
+          c6e7853f94 276 LAsseNQLGAPISGEGlpgRFTKEAGTLAYYEICDFLKGAEVHRLSNEKVPFATKGNQWVGYEDKESVKNKVGFLKEKKLAGAMVWALDL 365
+                         5412257999999986311456799*99998887755555555555556667778899****************************8765 PP
+
+>> 2fbb6704a4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.7   0.0   9.1e-31   1.4e-29     115     393 ..      84     371 ..      21     377 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 97.7 bits;  conditional E-value: 9.1e-31
+  Glyco_hydro_18.aln 115 qiyllkkkhrsmkvllsiggwtyssn.faaaastpttralfvstaveivkdlgfdgldidweyptneteaknyvlllkacregldayanan 204
+                          i  lk k   +k+llsigg+ + s+ f     + t+r  f+++ +  +++  fdgld+ w yp ++ ++  + +l++   e   a+ +  
+          2fbb6704a4  84 TINSLKTKNPKLKILLSIGGYLFGSKgFHPMVDSSTSRLEFINSIILFLRNHNFDGLDVSWIYPDQKENT-HFTVLIHELAE---AFQKDF 170
+                         57889*****************9774499999********************************876555.56666655555...555555 PP
+
+  Glyco_hydro_18.aln 205 akgyk..fqltiaapagpdky.nilkmkemdayldawhlmaydyagswst..vaghdanlypskt.vpegtpystdkavvdyikagvpaak 289
+                         +k  k  + lt    ag +   n  +++++   ld   l+++d+ gsw    ++gh++ l          + y+ + av  +i+ g+p+ k
+          2fbb6704a4 171 TKSTKerLLLTAGVSAGRQMIdNSYQVEKLAKDLDFINLLSFDFHGSWEKplITGHNSPLSKGWQdRGPSSYYNVEYAVGYWIHKGMPSEK 261
+                         55555115566667788775437789999999****************85448999999865543033445688999************** PP
+
+  Glyco_hydro_18.aln 290 iiigvplygrsfq...ategmgkkfsgigeg...swengvwdykvlpkagatvkidndakarysydpatkelisfdtvedaktkaeyvktk 374
+                         +++g+p yg+sf    a   +g   sg g     +   g   y  + +     ki      +  y    ++ + +d v+  +tk +++k  
+          2fbb6704a4 262 VVMGIPTYGHSFTlasAETTVGAPASGPGAAgpiTESSGFLAYYEICQFLKGAKITRLQDQQVPYAVKGNQWVGYDDVKSMETKVQFLKNL 352
+                         ************6332556789999998864222456799999999998888888888888888999999********************* PP
+
+  Glyco_hydro_18.aln 375 glggamywetsadragdks 393
+                          lggam w    d    ks
+          2fbb6704a4 353 NLGGAMIWSIDMDDFTGKS 371
+                         *********9998776666 PP
+
+>> 66be5d4ef2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.4   0.1   5.9e-31   8.8e-30      39     387 ..      17     355 ..      12     363 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 98.4 bits;  conditional E-value: 5.9e-31
+  Glyco_hydro_18.aln  39 avayknagyfvnwaiygr...nfqpaqlqaaqlthvlyafanlrpdgsvflsdtyadlekhypedswnepgtnlfgcakqiyllkkkhrsm 126
+                         + ayk   y+ nw+ y        p  l+ +  th++y+fan+  +              +     wn+    l+g       lk +   +
+          66be5d4ef2  17 CSAYKLVCYYTNWSQYREgngSCFPDALDHSLCTHIIYSFANISNN--------------KLSTSEWND--VTLYGML---NTLKTRNPRL 88 
+                         579************954212456999***************9654..............334567997..5799975...5799999*** PP
+
+  Glyco_hydro_18.aln 127 kvllsiggwtyss.nfaaaastpttralfvstaveivkdlgfdgldidweyptneteaknyvlllkacregldayananakgykfqltiaa 216
+                         k lls+ggw++ s  f+   s   +r  fv +    ++  gfdgld+ w yp  + + + +  l+k  +  +    + +    k+ l+ a 
+          66be5d4ef2  89 KTLLSVGGWSFGSeRFSRIVSNAKSRKTFVQSVAPFLRTYGFDGLDLAWLYPGPK-DKQHFTTLIKELKAEFTK--EVQPGTEKLLLSAAV 176
+                         **********9772699***********************************976.556788888888776554..445556789999999 PP
+
+  Glyco_hydro_18.aln 217 pagpdkyni.lkmkemdayldawhlmaydyagswstvaghdanlypsktvpegtpyst.dkavvdyikagvpaakiiigvplygrsfqat. 304
+                          ag    +    + ++  +ld   lm+yd+ g+w   +gh + l+  +       +s  d  v   ++ g p+ k+++g+p +g+sf  + 
+          66be5d4ef2 177 SAGKVTLDSgYDVAQIAQHLDFINLMTYDFHGTWRHTTGHHSPLFRGQQDTGPDRFSNvDYGVGYMLRLGAPTNKLVMGIPTFGKSFTLAs 267
+                         999877654278899999***************************99877776777751666666689*******************7541 PP
+
+  Glyco_hydro_18.aln 305 ..egmgkkfsgig...egswengvwdykvlpkagatvkidndakarysydpatkelisfdtvedaktkaeyvktkglggamywetsad 387
+                           + +g  ++g g     + e+g   y  +       ++      +  +    ++ + +d  e  k k +y+k k l gam w    d
+          66be5d4ef2 268 seNQVGAPITGSGlpgRYTKEKGTLAYYEICDFLRGAEVHRILGQQVPFATKGNQWVGYDDPESVKNKVKYLKNKQLAGAMVWAVDLD 355
+                         2146788777765211567899**9999998876666777777778888889999****************************98765 PP
+
+>> bc53177eef  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9   0.0     0.013       0.2      41      82 ..      21      65 ..      15      80 .. 0.80
+   2 !   84.3   0.0   1.1e-26   1.6e-25     119     387 ..      83     365 ..      77     372 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 4.9 bits;  conditional E-value: 0.013
+  Glyco_hydro_18.aln 41 ayknagyfvnwai...ygrnfqpaqlqaaqlthvlyafanlrpdg 82
+                        +y+   y+  wa        f+p +++ +  th++yafa ++ + 
+          bc53177eef 21 SYQLMCYYTSWAKdrpIEGSFKPGNIDPCLCTHLIYAFAGMQNNE 65
+                        67788899999962223458*******************998765 PP
+
+  == domain 2  score: 84.3 bits;  conditional E-value: 1.1e-26
+  Glyco_hydro_18.aln 119 lkkkhrsmkvllsiggwtys.snfaaaastpttralfvstaveivkdlgfdgldidweyptnete.aknyvlllkacregldayanana.k 206
+                         lk k   +k ll+iggw +  + f+a  stp  r +f+ + +  +++  fdgl++dw+yp       k+  l+   ++e   a+ +    k
+          bc53177eef  83 LKDKNTELKTLLAIGGWKFGpAPFSAMVSTPQNRQIFIQSVIRFLRQYNFDGLNLDWQYPGSRGSpPKDKHLFSVLVKEMRKAFEEESVeK 173
+                         899***************97367*************************************9875415665555555566666665544413 PP
+
+  Glyco_hydro_18.aln 207 gy.kfqltiaapag.pdky.nilkmkemdayldawhlmaydyagswstvaghdanlypsk.tvpegtpystdkavvdyikagvpaakiiig 293
+                            ++ lt  + ag  d      k+ e+   ld  ++m+yd        +g ++ ly s   + + +  + d  +  +   g  + k+i+g
+          bc53177eef 174 DIpRLLLTS-TGAGiIDVIkSGYKIPELSQSLDYIQVMTYDLHDPKDGYTGENSPLYKSPyDIGKSADLNVDSIISYWKDHGAASEKLIVG 263
+                         331444443.4444145431457999*******************************99625777788888876666666899999***** PP
+
+  Glyco_hydro_18.aln 294 vplygrsfqate....gmgkkfsgi...gegswengvwdyk.v..lpkagatvkidndakarysydpatkelisfdtvedaktkaeyvktk 374
+                          p yg++f  ++    g+g         g+ + e g+  y  v  + + gat   d   +  y+y+   +e + +d v   k ka+++k +
+          bc53177eef 264 FPAYGHTFILSDpsktGIGAPTISTgppGKYTDESGLLAYYeVctFLNEGATEVWDAPQEVPYAYQ--GNEWVGYDNVRSFKLKAQWLKDN 352
+                         *******97553222278875443311244556899887641411457899999999999999987..589******************** PP
+
+  Glyco_hydro_18.aln 375 glggamywetsad 387
+                          lgga+ w    d
+          bc53177eef 353 NLGGAVVWPLDMD 365
+                         ********87655 PP
+
+>> 501458601d  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.3   0.0    0.0013     0.019      41      89 ..      21      72 ..      15      81 .. 0.83
+   2 !   81.1   0.0     1e-25   1.5e-24     119     388 ..      83     366 ..      76     398 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 8.3 bits;  conditional E-value: 0.0013
+  Glyco_hydro_18.aln 41 ayknagyfvnwaiy...grnfqpaqlqaaqlthvlyafanlrpdgsvflsdt 89
+                        +y+   y+  wa        f+p +++ +  th++yafa ++ +   +ls+ 
+          501458601d 21 SYQLMCYYTSWAKDrptEGSFKPGNIDPCLCTHLIYAFAGMKNNEITYLSEQ 72
+                        67788899999975221468************************99999974 PP
+
+  == domain 2  score: 81.1 bits;  conditional E-value: 1e-25
+  Glyco_hydro_18.aln 119 lkkkhrsmkvllsiggwtys.snfaaaastpttralfvstaveivkdlgfdgldidweyptnete.aknyvlllkacregldayananakg 207
+                         lk +   +k ll+iggw +  + f++  stp  r  f+ + +  +++  fdgl++dw+yp       k+  l+   ++e   a+ +  +  
+          501458601d  83 LKDRNTELKTLLAIGGWKFGpAPFSSMVSTPQNRQTFIKSVIRFLRQYNFDGLNLDWQYPGSRGSpPKDKHLFSVLVQEMRKAFEEESTLN 173
+                         7889999***********97367*************************************9875415665555555556666665555544 PP
+
+  Glyco_hydro_18.aln 208 y..kfqltiaapagpdky.nilkmkemdayldawhlmaydyagswstvaghdanlypsk.tvpegtpystdkavvdyikagvpaakiiigv 294
+                         +  ++ lt +     d      k+ e+   ld  ++m+yd     +  +g ++ ly s   + + +  + d  +  +   g  + k+i+g 
+          501458601d 174 HipRLLLTSTGAGFIDVIkSGYKIPELSQSLDYIQVMTYDLHDPKNGYTGENSPLYKSPyDIGKSADLNVDSIITYWKDHGAASEKLIVGF 264
+                         4113444443333344431457999*******************************9962578888888888777777789999******* PP
+
+  Glyco_hydro_18.aln 295 plygrsfq....ategmgkkfsgi...gegswengvwdyk...vlpkagatvkidndakarysydpatkelisfdtvedaktkaeyvktkg 375
+                         p yg++f     + +g+g         g+ + e+g+  y     + + gat   d   +  y+y    +e + +d v   k ka+++k + 
+          501458601d 265 PAYGHTFIlsdpSKNGIGDPTVSAgppGKYTNEQGLLAYFeicTFLNEGATEIFDATQEVPYAY--LGNEWVGYDNVRSFKLKAQWLKDNN 353
+                         ******9722224679998765541114455678998885111445789999998888888888..578********************** PP
+
+  Glyco_hydro_18.aln 376 lggamywetsadr 388
+                         lgga+ w    d 
+          501458601d 354 LGGAVVWPLDMDD 366
+                         *******877653 PP
+
+>> 98f5319ea1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.8   0.0     3e-09   4.5e-08     112     180 ..      90     163 ..      55     171 .. 0.83
+   2 !   14.6   0.0   1.5e-05   0.00022     234     307 ..     239     312 ..     217     318 .. 0.80
+   3 !   10.9   0.1    0.0002     0.003     355     387 ..     390     422 ..     363     435 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 26.8 bits;  conditional E-value: 3e-09
+  Glyco_hydro_18.aln 112 cakqiyllkkkhrsmkvllsiggwty.....ssnfaaaastpttralfvstaveivkdlgfdgldidweyptne 180
+                           + i  +kkk+  +kvlls+gg        ++++ +   +  +r  f+++a  +vk  gfdgl++ w++p n+
+          98f5319ea1  90 LYRTITGMKKKYPHLKVLLSVGGDKDevdadNNKYLTLLESSNARIPFINSAHSMVKTYGFDGLELGWQFPKNK 163
+                         44678889***************764111113446677788999***************************997 PP
+
+  == domain 2  score: 14.6 bits;  conditional E-value: 1.5e-05
+  Glyco_hydro_18.aln 234 yldawhlmaydyagswst..vaghdanlypsktvpegtpystdkavvdy.ikagvpaakiiigvplygrsfqategm 307
+                          ld   lmayd+        +a + a +y    + e  p s  +  v+y ++   pa+ki +g+p ygr+++ t   
+          98f5319ea1 239 NLDYVNLMAYDFQTPQRNpeMADFPAPIY---ELNERNPESNVNYQVQYwLQNHCPASKINVGIPSYGRAWKMTTDS 312
+                         689999*****998765411666666666...5778889888777666638999*****************998755 PP
+
+  == domain 3  score: 10.9 bits;  conditional E-value: 0.0002
+  Glyco_hydro_18.aln 355 lisfdtvedaktkaeyvktkglggamywetsad 387
+                          +s++  + a  ka yvktkglgg    + s d
+          98f5319ea1 390 WVSYEDPDTAANKAAYVKTKGLGGVALVDLSFD 422
+                         4788999999**************988887766 PP
+
+>> d77c72ad06  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.9   0.0   3.6e-10   5.4e-09     114     180 ..      90     161 ..      44     168 .. 0.81
+   2 !    6.9   0.0    0.0034     0.051     272     308 ..     275     311 ..     230     320 .. 0.67
+   3 !    6.1   0.0    0.0057     0.085     357     387 ..     390     420 ..     365     427 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 29.9 bits;  conditional E-value: 3.6e-10
+  Glyco_hydro_18.aln 114 kqiyllkkkhrsmkvllsiggwtys.....snfaaaastpttralfvstaveivkdlgfdgldidweyptne 180
+                         +q+  lk+k+ ++kvlls+gg   +     +++ +   +  +r  f+++a  +vk  gfdgld+ w++p n+
+          d77c72ad06  90 RQVTGLKRKYPALKVLLSVGGDKDTvdpenNKYLTLLESSNARIPFINSAHSLVKTYGFDGLDLGWQFPKNK 161
+                         79999****************765411211457777888999***************************997 PP
+
+  == domain 2  score: 6.9 bits;  conditional E-value: 0.0034
+  Glyco_hydro_18.aln 272 stdkavvdyikagvpaakiiigvplygrsfqategmg 308
+                         + +  v  +     paaki +g+  ygr+++ t+  g
+          d77c72ad06 275 NVNYQVKYWTGNRAPAAKINVGIATYGRAWKLTKDSG 311
+                         34444444455679****************9997655 PP
+
+  == domain 3  score: 6.1 bits;  conditional E-value: 0.0057
+  Glyco_hydro_18.aln 357 sfdtvedaktkaeyvktkglggamywetsad 387
+                          ++  + a  kaeyvk +glgg    + s d
+          d77c72ad06 390 GYEDPDTAAIKAEYVKREGLGGIAVVDLSFD 420
+                         5666677999************988777765 PP
+
+>> 64eb7a2b19  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.3   0.1   2.1e-09   3.1e-08      67     180 ..      38     159 ..       4     171 .. 0.69
+   2 !    9.5   0.1   0.00053    0.0079     226     304 ..     227     305 ..     212     319 .. 0.77
+   3 ?    2.3   0.0     0.083       1.2     356     397 ..     384     425 ..     357     434 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 27.3 bits;  conditional E-value: 2.1e-09
+  Glyco_hydro_18.aln  67 qlthvlyafanlrpd..gsvflsdtyadlekhypedswnepgtnlfgcakqiyllkkkhrsmkvllsiggwtyssn.......faaaastp 148
+                         ++t v  a+  l p      fl   ya ++    +    + g n +   + i  lk kh  +kvllsigg    ++       +       
+          64eb7a2b19  38 RITDVNAAINYLEPAlqFCNFLIYGYAGIDGETYQVKSLDYGLN-YDIYQAITSLKLKHNRLKVLLSIGGDRDQTEdlaednkYLKLLENL 127
+                         45677777777777511456888888888765444444456776.577889999****************765443100000133445667 PP
+
+  Glyco_hydro_18.aln 149 ttralfvstaveivkdlgfdgldidweyptne 180
+                         ++r  f+++   +++  gfdgld+ w++p n 
+          64eb7a2b19 128 SSRNAFINSIQSVIRTYGFDGLDMAWQFPKNP 159
+                         89***************************995 PP
+
+  == domain 2  score: 9.5 bits;  conditional E-value: 0.00053
+  Glyco_hydro_18.aln 226 lkmkemdayldawhlmaydyagsws..tvaghdanlypsktvpegtpystdka.vvdyikagvpaakiiigvplygrsfqat 304
+                         l +k +  ++d   l ++dy   +   t+a + a +y   +v e  p    +  v  +++    ++k+++gvp ygrs+   
+          64eb7a2b19 227 LDVKPIVNHVDFIILATFDYLTPYRdpTIAHYTAPIY---AVSEHDPSHNINYdVQYWLNHTTATSKLVLGVPAYGRSWTMI 305
+                         5667777888888999999998875348888888887...57787776655550555577888899************9765 PP
+
+  == domain 3  score: 2.3 bits;  conditional E-value: 0.083
+  Glyco_hydro_18.aln 356 isfdtvedaktkaeyvktkglggamywetsadragdksligt 397
+                         +s++  + a  kaey +++ l g   ++ s d    +   gt
+          64eb7a2b19 384 VSYEEPKTAANKAEYAHARNLSGVALFDLSMDDVTGECGDGT 425
+                         68888889999**************99999997765555555 PP
+
+>> f85305f363  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   0.0   1.1e-06   1.6e-05      84     182 ..      61     164 ..      45     199 .. 0.81
+   2 !    5.9   0.0    0.0067       0.1     259     304 ..     265     310 ..     214     324 .. 0.81
+   3 !    7.0   0.0    0.0032     0.048     355     387 ..     391     423 ..     359     429 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 1.1e-06
+  Glyco_hydro_18.aln  84 vflsdtyadlekhypedswnepgtnlfgcakqiyllkkkhrsmkvllsiggwtyssnfaaaa......stpttralfvstaveivkdlgfd 168
+                           l   yadl+    e s  +   ++f   k+i  lk ++  +++ lsigg   +  + a        s    +  f+ +a+ ++k   fd
+          f85305f363  61 THLIYGYADLNDDLYEISSLNVDLDMFH-YKEITSLKAEFPHLRIYLSIGGDHDNGHYDAGKymrfleSGKDRQNTFIESAIHLLKMNDFD 150
+                         5667789***999999888888999997.699*******************9888777775422222266777899*************** PP
+
+  Glyco_hydro_18.aln 169 gldidweyptnete 182
+                         gld+ ++ ptn+  
+          f85305f363 151 GLDLAFKLPTNKPR 164
+                         ***********854 PP
+
+  == domain 2  score: 5.9 bits;  conditional E-value: 0.0067
+  Glyco_hydro_18.aln 259 lypsktvpegtpystdkavvdyikagvpaakiiigvplygrsfqat 304
+                         +y        + y+ d  +  +++ g pa k+ +g+  ygr+++ +
+          f85305f363 265 IYLRDEENRLAHYNIDYQMNYWVNHGCPAHKLNLGIATYGRAWKLS 310
+                         5555555566789999999999*******************98754 PP
+
+  == domain 3  score: 7.0 bits;  conditional E-value: 0.0032
+  Glyco_hydro_18.aln 355 lisfdtvedaktkaeyvktkglggamywetsad 387
+                          isfd  + a  k+++vktk +gg   ++ s d
+          f85305f363 391 WISFDDPDFAGIKTNFVKTKFIGGVALYDLSYD 423
+                         59**********************998888876 PP
+
+>> c357c6404c  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.1   0.0   6.7e-07     1e-05     115     180 ..      86     157 ..      16     167 .. 0.84
+   2 ?    4.3   0.0      0.02       0.3     272     308 ..     274     310 ..     203     319 .. 0.80
+   3 ?    4.9   0.0     0.014      0.21     356     387 ..     388     419 ..     374     432 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 19.1 bits;  conditional E-value: 6.7e-07
+  Glyco_hydro_18.aln 115 qiyllkkkhrsmkvllsiggwt.....yssnfaaaastpttral.fvstaveivkdlgfdgldidweyptne 180
+                         ++  lk+k+  +kvlls+gg       + +++         r + f+ +a ++vk  gfdgld+ +++p n+
+          c357c6404c  86 EVTSLKRKYPHLKVLLSVGGDHdidpdHPNKYIDLLEGEKVRQIgFIRSAYDLVKTYGFDGLDLAYQFPKNK 157
+                         56789**************97522222445677777777666655************************997 PP
+
+  == domain 2  score: 4.3 bits;  conditional E-value: 0.02
+  Glyco_hydro_18.aln 272 stdkavvdyikagvpaakiiigvplygrsfqategmg 308
+                         ++d  v  ++  g p+ ki +gv  yg +++ t+  g
+          c357c6404c 274 NADFQVEYWLSQGFPSNKINLGVATYGNAWKLTKDSG 310
+                         556666677899*****************99997665 PP
+
+  == domain 3  score: 4.9 bits;  conditional E-value: 0.014
+  Glyco_hydro_18.aln 356 isfdtvedaktkaeyvktkglggamywetsad 387
+                         +s+d  + a  ka y + k lgg   ++ s d
+          c357c6404c 388 VSYDDPDSASNKAAYARVKNLGGVALFDLSYD 419
+                         799********************999998876 PP
+
+>> f2ac448666  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.7   0.0   1.4e-05   0.00021     114     180 ..      83     155 ..      37     162 .. 0.83
+   2 ?    0.4   0.0      0.31       4.6     279     309 ..     278     308 ..     268     320 .. 0.83
+   3 !    7.1   0.0    0.0028     0.042     356     387 ..     386     417 ..     364     424 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 14.7 bits;  conditional E-value: 1.4e-05
+  Glyco_hydro_18.aln 114 kqiyllkkkhrsmkvllsiggwtys.....snfaa.aastpttralfvstaveivkdlgfdgldidweyptne 180
+                         k+i  l++k+  +k+lls+gg         +++     +  t +  f+ +++ +vk  gfdgld+ ++ p n+
+          f2ac448666  83 KEITALRQKFPQLKILLSVGGDRDVdeahpNKYVElLEANRTFQQNFIDSSMILVKRNGFDGLDLAFQLPRNK 155
+                         88999****************7543111113444413456778899************************996 PP
+
+  == domain 2  score: 0.4 bits;  conditional E-value: 0.31
+  Glyco_hydro_18.aln 279 dyikagvpaakiiigvplygrsfqategmgk 309
+                          +++   p  k+ +g+  ygr+++ ++g g 
+          f2ac448666 278 YWLQNNCPGQKLNLGIASYGRAWKLSKGSGL 308
+                         45788899****************9999885 PP
+
+  == domain 3  score: 7.1 bits;  conditional E-value: 0.0028
+  Glyco_hydro_18.aln 356 isfdtvedaktkaeyvktkglggamywetsad 387
+                         +sfd  + a  ka y k kglgg   ++ s d
+          f2ac448666 386 LSFDDPDFAGIKAAYAKGKGLGGVAIFDLSYD 417
+                         79*********************999998876 PP
+
+>> 60fd82c1bd  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.8   0.0   0.00022    0.0033     114     180 ..      88     158 ..      48     163 .. 0.81
+   2 !    7.0   0.0    0.0031     0.046     280     308 ..     282     310 ..     255     316 .. 0.84
+   3 ?    3.5   0.0     0.036      0.54     355     387 ..     387     419 ..     358     427 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00022
+  Glyco_hydro_18.aln 114 kqiyllkkkhrsmkvllsiggwtyss..n..faaaastpttralfvstaveivkdlgfdgldidweyptne 180
+                          qi  +k+++  +k lls+gg + ++  n  +    s    +  f+ +a ++v+   fdgld+  + p n+
+          60fd82c1bd  88 AQITSMKERYPHIKFLLSVGGDADTNegNqyIKLLESGQQGHRRFIESARDLVRRYNFDGLDLALQLPRNK 158
+                         699999***************86543114213445788889999*********************999986 PP
+
+  == domain 2  score: 7.0 bits;  conditional E-value: 0.0031
+  Glyco_hydro_18.aln 280 yikagvpaakiiigvplygrsfqategmg 308
+                         ++   vpa ki ig+  ygrs++ ++  g
+          60fd82c1bd 282 WLLQRVPANKINIGIATYGRSWKMSKDSG 310
+                         556689***************99877655 PP
+
+  == domain 3  score: 3.5 bits;  conditional E-value: 0.036
+  Glyco_hydro_18.aln 355 lisfdtvedaktkaeyvktkglggamywetsad 387
+                          is+d  + a +ka y +++ lgg   ++ + d
+          60fd82c1bd 387 WISYDDPDSASSKAMYARARNLGGVALFDLTQD 419
+                         59**********************877765544 PP
+
+>> 7d95f6a24a  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.8   0.0   2.8e-05   0.00041     114     180 ..      83     155 ..      48     163 .. 0.82
+   2 ?   -0.4   0.0      0.57       8.4     281     309 ..     280     308 ..     270     321 .. 0.84
+   3 !    6.4   0.0    0.0047      0.07     355     387 ..     385     417 ..     360     424 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 13.8 bits;  conditional E-value: 2.8e-05
+  Glyco_hydro_18.aln 114 kqiyllkkkhrsmkvllsiggwtys.....snfaa.aastpttralfvstaveivkdlgfdgldidweyptne 180
+                         k+i  l++k+  +k+lls+gg         +++     +  t++  f+ +++ ++k  gfdgld+ ++ p n+
+          7d95f6a24a  83 KDITALRQKFPQLKILLSVGGDRDVdeahpNKYVElLEANRTAQQNFIDSSMILLKRNGFDGLDLAFQLPRNK 155
+                         88999****************7543111113444314567788999************************996 PP
+
+  == domain 2  score: -0.4 bits;  conditional E-value: 0.57
+  Glyco_hydro_18.aln 281 ikagvpaakiiigvplygrsfqategmgk 309
+                         ++   p  k+ +g+  ygr+++ ++g g 
+          7d95f6a24a 280 LQNHCPGQKLNLGIASYGRAWKLSKGSGL 308
+                         66778999**************9999875 PP
+
+  == domain 3  score: 6.4 bits;  conditional E-value: 0.0047
+  Glyco_hydro_18.aln 355 lisfdtvedaktkaeyvktkglggamywetsad 387
+                          +sfd  + a  ka y k kglgg   ++ s d
+          7d95f6a24a 385 WLSFDDPDFAGIKAVYAKGKGLGGIALFDLSYD 417
+                         479*********************999988876 PP
+
+>> 16a5214e78  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.8   0.0   2.7e-05   0.00041     114     180 ..      83     155 ..      18     160 .. 0.85
+   2 ?   -2.5   0.0       2.3        35     280     305 ..     279     304 ..     271     313 .. 0.79
+   3 !    7.1   0.0     0.003     0.044     356     387 ..     386     417 ..     363     424 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 13.8 bits;  conditional E-value: 2.7e-05
+  Glyco_hydro_18.aln 114 kqiyllkkkhrsmkvllsiggwtys.....snfaa.aastpttralfvstaveivkdlgfdgldidweyptne 180
+                         k+i  l++k+  +k+lls+gg         +++     +  t++  f+ +++ ++k  gfdgld+ ++ p n+
+          16a5214e78  83 KDITALRQKFPQLKILLSVGGDRDVdeahpNKYVElLEANRTAQQNFIDSSMILLKRNGFDGLDLAFQLPRNK 155
+                         88999****************7543111113444314567788999************************996 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 2.3
+  Glyco_hydro_18.aln 280 yikagvpaakiiigvplygrsfqate 305
+                         +++   p  k+ +g+  ygr+++ ++
+          16a5214e78 279 WLQNHCPGQKLNLGIASYGRAWKLSK 304
+                         467788999***********998665 PP
+
+  == domain 3  score: 7.1 bits;  conditional E-value: 0.003
+  Glyco_hydro_18.aln 356 isfdtvedaktkaeyvktkglggamywetsad 387
+                         +sfd  + a  ka y k+kglgg   ++ s d
+          16a5214e78 386 LSFDDPDFAGIKAVYAKSKGLGGIALFDLSYD 417
+                         79*********************999988876 PP
+
+>> 545a61cacd  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.9   0.0    0.0002     0.003     114     180 ..      88     158 ..      21     163 .. 0.82
+   2 !    6.8   0.0    0.0037     0.055     282     308 ..     284     310 ..     259     317 .. 0.87
+   3 ?    1.0   0.0       0.2         3     355     387 ..     387     419 ..     360     426 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.0002
+  Glyco_hydro_18.aln 114 kqiyllkkkhrsmkvllsiggwtyss..n..faaaastpttralfvstaveivkdlgfdgldidweyptne 180
+                          q+  lk+++  +k lls+gg + ++  n  +    s    +  f+ +a ++v+   fdgld+  + p n+
+          545a61cacd  88 AQVSSLKERYPHIKFLLSVGGDADTNegNqyIKLLESGQQGHRRFIESARDLVRRYNFDGLDLALQLPRNK 158
+                         688999***************86543114213445788889999*********************999986 PP
+
+  == domain 2  score: 6.8 bits;  conditional E-value: 0.0037
+  Glyco_hydro_18.aln 282 kagvpaakiiigvplygrsfqategmg 308
+                            vpa ki ig+  ygr+++ t+  g
+          545a61cacd 284 LQRVPANKINIGIATYGRTWKMTKDSG 310
+                         5679*****************998776 PP
+
+  == domain 3  score: 1.0 bits;  conditional E-value: 0.2
+  Glyco_hydro_18.aln 355 lisfdtvedaktkaeyvktkglggamywetsad 387
+                          is+d  + a +ka + + + lgg   ++ + d
+          545a61cacd 387 WISYDDPDSASSKAMFARVRNLGGVALFDLTQD 419
+                         59**********************877765544 PP
+
+>> 464cecdd28  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.4   0.0     9e-06   0.00013      84     182 ..      61     168 ..      45     184 .. 0.74
+   2 ?   -2.3   0.0       2.1        31     285     307 ..     294     316 ..     283     319 .. 0.82
+   3 ?    1.6   0.0      0.13         2     363     388 ..     399     424 ..     377     434 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 15.4 bits;  conditional E-value: 9e-06
+  Glyco_hydro_18.aln  84 vflsdtyadlek.hypedswnepgtnlfgcakqiyllkkkhrsmkvllsiggwtyssnfaaaast........pttralfvstaveivkdl 165
+                          fl   ya ++   y   s +   tn     ++i  l+kk+  ++ lls+gg    +    a s            r  f ++ +  +++ 
+          464cecdd28  61 NFLVYGYAGIDAvTYKIKSLDPSLTNDRQHYRHITALRKKYPHVRFLLSVGGDRDVNSEGVADSDkylrlleqSEHRKSFQASVLAELNNN 151
+                         577777888775257888888888999999999******************9876555555555401111111455666777777778899 PP
+
+  Glyco_hydro_18.aln 166 gfdgldidweyptnete 182
+                         gfdg+d+ w++p n  +
+          464cecdd28 152 GFDGIDLAWQFPKNRPK 168
+                         *************9865 PP
+
+  == domain 2  score: -2.3 bits;  conditional E-value: 2.1
+  Glyco_hydro_18.aln 285 vpaakiiigvplygrsfqategm 307
+                         +   k+ +gv  ygr+++ t   
+          464cecdd28 294 ISVHKLHVGVTSYGRAWNMTRNS 316
+                         5677999*********9998765 PP
+
+  == domain 3  score: 1.6 bits;  conditional E-value: 0.13
+  Glyco_hydro_18.aln 363 daktkaeyvktkglggamywetsadr 388
+                          a  ka +v+++glgg  + + s d 
+          464cecdd28 399 TAAIKAGFVHAQGLGGVAFHDLSMDD 424
+                         57889**************9999874 PP
+
+>> e560d46d60  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.6   0.0   0.00053    0.0078     115     180 ..      89     158 ..      51     164 .. 0.84
+   2 !    5.4   0.0    0.0097      0.14     280     308 ..     282     310 ..     255     321 .. 0.84
+   3 ?    1.1   0.0       0.2       2.9     355     387 ..     387     419 ..     358     427 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.00053
+  Glyco_hydro_18.aln 115 qiyllkkkhrsmkvllsiggwtyss..n..faaaastpttralfvstaveivkdlgfdgldidweyptne 180
+                         q+  +k+++  +k lls+gg + ++  n  +    s    +  f+ +a ++v+   fdgld+  + p n+
+          e560d46d60  89 QVTSMKERYPHIKFLLSVGGDADTNegNqyIKLLESGQQGHRRFIESARDLVRRYNFDGLDLALQLPRNK 158
+                         7888999999**********86543114213445788888999*********************999986 PP
+
+  == domain 2  score: 5.4 bits;  conditional E-value: 0.0097
+  Glyco_hydro_18.aln 280 yikagvpaakiiigvplygrsfqategmg 308
+                         ++   vpa ki ig+  ygr+++ ++  g
+          e560d46d60 282 WLLQRVPANKINIGIATYGRTWKMSKDSG 310
+                         556689***************99877655 PP
+
+  == domain 3  score: 1.1 bits;  conditional E-value: 0.2
+  Glyco_hydro_18.aln 355 lisfdtvedaktkaeyvktkglggamywetsad 387
+                          is+d  +   +ka y +++ lgg   ++ + d
+          e560d46d60 387 WISYDDPDSGSSKAMYARARNLGGVALFDLTQD 419
+                         599*********************877765544 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (428 nodes)
+Target sequences:                        358  (244074 residues searched)
+Passed MSV filter:                       211  (0.589385); expected 7.2 (0.02)
+Passed bias filter:                      123  (0.343575); expected 7.2 (0.02)
+Passed Vit filter:                        24  (0.0670391); expected 0.4 (0.001)
+Passed Fwd filter:                        24  (0.0670391); expected 0.0 (1e-05)
+Initial search space (Z):                358  [actual number of targets]
+Domain search space  (domZ):              24  [number of targets reported over threshold]
+# CPU time: 0.19u 0.00s 00:00:00.19 Elapsed: 00:00:00.18
+# Mc/sec: 560.88
+//
+[ok]

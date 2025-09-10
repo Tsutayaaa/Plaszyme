@@ -1,0 +1,2 @@
+hmm	tlen	query	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+sp|O06836|STYC_PSEFL	169	PS.aln	168	3.9e-85	288.7	3.1e-90	4.4e-85	288.5	1	167	2	167	2	168	0.98	1	1	0.9880952380952381	0.9881656804733728	PS

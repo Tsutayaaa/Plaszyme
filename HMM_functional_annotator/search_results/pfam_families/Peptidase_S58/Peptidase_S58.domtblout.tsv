@@ -1,0 +1,25 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q79F77|NYLC_PAEUR  -            355 Peptidase_S58.aln    -            352  4.5e-165  554.0   5.9   1   1    1e-169  4.8e-165  553.9   5.9     6   337    32   355     1   355 0.96 6-aminohexanoate-oligomer endohydrolase OS=Paenarthrobacter ureafaciens OX=37931 GN=nylC PE=1 SV=1
+sp|Q1EPR5|NYLC_AGRS5  -            355 Peptidase_S58.aln    -            352  8.6e-164  549.8   5.8   1   1  1.9e-168  9.2e-164  549.7   5.8     6   337    32   355     1   355 0.96 6-aminohexanoate-oligomer endohydrolase OS=Agromyces sp. (strain KY5R) OX=388924 GN=nylC PE=1 SV=2
+sp|Q1EPR4|NYLC_KOCS2  -            355 Peptidase_S58.aln    -            352  5.5e-163  547.1   5.5   1   1  1.2e-167    6e-163  547.0   5.5     6   337    32   355     1   355 0.96 6-aminohexanoate-oligomer endohydrolase OS=Kocuria sp. (strain KY2) OX=388923 GN=nylC PE=1 SV=1
+sp|Q14T92|NYLC2_AGRS5 -            306 Peptidase_S58.aln    -            352    4e-156  524.6   6.1   1   1  9.3e-161  4.5e-156  524.4   6.1    24   337     1   306     1   306 0.99 Putative NylC-analogous protein OS=Agromyces sp. (strain KY5R) OX=388924 GN=nylC' PE=3 SV=1
+sp|Q52VH2|BAPA_SPHXN  -            402 Peptidase_S58.aln    -            352     2e-99  338.0  13.7   1   1  4.6e-104   2.2e-99  337.9  13.7     5   352    30   385     1   385 0.96 Beta-peptidyl aminopeptidase BapA OS=Sphingosinicella xenopeptidilytica OX=364098 GN=bapA PE=1 SV=1
+sp|P53425|Y1167_MYCLE -            362 Peptidase_S58.aln    -            352   1.3e-80  276.2  14.6   1   1   3.4e-85   1.6e-80  275.9  14.6    22   345     7   342     3   348 0.94 Uncharacterized aminopeptidase ML1167 OS=Mycobacterium leprae (strain TN) OX=272631 GN=ML1167 PE=3 SV=1
+sp|P64812|Y1368_MYCBO -            344 Peptidase_S58.aln    -            352   8.1e-78  267.0   9.2   1   1   1.9e-82     9e-78  266.9   9.2    24   348     2   336     1   340 0.93 Uncharacterized aminopeptidase Mb1368 OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=BQ2027_MB1368 PE=3 SV=1
+sp|P9WM22|Y1333_MYCTO -            344 Peptidase_S58.aln    -            352   8.1e-78  267.0   9.2   1   1   1.9e-82     9e-78  266.9   9.2    24   348     2   336     1   340 0.93 Uncharacterized aminopeptidase MT1375 OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=MT1375 PE=3 SV=1
+sp|P9WM23|Y1333_MYCTU -            344 Peptidase_S58.aln    -            352   8.1e-78  267.0   9.2   1   1   1.9e-82     9e-78  266.9   9.2    24   348     2   336     1   340 0.93 Uncharacterized aminopeptidase Rv1333 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=Rv1333 PE=1 SV=1
+sp|A0MTQ2|BAPA_SPHMI  -            396 Peptidase_S58.aln    -            352   5.7e-67  231.3  15.1   1   1   1.5e-71   7.3e-67  231.0  15.1     5   346    23   370    12   376 0.93 Beta-peptidyl aminopeptidase BapA OS=Sphingosinicella microcystinivorans OX=335406 PE=1 SV=1
+sp|Q46868|UBIK_ECOLI  -             96 Peptidase_S58.aln    -            352      0.76   13.9   0.0   1   1   1.6e-05      0.77   13.8   0.0   262   288     4    30     1    61 0.83 Ubiquinone biosynthesis accessory factor UbiK OS=Escherichia coli (strain K12) OX=83333 GN=ubiK PE=1 SV=2
+sp|Q8ZLY9|UBIK_SALTY  -            119 Peptidase_S58.aln    -            352      0.83   13.7   0.0   1   1     2e-05      0.94   13.5   0.0   261   288    23    50    18    79 0.85 Ubiquinone biosynthesis accessory factor UbiK OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=ubiK PE=1 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Peptidase_S58.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Peptidase_S58/Peptidase_S58.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Peptidase_S58/Peptidase_S58.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Peptidase_S58.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:08:41 2025
+# [ok]
