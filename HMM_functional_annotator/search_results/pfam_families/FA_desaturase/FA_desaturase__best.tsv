@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+FA_desaturase.aln	sp|Q6H941|ALKB2_PSEAE	377	382	1.4e-244	816.1	3.4e-249	1.6e-244	816.0	1	377	1	377	1	377	1.0	1	1	0.9869109947643979	1.0	FA_desaturase

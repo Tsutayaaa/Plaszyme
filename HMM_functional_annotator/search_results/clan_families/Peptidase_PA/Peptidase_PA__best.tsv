@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Peptidase_PA.aln	sp|Q00871|CTRB1_PENVA	271	236	4e-31	113.8	8e-34	5.6e-31	113.4	28	236	41	269	34	269	0.81	1	1	0.9703389830508474	0.7712177121771218	Peptidase_PA

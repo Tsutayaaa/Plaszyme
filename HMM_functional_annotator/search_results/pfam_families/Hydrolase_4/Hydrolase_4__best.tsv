@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Hydrolase_4.aln	sp|Q06174|EST_GEOSE	246	271	1.5e-55	193.4	4.2e-58	1.8e-55	193.1	21	265	8	246	3	246	0.91	1	1	0.8819188191881919	0.9959349593495935	Hydrolase_4

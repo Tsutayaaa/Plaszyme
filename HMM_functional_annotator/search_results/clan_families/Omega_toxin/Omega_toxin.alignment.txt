@@ -1,0 +1,1808 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Omega_toxin.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Omega_toxin/Omega_toxin.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Omega_toxin/Omega_toxin.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Omega_toxin.aln  [M=454]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+   1.9e-169  569.5  31.4   2.2e-169  569.3  31.4    1.0  1  sp|B2NHN2|PHAZ_TALFU       Polyhydroxybutyrate depolymerase O
+    4.1e-74  255.2  37.2    4.1e-74  255.2  37.2    2.6  1  sp|O05527|PHB_DELAC        Poly(3-hydroxybutyrate) depolymera
+    2.4e-13   54.9   8.2    1.7e-05   29.0   0.3    2.9  3  sp|A8PB24|AXE1_COPC7       Acetylxylan esterase OS=Coprinopsi
+    4.9e-13   53.9  22.3    4.9e-13   53.9  22.3    2.8  2  sp|O59843|CBHB_ASPAC       1,4-beta-D-glucan cellobiohydrolas
+    4.9e-11   47.3  40.4    9.4e-10   43.1  16.7    3.1  3  sp|Q4WBW4|AXE1_ASPFU       Probable acetylxylan esterase A OS
+    1.2e-10   46.1  14.2    2.9e-10   44.8  14.2    1.7  1  sp|B0Y8K2|CBHB_ASPFC       Probable 1,4-beta-D-glucan cellobi
+    1.2e-10   46.1  14.2    2.9e-10   44.8  14.2    1.7  1  sp|Q4WM08|CBHB_ASPFU       Probable 1,4-beta-D-glucan cellobi
+    2.6e-10   44.9  48.1    1.6e-09   42.3  21.7    3.2  3  sp|Q8NJP6|AXE1_TALPU       Acetylxylan esterase A OS=Talaromy
+    3.1e-10   44.7  23.1    7.6e-10   43.4  23.1    1.7  1  sp|Q0CMT2|CBHB_ASPTN       Probable 1,4-beta-D-glucan cellobi
+    4.2e-10   44.2  21.7    4.2e-10   44.2  21.7    2.2  2  sp|Q8WZJ4|XYNA_TALFU       1,4-beta-D-glucan cellobiohydrolas
+    1.2e-09   42.8  18.8    1.2e-09   42.8  18.8    2.4  3  sp|Q5ZNB1|XYND_TALFU       Endo-1,4-beta-xylanase D OS=Talaro
+    4.2e-09   40.9  39.1    3.5e-08   37.9  15.5    3.1  3  sp|A1DBP9|AXE1_NEOFI       Probable acetylxylan esterase A OS
+    8.5e-09   39.9   4.0    8.5e-09   39.9   4.0    2.0  1  sp|Q9HEZ1|XYNA_PHACH       Endo-1,4-beta-xylanase A OS=Phaner
+    1.2e-08   39.4  23.7    1.2e-08   39.4  23.7    2.1  1  sp|A2QAI7|CBHB_ASPNC       Probable 1,4-beta-D-glucan cellobi
+    1.2e-08   39.4  23.7    1.2e-08   39.4  23.7    2.1  1  sp|Q9UVS8|CBHB_ASPNG       1,4-beta-D-glucan cellobiohydrolas
+    1.9e-08   38.8  16.8    3.3e-08   38.0  16.8    1.4  1  sp|A0A2U7QU15|XYN1_PENPR   Endo-1,4-beta-xylanase 1 OS=Penici
+      2e-08   38.7  27.4    2.5e-05   28.5   3.0    3.7  4  sp|P50272|PSBP_PORPU       Putative polysaccharide-binding pr
+    2.4e-08   38.4  10.2    5.3e-08   37.3  10.2    1.6  1  sp|A1DNL0|CBHB_NEOFI       Probable 1,4-beta-D-glucan cellobi
+    3.3e-08   38.0  41.6    0.00029   25.0   6.1    3.5  3  sp|Q9HE18|FAEB_TALFU       Feruloyl esterase B OS=Talaromyces
+    3.9e-08   37.8  17.3    6.9e-08   36.9  17.3    1.5  1  sp|B2B629|LP9A_PODAN       AA9 family lytic polysaccharide mo
+    4.9e-08   37.4  11.0    4.9e-08   37.4  11.0    2.3  1  sp|Q7SHI8|LP9C_NEUCR       AA9 family lytic polysaccharide mo
+    5.2e-08   37.4  20.0      1e-07   36.4  20.0    1.5  1  sp|A1CU44|CBHB_ASPCL       Probable 1,4-beta-D-glucan cellobi
+    2.5e-07   35.1   4.0    2.5e-07   35.1   4.0    2.2  2  sp|B7SIW2|XYNC_PHACH       Endo-1,4-beta-xylanase C OS=Phaner
+    3.5e-07   34.6   9.4    3.5e-07   34.6   9.4    1.9  2  sp|Q99036|MANA_HYPJR       Mannan endo-1,4-beta-mannosidase A
+    3.8e-07   34.5  15.3    9.7e-07   33.1  15.3    1.7  1  sp|Q8NK02|CBHB_EMENI       1,4-beta-D-glucan cellobiohydrolas
+    3.9e-07   34.5  14.9    3.9e-07   34.5  14.9    1.7  2  sp|Q8J0K5|XYNB_TALFU       Endo-1,4-beta-xylanase B OS=Talaro
+    4.4e-07   34.3   7.6    4.4e-07   34.3   7.6    2.7  1  sp|A2R5N0|LP9A_ASPNC       AA9 family lytic polysaccharide mo
+    5.4e-07   34.0   6.5    5.4e-07   34.0   6.5    2.6  1  sp|A0A0A7EQR3|GCE_CERUI    4-O-methyl-glucuronoyl methylester
+    5.6e-07   33.9   7.1    5.6e-07   33.9   7.1    2.6  1  sp|G0RV93|GCE_HYPJQ        4-O-methyl-glucuronoyl methylester
+    6.1e-07   33.8   6.6    6.1e-07   33.8   6.6    3.3  1  sp|Q0CFP1|CBHC_ASPTN       Probable 1,4-beta-D-glucan cellobi
+    7.1e-07   33.6  20.3    7.1e-07   33.6  20.3    2.2  3  sp|A0A384JJB6|LP9C_BOTFB   AA9 family lytic polysaccharide mo
+    8.1e-07   33.4   9.1    9.1e-07   33.2   7.6    2.0  1  sp|P62694|GUX1_HYPJE       Exoglucanase 1 OS=Hypocrea jecorin
+    8.1e-07   33.4   9.1    9.1e-07   33.2   7.6    2.0  1  sp|P62695|GUX1_TRIKO       Exoglucanase 1 OS=Trichoderma koni
+    9.5e-07   33.2   9.0    1.1e-06   33.0   7.5    2.0  1  sp|A0A024RXP8|GUX1_HYPJR   Exoglucanase 1 OS=Hypocrea jecorin
+    9.5e-07   33.2  21.9    1.5e-06   32.5  21.9    1.3  1  sp|G2Q9T3|LP9H_THET4       AA9 family lytic polysaccharide mo
+    9.6e-07   33.2   5.3    9.6e-07   33.2   5.3    2.2  1  sp|P0CT87|GCE1_PHACR       4-O-methyl-glucuronoyl methylester
+      1e-06   33.1   4.7      1e-06   33.1   4.7    3.3  2  sp|P52090|PHA1_PAULE       Poly(3-hydroxyalkanoate) depolymer
+    1.1e-06   33.0  27.2    1.6e-06   32.4  27.2    1.3  1  sp|A0A384K4U6|LP9A_BOTFB   AA9 family lytic polysaccharide mo
+    1.1e-06   33.0  18.8     0.0012   23.0   4.8    3.5  2  sp|Q9P7F1|YKK5_SCHPO       Carbohydrate-binding domain-contai
+    1.6e-06   32.4  10.7    2.9e-06   31.6  10.7    1.5  1  sp|Q00023|LP9_AGABI        AA9 family lytic polysaccharide mo
+    1.6e-06   32.4   4.2    1.6e-06   32.4   4.2    2.6  2  sp|G2QCS4|CEL7A_THET4      Endoglucanase 7a OS=Thermothelomyc
+    2.1e-06   32.1   5.5    4.3e-06   31.0   5.5    1.5  1  sp|P15828|GUX1_HUMIN       Exoglucanase 1 OS=Humicola insolen
+    2.9e-06   31.6  11.1    4.6e-06   30.9  11.1    1.3  1  sp|B7SIW1|XYNB_PHACH       Endo-1,4-beta-xylanase B OS=Phaner
+    3.3e-06   31.4  14.0    7.5e-06   30.2  14.0    1.6  1  sp|P13860|GUX1_PHACH       Exoglucanase 1 OS=Phanerodontia ch
+    3.5e-06   31.3   9.0    3.5e-06   31.3   9.0    1.7  1  sp|P19355|GUX1_HYPRU       Exoglucanase 1 OS=Hypocrea rufa OX
+    3.9e-06   31.2   6.3    3.9e-06   31.2   6.3    3.2  2  sp|P07982|GUN2_HYPJE       Endoglucanase EG-II OS=Hypocrea je
+    4.5e-06   31.0   3.8    7.9e-06   30.1   3.8    1.3  1  sp|B2ADG1|LP9H_PODAN       AA9 family lytic polysaccharide mo
+    5.2e-06   30.8   6.6    5.2e-06   30.8   6.6    3.2  2  sp|A0A024SH20|GUN2_HYPJR   Endoglucanase EG-II OS=Hypocrea je
+    5.3e-06   30.7   2.1    5.3e-06   30.7   2.1    1.8  1  sp|P49075|GUX3_AGABI       Exoglucanase 3 OS=Agaricus bisporu
+    5.8e-06   30.6   1.2      0.001   23.2   0.5    2.1  2  sp|G2QND5|FAEB_THET4       Feruloyl esterase B OS=Thermothelo
+    6.2e-06   30.5   5.3    6.2e-06   30.5   5.3    1.9  1  sp|Q66NB7|EG5A_PHACH       Manganese dependent endoglucanase 
+    6.7e-06   30.4   2.8    1.1e-05   29.7   2.8    1.2  1  sp|M4MEY9|XYNC_HUMIN       Endo-1,4-beta-xylanase C OS=Humico
+    1.1e-05   29.7   2.3    1.8e-05   29.0   2.3    1.3  1  sp|P46239|GUNF_FUSOX       Putative endoglucanase type F OS=F
+    1.3e-05   29.4  12.8    2.1e-05   28.7  12.8    1.3  1  sp|P79046|XYN1A_HUMIN      Endo-1,4-beta-xylanase 1 OS=Humico
+    1.7e-05   29.0  20.4    4.1e-05   27.8  20.4    1.6  1  sp|G0R6T8|LP9A_HYPJQ       AA9 family lytic polysaccharide mo
+    1.7e-05   29.0  20.4    4.1e-05   27.8  20.4    1.6  1  sp|O14405|LP9A_HYPJE       AA9 family lytic polysaccharide mo
+    2.1e-05   28.8  12.4    2.1e-05   28.8  12.4    2.2  3  sp|Q9P8P3|GUX1_TRIHA       Exoglucanase 1 OS=Trichoderma harz
+    2.4e-05   28.5  12.7    2.4e-05   28.5  12.7    2.0  2  sp|A0A2J8C362|CUTI1_VERDA  Cutinase 11 OS=Verticillium dahlia
+    5.3e-05   27.4   9.7    5.3e-05   27.4   9.7    1.6  1  sp|G4NBX2|CE12C_PYRO7      Endoglucanase cel12C OS=Pyriculari
+    5.6e-05   27.4   5.9    5.6e-05   27.4   5.9    1.9  1  sp|P43317|GUN5_HYPJE       Endoglucanase-5 OS=Hypocrea jecori
+    6.4e-05   27.2  14.5    0.00013   26.2  14.5    1.5  1  sp|B2ATL7|LP9E_PODAN       AA9 family lytic polysaccharide mo
+    6.9e-05   27.0   6.7    6.9e-05   27.0   6.7    2.4  1  sp|B0XWL3|CBHC_ASPFC       Probable 1,4-beta-D-glucan cellobi
+    6.9e-05   27.0   6.7    6.9e-05   27.0   6.7    2.4  1  sp|Q4WFK4|CBHC_ASPFU       Probable 1,4-beta-D-glucan cellobi
+    7.4e-05   27.0   6.3    7.4e-05   27.0   6.3    2.5  1  sp|A1DJQ7|CBHC_NEOFI       Probable 1,4-beta-D-glucan cellobi
+    7.8e-05   26.9  12.2    7.8e-05   26.9  12.2    2.3  1  sp|Q96WQ9|LP9A_ASPKW       AA9 family lytic polysaccharide mo
+    8.7e-05   26.7   9.7    8.7e-05   26.7   9.7    2.4  1  sp|A0A977JPB5|AB62A_PENPR  Alpha-L-arabinofuranosidase A OS=P
+    9.1e-05   26.7  15.5    9.1e-05   26.7  15.5    1.8  1  sp|A0A384JXV5|EIX1_BOTFB   Ethylene-inducing xylanase 1 OS=Bo
+     0.0001   26.5   5.8     0.0001   26.5   5.8    2.7  1  sp|A0A024SH76|GUX2_HYPJR   Exoglucanase 2 OS=Hypocrea jecorin
+     0.0001   26.5   5.8     0.0001   26.5   5.8    2.7  1  sp|P07987|GUX2_HYPJE       Exoglucanase 2 OS=Hypocrea jecorin
+     0.0001   26.5  24.4    0.00022   25.4  24.4    1.5  1  sp|Q06886|GUX1_PENJA       Exoglucanase 1 OS=Penicillium jant
+    0.00013   26.1   8.1     0.0002   25.5   8.1    1.3  1  sp|B2ADA5|GH6D_PODAN       Probable exoglucanase GH6D OS=Podo
+    0.00018   25.7  39.8      0.017   19.1   5.3    3.2  3  sp|B8M9H9|FAEB_TALSN       Feruloyl esterase B OS=Talaromyces
+     0.0002   25.5  23.5     0.0002   25.5  23.5    1.8  1  sp|E7EF85|XYNB_PENOX       Endo-1,4-beta-xylanase B OS=Penici
+    0.00022   25.4   2.2    0.00056   24.0   2.2    1.7  1  sp|Q92400|GUX2_AGABI       Exoglucanase OS=Agaricus bisporus 
+    0.00024   25.3   5.7    0.00041   24.5   5.7    1.3  1  sp|A0A0A8IDB7|AA12_COPCI   Pyrroloquinoline quinone-dependent
+    0.00024   25.3   5.7    0.00041   24.5   5.7    1.3  1  sp|A8P0V4|AA12_COPC7       Pyrroloquinoline quinone-dependent
+    0.00029   25.0   6.4    0.00029   25.0   6.4    2.2  2  sp|Q99034|AXE1_HYPJE       Acetylxylan esterase OS=Hypocrea j
+    0.00034   24.8  17.9     0.0007   23.7  17.9    1.5  1  sp|G2QZK6|LP9G_THETT       AA9 family lytic polysaccharide mo
+    0.00037   24.6   7.3    0.00037   24.6   7.3    2.3  1  sp|A1CCN4|CBHC_ASPCL       Probable 1,4-beta-D-glucan cellobi
+    0.00069   23.8   7.4    0.00069   23.8   7.4    2.9  2  sp|Q5B2E8|CBHC_EMENI       1,4-beta-D-glucan cellobiohydrolas
+    0.00072   23.7   3.2    0.00072   23.7   3.2    2.3  1  sp|Q9C1S9|GUX6_HUMIN       Exoglucanase-6A OS=Humicola insole
+    0.00075   23.6   4.5     0.0013   22.9   4.5    1.3  1  sp|G4MPQ7|XYN6_PYRO7       Endo-1,4-beta-xylanase 6 OS=Pyricu
+    0.00075   23.6   4.5     0.0013   22.9   4.5    1.3  1  sp|Q8NJ73|XYN6_PYRGI       Endo-1,4-beta-xylanase 6 OS=Pyricu
+     0.0038   21.3   1.3     0.0038   21.3   1.3    2.3  1  sp|B2ABS0|GCE1_PODAN       4-O-methyl-glucuronoyl methylester
+     0.0056   20.8   8.9     0.0056   20.8   8.9    2.1  1  sp|A8NCG7|LP9_COPC7        AA9 family lytic polysaccharide mo
+      0.008   20.2   5.4      0.015   19.4   5.4    1.4  1  sp|A0A0B5JC15|XY11B_HUMIN  Endo-1,4-beta-xylanase 11B OS=Humi
+     0.0082   20.2  16.0     0.0082   20.2  16.0    2.2  1  sp|Q5BCX8|LP9B_EMENI       AA9 family lytic polysaccharide mo
+      0.009   20.1   2.6      0.009   20.1   2.6    1.8  2  sp|Q9UV68|XYNC_NEOPA       Endo-1,4-beta-xylanase C OS=Neocal
+  ------ inclusion threshold ------
+      0.011   19.8   2.3      0.019   19.0   2.3    1.3  1  sp|I1S3C6|XYND_GIBZE       Endo-1,4-beta-xylanase D OS=Gibber
+      0.013   19.6  25.4      0.024   18.7  25.4    1.4  1  sp|G2RB73|LP9B_THETT       AA9 family lytic polysaccharide mo
+      0.021   18.9  10.2      0.034   18.2  10.2    1.4  1  sp|A0A5N6UV50|LP9G_ASPTM   AA9 family lytic polysaccharide mo
+      0.023   18.7  14.1      0.026   18.6  13.5    1.5  1  sp|G2X8M4|EIX3_VERDV       Ethylene-inducing xylanase 3 OS=Ve
+      0.023   18.7  13.4      0.023   18.7  13.4    1.5  1  sp|A0A0G4KL96|EIX3_VERLO   Ethylene-inducing xylanase 3 OS=Ve
+       0.03   18.3  19.3       0.03   18.3  19.3    2.4  1  sp|Q0CEU4|LP9A_ASPTN       AA9 family lytic polysaccharide mo
+      0.033   18.2   2.1      0.033   18.2   2.1    1.7  1  sp|A0A1D8EJG8|GCE1_SODAL   4-O-methyl-glucuronoyl methylester
+      0.038   18.0   3.7      0.038   18.0   3.7    2.4  1  sp|G4MM92|CEL6A_PYRO7      1,4-beta-D-glucan cellobiohydrolas
+      0.072   17.1  20.5      0.072   17.1  20.5    2.1  2  sp|Q7S439|LP9A_NEUCR       AA9 family lytic polysaccharide mo
+       0.15   16.1   0.0       0.24   15.3   0.0    1.2  1  sp|B2RJX3|PTP_PORG3        Prolyl tripeptidyl peptidase OS=Po
+       0.15   16.0   0.0       0.24   15.3   0.0    1.2  1  sp|Q7MUW6|PTP_PORGI        Prolyl tripeptidyl peptidase OS=Po
+       0.22   15.5   8.1       0.22   15.5   8.1    2.7  1  sp|A2QYR9|CBHC_ASPNC       Probable 1,4-beta-D-glucan cellobi
+       0.29   15.1   5.8       0.29   15.1   5.8    2.3  1  sp|Q5AR04|MANF_EMENI       Probable mannan endo-1,4-beta-mann
+       0.64   14.0   8.7       0.66   13.9   7.6    1.6  1  sp|Q02290|XYNB_NEOPA       Endo-1,4-beta-xylanase B OS=Neocal
+        0.7   13.8   0.0        1.3   12.9   0.0    1.3  1  sp|A0A1P8ARG1|NVL_ARATH    Protein NO VEIN-LIKE OS=Arabidopsi
+        2.9   11.8   4.2        7.1   10.5   4.2    1.5  1  sp|O16844|COS_DROME        Kinesin-like protein costa OS=Dros
+        3.8   11.4   9.6          6   10.8   9.6    1.2  1  sp|P27486|1A1C_DIACA       1-aminocyclopropane-1-carboxylate 
+        3.8   11.4   0.1        7.6   10.4   0.0    1.5  1  sp|Q1JQE6|NCEH1_BOVIN      Neutral cholesterol ester hydrolas
+        4.3   11.3   0.0        8.8   10.2   0.0    1.5  1  sp|Q6PIU2|NCEH1_HUMAN      Neutral cholesterol ester hydrolas
+        4.4   11.2   0.0          9   10.2   0.0    1.5  1  sp|Q5R8Y5|NCEH1_PONAB      Neutral cholesterol ester hydrolas
+        4.7   11.1   0.0        7.4   10.5   0.0    1.2  1  sp|B2GV54|NCEH1_RAT        Neutral cholesterol ester hydrolas
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|B2NHN2|PHAZ_TALFU  Polyhydroxybutyrate depolymerase OS=Talaromyces funiculosus OX=28572 GN=phaZ PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  569.3  31.4  4.2e-173  2.2e-169      55     382 ..      11     337 ..       3     339 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 569.3 bits;  conditional E-value: 4.2e-173
+       Omega_toxin.aln  55 aisgaamasgaalgaynvdpnsisvsglssggfmsaqlgvaysdtfkvgfgvfaggpydcargqsyttcmynqnpsittpvanmkswsg 143
+                              gaa  + +al a+nv+pns+svsglssgg+m+aqlgvaysd f+vgfgvfaggpydcar q yt+cmyn  psittp anmkswsg
+  sp|B2NHN2|PHAZ_TALFU  11 VALGAAQVAATALPAFNVNPNSVSVSGLSSGGYMAAQLGVAYSDVFNVGFGVFAGGPYDCARNQYYTSCMYNGYPSITTPTANMKSWSG 99 
+                           5569999999******************************************************************************* PP
+
+       Omega_toxin.aln 144 nkinpvsnlqsrkiymwtgtadttvgpnvmsqlktqlanfasaanvsyittsgaahtfptdfdaagdnscsssvspyisncqcdgagav 232
+                           n+i  v+nl  rkiymwtg++dttvgpnvm+qlk+ql nf ++anvsy+tt+ga htfptdf+ agdnscs s spyisnc+ dgaga 
+  sp|B2NHN2|PHAZ_TALFU 100 NQIASVANLGQRKIYMWTGSSDTTVGPNVMNQLKAQLGNFDNSANVSYVTTTGAVHTFPTDFNGAGDNSCSLSTSPYISNCNYDGAGAA 188
+                           ***************************************************************************************** PP
+
+       Omega_toxin.aln 233 lqwmygplnarnpgtlsgsivsfsqtgeygasgmdttgylyvpracqpgsstvcklhvalhgckqsysmigskfvsntgynmwadtndi 321
+                           l+w+yg lnarn gtlsgs++sf+q+g yga+gmdttgylyvp++c  g +tvc lhvalhgc qsys igs+f+ ntgyn wadtn++
+  sp|B2NHN2|PHAZ_TALFU 189 LKWIYGSLNARNTGTLSGSVLSFAQSGSYGANGMDTTGYLYVPQSCASG-ATVCSLHVALHGCLQSYSSIGSRFIQNTGYNKWADTNNM 276
+                           **********************************************998.59************************************* PP
+
+       Omega_toxin.aln 322 iilypqavadntmhtiwtgmplpnpngcwdwvgwyganadqvggvqmaaivnqvarvvsgy 382
+                           iilypqa+ d t+h+iw g  l npngcwdwvgwyg+nadq+ggvqmaaiv qv ++vsg+
+  sp|B2NHN2|PHAZ_TALFU 277 IILYPQAIPDYTIHAIWNGGVLSNPNGCWDWVGWYGSNADQIGGVQMAAIVGQVKQIVSGF 337
+                           ************************************************************8 PP
+
+>> sp|O05527|PHB_DELAC  Poly(3-hydroxybutyrate) depolymerase OS=Delftia acidovorans OX=80866 GN=phaZCac PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  255.2  37.2   7.8e-78   4.1e-74      54     425 ..       8     381 ..       2     408 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 255.2 bits;  conditional E-value: 7.8e-78
+      Omega_toxin.aln  54 laisgaama........sgaalgaynvdpnsisvsglssggfmsaqlgvaysdtfkvgfgvfaggpydcargqsy...ttcmynqnps.i 131
+                           a +gaama        +   l a ++d    +vsglssggfm+ ql vays tf  g gv+aggp+ ca g        cm        
+  sp|O05527|PHB_DELAC   8 AAAAGAAMAlcgvgsvhAAVNLPALKIDKTQTTVSGLSSGGFMAVQLHVAYSATFAKGAGVVAGGPFYCAEGSIVnatGRCMASPAGIpT 97 
+                          45555555532211111334688999**********************************************754111468877654314 PP
+
+      Omega_toxin.aln 132 ttpvanmkswsgn.kinpvsnlqsrkiymwtgtadttvgpnvmsqlktqlanfasaanvsyittsgaahtfptdfdaagdnscsssvspy 220
+                          +t v+  ++w+ +  i+pv+nlq+ k+y+++gt d+ v   vm  l+t    f  aanv y     a h++ td      n+cs+  +py
+  sp|O05527|PHB_DELAC  98 STLVSTTNTWASQgVIDPVANLQNSKVYLFSGTLDSVVKTGVMDALRTYYNSFVPAANVVYKKDIAAEHAMVTDD---YGNACSTKGAPY 184
+                          577999999*765279********************************************************984...4599******** PP
+
+      Omega_toxin.aln 221 isncqcdgagavlqwmygplnarnpgtl.sgsivsfsqtgeygasgmdttgylyvpracqpgsstvcklhvalhgckqsysmigskfvsn 309
+                          is+c+ d aga+lq +yg lnarn  tl +g+ + f+q+      gm ttg+ yvp+acq g ++ cklhv lhgckq+   +  ++v n
+  sp|O05527|PHB_DELAC 185 ISDCNFDLAGAMLQHLYGTLNARNNATLpTGNYIEFNQSEFITNHGMATTGWAYVPQACQAGGTATCKLHVVLHGCKQNIGDVQQQYVRN 274
+                          ***************************96699********************************************************** PP
+
+      Omega_toxin.aln 310 tgynmwadtndiiilypqavadntmhtiwtgmplpnpngcwdwvgwyganadqvggvqmaaivnqvarvvsgygagssssttaatptttt 399
+                          tgyn wadtn+i++lypq+ +                n cwdw g+  an  +  g qmaai   v rv sg g  +      a p+ t 
+  sp|O05527|PHB_DELAC 275 TGYNRWADTNNIVMLYPQTSTA-------------ATNSCWDWWGYDSANYSKKSGPQMAAIKAMVDRVSSGTGGTTPPDPV-ALPAPTG 350
+                          ******************8654.............4599*********************************9976655443.4444333 PP
+
+      Omega_toxin.aln 400 gsittttttt.....atvtttavaplygqcg 425
+                           s + +t+++     a+v  +a   +y ++ 
+  sp|O05527|PHB_DELAC 351 VSTSGATASSmaigwAAVMGAASYNVYRNAN 381
+                          3333333332001115555555555665554 PP
+
+>> sp|A8PB24|AXE1_COPC7  Acetylxylan esterase OS=Coprinopsis cinerea (strain Okayama-7 / 130 / ATCC MYA-4618 / FGSC 9003
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.7   2.4   8.1e-09   4.3e-05     411     450 ..      17      56 ..       7      58 .. 0.81
+   2 ?   -1.0   0.0       4.1   2.2e+04     288     328 ..     131     168 ..     101     184 .. 0.71
+   3 !   29.0   0.3   3.3e-09   1.7e-05      57     192 ..     193     324 ..     178     335 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 27.7 bits;  conditional E-value: 8.1e-09
+       Omega_toxin.aln 411 tvtttavaplygqcggigwtgptacatg.vctayspyyaqc 450
+                           t + ++  p+ygqcgg g+tgpt c  g vc   + +y+qc
+  sp|A8PB24|AXE1_COPC7  17 TNA-ATAVPMYGQCGGSGYTGPTQCDPGlVCVKLNDWYSQC 56 
+                           223.3345******************99789********** PP
+
+  == domain 2  score: -1.0 bits;  conditional E-value: 4.1
+       Omega_toxin.aln 288 lhvalhgckqsysmigskfvsntgynmwadtndiiilypqa 328
+                           l valh c  +       f    g+   ad    i+ly q+
+  sp|A8PB24|AXE1_COPC7 131 LLVALHPCGGTAQQ---YFSGFPGFRQHADQRGFIVLYGQS 168
+                           66788888766544...345557899999999999999886 PP
+
+  == domain 3  score: 29.0 bits;  conditional E-value: 3.3e-09
+       Omega_toxin.aln  57 sgaamasgaalgaynvdpnsisvsglssggfmsaqlgvaysdtfkvgfgvfaggpydcargqsyttcmynqnpsittpvanm.kswsg. 143
+                           +g a a   al  +nvdp+ + v+g ssg +m+  +  +y d fk g  v+ag    c    s  t  +  +p  +  v    + w   
+  sp|A8PB24|AXE1_COPC7 193 TGIASAVKYALQNWNVDPEKVFVTGTSSGAMMTNIMAATYPDLFKAG-AVWAGTAVGCL---SANTPQFPPDPCQSGTVIRTpQEWGDr 277
+                           688999999*************************************9.69****99997...556778888888776665541566441 PP
+
+       Omega_toxin.aln 144 .nkinpvsnlqsrkiymwtgtadttvgpnvmsqlktqlanfasaanvsyi 192
+                             +  p  n    ++ +w gt d ++  + +++   q+ ++++  n+s  
+  sp|A8PB24|AXE1_COPC7 278 vRRAYPGYNGPWPRMQIWHGTNDFALDHKNLAE---QMKQWTNVHNISQT 324
+                           134568888889999999999999987654443...33334444455554 PP
+
+>> sp|O59843|CBHB_ASPAC  1,4-beta-D-glucan cellobiohydrolase B OS=Aspergillus aculeatus OX=5053 GN=cbhB PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   0.8       3.5   1.9e+04     396     436 ..     311     349 ..     295     365 .. 0.65
+   2 !   53.9  22.3   9.3e-17   4.9e-13     383     451 ..     467     540 .]     449     540 .] 0.70
+
+  Alignments for each domain:
+  == domain 1  score: -0.8 bits;  conditional E-value: 3.5
+       Omega_toxin.aln 396 ttttgsitttttttatvtttavaplygqcggigwtgptaca 436
+                           t  t  it     t t t t +  ly q g +   gp++ +
+  sp|O59843|CBHB_ASPAC 311 TVVTQFITHDG--TDTGTLTEIRRLYVQNGVVIGNGPSTYT 349
+                           33445555554..45566778999*****998888887543 PP
+
+  == domain 2  score: 53.9 bits;  conditional E-value: 9.3e-17
+       Omega_toxin.aln 383 gagssssttaat..pttttgsitttttt...tatvtttavaplygqcggigwtgptacatgvctayspyyaqcl 451
+                           g  sssstt +t   t+tt s ttttt+   t++ ++t va lygqcgg gwtgpt+ca+g ct  + yy+qcl
+  sp|O59843|CBHB_ASPAC 467 GGSSSSSTTLTTkaSTSTTSSKTTTTTSktsTTSSSSTNVAQLYGQCGGQGWTGPTTCASGTCTKQNDYYSQCL 540
+                           344555565554214555555555554311123334689**********************************8 PP
+
+>> sp|Q4WBW4|AXE1_ASPFU  Probable acetylxylan esterase A OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / F
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.7   1.6      0.08   4.2e+02     254     334 ..      33     105 ..       7     131 .. 0.71
+   2 !   10.5   7.8    0.0014       7.4      65     176 ..     131     243 ..     118     265 .. 0.82
+   3 !   43.1  16.7   1.8e-13   9.4e-10     381     451 ..     303     371 .]     285     371 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 4.7 bits;  conditional E-value: 0.08
+       Omega_toxin.aln 254 sfsqtgeygasgmdttgylyvpracqpgsstvcklhvalhgckqsysmigskfvsntgynmwadtndiiilypqavadntm 334
+                           s+ q  ++g++   t  y+yvp         v    va+h c  +       + + + y   a+    i++ypq+    t 
+  sp|Q4WBW4|AXE1_ASPFU  33 SLQQVTNFGSNPSGTLMYIYVPNNLATKPGIV----VAIHYCTGT----AQAYYTGSPYAQLAEKYGFIVIYPQSPYSGTC 105
+                           678999****************9765555555....555555433....23344556788889999999999997666555 PP
+
+  == domain 2  score: 10.5 bits;  conditional E-value: 0.0014
+       Omega_toxin.aln  65 aalgaynvdpnsisvsglssggfmsaqlgvaysdtfkvgfgvfaggpydcargqsyttcmynqnpsittpvanmkswsg..nkinpvsn 151
+                            ++  yn d   + v+g ssg +m+  +  +y + f     v++g p  c    s     +n   +    ++  + w g  + + p   
+  sp|Q4WBW4|AXE1_ASPFU 131 WTISQYNADTSKVFVTGSSSGAMMTNVMAATYPELFAA-ATVYSGVPAGCFYSSSNQVNGWNSSCAQGNVISTPEVWGGiaKAMYPGYT 218
+                           46789******************************976.589*************9999999999999999999999984234667777 PP
+
+       Omega_toxin.aln 152 lqsrkiymwtgtadttvgpnvmsql 176
+                               ++ ++ g+ dtt+ p+   + 
+  sp|Q4WBW4|AXE1_ASPFU 219 GPRPRMQIYHGSVDTTLYPQNYYET 243
+                           6777899999999999998765554 PP
+
+  == domain 3  score: 43.1 bits;  conditional E-value: 1.8e-13
+       Omega_toxin.aln 381 gygagssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           g+  gsss+tt+at   tt   +ttt++  + t+t va  +gqcgg gwtgptaca+g  ct  + +y+qcl
+  sp|Q4WBW4|AXE1_ASPFU 303 GFTGGSSSTTTTATTPPTT---STTTSSGGSSTSTGVAEHWGQCGGNGWTGPTACASGyTCTVINEWYSQCL 371
+                           6777888777665543333...466777788999***********************956***********8 PP
+
+>> sp|B0Y8K2|CBHB_ASPFC  Probable 1,4-beta-D-glucan cellobiohydrolase B OS=Aspergillus fumigatus (strain CBS 144.89 / FG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.8  14.2   5.4e-14   2.9e-10     377     451 ..     458     532 .]     438     532 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 44.8 bits;  conditional E-value: 5.4e-14
+       Omega_toxin.aln 377 rvvsgygagssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            + s + +g s+     t tttt   tttttt+     t va  ygqcggigwtgpt+ca+   c   + yy+qcl
+  sp|B0Y8K2|CBHB_ASPFC 458 PIGSTFNSGGSNPGGG-TTTTTTTQPTTTTTTAGNPGGTGVAQHYGQCGGIGWTGPTTCASPyTCQKLNDYYSQCL 532
+                           5566777777666555.555666667788888888999**********************863799*********8 PP
+
+>> sp|Q4WM08|CBHB_ASPFU  Probable 1,4-beta-D-glucan cellobiohydrolase B OS=Aspergillus fumigatus (strain ATCC MYA-4609 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.8  14.2   5.4e-14   2.9e-10     377     451 ..     458     532 .]     438     532 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 44.8 bits;  conditional E-value: 5.4e-14
+       Omega_toxin.aln 377 rvvsgygagssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            + s + +g s+     t tttt   tttttt+     t va  ygqcggigwtgpt+ca+   c   + yy+qcl
+  sp|Q4WM08|CBHB_ASPFU 458 PIGSTFNSGGSNPGGG-TTTTTTTQPTTTTTTAGNPGGTGVAQHYGQCGGIGWTGPTTCASPyTCQKLNDYYSQCL 532
+                           5566777777666555.555666667788888888999**********************863799*********8 PP
+
+>> sp|Q8NJP6|AXE1_TALPU  Acetylxylan esterase A OS=Talaromyces purpureogenus OX=1266744 GN=axeA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4   1.2     0.096   5.1e+02     254     333 ..      36     107 ..      14     126 .. 0.73
+   2 !    9.4  10.5    0.0029        15      65     176 ..     134     246 ..     118     276 .. 0.85
+   3 !   42.3  21.7   3.1e-13   1.6e-09     383     451 ..     309     382 .]     288     382 .] 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 4.4 bits;  conditional E-value: 0.096
+       Omega_toxin.aln 254 sfsqtgeygasgmdttgylyvpracqpgsstvcklhvalhgckqsysmigskfvsntgynmwadtndiiilypqavadnt 333
+                           s+ q   +g +   t  y+yvp+        v+ +h +  g  q+y        + + y   a+    i++ypq+    t
+  sp|Q8NJP6|AXE1_TALPU  36 SLQQVTGFGDNASGTLMYIYVPKNLATNPGIVVAIHYC-TGTAQAY-------YTGSPYAQLAEQYGFIVIYPQSPYSGT 107
+                           67888999999999********9877666666555543.3444444.......455678888888899999998766555 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 0.0029
+       Omega_toxin.aln  65 aalgaynvdpnsisvsglssggfmsaqlgvaysdtfkvgfgvfaggpydcargqsyttcmynqnpsittpvanmkswsgnkinpvsnlq 153
+                            ++  yn +   + v+g ssg +m+  +  +y + f     v++g    c    s  +  +n   +  + ++    w g   n  s   
+  sp|Q8NJP6|AXE1_TALPU 134 WTISQYNANTAKVFVTGSSSGAMMTNVMAATYPELFAA-ATVYSGVGAGCFYSSSNQADAWNSSCATGSVISTPAVWGGIAKNMYSGYS 221
+                           46789*****************************9976.5799999999999999999999999999999999999***9999999876 PP
+
+       Omega_toxin.aln 154 .sr.kiymwtgtadttvgpnvmsql 176
+                            sr ++ ++ g+adtt+ p+   + 
+  sp|Q8NJP6|AXE1_TALPU 222 gSRpRMQIYHGSADTTLYPQNYYET 246
+                           244468899********99765554 PP
+
+  == domain 3  score: 42.3 bits;  conditional E-value: 3.1e-13
+       Omega_toxin.aln 383 gagssssttaatpttttgsitttttttat....vtttavaplygqcggigwtgptacatgvctays.pyyaqcl 451
+                           g+gsss+tta++  t+t s t+t tt++t     ++t va  +gqcgg gwtgpt c +g   +ys  +y+qcl
+  sp|Q8NJP6|AXE1_TALPU 309 GSGSSSTTTASATKTSTTSTTSTKTTSSTssttTSSTGVAAHWGQCGGSGWTGPTVCESGYTCTYSnAWYSQCL 382
+                           789999999876555555555544444331000344789*********************866666279****8 PP
+
+>> sp|Q0CMT2|CBHB_ASPTN  Probable 1,4-beta-D-glucan cellobiohydrolase B OS=Aspergillus terreus (strain NIH 2624 / FGSC A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.4  23.1   1.4e-13   7.6e-10     379     451 ..     460     541 .]     438     541 .] 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 43.4 bits;  conditional E-value: 1.4e-13
+       Omega_toxin.aln 379 vsg.ygagssssttaatpttttgsitttttttatvtttav.......aplygqcggigwtgptacat.gvctayspyyaqcl 451
+                            sg  g gsssstta++ tttt +  tttttt t ttt+        a  + qcggigwtgpt+c +   c   + yy+qcl
+  sp|Q0CMT2|CBHB_ASPTN 460 FSGsTGGGSSSSTTATSKTTTTSATKTTTTTTKTTTTTSAsststggAQHWAQCGGIGWTGPTTCVApYTCQKQNDYYSQCL 541
+                           5552578899999999888888887777777766666543122222267899*************762689**********8 PP
+
+>> sp|Q8WZJ4|XYNA_TALFU  1,4-beta-D-glucan cellobiohydrolase xynA OS=Talaromyces funiculosus OX=28572 GN=xynA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.6   2.3       6.3   3.3e+04      60     134 ..      21      95 ..       4     141 .. 0.74
+   2 !   44.2  21.7     8e-14   4.2e-10     381     451 ..     457     529 .]     405     529 .] 0.74
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 6.3
+       Omega_toxin.aln  60 amasgaalgaynvdpn.sisvsglssggfmsaqlgvaysd.tfkvgfgvfaggpydcargqsyttcmynqnpsittp 134
+                           a a    +g+y  +   s+s s   sgg  +++ g    d  ++   gv +    +c  g+++ t++ + + s +  
+  sp|Q8WZJ4|XYNA_TALFU  21 ATAGAQQIGTYTAETHpSLSWSTCKSGGSCTTNSGAITLDaNWRWVHGVNT--STNCYTGNTWNTAICDTDASCAQD 95 
+                           344455689998876438999999999999998887665515677777765..457888888888888777776654 PP
+
+  == domain 2  score: 44.2 bits;  conditional E-value: 8e-14
+       Omega_toxin.aln 381 gygagsss.sttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            +  g+s+  +t++t + tt + ++tt+t++t t t va  +gqcgg gwtgpt+ca+g  ct  +pyy+qcl
+  sp|Q8WZJ4|XYNA_TALFU 457 TFSGGTSTgGSTTTTASGTTSTKASTTSTSSTSTGTGVAAHWGQCGGQGWTGPTTCASGtTCTVVNPYYSQCL 529
+                           444443321223333334444445667777888999*********************9945***********8 PP
+
+>> sp|Q5ZNB1|XYND_TALFU  Endo-1,4-beta-xylanase D OS=Talaromyces funiculosus OX=28572 GN=xynD PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.9   0.0       3.8     2e+04     108     144 ..     213     247 ..     207     274 .. 0.76
+   2 ?   -0.2   1.2       2.5   1.3e+04     191     250 ..     252     310 ..     225     323 .. 0.54
+   3 !   42.8  18.8   2.2e-13   1.2e-09     380     451 ..     336     407 .]     325     407 .] 0.72
+
+  Alignments for each domain:
+  == domain 1  score: -0.9 bits;  conditional E-value: 3.8
+       Omega_toxin.aln 108 aggpydcargqsyttcmynqnpsittpvanmkswsgn 144
+                           agg  d    qs+   +  q ps++t  anm +++  
+  sp|Q5ZNB1|XYND_TALFU 213 AGGRIDGVGLQSH--FIVGQTPSLATQKANMAAFTAL 247
+                           6677777666665..4568999999999999988765 PP
+
+  == domain 2  score: -0.2 bits;  conditional E-value: 2.5
+       Omega_toxin.aln 191 yittsgaahtfptdfdaagdnscsssvspyisncqcdgagavlqwmygplnarnpgtlsg 250
+                            it      t+p    a   +  +   +   + +q  g+  +  w y    +  pgt+sg
+  sp|Q5ZNB1|XYND_TALFU 252 AITELDIRMTLPDT-SALQTQQSTDYQTTTTACVQTKGCVGITLWDYTDKYSWVPGTFSG 310
+                           34555555555533.333333333333344445567777777777777777777777776 PP
+
+  == domain 3  score: 42.8 bits;  conditional E-value: 2.2e-13
+       Omega_toxin.aln 380 sgygagssssttaatpttttgsitttttttat.vtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           s  g+gsssst+++t  ttt   ++++tt+at  ++t+ a  +gqcggigw+gpt c +   c   +pyy+qcl
+  sp|Q5ZNB1|XYND_TALFU 336 S--GSGSSSSTSSTTLITTTTPTASSSTTSATtTSATSGAAHWGQCGGIGWSGPTICVSPyTCQVLNPYYSQCL 407
+                           3..566777777666655555544444444440445778899***************87537***********8 PP
+
+>> sp|A1DBP9|AXE1_NEOFI  Probable acetylxylan esterase A OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.7   1.0     0.039   2.1e+02     254     333 ..      33     104 ..      11     124 .. 0.72
+   2 !    8.5   7.8    0.0054        28      65     177 ..     131     244 ..     118     272 .. 0.76
+   3 !   37.9  15.5   6.6e-12   3.5e-08     383     451 ..     303     368 .]     293     368 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 5.7 bits;  conditional E-value: 0.039
+       Omega_toxin.aln 254 sfsqtgeygasgmdttgylyvpracqpgsstvcklhvalhgckqsysmigskfvsntgynmwadtndiiilypqavadnt 333
+                           s+ q  ++g++   t  y+yvp+        v+ +h +  g  q+       + + + y   a+    i++ypq+    t
+  sp|A1DBP9|AXE1_NEOFI  33 SLQQVTNFGSNPSGTLMYIYVPKNLATKPGIVVAIHYC-TGTAQA-------YYTGSPYAQLAEQYGFIVIYPQSPYSGT 104
+                           678999****************9776555555555543.244444.......4455678888888999999998765555 PP
+
+  == domain 2  score: 8.5 bits;  conditional E-value: 0.0054
+       Omega_toxin.aln  65 aalgaynvdpnsisvsglssggfmsaqlgvaysdtfkvgfgvfaggpydcargqsyttcmynqnpsittpvanmkswsg..nkinpvsn 151
+                            ++  yn d   + v+g ssg +m+  +  +y + f     v++g    c    s     +n   +    ++  + w g  + + p   
+  sp|A1DBP9|AXE1_NEOFI 131 WTISQYNADTSKVFVTGSSSGAMMTNVMAATYPELFAA-ATVYSGVSAGCFYSSSNQVDAWNSSCAQGNVISTPEVWGGiaKAMYPGYT 218
+                           46789*****************************9975.46777777777777777777777777777777777889883234667666 PP
+
+       Omega_toxin.aln 152 lqsrkiymwtgtadttvgpnvmsqlk 177
+                               ++ ++ g++dtt+ p+   +  
+  sp|A1DBP9|AXE1_NEOFI 219 GPRPRMQIYHGSTDTTLYPQNYYETC 244
+                           66778899999999999887655544 PP
+
+  == domain 3  score: 37.9 bits;  conditional E-value: 6.6e-12
+       Omega_toxin.aln 383 gagssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           g    sstt++ pttt+    ttt++  + t t va  +gqcgg gwtgpt ca+g  ct  + +y+qcl
+  sp|A1DBP9|AXE1_NEOFI 303 GFAGGSSTTTTQPTTTS----TTTSSGGSSTGTGVAAHWGQCGGNGWTGPTVCASGyTCTVVNAWYSQCL 368
+                           44455666777777763....566667788999**********************956***********8 PP
+
+>> sp|Q9HEZ1|XYNA_PHACH  Endo-1,4-beta-xylanase A OS=Phanerodontia chrysosporium OX=2822231 GN=xynA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.9   4.0   1.6e-12   8.5e-09     416     451 ..      19      55 ..      11      58 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 39.9 bits;  conditional E-value: 1.6e-12
+       Omega_toxin.aln 416 avaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           a +p++gqcggigwtgpt+c++g vc  ys yy+qc+
+  sp|Q9HEZ1|XYNA_PHACH  19 AQSPVWGQCGGIGWTGPTTCTAGnVCQEYSAYYSQCI 55 
+                           779*****************88769***********7 PP
+
+>> sp|A2QAI7|CBHB_ASPNC  Probable 1,4-beta-D-glucan cellobiohydrolase B OS=Aspergillus niger (strain ATCC MYA-4892 / CBS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.4  23.7   2.3e-12   1.2e-08     380     451 ..     464     536 .]     455     536 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 39.4 bits;  conditional E-value: 2.3e-12
+       Omega_toxin.aln 380 sgygagssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatgv.ctayspyyaqcl 451
+                           s  g+gssss++++t  +t+ ++ tt+tt++  ++t+ a  ygqcgg gwtgpt+c +g  ct  + yy+qcl
+  sp|A2QAI7|CBHB_ASPNC 464 SSSGSGSSSSSSSTTTKATSTTLKTTSTTSSGSSSTSAAQAYGQCGGQGWTGPTTCVSGYtCTYENAYYSQCL 536
+                           456777888777777777888889999999999999**********************963777789*****8 PP
+
+>> sp|Q9UVS8|CBHB_ASPNG  1,4-beta-D-glucan cellobiohydrolase B OS=Aspergillus niger OX=5061 GN=cbhB PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.4  23.7   2.3e-12   1.2e-08     380     451 ..     464     536 .]     455     536 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 39.4 bits;  conditional E-value: 2.3e-12
+       Omega_toxin.aln 380 sgygagssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatgv.ctayspyyaqcl 451
+                           s  g+gssss++++t  +t+ ++ tt+tt++  ++t+ a  ygqcgg gwtgpt+c +g  ct  + yy+qcl
+  sp|Q9UVS8|CBHB_ASPNG 464 SSSGSGSSSSSSSTTTKATSTTLKTTSTTSSGSSSTSAAQAYGQCGGQGWTGPTTCVSGYtCTYENAYYSQCL 536
+                           456777888777777777888889999999999999**********************963777789*****8 PP
+
+>> sp|A0A2U7QU15|XYN1_PENPR  Endo-1,4-beta-xylanase 1 OS=Penicillium parvum OX=70113 GN=XYN1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.0  16.8   6.3e-12   3.3e-08     349     451 ..     299     404 .]     269     404 .] 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 38.0 bits;  conditional E-value: 6.3e-12
+           Omega_toxin.aln 349 cwdwvgwyganadqvggvqmaaivnqvarvvsgy.gagss.ssttaatpttttgsitttttttatvtttavaplygqcggigwtg 431
+                                wdw   y        g   a+  ++  +    y g  s+   +++at t+t+g  ++tt+t+ +  +tava  +gqcgg gwtg
+  sp|A0A2U7QU15|XYN1_PENPR 299 IWDWTDKYSWVPSTFSGQGAACPWDENFQKKPAYdGILSAlGGSASATSTSTAGQSASTTSTSGSGGSTAVAQHWGQCGGQGWTG 383
+                               5777777766666666665555555554444455133333134567899999********************************* PP
+
+           Omega_toxin.aln 432 ptacatg.vctayspyyaqcl 451
+                                t+catg +ct  + +y+qcl
+  sp|A0A2U7QU15|XYN1_PENPR 384 ATSCATGyICTFVNDWYSQCL 404
+                               ******977999********8 PP
+
+>> sp|P50272|PSBP_PORPU  Putative polysaccharide-binding protein OS=Porphyra purpurea OX=2787 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.5   3.0   4.7e-09   2.5e-05     401     451 ..       7      58 ..       3      60 .. 0.86
+   2 !   14.5   0.2   8.2e-05      0.43     421     452 ..      70     102 ..      63     104 .. 0.89
+   3 ?   -2.2   2.1       9.8   5.2e+04     420     445 ..     128     154 ..     114     162 .. 0.76
+   4 !   12.2   2.3   0.00043       2.2     420     451 ..     172     206 ..     167     208 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 28.5 bits;  conditional E-value: 4.7e-09
+       Omega_toxin.aln 401 sitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           + ++ t  +a+ +++a   ly qcggig+ g t+c+ g +c    pyy+qc 
+  sp|P50272|PSBP_PORPU   7 TAAALTLLSAAAAASACGVLYEQCGGIGFDGVTCCSEGlMCMKMGPYYSQCR 58 
+                           455667778888999999*******************955999********5 PP
+
+  == domain 2  score: 14.5 bits;  conditional E-value: 8.2e-05
+       Omega_toxin.aln 421 ygqcggigwtgptacatgv.ctayspyyaqcll 452
+                           ygqcgg+ ++g t c+ g  c   + +++qc l
+  sp|P50272|PSBP_PORPU  70 YGQCGGMNYSGKTMCSPGFkCVELNEFFSQCDL 102
+                           9****************965999********76 PP
+
+  == domain 3  score: -2.2 bits;  conditional E-value: 9.8
+       Omega_toxin.aln 420 lygqcggigwtgptacatg.vctaysp 445
+                            y  cgg  + g  +c  g vc   s 
+  sp|P50272|PSBP_PORPU 128 EYAACGGEMFMGAKCCKFGlVCYETSG 154
+                           5999************99955665553 PP
+
+  == domain 4  score: 12.2 bits;  conditional E-value: 0.00043
+       Omega_toxin.aln 420 lygqcggigwtgptacatgv.ctays..pyyaqcl 451
+                            y qcgg+g+ g t c  g  c a s    y qcl
+  sp|P50272|PSBP_PORPU 172 RYAQCGGMGYMGSTMCVGGYkCMAISegSMYKQCL 206
+                           59***************995599987335899998 PP
+
+>> sp|A1DNL0|CBHB_NEOFI  Probable 1,4-beta-D-glucan cellobiohydrolase B OS=Neosartorya fischeri (strain ATCC 1020 / DSM 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.3  10.2     1e-11   5.3e-08     390     451 ..     468     530 .]     433     530 .] 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 37.3 bits;  conditional E-value: 1e-11
+       Omega_toxin.aln 390 ttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           +     tttt   tttttt+ +   t va  ygqcgg gw gpt+ca+   c   + +y+qcl
+  sp|A1DNL0|CBHB_NEOFI 468 SNPGGGTTTTAKPTTTTTTAGSPGGTGVAQHYGQCGGNGWQGPTTCASPyTCQKLNDFYSQCL 530
+                           333456888888899999999999***********************863799*********8 PP
+
+>> sp|Q9HE18|FAEB_TALFU  Feruloyl esterase B OS=Talaromyces funiculosus OX=28572 GN=FAEB PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.3   1.7     0.026   1.4e+02     354     388 ..      95     129 ..      14     133 .. 0.86
+   2 !   25.0   6.1   5.6e-08   0.00029      67     177 ..     120     232 ..     113     253 .. 0.85
+   3 !   19.5  21.4   2.5e-06     0.013     391     451 ..     292     353 .]     272     353 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 6.3 bits;  conditional E-value: 0.026
+       Omega_toxin.aln 354 gwyganadqvggvqmaaivnqvarvvsgygagsss 388
+                            +  a   + gg +  +ivn v  v+s yga ss 
+  sp|Q9HE18|FAEB_TALFU  95 AYSSASLTHNGGSDSLSIVNMVKYVISTYGADSSK 129
+                           3446777888999999***************9986 PP
+
+  == domain 2  score: 25.0 bits;  conditional E-value: 5.6e-08
+       Omega_toxin.aln  67 lgaynvdpnsisvsglssggfmsaqlgvaysdtfkvgfgvfaggpydcargqsyt.tcmynqnpsittpvanmkswsgnkin..pvsnl 152
+                           + +y  d   + ++g ssg +m+  l  ay d f  g   f+g py c  g   +   m nq  s        + w+    n  p    
+  sp|Q9HE18|FAEB_TALFU 120 ISTYGADSSKVYMTGSSSGAIMTNVLAGAYPDVFAAG-SAFSGMPYACLYGAGAAdPIMSNQTCSQGQIQHTGQQWAAYVHNgyPGYTG 207
+                           678999*****************************99.57**********9876526899*****999999999**9988773366778 PP
+
+       Omega_toxin.aln 153 qsrkiymwtgtadttvgpnvmsqlk 177
+                           q  ++ mw gtad  +    + q  
+  sp|Q9HE18|FAEB_TALFU 208 QYPRLQMWHGTADNVISYADLGQEI 232
+                           999**********999876666554 PP
+
+  == domain 3  score: 19.5 bits;  conditional E-value: 2.5e-06
+       Omega_toxin.aln 391 taatpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           t+ t tttt + t tt+t+ + t  + a  + qcggig++g taca+   c   + yy+qcl
+  sp|Q9HE18|FAEB_TALFU 292 TSGTTTTTTPTTTPTTSTSPSSTGGCTAAHWAQCGGIGYSGCTACASPyTCQKANDYYSQCL 353
+                           56666777777777888888889999999*****************863799999******8 PP
+
+>> sp|B2B629|LP9A_PODAN  AA9 family lytic polysaccharide monooxygenase A OS=Podospora anserina (strain S / ATCC MYA-4624
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.9  17.3   1.3e-11   6.9e-08     383     451 ..     279     351 .]     242     351 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 36.9 bits;  conditional E-value: 1.3e-11
+       Omega_toxin.aln 383 gagssssttaatpttttgsitttttttatvt...ttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                              +ss+     pttt  ++t++ +t+a+ +    + vap +gqcgg gwtgpt ca+g  ct  +pyy+qc+
+  sp|B2B629|LP9A_PODAN 279 VVTTSSAPVVQPPTTTLVTVTSAPATSAAPAptgGAGVAPKWGQCGGNGWTGPTVCASGsTCTVLNPYYSQCI 351
+                           4556777777889999999998877776544111457********************9956***********6 PP
+
+>> sp|Q7SHI8|LP9C_NEUCR  AA9 family lytic polysaccharide monooxygenase C OS=Neurospora crassa (strain ATCC 24698 / 74-OR
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.4  11.0   9.4e-12   4.9e-08     386     451 ..     286     358 ..     281     359 .] 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 37.4 bits;  conditional E-value: 9.4e-12
+       Omega_toxin.aln 386 ssssttaatpttttgsittttt.......ttatvtttavaplygqcggigwtgptacatgvctayspyyaqcl 451
+                           s s t aa  t   gs  ++tt       t    ++   a lygqcgg gwtgpt+ca+g c   + +y+qcl
+  sp|Q7SHI8|LP9C_NEUCR 286 SGSGTGAAHSTKCGGSKPAATTkasnpqpTNGGNSAVRAAALYGQCGGKGWTGPTSCASGTCKFSNDWYSQCL 358
+                           44445555555555544433330001000223334455689*******************************8 PP
+
+>> sp|A1CU44|CBHB_ASPCL  Probable 1,4-beta-D-glucan cellobiohydrolase B OS=Aspergillus clavatus (strain ATCC 1007 / CBS 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.4  20.0   1.9e-11     1e-07     384     451 ..     471     539 .]     453     539 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 36.4 bits;  conditional E-value: 1.9e-11
+       Omega_toxin.aln 384 agssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            gs+++t  at tttt + tt+tt t+  t t va  + qcggig++gpt ca+   ct  + yy+qcl
+  sp|A1CU44|CBHB_ASPCL 471 GGSTTTTKPATSTTTTKATTTATTNTTGPTGTGVAQPWAQCGGIGYSGPTQCAAPyTCTKQNDYYSQCL 539
+                           4666777789999999999999999999************************98538***********8 PP
+
+>> sp|B7SIW2|XYNC_PHACH  Endo-1,4-beta-xylanase C OS=Phanerodontia chrysosporium OX=2822231 GN=xynC PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   4.0   4.8e-11   2.5e-07     414     451 ..      18      56 ..       5      57 .. 0.84
+   2 ?   -1.4   0.0       5.6   2.9e+04      55      95 ..     148     188 ..     135     206 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 4.8e-11
+       Omega_toxin.aln 414 ttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            +a +p +gqcggigwtgpt+c +g  c   +pyy+qcl
+  sp|B7SIW2|XYNC_PHACH  18 VAAQSPEWGQCGGIGWTGPTTCVAGtTCVESNPYYSQCL 56 
+                           46789*****************9883588999******8 PP
+
+  == domain 2  score: -1.4 bits;  conditional E-value: 5.6
+       Omega_toxin.aln  55 aisgaamasgaalgaynvdpnsisvsglssggfmsaqlgva 95 
+                            i+  a ++g  l  +n    +   s +ssg f +aql   
+  sp|B7SIW2|XYNC_PHACH 148 QIATLAKTNGMLLRGHNCVWYNQLPSWVSSGSFTAAQLTSI 188
+                           56667777777777777666666678899999999998755 PP
+
+>> sp|Q99036|MANA_HYPJR  Mannan endo-1,4-beta-mannosidase A OS=Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.8   1.4       7.2   3.8e+04     217     273 ..      65     123 ..      19     225 .. 0.64
+   2 !   34.6   9.4   6.6e-11   3.5e-07     390     451 ..     374     435 ..     333     437 .] 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -1.8 bits;  conditional E-value: 7.2
+       Omega_toxin.aln 217 vspyisncqcdgagavlqwmygplnar.npgtlsgsivs.fsqtgeygasgmdttgyly 273
+                           v    s     g   v  w +  +n++  pg +    +s    t + ga g++t  y+ 
+  sp|Q99036|MANA_HYPJR  65 VDSTFSHISSSGLKVVRVWGFNDVNTQpSPGQIWFQKLSaTGSTINTGADGLQTLDYVV 123
+                           55566667777777777888888877535777655444314456677777777777753 PP
+
+  == domain 2  score: 34.6 bits;  conditional E-value: 6.6e-11
+       Omega_toxin.aln 390 ttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatgvctayspyyaqcl 451
+                           tt+  p ++t + ++ t++t      + +plygqcgg g+tgpt+ca g c   + +y+qcl
+  sp|Q99036|MANA_HYPJR 374 TTTPPPVSSTTTTSSRTSSTPPPPGGSCSPLYGQCGGSGYTGPTCCAQGTCIYSNYWYSQCL 435
+                           2222333322222223333333445689***********************8777779***8 PP
+
+>> sp|Q8NK02|CBHB_EMENI  1,4-beta-D-glucan cellobiohydrolase B OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.1  15.3   1.9e-10   9.7e-07     387     451 ..     465     526 .]     446     526 .] 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 33.1 bits;  conditional E-value: 1.9e-10
+       Omega_toxin.aln 387 sssttaatpt.tttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            s      pt t t s +t+tt++at t+t  a  + qcgg gwtgpt ca+   ct  + +y+qcl
+  sp|Q8NK02|CBHB_EMENI 465 GS-----GPTtTVTTSTATSTTSSATSTATGQAQHWEQCGGNGWTGPTVCASPwACTVVNSWYSQCL 526
+                           33.....34404566778889999***************************8538***********8 PP
+
+>> sp|Q8J0K5|XYNB_TALFU  Endo-1,4-beta-xylanase B OS=Talaromyces funiculosus OX=28572 GN=xynB PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.5   0.1       5.9   3.1e+04     183     212 ..      50      78 ..      40     118 .. 0.70
+   2 !   34.5  14.9   7.4e-11   3.9e-07     359     450 ..     186     281 ..     124     282 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: -1.5 bits;  conditional E-value: 5.9
+       Omega_toxin.aln 183 fasaanvsyittsgaahtfptdfdaagdns 212
+                           +as anv y   + aa +f  ++++ gd  
+  sp|Q8J0K5|XYNB_TALFU  50 IASGANVQYSP-NMAAGSFSINYNTQGDFV 78 
+                           57777777754.456667777777777754 PP
+
+  == domain 2  score: 34.5 bits;  conditional E-value: 7.4e-11
+       Omega_toxin.aln 359 nadqvggvqmaaivnqvarvvsgygags...s.ssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vcta 442
+                           na    g+++ ++  qv  v s  g+gs   s s  t     ttt     t+t+ta  +  + a  +gqcggigwtgpt+c +   c  
+  sp|Q8J0K5|XYNB_TALFU 186 NAWAQAGMNLGTLNYQVMAVESWSGSGSgqiSlSKGTGGGS-TTTTPTGPTSTSTAPSSGGTGAAQWGQCGGIGWTGPTTCVAPyTCKY 273
+                           55556789999999999999876666652122133333334.444444555666666777778899***************87615666 PP
+
+       Omega_toxin.aln 443 yspyyaqc 450
+                            + yy+qc
+  sp|Q8J0K5|XYNB_TALFU 274 ENAYYSQC 281
+                           679****9 PP
+
+>> sp|A2R5N0|LP9A_ASPNC  AA9 family lytic polysaccharide monooxygenase A OS=Aspergillus niger (strain ATCC MYA-4892 / CB
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   7.6   8.4e-11   4.4e-07     386     451 ..     343     409 ..     336     411 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 34.3 bits;  conditional E-value: 8.4e-11
+       Omega_toxin.aln 386 ssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           ++sst a    + t s+  + +++a+ ++  va +y +cggi  tgpt+c +g vc  ++pyy qc+
+  sp|A2R5N0|LP9A_ASPNC 343 AASSTEAVVAPAPTSSVVPAVSASASASAGGVAKMYERCGGINHTGPTTCESGsVCKKWNPYYYQCV 409
+                           5688888888888999**********************************98769***********7 PP
+
+>> sp|A0A0A7EQR3|GCE_CERUI  4-O-methyl-glucuronoyl methylesterase OS=Cerrena unicolor OX=90312 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.0   6.5     1e-10   5.4e-07     412     451 ..      15      55 ..       7      58 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 34.0 bits;  conditional E-value: 1e-10
+          Omega_toxin.aln 412 vtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                               t+ a ap +gqcggigwtgptac +g  c   + yy+qcl
+  sp|A0A0A7EQR3|GCE_CERUI  15 ATAQASAPQWGQCGGIGWTGPTACPSGwACQQLNAYYSQCL 55 
+                              678999******************99956999********9 PP
+
+>> sp|G0RV93|GCE_HYPJQ  4-O-methyl-glucuronoyl methylesterase OS=Hypocrea jecorina (strain QM6a) OX=431241 GN=cip2 PE=1 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.9   7.1   1.1e-10   5.6e-07     415     451 ..      16      53 ..      10      54 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 33.9 bits;  conditional E-value: 1.1e-10
+      Omega_toxin.aln 415 tavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           a +p++gqcggigw+gpt+c  g  c +y+pyy+qc+
+  sp|G0RV93|GCE_HYPJQ  16 QAQSPVWGQCGGIGWSGPTTCVGGaTCVSYNPYYSQCI 53 
+                          6889*****************998469**********7 PP
+
+>> sp|Q0CFP1|CBHC_ASPTN  Probable 1,4-beta-D-glucan cellobiohydrolase C OS=Aspergillus terreus (strain NIH 2624 / FGSC A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.8   6.6   1.2e-10   6.1e-07     416     451 ..      18      54 ..       6      56 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 33.8 bits;  conditional E-value: 1.2e-10
+       Omega_toxin.aln 416 avaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           a   l+gqcggigwtgpt c +g  c++ +pyyaqcl
+  sp|Q0CFP1|CBHC_ASPTN  18 AQQTLWGQCGGIGWTGPTNCVAGaACSTQNPYYAQCL 54 
+                           66789***************8883699*********8 PP
+
+>> sp|A0A384JJB6|LP9C_BOTFB  AA9 family lytic polysaccharide monooxygenase C OS=Botryotinia fuckeliana (strain B05.10) O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.2   0.1        10   5.3e+04      87     148 ..      22      81 ..       7     112 .. 0.60
+   2 ?   -1.2   0.5       4.8   2.5e+04     368     448 ..     184     215 ..     151     235 .. 0.70
+   3 !   33.6  20.3   1.4e-10   7.1e-07     384     451 ..     248     319 ..     238     320 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: -2.2 bits;  conditional E-value: 10
+           Omega_toxin.aln  87 fmsaqlg.vaysdtfkvgfgvfaggpydcargqsyttcmynqnpsittpvanm.kswsgnkinp 148
+                               fm  q g   y+ ++ +    + g   d++    y +c  n  p+ ttp +n+ +  +g  +n 
+  sp|A0A384JJB6|LP9C_BOTFB  22 FMKLQSGgTLYNTSYAIRTPTYDGPINDVT--TEYVAC--NGGPNPTTPSSNIiNVVAGSTVNA 81 
+                               555554313455555555555554444443..356666..444555677766513345555554 PP
+
+  == domain 2  score: -1.2 bits;  conditional E-value: 4.8
+           Omega_toxin.aln 368 maaivnqvarvvsgygagssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatgvctayspyya 448
+                                                                                 a ly +c  i  +g t  +t    ++   y 
+  sp|A0A384JJB6|LP9C_BOTFB 184 G-------------------------------------------------AQLYMECAQINVSGGTGTSTPSTVSFPGAYG 215
+                               3.................................................4556666666666665555555555444444 PP
+
+  == domain 3  score: 33.6 bits;  conditional E-value: 1.4e-10
+           Omega_toxin.aln 384 agssssttaatpttttgsit...ttttttatvtttavaplygqcggigwtgptacatgv.ctayspyyaqcl 451
+                               +  ssst++a pt+t+   t   t t+++a  + t  a +y qcgg gwtg t ca+g  c   s +y+qcl
+  sp|A0A384JJB6|LP9C_BOTFB 248 TAKSSSTSTAKPTSTSTLSTstvTKTSSSAVASGTGTAAIYAQCGGQGWTGATVCASGSkCVVSSAFYSQCL 319
+                               455777777777766443330003333445667899*********************9559999*******8 PP
+
+>> sp|P62694|GUX1_HYPJE  Exoglucanase 1 OS=Hypocrea jecorina OX=51453 GN=cbh1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.2   7.6   1.7e-10   9.1e-07     403     451 ..     461     513 .]     401     513 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 33.2 bits;  conditional E-value: 1.7e-10
+       Omega_toxin.aln 403 tttttttatvtttavap...lygqcggigwtgptacatg.vctayspyyaqcl 451
+                           tttt   at t ++  p    ygqcggig++gpt ca+g  c   +pyy+qcl
+  sp|P62694|GUX1_HYPJE 461 TTTTRRPATTTGSSPGPtqsHYGQCGGIGYSGPTVCASGtTCQVLNPYYSQCL 513
+                           233333344443333333337****************994599*********8 PP
+
+>> sp|P62695|GUX1_TRIKO  Exoglucanase 1 OS=Trichoderma koningii OX=97093 GN=cbh1 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.2   7.6   1.7e-10   9.1e-07     403     451 ..     461     513 .]     401     513 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 33.2 bits;  conditional E-value: 1.7e-10
+       Omega_toxin.aln 403 tttttttatvtttavap...lygqcggigwtgptacatg.vctayspyyaqcl 451
+                           tttt   at t ++  p    ygqcggig++gpt ca+g  c   +pyy+qcl
+  sp|P62695|GUX1_TRIKO 461 TTTTRRPATTTGSSPGPtqsHYGQCGGIGYSGPTVCASGtTCQVLNPYYSQCL 513
+                           233333344443333333337****************994599*********8 PP
+
+>> sp|A0A024RXP8|GUX1_HYPJR  Exoglucanase 1 OS=Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.0   7.5     2e-10   1.1e-06     402     451 ..     461     514 .]     401     514 .] 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 33.0 bits;  conditional E-value: 2e-10
+           Omega_toxin.aln 402 itttttttatvtttavap...lygqcggigwtgptacatg.vctayspyyaqcl 451
+                                tttt   at t ++  p    ygqcggig++gpt ca+g  c   +pyy+qcl
+  sp|A0A024RXP8|GUX1_HYPJR 461 GTTTTRRPATTTGSSPGPtqsHYGQCGGIGYSGPTVCASGtTCQVLNPYYSQCL 514
+                               3445544555555444443337****************994599*********8 PP
+
+>> sp|G2Q9T3|LP9H_THET4  AA9 family lytic polysaccharide monooxygenase H OS=Thermothelomyces thermophilus (strain ATCC 4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.5  21.9   2.9e-10   1.5e-06     369     451 ..     256     342 .]     241     342 .] 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 32.5 bits;  conditional E-value: 2.9e-10
+       Omega_toxin.aln 369 aaivnqvarvvsgygagssssttaatpttttgsitttttttatvtt...tavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            a     a v  g ga  +++ttaat ++ + ++ tttt++a  t+     v   ygqcgg gwtgpt ca g  c+  + +y+qcl
+  sp|G2Q9T3|LP9H_THET4 256 VATATGTATVPGGGGANPTATTTAATSAAPSTTLRTTTTSAAQTTAppsGDVQTKYGQCGGNGWTGPTVCAPGsSCSVLNEWYSQCL 342
+                           4555667889999999999*****999888888877777766665422257999*****************9845999********8 PP
+
+>> sp|P0CT87|GCE1_PHACR  4-O-methyl-glucuronoyl methylesterase 1 OS=Phanerochaete chrysosporium (strain RP-78 / ATCC MYA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.2   5.3   1.8e-10   9.6e-07     415     451 ..      19      56 ..       6      57 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 33.2 bits;  conditional E-value: 1.8e-10
+       Omega_toxin.aln 415 tavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            a a  +gqcggigwtg t+c +g vct  +pyy+qcl
+  sp|P0CT87|GCE1_PHACR  19 NAQAQEWGQCGGIGWTGATTCVSGtVCTVLNPYYSQCL 56 
+                           5778899**************99869***********8 PP
+
+>> sp|P52090|PHA1_PAULE  Poly(3-hydroxyalkanoate) depolymerase C OS=Paucimonas lemoignei OX=29443 GN=phaZ1 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.1   0.2      0.03   1.6e+02     249     332 ..      32     106 ..      23     115 .. 0.74
+   2 !   33.1   4.7     2e-10     1e-06      68     186 ..     139     253 ..     121     308 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 6.1 bits;  conditional E-value: 0.03
+       Omega_toxin.aln 249 sgsivsfsqtgeygasgmdttgylyvpracqpgsstvcklhvalhgckqsysmigskfvsntgynmwadtndiiilypqavadn 332
+                           s s+ +++q  ++g++  +   + +vp     g  + + l valhgc q+ +         +g+    +t    ++ypq  + n
+  sp|P52090|PHA1_PAULE  32 SSSVYALTQVSNFGTNPGNLQMFKHVP----SGMPANAPLVVALHGCTQTAAAY-----EASGWSALGNTHKFYVVYPQQQSGN 106
+                           567777888888887765555555555....5666777899********87654.....4568888888999999999887666 PP
+
+  == domain 2  score: 33.1 bits;  conditional E-value: 2e-10
+       Omega_toxin.aln  68 gaynvdpnsisvsglssggfmsaqlgvaysdtfkvgfgvfaggpydcarg.qsyttcmynqnpsi.ttpvanmkswsgnkinpvsnlqs 154
+                             + +dp  + v+gls+g fm++ +  +y d f  g   +aggpy ca    s  tcm    p +  tp a      g       n   
+  sp|P52090|PHA1_PAULE 139 ANHSIDPSRVYVTGLSAGAFMTTVMAATYPDVFA-GAAPIAGGPYKCATSmTSAFTCMS---PGVdKTPAAWGDLARGGY--SGYNGPK 221
+                           45789****************************5.88899*******986246668885...555146665444333332..3346677 PP
+
+       Omega_toxin.aln 155 rkiymwtgtadttvgpnvmsqlktqlanfasa 186
+                            ki +w g++d tv p   ++   q++n+   
+  sp|P52090|PHA1_PAULE 222 PKISIWHGSSDYTVAPANQNETVEQFTNYHGI 253
+                           89**************9999999999998654 PP
+
+>> sp|A0A384K4U6|LP9A_BOTFB  AA9 family lytic polysaccharide monooxygenase A OS=Botryotinia fuckeliana (strain B05.10) O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.4  27.2   3.1e-10   1.6e-06     373     451 ..     240     323 .]     219     323 .] 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 32.4 bits;  conditional E-value: 3.1e-10
+           Omega_toxin.aln 373 nqvarvvsgygagssssttaatptttt....gsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                               n+ a  ++   a + ++tta+t  ttt    gs t t t++++ +t av   +gqcgg gwtg t+c +g  cta + yy+qcl
+  sp|A0A384K4U6|LP9A_BOTFB 240 NNAATTLASMPAATGAATTATTIVTTTaagsGSATKTGTSATATATGAVVQKFGQCGGQGWTGGTTCVAGsTCTATNAYYSQCL 323
+                               4566666677777777777776655542322455555444444456799******************88747***********8 PP
+
+>> sp|Q9P7F1|YKK5_SCHPO  Carbohydrate-binding domain-containing protein C2E1P3.05c OS=Schizosaccharomyces pombe (strain 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.7   6.1   2.7e-07    0.0014     410     451 ..      19      61 ..       2      64 .. 0.75
+   2 !   23.0   4.8   2.3e-07    0.0012     416     451 ..      68     104 ..      63     107 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 22.7 bits;  conditional E-value: 2.7e-07
+       Omega_toxin.aln 410 atvtttavaplygqcggigwtgptacatgvctays.pyyaqcl 451
+                           +  +++  +p yg cggi + gpt+c  g    ys p+y+qc+
+  sp|Q9P7F1|YKK5_SCHPO  19 SKTSASQCSPRYGTCGGIYYDGPTCCVVGSSCIYSnPWYSQCI 61 
+                           233345578********************98888669*****8 PP
+
+  == domain 2  score: 23.0 bits;  conditional E-value: 2.3e-07
+       Omega_toxin.aln 416 avaplygqcggigwtgptacatgv.ctayspyyaqcl 451
+                             a ly qcggi + gpt+c  g  c    pyy+qc+
+  sp|Q9P7F1|YKK5_SCHPO  68 PCAKLYQQCGGINYNGPTCCEPGSeCIYNGPYYSQCI 104
+                           5799*****************997366668******8 PP
+
+>> sp|Q00023|LP9_AGABI  AA9 family lytic polysaccharide monooxygenase-like protein CEL1 OS=Agaricus bisporus OX=5341 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.6  10.7   5.6e-10   2.9e-06     382     451 ..     254     320 .]     226     320 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 31.6 bits;  conditional E-value: 5.6e-10
+      Omega_toxin.aln 382 ygagssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacat.gvctayspyyaqcl 451
+                          yg+g +  + ++tp ttt      tt+    +t    p ygqcggigwtg t c +   c   + yy+qcl
+  sp|Q00023|LP9_AGABI 254 YGSGGNGGSPTTTPHTTT----PITTSPPPTSTPGTIPQYGQCGGIGWTGGTGCVApYQCKVINDYYSQCL 320
+                          555555555555555444....344444444556678*****************76257***********8 PP
+
+>> sp|G2QCS4|CEL7A_THET4  Endoglucanase 7a OS=Thermothelomyces thermophilus (strain ATCC 42464 / BCRC 31852 / DSM 1799) 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.3      0.92   4.8e+03     186     247 ..     154     215 ..     126     227 .. 0.78
+   2 !   32.4   4.2   3.1e-10   1.6e-06     403     451 ..     409     464 .]     346     464 .] 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 0.92
+        Omega_toxin.aln 186 aanvsyittsgaahtfptdfdaagd.nscsssvspyisncqcdgagavlqwmygplnarnpgt 247
+                              +vs +     a  + +++da+g  n  ++  + y     cd    v +w  g ln+   g+
+  sp|G2QCS4|CEL7A_THET4 154 DVDVSSLPCGENAALYLSEMDATGGrNEYNTGGAEY-GSGYCDAQCPVQNWNNGTLNTGRVGS 215
+                            457788888888889999999987615555555666.5578****************987775 PP
+
+  == domain 2  score: 32.4 bits;  conditional E-value: 3.1e-10
+        Omega_toxin.aln 403 tttttttatvtttavap......lygqcggigwtgptacatgvctay.spyyaqcl 451
+                              ++tttat ttt+  p       ygqcgg gwtgpt c t     y + +y+qcl
+  sp|G2QCS4|CEL7A_THET4 409 NPSSTTTATATTTSSGPaeptqtHYGQCGGKGWTGPTRCETPYTCKYqNDWYSQCL 464
+                            344555555555554442222337*****************8655552789****8 PP
+
+>> sp|P15828|GUX1_HUMIN  Exoglucanase 1 OS=Humicola insolens OX=85995 GN=CBH-1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.0   5.5   8.1e-10   4.3e-06     380     451 ..     456     525 .]     434     525 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 31.0 bits;  conditional E-value: 8.1e-10
+       Omega_toxin.aln 380 sgygagssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacat.gvctayspyyaqcl 451
+                            g g g ++      ptttt s  +tttt a+  +   a  + qcggig+tgpt c    +ct  + +y+qcl
+  sp|P15828|GUX1_HUMIN 456 PGAGNGGNNGGNPPPPTTTTSSAPATTTT-AS--AGPKAGRWQQCGGIGFTGPTQCEEpYICTKLNDWYSQCL 525
+                           45566666666667778888776665554.43..44567899**************86269***********8 PP
+
+>> sp|B7SIW1|XYNB_PHACH  Endo-1,4-beta-xylanase B OS=Phanerodontia chrysosporium OX=2822231 GN=xynB PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.9  11.1   8.8e-10   4.6e-06     380     451 ..     209     290 .]     189     290 .] 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 30.9 bits;  conditional E-value: 8.8e-10
+       Omega_toxin.aln 380 sgygagsssstta......atpttttg..sitttttt..tatvtttavaplygqcggigwtgptacatgvctayspyyaqcl 451
+                            gy +  ss+ t       ++p + tg  s++tt +   ++     + + lygqcgg gwtgpt+c++g c   + +y+qcl
+  sp|B7SIW1|XYNB_PHACH 209 EGYQSSGSSTVTVnpaggvTSPIAPTGpsSVSTTPSGpsSSPSPVGTCSALYGQCGGQGWTGPTCCSSGTCKFSNNWYSQCL 290
+                           45544333333321111113344445521333333321122334456788*******************************8 PP
+
+>> sp|P13860|GUX1_PHACH  Exoglucanase 1 OS=Phanerodontia chrysosporium OX=2822231 GN=CBH1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.2  14.0   1.4e-09   7.5e-06     383     450 ..     447     515 ..     435     516 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 30.2 bits;  conditional E-value: 1.4e-09
+       Omega_toxin.aln 383 gagssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqc 450
+                           g+ ssss +++  +t+t s  ++++t  t  t    p +gqcggig+tg t+ca+   c   +pyy+qc
+  sp|P13860|GUX1_PHACH 447 GTVSSSSVSSSHSSTSTSSSHSSSSTPPTQPTGVTVPQWGQCGGIGYTGSTTCASPyTCHVLNPYYSQC 515
+                           7778999999999999999999999999**************************86379********** PP
+
+>> sp|P19355|GUX1_HYPRU  Exoglucanase 1 OS=Hypocrea rufa OX=5547 GN=cbh1 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.3   9.0   6.7e-10   3.5e-06     386     451 ..     445     514 .]     403     514 .] 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 31.3 bits;  conditional E-value: 6.7e-10
+       Omega_toxin.aln 386 ssssttaatpttttgsitttttttatvtttavap...lygqcggigwtgptacatg.vctayspyyaqcl 451
+                           s+ +++   p       tttt   at t ++  p    ygqcggig++gpt ca+g  c   +pyy+qcl
+  sp|P19355|GUX1_HYPRU 445 STGNSSGGNPPGGNPPGTTTTRRPATSTGSSPGPtqtHYGQCGGIGYSGPTVCASGsTCQVLNPYYSQCL 514
+                           44444444555555555677777777777766553336****************994699*********8 PP
+
+>> sp|P07982|GUN2_HYPJE  Endoglucanase EG-II OS=Hypocrea jecorina OX=51453 GN=egl2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.2   6.3   7.3e-10   3.9e-06     416     451 ..      21      57 ..      10      59 .. 0.86
+   2 ?    2.1   0.1      0.49   2.6e+03     372     406 ..     370     409 ..     353     416 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 31.2 bits;  conditional E-value: 7.3e-10
+       Omega_toxin.aln 416 avaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           a   ++gqcggigw+gpt ca g  c++ +pyyaqc+
+  sp|P07982|GUN2_HYPJE  21 AQQTVWGQCGGIGWSGPTNCAPGsACSTLNPYYAQCI 57 
+                           445789***************984699*********7 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.49
+       Omega_toxin.aln 372 vnqvarvv...sgygagssssttaat..pttttgsitttt 406
+                           +nq + v     g+gags  st   t  pt++  s t t+
+  sp|P07982|GUN2_HYPJE 370 LNQNSDVYlgyVGWGAGSFDSTYVLTetPTSSGNSWTDTS 409
+                           555555541115679***9999876611555555555544 PP
+
+>> sp|B2ADG1|LP9H_PODAN  AA9 family lytic polysaccharide monooxygenase H OS=Podospora anserina (strain S / ATCC MYA-4624
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.1   3.8   1.5e-09   7.9e-06     415     448 ..     271     304 ..     244     307 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 30.1 bits;  conditional E-value: 1.5e-09
+       Omega_toxin.aln 415 tavaplygqcggigwtgptacatgvctayspyya 448
+                            a aplygqcgg g+tgpt+ca g c a + +y+
+  sp|B2ADG1|LP9H_PODAN 271 GAGAPLYGQCGGQGYTGPTTCAQGTCVASNQWYS 304
+                           688*************************999986 PP
+
+>> sp|A0A024SH20|GUN2_HYPJR  Endoglucanase EG-II OS=Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.8   6.6   9.8e-10   5.2e-06     415     451 ..      20      57 ..      11      60 .. 0.88
+   2 ?    1.8   0.1       0.6   3.2e+03     372     405 ..     370     408 ..     353     416 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 30.8 bits;  conditional E-value: 9.8e-10
+           Omega_toxin.aln 415 tavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                               +a   ++gqcggigw+gpt ca g  c++ +pyyaqc+
+  sp|A0A024SH20|GUN2_HYPJR  20 AAQQTVWGQCGGIGWSGPTNCAPGsACSTLNPYYAQCI 57 
+                               4566799***************984699*********7 PP
+
+  == domain 2  score: 1.8 bits;  conditional E-value: 0.6
+           Omega_toxin.aln 372 vnqvarvv...sgygagssssttaatpttt..tgsittt 405
+                               +nq + v     g+gags  st   t t t    s t t
+  sp|A0A024SH20|GUN2_HYPJR 370 LNQNSDVYlgyVGWGAGSFDSTYVLTETPTgsGNSWTDT 408
+                               555555541115679***999987765543003444443 PP
+
+>> sp|P49075|GUX3_AGABI  Exoglucanase 3 OS=Agaricus bisporus OX=5341 GN=cel3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.7   2.1     1e-09   5.3e-06     415     451 ..      19      56 ..      11      58 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 30.7 bits;  conditional E-value: 1e-09
+       Omega_toxin.aln 415 tavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            a +p++gqcgg gwtgpt+ca+g  c   + +y+qcl
+  sp|P49075|GUX3_AGABI  19 QAQSPVWGQCGGNGWTGPTTCASGsTCVKQNDFYSQCL 56 
+                           5789******************99469999*******8 PP
+
+>> sp|G2QND5|FAEB_THET4  Feruloyl esterase B OS=Thermothelomyces thermophilus (strain ATCC 42464 / BCRC 31852 / DSM 1799
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.0   0.0     0.031   1.6e+02     254     328 ..      20      86 ..      12      99 .. 0.83
+   2 !   23.2   0.5   1.9e-07     0.001      67     182 ..     120     236 ..     100     248 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 6.0 bits;  conditional E-value: 0.031
+       Omega_toxin.aln 254 sfsqtgeygasgmdttgylyvpracqpgsstvcklhvalhgckqsysmigskfvsntgynmwadtndiiilypqa 328
+                           s+ +  e+g +  +   y+yvp   +        + valh c  s      ++ s t    +ad n  i++yp +
+  sp|G2QND5|FAEB_THET4  20 SLQEVTEFGDNPTNIQMYIYVPDQLDT----NPPVIVALHPCGGSA----QQWFSGTQLPSYADDNGFILIYPST 86 
+                           6778899999999*********98765....455679999999885....578999****************975 PP
+
+  == domain 2  score: 23.2 bits;  conditional E-value: 1.9e-07
+       Omega_toxin.aln  67 lgaynvdpnsisvsglssggfmsaqlgvaysdtfkvgfgvfaggpydcargqsyttcmynqnpsittpvanmkswsgnkinpvsnlqsr 155
+                           l  +  d   +   g+ssgg+m+ ql  +y d f+ g  v++g  + ca g   +t +  ++          + w     n  +    r
+  sp|G2QND5|FAEB_THET4 120 LDKHSGDSSRVYAMGFSSGGMMTNQLAGSYPDVFEAG-AVYSGVAFGCAAGAESATPFSPNQTCAQGLQKTAQEWGDFVRNAYAGYTGR 207
+                           55556677778889*********************99.69***********88777665444444455566778888888888888877 PP
+
+       Omega_toxin.aln 156 k..iymwtgtadttvgpnvmsqlktqlan 182
+                           +  + ++ g  dt v p+   +   q +n
+  sp|G2QND5|FAEB_THET4 208 RprMQIFHGLEDTLVRPQCAEEALKQWSN 236
+                           52256688999999999877665555555 PP
+
+>> sp|Q66NB7|EG5A_PHACH  Manganese dependent endoglucanase Eg5A OS=Phanerodontia chrysosporium OX=2822231 GN=Eg5A PE=1 S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.5   5.3   1.2e-09   6.2e-06     416     451 ..      17      53 ..       4      54 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 30.5 bits;  conditional E-value: 1.2e-09
+       Omega_toxin.aln 416 avaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           a    +gqcggigwtg t+c +g vc+  +pyy+qc+
+  sp|Q66NB7|EG5A_PHACH  17 AQQQQWGQCGGIGWTGATTCVAGsVCSVLNPYYSQCI 53 
+                           444679**************87659***********7 PP
+
+>> sp|M4MEY9|XYNC_HUMIN  Endo-1,4-beta-xylanase C OS=Humicola insolens OX=85995 GN=XynC PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.7   2.8   2.1e-09   1.1e-05     412     451 ..      12      52 ..       3      53 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 29.7 bits;  conditional E-value: 2.1e-09
+       Omega_toxin.aln 412 vtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            +  a + l+gqcggigw gpt+c +g  ct  + +y qcl
+  sp|M4MEY9|XYNC_HUMIN  12 PAVLAQSQLWGQCGGIGWNGPTTCVSGaTCTKINDWYHQCL 52 
+                           45667889****************99846***********8 PP
+
+>> sp|P46239|GUNF_FUSOX  Putative endoglucanase type F OS=Fusarium oxysporum OX=5507 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.0   2.3   3.5e-09   1.8e-05     409     451 ..      10      53 ..       3      54 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 29.0 bits;  conditional E-value: 3.5e-09
+       Omega_toxin.aln 409 tatvtttavaplygqcggigwtgptacatgv.ctayspyyaqcl 451
+                            a v++ a ap++gqcgg gwtg t+ca+g+ c   + +y qc+
+  sp|P46239|GUNF_FUSOX  10 LAPVSALAQAPIWGQCGGNGWTGATTCASGLkCEKINDWYYQCV 53 
+                           5779999***********************7699999*****96 PP
+
+>> sp|P79046|XYN1A_HUMIN  Endo-1,4-beta-xylanase 1 OS=Humicola insolens OX=85995 GN=xyn1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.7  12.8     4e-09   2.1e-05     386     451 ..     357     429 .]     330     429 .] 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 28.7 bits;  conditional E-value: 4e-09
+        Omega_toxin.aln 386 ssssttaatpttttgsitttttttatvtttavap......lygqcggigwtgptacat.gvctayspyyaqcl 451
+                            ++  tt++tp   +  i  +tttt++v tt+v+p       +gqcggigw gpt c +   ct  + +y qcl
+  sp|P79046|XYN1A_HUMIN 357 TTFVTTTTTPPPISSPIVPSTTTTSAVPTTTVSPpepeqtRWGQCGGIGWNGPTKCQSpWTCTRLNDWYFQCL 429
+                            333455566666667788889999999999999855555559**************87258***********8 PP
+
+>> sp|G0R6T8|LP9A_HYPJQ  AA9 family lytic polysaccharide monooxygenase cel61A OS=Hypocrea jecorina (strain QM6a) OX=4312
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.8  20.4   7.8e-09   4.1e-05     375     451 ..     264     343 ..     251     344 .] 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 27.8 bits;  conditional E-value: 7.8e-09
+       Omega_toxin.aln 375 varvvsgygagssssttaatpttttgsitttt..tttatvtttavaplygqcggigwtgptacat.gvctayspyyaqcl 451
+                            +  v g g+g +s tt+++ tt + s  ++t  +tt++ +      lygqcgg g++gpt ca    c++ +pyyaqcl
+  sp|G0R6T8|LP9A_HYPJQ 264 ASATVPGGGSGPTSRTTTTARTTQASSRPSSTppATTSAPAGGPTQTLYGQCGGSGYSGPTRCAPpATCSTLNPYYAQCL 343
+                           45567888999999888877777777654443124555555666788****************96368***********8 PP
+
+>> sp|O14405|LP9A_HYPJE  AA9 family lytic polysaccharide monooxygenase cel61A OS=Hypocrea jecorina OX=51453 GN=cel61a PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.8  20.4   7.8e-09   4.1e-05     375     451 ..     264     343 ..     251     344 .] 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 27.8 bits;  conditional E-value: 7.8e-09
+       Omega_toxin.aln 375 varvvsgygagssssttaatpttttgsitttt..tttatvtttavaplygqcggigwtgptacat.gvctayspyyaqcl 451
+                            +  v g g+g +s tt+++ tt + s  ++t  +tt++ +      lygqcgg g++gpt ca    c++ +pyyaqcl
+  sp|O14405|LP9A_HYPJE 264 ASATVPGGGSGPTSRTTTTARTTQASSRPSSTppATTSAPAGGPTQTLYGQCGGSGYSGPTRCAPpATCSTLNPYYAQCL 343
+                           45567888999999888877777777654443124555555666788****************96368***********8 PP
+
+>> sp|Q9P8P3|GUX1_TRIHA  Exoglucanase 1 OS=Trichoderma harzianum OX=5544 GN=cbh1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.6   0.0       6.5   3.4e+04     125     148 ..     317     341 ..     308     365 .. 0.77
+   2 ?   -1.5   0.5       5.8   3.1e+04     388     431 ..     396     443 ..     367     449 .. 0.69
+   3 !   28.8  12.4   3.9e-09   2.1e-05     387     451 ..     439     505 .]     418     505 .] 0.74
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 6.5
+       Omega_toxin.aln 125 ynqnp.sittpvanmkswsgnkinp 148
+                           y qn      p a++ s+sgn in 
+  sp|Q9P8P3|GUX1_TRIHA 317 YVQNGvKFQQPNAQVGSYSGNTINT 341
+                           6666424678999999*****9996 PP
+
+  == domain 2  score: -1.5 bits;  conditional E-value: 5.8
+       Omega_toxin.aln 388 ssttaatpttttgsitttttttatvttta..vaplygq..cggigwtg 431
+                           +++ta+tp +  gs +t++   a v + +     +y +   g ig tg
+  sp|Q9P8P3|GUX1_TRIHA 396 TNATASTPGAKRGSCSTSSGVPAQVEAQSpnSKVIYSNirFGPIGSTG 443
+                           567999999999999999999888876541123344431145555555 PP
+
+  == domain 3  score: 28.8 bits;  conditional E-value: 3.9e-09
+       Omega_toxin.aln 387 sssttaatpttttgsitttttttat.vtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                             st   t +   g+ tt +  ++t  + ta    ygqcgg gwtgpt ca+g  c   +p+y+qcl
+  sp|Q9P8P3|GUX1_TRIHA 439 IGSTGGNTGSNPPGTSTTRAPPSSTgSSPTATQTHYGQCGGTGWTGPTRCASGyTCQVLNPFYSQCL 505
+                           44555555555555555555444441456888899*****************95699*********8 PP
+
+>> sp|A0A2J8C362|CUTI1_VERDA  Cutinase 11 OS=Verticillium dahliae OX=27337 GN=VD0003_g7577 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.9   0.5       7.7   4.1e+04     414     431 ..      59      76 ..      30     108 .. 0.55
+   2 !   28.5  12.7   4.6e-09   2.4e-05     382     451 ..     229     295 .]     190     295 .] 0.72
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 7.7
+            Omega_toxin.aln 414 ttavaplygqcggigwtg 431
+                                +ta a +y  cgg    g
+  sp|A0A2J8C362|CUTI1_VERDA  59 STAEAIVYPACGGQSSCG 76 
+                                444444444444433332 PP
+
+  == domain 2  score: 28.5 bits;  conditional E-value: 4.6e-09
+            Omega_toxin.aln 382 ygagssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatgvctayspyyaqcl 451
+                                  +g s  tt   p tt  +   tt  t+   + + a lygqcgg gw g t+c+ g c a + +y+qcl
+  sp|A0A2J8C362|CUTI1_VERDA 229 LNSGGSPPTT---PPTTPPTTPPTTPPTTPPPSGSCAALYGQCGGQGWNGATCCSQGTCRASNQWYSQCL 295
+                                4444444444...3333333333444444556778999*******************************8 PP
+
+>> sp|G4NBX2|CE12C_PYRO7  Endoglucanase cel12C OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) OX=24250
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.4   9.7     1e-08   5.3e-05     413     450 ..     271     308 ..     213     309 .] 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 27.4 bits;  conditional E-value: 1e-08
+        Omega_toxin.aln 413 tttavaplygqcggigwtgptacatgvctayspyyaqc 450
+                               + a lygqcgg gw+gpt+c+ g c a + +y+qc
+  sp|G4NBX2|CE12C_PYRO7 271 NPPSCAALYGQCGGSGWSGPTCCTQGTCKAANQWYSQC 308
+                            3457899******************************* PP
+
+>> sp|P43317|GUN5_HYPJE  Endoglucanase-5 OS=Hypocrea jecorina OX=51453 GN=egl5 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.4   5.9   1.1e-08   5.6e-05     417     451 ..     206     241 ..     160     242 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 27.4 bits;  conditional E-value: 1.1e-08
+       Omega_toxin.aln 417 vaplygqcggigwtgptac.atgvctayspyyaqcl 451
+                              lygqcgg gwtgpt+c a g c   + +y+qcl
+  sp|P43317|GUN5_HYPJE 206 QQTLYGQCGGAGWTGPTTCqAPGTCKVQNQWYSQCL 241
+                           5679***************667*************8 PP
+
+>> sp|B2ATL7|LP9E_PODAN  AA9 family lytic polysaccharide monooxygenase E OS=Podospora anserina (strain S / ATCC MYA-4624
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.2  14.5   2.4e-08   0.00013     380     451 ..     221     293 .]     210     293 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 26.2 bits;  conditional E-value: 2.4e-08
+       Omega_toxin.aln 380 sgygagssssttaatpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           s    g  ss     p  tt  +t+t +  at  + +    +gqcgg gwtg t+ca+g  c + + yy qc+
+  sp|B2ATL7|LP9E_PODAN 221 SCGSNGGGSSPVEPQPQPTTTLVTSTRAPVATQPAGCAVAKWGQCGGNGWTGCTTCAAGsTCNTQNAYYHQCV 293
+                           55556677778888899999999999999999998888889****************9846999********6 PP
+
+>> sp|B0XWL3|CBHC_ASPFC  Probable 1,4-beta-D-glucan cellobiohydrolase C OS=Aspergillus fumigatus (strain CBS 144.89 / FG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   6.7   1.3e-08   6.9e-05     415     451 ..      18      55 ..       5      57 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 27.0 bits;  conditional E-value: 1.3e-08
+       Omega_toxin.aln 415 tavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            a   ++gqcgg gw+gpt+c +g  c++ +pyyaqc+
+  sp|B0XWL3|CBHC_ASPFC  18 QAQQTVWGQCGGQGWSGPTSCVAGaACSTLNPYYAQCI 55 
+                           4566799**************8883699*********7 PP
+
+>> sp|Q4WFK4|CBHC_ASPFU  Probable 1,4-beta-D-glucan cellobiohydrolase C OS=Aspergillus fumigatus (strain ATCC MYA-4609 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   6.7   1.3e-08   6.9e-05     415     451 ..      18      55 ..       5      57 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 27.0 bits;  conditional E-value: 1.3e-08
+       Omega_toxin.aln 415 tavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            a   ++gqcgg gw+gpt+c +g  c++ +pyyaqc+
+  sp|Q4WFK4|CBHC_ASPFU  18 QAQQTVWGQCGGQGWSGPTSCVAGaACSTLNPYYAQCI 55 
+                           4566799**************8883699*********7 PP
+
+>> sp|A1DJQ7|CBHC_NEOFI  Probable 1,4-beta-D-glucan cellobiohydrolase C OS=Neosartorya fischeri (strain ATCC 1020 / DSM 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   6.3   1.4e-08   7.4e-05     415     451 ..      18      55 ..       5      57 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 27.0 bits;  conditional E-value: 1.4e-08
+       Omega_toxin.aln 415 tavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                            a   ++gqcgg gw+gpt c +g  c++ +pyyaqc+
+  sp|A1DJQ7|CBHC_NEOFI  18 QAQQTVWGQCGGQGWSGPTNCVAGaACSTLNPYYAQCI 55 
+                           4566799**************8883699*********7 PP
+
+>> sp|Q96WQ9|LP9A_ASPKW  AA9 family lytic polysaccharide monooxygenase A OS=Aspergillus kawachii (strain NBRC 4308) OX=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.9  12.2   1.5e-08   7.8e-05     388     451 ..     337     405 ..     311     407 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 26.9 bits;  conditional E-value: 1.5e-08
+       Omega_toxin.aln 388 ssttaatpt....tttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           s  +aat +    ++t s+    +++a+ ++  va  y +cggi  tgpt+c +g vc  ++pyy qc+
+  sp|Q96WQ9|LP9A_ASPKW 337 SQVAAATSSvvapAATSSVVPVVSASASASAGGVAKQYERCGGINHTGPTTCESGsVCKKWNPYYYQCV 405
+                           444444433111156788888999999999**********************98769***********7 PP
+
+>> sp|A0A977JPB5|AB62A_PENPR  Alpha-L-arabinofuranosidase A OS=Penicillium parvum OX=70113 GN=ABF62A PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.7   9.7   1.6e-08   8.7e-05     417     451 ..      17      52 ..       8      55 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 26.7 bits;  conditional E-value: 1.6e-08
+            Omega_toxin.aln 417 vaplygqcggigwtgptacatgvctays.pyyaqcl 451
+                                 a lygqcgg gwtg t+c +g c +ys  +y+qcl
+  sp|A0A977JPB5|AB62A_PENPR  17 QAALYGQCGGNGWTGATTCVSGACCTYSnAWYSQCL 52 
+                                689************************9458****8 PP
+
+>> sp|A0A384JXV5|EIX1_BOTFB  Ethylene-inducing xylanase 1 OS=Botryotinia fuckeliana (strain B05.10) OX=332648 GN=EIX1 PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.7  15.5   1.7e-08   9.1e-05     362     451 ..     190     281 .]     136     281 .] 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 26.7 bits;  conditional E-value: 1.7e-08
+           Omega_toxin.aln 362 qvggvqmaaivnqvarvvsgygagsssstta..atpttttgsitttttttatvt.ttavaplygqcggigwtgptacatgvctay 443
+                               +  g++m +    +     gy +  ss  t   +t    +gs t++ tt+ t +   +   ly qcgg g+tg  +ca+g c   
+  sp|A0A384JXV5|EIX1_BOTFB 190 KALGMNMGTFDYMIV-ATEGYFSSGSSDITVgsSTGGGDSGSPTSAPTTSPTTSpGGTCGALYSQCGGTGFTGSQCCASGTCKYA 273
+                               555666665544443.345665544554444014555677888877666655441567789************************ PP
+
+           Omega_toxin.aln 444 spyyaqcl 451
+                               + yy+qcl
+  sp|A0A384JXV5|EIX1_BOTFB 274 NSYYSQCL 281
+                               *******8 PP
+
+>> sp|A0A024SH76|GUX2_HYPJR  Exoglucanase 2 OS=Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.5   5.8   1.9e-08    0.0001     400     451 ..      10      62 ..       2      63 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 26.5 bits;  conditional E-value: 1.9e-08
+           Omega_toxin.aln 400 gsitttttttatvtttavaplygqcggigwtgptacatgvctays.pyyaqcl 451
+                                +++t +++       a + ++gqcgg  w+gpt+ca+g    ys  yy+qcl
+  sp|A0A024SH76|GUX2_HYPJR  10 ATLATLAASVPLEERQACSSVWGQCGGQNWSGPTCCASGSTCVYSnDYYSQCL 62 
+                               23333333333334679999*******************99999836*****8 PP
+
+>> sp|P07987|GUX2_HYPJE  Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.5   5.8   1.9e-08    0.0001     400     451 ..      10      62 ..       2      63 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 26.5 bits;  conditional E-value: 1.9e-08
+       Omega_toxin.aln 400 gsitttttttatvtttavaplygqcggigwtgptacatgvctays.pyyaqcl 451
+                            +++t +++       a + ++gqcgg  w+gpt+ca+g    ys  yy+qcl
+  sp|P07987|GUX2_HYPJE  10 ATLATLAASVPLEERQACSSVWGQCGGQNWSGPTCCASGSTCVYSnDYYSQCL 62 
+                           23333333333334679999*******************99999836*****8 PP
+
+>> sp|Q06886|GUX1_PENJA  Exoglucanase 1 OS=Penicillium janthinellum OX=5079 GN=cbh1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.4  24.4   4.2e-08   0.00022     383     451 ..     462     537 .]     453     537 .] 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 25.4 bits;  conditional E-value: 4.2e-08
+       Omega_toxin.aln 383 gagssssttaatpttttgsitttttttatvtttav......aplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           g+ sssstt++t  +t+ s ++ tttt t ttt+       a  + qcgg gwtgpt+c +   ct  + +y+qcl
+  sp|Q06886|GUX1_PENJA 462 GTTSSSSTTTTTSKSTSTSSSSKTTTTVTTTTTSSgssgtgARDWAQCGGNGWTGPTTCVSPyTCTKQNDWYSQCL 537
+                           5667777777776555544444444444444443211222277899*************87538***********8 PP
+
+>> sp|B2ADA5|GH6D_PODAN  Probable exoglucanase GH6D OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 980 / FGSC 103
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.5   8.1   3.8e-08    0.0002     415     451 ..     393     429 .]     366     429 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 25.5 bits;  conditional E-value: 3.8e-08
+       Omega_toxin.aln 415 tavaplygqcggigwtgptacatgvctayspyyaqcl 451
+                              a  + qcgg gwtgpt+ca g c a + +y+qcl
+  sp|B2ADA5|GH6D_PODAN 393 GNCAARWAQCGGQGWTGPTCCAQGTCQASNQWYSQCL 429
+                           4568889*****************************8 PP
+
+>> sp|B8M9H9|FAEB_TALSN  Feruloyl esterase B OS=Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.5      0.39     2e+03     254     336 ..      20      94 ..      13     110 .. 0.72
+   2 !   19.1   5.3   3.3e-06     0.017      67     179 ..     120     234 ..     109     256 .. 0.83
+   3 !   14.4  19.7   9.2e-05      0.49     393     451 ..     302     358 .]     280     358 .] 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 2.4 bits;  conditional E-value: 0.39
+       Omega_toxin.aln 254 sfsqtgeygasgmdttgylyvpracqpgsstvcklhvalhgckqsysmigskfvsntgynmwadtndiiilypqavadntmht 336
+                           s++q  ++g +      y+yvp       +      va+h c  s     +++     y   ad    i++yp a  d   + 
+  sp|B8M9H9|FAEB_TALSN  20 SLTQVSNFGDNPGSLQMYIYVPNNLASKPAI----IVAMHPCGGSA----TQYYGMYDYHTPADQYGYILIYPSATRDLNCFD 94 
+                           77888889988888999****9987665554....56777776664....345555678888999999999999988866555 PP
+
+  == domain 2  score: 19.1 bits;  conditional E-value: 3.3e-06
+       Omega_toxin.aln  67 lgaynvdpnsisvsglssggfmsaqlgvaysdtfkvgfgvfaggpydcargqsyt.tcmynqnpsittpvanmkswsgnkin..pvsnl 152
+                           +  y  d   + ++g ssg +m+  l  +y d f  g   f+g p+ c  g   +  +m nq  s        + w+    n  p    
+  sp|B8M9H9|FAEB_TALSN 120 ISKYGADSSKVYMTGSSSGAIMTNVLAGTYPDVFAAGA-AFSGMPFACLSGAGGAdPAMSNQTCSRGQINHTPQEWAAYVHNayPGYTG 207
+                           678999*****************************995.7*********998755279*******999999999999876662266778 PP
+
+       Omega_toxin.aln 153 qsrkiymwtgtadttvgpnvmsqlktq 179
+                           q  ++ +w gtad  +    ++q  +q
+  sp|B8M9H9|FAEB_TALSN 208 QYPRLQVWHGTADNVISYTDFNQEISQ 234
+                           999**********99887665555444 PP
+
+  == domain 3  score: 14.4 bits;  conditional E-value: 9.2e-05
+       Omega_toxin.aln 393 atpttttgsitttttttatvtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           +  tttt s ttt+t     t  + a  + qcgg g+tg t+ca+   c   + yy+qcl
+  sp|B8M9H9|FAEB_TALSN 302 SGSTTTTTSATTTSTG---PTGGCTAAHWDQCGGNGYTGCTSCASPyTCQKVNDYYSQCL 358
+                           2233333333332222...2334567899***************8637999********8 PP
+
+>> sp|E7EF85|XYNB_PENOX  Endo-1,4-beta-xylanase B OS=Penicillium oxalicum OX=69781 GN=xynB PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.5  23.5   3.8e-08    0.0002     380     451 ..     234     310 .]     213     310 .] 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 25.5 bits;  conditional E-value: 3.8e-08
+       Omega_toxin.aln 380 sgygagssssttaatpttttgsitttttttat.....vtttavaplygqcggigwtgptacatgvctayspyyaqcl 451
+                           sg g+gs s + + + ttt+gs t t t + +      +    a  +gqcgg gw gpt+c++g c a + +y+qcl
+  sp|E7EF85|XYNB_PENOX 234 SGSGSGSGSGSGSGSQTTTAGSSTGTGTGSGSgsgsgGSGGNCAAQWGQCGGQGWNGPTCCSSGTCKASNQWYSQCL 310
+                           566666666666677777777777666654431111134567899*******************************8 PP
+
+>> sp|Q92400|GUX2_AGABI  Exoglucanase OS=Agaricus bisporus OX=5341 GN=cel2 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.0   2.2   1.1e-07   0.00056     414     451 ..     468     506 .]     446     506 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 24.0 bits;  conditional E-value: 1.1e-07
+       Omega_toxin.aln 414 ttavaplygqcggigwtgptacat.gvctayspyyaqcl 451
+                            +    ++gqcgg gwtgptac +   c   + +y+qc+
+  sp|Q92400|GUX2_AGABI 468 NSPAQTMWGQCGGQGWTGPTACQSpSTCHVINDFYSQCF 506
+                           4455679***************86378***********5 PP
+
+>> sp|A0A0A8IDB7|AA12_COPCI  Pyrroloquinoline quinone-dependent pyranose dehydrogenase OS=Coprinopsis cinerea OX=5346 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   5.7   7.9e-08   0.00041     391     451 ..     665     724 ..     655     725 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 24.5 bits;  conditional E-value: 7.9e-08
+           Omega_toxin.aln 391 taatpttttgsitttttttatvtttavaplygqcggigwtgptac.atgvctayspyyaqcl 451
+                               t++ pt tt  +    tt a     a   l+gqcgg gwtgpt c a  vc   + +y+qc+
+  sp|A0A0A8IDB7|AA12_COPCI 665 TTSPPTPTTPPVVQPPTTVAP--PQASQTLWGQCGGQGWTGPTLCpANSVCRESNQWYSQCV 724
+                               555677777777766666654..457788****************6789************6 PP
+
+>> sp|A8P0V4|AA12_COPC7  Pyrroloquinoline quinone-dependent pyranose dehydrogenase OS=Coprinopsis cinerea (strain Okayam
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   5.7   7.9e-08   0.00041     391     451 ..     665     724 ..     655     725 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 24.5 bits;  conditional E-value: 7.9e-08
+       Omega_toxin.aln 391 taatpttttgsitttttttatvtttavaplygqcggigwtgptac.atgvctayspyyaqcl 451
+                           t++ pt tt  +    tt a     a   l+gqcgg gwtgpt c a  vc   + +y+qc+
+  sp|A8P0V4|AA12_COPC7 665 TTSPPTPTTPPVVQPPTTVAP--PQASQTLWGQCGGQGWTGPTLCpANSVCRESNQWYSQCV 724
+                           555677777777766666654..457788****************6789************6 PP
+
+>> sp|Q99034|AXE1_HYPJE  Acetylxylan esterase OS=Hypocrea jecorina OX=51453 GN=axe1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   2.1       2.9   1.5e+04     406     440 ..      59      93 ..       4     110 .. 0.70
+   2 !   25.0   6.4   5.5e-08   0.00029     403     451 ..     250     302 .]     225     302 .] 0.70
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 2.9
+       Omega_toxin.aln 406 ttttatvtttavaplygqcggigwtgptacatgvc 440
+                               a   tt+ a +y  cgg    g  + a  v+
+  sp|Q99034|AXE1_HYPJE  59 LVIQAHPGTTSEAIVYPACGGQASCGGISYANSVV 93 
+                           23445556777788888888877777777666665 PP
+
+  == domain 2  score: 25.0 bits;  conditional E-value: 5.5e-08
+       Omega_toxin.aln 403 tttttttatvtttavap...lygqcggigwtgptacatg.vctayspyyaqcl 451
+                           t+t+  t+t t ++  p    +gqcgg gwtgpt c +g  c   s +y+qcl
+  sp|Q99034|AXE1_HYPJE 250 TSTSRPTSTRTGSSPGPtqtHWGQCGGQGWTGPTQCESGtTCQVISQWYSQCL 302
+                           3333334444443333311169**************9984599*********8 PP
+
+>> sp|G2QZK6|LP9G_THETT  AA9 family lytic polysaccharide monooxygenase G OS=Thermothielavioides terrestris (strain ATCC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.7  17.9   1.3e-07    0.0007     388     451 ..     237     304 .]     220     304 .] 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 23.7 bits;  conditional E-value: 1.3e-07
+       Omega_toxin.aln 388 ssttaatpttttgsittttttta.t..vtttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           ss+t at t  t + tt++t++a t   t  +    +gqcgg g+tg t+ca+g  c+  + yy+qcl
+  sp|G2QZK6|LP9G_THETT 237 SSSTPATTTLVTSTRTTSSTSSAsTpaSTGGCTVAKWGQCGGNGYTGCTTCAAGsTCSKQNDYYSQCL 304
+                           3444444444444444433333312113344455679***************98469999*******8 PP
+
+>> sp|A1CCN4|CBHC_ASPCL  Probable 1,4-beta-D-glucan cellobiohydrolase C OS=Aspergillus clavatus (strain ATCC 1007 / CBS 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.6   7.3   7.1e-08   0.00037     413     451 ..      16      55 ..      11      57 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 24.6 bits;  conditional E-value: 7.1e-08
+       Omega_toxin.aln 413 tttavaplygqcggigwtgptac.atgvctayspyyaqcl 451
+                           t  a   ++gqcgg gw+g t c a gvc++ + yyaqcl
+  sp|A1CCN4|CBHC_ASPCL  16 TVQAQQTMWGQCGGAGWSGATDCvAGGVCSTQNAYYAQCL 55 
+                           45677889**************94568************8 PP
+
+>> sp|Q5B2E8|CBHC_EMENI  1,4-beta-D-glucan cellobiohydrolase C OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.8   7.4   1.3e-07   0.00069     416     451 ..      19      55 ..      14      58 .. 0.88
+   2 ?   -1.7   0.0         7   3.7e+04      34      71 ..     139     177 ..      98     208 .. 0.56
+
+  Alignments for each domain:
+  == domain 1  score: 23.8 bits;  conditional E-value: 1.3e-07
+       Omega_toxin.aln 416 avaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           a   lygqcgg gwtg t+c +g  c++ + +yaqcl
+  sp|Q5B2E8|CBHC_EMENI  19 AQQTLYGQCGGSGWTGATSCVAGaACSTLNQWYAQCL 55 
+                           5678****************8883699*********8 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 7
+       Omega_toxin.aln  34 esrisliicrtmptvatflglaisg.aamasgaalgayn 71 
+                            s + l ++  +pt+at+l    s  aa a+    g + 
+  sp|Q5B2E8|CBHC_EMENI 139 PSFVWLDVAAKVPTMATYLADIRSQnAAGANPPIAGQFV 177
+                           345566677888999998876555414444444555554 PP
+
+>> sp|Q9C1S9|GUX6_HUMIN  Exoglucanase-6A OS=Humicola insolens OX=85995 GN=cel6A PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.7   3.2   1.4e-07   0.00072     415     451 ..      24      61 ..       6      62 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 23.7 bits;  conditional E-value: 1.4e-07
+       Omega_toxin.aln 415 tavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                              ap +gqcggig+ gpt+c +g  c   + +y+qcl
+  sp|Q9C1S9|GUX6_HUMIN  24 QNCAPTWGQCGGIGFNGPTCCQSGsTCVKQNDWYSQCL 61 
+                           4689*****************998469999*******8 PP
+
+>> sp|G4MPQ7|XYN6_PYRO7  Endo-1,4-beta-xylanase 6 OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) OX=24
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.9   4.5   2.4e-07    0.0013     415     451 ..      16      53 ..       3      54 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 22.9 bits;  conditional E-value: 2.4e-07
+       Omega_toxin.aln 415 tavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                              a l+gqcgg gwtg  +c +g vc a + +y+qc+
+  sp|G4MPQ7|XYN6_PYRO7  16 FGQAALWGQCGGQGWTGAKTCVSGaVCQAQNEWYSQCV 53 
+                           45689***************998769***********6 PP
+
+>> sp|Q8NJ73|XYN6_PYRGI  Endo-1,4-beta-xylanase 6 OS=Pyricularia grisea OX=148305 GN=XYL6 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.9   4.5   2.4e-07    0.0013     415     451 ..      16      53 ..       3      54 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 22.9 bits;  conditional E-value: 2.4e-07
+       Omega_toxin.aln 415 tavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                              a l+gqcgg gwtg  +c +g vc a + +y+qc+
+  sp|Q8NJ73|XYN6_PYRGI  16 FGQAALWGQCGGQGWTGAKTCVSGaVCQAQNEWYSQCV 53 
+                           45689***************998769***********6 PP
+
+>> sp|B2ABS0|GCE1_PODAN  4-O-methyl-glucuronoyl methylesterase OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 980
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.3   1.3   7.2e-07    0.0038     409     451 ..      16      59 ..       3      61 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 21.3 bits;  conditional E-value: 7.2e-07
+       Omega_toxin.aln 409 tatvtttavaplygqcggigwtgptacatgv.ctayspyyaqcl 451
+                           +a v +     l+gqcgg gw+gpt c  g  c   + +y qc+
+  sp|B2ABS0|GCE1_PODAN  16 AAGVRAQQRQSLWGQCGGSGWSGPTLCVDGAwCNPQNQWYHQCI 59 
+                           56777788889*****************99659999*******7 PP
+
+>> sp|A8NCG7|LP9_COPC7  AA9 family lytic polysaccharide monooxygenase AA9-X282 OS=Coprinopsis cinerea (strain Okayama-7 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   8.9   1.1e-06    0.0056     387     451 ..     271     342 .]     260     342 .] 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 1.1e-06
+      Omega_toxin.aln 387 sssttaatpttttg.sitttttttatvttta..vapl...ygqcggigwtgptacat.gvctayspyyaqcl 451
+                             tt a p  t+   +  tt     vt ta    pl   ygqcgg gw gpt c     cta + +y qcl
+  sp|A8NCG7|LP9_COPC7 271 PPVTTVAPPVVTSQpPVPPTTQQPPVVTPTAppSGPLqtqYGQCGGQGWNGPTQCQPpYTCTASNQWYHQCL 342
+                          4568888887776514666666667777776443454445***************86268***********8 PP
+
+>> sp|A0A0B5JC15|XY11B_HUMIN  Endo-1,4-beta-xylanase 11B OS=Humicola insolens OX=85995 GN=Xyn11B PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.4   5.4   2.8e-06     0.015     417     451 ..     256     291 .]     252     291 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 19.4 bits;  conditional E-value: 2.8e-06
+            Omega_toxin.aln 417 vaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                                 +p +gqcgg gw gpt+c +g  c   + +y+qcl
+  sp|A0A0B5JC15|XY11B_HUMIN 256 CSPRWGQCGGQGWNGPTCCESGtTCRQQNQWYSQCL 291
+                                5799***************9984599999******8 PP
+
+>> sp|Q5BCX8|LP9B_EMENI  AA9 family lytic polysaccharide monooxygenase B OS=Emericella nidulans (strain FGSC A4 / ATCC 3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.2  16.0   1.6e-06    0.0082     389     451 ..     289     355 ..     277     357 .] 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 20.2 bits;  conditional E-value: 1.6e-06
+       Omega_toxin.aln 389 sttaatpttttgsitttttttat...vtttavaplygqcggigwtgptacatgv.ctayspyyaqcl 451
+                            tt+  ptt++   t++ t++a+    t t    +y qcgg+ + g t ca+g+ c  ++pyy qc+
+  sp|Q5BCX8|LP9B_EMENI 289 FTTSVRPTTSAAPTTSAPTSSAAptgGTGTGSIQIYQQCGGMNYKGATGCASGLtCKQWNPYYHQCV 355
+                           4566666666555555444444311146688899*******************6599*********7 PP
+
+>> sp|Q9UV68|XYNC_NEOPA  Endo-1,4-beta-xylanase C OS=Neocallimastix patriciarum OX=4758 GN=xynC PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.0   0.0       8.7   4.6e+04     308     319 ..      44      55 ..      17      85 .. 0.65
+   2 !   20.1   2.6   1.7e-06     0.009     416     450 ..     449     483 ..     432     485 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: -2.0 bits;  conditional E-value: 8.7
+       Omega_toxin.aln 308 sntgynmwadtn 319
+                              gy++wad+ 
+  sp|Q9UV68|XYNC_NEOPA  44 GGVGYELWADSG 55 
+                           456777777753 PP
+
+  == domain 2  score: 20.1 bits;  conditional E-value: 1.7e-06
+       Omega_toxin.aln 416 avaplygqcggigwtgptacatgvctayspyyaqc 450
+                             a l+gqcgg g+ gp++c+ g c   + y+ qc
+  sp|Q9UV68|XYNC_NEOPA 449 NCASLWGQCGGQGYNGPSCCSEGSCKPINEYFHQC 483
+                           5799******************************* PP
+
+>> sp|I1S3C6|XYND_GIBZE  Endo-1,4-beta-xylanase D OS=Gibberella zeae (strain ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NR
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   19.0   2.3   3.6e-06     0.019     415     451 ..      15      52 ..       7      53 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 19.0 bits;  conditional E-value: 3.6e-06
+       Omega_toxin.aln 415 tavaplygqcggigwtgptacatgv.ctayspyyaqcl 451
+                            a + ++gqcgg gw+g t+c +g+ c   + +y qc+
+  sp|I1S3C6|XYND_GIBZE  15 LAQSAIWGQCGGTGWSGSTTCQSGLkCEKINDFYYQCI 52 
+                           466789******************769999*******6 PP
+
+>> sp|G2RB73|LP9B_THETT  AA9 family lytic polysaccharide monooxygenase B OS=Thermothielavioides terrestris (strain ATCC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.7  25.4   4.5e-06     0.024     380     451 ..     244     326 .]     229     326 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 18.7 bits;  conditional E-value: 4.5e-06
+       Omega_toxin.aln 380 sgygagssssttaatpttttgsitttttttatvttt.........avaplygqcggigwtgptacatg.vctays.pyyaqcl 451
+                           s   agss s   at t  +g  +t t  t+t t+t         + a  y qcgg g+tg t+ca+g  c+a s pyy+qcl
+  sp|G2RB73|LP9B_THETT 244 STKSAGSSCSGCEATCTVGSGPSATLTQPTSTATATsapggggsgCTAAKYQQCGGTGYTGCTTCASGsTCSAVSpPYYSQCL 326
+                           56789************999977776655444444411222222257999****************99469999846*****8 PP
+
+>> sp|A0A5N6UV50|LP9G_ASPTM  AA9 family lytic polysaccharide monooxygenase G OS=Aspergillus tamarii OX=41984 GN=BDV40DRA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.2  10.2   6.5e-06     0.034     388     451 ..     255     327 .]     219     327 .] 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 18.2 bits;  conditional E-value: 6.5e-06
+           Omega_toxin.aln 388 ssttaatptt....ttgsitttttttatvttta....vaplygqcggigwtgptacatgv.ctayspyyaqcl 451
+                               +++++ tptt    +  s t ++t++a+ t++a        y qcgg gwtg  +c +g  c  ++ +y qc+
+  sp|A0A5N6UV50|LP9G_ASPTM 255 AAASSVTPTTlvtlSKTSSTPAATSSAAPTSSApsngTIKKYYQCGGQGWTGSGSCEAGTsCREWNTWYFQCV 327
+                               2222233333100022222222333333333221111455799*************8885499*********6 PP
+
+>> sp|G2X8M4|EIX3_VERDV  Ethylene-inducing xylanase 3 OS=Verticillium dahliae (strain VdLs.17 / ATCC MYA-4575 / FGSC 101
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.6  13.5   4.9e-06     0.026     408     451 ..     251     294 .]     167     294 .] 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 18.6 bits;  conditional E-value: 4.9e-06
+       Omega_toxin.aln 408 ttatvtttavaplygqcggigwtgptacatgvctayspyyaqcl 451
+                           t       + a  +gqcgg gw g t+c++g c a + +y+qcl
+  sp|G2X8M4|EIX3_VERDV 251 TPPPSGGGSCAARWGQCGGSGWNGATCCSAGTCQAQNQWYSQCL 294
+                           2233345678899******************************8 PP
+
+>> sp|A0A0G4KL96|EIX3_VERLO  Ethylene-inducing xylanase 3 OS=Verticillium longisporum OX=100787 GN=EIX3 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.7  13.4   4.4e-06     0.023     408     451 ..     244     287 .]     154     287 .] 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 18.7 bits;  conditional E-value: 4.4e-06
+           Omega_toxin.aln 408 ttatvtttavaplygqcggigwtgptacatgvctayspyyaqcl 451
+                               t       + a  +gqcgg gw g t+c++g c a + +y+qcl
+  sp|A0A0G4KL96|EIX3_VERLO 244 TPPPSGGGSCAARWGQCGGSGWNGATCCSAGTCQAQNQWYSQCL 287
+                               2233345678899******************************8 PP
+
+>> sp|Q0CEU4|LP9A_ASPTN  AA9 family lytic polysaccharide monooxygenase A OS=Aspergillus terreus (strain NIH 2624 / FGSC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.3  19.3   5.7e-06      0.03     389     451 ..     283     358 ..     272     360 .] 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 18.3 bits;  conditional E-value: 5.7e-06
+       Omega_toxin.aln 389 sttaatpttttgsittttttt............atvtttavaplygqcggigwtgptacatgv.ctayspyyaqcl 451
+                           +t aa+ptt   s   t+t+t            at  +t v  +y qcgg+ ++g t+c +g+ c  ++pyy qc+
+  sp|Q0CEU4|LP9A_ASPTN 283 TTQAAAPTTLVTSAKPTATATagagdsgsgscsATAPATGVVKMYAQCGGMNYSGSTTCESGLtCKQWNPYYHQCV 358
+                           4445555554444433333321111111111117778899999******************96599*********7 PP
+
+>> sp|A0A1D8EJG8|GCE1_SODAL  4-O-methyl-glucuronoyl methylesterase 1 OS=Sodiomyces alcalophilus OX=398408 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.2   2.1   6.2e-06     0.033     413     451 ..      16      55 ..       2      56 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 18.2 bits;  conditional E-value: 6.2e-06
+           Omega_toxin.aln 413 tttavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                               +  a +  + qcggigw gp +c +g  c   + +y qc+
+  sp|A0A1D8EJG8|GCE1_SODAL  16 AVQAQSGPWQQCGGIGWQGPFTCVSGhTCQVLNDWYHQCV 55 
+                               3334445577*************99856999********6 PP
+
+>> sp|G4MM92|CEL6A_PYRO7  1,4-beta-D-glucan cellobiohydrolase CEL6A OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.0   3.7   7.3e-06     0.038     415     451 ..      26      63 ..      15      64 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 18.0 bits;  conditional E-value: 7.3e-06
+        Omega_toxin.aln 415 tavaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                             a a  +gqcgg  +tgpt+c +g  c   + +y+qcl
+  sp|G4MM92|CEL6A_PYRO7  26 QACAAQWGQCGGQDYTGPTCCQSGsTCVVSNQWYSQCL 63 
+                            688999***************99835888889*****8 PP
+
+>> sp|Q7S439|LP9A_NEUCR  AA9 family lytic polysaccharide monooxygenase A OS=Neurospora crassa (strain ATCC 24698 / 74-OR
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   1.1       1.8   9.4e+03     411     444 ..     169     202 ..     133     210 .. 0.86
+   2 ?   17.1  20.5   1.4e-05     0.072     381     450 ..     242     321 ..     236     322 .] 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 0.2 bits;  conditional E-value: 1.8
+       Omega_toxin.aln 411 tvtttavaplygqcggigwtgptacatgvctays 444
+                           + ++ta a ly +c  i   g t  ++   t+ys
+  sp|Q7S439|LP9A_NEUCR 169 AASSTAGAQLYMECAQINIVGGTGGTALPSTTYS 202
+                           4578999********9999999888777777776 PP
+
+  == domain 2  score: 17.1 bits;  conditional E-value: 1.4e-05
+       Omega_toxin.aln 381 gygagssssttaatpttttgsitttttttatvtttavap.........lygqcggigwtgptacatg.vctayspyyaqc 450
+                           g gag   stt+a p+++t s ++ t++ +t+ t+ vap          + qcgg+g++g t+ca+   c   + yy+qc
+  sp|Q7S439|LP9A_NEUCR 242 GGGAGGGGSTTTAKPASSTTSKAAITSAVTTLKTSVVAPqptggctaaQWAQCGGMGFSGCTTCASPyTCKKMNDYYSQC 321
+                           779999999999999988888777777777777777776333322222589**************863799********* PP
+
+>> sp|B2RJX3|PTP_PORG3  Prolyl tripeptidyl peptidase OS=Porphyromonas gingivalis (strain ATCC 33277 / DSM 20709 / CIP 10
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.3   0.0   4.6e-05      0.24      71     111 ..     591     628 ..     573     652 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 4.6e-05
+      Omega_toxin.aln  71 nvdpnsisvsglssggfmsaqlgvaysdtfkvgfgvfaggp 111
+                           vd + i v g s ggfm+++l +++ d fkvg+   aggp
+  sp|B2RJX3|PTP_PORG3 591 WVDADRIGVHGWSYGGFMTTNLMLTHGDVFKVGV---AGGP 628
+                          5999****************************96...5555 PP
+
+>> sp|Q7MUW6|PTP_PORGI  Prolyl tripeptidyl peptidase OS=Porphyromonas gingivalis (strain ATCC BAA-308 / W83) OX=242619 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.3   0.0   4.6e-05      0.24      71     111 ..     591     628 ..     573     652 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 4.6e-05
+      Omega_toxin.aln  71 nvdpnsisvsglssggfmsaqlgvaysdtfkvgfgvfaggp 111
+                           vd + i v g s ggfm+++l +++ d fkvg+   aggp
+  sp|Q7MUW6|PTP_PORGI 591 WVDADRIGVHGWSYGGFMTTNLMLTHGDVFKVGV---AGGP 628
+                          5999****************************96...5555 PP
+
+>> sp|A2QYR9|CBHC_ASPNC  Probable 1,4-beta-D-glucan cellobiohydrolase C OS=Aspergillus niger (strain ATCC MYA-4892 / CBS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.5   8.1   4.2e-05      0.22     416     450 ..      18      53 ..      13      55 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 4.2e-05
+       Omega_toxin.aln 416 avaplygqcggigwtgptacatg.vctayspyyaqc 450
+                           a   l+gqcgg g++g t+c +g  c++ + yyaqc
+  sp|A2QYR9|CBHC_ASPNC  18 AQQTLWGQCGGQGYSGATSCVAGaTCATVNEYYAQC 53 
+                           56789***************9883589999****** PP
+
+>> sp|Q5AR04|MANF_EMENI  Probable mannan endo-1,4-beta-mannosidase F OS=Emericella nidulans (strain FGSC A4 / ATCC 38163
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.1   5.8   5.6e-05      0.29     416     451 ..      17      53 ..       7      54 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 15.1 bits;  conditional E-value: 5.6e-05
+       Omega_toxin.aln 416 avaplygqcggigwtgptacatg.vctayspyyaqcl 451
+                           a +  ygqcgg  w+g t+c +g vc   + +y+qc+
+  sp|Q5AR04|MANF_EMENI  17 AQSGPYGQCGGNDWSGATTCVSGyVCVYQNEWYSQCV 53 
+                           55667****************99567767889****6 PP
+
+>> sp|Q02290|XYNB_NEOPA  Endo-1,4-beta-xylanase B OS=Neocallimastix patriciarum OX=4758 GN=xynB PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.9   7.6   0.00013      0.66     394     451 ..     793     860 .]     781     860 .] 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 13.9 bits;  conditional E-value: 0.00013
+       Omega_toxin.aln 394 tptttt..gsitttttttatvt.......ttavaplygqcggigwtgptacatgv.ctayspyyaqcl 451
+                            ptt t    +t t t  +  t           a  +gqcgg g+ gpt+c  g  c   + +y+qcl
+  sp|Q02290|XYNB_NEOPA 793 KPTTVTvtQKVTVTVTVESQPTqggmnqgGGNCAAKWGQCGGNGFNGPTCCQNGSrCQFVNEWYSQCL 860
+                           333332002333333322222211111114568999****************9964888899*****8 PP
+
+>> sp|A0A1P8ARG1|NVL_ARATH  Protein NO VEIN-LIKE OS=Arabidopsis thaliana OX=3702 GN=NVL PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.0   0.00025       1.3     182     274 ..      61     153 ..      47     162 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00025
+          Omega_toxin.aln 182 nfasaanvsyittsgaahtfptdfdaagdnscsssvspy.isncqcdgagavlqwmygplnarnpgtlsgsivsfsqtgeygasgm 266
+                              +f   anv  i    a       + aagdn  s+ vs   +++ q+d   ++  wm      r+  +l g i++f +    ga g+
+  sp|A0A1P8ARG1|NVL_ARATH  61 QFGGGANVELIRIDKAVNNTRKSLIAAGDNVSSTRVSQSvLAQLQADTWRSLGIWMQDVPSLRQLMALEGKIIAFIHC-FIGARGI 145
+                              68899*******************************97516899*******************************875.5788887 PP
+
+          Omega_toxin.aln 267 dttgylyv 274
+                               t   l v
+  sp|A0A1P8ARG1|NVL_ARATH 146 VTLHDLEV 153
+                              77666655 PP
+
+>> sp|O16844|COS_DROME  Kinesin-like protein costa OS=Drosophila melanogaster OX=7227 GN=cos PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.5   4.2    0.0013       7.1     361     419 ..    1101    1159 ..    1083    1165 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.0013
+      Omega_toxin.aln  361 dqvggvqmaaivnqvarvvsgygagssssttaatpttttgsitttttttatvtttavap 419 
+                           +q  g ++ a    ++r  s   agss st+  + +    + t+t+ttt+t tt av  
+  sp|O16844|COS_DROME 1101 EQRSGRNIFAKFHVLTRYASAAAAGSSGSTAEESTALIESTTTATATTTSTTTTGAVGK 1159
+                           567777888888889999*******9999876655555555556667777778878765 PP
+
+>> sp|P27486|1A1C_DIACA  1-aminocyclopropane-1-carboxylate synthase OS=Dianthus caryophyllus OX=3570 GN=ACS2 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   9.6    0.0011         6     355     418 ..     409     472 ..     399     479 .. 0.50
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.0011
+       Omega_toxin.aln 355 wyganadqvggvqmaaivnqvarvvs.gygagssssttaatpttttgsitttttttatvtttava 418
+                           w+     ++    +   +n++   v+ g    s+ +tt+a  ++tt + ttttttt+t ttt++ 
+  sp|P27486|1A1C_DIACA 409 WFRVCFANMDNATLDVALNRIRSFVTrGRVDNSTMTTTSARAAATTTT-TTTTTTTTTTTTTTIK 472
+                           555444444445555556666554441444444445555544444444.3344444444444444 PP
+
+>> sp|Q1JQE6|NCEH1_BOVIN  Neutral cholesterol ester hydrolase 1 OS=Bos taurus OX=9913 GN=NCEH1 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0    0.0014       7.6      66     129 ..     174     238 ..     164     265 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.0014
+        Omega_toxin.aln  66 algaynvdpnsisvsglssggfmsaqlgvays.dt.fkvgfgvfaggpydcargqsyttcmynqnp 129
+                             l  y vdp  + +sg s+gg ++a lg  ++ dt +k  + v a   y + +   + t  y+qn 
+  sp|Q1JQE6|NCEH1_BOVIN 174 VLHKYSVDPGRVGISGDSAGGNLAAALGQQFNqDTnLKNKLKVQA-LIYPVLQALDFNTPSYQQNM 238
+                            5788************************99862432455555544.45777777777777777764 PP
+
+>> sp|Q6PIU2|NCEH1_HUMAN  Neutral cholesterol ester hydrolase 1 OS=Homo sapiens OX=9606 GN=NCEH1 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.2   0.0    0.0017       8.8      66     100 ..     174     208 ..     165     260 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.0017
+        Omega_toxin.aln  66 algaynvdpnsisvsglssggfmsaqlgvaysdtf 100
+                             l  y vdp  i +sg s+gg ++a lg  +++  
+  sp|Q6PIU2|NCEH1_HUMAN 174 VLQKYMVDPGRICISGDSAGGNLAAALGQQFTQDA 208
+                            5788************************9887543 PP
+
+>> sp|Q5R8Y5|NCEH1_PONAB  Neutral cholesterol ester hydrolase 1 OS=Pongo abelii OX=9601 GN=NCEH1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.2   0.0    0.0017         9      66      99 ..     174     207 ..     165     258 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.0017
+        Omega_toxin.aln  66 algaynvdpnsisvsglssggfmsaqlgvaysdt 99 
+                             l  y vdp  i +sg s+gg ++a lg  +++ 
+  sp|Q5R8Y5|NCEH1_PONAB 174 VLQKYMVDPGRICISGDSAGGSLAAALGQQFTQD 207
+                            5788************************988754 PP
+
+>> sp|B2GV54|NCEH1_RAT  Neutral cholesterol ester hydrolase 1 OS=Rattus norvegicus OX=10116 GN=Nceh1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.5   0.0    0.0014       7.4      66     101 ..     174     211 ..     164     249 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.0014
+      Omega_toxin.aln  66 algaynvdpnsisvsglssggfmsaqlgv..aysdtfk 101
+                           l  y+vdp  + vsg s+gg ++a lg   +y +++k
+  sp|B2GV54|NCEH1_RAT 174 VLDKYKVDPGRVGVSGDSAGGNLAAALGQqfTYVESLK 211
+                          5789***********************96224555655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (454 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     18839  (0.03284); expected 11473.2 (0.02)
+Passed bias filter:                    10656  (0.0185754); expected 11473.2 (0.02)
+Passed Vit filter:                      1243  (0.00216678); expected 573.7 (0.001)
+Passed Fwd filter:                       195  (0.000339922); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):             109  [number of targets reported over threshold]
+# CPU time: 6.94u 0.21s 00:00:07.15 Elapsed: 00:00:01.92
+# Mc/sec: 49139.48
+//
+[ok]

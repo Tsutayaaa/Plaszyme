@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Amidase.aln	sp|P13398|NYLA_PAEUR	493	481	7.5e-195	653.2	1.1e-197	8.5e-195	653.0	1	481	1	485	1	485	0.99	1	1	1.0083160083160083	0.9756592292089249	Amidase

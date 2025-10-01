@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PE.aln	sp|Q47RJ6|PETH2_THEFY	301	329	5.8e-70	241.6	7e-73	7e-70	241.4	7	326	21	295	1	299	0.92	1	1	0.8358662613981763	1.06312292358804	PE

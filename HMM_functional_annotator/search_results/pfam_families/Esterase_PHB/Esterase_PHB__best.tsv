@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Esterase_PHB.aln	sp|P12625|PHB_RALPI	488	477	8.6e-180	603.7	3.7e-183	9.5e-180	603.5	10	476	12	488	1	488	0.98	1	1	1.0	0.9569672131147541	Esterase_PHB

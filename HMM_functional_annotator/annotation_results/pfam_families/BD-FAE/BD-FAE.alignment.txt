@@ -1,0 +1,173 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/BD-FAE.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/BD-FAE/BD-FAE.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/BD-FAE/BD-FAE.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       BD-FAE.aln  [M=293]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    1.6e-06   21.9   0.0    7.5e-06   19.8   0.0    2.1  1  afb51f2a48  
+      2e-06   21.7   0.0    8.5e-06   19.6   0.0    2.1  1  59bb4d8994  
+    2.6e-06   21.3   0.0    4.6e-06   20.5   0.0    1.3  1  54b0f51654  
+    2.6e-06   21.2   0.0    4.7e-06   20.4   0.0    1.3  1  03f3222488  
+    2.7e-06   21.2   0.0    4.7e-06   20.4   0.0    1.3  1  f41c6d89a0  
+    3.6e-06   20.8   0.0    9.7e-06   19.4   0.0    1.8  1  4fd7439f5f  
+    1.4e-05   18.9   0.0    4.3e-05   17.3   0.0    1.7  1  e542ce1613  
+    2.3e-05   18.1   0.0    6.4e-05   16.7   0.0    1.7  1  114e6d2abe  
+    5.3e-05   17.0   0.0    0.00011   15.9   0.0    1.5  1  9c28e36175  
+
+
+Domain annotation for each sequence (and alignments):
+>> afb51f2a48  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.8   0.0   1.9e-07   7.5e-06     116     158 ..     177     221 ..     101     275 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 19.8 bits;  conditional E-value: 1.9e-07
+  BD-FAE.aln 116 lsdiksalrflkadAdqygidpdkvvlsGhsaGghlAl..mlrsd 158
+                 l+d  +al ++k++ + +g++p++++++GhsaGg      mlr+d
+  afb51f2a48 177 LKDQRLALLWIKQNIASFGGEPENIIVVGHSAGGASVHlqMLRED 221
+                 88999****************************987655666666 PP
+
+>> 59bb4d8994  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.6   0.0   2.1e-07   8.5e-06     116     158 ..     177     221 ..      98     283 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 19.6 bits;  conditional E-value: 2.1e-07
+  BD-FAE.aln 116 lsdiksalrflkadAdqygidpdkvvlsGhsaGghlAl..mlrsd 158
+                 l+d  +al ++k++ + +g++p++++++GhsaGg      mlr+d
+  59bb4d8994 177 LKDQRLALLWIKQNIASFGGEPENIIVVGHSAGGASVHlqMLRED 221
+                 78999****************************987655666666 PP
+
+>> 54b0f51654  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.5   0.0   1.1e-07   4.6e-06      56     158 ..     112     224 ..     104     250 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 20.5 bits;  conditional E-value: 1.1e-07
+  BD-FAE.aln  56 taPrkrikadaPvvvFiqGgsWq..scekekfafi...asa.laaaGfvvvlaeyrlapeAkap.qf.lsdiksalrflkadAdqygidpdkvvlsGhs 146
+                  +P++  +++ Pvv  ++Gg +    ++++ +  i   +s  l++ G+ +    + ++ +A ++ +f l+d  +al ++k++ + +g++p++++++Ghs
+  54b0f51654 112 YRPKNSSRNNFPVVANLHGGAFMfgGPSQYGHENImreGSViLVTIGYRLGPLGFVSTGDADLSgNFgLKDQRLALLWIKQNIASFGGEPENILVVGHS 210
+                 5677777888888888888876511344443333311133225667777777777777788775234599***************************** PP
+
+  BD-FAE.aln 147 aGghlAl..mlrsd 158
+                 aGg      mlr+d
+  54b0f51654 211 AGGASVHlqMLRED 224
+                 **987655677776 PP
+
+>> 03f3222488  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.4   0.0   1.2e-07   4.7e-06      56     159 ..     112     225 ..     104     249 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 20.4 bits;  conditional E-value: 1.2e-07
+  BD-FAE.aln  56 taPrkrikadaPvvvFiqGgsWq..scekekfafi...asa.laaaGfvvvlaeyrlapeAkap.qf.lsdiksalrflkadAdqygidpdkvvlsGhs 146
+                  +P++  +++ Pvv  ++Gg +    ++++ +  i   +s  l++ G+ +    + ++ +A ++ +f l+d  +al ++k++ + +g++p++++++Ghs
+  03f3222488 112 YRPKNSSRNNFPVVANLHGGAFMfgGPSQYGHENImreGSViLVTIGYRLGPLGFVSTGDADLSgNFgLKDQRLALLWIKQNIASFGGEPENILVVGHS 210
+                 5677777888888888888876511344443333311133225667777777777777788775234599***************************** PP
+
+  BD-FAE.aln 147 aGghlAl..mlrsdP 159
+                 aGg      mlr+d 
+  03f3222488 211 AGGASVHlqMLREDF 225
+                 **9876556777775 PP
+
+>> f41c6d89a0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.4   0.0   1.2e-07   4.7e-06      56     158 ..     112     224 ..     104     251 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 20.4 bits;  conditional E-value: 1.2e-07
+  BD-FAE.aln  56 taPrkrikadaPvvvFiqGgsWq..scekekfafi...asa.laaaGfvvvlaeyrlapeAkap.qf.lsdiksalrflkadAdqygidpdkvvlsGhs 146
+                  +P++  +++ Pvv  ++Gg +    ++++ +  i   +s  l++ G+ +    + ++ +A ++ +f l+d  +al ++k++ + +g++p++++++Ghs
+  f41c6d89a0 112 YRPKNSSRNNFPVVANLHGGAFMfgGPSQYGHENImreGSViLVTIGYRLGPLGFVSTGDADLSgNFgLKDQRLALLWIKQNIASFGGEPENILVVGHS 210
+                 5677777888888888888876511344443333311133225667777777777777788775234599***************************** PP
+
+  BD-FAE.aln 147 aGghlAl..mlrsd 158
+                 aGg      mlr+d
+  f41c6d89a0 211 AGGASVHlqMLRED 224
+                 **987655677776 PP
+
+>> 4fd7439f5f  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.4   0.0   2.4e-07   9.7e-06     116     158 ..     177     221 ..      97     268 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 19.4 bits;  conditional E-value: 2.4e-07
+  BD-FAE.aln 116 lsdiksalrflkadAdqygidpdkvvlsGhsaGghlAl..mlrsd 158
+                 l+d  +al ++k++ + +g++p++++++GhsaGg      mlr+d
+  4fd7439f5f 177 LKDQRLALLWIKQNIASFGGEPENIIVVGHSAGGASVHlqMLRED 221
+                 78999****************************987655677776 PP
+
+>> e542ce1613  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.3   0.0   1.1e-06   4.3e-05      55     151 ..     108     212 ..      85     241 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 17.3 bits;  conditional E-value: 1.1e-06
+  BD-FAE.aln  55 ataPrkrikadaPvvvFiqGgsWqscekek...fafiasa...laaaGfvvvlaeyrlapeAkap.qf.lsdiksalrflkadAdqygidpdkvvlsGh 145
+                 + +P++  ++  Pvv  i+Gg +  +  ++   + f+  +   l+   + +    + ++ +A ++ +f l+d  +al ++k++ + +g++p++++++Gh
+  e542ce1613 108 VYRPKNSSRNSFPVVAQIHGGAFMFGGASQnghENFMREGnliLVKISYRLGPLGFVSTGDADLSgNFgLKDQRLALLWIKQNIASFGGEPENILVIGH 206
+                 45666666677777777777766544333300022222221112223333333334444455544233589999************************* PP
+
+  BD-FAE.aln 146 saGghl 151
+                 saGg  
+  e542ce1613 207 SAGGGS 212
+                 **9854 PP
+
+>> 114e6d2abe  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.7   0.0   1.6e-06   6.4e-05     115     151 ..     175     212 ..      80     234 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 16.7 bits;  conditional E-value: 1.6e-06
+  BD-FAE.aln 115 f.lsdiksalrflkadAdqygidpdkvvlsGhsaGghl 151
+                 f l+d  +al ++k++ + +g++p++++++GhsaGg  
+  114e6d2abe 175 FgLKDQRLALLWIKQNIASFGGEPENILVIGHSAGGGS 212
+                 3488999***************************9854 PP
+
+>> 9c28e36175  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.9   0.0   2.8e-06   0.00011     116     151 ..     177     212 ..      91     236 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 2.8e-06
+  BD-FAE.aln 116 lsdiksalrflkadAdqygidpdkvvlsGhsaGghl 151
+                 l+d  +al ++k++ + +g++p++++++GhsaGg  
+  9c28e36175 177 LKDQRLALLWIKQNIASFGGEPENILVIGHSAGGGS 212
+                 788999**************************9854 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (293 nodes)
+Target sequences:                        358  (244074 residues searched)
+Passed MSV filter:                        11  (0.0307263); expected 7.2 (0.02)
+Passed bias filter:                       10  (0.027933); expected 7.2 (0.02)
+Passed Vit filter:                         9  (0.0251397); expected 0.4 (0.001)
+Passed Fwd filter:                         9  (0.0251397); expected 0.0 (1e-05)
+Initial search space (Z):                358  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 1885.02
+//
+[ok]

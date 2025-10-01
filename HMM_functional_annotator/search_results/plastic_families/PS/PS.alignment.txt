@@ -1,0 +1,108 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PS.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/PS/PS.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/PS/PS.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PS.aln  [M=168]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    3.9e-85  288.7   4.0    4.4e-85  288.5   4.0    1.0  1  sp|O06836|STYC_PSEFL   Styrene-oxide isomerase OS=Pseudomonas
+  ------ inclusion threshold ------
+       0.64   14.7   0.8         59    8.3   0.2    2.8  2  sp|Q21EC5|NHAA3_SACD2  Na(+)/H(+) antiporter NhaA 3 OS=Saccha
+        1.3   13.7   0.4        4.1   12.0   0.0    2.0  2  sp|P86935|GPI10_TRYBB  GPI mannosyltransferase 3 OS=Trypanoso
+        4.8   11.8   0.0        7.6   11.2   0.0    1.3  1  sp|Q7Z269|SP4_POLDO    Venom serine protease OS=Polistes domi
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|O06836|STYC_PSEFL  Styrene-oxide isomerase OS=Pseudomonas fluorescens OX=294 GN=styC PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  288.5   4.0   3.1e-90   4.4e-85       1     167 [.       2     167 ..       2     168 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 288.5 bits;  conditional E-value: 3.1e-90
+                PS.aln   1 lkalerklaGhGvLmifstliaGlvlwmklvGGfeivpGyilefdvpGtaeGwarahtGPalnGlmviavalvlPllgfaakkakklGl 89 
+                           l+a+erk+aGhG+Lmif+tl++G++lwm+lvGGfei+pGyilef+vpG++eGwarah+GPalnG+mviava+vlP+lgfa+kk++ lG+
+  sp|O06836|STYC_PSEFL   2 LHAFERKMAGHGILMIFCTLLFGVGLWMHLVGGFEIIPGYILEFHVPGSPEGWARAHSGPALNGMMVIAVAFVLPSLGFADKKPHLLGN 90 
+                           689************************************************************************************** PP
+
+                PS.aln  90 ivvldgwanvlfyflsnfapnrglsfgknklgeqnifsllalapayvfgvLveialaiiGfkaLrsaqaenkviesls 167
+                           i++ldgwanv+fyf+snf+pnrgl+fg+n++g+ +ifs+lalapay+fgvL+++ala+iG++aL+s+ ++ k++++++
+  sp|O06836|STYC_PSEFL  91 IIILDGWANVGFYFFSNFSPNRGLTFGPNHFGPGDIFSFLALAPAYLFGVLAMGALAVIGYQALKSVGSR-KAVPHAT 167
+                           ********************************************************************97.8888876 PP
+
+>> sp|Q21EC5|NHAA3_SACD2  Na(+)/H(+) antiporter NhaA 3 OS=Saccharophagus degradans (strain 2-40 / ATCC 43961 / DSM 17024
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.3   0.2   0.00041        59      11      50 ..     204     245 ..     199     255 .. 0.86
+   2 ?    4.0   0.0    0.0087   1.3e+03     111     159 ..     351     396 ..     317     397 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 8.3 bits;  conditional E-value: 0.00041
+                 PS.aln  11 hGvLmifstliaGlvlwmklv..GGfeivpGyilefdvpGta 50 
+                             Gv  + + l+ Glv+w+ l+  G +  + G il f +p ta
+  sp|Q21EC5|NHAA3_SACD2 204 SGVTTLRAYLLIGLVMWVALLksGVHATLGGVILAFFIPMTA 245
+                            588899999**********98645568999*********987 PP
+
+  == domain 2  score: 4.0 bits;  conditional E-value: 0.0087
+                 PS.aln 111 rglsfgknklgeqnifsllalapayvfgvLveialaiiGfkaLrsaqae 159
+                             +l  g+  + e+ i s++      vfg Lv    a++Gf  Lrsa+++
+  sp|Q21EC5|NHAA3_SACD2 351 MSLFIGSLAFQESGINSVIDERLGIVFGSLVS---AVLGFVVLRSAKQK 396
+                            567778889999******************95...68888888888774 PP
+
+>> sp|P86935|GPI10_TRYBB  GPI mannosyltransferase 3 OS=Trypanosoma brucei brucei OX=5702 GN=GPI10 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.9   0.4      0.54   7.8e+04      18      36 ..     233     251 ..     221     309 .. 0.70
+   2 ?   12.0   0.0   2.9e-05       4.1      51      90 ..     402     441 ..     362     450 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 0.54
+                 PS.aln  18 stliaGlvlwmklvGGfei 36 
+                              +++Gl++ + ++GG  +
+  sp|P86935|GPI10_TRYBB 233 RIVLTGLIVLVAVLGGVMV 251
+                            4455555555555555443 PP
+
+  == domain 2  score: 12.0 bits;  conditional E-value: 2.9e-05
+                 PS.aln  51 eGwarahtGPalnGlmviavalvlPllgfaakkakklGli 90 
+                            +  a    GP +n l via ++ +P  ++ +kk+++lG++
+  sp|P86935|GPI10_TRYBB 402 DVMAEVRDGPRINRLDVIATCYTVPGYSYMHKKVNHLGFV 441
+                            56788899******************************86 PP
+
+>> sp|Q7Z269|SP4_POLDO  Venom serine protease OS=Polistes dominula OX=743375 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   5.3e-05       7.6     126     166 ..     142     182 ..     111     184 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 5.3e-05
+               PS.aln 126 fsllalapayvfgvLveialaiiGfkaLrsaqaenkviesl 166
+                           + + l+++y+  +L+  +++++G+  Lr + ++ kv+ ++
+  sp|Q7Z269|SP4_POLDO 142 VGPVCLPFNYMTRNLTNETVTALGWGKLRYNGQNSKVLRKV 182
+                          556899*******************************9987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (168 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     15112  (0.0263431); expected 11473.2 (0.02)
+Passed bias filter:                    10264  (0.0178921); expected 11473.2 (0.02)
+Passed Vit filter:                       606  (0.00105637); expected 573.7 (0.001)
+Passed Fwd filter:                         8  (1.39455e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 3.04u 0.20s 00:00:03.24 Elapsed: 00:00:01.53
+# Mc/sec: 22732.40
+//
+[ok]

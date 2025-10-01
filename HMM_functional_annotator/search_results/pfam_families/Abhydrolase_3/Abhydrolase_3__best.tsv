@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Abhydrolase_3.aln	sp|P9WK86|NLHH_MYCTO	319	333	1.6e-75	259.3	1.2e-78	1.7e-75	259.1	51	328	33	314	5	319	0.9	1	1	0.8468468468468469	0.8714733542319749	Abhydrolase_3

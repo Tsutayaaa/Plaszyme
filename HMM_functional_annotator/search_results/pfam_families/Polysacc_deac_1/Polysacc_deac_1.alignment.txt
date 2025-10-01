@@ -1,0 +1,1087 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Polysacc_deac_1.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Polysacc_deac_1/Polysacc_deac_1.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Polysacc_deac_1/Polysacc_deac_1.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Polysacc_deac_1.aln  [M=508]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+   3.6e-114  387.2  20.5   5.8e-112  379.9  20.5    2.2  1  sp|P50325|CDA_AMYRO       Chitin deacetylase OS=Amylomyces ro
+    1.2e-59  207.3   0.0    2.3e-58  203.1   0.0    2.1  1  sp|O13842|CDA1_SCHPO      Putative polysaccharide deacetylase
+    1.9e-56  196.7  15.6    4.8e-40  142.6   0.7    2.5  2  sp|J9VND2|CDA2_CRYNH      Chitin deacetylase 2 OS=Cryptococcu
+    1.5e-52  183.9  26.5    2.4e-39  140.3   1.4    3.0  2  sp|Q55U20|CDA2_CRYNB      Chitin deacetylase 2 OS=Cryptococcu
+    6.4e-25   92.7  12.7    4.2e-22   83.4  12.7    2.8  1  sp|J9VPD7|CDA1_CRYNH      Chitin deacetylase 1 OS=Cryptococcu
+    8.1e-25   92.4  15.6    7.4e-22   82.6  15.6    2.9  1  sp|P82476|CDA3_CRYNH      Chitin deacetylase 3 OS=Cryptococcu
+    1.4e-23   88.3  11.6    5.2e-21   79.8  11.6    2.7  1  sp|P0CP77|CDA3_CRYNB      Chitin deacetylase 3 OS=Cryptococcu
+    4.3e-23   86.7  11.7    1.7e-20   78.1  11.7    2.7  1  sp|P0CP76|CDA3_CRYNJ      Chitin deacetylase 3 OS=Cryptococcu
+    1.3e-14   58.7   0.2    1.2e-13   55.5   0.2    1.9  1  sp|B5ZA76|PGDAE_HELPG     Peptidoglycan deacetylase OS=Helico
+    5.6e-14   56.6   0.3    4.3e-06   30.6   0.0    2.1  2  sp|Q06702|CDA1_YEAST      Chitin deacetylase 1 OS=Saccharomyc
+    6.9e-14   56.3   0.3      7e-13   53.0   0.3    1.9  1  sp|O25080|PGDAE_HELPY     Peptidoglycan deacetylase OS=Helico
+    5.1e-13   53.5   0.6    2.3e-10   44.7   0.6    2.1  1  sp|Q06703|CDA2_YEAST      Chitin deacetylase 2 OS=Saccharomyc
+    2.1e-10   44.8   0.7    4.1e-08   37.3   0.0    2.2  2  sp|Q81EK9|PGDA1_BACCR     Peptidoglycan-N-acetylglucosamine d
+    3.1e-10   44.3   0.0    4.2e-10   43.8   0.0    1.1  1  sp|I1S2J6|FGM2_GIBZE      Peptidoglycan deacetylase-like prot
+    3.6e-10   44.1   0.0    7.9e-10   42.9   0.0    1.5  1  sp|P83513|XY11A_PSEXY     Bifunctional xylanase/deacetylase O
+    9.7e-10   42.6   0.3    1.9e-08   38.3   0.0    2.0  2  sp|P50850|YLXY_BACSU      Uncharacterized protein YlxY OS=Bac
+    1.3e-09   42.2   0.0    3.8e-09   40.7   0.0    1.7  2  sp|O34798|PDAC_BACSU      Peptidoglycan-N-acetylmuramic acid 
+    3.1e-09   41.0   0.1    6.5e-08   36.6   0.1    2.2  1  sp|A0A0H3GDH9|PGDA_LISM4  Peptidoglycan-N-acetylglucosamine d
+    3.1e-09   41.0   0.1    6.5e-08   36.6   0.1    2.2  1  sp|A0A3Q0NBH7|PGDA_LISMG  Peptidoglycan-N-acetylglucosamine d
+    3.1e-09   41.0   0.1    6.5e-08   36.6   0.1    2.2  1  sp|Q8Y9V5|PGDA_LISMO      Peptidoglycan-N-acetylglucosamine d
+      1e-08   39.3   0.0    8.9e-08   36.2   0.0    2.1  2  sp|P54865|XYND_CELFI      Bifunctional xylanase/deacetylase O
+    1.2e-08   39.1   0.0    1.5e-08   38.7   0.0    1.1  1  sp|Q04729|YFUM2_GEOSE     Uncharacterized 30.6 kDa protein in
+    3.4e-08   37.6   0.0    4.5e-08   37.1   0.0    1.1  1  sp|P04339|NODB_RHILV      Chitooligosaccharide deacetylase OS
+    3.8e-08   37.4   0.0    6.6e-08   36.6   0.0    1.3  1  sp|P04675|NODB_BRASP      Chitooligosaccharide deacetylase OS
+    1.7e-06   32.0   0.0    2.3e-06   31.5   0.0    1.2  1  sp|Q81AF4|PGDA3_BACCR     Peptidoglycan-N-acetylglucosamine d
+    1.8e-06   31.8   0.0    2.5e-06   31.4   0.0    1.1  1  sp|Q52845|NODB_RHILO      Chitooligosaccharide deacetylase OS
+    6.8e-06   30.0   0.0    1.1e-05   29.3   0.0    1.3  1  sp|P04676|NODB_RHILT      Chitooligosaccharide deacetylase OS
+    7.7e-06   29.8   0.0    1.3e-05   29.0   0.0    1.3  1  sp|P50354|NODB_NEOGA      Chitooligosaccharide deacetylase OS
+    8.2e-06   29.7   0.0    1.2e-05   29.2   0.0    1.2  1  sp|P02963|NODB_RHIME      Chitooligosaccharide deacetylase OS
+    8.6e-06   29.6   0.1    2.1e-05   28.3   0.0    1.6  2  sp|Q81EJ6|PGDA2_BACCR     Peptidoglycan-N-acetylglucosamine d
+    1.4e-05   28.9   0.0    0.00012   25.8   0.0    2.0  2  sp|Q6DWK3|CDA_COLLN       Chitin deacetylase OS=Colletotrichu
+    1.5e-05   28.8   0.0    2.8e-05   27.9   0.0    1.3  1  sp|O34928|PDAA_BACSU      Peptidoglycan-N-acetylmuramic acid 
+    3.1e-05   27.8   0.0    4.6e-05   27.2   0.0    1.2  1  sp|P50352|NODB_BRAEL      Chitooligosaccharide deacetylase OS
+    3.1e-05   27.8   0.1    0.00012   25.8   0.1    1.7  2  sp|P50865|PDAB_BACSU      Probable polysaccharide deacetylase
+    3.9e-05   27.5   0.0    5.8e-05   26.9   0.0    1.2  1  sp|P50355|NODB_SINFN      Chitooligosaccharide deacetylase OS
+    0.00013   25.7   0.0    0.00021   25.0   0.0    1.2  1  sp|Q8DP63|PGDA_STRR6      Peptidoglycan-N-acetylglucosamine d
+    0.00017   25.4   0.2      0.063   16.9   0.2    2.5  1  sp|Q59674|XY11A_CELJA     Bifunctional xylanase/xylan deacety
+    0.00028   24.6   0.0    0.00039   24.2   0.0    1.2  1  sp|Q5AQQ0|CDA_EMENI       Chitin deacetylase OS=Emericella ni
+    0.00031   24.5   0.0    0.00036   24.3   0.0    1.2  1  sp|Q07740|NODB_AZOC5      Chitooligosaccharide deacetylase OS
+    0.00076   23.2   0.0     0.0011   22.7   0.0    1.2  1  sp|P24150|NODB_RHILP      Chitooligosaccharide deacetylase OS
+     0.0035   21.0   0.0     0.0048   20.5   0.0    1.1  1  sp|A0A1L3THR9|CDA_PESTX   Chitin deacetylase OS=Pestalotiopsi
+  ------ inclusion threshold ------
+       0.12   16.0   0.0       0.26   14.8   0.0    1.5  2  sp|Q7N3Q8|ARND_PHOLL      Probable 4-deoxy-4-formamido-L-arab
+       0.17   15.4   0.0       0.35   14.4   0.0    1.4  2  sp|B4ETL8|ARND_PROMH      Probable 4-deoxy-4-formamido-L-arab
+       0.18   15.3   0.0       0.82   13.2   0.0    1.8  2  sp|Q8D340|ARND_WIGBR      Probable 4-deoxy-4-formamido-L-arab
+       0.23   15.0   0.0       0.23   15.0   0.0    2.4  1  sp|D4B5F9|PGDA_ARTBC      Probable peptidoglycan-N-acetylgluc
+       0.27   14.8   0.0       0.87   13.1   0.1    1.8  2  sp|A8GDR8|ARND_SERP5      Probable 4-deoxy-4-formamido-L-arab
+       0.34   14.4   0.0       0.47   14.0   0.0    1.3  1  sp|O07596|YHEN_BACSU      Putative polysaccharide deacetylase
+       0.42   14.2   0.0        1.1   12.8   0.0    1.6  2  sp|A1JPN1|ARND_YERE8      Probable 4-deoxy-4-formamido-L-arab
+       0.79   13.2   0.1        3.9   11.0   0.1    1.8  2  sp|D4AM78|CDA_ARTBC       Chitin deacetylase OS=Arthroderma b
+        1.1   12.8   0.0        2.8   11.4   0.0    1.5  2  sp|A8FRR1|ARND_SHESH      Probable 4-deoxy-4-formamido-L-arab
+        1.2   12.6   0.2        1.4   12.4   0.2    1.1  1  sp|Q6B8X3|RR11_GRATL      Small ribosomal subunit protein uS1
+        3.2   11.2   0.0         19    8.7   0.0    1.8  2  sp|Q4ZSZ1|ARND_PSEU2      Probable 4-deoxy-4-formamido-L-arab
+        3.5   11.1   0.0          4   10.9   0.0    1.0  1  sp|Q9LZT3|ADF11_ARATH     Putative actin-depolymerizing facto
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|P50325|CDA_AMYRO  Chitin deacetylase OS=Amylomyces rouxii OX=29923 GN=CDA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  379.9  20.5  5.3e-116  5.8e-112       1     505 [.       1     419 [.       1     421 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 379.9 bits;  conditional E-value: 5.3e-116
+  Polysacc_deac_1.aln   1 myiktsaiaiallqvacfaeaakktskssksskldkPqdywrnfkslldPnnitiadipqttstyPrdeikyyehP.vqfvyntkeWPnl 89 
+                          m ikt a++ a+ qva +a a             d   +yw+ f s ++P ni+i  i qt+s  P  e+ yy +  + f +n+ eWP+ 
+  sp|P50325|CDA_AMYRO   1 MQIKTFALSAAIAQVATLALA-------------DTSANYWQSFTSQINPKNISIPSIEQTSSIDPTQECAYYTPDaSLFTFNASEWPSI 77 
+                          567777777777777776655.............55679**********************************98625699********* PP
+
+  Polysacc_deac_1.aln  90 aevavsngmtktsefqvlnksidwtkapkipvrkageeGGedmvlys.dsdseqflssstctkpkhkdinediyacpepeivGlasddar 178
+                          +eva++ngm +++ef  +  sidwtkap+i vr    +G +d + y   +d++++++++tct pk  din+di  cpepe++Gl++dd++
+  sp|P50325|CDA_AMYRO  78 WEVATTNGMNESAEFLSVYNSIDWTKAPNISVRTLDANGNLDTTGYNtATDPDCWWTATTCTSPKISDINDDISKCPEPETWGLTYDDGP 167
+                          ***************999999***********************9972579*************************************** PP
+
+  Polysacc_deac_1.aln 179 nmsmeaiyeygsragvwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtG 268
+                          n+s++a+y+y            l+++klk+s+fy+Gs+vv +P++a ++v  Gh+ia ht++h  +t+ +n++vl+e+++tqkaik  tG
+  sp|P50325|CDA_AMYRO 168 NCSHNAFYDY------------LQEQKLKASMFYIGSNVVDWPYGAMRGVVDGHHIASHTWSHPQMTTKTNQEVLAEFYYTQKAIKLATG 245
+                          **********............999***************************************************************** PP
+
+  Polysacc_deac_1.aln 269 vrPlgWrtgrdspntrrlvaeyggflydsdyygddlPafgdvdvrvrakvtqlyltivlytldtddmaaassktldevkatadsyvemgs 358
+                           +P  Wr                             P +gd+d+rvr++++ql lt v+++ldtdd+ a+ + t++ v+  +  y+ mg+
+  sp|P50325|CDA_AMYRO 246 LTPRYWR-----------------------------PPYGDIDDRVRWIASQLGLTAVIWNLDTDDWSAGVTTTVEAVEQSYSDYIAMGT 306
+                          *******.............................9***************************************************** PP
+
+  Polysacc_deac_1.aln 359 ngtylrdafivlteeideatkslaigmhcrllgrpgrfralqeyldkieqhdkvavkrvvdvarhmrityPyqennvsaaafgsaadest 448
+                          ngt+++++ ivlt+ei ++t+sla+                 e l+ki      a+k+v+dva++++i +Py e+      +  +  +s+
+  sp|P50325|CDA_AMYRO 307 NGTFANSGNIVLTHEI-NTTMSLAV-----------------ENLPKI----ISAYKQVIDVATCYNISHPYFEDYEWTNVLNGT--KSS 372
+                          ***************9.799*****.................99****....99*******************998766663222..222 PP
+
+  Polysacc_deac_1.aln 449 atftdatassasasaagtsdepgttviplaankaqiasagiqvnpnslvfaafvaaa 505
+                          at   a+ s++sasa+g      +t    aa     +s ++ v pn  +++af+a+ 
+  sp|P50325|CDA_AMYRO 373 AT---ASGSATSASASGG-----AT--TAAAHIQASTSGAMSVLPNLALISAFIATL 419
+                          22...2223333333332.....22..223333334556678888888888888865 PP
+
+>> sp|O13842|CDA1_SCHPO  Putative polysaccharide deacetylase OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  203.1   0.0   2.1e-62   2.3e-58      85     431 ..      19     319 ..       2     320 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 203.1 bits;  conditional E-value: 2.1e-62
+   Polysacc_deac_1.aln  85 eWPnlaevavsngmtktsefqvlnksidwtkapkipvrkageeGGedmvlysdsdseqflssstctkpkhkdinediyacpepeivGla 173
+                            WPn  ++av         f v+n+                eeGGe   ly d + e+fl+                    e  ++   
+  sp|O13842|CDA1_SCHPO  19 PWPNNSKIAV--------SF-VVNY----------------EEGGERSLLYEDEGFETFLT--------------------EAGLMPFP 62 
+                           5555555555........44.5555................66777777777777777766....................44555556 PP
+
+   Polysacc_deac_1.aln 174 sddarnmsmeaiyeygsragvwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqka 262
+                             + r+ s e+ +eygsr+g wril  + k+k++ + + +G av++ P    a+ ++G e+  h++r+i y+ + +e + e+++ + +a
+  sp|O13842|CDA1_SCHPO  63 NRPVRERSIESCFEYGSRCGFWRILNLFKKHKVPFTCWAIGQAVEKNPVVVGAMEEAGCEVGSHSHRWINYEGVPPETEYEHIKKSVQA 151
+                           6788999********************************************************************************** PP
+
+   Polysacc_deac_1.aln 263 ikrvt..GvrPlgWrtgrdspntrrlvaeyggfl.....ydsdyygddlPafgd..vdvrvrakvtqlyltivlytldtddmaaasskt 342
+                           i++       P  W+tgr s ntr+lv++    l     +dsd y dd P++    +  + +a   +  l iv+ytl+ +dm++a + +
+  sp|O13842|CDA1_SCHPO 152 IQKASpsNSAPRSWYTGRASLNTRKLVCQVYKDLglpqpFDSDEYNDDYPYWVAdpLASKPGAEDDKG-LLIVPYTLEVNDMKYAVAPG 239
+                           **98622578*****************9744322234459************8512445556665555.89****************** PP
+
+   Polysacc_deac_1.aln 343 ldevkatadsyvemgsngtylrdafivlteei.deatkslaigmhcrllgrpgrfralqeyldkieqhdkvavkrvvdvarhmrityPy 430
+                           +       d ++      ty+rdaf+vl+ee+ + a+k+++ig+hcrl grpgrfr lq+ +++i  ++ v+v  +  +a+ +  ++Py
+  sp|O13842|CDA1_SCHPO 240 FC----NSDDFY------TYARDAFDVLYEEGlEGAPKMMTIGLHCRLTGRPGRFRGLQKLMEHITSKEGVWVATREQIAQAWSAKHPY 318
+                           *9....899***......*************83569***************************************************** PP
+
+   Polysacc_deac_1.aln 431 q 431
+                           +
+  sp|O13842|CDA1_SCHPO 319 K 319
+                           7 PP
+
+>> sp|J9VND2|CDA2_CRYNH  Chitin deacetylase 2 OS=Cryptococcus neoformans var. grubii serotype A (strain H99 / ATCC 20882
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  142.6   0.7   4.4e-44   4.8e-40      67     275 ..      56     252 ..      42     254 .. 0.84
+   2 !   59.2   7.7   8.5e-19   9.2e-15     305     470 ..     253     403 ..     252     428 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 142.6 bits;  conditional E-value: 4.4e-44
+   Polysacc_deac_1.aln  67 rdeik.yyehPvqfvyntkeWPnlaevavsngmtktsefqvlnksidwtkapkip..vrkageeGGedmvlysdsdseqflssstctkp 152
+                           + e+  y   Pv        +P  ++ a        +e q l   i+ t   kip  v +    G    v ys+sd++++++ + ct p
+  sp|J9VND2|CDA2_CRYNH  56 NTECTaYSYAPVT--ELISSFPTIWQTAS-IPSND-TEAQQLFGKINSTLNTKIPndVPHGTPTGDWTGVNYSNSDPDCWWTHNKCTTP 140
+                           4455315556776..55678999999998.33333.344444445999999999944556667788899*******************9 PP
+
+   Polysacc_deac_1.aln 153 kh.kdinediyacpepeivGlasddarnmsmeaiyeygsragvwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyr 240
+                                ++ di  +pep ++Gl +dd++n+s++a+y+             l ++  k+++f++Gs+v  +P  a +  + Ghei  ht++
+  sp|J9VND2|CDA2_CRYNH 141 SNdTGLQADISIAPEPMTWGLGFDDGPNCSHNALYDL------------LLENNQKATMFFIGSNVLDWPLQAMRAHDEGHEICVHTWS 217
+                           761579*******************************............5556679********************************* PP
+
+   Polysacc_deac_1.aln 241 hilytdlanekvleelrltqkaikrvtGvrPlgWr 275
+                           h+++t l+ne v +el++tqkaik v Gv+P  Wr
+  sp|J9VND2|CDA2_CRYNH 218 HQYMTALSNEVVFAELYYTQKAIKAVLGVTPQCWR 252
+                           **********************************9 PP
+
+  == domain 2  score: 59.2 bits;  conditional E-value: 8.5e-19
+   Polysacc_deac_1.aln 305 Pafgdvdvrvrakvtqlyltivlytldtddmaaassk.tldevkatadsyvemgsngtylrdafivlteeideatkslaigmhcrllgr 392
+                           P +gdvd+rvr+++  l lt+++++ dtdd+aa++   t ++v   + s ++ + ngty + + +vl +e  + t+s+ +         
+  sp|J9VND2|CDA2_CRYNH 253 PPYGDVDNRVRMIAEGLNLTTIIWSDDTDDWAAGTNGvTEQDVTNNYQSVIDKAGNGTYTTHGPVVLNHELTNYTMSVFM--------- 332
+                           889******************************9865155679999********************************99......... PP
+
+   Polysacc_deac_1.aln 393 pgrfralqeyldkieqhdkvavkrvvdvarhmrityPyqennvsaaafgsaad.....estatftdatassasasaagtsdep 470
+                                     ++ki    k a++  v + + ++it Py e n +   f +         s++t  d ++s+ +as +g++   
+  sp|J9VND2|CDA2_CRYNH 333 --------TMFPKI----KSAFNYIVPICTAYNITQPYAESNITCPNFETYISgvtniSSSTTQKDGSSSTNTASGSGAAGSA 403
+                           ........668***....*************************9888865443000113445555665555556555554443 PP
+
+>> sp|Q55U20|CDA2_CRYNB  Chitin deacetylase 2 OS=Cryptococcus neoformans var. neoformans serotype D (strain B-3501A) OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.3   1.4   2.2e-43   2.4e-39      62     275 ..      52     253 ..      42     255 .. 0.88
+   2 !   48.5  17.2   1.5e-15   1.6e-11     305     463 ..     254     423 ..     253     439 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 140.3 bits;  conditional E-value: 2.2e-43
+   Polysacc_deac_1.aln  62 tstyPrdei.kyyehPvqfvyntkeWPnlaevavsngmtktsefqvlnksidwtkapkip..vrkageeGGedmvlysdsdseqflsss 147
+                           +st  + e+  y+  Pv     +  +P  +e a    +++ +e q l  +i+ t   k+p  v +    G    v y  sd++++++ +
+  sp|Q55U20|CDA2_CRYNB  52 ASTDVNTECtAYGYAPVT--EIASSFPTIWETAS--ILSNDTEGQQLFATINSTLNTKLPndVPHGTPTGDWTGVNYNSSDPDCWWTHN 136
+                           556655565258899999..66789*******98..67777777778888888888888843556667788899*************** PP
+
+   Polysacc_deac_1.aln 148 tctkpkh.kdinediyacpepeivGlasddarnmsmeaiyeygsragvwrilrelekrklklsvfyvGsavvrhPelarafvklGheia 235
+                            ct p     ++ di  +pep ++Gl +dd++n+s++a+y+             l ++  k+++f++Gs+v  +P  a +  + Gh+i 
+  sp|Q55U20|CDA2_CRYNB 137 KCTTPASdTGLEADITIVPEPMTWGLGFDDGPNCSHNALYNL------------LSENNQKATMFFIGSNVMDWPLQAMRAHDEGHQIC 213
+                           ****986157999*****************************............888999***************************** PP
+
+   Polysacc_deac_1.aln 236 dhtyrhilytdlanekvleelrltqkaikrvtGvrPlgWr 275
+                            ht++h+++t l+ne v +el++tqkaik v Gv+P  Wr
+  sp|Q55U20|CDA2_CRYNB 214 VHTWSHQYMTALSNEVVFAELYYTQKAIKAVLGVTPQCWR 253
+                           ***************************************9 PP
+
+  == domain 2  score: 48.5 bits;  conditional E-value: 1.5e-15
+   Polysacc_deac_1.aln 305 Pafgdvdvrvrakvtqlyltivlytldtddmaaassk.tldevkatadsyvemgsngtylrdafivlteeideatkslaigmhcrl... 389
+                           P +gdvd+rvr+++  l lt+++++ dtdd+aa++   t ++v   +   ++ + ngty + + +vl +e  + t+s+ + m+ ++   
+  sp|Q55U20|CDA2_CRYNB 254 PPYGDVDNRVRMIAQALNLTTIIWSDDTDDWAAGTDGvTEQDVTDNYQAVIDKAGNGTYTTHGPVVLNHELTNYTMSVFMTMFPKIksa 342
+                           889******************************986414556888899999*****************************654433111 PP
+
+   Polysacc_deac_1.aln 390 ....lgrpgrfralqeyldkieq..hdkvavkrvvdvarhmrityPyqennvsaaafgsaadestatf.tdatassasasa 463
+                               +     +   q yl+          ++  v +++    ++      n s +  gsaa  ++at  +d ++ss sasa
+  sp|Q55U20|CDA2_CRYNB 343 fsyiVPMCTAYNITQPYLESNVTcpNFETYISGVTNISSSTTQKDGSSSTNTSSSGSGSAAGSASATSsSDDSSSSGSASA 423
+                           110022233344444444432210122333344444444444444444444444444444444444321344444444444 PP
+
+>> sp|J9VPD7|CDA1_CRYNH  Chitin deacetylase 1 OS=Cryptococcus neoformans var. grubii serotype A (strain H99 / ATCC 20882
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.4  12.7   3.9e-26   4.2e-22     112     489 ..     113     448 ..     100     468 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 83.4 bits;  conditional E-value: 3.9e-26
+   Polysacc_deac_1.aln 112 dwtkapkipvrkageeGGedmvlysdsdseqflssstctkpkhkdinediyacpepeivGlasddarnmsmeaiyeygsragvwrilre 200
+                           d +k p   v     +   d    + sd  +++++  ct+        di  cp+ +++Gl++dd++      + +y            
+  sp|J9VPD7|CDA1_CRYNH 113 DLSKVPSYNVT--TGDCSTDAA--AISDGRCWWTCGGCTRE------TDIVECPDKNVWGLSYDDGPSPFTPLLIDY------------ 179
+                           44444444443..233344444..446789****999*984......69999*************************............ PP
+
+   Polysacc_deac_1.aln 201 lekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrPlgWrtgrdspntrrlvae 289
+                           l+++ +k + f vGs v   Pe+ +     Gh+i+ ht++h  +t+l+ne+ ++el +t+k ik   Gv+P  +r              
+  sp|J9VPD7|CDA1_CRYNH 180 LQEKNIKTTFFVVGSRVLSRPEMLQTEYMSGHQISIHTWSHPALTTLTNEEIVAELGWTMKVIKDTLGVTPNTFR-------------- 254
+                           99999**********************************************************************.............. PP
+
+   Polysacc_deac_1.aln 290 yggflydsdyygddlPafgdvdvrvrakvtqlyltivly..........tldtddmaaassktldevkatadsyvem.gsngtylrdaf 367
+                                          P +gd+d+rvra+++q+ lt v++          ++dt+d+ ++   +     + ++ + ++    +  l  +f
+  sp|J9VPD7|CDA1_CRYNH 255 ---------------PPYGDIDDRVRAIAAQMGLTPVIWtsytdgsttvNFDTNDWHISGGTATG--ASSYETFEKIlTEYAPKLDTGF 326
+                           ...............9**********************94444444444489****997766655..56777776651455667899** PP
+
+   Polysacc_deac_1.aln 368 ivlteeideatkslaigmhcrllgrpgrfralqeyldkieqhdkvavkrvvdvarhmrityPyqennvsaaaf.gsaadestatftdat 455
+                           i l ++i + +  la+g     +   g ++ l+  ++ + +    a+ +     +  +it     +   + ++ g+a+   +++ ++at
+  sp|J9VPD7|CDA1_CRYNH 327 ITLEHDIYQQSVDLAVGYILPQVLANGTYQ-LKSIINCLGKDTSEAYIETSSNQTTTQITAATGSQSTFFQPIvGTATGAEVSAPSEAT 414
+                           *****************8877666677664.5666666666667777777777777888887777777777742677777788889999 PP
+
+   Polysacc_deac_1.aln 456 assasasaagtsdepgttviplaankaqiasagi 489
+                            s+a+ saa t+   g++    aa ++  + +g 
+  sp|J9VPD7|CDA1_CRYNH 415 GSTAAGSAASTTSGSGASASTGAASNTSSSGSGR 448
+                           9999999999999999888777766655554444 PP
+
+>> sp|P82476|CDA3_CRYNH  Chitin deacetylase 3 OS=Cryptococcus neoformans var. grubii serotype A (strain H99 / ATCC 20882
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.6  15.6   6.8e-26   7.4e-22     117     480 ..      79     404 ..      62     410 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 82.6 bits;  conditional E-value: 6.8e-26
+   Polysacc_deac_1.aln 117 pkipvrkageeGGedmvlysdsdseqflssstctkpkhkdinediyacpepeivGlasddarnmsmeaiyeygsragvwrilrelekrk 205
+                           p++pv  a  +GG       + d +    s+ c+   +  +++d+y+ p   i+ l++dd++     a+y+y            l ++ 
+  sp|P82476|CDA3_CRYNH  79 PNVPV--ATPDGGRPTYPNNEDDGD----STICSFTDQCRVEDDLYSPPGEKIWALSFDDGPTDVSPALYDY------------LAQNN 149
+                           55555..566777766655555555....456777788899*******************************............88999 PP
+
+   Polysacc_deac_1.aln 206 lk..lsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvr.PlgWrtgrdspntrrlvaeyg 291
+                           +   ++ f +G +v   P+     vk+G ++a ht++h ++t+l+ne+v+ el +t++a+  + G r P+ Wr                
+  sp|P82476|CDA3_CRYNH 150 ISssATHFMIGGNVITSPQSVLVAVKAGGHLAVHTWSHPYMTTLTNEQVVGELGWTMQALSDLNGGRiPMYWR---------------- 222
+                           8633789*****************************************************98876544*****................ PP
+
+   Polysacc_deac_1.aln 292 gflydsdyygddlPafgdvdvrvrakvtqly.ltivlytldtddmaaassktldevkatadsyvemgsngtylrdafivlteeideatk 379
+                                        P +gdvd+rvra++  ++ l++vl++ dt+d+a++   +     a  + y++    g   +++  +l +e d+ t 
+  sp|P82476|CDA3_CRYNH 223 -------------PPYGDVDNRVRAIAKEVFgLVTVLWDSDTNDWAITDEPGQY-SVASVEAYFDTLVTG-NRTQGLLLLEHELDNNTV 296
+                           .............9**************998699*************9988766.457788888666665.4689***********999 PP
+
+   Polysacc_deac_1.aln 380 slaigmhcrllgrpgrfra......lqeyldkieqhdkvavkrvvdvarhmrityPyqenn...vsaaafgsaadestatft.datass 458
+                            +    + + +g    ++       ++ yl+  +  + v     + va  +    P         s aa  sa+   +a ++  ++ass
+  sp|P82476|CDA3_CRYNH 297 EVFETEYPKAVGNGWTVKNvadafnMEWYLNSGKGNNDV--VTTMSVAGTLTTATPTNTSTyvaSSTAA-SSASVTDSAGVSiASAASS 382
+                           988877888887766655411111144566666443333..3345566666666665543311122233.2222222222220222333 PP
+
+   Polysacc_deac_1.aln 459 asasaagtsdepgttviplaan 480
+                            ++s+ + ++ p   vi +a+ 
+  sp|P82476|CDA3_CRYNH 383 EASSSWAIANRPSHFVIAIACG 404
+                           3334445667788888877765 PP
+
+>> sp|P0CP77|CDA3_CRYNB  Chitin deacetylase 3 OS=Cryptococcus neoformans var. neoformans serotype D (strain B-3501A) OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.8  11.6   4.8e-25   5.2e-21     146     464 ..     102     382 ..      76     409 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 79.8 bits;  conditional E-value: 4.8e-25
+   Polysacc_deac_1.aln 146 sstctkpkhkdinediyacpepeivGlasddarnmsmeaiyeygsragvwrilrelekrklk..lsvfyvGsavvrhPelarafvklGh 232
+                           s  c+   +  +++d+y+ p   ++ l++dd++     a+y+y            l ++ +   ++ f +G ++   P+     +++G 
+  sp|P0CP77|CDA3_CRYNB 102 SEICSFTDQCYVEDDLYSPPGEKVWALSFDDGPTDVSPALYDY------------LAQNNISssATHFMIGGNIITSPQSVLIAIEAGG 178
+                           4667778888899******************************............889998633789********************** PP
+
+   Polysacc_deac_1.aln 233 eiadhtyrhilytdlanekvleelrltqkaikrvtGvr.PlgWrtgrdspntrrlvaeyggflydsdyygddlPafgdvdvrvrakvtq 320
+                           ++a ht++h ++t+l+ne+v++el +t++a+  + G r Pl Wr                             P +gdvd+rvra++  
+  sp|P0CP77|CDA3_CRYNB 179 HLAVHTWSHPYMTTLTNEQVVAELGWTMQALSDLNGGRiPLYWR-----------------------------PPYGDVDNRVRAIAKG 238
+                           *******************************98876544*****.............................9*************99 PP
+
+   Polysacc_deac_1.aln 321 ly.ltivlytldtddmaaas.sktldevkatadsyvemgsngtylrdafivlteeideatkslaigmhcrllgrpgrfr......alqe 401
+                           ++ l++vl++ dt+d+a++  +  +    a  + y++    g   +++  +l +e d+ t  +    + + ++    ++      +++ 
+  sp|P0CP77|CDA3_CRYNB 239 VFgLVTVLWDSDTNDWAISDqPDQY--SVASVEAYFDTLVTG-NRTQGLLLLEHELDNNTVEVFETEYPKAVANGWSVKnvadafSMKW 324
+                           87699***********986513333..467888888666665.4689**********99987766566555544333331111115677 PP
+
+   Polysacc_deac_1.aln 402 yldkieqhdkvavkrvvdvarhmrityPyqennvsaaafgsaadestatftdatass.asasaa 464
+                           yl+  +  d v  +  + va  +    P      s+a   sa+  s+a++td++  s asa+++
+  sp|P0CP77|CDA3_CRYNB 325 YLNSGKGNDDVVTT--MSVAGTLTTAKPTHTST-SVA---SATATSSASVTDSAGVSiASAASS 382
+                           88888777777665..45677777777754432.333...355556666666543331333222 PP
+
+>> sp|P0CP76|CDA3_CRYNJ  Chitin deacetylase 3 OS=Cryptococcus neoformans var. neoformans serotype D (strain JEC21 / ATCC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.1  11.7   1.6e-24   1.7e-20     146     464 ..     102     382 ..      76     409 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 78.1 bits;  conditional E-value: 1.6e-24
+   Polysacc_deac_1.aln 146 sstctkpkhkdinediyacpepeivGlasddarnmsmeaiyeygsragvwrilrelekrklk..lsvfyvGsavvrhPelarafvklGh 232
+                           s  c+   +  +++d+y+ p   ++ l++dd++     a+y+y            l ++ +   ++ f +G ++   P+     +++G 
+  sp|P0CP76|CDA3_CRYNJ 102 SEICSFTDQCYVEDDLYSPPGEKVWALSFDDGPTDVSPALYDY------------LAQNNISssATHFMIGGNIITSPQSVLIAIEAGG 178
+                           4667778888899******************************............889998633789********************** PP
+
+   Polysacc_deac_1.aln 233 eiadhtyrhilytdlanekvleelrltqkaikrvtGvr.PlgWrtgrdspntrrlvaeyggflydsdyygddlPafgdvdvrvrakvtq 320
+                           ++a ht++h ++t+l+ne+v++el +t++a+  + G r P+ Wr                             P +gdvd+rvra++  
+  sp|P0CP76|CDA3_CRYNJ 179 HLAVHTWSHPYMTTLTNEQVVAELGWTMQALSDLNGGRiPMYWR-----------------------------PPYGDVDNRVRAIAKG 238
+                           *******************************98876544*****.............................9*************99 PP
+
+   Polysacc_deac_1.aln 321 ly.ltivlytldtddmaaas.sktldevkatadsyvemgsngtylrdafivlteeideatkslaigmhcrllgrpgrfr......alqe 401
+                           ++ l++vl++ dt+d+a++  +  +    a  + y++    g   +++  +l +e d+ t  +    + + ++    ++      +++ 
+  sp|P0CP76|CDA3_CRYNJ 239 VFgLVTVLWDSDTNDWAISDqPDQY--SVASVEAYFDTLVTG-NRTQGLLLLEHELDNNTVEVFETEYPKAVANGWSVKnvadafSMKW 324
+                           87699***********986513333..467888888666665.4689**********99987766566555544333331111115677 PP
+
+   Polysacc_deac_1.aln 402 yldkieqhdkvavkrvvdvarhmrityPyqennvsaaafgsaadestatftdatass.asasaa 464
+                           yl+  +  d v  +  + va  +    P      s+a   sa+  s+a++td++  s asa+++
+  sp|P0CP76|CDA3_CRYNJ 325 YLNSGKGNDDVVTT--MSVAGTLTTAKPTHTST-SVA---SATATSSASVTDSAGVSiASAASS 382
+                           88888777777665..45677777777754432.333...355556666666543331333222 PP
+
+>> sp|B5ZA76|PGDAE_HELPG  Peptidoglycan deacetylase OS=Helicobacter pylori (strain G27) OX=563041 GN=pgdA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.5   0.2   1.1e-17   1.2e-13     191     422 ..      40     283 ..      30     292 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 55.5 bits;  conditional E-value: 1.1e-17
+    Polysacc_deac_1.aln 191 ragvwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrPlgWrtgr 278
+                              g+ r+l+ + k  l+++ f  G +++ +Pe  +  v++Ghe+  h+y+h     ++ +++ + l  + + ik +tG+ P g+ +  
+  sp|B5ZA76|PGDAE_HELPG  40 EVGIPRLLKLFKKYHLPATWFVPGHSIETFPEQMKMIVDAGHEVGAHGYSHENPIAMSTKQEEDVLLKSVELIKDLTGKAPTGYVAPW 127
+                            57999*****************************************************************************987653 PP
+
+    Polysacc_deac_1.aln 279 .d.spntrrlvaeyggflydsdyygdd.lPafgdvdvrvrakvtql....yltivlytldtddmaaassktlde......vkatadsy 353
+                             + s  t  l+    gf yd     +d  P++  v +    +   l    ++  ++  ++t+ + + +   ld+      +k   +s+
+  sp|B5ZA76|PGDAE_HELPG 128 wEfSNITNELLL-KHGFKYDHSLMHNDfTPYYVRVGDSWSKIDYSLeakdWMKPLIRGVETNLVEIPANWYLDDlppmmfIKKSPNSF 214
+                            241444555555.568999977665552799999988877666555222245556667888888888887777633333356666665 PP
+
+    Polysacc_deac_1.aln 354 ..vemgsngtylrdafivlteeideatkslaigmhcrllgrpgrfralqeyldkieqhdkvavkrvvdvar 422
+                              v     g    d f+ +++e+d a  s++i  h  + +rp  +   ++ +++i++h+ v      ++a 
+  sp|B5ZA76|PGDAE_HELPG 215 gfVSPRDIGQMWIDQFDWVYREMDYAVFSMTI--HPDVSARPQVLLMHEKIIEHINKHEGVRWVTFNEIAD 283
+                            2165667799999***********99888777..************************9987666666665 PP
+
+>> sp|Q06702|CDA1_YEAST  Chitin deacetylase 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CDA1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.6   0.0   3.9e-10   4.3e-06     203     265 ..     128     190 ..      78     200 .. 0.88
+   2 !   24.6   0.1   2.6e-08   0.00028     305     359 ..     201     250 ..     193     284 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 30.6 bits;  conditional E-value: 3.9e-10
+   Polysacc_deac_1.aln 203 krklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikr 265
+                           k + + + f +G + v++P+  +  ++ Gh i  ht++h ++  l+ne+ ++++ ++  a++ 
+  sp|Q06702|CDA1_YEAST 128 KLRQRTTFFVLGINTVNYPDIYEHILERGHLIGTHTWSHEFLPSLSNEEIVAQIEWSIWAMNA 190
+                           33446799**********************************************999888764 PP
+
+  == domain 2  score: 24.6 bits;  conditional E-value: 2.6e-08
+   Polysacc_deac_1.aln 305 Pafgdvdvrvrakvtqlyltivlytldtddmaaassktldevkatadsyvemgsn 359
+                           P +g +d+rvra+v q+ lt+vl++ldt d++  +   +     t ++ + m  n
+  sp|Q06702|CDA1_YEAST 201 PPYGAIDNRVRAIVKQFGLTVVLWDLDTFDWKLITNDDFR----TEEEIL-MDIN 250
+                           889*****************************99888877....555555.5555 PP
+
+>> sp|O25080|PGDAE_HELPY  Peptidoglycan deacetylase OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 GN=pgdA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.0   0.3   6.4e-17     7e-13     191     422 ..      40     283 ..      33     292 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 53.0 bits;  conditional E-value: 6.4e-17
+    Polysacc_deac_1.aln 191 ragvwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrPlgWrtgr 278
+                              g+ r+l+ + k  l+++ f  G +++ + e  +  v++Ghe+  h+y+h     ++ +++ + l  + + ik +tG+ P g+ +  
+  sp|O25080|PGDAE_HELPY  40 EVGIPRLLKLFKKYHLPATWFSPGHSIETFSEQMKMIVDAGHEVGAHGYSHENPIAMTAKQEEDVLLKSVELIKDLTGKAPTGYVAPW 127
+                            57999*****************************************************************************987653 PP
+
+    Polysacc_deac_1.aln 279 .d.spntrrlvaeyggflydsdyygdd.lPafgdvdvrvrakvtql....yltivlytldtddmaaassktlde......vkatadsy 353
+                             + s  t  l+    gf yd     +d  P++  v +    +   l    ++  ++  ++td + + +   ld+      +k   +s+
+  sp|O25080|PGDAE_HELPY 128 wEfSNITNELLL-KHGFKYDHSLMHNDfTPYYVRVGDSWSKIDYSLeakdWMKPLIRGVETDLVEIPANWYLDDlppmmfIKKSPNSF 214
+                            241444555555.568999977665552799999988877766555222245566677899988888888888733333356666665 PP
+
+    Polysacc_deac_1.aln 354 ..vemgsngtylrdafivlteeideatkslaigmhcrllgrpgrfralqeyldkieqhdkvavkrvvdvar 422
+                              v     g    d f+ +++e+d a  s++i  h  + +rp  +   ++ +++i++h+ v      ++a 
+  sp|O25080|PGDAE_HELPY 215 gfVSPHDIGQMWIDQFDWVYREMDYAVFSMTI--HPDVSARPQVLLMHEKIIEHINKHEGVRWVTFNEIAD 283
+                            2266667799999***********99888777..************************9987666666665 PP
+
+>> sp|Q06703|CDA2_YEAST  Chitin deacetylase 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CDA2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.7   0.6   2.1e-14   2.3e-10     186     338 ..     124     244 ..      98     295 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 44.7 bits;  conditional E-value: 2.1e-14
+   Polysacc_deac_1.aln 186 yeygsragvwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrPlgW 274
+                           ++ g  a   ++   l++ k + + f +G+++v+hP+  +++ k Gh i  ht++h+++ +++nek ++++ ++  a++  tG++  +W
+  sp|Q06703|CDA2_YEAST 124 FDDGPSASTTKL---LDRLKHNSTFFNLGVNIVQHPDIYQRMQKEGHLIGSHTWSHVYLPNVSNEKIIAQIEWSIWAMNA-TGNHTPKW 208
+                           555555555555...55667789******************************************************987.55555577 PP
+
+   Polysacc_deac_1.aln 275 rtgrdspntrrlvaeyggflydsdyygddlPafgdvdvrvrakvtqlyltivlytldtddmaaa 338
+                           +                             P +g +d+rvra+  q+ l  vl++ dt d+   
+  sp|Q06703|CDA2_YEAST 209 F----------------------------RPPYGGIDNRVRAITRQFGLQAVLWDHDTFDWSLL 244
+                           7............................38999999999999999999999999999999764 PP
+
+>> sp|Q81EK9|PGDA1_BACCR  Peptidoglycan-N-acetylglucosamine deacetylase BC_1960 OS=Bacillus cereus (strain ATCC 14579 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.3   0.0   3.8e-12   4.1e-08     196     271 ..      98     173 ..      94     181 .. 0.96
+   2 ?    5.9   0.2     0.013   1.4e+02     311     344 ..     185     217 ..     175     226 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 37.3 bits;  conditional E-value: 3.8e-12
+    Polysacc_deac_1.aln 196 rilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrP 271
+                            +il +l ++ +k++ f +G + +++P+  ++  + Gh i +hty+h  + ++ +++  +++  t + ++r++G  P
+  sp|Q81EK9|PGDA1_BACCR  98 KILDKLKQHNVKATFFLLGENAEKFPNIVKRIANEGHVIGNHTYSHPNLAKVNEDEYRNQIIKTEEILNRLAGYAP 173
+                            7999*********************************************************************988 PP
+
+  == domain 2  score: 5.9 bits;  conditional E-value: 0.013
+    Polysacc_deac_1.aln 311 dvrvrakvtqlyltivlytldtddmaaassktld 344
+                            +++ ++   q  + iv +++dt d++  s+ t+ 
+  sp|Q81EK9|PGDA1_BACCR 185 ENQLKWATEQN-FMIVQWSVDTVDWKGVSADTIT 217
+                            45667777777.78**************999975 PP
+
+>> sp|I1S2J6|FGM2_GIBZE  Peptidoglycan deacetylase-like protein FGM2 OS=Gibberella zeae (strain ATCC MYA-4620 / CBS 1236
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.8   0.0   3.9e-14   4.2e-10     184     306 ..      69     194 ..      51     207 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 43.8 bits;  conditional E-value: 3.9e-14
+   Polysacc_deac_1.aln 184 aiyeygsragvwrilrelekrkl..klsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvr 270
+                           +   ++ r gv r+l+ l++  +  k++ f  G +++ +P  ++a v+ G eia h+y h   t+l ++++ + l       + +tG+r
+  sp|I1S2J6|FGM2_GIBZE  69 SAGIFAGRVGVGRLLKILDRVGIaeKVTWFIPGHSMETFPLETKAIVDSGAEIALHGYCHEDCTQLDPQQQQDILDKCITLAESLTGKR 157
+                           333345699***********999667899************************************************************ PP
+
+   Polysacc_deac_1.aln 271 PlgWrtg..rdspntrrlvaeyggflydsdyygddlPa 306
+                           P+g+r+   r   +t  l  e  gflyd+   g d   
+  sp|I1S2J6|FGM2_GIBZE 158 PVGFRAPlyRIDHDTISL-LERKGFLYDTSLSGHDAQL 194
+                           *****8622444555554.5889*******99999765 PP
+
+>> sp|P83513|XY11A_PSEXY  Bifunctional xylanase/deacetylase OS=Pseudobutyrivibrio xylanivorans OX=185007 GN=xyn11A PE=1 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.9   0.0   7.3e-14   7.9e-10     187     270 ..     409     493 ..     394     507 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 42.9 bits;  conditional E-value: 7.3e-14
+    Polysacc_deac_1.aln 187 eygsragvwrilrelekrklklsvfyvGsavv.rhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvr 270
+                            + g  +   ++l  lek  +k++ f +G +v+ +     ++ vk+G e+a+h+y h  +t++   +  +++ +t  aik  +Gv 
+  sp|P83513|XY11A_PSEXY 409 DDGPSSTTSQVLDMLEKYNVKATFFLIGQNVNsNTASIVQRQVKMGCELACHSYTHEDMTKMNASQIRNQIDWTASAIKNTAGVD 493
+                            5566677788999******************73667899*****************************************99985 PP
+
+>> sp|P50850|YLXY_BACSU  Uncharacterized protein YlxY OS=Bacillus subtilis (strain 168) OX=224308 GN=ylxY PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.3   0.0   1.8e-12   1.9e-08     196     275 ..     147     225 ..     140     241 .. 0.89
+   2 ?    2.5   0.1      0.13   1.5e+03     321     344 ..     243     266 ..     234     275 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 38.3 bits;  conditional E-value: 1.8e-12
+   Polysacc_deac_1.aln 196 rilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrPlgWr 275
+                           ++l  l+k+++k++ f  G  v +  +la++  k Ghei +h+y+h  + +l+  +  e+l  t + i++  Gv+P +W+
+  sp|P50850|YLXY_BACSU 147 KMLPILQKHQVKATFFLEGNWVRNNVQLAKKIAKDGHEIGNHSYNHPDMSKLTTGRISEQLDKTNEQIEQTIGVKP-KWF 225
+                           5677899*********************************************************************.566 PP
+
+  == domain 2  score: 2.5 bits;  conditional E-value: 0.13
+   Polysacc_deac_1.aln 321 lyltivlytldtddmaaassktld 344
+                             + +v++t+dt d++  ++  l+
+  sp|P50850|YLXY_BACSU 243 KQMGTVMWTVDTIDWQKPAPSVLQ 266
+                           45699**********998887765 PP
+
+>> sp|O34798|PDAC_BACSU  Peptidoglycan-N-acetylmuramic acid deacetylase PdaC OS=Bacillus subtilis (strain 168) OX=224308
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.7   0.0   3.5e-13   3.8e-09     168     272 ..     271     371 ..     236     384 .. 0.81
+   2 ?   -1.6   0.0       2.3   2.4e+04     319     343 ..     386     410 ..     374     420 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 40.7 bits;  conditional E-value: 3.5e-13
+   Polysacc_deac_1.aln 168 eivGlasddarnmsmeaiyeygsragvwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleel 256
+                           e    + d+ +++   ++ +  + a   +il  l k k +++ f +Gs v+ +Pe   +++k G e+ +h+++h l+t l+ ++ l+++
+  sp|O34798|PDAC_BACSU 271 E----TVDPNQKVIALTFDDGPNPATTNQILDSLKKYKGHATFFVLGSRVQYYPETLIRMLKEGNEVGNHSWSHPLLTRLSVKEALKQI 355
+                           3....3355555655666666667888899999******************************************************** PP
+
+   Polysacc_deac_1.aln 257 rltqkaikrvtGvrPl 272
+                             tq+ i+++ G rP 
+  sp|O34798|PDAC_BACSU 356 NDTQDIIEKISGYRPT 371
+                           **************95 PP
+
+  == domain 2  score: -1.6 bits;  conditional E-value: 2.3
+   Polysacc_deac_1.aln 319 tqlyltivlytldtddmaaassktl 343
+                           +q+ + + l+++d +d++    kt+
+  sp|O34798|PDAC_BACSU 386 SQMKMDVALWDVDPEDWKDRNKKTI 410
+                           58888999*********99888886 PP
+
+>> sp|A0A0H3GDH9|PGDA_LISM4  Peptidoglycan-N-acetylglucosamine deacetylase PgdA OS=Listeria monocytogenes serotype 1/2a 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.6   0.1     6e-12   6.5e-08     196     275 ..     283     362 ..     269     445 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 36.6 bits;  conditional E-value: 6e-12
+       Polysacc_deac_1.aln 196 rilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrPlgWr 275
+                                +l  l ++ +k++ f +Gs+v + P l ++ ++ Gh++  h++ h  +t+ + ++v +++  tqka+   tG  P   r
+  sp|A0A0H3GDH9|PGDA_LISM4 283 GVLDTLKRHNVKATFFVLGSSVIQNPGLVKRELEEGHQVGSHSWDHPQLTKQSTQEVYNQILKTQKAVFDQTGYFPTTMR 362
+                               57889999*****************************************************************9998777 PP
+
+>> sp|A0A3Q0NBH7|PGDA_LISMG  Peptidoglycan-N-acetylglucosamine deacetylase PgdA OS=Listeria monocytogenes serotype 1/2a 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.6   0.1     6e-12   6.5e-08     196     275 ..     283     362 ..     269     445 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 36.6 bits;  conditional E-value: 6e-12
+       Polysacc_deac_1.aln 196 rilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrPlgWr 275
+                                +l  l ++ +k++ f +Gs+v + P l ++ ++ Gh++  h++ h  +t+ + ++v +++  tqka+   tG  P   r
+  sp|A0A3Q0NBH7|PGDA_LISMG 283 GVLDTLKRHNVKATFFVLGSSVIQNPGLVKRELEEGHQVGSHSWDHPQLTKQSTQEVYNQILKTQKAVFDQTGYFPTTMR 362
+                               57889999*****************************************************************9998777 PP
+
+>> sp|Q8Y9V5|PGDA_LISMO  Peptidoglycan-N-acetylglucosamine deacetylase PgdA OS=Listeria monocytogenes serovar 1/2a (stra
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.6   0.1     6e-12   6.5e-08     196     275 ..     283     362 ..     269     445 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 36.6 bits;  conditional E-value: 6e-12
+   Polysacc_deac_1.aln 196 rilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrPlgWr 275
+                            +l  l ++ +k++ f +Gs+v + P l ++ ++ Gh++  h++ h  +t+ + ++v +++  tqka+   tG  P   r
+  sp|Q8Y9V5|PGDA_LISMO 283 GVLDTLKRHNVKATFFVLGSSVIQNPGLVKRELEEGHQVGSHSWDHPQLTKQSTQEVYNQILKTQKAVFDQTGYFPTTMR 362
+                           57889999*****************************************************************9998777 PP
+
+>> sp|P54865|XYND_CELFI  Bifunctional xylanase/deacetylase OS=Cellulomonas fimi OX=1708 GN=xynD PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2   0.0   8.2e-12   8.9e-08     194     277 ..     371     454 ..     352     479 .. 0.85
+   2 ?    2.1   0.0      0.17   1.9e+03     305     344 ..     453     492 ..     451     507 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 36.2 bits;  conditional E-value: 8.2e-12
+   Polysacc_deac_1.aln 194 vwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrPlgWrtg 277
+                             +il  l +    ++vf  G + +  P l +a+ ++G +i +h++ h ++ ++++ +   +l  tq+ai++ +Gv+P  +r  
+  sp|P54865|XYND_CELFI 371 TNQILSTLTQYGATATVFPTGQNAQGNPSLMQAYKNAGVQIGNHSWDHPHLVNMSQSDMQSQLTRTQQAIQQTAGVTPTLFRPP 454
+                           357999999*********************************************************************988854 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 0.17
+   Polysacc_deac_1.aln 305 Pafgdvdvrvrakvtqlyltivlytldtddmaaassktld 344
+                           P +g+ + + r + + l l  +++++d +d+  as+  + 
+  sp|P54865|XYND_CELFI 453 PPYGESNATLRQVESSLGLREIIWDVDSQDWNNASASQIR 492
+                           6788888999999999*****************9987665 PP
+
+>> sp|Q04729|YFUM2_GEOSE  Uncharacterized 30.6 kDa protein in fumA 3'region OS=Geobacillus stearothermophilus OX=1422 PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.7   0.0   1.4e-12   1.5e-08     194     271 ..      82     159 ..      58     195 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 38.7 bits;  conditional E-value: 1.4e-12
+    Polysacc_deac_1.aln 194 vwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrP 271
+                              +il  l k+ ++++ f  G  ++  P+l +++vk Gh + +h+++h  +t+++ +k  +el    + +k +tG+  
+  sp|Q04729|YFUM2_GEOSE  82 TSKILDVLKKHDVHATFFVTGHYLKTAPDLVKRMVKEGHIVGNHSWSHPDMTTISADKIKKELDAVSDKVKELTGQEG 159
+                            4589999********************************************************************865 PP
+
+>> sp|P04339|NODB_RHILV  Chitooligosaccharide deacetylase OS=Rhizobium leguminosarum bv. viciae OX=387 GN=nodB PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.1   0.0   4.2e-12   4.5e-08     196     263 ..      38     105 ..      15     114 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 37.1 bits;  conditional E-value: 4.2e-12
+   Polysacc_deac_1.aln 196 rilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkai 263
+                           +il  l +++++++ f +Gs v+ hPel r+ v  Gh++a+ht  h  + +  +++v  e+  + +ai
+  sp|P04339|NODB_RHILV  38 QILDVLAEHRVPATFFAIGSYVKDHPELIRRLVAEGHDVANHTMTHPDLATCDPKDVKREIDEAHQAI 105
+                           68889999*************************************************99999999988 PP
+
+>> sp|P04675|NODB_BRASP  Chitooligosaccharide deacetylase OS=Bradyrhizobium sp. (strain ANU 289) OX=186901 GN=nodB PE=3 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.6   0.0   6.1e-12   6.6e-08     197     265 ..      39     107 ..      34     120 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 36.6 bits;  conditional E-value: 6.1e-12
+   Polysacc_deac_1.aln 197 ilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikr 265
+                           +l  l +++++++ f +G+ v + Pel r++v  Ghe+a+ht  h  +    + +v +e+  + +ai+ 
+  sp|P04675|NODB_BRASP  39 VLDVLTQHRVPATFFVIGTYVANQPELIRRMVAEGHEVANHTMTHPDLSRCEPAEVHDEVLTASRAIRS 107
+                           677899*******************************************************99999986 PP
+
+>> sp|Q81AF4|PGDA3_BACCR  Peptidoglycan-N-acetylglucosamine deacetylase BC_3618 OS=Bacillus cereus (strain ATCC 14579 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.5   0.0   2.1e-10   2.3e-06     197     263 ..      40     106 ..      23     128 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 31.5 bits;  conditional E-value: 2.1e-10
+    Polysacc_deac_1.aln 197 ilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkai 263
+                            +l  l + k +++ f +G  v+r P+l ++ +k Ghei +ht +h +  + ++ek  +++  ++k  
+  sp|Q81AF4|PGDA3_BACCR  40 VLDLLRQYKAEATFFMIGFRVQRNPYLVKQVLKEGHEIGNHTMNHLYASNSSDEKLENDILDGKKFF 106
+                            67778999*************************************9999888888777776666655 PP
+
+>> sp|Q52845|NODB_RHILO  Chitooligosaccharide deacetylase OS=Mesorhizobium japonicum (strain LMG 29417 / CECT 9101 / MAF
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.4   0.0   2.3e-10   2.5e-06     196     264 ..      38     106 ..      18     118 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 31.4 bits;  conditional E-value: 2.3e-10
+   Polysacc_deac_1.aln 196 rilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaik 264
+                           +il  l +++++++ f +G+   +hPel ++++  Ghe+ +ht +h  + +    +v  e++ + +ai 
+  sp|Q52845|NODB_RHILO  38 QILDVLAQNRVPATFFVIGAYAAEHPELIQRMIAEGHEVGNHTMSHPDLSKCGLGEVQREVFEANQAIM 106
+                           68999*****************************************99999999999999998888885 PP
+
+>> sp|P04676|NODB_RHILT  Chitooligosaccharide deacetylase OS=Rhizobium leguminosarum bv. trifolii OX=386 GN=nodB PE=3 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.3   0.0     1e-09   1.1e-05     196     264 ..      37     105 ..      24     120 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 29.3 bits;  conditional E-value: 1e-09
+   Polysacc_deac_1.aln 196 rilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaik 264
+                           +il  l +++++++ f +G  v+ hP+l r+    Gh +a+ht  h  +t   +e    e++ t +ai 
+  sp|P04676|NODB_RHILT  37 QILDVLAEHRVPATFFVLGGHVKDHPDLVRRVAAEGHLVANHTMTHPDLTACDSEAIEREIKETNEAIV 105
+                           68899999***********************************************************95 PP
+
+>> sp|P50354|NODB_NEOGA  Chitooligosaccharide deacetylase OS=Neorhizobium galegae OX=399 GN=nodB PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.0   0.0   1.2e-09   1.3e-05     196     263 ..      36     103 ..      22     117 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 29.0 bits;  conditional E-value: 1.2e-09
+   Polysacc_deac_1.aln 196 rilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkai 263
+                           +il  l ++ + ++ f +G++ + hP l ++ v  Gh +a+ht  h  + + +  +v  e+  + +ai
+  sp|P50354|NODB_NEOGA  36 HILDVLAQHAVSATFFVIGANAEVHPGLVQRIVSEGHGVANHTMTHPDLATCSRPQVEREIDEANRAI 103
+                           5888999****************************************999999999988888888877 PP
+
+>> sp|P02963|NODB_RHIME  Chitooligosaccharide deacetylase OS=Rhizobium meliloti (strain 1021) OX=266834 GN=nodB PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.2   0.0   1.1e-09   1.2e-05     197     263 ..      39     105 ..      24     116 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 29.2 bits;  conditional E-value: 1.1e-09
+   Polysacc_deac_1.aln 197 ilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkai 263
+                           il  l +  ++++ f +G+  +  Pel r+ v  Ghe+a+ht  h  + +  + +v  e+  + +ai
+  sp|P02963|NODB_RHIME  39 ILDVLAEYGVPATFFVIGTYAKSQPELIRRIVAEGHEVANHTMTHPDLSTCGPHEVEREIVEASEAI 105
+                           6677777889**************************************************9999998 PP
+
+>> sp|Q81EJ6|PGDA2_BACCR  Peptidoglycan-N-acetylglucosamine deacetylase BC_1974 OS=Bacillus cereus (strain ATCC 14579 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.3   0.0     2e-09   2.1e-05     195     271 ..      84     160 ..      27     169 .. 0.91
+   2 ?   -1.8   0.0       2.7   2.9e+04      41      71 ..     198     228 ..     190     239 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 28.3 bits;  conditional E-value: 2e-09
+    Polysacc_deac_1.aln 195 wrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrP 271
+                              +l  l ++  k++ f +G++v+++P+l ++    Gh +  h+  h + +   n + ++e++  q  i  + G+ P
+  sp|Q81EJ6|PGDA2_BACCR  84 AELLNTLKQHDAKATFFLIGANVKEFPDLVKRENAEGHYVGMHSMTHNFAKLYKNGEYVNEMKEDQGLIANIIGKSP 160
+                            4678999*******************************************************************998 PP
+
+  == domain 2  score: -1.8 bits;  conditional E-value: 2.7
+    Polysacc_deac_1.aln  41 wrnfkslldPnnitiadipqttstyPrdeik 71 
+                            wr  k  +d     ia+   t +t+P++ i 
+  sp|Q81EJ6|PGDA2_BACCR 198 WRYNKMPVDAAAAQIAQNVLTNATKPQEVIL 228
+                            8888888888888888888888888888764 PP
+
+>> sp|Q6DWK3|CDA_COLLN  Chitin deacetylase OS=Colletotrichum lindemuthianum OX=290576 GN=CDA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.8   0.0   1.1e-08   0.00012     159     275 ..      33     142 ..      10     159 .. 0.85
+   2 ?    0.7   0.1      0.47     5e+03     324     379 ..     162     213 ..     156     236 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 25.8 bits;  conditional E-value: 1.1e-08
+  Polysacc_deac_1.aln 159 ediyacpepeivGlasddarnmsmeaiyeygsragvwrilrelekrklklsvfyvGsavvr.....hPelarafvklGheiadhtyrhil 243
+                            i  c +p +v l++dd++      + +             l ++ ++++ f  G +  +      P+  r++   Gh +  hty h  
+  sp|Q6DWK3|CDA_COLLN  33 TPILQCTQPGLVALTYDDGPFTFTPQLLDI------------LKQNDVRATFFVNGNNWANieagsNPDTIRRMRADGHLVGSHTYAHPD 110
+                          567788888888888888888777777777............9*************987653333369999******************* PP
+
+  Polysacc_deac_1.aln 244 ytdlanekvleelrltqkaikrvtGvrPlgWr 275
+                          +++l++ + + ++r   +a +r+ G  P   r
+  sp|Q6DWK3|CDA_COLLN 111 LNTLSSADRISQMRHVEEATRRIDGFAPKYMR 142
+                          *************************9997655 PP
+
+  == domain 2  score: 0.7 bits;  conditional E-value: 0.47
+  Polysacc_deac_1.aln 324 tivlytldtddmaaassktldevkatadsyvemgsngtylrdafivlteeideatk 379
+                           i+  +ldt+d+    ++t       a+++ +  s      +++ivl +++ e t 
+  sp|Q6DWK3|CDA_COLLN 162 HIIDTNLDTKDYENNKPETTH---LSAEKFNNELSA-DVGANSYIVLSHDVHEQTV 213
+                          577889***********9998...677777744444.4556789999999887664 PP
+
+>> sp|O34928|PDAA_BACSU  Peptidoglycan-N-acetylmuramic acid deacetylase PdaA OS=Bacillus subtilis (strain 168) OX=224308
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.9   0.0   2.6e-09   2.8e-05     186     270 ..      76     157 ..      55     169 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 27.9 bits;  conditional E-value: 2.6e-09
+   Polysacc_deac_1.aln 186 yeygsragvwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvr 270
+                           ye g      ++l  l k+++  + f  G  v+  P+l +++ + Gh i +h+++h  +t+ + ++  +el    + + ++tG++
+  sp|O34928|PDAA_BACSU  76 YENGY---TPKVLDVLKKHRVTGTFFVTGHFVKDQPQLIKRMSDEGHIIGNHSFHHPDLTTKTADQIQDELDSVNEEVYKITGKQ 157
+                           44432...347888899******************************************************************86 PP
+
+>> sp|P50352|NODB_BRAEL  Chitooligosaccharide deacetylase OS=Bradyrhizobium elkanii OX=29448 GN=nodB PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.2   0.0   4.3e-09   4.6e-05     197     265 ..      39     107 ..      32     122 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 27.2 bits;  conditional E-value: 4.3e-09
+   Polysacc_deac_1.aln 197 ilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikr 265
+                           +l  l +++++++ f +G+     Pel r+++  Ghe+a+ht  h  +      +  +e+  + +ai+ 
+  sp|P50352|NODB_BRAEL  39 VLDVLTQHRVPATFFVIGTYAADQPELIRRMIAEGHEVANHTMTHPDLSRCEAAEIHDEVLTASRAIRL 107
+                           567799****************************************99999999999999999999975 PP
+
+>> sp|P50865|PDAB_BACSU  Probable polysaccharide deacetylase PdaB OS=Bacillus subtilis (strain 168) OX=224308 GN=pdaB PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.8   0.1   1.1e-08   0.00012     197     266 ..      75     145 ..      66     184 .. 0.80
+   2 ?   -0.0   0.0      0.78   8.4e+03     313     344 ..     163     195 ..     155     202 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 25.8 bits;  conditional E-value: 1.1e-08
+   Polysacc_deac_1.aln 197 ilrelekrklklsvfyv.GsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrv 266
+                           il  l  + +k + f++  s  +rhP+   + vk Gh+i   +y ++ y +l + +  +++  +q a +++
+  sp|P50865|PDAB_BACSU  75 ILNTLKANGIKNATFFLsASWAERHPDTVARIVKDGHQIGSMGYAYKNYANLESSEIKKDMNRAQTAFEKL 145
+                           7888999999976666615679*********************************************9985 PP
+
+  == domain 2  score: -0.0 bits;  conditional E-value: 0.78
+   Polysacc_deac_1.aln 313 rvrakvtqlyltivlytldtddmaa.assktld 344
+                           +v  ++ q   t+v y+++ +d+   +  k +d
+  sp|P50865|PDAB_BACSU 163 NVLKVAKQYNYTVVHYSVNSQDWTNpGVEKIID 195
+                           56667889999***********97524455555 PP
+
+>> sp|P50355|NODB_SINFN  Chitooligosaccharide deacetylase OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.9   0.0   5.4e-09   5.8e-05     197     267 ..      36     106 ..      27     118 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 26.9 bits;  conditional E-value: 5.4e-09
+   Polysacc_deac_1.aln 197 ilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvt 267
+                           +l  l +++++++ f +G+  +  P+l r++v  Ghe+a+ht  h  +      +v  ++  + +ai++  
+  sp|P50355|NODB_SINFN  36 VLDVLAEHRVPATFFVIGAYAKDRPQLIRRMVAQGHEVANHTMTHPDLSACGRRDVERQVLEANRAIRMAC 106
+                           567788899*************************************9999999999999999999999876 PP
+
+>> sp|Q8DP63|PGDA_STRR6  Peptidoglycan-N-acetylglucosamine deacetylase OS=Streptococcus pneumoniae (strain ATCC BAA-255 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.0   0.0   1.9e-08   0.00021     174     269 ..     261     358 ..     242     366 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 25.0 bits;  conditional E-value: 1.9e-08
+   Polysacc_deac_1.aln 174 sddarnmsmeai.yeyg.sragvwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltq 260
+                           ++d ++    a+ ++ g + a   ++l  l k  +k++ f +G +v    +l ++    Gh + +h+++h  + +l+ ++  +++  t 
+  sp|Q8DP63|PGDA_STRR6 261 YFDKKHQKVVALtFDDGpNPATTPQVLETLAKYDIKATFFVLGKNVSGNEDLVKRIKSEGHVVGNHSWSHPILSQLSLDEAKKQITDTE 349
+                           556555554443244441457778999***********************************************************999 PP
+
+   Polysacc_deac_1.aln 261 kaikrvtGv 269
+                           + + +v G 
+  sp|Q8DP63|PGDA_STRR6 350 DVLTKVLGS 358
+                           999999886 PP
+
+>> sp|Q59674|XY11A_CELJA  Bifunctional xylanase/xylan deacetylase OS=Cellvibrio japonicus OX=155077 GN=xyn11A PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.9   0.2   5.8e-06     0.063     189     275 ..     407     493 ..     384     560 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 16.9 bits;  conditional E-value: 5.8e-06
+    Polysacc_deac_1.aln 189 gsragvwrilrelekrkl.klsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrPlgWr 275
+                            g  +    ++  l ++ l +++ f  G +v    +l  + + +G e+ +h+y h ++t  + ++v +el  t +ai+     +P  +r
+  sp|Q59674|XY11A_CELJA 407 GPNSNTATLVNLLRQNNLtPVTWFNQGNNVASNAHLMSQQLSVG-EVHNHSYTHPHMTSWTYQQVYDELNRTNQAIQNAGAPKPTLFR 493
+                            444444444555667766489**********************9.799*****************************99888887776 PP
+
+>> sp|Q5AQQ0|CDA_EMENI  Chitin deacetylase OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.2   0.0   3.6e-08   0.00039     161     275 ..      33     135 ..      24     157 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 24.2 bits;  conditional E-value: 3.6e-08
+  Polysacc_deac_1.aln 161 iyacpepeivGlasddarnmsmeaiyeygsragvwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlane 250
+                          i  c  p+++ l++dd++                  +l  l +   +++ f +G a  + P l +++ + Gh++  hty h+ +  l  +
+  sp|Q5AQQ0|CDA_EMENI  33 ITQCTTPNTIALTFDDGPSEYTPQ------------LLDLLSRYSARATFFVLGDAAAQNPGLLQRMRDEGHQVGAHTYDHVSLPSLGYD 110
+                          556777777777777777544444............44458888899******************************************* PP
+
+  Polysacc_deac_1.aln 251 kvleelrltqkaikrvtGvrPlgWr 275
+                            + ++    + i+   Gv P   r
+  sp|Q5AQQ0|CDA_EMENI 111 GIASQMTRLEEVIRPALGVAPAYMR 135
+                          ******************9997655 PP
+
+>> sp|Q07740|NODB_AZOC5  Chitooligosaccharide deacetylase OS=Azorhizobium caulinodans (strain ATCC 43989 / DSM 5975 / JC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.3   0.0   3.3e-08   0.00036     197     270 ..      36     106 ..       5     145 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 24.3 bits;  conditional E-value: 3.3e-08
+   Polysacc_deac_1.aln 197 ilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvr 270
+                           ilre   +   ++ f +G   +++P  +r+    Gh i +ht+ h  ++d a e+v  ++  +qk ++ + G  
+  sp|Q07740|NODB_AZOC5  36 ILRE---HSALATFFQIGRFAKEYPSISRQCQLDGHAIGNHTFDHPNLQDRAGEEVEYQISSAQKCLEHICGRG 106
+                           4443...345689*********************************************************9964 PP
+
+>> sp|P24150|NODB_RHILP  Chitooligosaccharide deacetylase OS=Rhizobium leguminosarum bv. phaseoli OX=385 GN=nodB PE=3 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.7   0.0     1e-07    0.0011     197     266 ..      39     109 ..      19     118 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 22.7 bits;  conditional E-value: 1e-07
+   Polysacc_deac_1.aln 197 ilrelekrklklsvfyvGsavvrhPelarafvklGhe.iadhtyrhilytdlanekvleelrltqkaikrv 266
+                           il  l +++++++ f +G  +    +l ++++  Gh+ +a+ht  h  + d  + +v  ++  t +aik+ 
+  sp|P24150|NODB_RHILP  39 ILDILAEHRVPATFFVIGEFLADQSKLIQRMIAEGHHeVANHTMTHPDLSDCEPRRVQRQILETNRAIKMA 109
+                           77888999************************9997549******************************96 PP
+
+>> sp|A0A1L3THR9|CDA_PESTX  Chitin deacetylase OS=Pestalotiopsis sp. OX=36460 GN=CDA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.5   0.0   4.5e-07    0.0048     161     297 ..      32     158 ..      18     184 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 20.5 bits;  conditional E-value: 4.5e-07
+      Polysacc_deac_1.aln 161 iyacpepeivGlasddarnmsmeaiyeygsragvwrilrelekrklklsvfyvGsa...vvrhPelarafvklGheiadhtyrhil 243
+                              i ac  p+++ l++dd++      + +             l  + +k++ f  G +   +  +     ++   Gh+i  ht++h  
+  sp|A0A1L3THR9|CDA_PESTX  32 ITACTVPNTFALTFDDGPFAYTSELLDL------------LSSNGVKATFFLNGQNwgsIYDYTSVVTRMDAEGHQIGSHTWSHAD 105
+                              7889999999999999997777666666............9999**********9844467788889999999************* PP
+
+      Polysacc_deac_1.aln 244 ytdlanekvleelrltqkaikrvtGvrPlgWrtgrdspntrrlvaeyggflyds 297
+                              + +l       ++     a+  + G+ P   r    s n+  l +  gg+ y  
+  sp|A0A1L3THR9|CDA_PESTX 106 LATLDAAGITSQMTQLETALTSILGKVPTYMRPPYFSTNALAL-STLGGLGYHV 158
+                              ****************************999977777777655.4566666655 PP
+
+>> sp|Q7N3Q8|ARND_PHOLL  Probable 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD OS=Photorhabdus l
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.1   0.0       6.5     7e+04     190     212 ..      16      38 ..      13      45 .. 0.81
+   2 ?   14.8   0.0   2.4e-05      0.26     221     302 ..      91     177 ..      81     190 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 6.5
+   Polysacc_deac_1.aln 190 sragvwrilrelekrklklsvfy 212
+                           +  gv ++l+ l k+++++s f+
+  sp|Q7N3Q8|ARND_PHOLL  16 TVEGVPKLLKILAKHQIQASFFF 38 
+                           5679999************9874 PP
+
+  == domain 2  score: 14.8 bits;  conditional E-value: 2.4e-05
+   Polysacc_deac_1.aln 221 PelarafvklGheiadhtyrhilytd....lanekvleelrltqkai.....krvtGvrPlgWrtgrdspntrrl.vaeyggflydsdy 299
+                            +l ++ +++Ghe+  h++ h+ ++      ++ +  e+++l+ +a+     +rvt     gWr      + r l v +  gf y+sd 
+  sp|Q7N3Q8|ARND_PHOLL  91 GYLMKQTLNAGHEVGLHAWDHQRWQAkvgrWSEAQLTEQVKLGVDALvqaigQRVTCSAVAGWR-----ADERVLaVKQQFGFDYNSDC 174
+                           5788999***************998622224566778899999988633335578888888898.....34444426677899999998 PP
+
+   Polysacc_deac_1.aln 300 ygd 302
+                            g 
+  sp|Q7N3Q8|ARND_PHOLL 175 RGT 177
+                           875 PP
+
+>> sp|B4ETL8|ARND_PROMH  Probable 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD OS=Proteus mirabi
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.7   0.0       9.7   1.1e+05     189     212 ..      15      38 ..      13      43 .. 0.82
+   2 ?   14.4   0.0   3.2e-05      0.35     219     302 ..      89     177 ..      79     204 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -3.7 bits;  conditional E-value: 9.7
+   Polysacc_deac_1.aln 189 gsragvwrilrelekrklklsvfy 212
+                           g++ g+ ++l  ++k+ +++s f+
+  sp|B4ETL8|ARND_PROMH  15 GTKEGIPQLLDVFNKHNIQASFFF 38 
+                           678899999999******999874 PP
+
+  == domain 2  score: 14.4 bits;  conditional E-value: 3.2e-05
+   Polysacc_deac_1.aln 219 rhPelarafvklGheiadhtyrhilytd....lanekvleelrltqkaikrvtGvrPlgWrt..grdspntrrlvaeyggflydsdyyg 301
+                           +  +l ++  ++Ghe+  h++ h+ ++      + e+ ++++rl+ +a+++   ++P++  +  g  + +   +v e   f y+sd  g
+  sp|B4ETL8|ARND_PROMH  89 NLGYLMKQTQDAGHEVGLHSWDHQGWQAkvgrWSTEELMQQVRLGVEALEKAL-EKPVKCSAvaGWRADERVLMVKEAFQFDYNSDCRG 176
+                           5678899999*************9888622225789999**********9854.55655433113334455556788889999999877 PP
+
+   Polysacc_deac_1.aln 302 d 302
+                            
+  sp|B4ETL8|ARND_PROMH 177 T 177
+                           5 PP
+
+>> sp|Q8D340|ARND_WIGBR  Probable 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD OS=Wigglesworthia
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0      0.95     1e+04     189     214 ..       2      28 ..       1      35 [. 0.77
+   2 ?   13.2   0.0   7.6e-05      0.82     217     306 ..      73     170 ..      56     188 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 0.95
+   Polysacc_deac_1.aln 189 gsragvwrilrelekrklklsvfy.vG 214
+                           g++ gv  +   l+k+k+k++ f+ vG
+  sp|Q8D340|ARND_WIGBR   2 GTKLGVPNLWEILNKKKIKATFFFtVG 28 
+                           5677888888889********874155 PP
+
+  == domain 2  score: 13.2 bits;  conditional E-value: 7.6e-05
+   Polysacc_deac_1.aln 217 vvrhPelarafvklGheiadhtyrhilytd...l.anekvleelrltqkaikr.....vtGvrPlgWrtgrdspntrrlvaeyggflyd 296
+                           + +  +   +     hei  h++ h  +++   + +++k ++++ l+++a++      vt     gWrt      + r + +   f y+
+  sp|Q8D340|ARND_WIGBR  73 IGKICKNEIKSASKDHEIGLHAWDHFSWQTwinMfSKKKIIKHINLGKNALQHiikypVTCFASPGWRTN---EYVLRTLKNNFNFSYN 158
+                           55555555555666799999998766666522242567899********988633334788888899954...4455556667789*** PP
+
+   Polysacc_deac_1.aln 297 sdyygddl..Pa 306
+                           sd  g +l  P+
+  sp|Q8D340|ARND_WIGBR 159 SDCRGSNLffPY 170
+                           ****99973344 PP
+
+>> sp|D4B5F9|PGDA_ARTBC  Probable peptidoglycan-N-acetylglucosamine deacetylase ARB_03699 OS=Arthroderma benhamiae (stra
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   0.0   2.1e-05      0.23     186     272 ..     160     245 ..     140     280 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 2.1e-05
+   Polysacc_deac_1.aln 186 yeygsragvwrilrelekrklklsvfyvGsa...vvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvt.Gvr 270
+                           y+y       ++l  ++ +  k+++f    +   +  +     +  + Gh+ia hty h  + +l     + e+    + +  +t G r
+  sp|D4B5F9|PGDA_ARTBC 160 YDY-----TNKLLDIFDANGAKATLFVNAQNfgsITDYSSVMLRAFNTGHQIASHTYDHADLSTLNGAGIISEMTKLDDVLATITnGYR 243
+                           666.....567888899999999999887763336778888889999*******************99999999888887777765666 PP
+
+   Polysacc_deac_1.aln 271 Pl 272
+                           P 
+  sp|D4B5F9|PGDA_ARTBC 244 PT 245
+                           65 PP
+
+>> sp|A8GDR8|ARND_SERP5  Probable 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD OS=Serratia prote
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.9   0.0       2.8     3e+04     189     214 ..      15      41 ..      12      48 .. 0.84
+   2 ?   13.1   0.1     8e-05      0.87     227     339 ..      97     207 ..      83     219 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 2.8
+   Polysacc_deac_1.aln 189 gsragvwrilrelekrklklsvfy.vG 214
+                           g+r gv ++l  ++k  +++s f+ vG
+  sp|A8GDR8|ARND_SERP5  15 GTREGVPQLLELFDKYNIQASFFFsVG 41 
+                           7899****************9874265 PP
+
+  == domain 2  score: 13.1 bits;  conditional E-value: 8e-05
+   Polysacc_deac_1.aln 227 fvklGheiadhtyrhilytd....lanekvleelrltqkaikrvtGvrPlgWr.tgrdspntrrl.vaeyggflydsdyygddlPafgd 309
+                             ++Ghe+  h++ h+ ++      ++ + +++++l+ +a+   tG+ P++   ++    +tr l v +  gf y+sd  g   P f  
+  sp|A8GDR8|ARND_SERP5  97 TAQAGHEVGLHAWDHQGWQAkvgrWSEAQLMQQVQLGVDALANSTGQ-PVKCSaVAGWRADTRVLeVKQRFGFHYNSDCRGTH-P-FRP 182
+                           6789***********99886222245667788999***********6.44333022333778887467789*******99975.3.455 PP
+
+   Polysacc_deac_1.aln 310 vdvrvrakvtqlyltivlytldtddmaaas 339
+                           v   +r    q+     + tl t d  ++s
+  sp|A8GDR8|ARND_SERP5 183 VLSDGRLGTVQI-----PVTLPTFDEVIGS 207
+                           555566655565.....5555555555555 PP
+
+>> sp|O07596|YHEN_BACSU  Putative polysaccharide deacetylase YheN OS=Bacillus subtilis (strain 168) OX=224308 GN=yheN PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.0   0.0   4.4e-05      0.47     180     271 ..      82     177 ..      37     230 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 14.0 bits;  conditional E-value: 4.4e-05
+   Polysacc_deac_1.aln 180 msmeaiy...eygsragvwrilrelekrklklsvfyvGsavvrhPelarafvklGheiadhtyrhil.ytdlanekvleelrltqkaik 264
+                           m  +++y   + g  a   r+l  l    +k++ f +   ++++ +  ++  k Gh +  h+  h   +   ++   l+e++ ++++++
+  sp|O07596|YHEN_BACSU  82 MGDKTVYltfDDGPSAVTTRLLDVLKSADVKATFFMLSPRMNEFKQAVKRAEKEGHALGLHGVTHNNrLFYQTPTSPLKEMQEARDTLQ 170
+                           5555554333778899999********************************************99742456689999999999999999 PP
+
+   Polysacc_deac_1.aln 265 rvtGvrP 271
+                            +tG + 
+  sp|O07596|YHEN_BACSU 171 DITGYKT 177
+                           9999764 PP
+
+>> sp|A1JPN1|ARND_YERE8  Probable 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD OS=Yersinia enter
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.8   0.0       2.6   2.8e+04     189     214 ..      15      41 ..      12      48 .. 0.82
+   2 ?   12.8   0.0   9.9e-05       1.1     223     302 ..      93     177 ..      83     207 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: -1.8 bits;  conditional E-value: 2.6
+   Polysacc_deac_1.aln 189 gsragvwrilrelekrklklsvfy.vG 214
+                           g++ gv  +l  lek+ + +s f+ vG
+  sp|A1JPN1|ARND_YERE8  15 GTKEGVPSLLAVLEKHDISASFFFsVG 41 
+                           6889999*************9874265 PP
+
+  == domain 2  score: 12.8 bits;  conditional E-value: 9.9e-05
+   Polysacc_deac_1.aln 223 larafvklGheiadhtyrhilyt....dlanekvleelrltqkaikr.....vtGvrPlgWrtgrdspntrrl.vaeyggflydsdyyg 301
+                           l +a +++Ghe+  h++ h+ ++    + ++++  e+++l+ +a++      vt     gWr+     + r l v +   f y+sd  g
+  sp|A1JPN1|ARND_YERE8  93 LMKATLQAGHEVGLHAWDHQGWQakvaTWSEQQLTEQVQLGIDALQHsiqqpVTCSAAAGWRA-----DERVLaVKQLFSFSYNSDCRG 176
+                           678999*************976632225667888899****9998643334599999999993.....333331556678899999877 PP
+
+   Polysacc_deac_1.aln 302 d 302
+                            
+  sp|A1JPN1|ARND_YERE8 177 T 177
+                           5 PP
+
+>> sp|D4AM78|CDA_ARTBC  Chitin deacetylase OS=Arthroderma benhamiae (strain ATCC MYA-4681 / CBS 112371) OX=663331 GN=CDA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.1   0.00036       3.9     196     272 ..     184     264 ..     160     297 .. 0.76
+   2 ?    0.6   0.0      0.49   5.3e+03     311     352 ..     274     312 ..     260     345 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00036
+  Polysacc_deac_1.aln 196 rilrelekrklklsvfyvGsa...vvrhPelarafvklGheiadhtyrhilytdlanekvleelrltqkaik.rvtGvrPl 272
+                           +l  + k+  k + f   ++   +  + +  +++ k Gh +  hty+h  + +l +   + e++   + +   + G+rP 
+  sp|D4AM78|CDA_ARTBC 184 PLLDIFAKNGAKGTFFVNAMNfgnIMDYADVIKRMYKEGHMLGSHTYSHADLSKLNSTGIALEMKKLDDILApIIDGNRPT 264
+                          467778889999999988886222667888899**********************99999999976555543145566665 PP
+
+  == domain 2  score: 0.6 bits;  conditional E-value: 0.49
+  Polysacc_deac_1.aln 311 dvrvrakvtqlyltivlytldtddmaaassktldevkatads 352
+                           ++v   ++ l   ++  ++dt+d+  a++ ++       ++
+  sp|D4AM78|CDA_ARTBC 274 SDTVSKTMAELKYHMIDANIDTKDYEHATPDGVP---ISVEN 312
+                          45677777888899999************99987...33333 PP
+
+>> sp|A8FRR1|ARND_SHESH  Probable 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD OS=Shewanella sed
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.0       3.8   4.1e+04     189     214 ..      20      46 ..      17      53 .. 0.83
+   2 ?   11.4   0.0   0.00026       2.8     227     303 ..     102     183 ..      92     190 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 3.8
+   Polysacc_deac_1.aln 189 gsragvwrilrelekrklklsvfy.vG 214
+                           g+r gv ++l  ++++ + +s f+ vG
+  sp|A8FRR1|ARND_SHESH  20 GTRLGVPKLLEIFQRHDISASFFFtVG 46 
+                           7899****************9874155 PP
+
+  == domain 2  score: 11.4 bits;  conditional E-value: 0.00026
+   Polysacc_deac_1.aln 227 fvklGheiadhtyrhilyt...d.lanekvleelrltqkaikrvtGv.rPlgWrtgrdspntrrlvaeyggflydsdyygdd 303
+                             ++Ghei  h++ h +++   d +++ +   e+  + + +  +tG+  P    +g  + ++     +  gf y+sd  g+ 
+  sp|A8FRR1|ARND_SHESH 102 ADDAGHEIGLHAWDHHKWQmktDvMTPAELHSEIDKGYQLLSTLTGKpIPCSAVAGWRCTDATLEQKQRFGFRYNSDCRGES 183
+                           5689*********875543222459999******************734665555555555555556677999999998876 PP
+
+>> sp|Q6B8X3|RR11_GRATL  Small ribosomal subunit protein uS11c OS=Gracilaria tenuistipitata var. liui OX=285951 GN=rps11
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.2   0.00013       1.4     421     483 ..       2      67 ..       1      85 [. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00013
+   Polysacc_deac_1.aln 421 arhmrityPyqennv..saaafgsaadestatftdatassasasaagtsdepgttv.iplaankaq 483
+                           ar +r+t+  q++n   +++ + s+ +++  t+td   s+ s s+ag+s   gt    p+aa+ a 
+  sp|Q6B8X3|RR11_GRATL   2 ARQIRKTHAKQKKNIinGITHIKSTFNNTLITITDLKGSTLSWSSAGASGFKGTKKgTPFAAQIAA 67 
+                           999***********644899999**************************99999642677766554 PP
+
+>> sp|Q4ZSZ1|ARND_PSEU2  Probable 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD OS=Pseudomonas sy
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.0   0.0      0.75   8.1e+03     189     214 ..      14      40 ..       9      48 .. 0.84
+   2 ?    8.7   0.0    0.0017        19     223     304 ..      92     178 ..      87     193 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 0.0 bits;  conditional E-value: 0.75
+   Polysacc_deac_1.aln 189 gsragvwrilrelekrklklsvfy.vG 214
+                           g+r gv r+l  l++ ++k++ f+ vG
+  sp|Q4ZSZ1|ARND_PSEU2  14 GTREGVPRLLDILDEAQVKATFFFsVG 40 
+                           799******************874266 PP
+
+  == domain 2  score: 8.7 bits;  conditional E-value: 0.0017
+   Polysacc_deac_1.aln 223 larafvklGheiadhtyrhilytdla....nekvleelrltqkaikrvtGvrPlgWrtgrdspntrrlv.a.eyggflydsdyygddl 304
+                           l r+ +++Ghei  h++ h  ++  a    + +  ++++ + + +  + G   +   ++      +r+v a e  gf y+sd  g  l
+  sp|Q4ZSZ1|ARND_PSEU2  92 LMRRALDAGHEIGLHAWDHHGWQANAghwsDRQLTAQIHRGVDCLSDILGHP-VVCSAAAGWRADQRVVqAkEAFGFRYNSDCRGASL 178
+                           568999************9988876522214455688899999998888853.33332333233344431326779999999888765 PP
+
+>> sp|Q9LZT3|ADF11_ARATH  Putative actin-depolymerizing factor 11 OS=Arabidopsis thaliana OX=3702 GN=ADF11 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   0.00037         4     222     285 ..      29      90 ..      19     105 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00037
+    Polysacc_deac_1.aln 222 elarafvklGheiadhtyrhilytdlanekvleelrltqkaikrvtGvrPlgWrtgrdspntrr 285
+                            +  +  v+  h    h+ r + y+++an   ++e r++   i+ v G+r + +     sp t +
+  sp|Q9LZT3|ADF11_ARATH  29 DNMQVIVEKHHYKKMHGEREQSYEEFANSLPADECRYAILDIEFVPGERKICFI--AWSPSTAK 90 
+                            5668889999999************************************99877..44555544 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (508 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     16214  (0.0282641); expected 11473.2 (0.02)
+Passed bias filter:                    12796  (0.0223059); expected 11473.2 (0.02)
+Passed Vit filter:                      1030  (0.00179549); expected 573.7 (0.001)
+Passed Fwd filter:                        57  (9.93618e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              53  [number of targets reported over threshold]
+# CPU time: 6.66u 0.22s 00:00:06.88 Elapsed: 00:00:01.84
+# Mc/sec: 57306.77
+//
+[ok]

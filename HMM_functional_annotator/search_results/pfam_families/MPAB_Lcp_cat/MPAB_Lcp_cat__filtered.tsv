@@ -1,0 +1,2 @@
+hmm	tlen	query	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+sp|Q3L8N0|LCP_STRK3	407	MPAB_Lcp_cat.aln	404	8e-220	734.5	1.7e-224	9e-220	734.3	1	403	1	406	1	407	1.0	1	1	1.004950495049505	0.9901719901719902	MPAB_Lcp_cat

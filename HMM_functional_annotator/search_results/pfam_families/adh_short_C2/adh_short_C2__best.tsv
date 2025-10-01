@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+adh_short_C2.aln	sp|O86034|BDHA_RHIME	258	260	1.1e-91	311.8	2.3e-94	1.2e-91	311.7	8	259	2	257	1	258	0.97	1	1	0.9846153846153847	0.9767441860465116	adh_short_C2

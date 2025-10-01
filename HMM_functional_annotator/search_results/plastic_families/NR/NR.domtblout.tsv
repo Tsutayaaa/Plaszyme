@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+sp|Q3L8N0|LCP_STRK3  -            407 NR.aln               -            414  4.4e-192  643.3   0.2   1   1  8.5e-198  4.9e-192  643.1   0.2     1   413     1   406     1   407 0.99 Rubber oxygenase OS=Streptomyces sp. (strain K30) OX=256642 GN=lcp PE=1 SV=2
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/NR.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/NR/NR.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/NR/NR.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/NR.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 12:57:14 2025
+# [ok]

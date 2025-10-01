@@ -1,0 +1,1467 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PBSeT.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/PBSeT/PBSeT.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/PBSeT/PBSeT.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PBSeT.aln  [M=316]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+    8.5e-88  299.5   7.2    9.8e-88  299.3   7.2    1.0  1  sp|A0A0K8P6T7|PETH_PISS1  Poly(ethylene terephthalate) hydrol
+      3e-83  284.6   0.7    3.7e-83  284.3   0.7    1.0  1  sp|Q9L2J6|BHETH_STRCO     Bis(hydroxyethyl) terephthalate hyd
+    3.3e-81  277.9   0.2    3.9e-81  277.6   0.2    1.0  1  sp|D4Q9N1|PETH1_THEAE     Cutinase est1 OS=Thermobifida alba 
+    4.9e-78  267.5   0.2    5.7e-78  267.3   0.2    1.0  1  sp|F7IX06|PETH2_THEAE     Cutinase est2 OS=Thermobifida alba 
+    9.5e-78  266.5   0.2    1.1e-77  266.3   0.2    1.0  1  sp|Q47RJ6|PETH2_THEFY     Cutinase OS=Thermobifida fusca (str
+    9.5e-78  266.5   0.2    1.1e-77  266.3   0.2    1.0  1  sp|Q6A0I4|PETH2_THEFU     Cutinase cut2 OS=Thermobifida fusca
+    1.6e-77  265.8   0.1    1.9e-77  265.6   0.1    1.0  1  sp|E9LVH8|PETH1_THECS     Cutinase 1 (Fragment) OS=Thermobifi
+    3.3e-76  261.5   0.1    3.9e-76  261.2   0.1    1.0  1  sp|G8GER6|PETH1_THEFU     Cutinase cut1 OS=Thermobifida fusca
+    3.3e-76  261.5   0.1    3.9e-76  261.2   0.1    1.0  1  sp|Q47RJ7|PETH1_THEFY     Cutinase OS=Thermobifida fusca (str
+    5.2e-76  260.8   0.1    6.2e-76  260.5   0.1    1.0  1  sp|E9LVH9|PETH2_THECS     Cutinase 2 (Fragment) OS=Thermobifi
+    1.6e-73  252.7   1.3    1.9e-73  252.4   1.3    1.0  1  sp|P0DX29|PETH1_AMYMS     Cutinase OS=Amycolatopsis mediterra
+      6e-72  247.5   1.5    8.3e-72  247.0   1.5    1.1  1  sp|G9BY57|PETH_UNKP       Leaf-branch compost cutinase OS=Unk
+    6.5e-71  244.1   0.7    9.6e-71  243.5   0.7    1.3  1  sp|P19833|LIP1_MORS1      Lipase 1 OS=Moraxella sp. (strain T
+    0.00036   24.8   0.0    0.00044   24.5   0.0    1.1  1  sp|F8QQ74|NAAC_BRASZ      Probable 2-oxo-3-(5-oxofuran-2-ylid
+     0.0081   20.3   0.7      0.072   17.2   0.1    2.2  2  sp|F0XS04|DAPB_GROCL      Probable dipeptidyl-aminopeptidase 
+  ------ inclusion threshold ------
+       0.01   20.0   0.2       0.35   15.0   0.0    2.1  2  sp|G2JHL6|AIDA_ACIBM      Quorum-quenching protein AidA OS=Ac
+      0.016   19.4   0.1      0.024   18.8   0.1    1.2  1  sp|A0A1W5T1Y7|POXO_PENOX  Hydrolyase poxO OS=Penicillium oxal
+      0.017   19.3   0.1       0.51   14.4   0.1    2.7  2  sp|P83006|PAFA2_RAT       Platelet-activating factor acetylhy
+       0.04   18.1   0.1      0.061   17.5   0.1    1.2  1  sp|S8ASK9|POXO_PENO1      Hydrolyase poxO OS=Penicillium oxal
+      0.044   17.9   0.1       0.61   14.2   0.1    2.5  2  sp|Q8VDG7|PAFA2_MOUSE     Platelet-activating factor acetylhy
+      0.058   17.5   0.0       0.08   17.1   0.0    1.1  1  sp|Q9WXP3|NTPTH_THEMA     Nucleoside-triphosphatase THEP1 OS=
+      0.086   17.0   0.2         16    9.5   0.0    2.2  2  sp|P29715|BPOA2_KITAU     Non-haem bromoperoxidase BPO-A2 OS=
+      0.089   16.9   0.0       0.12   16.5   0.0    1.1  1  sp|B1LAB2|NTPTH_THESQ     Nucleoside-triphosphatase THEP1 OS=
+      0.096   16.8   0.0       0.17   16.0   0.0    1.3  1  sp|Q18253|DPF2_CAEEL      Dipeptidyl peptidase family member 
+       0.11   16.6   0.0       0.17   16.0   0.0    1.2  1  sp|Q0V6Q1|PHMG_PHANO      Hydrolase phmG OS=Phaeosphaeria nod
+       0.12   16.5   0.0       0.17   16.0   0.0    1.2  1  sp|A0A7L8UVC6|FFSE_ASPFV  Hydrolase ffsE OS=Aspergillus flavi
+       0.14   16.3   0.0       0.14   16.3   0.0    1.0  1  sp|Q37885|SSB_BPB03       Single-stranded DNA-binding protein
+       0.18   15.9   0.0        1.7   12.7   0.0    2.0  2  sp|Q99487|PAFA2_HUMAN     Platelet-activating factor acetylhy
+        0.2   15.8   0.1         33    8.5   0.0    2.1  2  sp|Q99390|YPT2_ECOLX      Uncharacterized 31.7 kDa protein in
+       0.23   15.5   0.0       0.35   15.0   0.0    1.2  1  sp|G4MVZ4|ORFZB_PYRO7     Hydrolase ORFZ OS=Pyricularia oryza
+       0.27   15.3   0.1         16    9.5   0.0    2.1  2  sp|O31168|PRXC_KITAU      Non-heme chloroperoxidase OS=Kitasa
+       0.36   14.9   0.0       0.65   14.1   0.0    1.5  1  sp|A0A6J4B4M6|LUC6_FUSSX  Hydrolase LUC6 OS=Fusarium sp. OX=2
+       0.46   14.6   0.4       0.52   14.4   0.4    1.1  1  sp|O28434|Y1844_ARCFU     Uncharacterized protein AF_1844 OS=
+       0.46   14.6   0.0       0.63   14.1   0.0    1.1  1  sp|A5IL32|NTPTH_THEP1     Nucleoside-triphosphatase THEP1 OS=
+       0.51   14.4   0.0         29    8.7   0.0    2.2  2  sp|Q28262|PAFA_CANLF      Platelet-activating factor acetylhy
+       0.59   14.2   0.0          1   13.4   0.0    1.4  1  sp|P9WEZ7|ACRC_ASPA1      Hydrolase acrC OS=Aspergillus acule
+       0.61   14.2   0.1        1.1   13.3   0.1    1.4  1  sp|P76049|YCJY_ECOLI      Uncharacterized protein YcjY OS=Esc
+       0.63   14.1   0.0       0.96   13.5   0.0    1.2  1  sp|A1CLZ0|CCSE_ASPCL      Hydrolyase ccsE OS=Aspergillus clav
+       0.65   14.1   0.0        1.1   13.3   0.0    1.3  1  sp|Q65UC1|SSTT_MANSM      Serine/threonine transporter SstT O
+       0.69   14.0   0.1    1.2e+02    6.7   0.0    2.1  2  sp|P29368|YPT1_ECOLX      Uncharacterized 31.7 kDa protein in
+       0.76   13.9   0.3        1.3   13.1   0.3    1.3  1  sp|Q7MUW6|PTP_PORGI       Prolyl tripeptidyl peptidase OS=Por
+       0.77   13.8   0.5        2.2   12.4   0.0    1.9  1  sp|E9ETL5|DAPB_METRA      Probable dipeptidyl-aminopeptidase 
+       0.78   13.8   0.3        1.3   13.1   0.3    1.2  1  sp|B2RJX3|PTP_PORG3       Prolyl tripeptidyl peptidase OS=Por
+       0.82   13.8   0.1        1.5   12.9   0.1    1.3  1  sp|A4QYQ5|DAPB_PYRO7      Probable dipeptidyl-aminopeptidase 
+       0.88   13.6   0.0    2.3e+02    5.7   0.0    2.4  2  sp|P39839|YUXL_BACSU      Uncharacterized peptidase YuxL OS=B
+       0.98   13.5   0.0        2.3   12.3   0.0    1.5  1  sp|E9ED72|DAPB_METAQ      Probable dipeptidyl-aminopeptidase 
+          1   13.4   0.0         15    9.6   0.0    2.1  2  sp|P70683|PAFA_CAVPO      Platelet-activating factor acetylhy
+          1   13.4   0.0          1   13.4   0.0    1.0  1  sp|Q9MCD1|SSB_BPNF        Single-stranded DNA-binding protein
+        1.1   13.4   0.1        4.1   11.4   0.1    1.8  1  sp|O64252|PRXH_BPMD2      Putative non-heme haloperoxidase OS
+        1.1   13.3   0.0        2.1   12.4   0.0    1.4  1  sp|A0KL02|SSTT_AERHH      Serine/threonine transporter SstT O
+        1.2   13.2   0.0        1.9   12.5   0.0    1.4  1  sp|Q1QTI8|SSTT_CHRSD      Serine/threonine transporter SstT O
+        1.2   13.2   0.1        1.8   12.6   0.1    1.4  1  sp|Q94LX1|CLH1_CITUN      Chlorophyllase-1, chloroplastic OS=
+        1.2   13.2   0.1        1.7   12.8   0.1    1.3  1  sp|Q9MV14|CLH1_CITSI      Chlorophyllase-1, chloroplastic OS=
+        1.2   13.2   0.0        1.9   12.5   0.0    1.2  1  sp|A0A8F4NU75|GKAG_PENCI  Alpha/beta hydrolase gkaG OS=Penici
+        1.3   13.1   0.0        2.5   12.2   0.0    1.4  1  sp|B6HFS8|DAPB_PENRW      Probable dipeptidyl-aminopeptidase 
+        1.3   13.1   0.1         60    7.6   0.0    2.2  2  sp|P18962|DAP2_YEAST      Dipeptidyl aminopeptidase B OS=Sacc
+        1.4   13.0   0.0        2.3   12.3   0.0    1.3  1  sp|Q5B934|DAPB_EMENI      Probable dipeptidyl-aminopeptidase 
+        1.4   13.0   0.0        2.5   12.2   0.0    1.3  1  sp|A0A8F4NUL3|PYDG_ACRSP  Alpha/beta hydrolase pydG OS=Acremo
+        1.7   12.7   0.0          3   11.9   0.0    1.4  1  sp|A0A4P8W7Y2|PYIE_PYRGI  Hydrolase pyiE OS=Pyricularia grise
+        1.7   12.7   0.0        2.7   12.1   0.0    1.2  1  sp|Q4WAZ8|PSOB_ASPFU      Alpha/beta hydrolase psoB OS=Asperg
+          2   12.5   0.0        4.9   11.2   0.0    1.7  1  sp|P79106|PAFA2_BOVIN     Platelet-activating factor acetylhy
+        2.3   12.3   0.1        4.9   11.2   0.0    1.5  1  sp|Q49SP7|TPSCS_POGCB     Gamma-curcumene synthase OS=Pogoste
+        2.4   12.2   0.0        5.2   11.1   0.0    1.6  1  sp|C7YYG9|DAPB_FUSV7      Probable dipeptidyl-aminopeptidase 
+        2.7   12.0   0.0        5.1   11.1   0.0    1.4  1  sp|E3S9K3|DAPB_PYRTT      Probable dipeptidyl-aminopeptidase 
+        3.3   11.8   0.1        5.8   11.0   0.1    1.4  1  sp|B1JAB5|SSTT_PSEPW      Serine/threonine transporter SstT O
+        3.5   11.7   0.1        5.9   10.9   0.1    1.2  1  sp|D5GM60|DAPB_TUBMM      Probable dipeptidyl-aminopeptidase 
+        4.4   11.4   0.0        8.5   10.4   0.0    1.4  1  sp|Q6F3I7|DAP4_PSEMX      Dipeptidyl aminopeptidase 4 OS=Pseu
+        4.8   11.2   0.0         22    9.1   0.0    1.9  2  sp|P82597|MGLP_BAC25      Thermostable monoacylglycerol lipas
+        4.9   11.2   0.0        7.3   10.6   0.0    1.2  1  sp|A0RJP1|EZRA_BACAH      Septation ring formation regulator 
+        4.9   11.2   0.0        7.3   10.6   0.0    1.2  1  sp|B7JS25|EZRA_BACC0      Septation ring formation regulator 
+        4.9   11.2   0.0        7.3   10.6   0.0    1.2  1  sp|C1EUZ7|EZRA_BACC3      Septation ring formation regulator 
+        4.9   11.2   0.0        7.3   10.6   0.0    1.2  1  sp|C3L9V6|EZRA_BACAC      Septation ring formation regulator 
+        4.9   11.2   0.0        7.3   10.6   0.0    1.2  1  sp|C3PBB5|EZRA_BACAA      Septation ring formation regulator 
+        4.9   11.2   0.0        7.3   10.6   0.0    1.2  1  sp|Q633E6|EZRA_BACCZ      Septation ring formation regulator 
+        4.9   11.2   0.0        7.3   10.6   0.0    1.2  1  sp|Q81KT8|EZRA_BACAN      Septation ring formation regulator 
+          5   11.2   0.0        7.2   10.7   0.0    1.2  1  sp|B7HSI6|EZRA_BACC7      Septation ring formation regulator 
+          5   11.2   0.0        7.2   10.7   0.0    1.2  1  sp|B9J153|EZRA_BACCQ      Septation ring formation regulator 
+          5   11.2   0.0        7.2   10.7   0.0    1.2  1  sp|Q6HCM8|EZRA_BACHK      Septation ring formation regulator 
+          5   11.2   0.0        7.3   10.6   0.0    1.2  1  sp|Q72Z83|EZRA_BACC1      Septation ring formation regulator 
+        5.1   11.1   0.0        7.3   10.6   0.0    1.2  1  sp|Q817A9|EZRA_BACCR      Septation ring formation regulator 
+        5.1   11.1   0.0        7.3   10.6   0.0    1.2  1  sp|B7H705|EZRA_BACC4      Septation ring formation regulator 
+        5.1   11.1   0.0          8   10.5   0.0    1.2  1  sp|A0LLU6|AROA_SYNFM      3-phosphoshikimate 1-carboxyvinyltr
+        5.2   11.1   0.0        7.8   10.5   0.0    1.3  1  sp|W7N6P0|FUS2_GIBM7      20-hydroxy-prefusarin hydrolase FUS
+        6.9   10.7   0.0        9.1   10.3   0.0    1.3  1  sp|P70948|YITV_BACSU      Putative esterase YitV OS=Bacillus 
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|A0A0K8P6T7|PETH_PISS1  Poly(ethylene terephthalate) hydrolase OS=Piscinibacter sakaiensis OX=1547922 GN=ISF6_4831 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  299.3   7.2   1.4e-91   9.8e-88      48     312 ..      30     286 ..      10     290 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 299.3 bits;  conditional E-value: 1.4e-91
+                 PBSeT.aln  48 cgyergpdpsvslleassgpysvrtdnvsslvrgfgggtvhyptnttgtmaavvvipgfvsaessiewwgpklasygfvvmtidt 132
+                                 y rgp+p+ + leas+gp++vr+  vs   +g+g gtv+yptn+ gt+ a+ ++pg+ + +ssi+wwgp+las+gfvv+tidt
+  sp|A0A0K8P6T7|PETH_PISS1  30 NPYARGPNPTAASLEASAGPFTVRSFTVSR-PSGYGAGTVYYPTNAGGTVGAIAIVPGYTARQSSIKWWGPRLASHGFVVITIDT 113
+                               469*********************999975.68**************************************************** PP
+
+                 PBSeT.aln 133 nsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapwdssslrfrsietp 216
+                               ns +dqp+sr+sq   al  +   n++s+spi g +dt r+gv+gwsmgggg+l  aa+   ++aa p apwdss ++f s+  p
+  sp|A0A0K8P6T7|PETH_PISS1 114 NSTLDQPSSRSSQQMAALRQVASLNGTSSSPIYGKVDTARMGVMGWSMGGGGSLISAANnPSLKAAAPQAPWDSS-TNFSSVTVP 197
+                               *****************************************************9877751689**********75.78******* PP
+
+                 PBSeT.aln 217 tlifacesdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhldkdqrynqflcgpdh 301
+                               tliface+d+iapv+s a p+y+++    +k f+e+++gsh can     gns +  +++ gv+wmk  +d+d ry  f c    
+  sp|A0A0K8P6T7|PETH_PISS1 198 TLIFACENDSIAPVNSSALPIYDSMSR-NAKQFLEINGGSHSCANS----GNSNQALIGKKGVAWMKRFMDNDTRYSTFACEN-- 275
+                               ************************975.6899**************....*******************************63.. PP
+
+                 PBSeT.aln 302 ederriseyrg 312
+                                +  r+s++r 
+  sp|A0A0K8P6T7|PETH_PISS1 276 PNSTRVSDFRT 286
+                               45678888885 PP
+
+>> sp|Q9L2J6|BHETH_STRCO  Bis(hydroxyethyl) terephthalate hydrolase OS=Streptomyces coelicolor (strain ATCC BAA-471 / A3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  284.3   0.7   5.4e-87   3.7e-83      36     316 .]      39     308 ..      19     308 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 284.3 bits;  conditional E-value: 5.4e-87
+              PBSeT.aln  36 gndggdggceadcgyergpdpsvslleassgpysvrtdnvssl.vrgfgggtvhyptntt.gtmaavvvipgfvsaessiewwgpkla 121
+                            g   g g   ad  yergp p+ s +ea  gpysv    vssl v+gfgggt++ypt+t+ gt+ avv+ pgf + +ssi+w gp+la
+  sp|Q9L2J6|BHETH_STRCO  39 GTLTGPGAQAADNPYERGPAPTESSIEALRGPYSVADTSVSSLaVTGFGGGTIYYPTSTSdGTFGAVVIAPGFTAYQSSIAWLGPRLA 126
+                            4557889999**************************999999649************99659************************** PP
+
+              PBSeT.aln 122 sygfvvmtidtnsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaa.egrvsaaiplapwdsssl 208
+                            s gfvv+tidtn+ +dqp sr  ql  aldyl       rs + g id+ rlgv+g smggggtl  a     ++aaipl+pw+    
+  sp|Q9L2J6|BHETH_STRCO 127 SQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLT-----GRSSVRGRIDSGRLGVMGHSMGGGGTLEAAKsRPSLQAAIPLTPWNLDK- 208
+                            *******************************95.....67899**********************988515689*********9865. PP
+
+              PBSeT.aln 209 rfrsietptlifacesdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhldkdqrynqfl 296
+                             + ++ tptl+  ++ d+iapv sha+pfy  +p std+a++el+n +h+  n         n  +++  +sw+k  +d+d ry+qfl
+  sp|Q9L2J6|BHETH_STRCO 209 SWPEVSTPTLVVGADGDTIAPVASHAEPFYSGLPSSTDRAYLELNNATHFSPNT-------SNTTIAKYSISWLKRFIDDDTRYEQFL 289
+                            5899**********************************************9998.......58899********************** PP
+
+              PBSeT.aln 297 cgpdhederriseyrgtcpy 316
+                            c p      +i eyrg cp+
+  sp|Q9L2J6|BHETH_STRCO 290 C-PLPRPSLTIEEYRGNCPH 308
+                            *.55667899********95 PP
+
+>> sp|D4Q9N1|PETH1_THEAE  Cutinase est1 OS=Thermobifida alba OX=53522 GN=est1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  277.6   0.2   5.7e-85   3.9e-81      42     316 .]      31     296 .]       7     296 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 277.6 bits;  conditional E-value: 5.7e-85
+              PBSeT.aln  42 ggceadcgyergpdpsvslleassgpysvrtdnvssl.vrgfgggtvhyptnttgtmaavvvipgfvsaessiewwgpklasygfvvm 128
+                              ++a   yergp+p+ s+lea sgp+sv  +  s l   gfgggt++yp +   t  a+ + pg+  ++ssi+w g ++as+gfvv+
+  sp|D4Q9N1|PETH1_THEAE  31 APAQAANPYERGPNPTESMLEARSGPFSVSEERASRLgADGFGGGTIYYPREN-NTYGAIAISPGYTGTQSSIAWLGERIASHGFVVI 117
+                            45677788***********************999987468**********875.6899****************************** PP
+
+              PBSeT.aln 129 tidtnsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapwdssslrfrsiet 215
+                            +idtn+ +dqp sra qln aldy+l + +ss   +   id+ rl v+g smggggtlr+a++   ++aaipl+pw      +r+i  
+  sp|D4Q9N1|PETH1_THEAE 118 AIDTNTTLDQPDSRARQLNAALDYMLTDASSS---VRNRIDASRLAVMGHSMGGGGTLRLASQrPDLKAAIPLTPWHLN-KSWRDITV 201
+                            **************************875444...6678*********************987258**********976.569***** PP
+
+              PBSeT.aln 216 ptlifacesdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhldkdqrynqflc.gpdhe 302
+                            ptli+ ++ d+iapv+sh++pfy++ip stdka++el+n +h++ n         n+ ++   v+w+k  +d+d ry qflc gp   
+  sp|D4Q9N1|PETH1_THEAE 202 PTLIIGADLDTIAPVSSHSEPFYNSIPSSTDKAYLELNNATHFAPNI-------TNKTIGMYSVAWLKRFVDEDTRYTQFLCpGPRTG 282
+                            *******************************************9998.......7999************************889999 PP
+
+              PBSeT.aln 303 derriseyrgtcpy 316
+                                + eyr tcp+
+  sp|D4Q9N1|PETH1_THEAE 283 LLSDVDEYRSTCPF 296
+                            999**********7 PP
+
+>> sp|F7IX06|PETH2_THEAE  Cutinase est2 OS=Thermobifida alba OX=53522 GN=est2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  267.3   0.2   8.3e-82   5.7e-78      45     316 .]      38     300 .]      10     300 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 267.3 bits;  conditional E-value: 8.3e-82
+              PBSeT.aln  45 eadcgyergpdpsvslleassgpysvrtdnvssl.vrgfgggtvhyptnttgtmaavvvipgfvsaessiewwgpklasygfvvmtid 131
+                            +a   yergp+p+ s+lea sgp+sv  +  s     gfgggt++yp +   t  a+ + pg+  ++ssi+w g ++as+gfvv++id
+  sp|F7IX06|PETH2_THEAE  38 QAANPYERGPNPTESMLEARSGPFSVSEERASRFgADGFGGGTIYYPREN-NTYGAIAISPGYTGTQSSIAWLGERIASHGFVVIAID 124
+                            56678**********************9999975378**********875.6899********************************* PP
+
+              PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapwdssslrfrsietptl 218
+                            tn+ +dqp sra qln aldy+l +    +s +   id+ rl v+g smggggtlr+a++   ++aaipl+pw      +r+i  ptl
+  sp|F7IX06|PETH2_THEAE 125 TNTTLDQPDSRARQLNAALDYMLTDA---SSAVRNRIDASRLAVMGHSMGGGGTLRLASQrPDLKAAIPLTPWHLN-KSWRDITVPTL 208
+                            ***********************864...4668889*********************987258**********976.569******** PP
+
+              PBSeT.aln 219 ifacesdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhldkdqrynqflc.gpdheder 305
+                            i+ +e d+ia v+ h+ pfy++ip  tdka++eld+ sh++ n         n+ ++   v+w+k  +d+d ry qflc gp      
+  sp|F7IX06|PETH2_THEAE 209 IIGAEYDTIASVTLHSKPFYNSIPSPTDKAYLELDGASHFAPNI-------TNKTIGMYSVAWLKRFVDEDTRYTQFLCpGPRTGLLS 289
+                            ****************************************9998.......7999************************889999999 PP
+
+              PBSeT.aln 306 riseyrgtcpy 316
+                             + eyr tcp+
+  sp|F7IX06|PETH2_THEAE 290 DVEEYRSTCPF 300
+                            **********7 PP
+
+>> sp|Q47RJ6|PETH2_THEFY  Cutinase OS=Thermobifida fusca (strain YX) OX=269800 GN=TfH PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  266.3   0.2   1.6e-81   1.1e-77      45     316 .]      39     301 .]      10     301 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 266.3 bits;  conditional E-value: 1.6e-81
+              PBSeT.aln  45 eadcgyergpdpsvslleassgpysvrtdnvssl.vrgfgggtvhyptnttgtmaavvvipgfvsaessiewwgpklasygfvvmtid 131
+                            +a   yergp+p+ +lleassgp+sv  +nvs l  +gfgggt++yp +   t  av + pg+  +e+si+w g ++as+gfvv+tid
+  sp|Q47RJ6|PETH2_THEFY  39 HAANPYERGPNPTDALLEASSGPFSVSEENVSRLsASGFGGGTIYYPREN-NTYGAVAISPGYTGTEASIAWLGERIASHGFVVITID 125
+                            55667***************************85278**********875.68999******************************** PP
+
+              PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapwdssslrfrsietptl 218
+                            t + +dqp sra qln al++++++    +s +   id+ rl v+g smggggtlr+a++   ++aaipl+pw     ++ s+  ptl
+  sp|Q47RJ6|PETH2_THEFY 126 TITTLDQPDSRAEQLNAALNHMINRA---SSTVRSRIDSSRLAVMGHSMGGGGTLRLASQrPDLKAAIPLTPWHLN-KNWSSVTVPTL 209
+                            ***********************864...5678899*********************987258**********975.689******** PP
+
+              PBSeT.aln 219 ifacesdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhldkdqrynqflc.gpdheder 305
+                            i+ ++ d+iapv +ha pfy+++p s +ka++eld+ +h++ n         n+++++  v+w+k  +d+d ry qflc gp      
+  sp|Q47RJ6|PETH2_THEFY 210 IIGADLDTIAPVATHAKPFYNSLPSSISKAYLELDGATHFAPNI-------PNKIIGKYSVAWLKRFVDNDTRYTQFLCpGPRDGLFG 290
+                            ****************************************9998.......799*************************888888889 PP
+
+              PBSeT.aln 306 riseyrgtcpy 316
+                            ++ eyr tcp+
+  sp|Q47RJ6|PETH2_THEFY 291 EVEEYRSTCPF 301
+                            9*********7 PP
+
+>> sp|Q6A0I4|PETH2_THEFU  Cutinase cut2 OS=Thermobifida fusca OX=2021 GN=cut2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  266.3   0.2   1.6e-81   1.1e-77      45     316 .]      39     301 .]      10     301 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 266.3 bits;  conditional E-value: 1.6e-81
+              PBSeT.aln  45 eadcgyergpdpsvslleassgpysvrtdnvssl.vrgfgggtvhyptnttgtmaavvvipgfvsaessiewwgpklasygfvvmtid 131
+                            +a   yergp+p+ +lleassgp+sv  +nvs l  +gfgggt++yp +   t  av + pg+  +e+si+w g ++as+gfvv+tid
+  sp|Q6A0I4|PETH2_THEFU  39 HAANPYERGPNPTDALLEASSGPFSVSEENVSRLsASGFGGGTIYYPREN-NTYGAVAISPGYTGTEASIAWLGERIASHGFVVITID 125
+                            55667***************************85278**********875.68999******************************** PP
+
+              PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapwdssslrfrsietptl 218
+                            t + +dqp sra qln al++++++    +s +   id+ rl v+g smggggtlr+a++   ++aaipl+pw     ++ s+  ptl
+  sp|Q6A0I4|PETH2_THEFU 126 TITTLDQPDSRAEQLNAALNHMINRA---SSTVRSRIDSSRLAVMGHSMGGGGTLRLASQrPDLKAAIPLTPWHLN-KNWSSVTVPTL 209
+                            ***********************864...5678899*********************987258**********975.689******** PP
+
+              PBSeT.aln 219 ifacesdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhldkdqrynqflc.gpdheder 305
+                            i+ ++ d+iapv +ha pfy+++p s +ka++eld+ +h++ n         n+++++  v+w+k  +d+d ry qflc gp      
+  sp|Q6A0I4|PETH2_THEFU 210 IIGADLDTIAPVATHAKPFYNSLPSSISKAYLELDGATHFAPNI-------PNKIIGKYSVAWLKRFVDNDTRYTQFLCpGPRDGLFG 290
+                            ****************************************9998.......799*************************888888889 PP
+
+              PBSeT.aln 306 riseyrgtcpy 316
+                            ++ eyr tcp+
+  sp|Q6A0I4|PETH2_THEFU 291 EVEEYRSTCPF 301
+                            9*********7 PP
+
+>> sp|E9LVH8|PETH1_THECS  Cutinase 1 (Fragment) OS=Thermobifida cellulosilytica OX=144786 GN=cut1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  265.6   0.1   2.7e-81   1.9e-77      50     316 .]       5     262 .]       2     262 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 265.6 bits;  conditional E-value: 2.7e-81
+              PBSeT.aln  50 yergpdpsvslleassgpysvrtdnvssl.vrgfgggtvhyptnttgtmaavvvipgfvsaessiewwgpklasygfvvmtidtnsgf 136
+                            yergp+p+ +lleassgp+sv  +nvs l  +gfgggt++yp +   t  av + pg+  +e+si+w g ++as+gfvv+tidt + +
+  sp|E9LVH8|PETH1_THECS   5 YERGPNPTDALLEASSGPFSVSEENVSRLsASGFGGGTIYYPREN-NTYGAVAISPGYTGTEASIAWLGERIASHGFVVITIDTITTL 91 
+                            9**************************85278**********875.68999************************************* PP
+
+              PBSeT.aln 137 dqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapwdssslrfrsietptliface 223
+                            dqp sra qln al++++++    +s +   id+ rl v+g smggggtlr+a++   ++aaipl+pw     ++ s+  ptli+ ++
+  sp|E9LVH8|PETH1_THECS  92 DQPDSRAEQLNAALNHMINRA---SSTVRSRIDSSRLAVMGHSMGGGGTLRLASQrPDLKAAIPLTPWHLN-KNWSSVTVPTLIIGAD 175
+                            ******************864...5678899*********************987258**********975.689************* PP
+
+              PBSeT.aln 224 sdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhldkdqrynqflc.gpdhederrisey 310
+                             d+iapv +ha pfy+++p s +ka++eld+ +h++ n         n+++++  v+w+k  +d+d ry qflc gp      ++ ey
+  sp|E9LVH8|PETH1_THECS 176 LDTIAPVATHAKPFYNSLPSSISKAYLELDGATHFAPNI-------PNKIIGKYSVAWLKRFVDNDTRYTQFLCpGPRDGLFGEVEEY 256
+                            ***********************************9998.......799*************************8888888899**** PP
+
+              PBSeT.aln 311 rgtcpy 316
+                            r tcp+
+  sp|E9LVH8|PETH1_THECS 257 RSTCPF 262
+                            *****7 PP
+
+>> sp|G8GER6|PETH1_THEFU  Cutinase cut1 OS=Thermobifida fusca OX=2021 GN=cut_1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  261.2   0.1   5.7e-80   3.9e-76      45     316 .]      57     319 .]      25     319 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 261.2 bits;  conditional E-value: 5.7e-80
+              PBSeT.aln  45 eadcgyergpdpsvslleassgpysvrtdnvssl.vrgfgggtvhyptnttgtmaavvvipgfvsaessiewwgpklasygfvvmtid 131
+                            +a   yergp+p+ +llea sgp+sv  +  s     gfgggt++yp +   t  av + pg+  +++s++w g ++as+gfvv+tid
+  sp|G8GER6|PETH1_THEFU  57 HAANPYERGPNPTDALLEARSGPFSVSEERASRFgADGFGGGTIYYPREN-NTYGAVAISPGYTGTQASVAWLGERIASHGFVVITID 143
+                            56678**********************9999975378**********875.68999******************************** PP
+
+              PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapwdssslrfrsietptl 218
+                            tn+ +dqp sra qln aldy++++    +s +   id+ rl v+g smggggtlr+a++   ++aaipl+pw     ++ s+  ptl
+  sp|G8GER6|PETH1_THEFU 144 TNTTLDQPDSRARQLNAALDYMINDA---SSAVRSRIDSSRLAVMGHSMGGGGTLRLASQrPDLKAAIPLTPWHLN-KNWSSVRVPTL 227
+                            ***********************654...4567889*********************987258**********975.689******** PP
+
+              PBSeT.aln 219 ifacesdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhldkdqrynqflc.gpdheder 305
+                            i+ ++ d+iapv +ha pfy+++p s +ka++eld+ +h++ n         n+++++  v+w+k  +d+d ry qflc gp      
+  sp|G8GER6|PETH1_THEFU 228 IIGADLDTIAPVLTHARPFYNSLPTSISKAYLELDGATHFAPNI-------PNKIIGKYSVAWLKRFVDNDTRYTQFLCpGPRDGLFG 308
+                            ****************************************9998.......799*************************888888889 PP
+
+              PBSeT.aln 306 riseyrgtcpy 316
+                            ++ eyr tcp+
+  sp|G8GER6|PETH1_THEFU 309 EVEEYRSTCPF 319
+                            9*********7 PP
+
+>> sp|Q47RJ7|PETH1_THEFY  Cutinase OS=Thermobifida fusca (strain YX) OX=269800 GN=Tfu_0882 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  261.2   0.1   5.7e-80   3.9e-76      45     316 .]      57     319 .]      25     319 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 261.2 bits;  conditional E-value: 5.7e-80
+              PBSeT.aln  45 eadcgyergpdpsvslleassgpysvrtdnvssl.vrgfgggtvhyptnttgtmaavvvipgfvsaessiewwgpklasygfvvmtid 131
+                            +a   yergp+p+ +llea sgp+sv  +  s     gfgggt++yp +   t  av + pg+  +++s++w g ++as+gfvv+tid
+  sp|Q47RJ7|PETH1_THEFY  57 HAANPYERGPNPTDALLEARSGPFSVSEERASRFgADGFGGGTIYYPREN-NTYGAVAISPGYTGTQASVAWLGERIASHGFVVITID 143
+                            56678**********************9999975378**********875.68999******************************** PP
+
+              PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapwdssslrfrsietptl 218
+                            tn+ +dqp sra qln aldy++++    +s +   id+ rl v+g smggggtlr+a++   ++aaipl+pw     ++ s+  ptl
+  sp|Q47RJ7|PETH1_THEFY 144 TNTTLDQPDSRARQLNAALDYMINDA---SSAVRSRIDSSRLAVMGHSMGGGGTLRLASQrPDLKAAIPLTPWHLN-KNWSSVRVPTL 227
+                            ***********************654...4567889*********************987258**********975.689******** PP
+
+              PBSeT.aln 219 ifacesdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhldkdqrynqflc.gpdheder 305
+                            i+ ++ d+iapv +ha pfy+++p s +ka++eld+ +h++ n         n+++++  v+w+k  +d+d ry qflc gp      
+  sp|Q47RJ7|PETH1_THEFY 228 IIGADLDTIAPVLTHARPFYNSLPTSISKAYLELDGATHFAPNI-------PNKIIGKYSVAWLKRFVDNDTRYTQFLCpGPRDGLFG 308
+                            ****************************************9998.......799*************************888888889 PP
+
+              PBSeT.aln 306 riseyrgtcpy 316
+                            ++ eyr tcp+
+  sp|Q47RJ7|PETH1_THEFY 309 EVEEYRSTCPF 319
+                            9*********7 PP
+
+>> sp|E9LVH9|PETH2_THECS  Cutinase 2 (Fragment) OS=Thermobifida cellulosilytica OX=144786 GN=cut2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  260.5   0.1   9.1e-80   6.2e-76      50     316 .]       5     262 .]       2     262 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 260.5 bits;  conditional E-value: 9.1e-80
+              PBSeT.aln  50 yergpdpsvslleassgpysvrtdnvssl.vrgfgggtvhyptnttgtmaavvvipgfvsaessiewwgpklasygfvvmtidtnsgf 136
+                            yergp+p+ +llea sgp+sv  +  s     gfgggt++yp +   t  av + pg+  +++s++w g ++as+gfvv+tidtn+ +
+  sp|E9LVH9|PETH2_THECS   5 YERGPNPTDALLEARSGPFSVSEERASRFgADGFGGGTIYYPREN-NTYGAVAISPGYTGTQASVAWLGERIASHGFVVITIDTNTTL 91 
+                            9*********************9999975378**********875.68999************************************* PP
+
+              PBSeT.aln 137 dqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapwdssslrfrsietptliface 223
+                            dqp sra qln aldy++++    +s +   id+ rl v+g smggggtlr+a++   ++aaipl+pw     ++ s+  ptli+ ++
+  sp|E9LVH9|PETH2_THECS  92 DQPDSRARQLNAALDYMINDA---SSAVRSRIDSSRLAVMGHSMGGGGTLRLASQrPDLKAAIPLTPWHLN-KNWSSVRVPTLIIGAD 175
+                            ******************654...4567889*********************987258**********975.689************* PP
+
+              PBSeT.aln 224 sdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhldkdqrynqflc.gpdhederrisey 310
+                             d+iapv +ha pfy+++p s +ka++eld+ +h++ n         n+++++  v+w+k  +d+d ry qflc gp      ++ ey
+  sp|E9LVH9|PETH2_THECS 176 LDTIAPVLTHARPFYNSLPTSISKAYLELDGATHFAPNI-------PNKIIGKYSVAWLKRFVDNDTRYTQFLCpGPRDGLFGEVEEY 256
+                            ***********************************9998.......799*************************8888888899**** PP
+
+              PBSeT.aln 311 rgtcpy 316
+                            r tcp+
+  sp|E9LVH9|PETH2_THECS 257 RSTCPF 262
+                            *****7 PP
+
+>> sp|P0DX29|PETH1_AMYMS  Cutinase OS=Amycolatopsis mediterranei (strain S699) OX=713604 GN=cut1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  252.4   1.3   2.7e-77   1.9e-73      47     316 .]      49     307 ..      27     307 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 252.4 bits;  conditional E-value: 2.7e-77
+              PBSeT.aln  47 dcgyergpdpsvslleassgpysvrtdnvssl.vrgfgggtvhyptntt.gtmaavvvipgfvsaessiewwgpklasygfvvmtidt 132
+                               yergpdp+ + +ea+sg ++  t  vs l v+gfgggt++ypt+tt gt+ a+ + pgf +++ssi+w gp+las gfvv+tidt
+  sp|P0DX29|PETH1_AMYMS  49 ANPYERGPDPTTASIEATSGSFATSTVTVSRLaVSGFGGGTIYYPTTTTaGTFGALSIAPGFTATQSSIAWLGPRLASQGFVVFTIDT 136
+                            557***************************8549***********987659************************************* PP
+
+              PBSeT.aln 133 nsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaa.egrvsaaiplapwdssslrfrsietptli 219
+                             +  dqp sr  ql  +ldyl ++     s +   id+ rlgv+g smggggtl  a     ++aa+pl+ wd +  ++ +++ ptl+
+  sp|P0DX29|PETH1_AMYMS 137 LTTSDQPDSRGRQLLASLDYLTQQ-----SSVRSRIDSTRLGVVGHSMGGGGTLEAARsRPTLQAAVPLTAWDLT-KNWSTLQVPTLV 218
+                            ********************9865.....3455679******************998515689**********86.6799******** PP
+
+              PBSeT.aln 220 facesdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhldkdqrynqflcgpdhederri 307
+                              ++sd++apv sh+ pfy ++p + d+a++el + sh++ n         n  +++  +sw+k  +d+d ry+qflc p      +i
+  sp|P0DX29|PETH1_AMYMS 219 VGAQSDTVAPVASHSIPFYTSLPSTLDRAYLELRGASHFAPNS-------PNTTIAKYTLSWLKRFIDNDTRYEQFLC-PIPSTSLSI 298
+                            **************************************99876.......899*************************.5667889** PP
+
+              PBSeT.aln 308 seyrgtcpy 316
+                            s+yrg cp+
+  sp|P0DX29|PETH1_AMYMS 299 SDYRGNCPH 307
+                            *******95 PP
+
+>> sp|G9BY57|PETH_UNKP  Leaf-branch compost cutinase OS=Unknown prokaryotic organism OX=2725 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  247.0   1.5   1.2e-75   8.3e-72      49     301 ..      38     279 ..      29     290 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 247.0 bits;  conditional E-value: 1.2e-75
+            PBSeT.aln  49 gyergpdpsvslleassgpysvrtdnvss.lvrgfgggtvhyptnttgtmaavvvipgfvsaessiewwgpklasygfvvmtidtnsgfd 137
+                           y+rgp+p+ s l a  gp+sv t  vs  +v+gfggg ++ypt+t+ t+  + + pg+ +  ss++w g +las+gfvv+ i+tns fd
+  sp|G9BY57|PETH_UNKP  38 PYQRGPNPTRSALTA-DGPFSVATYTVSRlSVSGFGGGVIYYPTGTSLTFGGIAMSPGYTADASSLAWLGRRLASHGFVVLVINTNSRFD 126
+                          59***********87.6**********97469********************************************************** PP
+
+            PBSeT.aln 138 qpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapwdssslrfrsietptlifacesdv 226
+                           p srasql  al+yl     ss s +   +d++rl v g smggggtlr+a +   ++aa+pl+pw +  +   +   p li  +e+d+
+  sp|G9BY57|PETH_UNKP 127 YPDSRASQLSAALNYL---RTSSPSAVRARLDANRLAVAGHSMGGGGTLRIAEQnPSLKAAVPLTPWHTDKT--FNTSVPVLIVGAEADT 211
+                          ***************9...5799999*************************9762589*********99754..57789*********** PP
+
+            PBSeT.aln 227 iapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhldkdqrynqflcgpdh 301
+                          +apv+ ha pfy+ +p +t k +veldn sh++ n         n  +s   +swmkl +d+d ry qflc  + 
+  sp|G9BY57|PETH_UNKP 212 VAPVSQHAIPFYQNLPSTTPKVYVELDNASHFAPNS-------NNAAISVYTISWMKLWVDNDTRYRQFLCNVND 279
+                          *******************************99876.......79999***********************8764 PP
+
+>> sp|P19833|LIP1_MORS1  Lipase 1 OS=Moraxella sp. (strain TA144) OX=77152 GN=lip1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  243.5   0.7   1.4e-74   9.6e-71      56     311 ..      67     314 ..       1     319 [] 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 243.5 bits;  conditional E-value: 1.4e-74
+             PBSeT.aln  56 psvsllea.ssgpysvrtdnvss.lvrgfgggtvhyptnttgt..maavvvipgfvsaessiewwgpklasygfvvmtidtnsgfdqpa 140
+                            +v+l ++  +gp+s+rt+ +s  + +gfgggt+hyptn++g   + a+ v+pg+vs e si+wwgp+las+gfvv+ti+tns +d+p 
+  sp|P19833|LIP1_MORS1  67 TAVALSDTrDNGPFSIRTKRISRqSAKGFGGGTIHYPTNASGCglLGAIAVVPGYVSYENSIKWWGPRLASWGFVVITINTNSIYDDPD 155
+                           44555554258**********963789************97643399****************************************** PP
+
+             PBSeT.aln 141 srasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapwdssslrfrsietptlifacesdvia 228
+                           sra+qln ald ++ ++      +  mid++rlg igwsmgggg+l++a+e   v+a +plap+   s  + +++tptl++ace+d ia
+  sp|P19833|LIP1_MORS1 156 SRAAQLNAALDNMIADDT-----VGSMIDPKRLGAIGWSMGGGGALKLATErSTVRAIMPLAPYHDKS--YGEVKTPTLVIACEDDRIA 237
+                           ************998764.....667************************944799999*****8776..789**************** PP
+
+             PBSeT.aln 229 pvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndv.lsrlgvswmklhldkdqrynqflcgpd.hederriseyr 311
+                             + +a+ fy+       k  ve++ngsh+c          +n++ ls+ g++wm+ ++++d r+++flc  + + +  ris y 
+  sp|P19833|LIP1_MORS1 238 ETKKYANAFYKNAI--GPKMKVEVNNGSHFCPSY------RFNEIlLSKPGIAWMQRYINNDTRFDKFLCANEnYSKSPRISAYD 314
+                           **********8544..467789*********987......56775279**********************976155667999885 PP
+
+>> sp|F8QQ74|NAAC_BRASZ  Probable 2-oxo-3-(5-oxofuran-2-ylidene)propanoate lactonase OS=Bradyrhizobium sp. OX=376 GN=naa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   0.0   6.4e-08   0.00044      93     197 ..      29     141 ..      11     189 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 24.5 bits;  conditional E-value: 6.4e-08
+             PBSeT.aln  93 ttgtmaavvvipgfvsaessiewwgpklasygfvvmtidtnsgfdqpa.srasqlnnaldyl.....leendssrspi..sgmidtdrl 173
+                            tg + av+v+p +   ++ i+     la  gfv + id  s  ++p  s a +++ a++ l     l++ d++   +     + +drl
+  sp|F8QQ74|NAAC_BRASZ  29 VTGRLPAVIVMPAIHGINTYIKDVAIDLAKAGFVALLIDIHSPEQEPDlSNAEKIQIAVETLddrkvLKDVDAAVRYLeqHAAVRADRL 117
+                           699***************************************9999865899999988766522222566666655442257899**** PP
+
+             PBSeT.aln 174 gvigwsmggggtlrvaaegrvsaa 197
+                           g++g+ +gg  +l  a    ++ +
+  sp|F8QQ74|NAAC_BRASZ 118 GILGFCVGGTYALLAARTPAIRVS 141
+                           *********999988876666555 PP
+
+>> sp|F0XS04|DAPB_GROCL  Probable dipeptidyl-aminopeptidase B OS=Grosmannia clavigera (strain kw1407 / UAMH 11150) OX=65
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   0.1      0.94   6.4e+03      96     151 ..     296     348 ..     280     361 .. 0.71
+   2 !   17.2   0.1   1.1e-05     0.072     107     202 ..     751     852 ..     746     888 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 1.0 bits;  conditional E-value: 0.94
+             PBSeT.aln  96 tmaavvvipgfvsaessiewwgpklasygfvvmtidtnsgfdqpasrasqlnnald 151
+                           t +   +ipg vsa   ++ w p+  +  f   t d n  f q  + +s   +  d
+  sp|F0XS04|DAPB_GROCL 296 TQTVQPLIPGEVSARVQLAQWSPQSDAIAF---TRDNNLYFRQVVAGSSSSAEDAD 348
+                           45555689***************9766554...66777777776665555555555 PP
+
+  == domain 2  score: 17.2 bits;  conditional E-value: 1.1e-05
+             PBSeT.aln 107 vsaessiewwgpklasygfvvmtidtn.sgfdqpasrasq.....lnnaldylleendssrspisgmidtdrlgvigwsmggggtlrva 189
+                           v+ e s+++     as g+vv+t+d   +gf   + r        + ++ d++   +  ++ p    id drl + gws gg  tl+  
+  sp|F0XS04|DAPB_GROCL 751 VTHEFSVDFQSYVAASLGYVVVTVDPRgTGFAGRSNRVVVrgrlgVVESHDHIAAAQHWASLP---YIDGDRLAIWGWSYGGFTTLKTL 836
+                           67889999999999**********975279988877764211111334444444444444444...59*****************9975 PP
+
+             PBSeT.aln 190 ae..grv.saaiplap 202
+                            +  gr  +  i +ap
+  sp|F0XS04|DAPB_GROCL 837 EQdaGRTfRYGIAVAP 852
+                           4322553233343333 PP
+
+>> sp|G2JHL6|AIDA_ACIBM  Quorum-quenching protein AidA OS=Acinetobacter baumannii (strain MDR-ZJ06) OX=497978 GN=aidA PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   0.0   5.1e-05      0.35     167     221 ..     108     166 ..      85     187 .. 0.80
+   2 ?    2.9   0.0      0.24   1.6e+03     211     232 ..     236     257 ..     230     275 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 5.1e-05
+             PBSeT.aln 167 midtdrlgvigwsmggggtlrvaa.egrvsaaiplapwd...ssslrfrsietptlifa 221
+                            id++r+ + g s+ggg  l  aa + r+ a i  +p+    sss+ +  i t  l+  
+  sp|G2JHL6|AIDA_ACIBM 108 KIDPNRVVIWGTSFGGGHVLATAAnDNRLAAVISQCPFTdgfSSSMAMNPITTLKLMGL 166
+                           69******************987626899999999998534367777777877777655 PP
+
+  == domain 2  score: 2.9 bits;  conditional E-value: 0.24
+             PBSeT.aln 211 rsietptlifacesdviapvrs 232
+                             i++p l   c++d++ap ++
+  sp|G2JHL6|AIDA_ACIBM 236 SRIQAPVLFCVCDTDSVAPSKT 257
+                           5799***************875 PP
+
+>> sp|A0A1W5T1Y7|POXO_PENOX  Hydrolyase poxO OS=Penicillium oxalicum OX=69781 GN=poxO PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.8   0.1   3.5e-06     0.024     167     222 ..     227     282 ..     208     299 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 18.8 bits;  conditional E-value: 3.5e-06
+                 PBSeT.aln 167 midtdrlgvigwsmggggtlrvaaegrvsaaiplapwdssslrfrsietptlifac 222
+                                +d  r+ v+g smgg  +lr aa+ r+ a++ + p+       r+  +p+l+ a 
+  sp|A0A1W5T1Y7|POXO_PENOX 227 QLDLSRVAVVGASMGGYYALRAAADPRIGACVSIDPFYDMWDFVRNHVSPALLNAW 282
+                               57999*******************************99888888999999888775 PP
+
+>> sp|P83006|PAFA2_RAT  Platelet-activating factor acetylhydrolase 2, cytoplasmic OS=Rattus norvegicus OX=10116 GN=Pafah
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.0       1.6   1.1e+04     111     132 ..     114     135 ..      94     151 .. 0.79
+   2 ?   14.4   0.1   7.5e-05      0.51     164     294 ..     219     367 ..     214     377 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 0.2 bits;  conditional E-value: 1.6
+            PBSeT.aln 111 ssiewwgpklasygfvvmtidt 132
+                           s + +   las gfvv +i+ 
+  sp|P83006|PAFA2_RAT 114 VSYSAFCMELASRGFVVAAIEH 135
+                          566667889********99985 PP
+
+  == domain 2  score: 14.4 bits;  conditional E-value: 7.5e-05
+            PBSeT.aln 164 isgmidtdrlgvigwsmggggt.lrvaaegrvsaaiplapwdsss.lr.frsietptlifacesdvia.pv...........rshadpfy 238
+                          ++g id  r+ v+g s+gg  + l ++ e + ++ai l  w        + +   p + + +e+  +   v           +s      
+  sp|P83006|PAFA2_RAT 219 LKGSIDMSRVAVMGHSFGGATAiLALTQEAQFRCAIALDAWMFPLeHDfYPKARGPVFFINVEKFQTVeSVnlmkkicaqheQSRIVTVL 308
+                          6799**************9865278899***********996432022123344444444444321110111111111001123334455 PP
+
+            PBSeT.aln 239 eaipds.tdkafveldngshtcangssgfgnsyn..dvlsrlgvswmklhldkdqrynq 294
+                           a+  s td afv  +  ++  + g+ g  + y+  +v+ r  +++++ hld  + y+q
+  sp|P83006|PAFA2_RAT 309 GAVHRSqTDFAFVTGNMIGKLFSSGTRGTLDPYEgqEVMVRAMLAFLQKHLDLKEDYDQ 367
+                          55554436677777777777777777777777642256677777777777776666665 PP
+
+>> sp|S8ASK9|POXO_PENO1  Hydrolyase poxO OS=Penicillium oxalicum (strain 114-2 / CGMCC 5302) OX=933388 GN=poxO PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.5   0.1   8.9e-06     0.061     167     222 ..     227     282 ..     208     299 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 17.5 bits;  conditional E-value: 8.9e-06
+             PBSeT.aln 167 midtdrlgvigwsmggggtlrvaaegrvsaaiplapwdssslrfrsietptlifac 222
+                            +d  r+ v+g smgg  +lr a + r+ a++ + p+       r+  +p+l+ a 
+  sp|S8ASK9|POXO_PENO1 227 QLDLSRVAVVGASMGGYYALRAAVDPRIGACVSIDPFYDMWDFVRNHVSPALLNAW 282
+                           57999*******************************99888888999999888775 PP
+
+>> sp|Q8VDG7|PAFA2_MOUSE  Platelet-activating factor acetylhydrolase 2, cytoplasmic OS=Mus musculus OX=10090 GN=Pafah2 P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.1   0.0       1.9   1.3e+04     109     132 ..     112     135 ..      97     158 .. 0.76
+   2 ?   14.2   0.1   8.9e-05      0.61     164     204 ..     219     260 ..     215     375 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: -0.1 bits;  conditional E-value: 1.9
+              PBSeT.aln 109 aessiewwgpklasygfvvmtidt 132
+                              +s + +   las gfvv +++ 
+  sp|Q8VDG7|PAFA2_MOUSE 112 FRASYSAFCMELASRGFVVAAVEH 135
+                            55677778889********99875 PP
+
+  == domain 2  score: 14.2 bits;  conditional E-value: 8.9e-05
+              PBSeT.aln 164 isgmidtdrlgvigwsmgggg.tlrvaaegrvsaaiplapwd 204
+                            ++g id +r+ v+g s+gg    l ++ e + ++ai l  w 
+  sp|Q8VDG7|PAFA2_MOUSE 219 LKGSIDRNRVAVMGHSFGGATaVLALTQEVQFRCAIALDAWM 260
+                            6799**************986257889999********9996 PP
+
+>> sp|Q9WXP3|NTPTH_THEMA  Nucleoside-triphosphatase THEP1 OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 100
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.1   0.0   1.2e-05      0.08     207     255 ..     107     153 ..      97     160 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 17.1 bits;  conditional E-value: 1.2e-05
+              PBSeT.aln 207 slrfrsietptlifacesdviapvrshadpfyeaipdstdkafveldng 255
+                            s +fr++     if  e+dvia ++  +dpf e i +  d  ++el++ 
+  sp|Q9WXP3|NTPTH_THEMA 107 SRKFREV--VEKIFDSEKDVIATIKKSSDPFVEKIKNRNDVVIFELNEK 153
+                            5667755..4679*********************************986 PP
+
+>> sp|P29715|BPOA2_KITAU  Non-haem bromoperoxidase BPO-A2 OS=Kitasatospora aureofaciens OX=1894 GN=bpoA2 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.5   0.0      0.04   2.7e+02      92     189 ..      19     109 ..       5     133 .. 0.74
+   2 ?    9.5   0.0    0.0023        16     192     255 ..     195     256 ..     186     264 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 5.5 bits;  conditional E-value: 0.04
+              PBSeT.aln  92 nttgtmaavvvipgfvsaessiewwgpklasygfvvmtidtnsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigws 179
+                            +  gt   vv+i gf  +  s e     l   g+ v+t d   gf q +    q     dy           +   +d +   ++g+s
+  sp|P29715|BPOA2_KITAU  19 EDHGTGQPVVLIHGFPLSGHSWERQSAALLDAGYRVITYDR-RGFGQSS----QPTTGYDYDTFAA--DLNTVLETLDLQDAVLVGFS 99 
+                            556888899******99999999999************996.6999864....4455667744443..34455667788888889999 PP
+
+              PBSeT.aln 180 mggggtlrva 189
+                            mg g   r  
+  sp|P29715|BPOA2_KITAU 100 MGTGEVARYV 109
+                            9999887743 PP
+
+  == domain 2  score: 9.5 bits;  conditional E-value: 0.0023
+              PBSeT.aln 192 grvsaaiplapwds.sslrfrsietptlifacesdviapvrshadpfyeaipdstdkafveldng 255
+                            g   aa   + w +   + +  i+ p+li+    d + p++  a  f++a+p +    +ve+++ 
+  sp|P29715|BPOA2_KITAU 195 GFFAAAAAPTTWYTdFRADIPRIDVPALILHGTGDRTLPIENTARVFHKALPSA---EYVEVEGA 256
+                            4444444444555415678899******************************75...35666555 PP
+
+>> sp|B1LAB2|NTPTH_THESQ  Nucleoside-triphosphatase THEP1 OS=Thermotoga sp. (strain RQ2) OX=126740 GN=TRQ2_0909 PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.5   0.0   1.8e-05      0.12     207     255 ..     107     153 ..      97     160 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 16.5 bits;  conditional E-value: 1.8e-05
+              PBSeT.aln 207 slrfrsietptlifacesdviapvrshadpfyeaipdstdkafveldng 255
+                            s +fr++     if  e+dv+a ++  +dpf e i +  d  ++el++ 
+  sp|B1LAB2|NTPTH_THESQ 107 SRKFREV--VEKIFDSEKDVVATIKKSSDPFVEKIKNRNDVVIFELNEK 153
+                            5667755..4679*********************************986 PP
+
+>> sp|Q18253|DPF2_CAEEL  Dipeptidyl peptidase family member 2 OS=Caenorhabditis elegans OX=6239 GN=dpf-2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.0   0.0   2.5e-05      0.17     165     203 ..     677     718 ..     662     730 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 2.5e-05
+             PBSeT.aln 165 sgmidtdrlgvigwsmggggtlrvaaegr...vsaaiplapw 203
+                            g+id dr+ v+gws gg  t ++a + +   v++ai +ap 
+  sp|Q18253|DPF2_CAEEL 677 FGFIDEDRIAVMGWSYGGFLTSKIAIKDQgelVKCAISIAPV 718
+                           499******************999976433348999999996 PP
+
+>> sp|Q0V6Q1|PHMG_PHANO  Hydrolase phmG OS=Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173) OX=321614 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.0   0.0   2.5e-05      0.17     168     203 ..     248     283 ..     236     296 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 2.5e-05
+             PBSeT.aln 168 idtdrlgvigwsmggggtlrvaaegrvsaaiplapw 203
+                           +d dr+ v g smgg  +lr a + r++a++ + p+
+  sp|Q0V6Q1|PHMG_PHANO 248 LDLDRIAVAGASMGGYYALRAAKDSRIKACVAIDPF 283
+                           799****************************99995 PP
+
+>> sp|A0A7L8UVC6|FFSE_ASPFV  Hydrolase ffsE OS=Aspergillus flavipes OX=41900 GN=ffsE PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.0   0.0   2.5e-05      0.17     167     203 ..     254     290 ..     232     307 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 2.5e-05
+                 PBSeT.aln 167 midtdrlgvigwsmggggtlrvaaegrvsaaiplapw 203
+                                +d  r+ v+g smgg  +lr a++ r++a++ + p+
+  sp|A0A7L8UVC6|FFSE_ASPFV 254 TLDLSRIAVVGASMGGYYALRAASDPRIKACLSIDPF 290
+                               47999***************************99995 PP
+
+>> sp|Q37885|SSB_BPB03  Single-stranded DNA-binding protein OS=Bacillus phage B103 OX=2994042 GN=5 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.3   0.0   2.1e-05      0.14     172     235 ..      17      82 ..       5     119 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 2.1e-05
+            PBSeT.aln 172 rlgvigwsmggggtlrvaaegrvsaaiplapwdssslrfrsi..etptlifacesdviapvrshad 235
+                          r+ ++     gg +l+ + +g +  a+ +a ++  s  + ++  et t if+++ dvi+ ++    
+  sp|Q37885|SSB_BPB03  17 RMKILNAKNAGGASLKTCVDGTIIEAVGIAQYQQESDTYGDMkeETVTAIFTADGDVISAISKTVA 82 
+                          7778888899***************************998874479999*********98865443 PP
+
+>> sp|Q99487|PAFA2_HUMAN  Platelet-activating factor acetylhydrolase 2, cytoplasmic OS=Homo sapiens OX=9606 GN=PAFAH2 PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00025       1.7     164     203 ..     221     261 ..     215     292 .. 0.90
+   2 ?    0.7   0.0       1.2   7.9e+03     245     295 ..     318     370 ..     296     375 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 0.00025
+              PBSeT.aln 164 isgmidtdrlgvigwsmgggg.tlrvaaegrvsaaiplapw 203
+                            ++g id  r+ v+g s+gg    l +a e + ++a+ l  w
+  sp|Q99487|PAFA2_HUMAN 221 LKGNIDMSRVAVMGHSFGGATaILALAKETQFRCAVALDAW 261
+                            6899**************98625899************999 PP
+
+  == domain 2  score: 0.7 bits;  conditional E-value: 1.2
+              PBSeT.aln 245 tdkafveldngshtcangssgfgnsyn..dvlsrlgvswmklhldkdqrynqf 295
+                            td afv  +  +++ +  + g  + y+  +v+ r  +++++ hld  + ynq+
+  sp|Q99487|PAFA2_HUMAN 318 TDFAFVTGNLIGKFFSTETRGSLDPYEgqEVMVRAMLAFLQKHLDLKEDYNQW 370
+                            666777766666666666666666664227899999***************97 PP
+
+>> sp|Q99390|YPT2_ECOLX  Uncharacterized 31.7 kDa protein in traX-finO intergenic region OS=Escherichia coli OX=562 PE=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.5   0.0    0.0049        33     166     198 ..      94     127 ..      47     144 .. 0.85
+   2 ?    5.5   0.0      0.04   2.8e+02     212     286 ..     219     286 .]     209     286 .] 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 8.5 bits;  conditional E-value: 0.0049
+             PBSeT.aln 166 gmidtdrlgvigwsmggggtlrvaa.egrvsaai 198
+                             id++r+g+ g s+ggg  +  aa + rv++ +
+  sp|Q99390|YPT2_ECOLX  94 ECIDNQRIGLWGTSLGGGHVFSAAAqDQRVKCIV 127
+                           579****************999877256777665 PP
+
+  == domain 2  score: 5.5 bits;  conditional E-value: 0.04
+             PBSeT.aln 212 sietptlifacesdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhl 286
+                           +++ p li  + +d++ p + +   +y+a+   t+  + e d+  +   +      +++ + ++ +   w+k hl
+  sp|Q99390|YPT2_ECOLX 219 KVQCPVLIVIAGQDSVNPPE-QGKALYDAVASGTKELYEEADACHYDIYE------GAFFERVAAVQTQWFKKHL 286
+                           6899************9976.5788*****98887766666554443433......4666777777777777775 PP
+
+>> sp|G4MVZ4|ORFZB_PYRO7  Hydrolase ORFZ OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) OX=242507 GN=O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   0.0   5.1e-05      0.35     164     223 ..     228     287 ..     211     298 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 5.1e-05
+              PBSeT.aln 164 isgmidtdrlgvigwsmggggtlrvaaegrvsaaiplapwdssslrfrsietptliface 223
+                             +  +dt r+   g s+gg  +lr aa+ rv+a++ l p  s      +  +pt+i a e
+  sp|G4MVZ4|ORFZB_PYRO7 228 PDLDLDTSRIAFSGCSLGGYFALRAAADPRVKACVSLDPLYSFWDFAMEHVSPTFINAWE 287
+                            44558*********************************9876555445555677777666 PP
+
+>> sp|O31168|PRXC_KITAU  Non-heme chloroperoxidase OS=Kitasatospora aureofaciens OX=1894 GN=cpo PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.8   0.0      0.13   8.9e+02      95     189 ..      22     109 ..       6     132 .. 0.73
+   2 ?    9.5   0.0    0.0023        16     192     255 ..     195     256 ..     186     264 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 3.8 bits;  conditional E-value: 0.13
+             PBSeT.aln  95 gtmaavvvipgfvsaessiewwgpklasygfvvmtidtnsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggg 183
+                           g+   vv+i gf  +  s e     l   g+ v+t d   gf q +    q     dy           +   +d +   ++g+smg g
+  sp|O31168|PRXC_KITAU  22 GAGQPVVLIHGFPLSGHSWERQSAALLDAGYRVITYDR-RGFGQSS----QPTTGYDYDTFAA--DLNTVLETLDLQDAVLVGFSMGTG 103
+                           55667999999999999999999999999999999986.6898864....4445566644433..344555667888888899999999 PP
+
+             PBSeT.aln 184 gtlrva 189
+                              r  
+  sp|O31168|PRXC_KITAU 104 EVARYV 109
+                           887743 PP
+
+  == domain 2  score: 9.5 bits;  conditional E-value: 0.0023
+             PBSeT.aln 192 grvsaaiplapwds.sslrfrsietptlifacesdviapvrshadpfyeaipdstdkafveldng 255
+                           g   aa   + w +   + +  i+ p+li+    d + p++  a  f++a+p +    +ve+++ 
+  sp|O31168|PRXC_KITAU 195 GFFAAAAAPTTWYTdFRADIPRIDVPALILHGTGDRTLPIENTARVFHKALPSA---EYVEVEGA 256
+                           4444444444555415678899******************************75...35666555 PP
+
+>> sp|A0A6J4B4M6|LUC6_FUSSX  Hydrolase LUC6 OS=Fusarium sp. OX=29916 GN=LUC6 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.0   9.5e-05      0.65     167     199 ..     226     258 ..     141     273 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 9.5e-05
+                 PBSeT.aln 167 midtdrlgvigwsmggggtlrvaaegrvsaaip 199
+                                +d drl v+g s+gg  +lr aa+ rv+a + 
+  sp|A0A6J4B4M6|LUC6_FUSSX 226 NLDVDRLAVFGASLGGYLSLRAAADPRVKAVVS 258
+                               479**************************9885 PP
+
+>> sp|O28434|Y1844_ARCFU  Uncharacterized protein AF_1844 OS=Archaeoglobus fulgidus (strain ATCC 49558 / DSM 4304 / JCM 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.4   0.4   7.6e-05      0.52      84     136 ..       7      60 ..       2      75 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 7.6e-05
+              PBSeT.aln  84 ggtvhyptnttgtmaavvvipgfv.saessiewwgpklasygfvvmtidtnsgf 136
+                               + y t t+g + +v +  g   s +s  +w+  kl s g+ vmt  ++  +
+  sp|O28434|Y1844_ARCFU   7 SVMLEYMTVTAGGVNTVQITYGTEdSGNSVFQWYVNKLKSEGWEVMTSTSEGQY 60 
+                            45678************999998626788889***************8776555 PP
+
+>> sp|A5IL32|NTPTH_THEP1  Nucleoside-triphosphatase THEP1 OS=Thermotoga petrophila (strain ATCC BAA-488 / DSM 13995 / JC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.0   9.2e-05      0.63     207     255 ..     107     153 ..      95     158 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 9.2e-05
+              PBSeT.aln 207 slrfrsietptlifacesdviapvrshadpfyeaipdstdkafveldng 255
+                            s++fr++     if  e+dvia ++  +dpf e i        +el++ 
+  sp|A5IL32|NTPTH_THEP1 107 SSKFREV--VEKIFDSEKDVIATIKKSSDPFVERIKSRDGVVVFELNEK 153
+                            7888876..4679**********************99999999999975 PP
+
+>> sp|Q28262|PAFA_CANLF  Platelet-activating factor acetylhydrolase OS=Canis lupus familiaris OX=9615 GN=PLA2G7 PE=2 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   0.0      0.17   1.1e+03     109     136 ..     156     183 ..     123     210 .. 0.75
+   2 ?    8.7   0.0    0.0042        29     165     203 ..     260     299 ..     245     321 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 3.4 bits;  conditional E-value: 0.17
+             PBSeT.aln 109 aessiewwgpklasygfvvmtidtnsgf 136
+                             +  +  g  las+gf+v +i+   g 
+  sp|Q28262|PAFA_CANLF 156 FRTIYSAIGIDLASHGFIVAAIEHRDGS 183
+                           44555667999***********987764 PP
+
+  == domain 2  score: 8.7 bits;  conditional E-value: 0.0042
+             PBSeT.aln 165 sgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapw 203
+                           +  id d++ vig s+gg   l+  +e  r ++ i l  w
+  sp|Q28262|PAFA_CANLF 260 KDSIDRDKIAVIGHSFGGATVLQALSEdQRFRCGIALDAW 299
+                           5679******************987662699999999998 PP
+
+>> sp|P9WEZ7|ACRC_ASPA1  Hydrolase acrC OS=Aspergillus aculeatus (strain ATCC 16872 / CBS 172.66 / WB 5094) OX=690307 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.0   0.00015         1     164     199 ..     233     268 ..     160     282 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 0.00015
+             PBSeT.aln 164 isgmidtdrlgvigwsmggggtlrvaaegrvsaaip 199
+                            +  id +r+ v+g s+gg  +lr aa+ rv+a++ 
+  sp|P9WEZ7|ACRC_ASPA1 233 KDYPIDLERVAVVGASLGGYFALRAAADPRVRACVS 268
+                           45569****************************986 PP
+
+>> sp|P76049|YCJY_ECOLI  Uncharacterized protein YcjY OS=Escherichia coli (strain K12) OX=83333 GN=ycjY PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.3   0.1   0.00016       1.1      96     201 ..      34     139 ..      15     163 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 0.00016
+             PBSeT.aln  96 tmaavvvipgfvsaessiewwgpklasygfvvmtidtnsgfdqpasrasqlnnaldylleendssrspis...gmidtdrlgvigwsmg 181
+                             a v+  pg    e +   +  kla  gfv ++ d+     +      ql+n   y+  e+ s+   +      +d+ r+g +g   g
+  sp|P76049|YCJY_ECOLI  34 YQAIVLSHPGGGVKEQTAGTYAKKLAEKGFVTIAYDASY-QGESGGEPRQLENP--YIRTEDISAVIDYLttlSYVDNTRIGAMGICAG 119
+                           345556689999999999*************98888643.33445566777774..66666656555443111579************* PP
+
+             PBSeT.aln 182 gggtlrvaaegrvsaaipla 201
+                            g t   a + r   ai   
+  sp|P76049|YCJY_ECOLI 120 AGYTANAAIQDRRIKAIGTV 139
+                           *****999887655555544 PP
+
+>> sp|A1CLZ0|CCSE_ASPCL  Hydrolyase ccsE OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 816 / NCTC 3887 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.0   0.00014      0.96     168     203 ..     238     273 ..     218     296 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 0.00014
+             PBSeT.aln 168 idtdrlgvigwsmggggtlrvaaegrvsaaiplapw 203
+                           +d + + v g smgg  +lr aa+ rv+a++ + p+
+  sp|A1CLZ0|CCSE_ASPCL 238 LDLNCIAVSGASMGGYYALRAAADQRVKACVSIDPF 273
+                           689999*************************99995 PP
+
+>> sp|Q65UC1|SSTT_MANSM  Serine/threonine transporter SstT OS=Mannheimia succiniciproducens (strain KCTC 0769BP / MBEL55
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.3   0.0   0.00017       1.1     121     194 ..     107     176 ..      97     210 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 0.00017
+             PBSeT.aln 121 asygf.vvmtidtnsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaaegrv 194
+                           as+ f   +++ tn     p+ + +++  al + + +      pi+ + +++ +g++ w++g g tlr a+e   
+  sp|Q65UC1|SSTT_MANSM 107 ASFMFpTTIALATNEAELSPPGKITEVLTALIFNVVD-----NPITALFNANFIGILAWAIGLGITLRYASETTK 176
+                           5555523456778888888888888888888776655.....59**************************99765 PP
+
+>> sp|P29368|YPT1_ECOLX  Uncharacterized 31.7 kDa protein in traX-finO intergenic region OS=Escherichia coli OX=562 PE=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.017   1.2e+02     166     198 ..      94     127 ..      47     144 .. 0.84
+   2 ?    5.5   0.0      0.04   2.8e+02     212     286 ..     219     286 .]     209     286 .] 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.017
+             PBSeT.aln 166 gmidtdrlgvigwsmggggtlrv.aaegrvsaai 198
+                             id++r+g+ g s+ggg  +   a + rv++ +
+  sp|P29368|YPT1_ECOLX  94 ECIDNQRIGLWGTSLGGGHVFSArAQDQRVKCIV 127
+                           579***************9987525567887665 PP
+
+  == domain 2  score: 5.5 bits;  conditional E-value: 0.04
+             PBSeT.aln 212 sietptlifacesdviapvrshadpfyeaipdstdkafveldngshtcangssgfgnsyndvlsrlgvswmklhl 286
+                           +++ p li  + +d++ p + +   +y+a+   t+  + e d+  +   +      +++ + ++ +   w+k hl
+  sp|P29368|YPT1_ECOLX 219 KVQCPVLIVIAGQDSVNPPE-QGKALYDAVASGTKELYEEADACHYDIYE------GAFFERVAAVQTQWFKKHL 286
+                           6899************9976.5788*****98887766666554443433......4666777777777777775 PP
+
+>> sp|Q7MUW6|PTP_PORGI  Prolyl tripeptidyl peptidase OS=Porphyromonas gingivalis (strain ATCC BAA-308 / W83) OX=242619 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.3   0.00019       1.3     110     187 ..     531     611 ..     523     638 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 0.00019
+            PBSeT.aln 110 essiewwgpklasygfvvmtidtnsgfdqpasrasqlnnaldylleen...dssrspisgmidtdrlgvigwsmggggtlr 187
+                           ss+  w   +a  g+ v+t+d+    ++ a+    +   l      +   +      +  +d+dr+gv gws gg  t  
+  sp|Q7MUW6|PTP_PORGI 531 RSSVGGWDIYMAQKGYAVFTVDSRGSANRGAAFEQVIHRRLGQTEMADqmcGVDFLKSQSWVDADRIGVHGWSYGGFMTTN 611
+                          589999****************998888888777777777754322220012233345679***************87654 PP
+
+>> sp|E9ETL5|DAPB_METRA  Probable dipeptidyl-aminopeptidase B OS=Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0   0.00032       2.2     118     188 ..     696     769 ..     683     802 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00032
+             PBSeT.aln 118 pklasygfvvmtidtn.sgfdqpasra...sqln..naldylleendssrspisgmidtdrlgvigwsmggggtlrv 188
+                              +s g++v+tid   +gf     r    sql   +a d++   +  s+ p+   +d+ rl + gws gg  tl+ 
+  sp|E9ETL5|DAPB_METRA 696 YVASSLGYLVVTIDPRgTGFLGRQHRVvvrSQLGvlEAQDHIAAAKHYSSLPY---VDPSRLAIWGWSYGGFQTLKT 769
+                           556789*******9752789776666422245432267777777777777776...8**************998864 PP
+
+>> sp|B2RJX3|PTP_PORG3  Prolyl tripeptidyl peptidase OS=Porphyromonas gingivalis (strain ATCC 33277 / DSM 20709 / CIP 10
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.3   0.00019       1.3     110     187 ..     531     611 ..     523     638 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 0.00019
+            PBSeT.aln 110 essiewwgpklasygfvvmtidtnsgfdqpasrasqlnnaldylleen...dssrspisgmidtdrlgvigwsmggggtlr 187
+                           ss+  w   +a  g+ v+t+d+    ++ a+    +   l      +   +      +  +d+dr+gv gws gg  t  
+  sp|B2RJX3|PTP_PORG3 531 RSSVGGWDIYMAQKGYAVFTVDSRGSANRGAAFEQVIHRRLGQTEMADqmcGVDFLKSQSWVDADRIGVHGWSYGGFMTTN 611
+                          589999****************998888888777777777754322220012233345679***************87654 PP
+
+>> sp|A4QYQ5|DAPB_PYRO7  Probable dipeptidyl-aminopeptidase B OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.1   0.00022       1.5     107     194 ..     690     782 ..     685     811 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00022
+             PBSeT.aln 107 vsaessiewwgpklasygfvvmtidtn.sgfdqpasrasqlnnaldylleendssrs...pisgmidtdrlgvigwsmggggtlrv..a 189
+                           vs + s+++     as g++v+t d   +gf     r   +   l  +  +++ + +      g +d+ r+ + gws gg  tl+   a
+  sp|A4QYQ5|DAPB_PYRO7 690 VSQKFSVDFQSYVAASLGYIVVTFDGRgTGFIGRKNRVL-VRSRLGEIEAQDQIAAAkhwASLGYVDPSRIAIWGWSYGGFQTLKTleA 777
+                           78888999999999*********9875279988887764.5555555444443332211144699******************986334 PP
+
+             PBSeT.aln 190 aegrv 194
+                             gr 
+  sp|A4QYQ5|DAPB_PYRO7 778 DAGRT 782
+                           55664 PP
+
+>> sp|P39839|YUXL_BACSU  Uncharacterized peptidase YuxL OS=Bacillus subtilis (strain 168) OX=224308 GN=yuxL PE=3 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.3   0.0     0.045   3.1e+02     165     199 ..     504     539 ..     453     550 .. 0.72
+   2 ?    5.7   0.0     0.033   2.3e+02     203     260 ..     576     634 ..     573     657 .] 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 5.3 bits;  conditional E-value: 0.045
+             PBSeT.aln 165 sgmidtdrlgvigwsmggggtlr.vaaegrvsaaip 199
+                           +  id++rlgv g s gg  t   v    r +aa+ 
+  sp|P39839|YUXL_BACSU 504 DPHIDPKRLGVTGGSYGGFMTNWiVGQTNRFKAAVT 539
+                           5579**************988651556678888875 PP
+
+  == domain 2  score: 5.7 bits;  conditional E-value: 0.033
+             PBSeT.aln 203 wdssslrfr.sietptlifacesdviapvrshadpfyeaipdstdkafveldngshtca 260
+                           wd s l++  ++etp li+  e d  +p++   + f        +  +v + n sh  +
+  sp|P39839|YUXL_BACSU 576 WDRSPLKYAaNVETPLLILHGERDDRCPIEQAEQLFIALKKMGKETKLVRFPNASHNLS 634
+                           9****999548******************876555554444455666777777777655 PP
+
+>> sp|E9ED72|DAPB_METAQ  Probable dipeptidyl-aminopeptidase B OS=Metarhizium acridum (strain CQMa 102) OX=655827 GN=DAPB
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.0   0.00033       2.3     119     188 ..     696     768 ..     682     799 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00033
+             PBSeT.aln 119 klasygfvvmtidtn.sgfdqpasra...sqln..naldylleendssrspisgmidtdrlgvigwsmggggtlrv 188
+                             +s g++v+tid   +gf     r    sql   +a d++   +  s+ p+   +d+ rl + gws gg  tl+ 
+  sp|E9ED72|DAPB_METAQ 696 VASSLGYLVVTIDPRgTGFLGRQHRVvvrSQLGvlEAQDHIAAAKHYSSLPY---VDPSRLAIWGWSYGGFQTLKT 768
+                           55789*******9752789776666422245432267777777777777776...8**************998864 PP
+
+>> sp|P70683|PAFA_CAVPO  Platelet-activating factor acetylhydrolase OS=Cavia porcellus OX=10141 GN=PLA2G7 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.5   0.0      0.63   4.3e+03     105     131 ..     152     178 ..     134     191 .. 0.75
+   2 ?    9.6   0.0    0.0021        15     164     238 ..     256     333 ..     243     419 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 1.5 bits;  conditional E-value: 0.63
+             PBSeT.aln 105 gfvsaessiewwgpklasygfvvmtid 131
+                           g+ +  s  +  g  las+gf+v +++
+  sp|P70683|PAFA_CAVPO 152 GLGAFRSIYSAIGIELASHGFIVAAVE 178
+                           55555566667899*********9887 PP
+
+  == domain 2  score: 9.6 bits;  conditional E-value: 0.0021
+             PBSeT.aln 164 isgmidtdrlgvigwsmggggtlrvaae.grvsaaiplapwdssslr..frsietptlifacesdviapvrshadpfy 238
+                           ++g +d  ++ +ig s+gg   ++  +e  r ++ i l pw     +    +i  p + +  e    a  + + + fy
+  sp|P70683|PAFA_CAVPO 256 LKGSLDRSKVAIIGHSFGGATVIQTLSEdQRFRCGIALDPWMFPVGEdvHSKIPQPLFFINSEYFQSANDTKKIEKFY 333
+                           68999***************99987665279**********7544331133444444444444444555555555555 PP
+
+>> sp|Q9MCD1|SSB_BPNF  Single-stranded DNA-binding protein OS=Bacillus phage Nf OX=2992639 GN=5 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.0   0.00015         1     172     235 ..      17      82 ..       5     119 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 0.00015
+           PBSeT.aln 172 rlgvigwsmggggtlrvaaegrvsaaiplapwdssslrfrsi..etptlifacesdviapvrshad 235
+                         r+ ++     gg +l+ + +g +  a+ +a ++  s  + ++  et t if+++ +vi+ ++    
+  sp|Q9MCD1|SSB_BPNF  17 RMKILNAKNAGGASLKTCEDGAIIEAVGIAQYQQESDTYGDMkeETVTAIFTADGNVISAISKTVA 82 
+                         7778888889***************************998874479999********998865443 PP
+
+>> sp|O64252|PRXH_BPMD2  Putative non-heme haloperoxidase OS=Mycobacterium phage D29 OX=28369 GN=59.2 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.1    0.0006       4.1      91     201 ..      16     121 ..       9     167 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.0006
+             PBSeT.aln  91 tnttgtmaavvvipgfvsaessiewwgpklasygfvvmtidtnsgfdqpasrasqlnnaldylleendssrspisgmidtdrlgvigws 179
+                            +t gt a +v + g+  +  + e    +la +gf v+++d+         r+  l     + +e+    +      +d +r    g s
+  sp|O64252|PRXH_BPMD2  16 VSTVGTGAPLVFLHGLSVSAKAYEEMLTRLAEHGFRVIALDAAN-----HGRSGSLPT--GHTVEDMTRVTLKTLDELDIHRAIFAGHS 97 
+                           57999**********9888888888999***********99753.....234444443..45677777666677778999********* PP
+
+             PBSeT.aln 180 mggggtlrvaae..grvsaaipla 201
+                           mggg  + +aa    rv aa+ l 
+  sp|O64252|PRXH_BPMD2  98 MGGGMVVEIAARhpHRVAAAVLLD 121
+                           *********997335999998774 PP
+
+>> sp|A0KL02|SSTT_AERHH  Serine/threonine transporter SstT OS=Aeromonas hydrophila subsp. hydrophila (strain ATCC 7966 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0   0.00031       2.1     161     195 ..     136     170 ..     111     188 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00031
+             PBSeT.aln 161 rspisgmidtdrlgvigwsmggggtlrvaaegrvs 195
+                           + p++ ++d++ +g++ w++g g ++r a+eg   
+  sp|A0KL02|SSTT_AERHH 136 TNPVKALLDANYIGILAWAIGLGIAMRHASEGTKA 170
+                           6799***************************9744 PP
+
+>> sp|Q1QTI8|SSTT_CHRSD  Serine/threonine transporter SstT OS=Chromohalobacter salexigens (strain ATCC BAA-138 / DSM 304
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.0   0.00028       1.9     161     196 ..     137     172 ..      98     210 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.00028
+             PBSeT.aln 161 rspisgmidtdrlgvigwsmggggtlrvaaegrvsa 196
+                             p++ +++++ +g++ w+mg g  lr a+e  +  
+  sp|Q1QTI8|SSTT_CHRSD 137 DNPVNALLNANFVGILAWAMGLGMMLRGASETTLVV 172
+                           579***************************987654 PP
+
+>> sp|Q94LX1|CLH1_CITUN  Chlorophyllase-1, chloroplastic OS=Citrus unshiu OX=55188 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.1   0.00027       1.8      94     207 ..      61     175 ..      53     241 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00027
+             PBSeT.aln  94 tgtmaavvvipgfvsaessiewwgpklasygfvvmtidtnsgfdqpasrasqlnnaldy..lleendssrspisgmidtdrlgvigwsm 180
+                            gt+  ++ + g   ++ s +    ++as+gf+v++ +  + +  p+s +++ln a +    l +    + p +   +   + v+g s 
+  sp|Q94LX1|CLH1_CITUN  61 KGTFNVILFLHGTSLSNKSYSKIFDHIASHGFIVVAPQLYTSI-PPPSATNELNSAAEVaeWLPQGLQQNLPENTEANVSLVAVMGHSR 148
+                           6899999999999989999999999**********99998887.58889999**99765226889999999****************** PP
+
+             PBSeT.aln 181 ggggtlrvaaegrvsaaiplapwdsss 207
+                           gg  ++ ++      a i l p   +s
+  sp|Q94LX1|CLH1_CITUN 149 GGQTAFALSLRYGFGAVIGLDPVAGTS 175
+                           ****99999999999999999986655 PP
+
+>> sp|Q9MV14|CLH1_CITSI  Chlorophyllase-1, chloroplastic OS=Citrus sinensis OX=2711 GN=CHLASE1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.1   0.00024       1.7      94     207 ..      61     175 ..      53     242 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 0.00024
+             PBSeT.aln  94 tgtmaavvvipgfvsaessiewwgpklasygfvvmtidtnsgfdqpasrasqlnnaldy..lleendssrspisgmidtdrlgvigwsm 180
+                            gt+  ++ + g   ++ s +    ++as+gf+v++ +  + +  p+s +++ln a +    l +    + p +   +   + v+g s 
+  sp|Q9MV14|CLH1_CITSI  61 KGTFNVILFLHGTSLSNKSYSKIFDHIASHGFIVVAPQLYTSI-PPPSATNELNSAAEVaeWLPQGLQQNLPENTEANVSLVAVMGHSR 148
+                           6899999999999989999999999**********99998887.58889999**99765226889999999****************** PP
+
+             PBSeT.aln 181 ggggtlrvaaegrvsaaiplapwdsss 207
+                           gg  ++ ++      a i l p   +s
+  sp|Q9MV14|CLH1_CITSI 149 GGQTAFALSLRYGFGAVIGLDPVAGTS 175
+                           ****99999999999999999986655 PP
+
+>> sp|A0A8F4NU75|GKAG_PENCI  Alpha/beta hydrolase gkaG OS=Penicillium citrinum OX=5077 GN=gkaG PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.0   0.00028       1.9     165     204 ..     226     265 ..     207     274 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.00028
+                 PBSeT.aln 165 sgmidtdrlgvigwsmggggtlrvaaegrvsaaiplapwd 204
+                               +  +d dr+ v g + gg  +lr a++ r++a++ + p+ 
+  sp|A0A8F4NU75|GKAG_PENCI 226 DLELDLDRIAVAGAATGGYFALRAATDARIKACVAVDPFF 265
+                               445899****************************999975 PP
+
+>> sp|B6HFS8|DAPB_PENRW  Probable dipeptidyl-aminopeptidase B OS=Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.0   0.00037       2.5     120     190 ..     692     765 ..     676     802 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 0.00037
+             PBSeT.aln 120 lasygfvvmtidt.nsgfdqpasrasqlnnaldy.lleendssrs.pisgmidtdrlgvigwsmggggtlrvaa 190
+                            +  g++v+t+d   +gf    +r+    n   y  +++ ++++    +  +d  r+ v gws gg  tl+v  
+  sp|B6HFS8|DAPB_PENRW 692 ASNLGYIVVTVDGrGTGFIGREARCLVRGNIGHYeAIDQIETAKIwASKSYVDESRMAVWGWSYGGYMTLKVLE 765
+                           456799****98625899999999998888888845888887776145679********************964 PP
+
+>> sp|P18962|DAP2_YEAST  Dipeptidyl aminopeptidase B OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.0   0.1      0.22   1.5e+03     203     262 ..     175     234 ..     165     245 .. 0.83
+   2 ?    7.6   0.0    0.0088        60     125     189 ..     623     689 ..     612     738 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 3.0 bits;  conditional E-value: 0.22
+             PBSeT.aln 203 wdssslrfrsi..etptlifacesdviapvrshadpfyeaipdstdkafveldngshtcang 262
+                           +d ss+ f +i  e    i++ +s+ ia v+     +y ai   t +a    ++gs +  ng
+  sp|P18962|DAP2_YEAST 175 YDKSSSSFEEIgnEVALAIWSPNSNDIAYVQDNNIYIYSAISKKTIRAVT--NDGSSFLFNG 234
+                           899******9943456679999***********************99975..5666666666 PP
+
+  == domain 2  score: 7.6 bits;  conditional E-value: 0.0088
+             PBSeT.aln 125 fvvmtidtnsgfdqpasrasqlnnaldylleendssrspisgm..idtdrlgvigwsmggggtlrva 189
+                           +vv+  +  +gf     r+   +   dy   ++ s+ s +  +  +d++++ ++gws gg  tl+  
+  sp|P18962|DAP2_YEAST 623 IVVVVDGRGTGFKGQDFRSLVRDRLGDYEARDQISAASLYGSLtfVDPQKISLFGWSYGGYLTLKTL 689
+                           4555566678888888888777777899999999999998764339**************9999864 PP
+
+>> sp|Q5B934|DAPB_EMENI  Probable dipeptidyl-aminopeptidase B OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.0   0.00034       2.3     119     189 ..     680     753 ..     666     789 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00034
+             PBSeT.aln 119 klasygfvvmtidt.nsgfdqpasrasqlnnaldy.lleendssrs.pisgmidtdrlgvigwsmggggtlrva 189
+                             as g++v+t+d   +gf   a+r+    n   y  +++  +++    +  +d  r+ + gws gg  tl+  
+  sp|Q5B934|DAPB_EMENI 680 VAASLGYIVVTVDGrGTGFIGRAARCIIRGNIGHYeAIDQIATAKNwAQKPYVDESRMAIWGWSYGGFMTLKTL 753
+                           5699********97258********9988887777346665555541456689**************9999864 PP
+
+>> sp|A0A8F4NUL3|PYDG_ACRSP  Alpha/beta hydrolase pydG OS=Acremonium sp. OX=2046025 GN=pydG PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.0   0.00036       2.5     163     203 ..     223     262 ..     207     274 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 0.00036
+                 PBSeT.aln 163 pisgmidtdrlgvigwsmggggtlrvaaegrvsaaiplapw 203
+                               p +  +dt rl + g + gg  +lr a++ rv+a+i + p+
+  sp|A0A8F4NUL3|PYDG_ACRSP 223 P-TLELDTGRLAMAGAATGGYFALRAATNPRVKACISIDPF 262
+                               3.4458*******************************9997 PP
+
+>> sp|A0A4P8W7Y2|PYIE_PYRGI  Hydrolase pyiE OS=Pyricularia grisea OX=148305 GN=pyiE PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.0   0.00044         3     167     203 ..     240     276 ..     216     306 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.00044
+                 PBSeT.aln 167 midtdrlgvigwsmggggtlrvaaegrvsaaiplapw 203
+                                +d + + v g smgg  +lr a + rv+a++ + p+
+  sp|A0A4P8W7Y2|PYIE_PYRGI 240 ELDMKAIAVSGASMGGYYALRSAVDRRVKACVSIDPF 276
+                               379999**************************99996 PP
+
+>> sp|Q4WAZ8|PSOB_ASPFU  Alpha/beta hydrolase psoB OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.0   0.00039       2.7     168     206 ..     235     273 ..     220     283 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00039
+             PBSeT.aln 168 idtdrlgvigwsmggggtlrvaaegrvsaaiplapwdss 206
+                           +d d + v g smgg  +lr aa+ r++a++ +  + s 
+  sp|Q4WAZ8|PSOB_ASPFU 235 LDLDHIAVTGASMGGYFALRAAADPRIKACVSVDGFYSL 273
+                           68999*************************998776655 PP
+
+>> sp|P79106|PAFA2_BOVIN  Platelet-activating factor acetylhydrolase 2, cytoplasmic OS=Bos taurus OX=9913 GN=PAFAH2 PE=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00072       4.9     164     203 ..     221     261 ..     215     290 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00072
+              PBSeT.aln 164 isgmidtdrlgvigwsmggggt.lrvaaegrvsaaiplapw 203
+                            ++g id  r+ v+g s+gg  + l +a e + ++a+ l  w
+  sp|P79106|PAFA2_BOVIN 221 LKGGIDVSRVAVMGHSFGGATAiLALAKEMQFRCAVALDAW 261
+                            6799**************986428899***********999 PP
+
+>> sp|Q49SP7|TPSCS_POGCB  Gamma-curcumene synthase OS=Pogostemon cablin OX=28511 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00072       4.9      94     162 ..     400     472 ..     392     483 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00072
+              PBSeT.aln  94 tgtmaavvvipgfv.sa.essieww..gpklasygfvvmtidtnsgfdqpasrasqlnnaldylleendssrs 162
+                            +g      vi  ++ sa +  i+w    p+las   +vm    + g +q  s+  ++  +ld  +++ ++s+ 
+  sp|Q49SP7|TPSCS_POGCB 400 SGVYIMFTVISPYLnSAtQKNIDWLlsQPRLASSTAIVMRCCNDLGSNQRESKGGEVMTSLDCYMKQHGASKQ 472
+                            5555555555544414425789996447***************************************999875 PP
+
+>> sp|C7YYG9|DAPB_FUSV7  Probable dipeptidyl-aminopeptidase B OS=Fusarium vanettenii (strain ATCC MYA-4622 / CBS 123669 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0   0.00076       5.2     117     190 ..     684     760 ..     669     794 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00076
+             PBSeT.aln 117 gpklasygfvvmtidtn.sgfdqpasrasq.....lnnaldylleendssrspisgmidtdrlgvigwsmggggtlrvaa 190
+                               a+ g++v+t+d   +gf     r +      + +a d++    + ++ p+   +d++rl + gws gg  tl+   
+  sp|C7YYG9|DAPB_FUSV7 684 AYVAAALGYLVITVDPRgTGFLGRKHRVTVrsklgVHEAHDHIAAAASFASRPY---VDAERLAIWGWSYGGFTTLKTLE 760
+                           555688899999999642788777777653122225677777777766666676...8*****************98753 PP
+
+>> sp|E3S9K3|DAPB_PYRTT  Probable dipeptidyl-aminopeptidase B OS=Pyrenophora teres f. teres (strain 0-1) OX=861557 GN=da
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0   0.00075       5.1     120     189 ..     689     761 ..     676     814 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00075
+             PBSeT.aln 120 lasygfvvmtidtn.sgfdqpasrasqlnnaldylleendssrs..pisgmidtdrlgvigwsmggggtlrva 189
+                            a  g++v+t+d   +gf     r+    n   y   ++ ++      +  +d+drl + gws+gg  tl+  
+  sp|E3S9K3|DAPB_PYRTT 689 AANLGYIVVTVDGRgTGFLGRKLRCITRGNLGYYEAHDQIAAAKiwASKKYVDADRLAIWGWSFGGFNTLKTL 761
+                           577899999998642788888888777666544444433333321133568******************9864 PP
+
+>> sp|B1JAB5|SSTT_PSEPW  Serine/threonine transporter SstT OS=Pseudomonas putida (strain W619) OX=390235 GN=sstT PE=3 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.1   0.00085       5.8     160     192 ..     132     164 ..     108     184 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00085
+             PBSeT.aln 160 srspisgmidtdrlgvigwsmggggtlrvaaeg 192
+                              pi+ +++++ +gv+ w++g g +lr a e 
+  sp|B1JAB5|SSTT_PSEPW 132 VDNPINALLNANFIGVLTWAIGLGVALRHAGET 164
+                           468**************************9986 PP
+
+>> sp|D5GM60|DAPB_TUBMM  Probable dipeptidyl-aminopeptidase B OS=Tuber melanosporum (strain Mel28) OX=656061 GN=DAPB PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.1   0.00086       5.9     107     190 ..     671     757 ..     663     792 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00086
+             PBSeT.aln 107 vsaessiewwgpklasygfvvmtidtn.sgfdqpasrasqlnnaldylleendssrspi...sgmidtdrlgvigwsmggggtlrvaa 190
+                           vs   si++     a   ++v+t+d   +gf    +r + +   l y   +++  ++ i   +g +d +r+ + gws gg  tl+   
+  sp|D5GM60|DAPB_TUBMM 671 VSKSFSIDFQAYIAAGLEYIVVTVDGRgTGFIGRKARVA-VRGNLGYWEAHDQIETAKIwgkKGYVDKKRIAIWGWSYGGFMTLKTLE 757
+                           778889999999999999999999865279999888876.5556778765555554444222899*****************998753 PP
+
+>> sp|Q6F3I7|DAP4_PSEMX  Dipeptidyl aminopeptidase 4 OS=Pseudoxanthomonas mexicana OX=128785 GN=dap4 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0    0.0012       8.5     116     191 ..     547     625 ..     531     656 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.0012
+             PBSeT.aln 116 wgpklasygfvvmtidtnsgfdqpasrasqlnnaldylleendssrs....pisgmidtdrlgvigwsmggggtlrvaae 191
+                           +   la  g+vv+t+d      + a+    l    +  +e +d  r       + ++d+ r+gv gws gg  tl + a+
+  sp|Q6F3I7|DAP4_PSEMX 547 FNQYLAQQGYVVFTLDNRGTPRRGAAFGGALYGK-QGTVEVDDQLRGiewlKSQAFVDPARIGVYGWSNGGYMTLMLLAK 625
+                           5566777777777777555444444444444332.233444444332111145689****************99987654 PP
+
+>> sp|P82597|MGLP_BAC25  Thermostable monoacylglycerol lipase OS=Bacillus sp. (strain H-257) OX=129908 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.0       3.8   2.6e+04     173     190 ..      91     108 ..      86     124 .. 0.78
+   2 ?    9.1   0.0    0.0032        22     207     259 ..     178     228 ..     157     233 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: -1.0 bits;  conditional E-value: 3.8
+             PBSeT.aln 173 lgvigwsmggggtlrvaa 190
+                           + v g smgg  tl +a 
+  sp|P82597|MGLP_BAC25  91 IFVTGLSMGGTLTLYLAE 108
+                           56899******9999885 PP
+
+  == domain 2  score: 9.1 bits;  conditional E-value: 0.0032
+             PBSeT.aln 207 slrfrsietptlifacesdviapvrshadpfyeaipdstdkafveldngshtc 259
+                            +++  i  p+lif  ++d + p +  ad +++ i  st+k +v l n  h++
+  sp|P82597|MGLP_BAC25 178 KAKLDRIVCPALIFVSDEDHVVPPG-NADIIFQGIS-STEKEIVRLRNSYHVA 228
+                           56778899***************86.69******95.9*********999975 PP
+
+>> sp|A0RJP1|EZRA_BACAH  Septation ring formation regulator EzrA OS=Bacillus thuringiensis (strain Al Hakam) OX=412694 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0011       7.3     132     172 ..     112     152 ..      98     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0011
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|A0RJP1|EZRA_BACAH 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|B7JS25|EZRA_BACC0  Septation ring formation regulator EzrA OS=Bacillus cereus (strain AH820) OX=405535 GN=ezrA PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0011       7.3     132     172 ..     112     152 ..      98     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0011
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|B7JS25|EZRA_BACC0 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|C1EUZ7|EZRA_BACC3  Septation ring formation regulator EzrA OS=Bacillus cereus (strain 03BB102) OX=572264 GN=ezrA P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0011       7.3     132     172 ..     112     152 ..      98     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0011
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|C1EUZ7|EZRA_BACC3 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|C3L9V6|EZRA_BACAC  Septation ring formation regulator EzrA OS=Bacillus anthracis (strain CDC 684 / NRRL 3495) OX=5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0011       7.3     132     172 ..     112     152 ..      98     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0011
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|C3L9V6|EZRA_BACAC 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|C3PBB5|EZRA_BACAA  Septation ring formation regulator EzrA OS=Bacillus anthracis (strain A0248) OX=592021 GN=ezrA 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0011       7.3     132     172 ..     112     152 ..      98     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0011
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|C3PBB5|EZRA_BACAA 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|Q633E6|EZRA_BACCZ  Septation ring formation regulator EzrA OS=Bacillus cereus (strain ZK / E33L) OX=288681 GN=ezrA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0011       7.3     132     172 ..     112     152 ..      98     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0011
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|Q633E6|EZRA_BACCZ 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|Q81KT8|EZRA_BACAN  Septation ring formation regulator EzrA OS=Bacillus anthracis OX=1392 GN=ezrA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0011       7.3     132     172 ..     112     152 ..      98     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0011
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|Q81KT8|EZRA_BACAN 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|B7HSI6|EZRA_BACC7  Septation ring formation regulator EzrA OS=Bacillus cereus (strain AH187) OX=405534 GN=ezrA PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0     0.001       7.2     132     172 ..     112     152 ..      96     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.001
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|B7HSI6|EZRA_BACC7 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|B9J153|EZRA_BACCQ  Septation ring formation regulator EzrA OS=Bacillus cereus (strain Q1) OX=361100 GN=ezrA PE=3 S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0     0.001       7.2     132     172 ..     112     152 ..      96     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.001
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|B9J153|EZRA_BACCQ 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|Q6HCM8|EZRA_BACHK  Septation ring formation regulator EzrA OS=Bacillus thuringiensis subsp. konkukian (strain 97-2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0     0.001       7.2     132     172 ..     112     152 ..      96     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.001
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|Q6HCM8|EZRA_BACHK 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|Q72Z83|EZRA_BACC1  Septation ring formation regulator EzrA OS=Bacillus cereus (strain ATCC 10987 / NRS 248) OX=222
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0011       7.3     132     172 ..     112     152 ..      98     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0011
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|Q72Z83|EZRA_BACC1 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|Q817A9|EZRA_BACCR  Septation ring formation regulator EzrA OS=Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0011       7.3     132     172 ..     112     152 ..      98     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0011
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|Q817A9|EZRA_BACCR 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|B7H705|EZRA_BACC4  Septation ring formation regulator EzrA OS=Bacillus cereus (strain B4264) OX=405532 GN=ezrA PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0011       7.3     132     172 ..     112     152 ..      98     190 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0011
+             PBSeT.aln 132 tnsgfdqpasrasqlnnaldylleendssrspisgmidtdr 172
+                           + sg+d+   r +++ n l+ lle  +  +s i+g+ dt r
+  sp|B7H705|EZRA_BACC4 112 SISGLDDADNRITDILNELQQLLESHEKNSSEIEGLRDTYR 152
+                           569***********************************987 PP
+
+>> sp|A0LLU6|AROA_SYNFM  3-phosphoshikimate 1-carboxyvinyltransferase OS=Syntrophobacter fumaroxidans (strain DSM 10017 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.5   0.0    0.0012         8      52     145 ..     120     219 ..     102     225 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.0012
+             PBSeT.aln  52 rgpdpsvslleassgpysv.rtdn...vsslvrgfgggtvhyptnttgt.maavvvipgfvsaessiewwgpklasygfvvmtidt..n 133
+                           r   p vs le     +    td    +  + +g+ gg v   +  +g  ++av++       e ++ew  p +asy +v mt+    +
+  sp|A0LLU6|AROA_SYNFM 120 RPVKPLVSALEMLGARFDCtETDGflpLRVIAHGLSGGKVLVDARQSGQfLSAVLMAAPCAGGEVTVEWLEP-VASYPYVAMTLAMmgE 207
+                           555667777777666665413444222345678999*****9999999725677777778899*******99.7*********875226 PP
+
+             PBSeT.aln 134 sgfdqpasrasq 145
+                            g+d    ra++
+  sp|A0LLU6|AROA_SYNFM 208 RGIDFRKDRANR 219
+                           788888888765 PP
+
+>> sp|W7N6P0|FUS2_GIBM7  20-hydroxy-prefusarin hydrolase FUS2 OS=Gibberella moniliformis (strain M3125 / FGSC 7600) OX=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.5   0.0    0.0011       7.8     168     199 ..     227     258 ..     150     273 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.0011
+             PBSeT.aln 168 idtdrlgvigwsmggggtlrvaaegrvsaaip 199
+                           +d +rl ++g s+gg  +lr a + r++a+i 
+  sp|W7N6P0|FUS2_GIBM7 227 LDLERLAIFGASLGGYLSLRAAVDPRIKACIS 258
+                           6899*************************996 PP
+
+>> sp|P70948|YITV_BACSU  Putative esterase YitV OS=Bacillus subtilis (strain 168) OX=224308 GN=yitV PE=4 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0    0.0013       9.1     164     199 ..     101     137 ..      17     151 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0013
+             PBSeT.aln 164 isgmidtdrlgvigwsmggggtlrv.aaegrvsaaip 199
+                            +g+id  r+g+ g smgg  tl   +a   ++a + 
+  sp|P70948|YITV_BACSU 101 KEGLIDGGRIGLAGTSMGGITTLGAlTAYDWIKAGVS 137
+                           57********************965144556666665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (316 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     18632  (0.0324791); expected 11473.2 (0.02)
+Passed bias filter:                    12643  (0.0220391); expected 11473.2 (0.02)
+Passed Vit filter:                      1184  (0.00206394); expected 573.7 (0.001)
+Passed Fwd filter:                       102  (0.000177805); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              84  [number of targets reported over threshold]
+# CPU time: 4.83u 0.17s 00:00:05.00 Elapsed: 00:00:01.69
+# Mc/sec: 38874.77
+//
+[ok]

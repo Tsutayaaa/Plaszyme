@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PES.aln	sp|P26495|PHAZ_ECTOL	283	244	1.9e-37	134.4	4.3e-40	2.2e-37	134.3	4	234	7	278	1	282	0.91	1	1	1.1147540983606556	0.8162544169611308	PES

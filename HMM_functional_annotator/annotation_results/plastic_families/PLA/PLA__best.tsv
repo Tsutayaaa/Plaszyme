@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PLA.aln	54b0f51654	548	246	1.9e-07	25.7	6.3e-09	2.5e-07	25.4	24	140	102	236	18	286	0.78	1	1	0.5487804878048781	0.21350364963503649	PLA.hmm

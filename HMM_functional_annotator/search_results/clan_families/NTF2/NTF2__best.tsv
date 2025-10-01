@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+NTF2.aln	sp|Q3C1D4|TPDB2_COMSP	154	154	9.6e-109	365.0	3.2e-113	1.1e-108	364.8	1	154	1	154	1	154	1.0	1	1	1.0	1.0	NTF2

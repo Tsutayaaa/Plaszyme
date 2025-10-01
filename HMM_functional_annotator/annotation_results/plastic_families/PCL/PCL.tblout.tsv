@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+afb51f2a48           -          PCL.aln              -            1.9e-06   22.2   0.0   3.4e-06   21.4   0.0   1.5   1   1   0   1   1   1   1 -
+59bb4d8994           -          PCL.aln              -            4.9e-06   20.9   0.0   1.6e-05   19.2   0.0   1.8   1   1   0   1   1   1   1 -
+4fd7439f5f           -          PCL.aln              -            5.4e-06   20.8   0.0   1.7e-05   19.1   0.0   1.8   1   1   0   1   1   1   1 -
+9c28e36175           -          PCL.aln              -            7.3e-06   20.3   0.0   1.2e-05   19.6   0.0   1.4   1   0   0   1   1   1   1 -
+e542ce1613           -          PCL.aln              -            7.6e-06   20.3   0.0   1.3e-05   19.5   0.0   1.4   1   1   0   1   1   1   1 -
+54b0f51654           -          PCL.aln              -            9.8e-06   19.9   0.0   2.1e-05   18.8   0.0   1.4   1   1   0   1   1   1   1 -
+f41c6d89a0           -          PCL.aln              -            1.9e-05   19.0   0.0   3.7e-05   18.0   0.0   1.4   1   1   0   1   1   1   1 -
+03f3222488           -          PCL.aln              -              2e-05   18.9   0.0   4.4e-05   17.8   0.0   1.4   1   1   0   1   1   1   1 -
+114e6d2abe           -          PCL.aln              -            2.5e-05   18.6   0.0   4.2e-05   17.8   0.0   1.4   1   1   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PCL.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/plastic_families/PCL/PCL.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/plastic_families/PCL/PCL.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PCL.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 12:47:13 2025
+# [ok]

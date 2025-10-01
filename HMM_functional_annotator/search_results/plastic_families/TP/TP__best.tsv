@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+TP.aln	sp|Q3C1E3|TPDA1_COMSP	413	329	1.3e-149	503.2	1.5e-153	1.5e-149	503.0	1	323	3	413	3	413	0.99	1	1	1.249240121580547	0.7820823244552058	TP

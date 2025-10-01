@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Peroxidase.aln	sp|P19136|PEM4_PHACH	382	387	1.5e-215	720.3	1.8e-219	1.6e-215	720.2	3	383	1	382	1	382	0.99	1	1	0.9870801033591732	0.9973821989528796	Peroxidase

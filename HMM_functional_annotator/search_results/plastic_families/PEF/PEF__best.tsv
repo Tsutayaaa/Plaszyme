@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PEF.aln	sp|A0A0K8P6T7|PETH_PISS1	290	290	1.9e-188	629.6	5.4e-192	2.1e-188	629.5	1	290	1	290	1	290	1.0	1	1	1.0	1.0	PEF

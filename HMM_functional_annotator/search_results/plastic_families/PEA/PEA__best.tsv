@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PEA.aln	sp|P12625|PHB_RALPI	488	540	5.4e-214	716.8	8.3e-218	6.5e-214	716.5	1	540	1	488	1	488	1.0	1	1	0.9037037037037037	1.1065573770491803	PEA

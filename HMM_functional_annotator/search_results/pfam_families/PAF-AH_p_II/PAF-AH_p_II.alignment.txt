@@ -1,0 +1,1597 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/PAF-AH_p_II.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/PAF-AH_p_II/PAF-AH_p_II.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/PAF-AH_p_II/PAF-AH_p_II.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PAF-AH_p_II.aln  [M=365]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+    2.3e-10   44.8   0.2    6.2e-05   26.9   0.0    3.1  3  sp|Q8VDG7|PAFA2_MOUSE      Platelet-activating factor acetylh
+      4e-10   44.0   0.0      4e-05   27.5   0.0    3.0  3  sp|P79106|PAFA2_BOVIN      Platelet-activating factor acetylh
+    1.9e-09   41.8   0.3    0.00011   26.1   0.0    3.0  3  sp|P83006|PAFA2_RAT        Platelet-activating factor acetylh
+    2.4e-09   41.4   0.0    0.00012   26.0   0.0    2.8  3  sp|Q99487|PAFA2_HUMAN      Platelet-activating factor acetylh
+      6e-08   36.8   0.9    4.3e-06   30.7   0.2    2.9  2  sp|F7IX06|PETH2_THEAE      Cutinase est2 OS=Thermobifida alba
+    8.1e-08   36.4   0.0     0.0043   20.9   0.0    3.1  3  sp|Q90678|PAFA_CHICK       Platelet-activating factor acetylh
+    9.3e-08   36.2   0.9    3.8e-06   30.9   0.2    2.8  2  sp|D4Q9N1|PETH1_THEAE      Cutinase est1 OS=Thermobifida alba
+    9.7e-08   36.2   0.0    0.00052   23.9   0.0    2.2  2  sp|Q28262|PAFA_CANLF       Platelet-activating factor acetylh
+      4e-07   34.1   1.5    0.00029   24.7   0.2    3.0  2  sp|G9BY57|PETH_UNKP        Leaf-branch compost cutinase OS=Un
+    4.1e-07   34.1   0.1    0.00056   23.8   0.0    2.2  2  sp|Q28017|PAFA_BOVIN       Platelet-activating factor acetylh
+    4.6e-07   33.9   0.0     0.0016   22.3   0.0    2.3  2  sp|Q13093|PAFA_HUMAN       Platelet-activating factor acetylh
+    4.7e-07   33.9   0.0    9.9e-05   26.3   0.0    2.8  3  sp|Q22943|PAFA_CAEEL       Platelet-activating factor acetylh
+    5.7e-07   33.6   0.2    0.00035   24.5   0.0    2.9  3  sp|P70683|PAFA_CAVPO       Platelet-activating factor acetylh
+    2.3e-06   31.6   0.8    5.9e-05   27.0   0.3    2.6  2  sp|E9LVH9|PETH2_THECS      Cutinase 2 (Fragment) OS=Thermobif
+    4.6e-06   30.6   0.8    9.2e-05   26.4   0.3    2.5  2  sp|G8GER6|PETH1_THEFU      Cutinase cut1 OS=Thermobifida fusc
+    4.6e-06   30.6   0.8    9.2e-05   26.4   0.3    2.5  2  sp|Q47RJ7|PETH1_THEFY      Cutinase OS=Thermobifida fusca (st
+    1.7e-05   28.7   0.4    0.00064   23.6   0.3    2.6  2  sp|Q9L2J6|BHETH_STRCO      Bis(hydroxyethyl) terephthalate hy
+    4.7e-05   27.3   1.8     0.0024   21.7   0.0    2.9  3  sp|Q94LX1|CLH1_CITUN       Chlorophyllase-1, chloroplastic OS
+      6e-05   27.0   0.0      0.022   18.5   0.0    2.4  2  sp|Q60963|PAFA_MOUSE       Platelet-activating factor acetylh
+    0.00013   25.8   0.6     0.0014   22.5   0.6    2.0  1  sp|P0DX29|PETH1_AMYMS      Cutinase OS=Amycolatopsis mediterr
+    0.00022   25.1   0.9     0.0074   20.1   0.1    2.7  2  sp|E9LVH8|PETH1_THECS      Cutinase 1 (Fragment) OS=Thermobif
+    0.00034   24.5   0.8     0.0098   19.7   0.1    2.7  2  sp|Q47RJ6|PETH2_THEFY      Cutinase OS=Thermobifida fusca (st
+    0.00034   24.5   0.8     0.0098   19.7   0.1    2.7  2  sp|Q6A0I4|PETH2_THEFU      Cutinase cut2 OS=Thermobifida fusc
+    0.00051   23.9   1.9      0.024   18.4   0.1    2.9  3  sp|Q9MV14|CLH1_CITSI       Chlorophyllase-1, chloroplastic OS
+    0.00071   23.4   0.0     0.0011   22.8   0.0    1.2  1  sp|P76049|YCJY_ECOLI       Uncharacterized protein YcjY OS=Es
+     0.0019   22.0   0.0     0.0045   20.8   0.0    1.5  1  sp|Q74Z47|PPME1_EREGS      Protein phosphatase methylesterase
+     0.0056   20.5   0.1     0.0083   19.9   0.1    1.1  1  sp|Q5BGN7|PPME1_EMENI      Protein phosphatase methylesterase
+  ------ inclusion threshold ------
+       0.02   18.7   0.0       0.02   18.7   0.0    1.0  1  sp|P68464|K6_VACCW         Protein K6 OS=Vaccinia virus (stra
+       0.02   18.7   0.0       0.02   18.7   0.0    1.0  1  sp|P68465|K6_VACCC         Protein K6 OS=Vaccinia virus (stra
+      0.022   18.5   0.3       0.26   15.0   0.0    2.3  3  sp|Q9LE89|CLH0_CHEAL       Chlorophyllase type 0 OS=Chenopodi
+      0.024   18.4   0.1      0.036   17.8   0.1    1.1  1  sp|Q2URJ0|PPME1_ASPOR      Protein phosphatase methylesterase
+      0.067   16.9   0.2       0.12   16.1   0.2    1.6  1  sp|P19833|LIP1_MORS1       Lipase 1 OS=Moraxella sp. (strain 
+       0.14   15.9   0.1       0.93   13.2   0.1    2.0  1  sp|P82597|MGLP_BAC25       Thermostable monoacylglycerol lipa
+       0.17   15.6   0.0       0.33   14.7   0.0    1.4  1  sp|Q9URV1|PLG7_SCHPO       Putative phospholipase A2 OS=Schiz
+       0.18   15.5   0.0       0.35   14.6   0.0    1.4  1  sp|Q0APZ9|BIOF_MARMM       8-amino-7-oxononanoate synthase OS
+       0.19   15.4   0.0        0.3   14.8   0.0    1.2  1  sp|Q4WKB2|PPME1_ASPFU      Protein phosphatase methylesterase
+        0.2   15.4   0.0       0.27   15.0   0.0    1.1  1  sp|O07937|YRAK_BACSU       Uncharacterized hydrolase YraK OS=
+       0.23   15.2   0.0       0.41   14.3   0.0    1.4  1  sp|A0A7H0DN16|PG043_MONPV  Monoglyceride lipase homolog OS=Mo
+       0.38   14.5   0.1        5.9   10.5   0.1    2.5  2  sp|Q99390|YPT2_ECOLX       Uncharacterized 31.7 kDa protein i
+       0.43   14.3   0.0         14    9.3   0.0    2.0  2  sp|Q06174|EST_GEOSE        Carboxylesterase OS=Geobacillus st
+       0.44   14.2   0.0          1   13.0   0.0    1.6  1  sp|O07427|MGLL_MYCTU       Monoacylglycerol lipase OS=Mycobac
+       0.51   14.0   0.1         66    7.1   0.0    2.2  2  sp|P24640|LIP3_MORS1       Lipase 3 OS=Moraxella sp. (strain 
+       0.56   13.9   0.8         58    7.3   0.0    2.4  3  sp|Q02104|LIP1_PSYIM       Lipase 1 OS=Psychrobacter immobili
+       0.58   13.8   0.0        1.6   12.4   0.0    1.8  1  sp|Q9M7I7|CLH2_ARATH       Chlorophyllase-2 OS=Arabidopsis th
+       0.59   13.8   0.1        9.1    9.9   0.1    2.5  2  sp|P29368|YPT1_ECOLX       Uncharacterized 31.7 kDa protein i
+       0.65   13.7   0.2        7.7   10.2   0.0    2.5  3  sp|O22527|CLH1_ARATH       Chlorophyllase-1 OS=Arabidopsis th
+        1.4   12.6   0.0        1.9   12.2   0.0    1.2  1  sp|P39298|YJFP_ECOLI       Esterase YjfP OS=Escherichia coli 
+        1.4   12.5   0.0        2.1   12.0   0.0    1.2  1  sp|P0A114|CLCD_PSEPU       Carboxymethylenebutenolidase OS=Ps
+        1.4   12.5   0.0        2.1   12.0   0.0    1.2  1  sp|P0A115|CLCD_PSEKB       Carboxymethylenebutenolidase OS=Ps
+        1.6   12.5   0.0        2.1   12.0   0.0    1.1  1  sp|Q8ZAL4|DLHH_YERPE       Putative carboxymethylenebutenolid
+        1.7   12.3   2.1    2.9e+02    5.0   0.2    3.2  3  sp|Q14HL6|SYL_FRAT1        Leucine--tRNA ligase OS=Francisell
+        1.7   12.3   2.1    2.9e+02    5.0   0.2    3.2  3  sp|Q5NG64|SYL_FRATT        Leucine--tRNA ligase OS=Francisell
+        1.9   12.2   0.2        7.9   10.1   0.1    1.8  2  sp|Q8R431|MGLL_RAT         Monoglyceride lipase OS=Rattus nor
+        2.1   12.0   1.9    4.2e+02    4.5   0.1    3.2  3  sp|A0Q693|SYL_FRATN        Leucine--tRNA ligase OS=Francisell
+        2.1   12.0   0.1        3.4   11.3   0.1    1.2  1  sp|D4AZY1|A1751_ARTBC      Probable 1-alkyl-2-acetylglyceroph
+        2.1   12.0   0.2         19    8.9   0.1    2.3  2  sp|G2JHL6|AIDA_ACIBM       Quorum-quenching protein AidA OS=A
+        2.7   11.6   0.1    1.3e+02    6.1   0.0    2.5  3  sp|P26174|BCHO_RHOCA       Magnesium-chelatase 30 kDa subunit
+        3.1   11.5   0.6         17    9.0   0.5    2.2  2  sp|P70948|YITV_BACSU       Putative esterase YitV OS=Bacillus
+        3.3   11.4   2.1    2.9e+02    5.0   0.2    3.1  3  sp|A7NCQ3|SYL_FRATF        Leucine--tRNA ligase OS=Francisell
+        3.3   11.4   2.1    2.9e+02    5.0   0.2    3.1  3  sp|Q0BLI7|SYL_FRATO        Leucine--tRNA ligase OS=Francisell
+        3.3   11.4   2.1    2.9e+02    5.0   0.2    3.1  3  sp|Q2A307|SYL_FRATH        Leucine--tRNA ligase OS=Francisell
+        3.3   11.4   2.1    2.9e+02    5.0   0.2    3.1  3  sp|B2SGM9|SYL_FRATM        Leucine--tRNA ligase OS=Francisell
+        3.4   11.3   0.2         20    8.8   0.1    2.2  3  sp|Q57427|Y193_HAEIN       Putative esterase/lipase HI_0193 O
+        3.6   11.2   0.0        4.6   10.9   0.0    1.1  1  sp|B5FGH1|LEUD_ALIFM       3-isopropylmalate dehydratase smal
+        3.9   11.1   0.0        6.5   10.4   0.0    1.4  1  sp|O18229|6PGL_CAEEL       Putative 6-phosphogluconolactonase
+        4.1   11.1   0.1          8   10.1   0.1    1.4  1  sp|A0QNZ7|MGLL_MYCS2       Monoacylglycerol lipase OS=Mycolic
+        4.1   11.1   0.0        5.2   10.7   0.0    1.1  1  sp|Q5E859|LEUD_ALIF1       3-isopropylmalate dehydratase smal
+        4.2   11.0   2.5    3.1e+02    4.9   0.2    3.1  3  sp|A4IXU1|SYL_FRATW        Leucine--tRNA ligase OS=Francisell
+        5.8   10.6   0.0        7.1   10.3   0.0    1.1  1  sp|A5F5E3|LEUD_VIBC3       3-isopropylmalate dehydratase smal
+        5.8   10.6   0.0        7.1   10.3   0.0    1.1  1  sp|C3LR35|LEUD_VIBCM       3-isopropylmalate dehydratase smal
+        5.8   10.6   0.0        7.1   10.3   0.0    1.1  1  sp|Q9KP80|LEUD_VIBCH       3-isopropylmalate dehydratase smal
+        6.4   10.4   0.0         42    7.7   0.0    1.9  2  sp|Q9YBQ2|APEH_AERPE       Acylamino-acid-releasing enzyme OS
+        8.3   10.1   3.3    2.6e+02    5.2   0.4    2.9  3  sp|B0U0E8|SYL_FRAP2        Leucine--tRNA ligase OS=Francisell
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q8VDG7|PAFA2_MOUSE  Platelet-activating factor acetylhydrolase 2, cytoplasmic OS=Mus musculus OX=10090 GN=Pafah2 P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.9   0.0   7.9e-09   6.2e-05      77     135 ..      98     158 ..      91     164 .. 0.80
+   2 !   10.8   0.0   0.00064         5     148     184 ..     205     241 ..     191     255 .. 0.79
+   3 ?    3.3   0.0      0.12   9.1e+02     271     313 ..     272     314 ..     263     349 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 26.9 bits;  conditional E-value: 7.9e-09
+        PAF-AH_p_II.aln  77 gsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGs..dlqyrqelikGdlssads 135
+                            + +Pl+++shG G+ + ++  +  el++ G++va+ +h        y  + ++ ++s+a+s
+  sp|Q8VDG7|PAFA2_MOUSE  98 SGYPLIILSHGLGGFRASYSAFCMELASRGFVVAAVEHRDQsaAATYFCKPTSQESSPAES 158
+                            569***********************************75411345666667777776665 PP
+
+  == domain 2  score: 10.8 bits;  conditional E-value: 0.00064
+        PAF-AH_p_II.aln 148 avidtltadqntgaWskiidkqkisvlGdslGGaaal 184
+                            +v++ +    +  + ++ id+++++v+G+s+GGa+a+
+  sp|Q8VDG7|PAFA2_MOUSE 205 TVVNVFPGGLDLMTLKGSIDRNRVAVMGHSFGGATAV 241
+                            566666666666677899*****************96 PP
+
+  == domain 3  score: 3.3 bits;  conditional E-value: 0.12
+        PAF-AH_p_II.aln 271 siPvslitlGeveiiptgvvadklasitPqgtyvtlegathfs 313
+                            + Pv +i++ +++++ +  +  k+++   q+  vt+ ga h s
+  sp|Q8VDG7|PAFA2_MOUSE 272 RGPVFFINVEKFQTVESVNLMKKICAQHEQSRIVTVLGAVHRS 314
+                            56999**********99999*******************9976 PP
+
+>> sp|P79106|PAFA2_BOVIN  Platelet-activating factor acetylhydrolase 2, cytoplasmic OS=Bos taurus OX=9913 GN=PAFAH2 PE=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.5   0.0   5.1e-09     4e-05      77     115 ..      99     137 ..      92     149 .. 0.90
+   2 !   10.3   0.0   0.00092       7.2     136     184 ..     195     243 ..     176     254 .. 0.86
+   3 ?    2.3   0.0      0.24   1.8e+03     273     313 ..     276     316 ..     268     330 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 27.5 bits;  conditional E-value: 5.1e-09
+        PAF-AH_p_II.aln  77 gsfPlllishGsGsvaenlatlatelvkaGilvavPqhi 115
+                            + +Pl+++shG+G+ +  +  +  el++ G++vavP+h 
+  sp|P79106|PAFA2_BOVIN  99 SGYPLIIFSHGMGAFRTVYSAFCMELASRGFVVAVPEHR 137
+                            569***********************************6 PP
+
+  == domain 2  score: 10.3 bits;  conditional E-value: 0.00092
+        PAF-AH_p_II.aln 136 PvkilarttdlsavidtltadqntgaWskiidkqkisvlGdslGGaaal 184
+                             +kil+  t   av++ l    +  + ++ id  +++v+G+s+GGa+a+
+  sp|P79106|PAFA2_BOVIN 195 VLKILQEVTAGQAVLNILPGGLDLMTLKGGIDVSRVAVMGHSFGGATAI 243
+                            568999999999999999999999999********************97 PP
+
+  == domain 3  score: 2.3 bits;  conditional E-value: 0.24
+        PAF-AH_p_II.aln 273 PvslitlGeveiiptgvvadklasitPqgtyvtlegathfs 313
+                            P+ +i++ +++++ t  +  k++    q+  +t+ g  h s
+  sp|P79106|PAFA2_BOVIN 276 PIFFINAEKFQTVETVNLMKKICDQHHQSRIITVLGSVHRS 316
+                            899*********************************99988 PP
+
+>> sp|P83006|PAFA2_RAT  Platelet-activating factor acetylhydrolase 2, cytoplasmic OS=Rattus norvegicus OX=10116 GN=Pafah
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.1   0.0   1.4e-08   0.00011      75     134 ..      97     157 ..      91     164 .. 0.79
+   2 !    8.8   0.1    0.0025        20     149     184 ..     206     241 ..     185     254 .. 0.76
+   3 ?    3.3   0.0      0.12   9.3e+02     270     313 ..     271     314 ..     248     333 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 26.1 bits;  conditional E-value: 1.4e-08
+      PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGs..dlqyrqelikGdlssad 134
+                          e + +Pl+++shG G+ + ++  +  el++ G++va+ +h        y  + ++ ++s+ +
+  sp|P83006|PAFA2_RAT  97 E-SGYPLIILSHGLGGFRVSYSAFCMELASRGFVVAAIEHRDQsaAATYFCKQTSQESSPTE 157
+                          4.679***********************************7641134566666666666655 PP
+
+  == domain 2  score: 8.8 bits;  conditional E-value: 0.0025
+      PAF-AH_p_II.aln 149 vidtltadqntgaWskiidkqkisvlGdslGGaaal 184
+                          vi+ +    +  + ++ id+ +++v+G+s+GGa+a+
+  sp|P83006|PAFA2_RAT 206 VINVFPGGLDLMTLKGSIDMSRVAVMGHSFGGATAI 241
+                          56666666666678899*****************97 PP
+
+  == domain 3  score: 3.3 bits;  conditional E-value: 0.12
+      PAF-AH_p_II.aln 270 isiPvslitlGeveiiptgvvadklasitPqgtyvtlegathfs 313
+                           + Pv +i++ +++++ +  +  k+++   q+  vt+ ga h s
+  sp|P83006|PAFA2_RAT 271 ARGPVFFINVEKFQTVESVNLMKKICAQHEQSRIVTVLGAVHRS 314
+                          5669************99999*******************9977 PP
+
+>> sp|Q99487|PAFA2_HUMAN  Platelet-activating factor acetylhydrolase 2, cytoplasmic OS=Homo sapiens OX=9606 GN=PAFAH2 PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0   0.0   1.5e-08   0.00012      77     115 ..      99     137 ..      92     148 .. 0.91
+   2 !   11.6   0.0   0.00035       2.8     131     184 ..     190     243 ..     176     255 .. 0.86
+   3 ?   -0.5   0.0       1.7   1.4e+04     272     313 ..     275     316 ..     266     326 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 26.0 bits;  conditional E-value: 1.5e-08
+        PAF-AH_p_II.aln  77 gsfPlllishGsGsvaenlatlatelvkaGilvavPqhi 115
+                            + +Pl+++shG G+ +  +  +  el++ G++vavP+h 
+  sp|Q99487|PAFA2_HUMAN  99 SGYPLIIFSHGLGAFRTLYSAFCMELASRGFVVAVPEHR 137
+                            569***********************************6 PP
+
+  == domain 2  score: 11.6 bits;  conditional E-value: 0.00035
+        PAF-AH_p_II.aln 131 ssadsPvkilarttdlsavidtltadqntgaWskiidkqkisvlGdslGGaaal 184
+                            s  +  +kil+  t   +v + l    +  + ++ id+ +++v+G+s+GGa+a+
+  sp|Q99487|PAFA2_HUMAN 190 SECLRVLKILQEVTAGQTVFNILPGGLDLMTLKGNIDMSRVAVMGHSFGGATAI 243
+                            5566677999999999999999999999999*********************97 PP
+
+  == domain 3  score: -0.5 bits;  conditional E-value: 1.7
+        PAF-AH_p_II.aln 272 iPvslitlGeveiiptgvvadklasitPqgtyvtlegathfs 313
+                             Pv +i+  +++++ +  +  k+++   q+  +t+ g  h s
+  sp|Q99487|PAFA2_HUMAN 275 GPVFFINTEKFQTMESVNLMKKICAQHEQSRIITVLGSVHRS 316
+                            6999**********9999999****99********9999976 PP
+
+>> sp|F7IX06|PETH2_THEAE  Cutinase est2 OS=Thermobifida alba OX=53522 GN=est2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.7   0.2   5.5e-10   4.3e-06      75     195 ..      86     187 ..      77     190 .. 0.89
+   2 ?    1.3   0.0      0.48   3.8e+03     265     318 ..     198     252 ..     187     274 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 30.7 bits;  conditional E-value: 5.5e-10
+        PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaW 162
+                            e+ ++  + is G+ + + ++a+l ++++++G++v + +                 ++ d P    +r+  l a +d++ +d  ++a 
+  sp|F7IX06|PETH2_THEAE  86 ENNTYGAIAISPGYTGTQSSIAWLGERIASHGFVVIAIDT---------------NTTLDQP---DSRARQLNAALDYMLTDA-SSAV 154
+                            66788899***************************88543...............4556778...678999***********9.999* PP
+
+        PAF-AH_p_II.aln 163 skiidkqkisvlGdslGGaaaleiaGarldlea 195
+                            +++id  +++v+G+s+GG  +l +a  r dl+a
+  sp|F7IX06|PETH2_THEAE 155 RNRIDASRLAVMGHSMGGGGTLRLASQRPDLKA 187
+                            *************************99999876 PP
+
+  == domain 2  score: 1.3 bits;  conditional E-value: 0.48
+        PAF-AH_p_II.aln 265 dslakisiPvslitlGeveiiptgvvadk..lasi.tP.qgtyvtlegathfsflpec 318
+                            +s   i +P  li   e+++i +  +  k    si +P + +y+ l+ga hf   p++
+  sp|F7IX06|PETH2_THEAE 198 KSWRDITVPT-LIIGAEYDTIASVTLHSKpfYNSIpSPtDKAYLELDGASHFA--PNI 252
+                            5677899999.888899****776666664334553232367999*****998..554 PP
+
+>> sp|Q90678|PAFA_CHICK  Platelet-activating factor acetylhydrolase OS=Gallus gallus OX=9031 GN=PLA2G7 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.9   0.0   5.5e-07    0.0043      77     115 ..     127     165 ..     112     182 .. 0.88
+   2 !    7.5   0.0    0.0065        51     149     185 ..     238     274 ..     226     280 .. 0.83
+   3 ?    4.4   0.0     0.057   4.4e+02     250     334 ..     284     371 ..     275     384 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 20.9 bits;  conditional E-value: 5.5e-07
+       PAF-AH_p_II.aln  77 gsfPlllishGsGsvaenlatlatelvkaGilvavPqhi 115
+                             +Pll++shG G+ +  +  +  e++++G+lva+ +h 
+  sp|Q90678|PAFA_CHICK 127 EKYPLLVFSHGLGAFRTIYSAICIEMASQGFLVAAVEHR 165
+                           379********************************9996 PP
+
+  == domain 2  score: 7.5 bits;  conditional E-value: 0.0065
+       PAF-AH_p_II.aln 149 vidtltadqntgaWskiidkqkisvlGdslGGaaale 185
+                           v++ l++d +    ++ +d  +i+v+G+s+GGa+ +e
+  sp|Q90678|PAFA_CHICK 238 VMNVLNSDFDWNHLKDSVDTSRIAVMGHSFGGATVIE 274
+                           566677777666677889****************886 PP
+
+  == domain 3  score: 4.4 bits;  conditional E-value: 0.057
+       PAF-AH_p_II.aln 250 aviaidPllaqiydadslakisiPvslitlGeveiiptgvvadklasitPqgtyvtlegathfsflpeckk..g..aadrlksagevdp 334
+                           + ia+d  +  + d    ++++ P+ +i+  +++     +   kl+s   +   +t++g  h sf p+     g      +k  ge+dp
+  sp|Q90678|PAFA_CHICK 284 CGIALDAWMLPVGDDTYQSSVQQPLLFINSEKFQWAANILKMKKLSSNDTNKKMITIKGSVHQSF-PDFTFvsGeiIGKFFKLKGEIDP 371
+                           55666666666666677789****************8889999****9999***********995.54432002112344566777777 PP
+
+>> sp|D4Q9N1|PETH1_THEAE  Cutinase est1 OS=Thermobifida alba OX=53522 GN=est1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.9   0.2   4.8e-10   3.8e-06      75     195 ..      82     183 ..      73     188 .. 0.89
+   2 ?    0.4   0.0      0.93   7.3e+03     266     318 ..     195     248 ..     187     270 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 30.9 bits;  conditional E-value: 4.8e-10
+        PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaW 162
+                            e+ ++  + is G+ + + ++a+l ++++++G++v + +                 ++ d P    +r+  l a +d++ +d  +++ 
+  sp|D4Q9N1|PETH1_THEAE  82 ENNTYGAIAISPGYTGTQSSIAWLGERIASHGFVVIAIDT---------------NTTLDQP---DSRARQLNAALDYMLTDA-SSSV 150
+                            66788899***************************88543...............4556778...678999***********9.999* PP
+
+        PAF-AH_p_II.aln 163 skiidkqkisvlGdslGGaaaleiaGarldlea 195
+                            +++id  +++v+G+s+GG  +l +a  r dl+a
+  sp|D4Q9N1|PETH1_THEAE 151 RNRIDASRLAVMGHSMGGGGTLRLASQRPDLKA 183
+                            **************************9999976 PP
+
+  == domain 2  score: 0.4 bits;  conditional E-value: 0.93
+        PAF-AH_p_II.aln 266 slakisiPvslitlGeveii.ptgvvadklasitPq...gtyvtlegathfsflpec 318
+                            s   i +P  li   ++++i p++  ++ + +  P     +y+ l++athf   p++
+  sp|D4Q9N1|PETH1_THEAE 195 SWRDITVPT-LIIGADLDTIaPVSSHSEPFYNSIPSstdKAYLELNNATHFA--PNI 248
+                            667899998.777788998834444444444333430115699999999998..554 PP
+
+>> sp|Q28262|PAFA_CANLF  Platelet-activating factor acetylhydrolase OS=Canis lupus familiaris OX=9615 GN=PLA2G7 PE=2 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.9   0.0   6.7e-08   0.00052      75     115 ..     142     180 ..     126     202 .. 0.88
+   2 !   10.0   0.0    0.0011       8.5     162     185 ..     259     282 ..     245     287 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 23.9 bits;  conditional E-value: 6.7e-08
+       PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhi 115
+                           e   +Pl+++shG G+ +  +  +  +l+++G++va+ +h 
+  sp|Q28262|PAFA_CANLF 142 E--KYPLIVFSHGLGAFRTIYSAIGIDLASHGFIVAAIEHR 180
+                           3..69********************************9996 PP
+
+  == domain 2  score: 10.0 bits;  conditional E-value: 0.0011
+       PAF-AH_p_II.aln 162 WskiidkqkisvlGdslGGaaale 185
+                            ++ id++ki+v+G+s+GGa+ l+
+  sp|Q28262|PAFA_CANLF 259 LKDSIDRDKIAVIGHSFGGATVLQ 282
+                           56789****************986 PP
+
+>> sp|G9BY57|PETH_UNKP  Leaf-branch compost cutinase OS=Unknown prokaryotic organism OX=2725 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.7   0.2   3.7e-08   0.00029      78     190 ..      85     178 ..      71     185 .. 0.88
+   2 ?    3.8   0.1     0.083   6.5e+02     270     322 ..     198     251 ..     186     258 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 24.7 bits;  conditional E-value: 3.7e-08
+      PAF-AH_p_II.aln  78 sfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaWskiid 167
+                          +f  + +s G+ + a +la+l ++l+++G++v v +                 s  d P    +r++ lsa +++l++    +a + ++d
+  sp|G9BY57|PETH_UNKP  85 TFGGIAMSPGYTADASSLAWLGRRLASHGFVVLVINT---------------NSRFDYP---DSRASQLSAALNYLRTSS-PSAVRARLD 155
+                          577799**************************98653...............4567888...789************998.8999***** PP
+
+      PAF-AH_p_II.aln 168 kqkisvlGdslGGaaaleiaGar 190
+                           ++++v G+s+GG  +l ia  +
+  sp|G9BY57|PETH_UNKP 156 ANRLAVAGHSMGGGGTLRIAEQN 178
+                          *******************9755 PP
+
+  == domain 2  score: 3.8 bits;  conditional E-value: 0.083
+      PAF-AH_p_II.aln 270 isiPvslitlGeveii.ptgvva....dklasitPqgtyvtlegathfsflpeckkga 322
+                           s+Pv li   e +++ p++  a    ++l s tP  +yv l++a hf   p+ +++a
+  sp|G9BY57|PETH_UNKP 198 TSVPV-LIVGAEADTVaPVSQHAipfyQNLPSTTP-KVYVELDNASHFA--PNSNNAA 251
+                          67888.7777777777233322222226899****.99*********99..7776655 PP
+
+>> sp|Q28017|PAFA_BOVIN  Platelet-activating factor acetylhydrolase OS=Bos taurus OX=9913 GN=PLA2G7 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.8   0.0   7.1e-08   0.00056      75     115 ..     142     180 ..     119     195 .. 0.85
+   2 !    8.0   0.0    0.0045        35     162     185 ..     259     282 ..     244     286 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 23.8 bits;  conditional E-value: 7.1e-08
+       PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhi 115
+                           e   +Pl+++shG G+ +  +  +  +l+++G++va+ +h 
+  sp|Q28017|PAFA_BOVIN 142 E--KYPLIIFSHGLGAFRTIYSAIGIDLASHGFIVAAVEHR 180
+                           4..79********************************9996 PP
+
+  == domain 2  score: 8.0 bits;  conditional E-value: 0.0045
+       PAF-AH_p_II.aln 162 WskiidkqkisvlGdslGGaaale 185
+                            ++ id++ki+++G+s+GGa+ ++
+  sp|Q28017|PAFA_BOVIN 259 LKDSIDRDKIAIIGHSFGGATVIQ 282
+                           56789***************9875 PP
+
+>> sp|Q13093|PAFA_HUMAN  Platelet-activating factor acetylhydrolase OS=Homo sapiens OX=9606 GN=PLA2G7 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.3   0.0     2e-07    0.0016      78     115 ..     143     180 ..     127     196 .. 0.90
+   2 !    9.3   0.0    0.0018        14     163     185 ..     259     281 ..     245     287 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 22.3 bits;  conditional E-value: 2e-07
+       PAF-AH_p_II.aln  78 sfPlllishGsGsvaenlatlatelvkaGilvavPqhi 115
+                            +Pl+++shG G+ +  +  +  +l+++G++va+ +h 
+  sp|Q13093|PAFA_HUMAN 143 KYPLVVFSHGLGAFRTLYSAIGIDLASHGFIVAAVEHR 180
+                           69********************************9996 PP
+
+  == domain 2  score: 9.3 bits;  conditional E-value: 0.0018
+       PAF-AH_p_II.aln 163 skiidkqkisvlGdslGGaaale 185
+                           ++ id++ki+v+G+s+GGa+ ++
+  sp|Q13093|PAFA_HUMAN 259 KDSIDREKIAVIGHSFGGATVIQ 281
+                           6789***************9875 PP
+
+>> sp|Q22943|PAFA_CAEEL  Platelet-activating factor acetylhydrolase homolog 2 OS=Caenorhabditis elegans OX=6239 GN=paf-2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.2   0.0       5.6   4.4e+04      19      56 ..      16      52 ..       9      58 .. 0.76
+   2 !   26.3   0.0   1.3e-08   9.9e-05      77     139 ..     106     168 ..      78     175 .. 0.81
+   3 ?    4.3   0.0      0.06   4.7e+02     160     187 ..     221     248 ..     204     258 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: -2.2 bits;  conditional E-value: 5.6
+       PAF-AH_p_II.aln 19 sqahdktqlelkkeGavtn.rrlevdvyyPaaidgkatl 56
+                          s  ++++ ++l ++G v + r l + +y+P   d++a+ 
+  sp|Q22943|PAFA_CAEEL 16 SGQFQVGCKDLMIDGTVLGdRGLFMRLYFP--TDSQAAD 52
+                          5567999999*****997626699999999..6666655 PP
+
+  == domain 2  score: 26.3 bits;  conditional E-value: 1.3e-08
+       PAF-AH_p_II.aln  77 gsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvki 139
+                             +P++++shG G+ +  + t  t l+++G++va+ +h      +  +l++ +    + P+ki
+  sp|Q22943|PAFA_CAEEL 106 DKWPIVVFSHGLGGSRTFYSTYCTSLASHGYVVAAVEHKDHSACWTYQLTEKNGELVEQPIKI 168
+                           479***********************************9888777777776555555555554 PP
+
+  == domain 3  score: 4.3 bits;  conditional E-value: 0.06
+       PAF-AH_p_II.aln 160 gaWskiidkqkisvlGdslGGaaaleia 187
+                           + +++++ +   sv+G+s+GGa++l  +
+  sp|Q22943|PAFA_CAEEL 221 AQFKNKLVMSSASVIGHSFGGATSLASS 248
+                           3444455557789**********99765 PP
+
+>> sp|P70683|PAFA_CAVPO  Platelet-activating factor acetylhydrolase OS=Cavia porcellus OX=10141 GN=PLA2G7 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   0.0   4.4e-08   0.00035      75     115 ..     142     180 ..     128     199 .. 0.88
+   2 ?    4.9   0.1      0.04   3.1e+02     162     185 ..     256     279 ..     241     283 .. 0.84
+   3 ?    0.4   0.0      0.91   7.2e+03     245     316 ..     284     354 ..     279     381 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 24.5 bits;  conditional E-value: 4.4e-08
+       PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhi 115
+                           e   +Pl+++shG G+ +  +  +  el+++G++va+ +h 
+  sp|P70683|PAFA_CAVPO 142 E--KYPLIIFSHGLGAFRSIYSAIGIELASHGFIVAAVEHR 180
+                           3..79********************************9996 PP
+
+  == domain 2  score: 4.9 bits;  conditional E-value: 0.04
+       PAF-AH_p_II.aln 162 WskiidkqkisvlGdslGGaaale 185
+                            ++ +d+ k++++G+s+GGa+ ++
+  sp|P70683|PAFA_CAVPO 256 LKGSLDRSKVAIIGHSFGGATVIQ 279
+                           567899**************9875 PP
+
+  == domain 3  score: 0.4 bits;  conditional E-value: 0.91
+       PAF-AH_p_II.aln 245 drrvkaviaidPllaqiydadslakisiPvslitlGeveiiptgvvadklasitPqgtyvtlegathfsflp 316
+                           d+r ++ ia+dP +  +   d  +ki  P+ +i+   ++        +k+     +   ++++g  h++f+ 
+  sp|P70683|PAFA_CAVPO 284 DQRFRCGIALDPWMFPV-GEDVHSKIPQPLFFINSEYFQSANDTKKIEKFYQPQKERKMIAVKGSVHHNFVD 354
+                           88999999999999876.5688899**********9999998888888888777778899999999999875 PP
+
+>> sp|E9LVH9|PETH2_THECS  Cutinase 2 (Fragment) OS=Thermobifida cellulosilytica OX=144786 GN=cut2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   0.3   7.5e-09   5.9e-05      75     195 ..      48     149 ..      39     154 .. 0.88
+   2 ?   -0.8   0.0       2.1   1.7e+04     268     316 ..     163     212 ..     152     225 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 27.0 bits;  conditional E-value: 7.5e-09
+        PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaW 162
+                            e+ ++  + is G+ + + ++a+l ++++++G++v + +               + ++ d P    +r+  l a +d++  d  ++a 
+  sp|E9LVH9|PETH2_THECS  48 ENNTYGAVAISPGYTGTQASVAWLGERIASHGFVVITID---------------TNTTLDQP---DSRARQLNAALDYMINDA-SSAV 116
+                            566788899*************************97533...............45667888...678999*********999.8999 PP
+
+        PAF-AH_p_II.aln 163 skiidkqkisvlGdslGGaaaleiaGarldlea 195
+                            + +id  +++v+G+s+GG  +l +a  r dl+a
+  sp|E9LVH9|PETH2_THECS 117 RSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKA 149
+                            **************************9999976 PP
+
+  == domain 2  score: -0.8 bits;  conditional E-value: 2.1
+        PAF-AH_p_II.aln 268 akisiPvslitlGeveiiptgvv..adklasitP...qgtyvtlegathfsflp 316
+                            +++++P  li   ++++i   v+  a  + +  P     +y+ l+gathf   p
+  sp|E9LVH9|PETH2_THECS 163 SSVRVPT-LIIGADLDTIA-PVLthARPFYNSLPtsiSKAYLELDGATHFA--P 212
+                            5677787.66677788873.3330132232222311124799999999997..4 PP
+
+>> sp|G8GER6|PETH1_THEFU  Cutinase cut1 OS=Thermobifida fusca OX=2021 GN=cut_1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.4   0.3   1.2e-08   9.2e-05      75     195 ..     105     206 ..      97     211 .. 0.88
+   2 ?   -1.4   0.0       3.1   2.4e+04     269     316 ..     221     269 ..     213     282 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 26.4 bits;  conditional E-value: 1.2e-08
+        PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaW 162
+                            e+ ++  + is G+ + + ++a+l ++++++G++v + +               + ++ d P    +r+  l a +d++  d  ++a 
+  sp|G8GER6|PETH1_THEFU 105 ENNTYGAVAISPGYTGTQASVAWLGERIASHGFVVITID---------------TNTTLDQP---DSRARQLNAALDYMINDA-SSAV 173
+                            566788899*************************97533...............45667888...678999*********999.8999 PP
+
+        PAF-AH_p_II.aln 163 skiidkqkisvlGdslGGaaaleiaGarldlea 195
+                            + +id  +++v+G+s+GG  +l +a  r dl+a
+  sp|G8GER6|PETH1_THEFU 174 RSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKA 206
+                            **************************9999976 PP
+
+  == domain 2  score: -1.4 bits;  conditional E-value: 3.1
+        PAF-AH_p_II.aln 269 kisiPvslitlGeveiiptgvv..adklasitP...qgtyvtlegathfsflp 316
+                            ++++P  li   ++++i   v+  a  + +  P     +y+ l+gathf   p
+  sp|G8GER6|PETH1_THEFU 221 SVRVPT-LIIGADLDTIA-PVLthARPFYNSLPtsiSKAYLELDGATHFA--P 269
+                            677777.66667788773.3330132232222311124799999999997..4 PP
+
+>> sp|Q47RJ7|PETH1_THEFY  Cutinase OS=Thermobifida fusca (strain YX) OX=269800 GN=Tfu_0882 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.4   0.3   1.2e-08   9.2e-05      75     195 ..     105     206 ..      97     211 .. 0.88
+   2 ?   -1.4   0.0       3.1   2.4e+04     269     316 ..     221     269 ..     213     282 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 26.4 bits;  conditional E-value: 1.2e-08
+        PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaW 162
+                            e+ ++  + is G+ + + ++a+l ++++++G++v + +               + ++ d P    +r+  l a +d++  d  ++a 
+  sp|Q47RJ7|PETH1_THEFY 105 ENNTYGAVAISPGYTGTQASVAWLGERIASHGFVVITID---------------TNTTLDQP---DSRARQLNAALDYMINDA-SSAV 173
+                            566788899*************************97533...............45667888...678999*********999.8999 PP
+
+        PAF-AH_p_II.aln 163 skiidkqkisvlGdslGGaaaleiaGarldlea 195
+                            + +id  +++v+G+s+GG  +l +a  r dl+a
+  sp|Q47RJ7|PETH1_THEFY 174 RSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKA 206
+                            **************************9999976 PP
+
+  == domain 2  score: -1.4 bits;  conditional E-value: 3.1
+        PAF-AH_p_II.aln 269 kisiPvslitlGeveiiptgvv..adklasitP...qgtyvtlegathfsflp 316
+                            ++++P  li   ++++i   v+  a  + +  P     +y+ l+gathf   p
+  sp|Q47RJ7|PETH1_THEFY 221 SVRVPT-LIIGADLDTIA-PVLthARPFYNSLPtsiSKAYLELDGATHFA--P 269
+                            677777.66667788773.3330132232222311124799999999997..4 PP
+
+>> sp|Q9L2J6|BHETH_STRCO  Bis(hydroxyethyl) terephthalate hydrolase OS=Streptomyces coelicolor (strain ATCC BAA-471 / A3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.6   0.3   8.1e-08   0.00064      72     194 ..      95     196 ..      80     202 .. 0.87
+   2 ?   -1.2   0.0       2.8   2.2e+04     287     321 ..     230     265 ..     206     285 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 23.6 bits;  conditional E-value: 8.1e-08
+        PAF-AH_p_II.aln  72 dsPekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqnt 159
+                             s   g+f  ++i+ G+ + + ++a+l  +l+++G++v + +               + ++ d P    +r   l a +d+lt     
+  sp|Q9L2J6|BHETH_STRCO  95 TSTSDGTFGAVVIAPGFTAYQSSIAWLGPRLASQGFVVFTID---------------TNTTLDQP---DSRGRQLLAALDYLTGRS-- 162
+                            556679*******************************97533...............45667888...689999*********999.. PP
+
+        PAF-AH_p_II.aln 160 gaWskiidkqkisvlGdslGGaaaleiaGarldle 194
+                             + +++id  +++v+G+s+GG  +le a +r  l+
+  sp|Q9L2J6|BHETH_STRCO 163 -SVRGRIDSGRLGVMGHSMGGGGTLEAAKSRPSLQ 196
+                            .9************************998887765 PP
+
+  == domain 2  score: -1.2 bits;  conditional E-value: 2.8
+        PAF-AH_p_II.aln 287 tgvvadklasitPqgt...yvtlegathfsflpeckkg 321
+                            ++  a+ + s  P +t   y+ l++athfs  p++ + 
+  sp|Q9L2J6|BHETH_STRCO 230 VASHAEPFYSGLPSSTdraYLELNNATHFS--PNTSNT 265
+                            444555554444443322299999999999..666554 PP
+
+>> sp|Q94LX1|CLH1_CITUN  Chlorophyllase-1, chloroplastic OS=Citrus unshiu OX=55188 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.7   0.0   3.1e-07    0.0024      67     114 ..      52      99 ..      49     111 .. 0.91
+   2 ?    0.7   0.1      0.74   5.9e+03     166     186 ..     136     156 ..     127     179 .. 0.85
+   3 ?    2.5   0.0      0.22   1.7e+03     171     201 ..     196     228 ..     186     279 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 21.7 bits;  conditional E-value: 3.1e-07
+       PAF-AH_p_II.aln  67 paviddsPekgsfPlllishGsGsvaenlatlatelvkaGilvavPqh 114
+                           p +i    ekg+f ++l+ hG    ++++  +  +++++G++v +Pq 
+  sp|Q94LX1|CLH1_CITUN  52 PLIIVTPAEKGTFNVILFLHGTSLSNKSYSKIFDHIASHGFIVVAPQL 99 
+                           66777778**************************************96 PP
+
+  == domain 2  score: 0.7 bits;  conditional E-value: 0.74
+       PAF-AH_p_II.aln 166 idkqkisvlGdslGGaaalei 186
+                           ++   ++v+G+s GG +a+ +
+  sp|Q94LX1|CLH1_CITUN 136 ANVSLVAVMGHSRGGQTAFAL 156
+                           678889***********9875 PP
+
+  == domain 3  score: 2.5 bits;  conditional E-value: 0.22
+       PAF-AH_p_II.aln 171 isvlGdslGGaaaleiaGar..ldlealarkcd 201
+                           ++v+G  lGG a    a a+  ++ e + ++c+
+  sp|Q94LX1|CLH1_CITUN 196 VTVIGTGLGGVARCITACAPegANHEEFFNRCK 228
+                           345555555555444444442234444444444 PP
+
+>> sp|Q60963|PAFA_MOUSE  Platelet-activating factor acetylhydrolase OS=Mus musculus OX=10090 GN=Pla2g7 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.5   0.0   2.8e-06     0.022      75     115 ..     141     179 ..     122     190 .. 0.90
+   2 ?    5.9   0.0     0.019   1.5e+02     162     185 ..     257     280 ..     208     298 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 2.8e-06
+       PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhi 115
+                           e   +Pl+++shG G+ +  +  +   l+++G++va+ +h 
+  sp|Q60963|PAFA_MOUSE 141 E--KYPLIVFSHGLGAFRTIYSAIGIGLASNGFIVATVEHR 179
+                           3..69********************************9996 PP
+
+  == domain 2  score: 5.9 bits;  conditional E-value: 0.019
+       PAF-AH_p_II.aln 162 WskiidkqkisvlGdslGGaaale 185
+                            ++ id  ki+++G+s+GGa+ l+
+  sp|Q60963|PAFA_MOUSE 257 LKDAIDETKIALMGHSFGGATVLQ 280
+                           45789****************986 PP
+
+>> sp|P0DX29|PETH1_AMYMS  Cutinase OS=Amycolatopsis mediterranei (strain S699) OX=713604 GN=cut1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.5   0.6   1.8e-07    0.0014      73     195 ..      95     196 ..      83     210 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 22.5 bits;  conditional E-value: 1.8e-07
+        PAF-AH_p_II.aln  73 sPekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntg 160
+                            +   g+f  l i+ G+ + + ++a+l  +l+++G++v +                 +l+++d P    +r   l a +d+lt +    
+  sp|P0DX29|PETH1_AMYMS  95 TTTAGTFGALSIAPGFTATQSSIAWLGPRLASQGFVVFT---------------IDTLTTSDQP---DSRGRQLLASLDYLTQQS--- 161
+                            566799******************************964...............3457778899...78999*********9888... PP
+
+        PAF-AH_p_II.aln 161 aWskiidkqkisvlGdslGGaaaleiaGarldlea 195
+                            + + +id  +++v+G+s+GG  +le a +r  l+a
+  sp|P0DX29|PETH1_AMYMS 162 SVRSRIDSTRLGVVGHSMGGGGTLEAARSRPTLQA 196
+                            99***********************9988876665 PP
+
+>> sp|E9LVH8|PETH1_THECS  Cutinase 1 (Fragment) OS=Thermobifida cellulosilytica OX=144786 GN=cut1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.1   0.1   9.5e-07    0.0074      75     195 ..      48     149 ..      40     162 .. 0.87
+   2 ?    0.0   0.0       1.2   9.4e+03     268     316 ..     163     212 ..     153     225 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 20.1 bits;  conditional E-value: 9.5e-07
+        PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaW 162
+                            e+ ++  + is G+ +   ++a+l ++++++G++v + + i +                d P    +r+  l a ++ +     +++ 
+  sp|E9LVH8|PETH1_THECS  48 ENNTYGAVAISPGYTGTEASIAWLGERIASHGFVVITIDTITT---------------LDQP---DSRAEQLNAALNHMINRA-SSTV 116
+                            566788899**************************87666655...............6677...578888999999988776.7788 PP
+
+        PAF-AH_p_II.aln 163 skiidkqkisvlGdslGGaaaleiaGarldlea 195
+                            + +id  +++v+G+s+GG  +l +a  r dl+a
+  sp|E9LVH8|PETH1_THECS 117 RSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKA 149
+                            99************************9999976 PP
+
+  == domain 2  score: 0.0 bits;  conditional E-value: 1.2
+        PAF-AH_p_II.aln 268 akisiPvslitlGeveii.ptgvvadklasitPq...gtyvtlegathfsflp 316
+                            +++ +P  li   ++++i p++  a  + +  P     +y+ l+gathf   p
+  sp|E9LVH8|PETH1_THECS 163 SSVTVPT-LIIGADLDTIaPVATHAKPFYNSLPSsisKAYLELDGATHFA--P 212
+                            5778888.777778888733444444443333431114799999999997..4 PP
+
+>> sp|Q47RJ6|PETH2_THEFY  Cutinase OS=Thermobifida fusca (strain YX) OX=269800 GN=TfH PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.7   0.1   1.2e-06    0.0098      75     195 ..      87     188 ..      78     201 .. 0.87
+   2 ?   -0.3   0.0       1.5   1.2e+04     268     316 ..     202     251 ..     191     264 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 19.7 bits;  conditional E-value: 1.2e-06
+        PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaW 162
+                            e+ ++  + is G+ +   ++a+l ++++++G++v + + i +                d P    +r+  l a ++ +     +++ 
+  sp|Q47RJ6|PETH2_THEFY  87 ENNTYGAVAISPGYTGTEASIAWLGERIASHGFVVITIDTITT---------------LDQP---DSRAEQLNAALNHMINRA-SSTV 155
+                            566788899**************************87666655...............6677...578888999999988776.7788 PP
+
+        PAF-AH_p_II.aln 163 skiidkqkisvlGdslGGaaaleiaGarldlea 195
+                            + +id  +++v+G+s+GG  +l +a  r dl+a
+  sp|Q47RJ6|PETH2_THEFY 156 RSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKA 188
+                            99************************9999976 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 1.5
+        PAF-AH_p_II.aln 268 akisiPvslitlGeveii.ptgvvadklasitPq...gtyvtlegathfsflp 316
+                            +++ +P  li   ++++i p++  a  + +  P     +y+ l+gathf   p
+  sp|Q47RJ6|PETH2_THEFY 202 SSVTVPT-LIIGADLDTIaPVATHAKPFYNSLPSsisKAYLELDGATHFA--P 251
+                            5778888.777778888733444444443333431114799999999997..4 PP
+
+>> sp|Q6A0I4|PETH2_THEFU  Cutinase cut2 OS=Thermobifida fusca OX=2021 GN=cut2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.7   0.1   1.2e-06    0.0098      75     195 ..      87     188 ..      78     201 .. 0.87
+   2 ?   -0.3   0.0       1.5   1.2e+04     268     316 ..     202     251 ..     191     264 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 19.7 bits;  conditional E-value: 1.2e-06
+        PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaW 162
+                            e+ ++  + is G+ +   ++a+l ++++++G++v + + i +                d P    +r+  l a ++ +     +++ 
+  sp|Q6A0I4|PETH2_THEFU  87 ENNTYGAVAISPGYTGTEASIAWLGERIASHGFVVITIDTITT---------------LDQP---DSRAEQLNAALNHMINRA-SSTV 155
+                            566788899**************************87666655...............6677...578888999999988776.7788 PP
+
+        PAF-AH_p_II.aln 163 skiidkqkisvlGdslGGaaaleiaGarldlea 195
+                            + +id  +++v+G+s+GG  +l +a  r dl+a
+  sp|Q6A0I4|PETH2_THEFU 156 RSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKA 188
+                            99************************9999976 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 1.5
+        PAF-AH_p_II.aln 268 akisiPvslitlGeveii.ptgvvadklasitPq...gtyvtlegathfsflp 316
+                            +++ +P  li   ++++i p++  a  + +  P     +y+ l+gathf   p
+  sp|Q6A0I4|PETH2_THEFU 202 SSVTVPT-LIIGADLDTIaPVATHAKPFYNSLPSsisKAYLELDGATHFA--P 251
+                            5778888.777778888733444444443333431114799999999997..4 PP
+
+>> sp|Q9MV14|CLH1_CITSI  Chlorophyllase-1, chloroplastic OS=Citrus sinensis OX=2711 GN=CHLASE1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   0.1     3e-06     0.024      69     114 ..      54      99 ..      50     111 .. 0.89
+   2 ?    0.7   0.0      0.74   5.8e+03     166     186 ..     136     156 ..     127     179 .. 0.85
+   3 ?    2.6   0.1      0.19   1.5e+03      80     312 ..     195     221 ..     179     260 .. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 3e-06
+       PAF-AH_p_II.aln  69 viddsPekgsfPlllishGsGsvaenlatlatelvkaGilvavPqh 114
+                           +i     kg+f ++l+ hG    ++++  +  +++++G++v +Pq 
+  sp|Q9MV14|CLH1_CITSI  54 IIVTPAGKGTFNVILFLHGTSLSNKSYSKIFDHIASHGFIVVAPQL 99 
+                           55555679************************************96 PP
+
+  == domain 2  score: 0.7 bits;  conditional E-value: 0.74
+       PAF-AH_p_II.aln 166 idkqkisvlGdslGGaaalei 186
+                           ++   ++v+G+s GG +a+ +
+  sp|Q9MV14|CLH1_CITSI 136 ANVSLVAVMGHSRGGQTAFAL 156
+                           678889***********9875 PP
+
+  == domain 3  score: 2.6 bits;  conditional E-value: 0.19
+       PAF-AH_p_II.aln  80 PlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaWskiidk 168
+                           P+                                                                                       
+  sp|Q9MV14|CLH1_CITSI 195 PV--------------------------------------------------------------------------------------- 196
+                           33....................................................................................... PP
+
+       PAF-AH_p_II.aln 169 qkisvlGdslGGaaaleiaGarldlealarkcdsygkwdcawyaggigyrddkivkvdkvdlrsvdklrfeesnladrrvkaviaidPl 257
+                              +v+G  lGG a    a a+                                                                   
+  sp|Q9MV14|CLH1_CITSI 197 ---TVIGTGLGGVARCITACAP------------------------------------------------------------------- 215
+                           ...3444444444443333333................................................................... PP
+
+       PAF-AH_p_II.aln 258 laqiydadslakisiPvslitlGeveiiptgvvadklasitPqgtyvtlegathf 312
+                                                                            ega+h 
+  sp|Q9MV14|CLH1_CITSI 216 -------------------------------------------------EGANHE 221
+                           .................................................333333 PP
+
+>> sp|P76049|YCJY_ECOLI  Uncharacterized protein YcjY OS=Escherichia coli (strain K12) OX=83333 GN=ycjY PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.8   0.0   1.4e-07    0.0011      76     179 ..      31     119 ..      13     139 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 22.8 bits;  conditional E-value: 1.4e-07
+       PAF-AH_p_II.aln  76 kgsfPlllishGsGsvaenla.tlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaWs 163
+                              +  +++sh  G+v+e+ a t a++l+++G++  +      d  y+ e   G+    + P   + rt d+savid+lt+        
+  sp|P76049|YCJY_ECOLI  31 TRQYQAIVLSHPGGGVKEQTAgTYAKKLAEKGFVTIAY-----DASYQGE-SGGEPRQLENP---YIRTEDISAVIDYLTTLS------ 104
+                           445889*****9998887655499*********97664.....4446555.56777777788...99*************987...... PP
+
+       PAF-AH_p_II.aln 164 kiidkqkisvlGdslG 179
+                             +d  +i+ +G   G
+  sp|P76049|YCJY_ECOLI 105 -YVDNTRIGAMGICAG 119
+                           .677777777776665 PP
+
+>> sp|Q74Z47|PPME1_EREGS  Protein phosphatase methylesterase 1 OS=Eremothecium gossypii (strain ATCC 10895 / CBS 109.51 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   0.0   5.7e-07    0.0045      72     184 ..      95     202 ..      82     213 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 5.7e-07
+        PAF-AH_p_II.aln  72 dsPekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqnt 159
+                            ++ + +s P++++ hG Gs    +a la el     l         d + + e +  d++  + P ++   t+d+ avi tl+     
+  sp|Q74Z47|PPME1_EREGS  95 QTTNAASIPVFIMHHGAGSSGLTFAPLADELYTR--LEGKCGIFSFDARGHGETVPLDST-LEVPYDLATFTADFNAVIKTLQQRI-- 177
+                            566779************************9753..222223333333444555666655.56799****************9887.. PP
+
+        PAF-AH_p_II.aln 160 gaWskiidkqkisv..lGdslGGaaal 184
+                               +++i k+k+s+  lG+slGG+   
+  sp|Q74Z47|PPME1_EREGS 178 --LQHKIPKEKLSIvlLGHSLGGSICT 202
+                            ..888998888775338******8654 PP
+
+>> sp|Q5BGN7|PPME1_EMENI  Protein phosphatase methylesterase 1 OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.9   0.1   1.1e-06    0.0083      72     187 ..      82     195 ..      74     200 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 19.9 bits;  conditional E-value: 1.1e-06
+        PAF-AH_p_II.aln  72 dsPekgsfPlllishGsGsvaenlatlate....lvkaGilvavPqhiGsdlqyrqelikGdlssadsPvki..larttdlsavidtl 153
+                             sP   s Pl+++ hG Gs   ++a  a e    l +aGil a  +  Gs    ++    G+  ++ + +++       dl  vi   
+  sp|Q5BGN7|PPME1_EMENI  82 TSPT-NSGPLFVMHHGAGSSGLSFANCAAEirkiLPNAGILSADARDHGS-TSVKRASEDGEADPETARLDLslDTLNQDLLFVIRET 167
+                            5777.899************999999998833334569*****8887777.4556666677777777666551045668999999888 PP
+
+        PAF-AH_p_II.aln 154 tadqntgaWskiidkqkisvlGdslGGaaaleia 187
+                            +a+     W+    +  i ++G+slGGa   ++a
+  sp|Q5BGN7|PPME1_EMENI 168 QAKM---GWET---LPDIVLVGHSLGGAVITDVA 195
+                            8888...7886...56699********9877665 PP
+
+>> sp|P68464|K6_VACCW  Protein K6 OS=Vaccinia virus (strain Western Reserve) OX=10254 GN=VACWR038 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.7   0.0   2.5e-06      0.02      80     117 ..      24      61 ..       2      77 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 18.7 bits;  conditional E-value: 2.5e-06
+     PAF-AH_p_II.aln  80 PlllishGsGsvaenlatlatelvkaGilvavPqhiGs 117
+                          l+ ishG G     +  la+++ + Gilv   +hiG 
+  sp|P68464|K6_VACCW  24 ALVFISHGAGKHSGRYDELAENISSLGILVFSHDHIGH 61 
+                         4899*********************************7 PP
+
+>> sp|P68465|K6_VACCC  Protein K6 OS=Vaccinia virus (strain Copenhagen) OX=10249 GN=K6L PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.7   0.0   2.5e-06      0.02      80     117 ..      24      61 ..       2      77 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 18.7 bits;  conditional E-value: 2.5e-06
+     PAF-AH_p_II.aln  80 PlllishGsGsvaenlatlatelvkaGilvavPqhiGs 117
+                          l+ ishG G     +  la+++ + Gilv   +hiG 
+  sp|P68465|K6_VACCC  24 ALVFISHGAGKHSGRYDELAENISSLGILVFSHDHIGH 61 
+                         4899*********************************7 PP
+
+>> sp|Q9LE89|CLH0_CHEAL  Chlorophyllase type 0 OS=Chenopodium album OX=3559 GN=CACLH PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   0.0   3.4e-05      0.26      67     113 ..      62     108 ..      51     114 .. 0.90
+   2 ?   -1.7   0.0       3.8     3e+04     167     190 ..     152     175 ..     148     190 .. 0.81
+   3 ?    0.4   0.1      0.88   6.9e+03     285     322 ..     218     252 ..     170     267 .. 0.51
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 3.4e-05
+       PAF-AH_p_II.aln  67 paviddsPekgsfPlllishGsGsvaenlatlatelvkaGilvavPq 113
+                           p +i    e g +P+ll+ hG    +e++  + + ++++G++v +P+
+  sp|Q9LE89|CLH0_CHEAL  62 PLIIISPKEAGVYPVLLFIHGTMLSNEDYSLFFNYIASHGFIVVAPK 108
+                           5566666799***********************************97 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 3.8
+       PAF-AH_p_II.aln 167 dkqkisvlGdslGGaaaleiaGar 190
+                           d++k+++ G+s GG +a+ +a   
+  sp|Q9LE89|CLH0_CHEAL 152 DLEKLAISGHSRGGKSAFALALGF 175
+                           789999********9998877554 PP
+
+  == domain 3  score: 0.4 bits;  conditional E-value: 0.88
+       PAF-AH_p_II.aln 285 iptgvvadklasitPqgtyvtlegathfsflpeckkga 322
+                           ip+ v+   l + t      + ++  h +f  eck+ +
+  sp|Q9LE89|CLH0_CHEAL 218 IPVTVIGSGLGNHTI---SCAPNHVSHQQFYDECKENS 252
+                           233333333333332...22236677777777887765 PP
+
+>> sp|Q2URJ0|PPME1_ASPOR  Protein phosphatase methylesterase 1 OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.8   0.1   4.6e-06     0.036      73     187 ..     109     217 ..      98     222 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 4.6e-06
+        PAF-AH_p_II.aln  73 sPekgsfPlllishGsGsvaenlatlate....lvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltad 156
+                            +P   s Pl+++ hG Gs   ++at a+e    l kaGil    +  G    y  e  +G++   +s  + l+r  dl  ++   +++
+  sp|Q2URJ0|PPME1_ASPOR 109 TPPTNSGPLFVMHHGAGSSGLSFATCAEEirkiLPKAGILSIDARDHGQTSTY-TETGEGKVELDLSL-ETLNR--DLVFIVRETQSK 192
+                            78889**********************9844445689**97766666664555.67789999888887.88887..999998877776 PP
+
+        PAF-AH_p_II.aln 157 qntgaWskiidkqkisvlGdslGGaaaleia 187
+                                 W+    +  i ++G+slGGa   ++a
+  sp|Q2URJ0|PPME1_ASPOR 193 M---GWES---LPDIVLVGHSLGGAVITDVA 217
+                            6...7886...56699********9877665 PP
+
+>> sp|P19833|LIP1_MORS1  Lipase 1 OS=Moraxella sp. (strain TA144) OX=77152 GN=lip1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.1   0.2   1.5e-05      0.12     141     196 ..     156     208 ..     110     244 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 1.5e-05
+       PAF-AH_p_II.aln 141 arttdlsavidtltadqntgaWskiidkqkisvlGdslGGaaaleiaGarldleal 196
+                           +r++ l a +d + ad+ +g    +id ++++ +G s+GG  al++a  r  + a+
+  sp|P19833|LIP1_MORS1 156 SRAAQLNAALDNMIADDTVG---SMIDPKRLGAIGWSMGGGGALKLATERSTVRAI 208
+                           6999*************666...58**********************998877664 PP
+
+>> sp|P82597|MGLP_BAC25  Thermostable monoacylglycerol lipase OS=Bacillus sp. (strain H-257) OX=129908 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.1   0.00012      0.93      82     122 ..      23      63 ..      11     118 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00012
+       PAF-AH_p_II.aln  82 llishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyr 122
+                           +l+ hG+ +  ++++ la+  +kaG+ v  P+  G   +y 
+  sp|P82597|MGLP_BAC25  23 VLLVHGFTGTPHSMRPLAEAYAKAGYTVCLPRLKGHGTHYE 63 
+                           5678***************************9999876664 PP
+
+>> sp|Q9URV1|PLG7_SCHPO  Putative phospholipase A2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=p
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.7   0.0   4.2e-05      0.33      73     115 ..     110     152 ..     101     169 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 14.7 bits;  conditional E-value: 4.2e-05
+       PAF-AH_p_II.aln  73 sPekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhi 115
+                            P++g +P++++shG  + ++ +  l   +++ Gi+v + +h 
+  sp|Q9URV1|PLG7_SCHPO 110 PPNNGKLPVFIFSHGLVGSRNVYSSLCGTIASYGIVVLAMEHR 152
+                           6999*********************************999996 PP
+
+>> sp|Q0APZ9|BIOF_MARMM  8-amino-7-oxononanoate synthase OS=Maricaulis maris (strain MCS10) OX=394221 GN=bioF PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.6   0.0   4.4e-05      0.35     140     209 ..     185     255 ..     178     261 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 14.6 bits;  conditional E-value: 4.4e-05
+       PAF-AH_p_II.aln 140 larttdlsavidtltadqntgaWskiidkqkisvlGdslGGaaaleiaGa.rldlealarkcdsygkwdca 209
+                           ++  +dl+ + d++   q   aW  i d + i+v+G   G + a++ +   +l++  l++   syg + ca
+  sp|Q0APZ9|BIOF_MARMM 185 FSMDGDLAPLPDMMALAQTHDAWTLIDDAHGIGVIGGGHGSTHAFQPSVVpPLQMGTLSKALGSYGGYVCA 255
+                           56679****************************************98765279***************998 PP
+
+>> sp|Q4WKB2|PPME1_ASPFU  Protein phosphatase methylesterase 1 OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 1013
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.8   0.0   3.8e-05       0.3      73     187 ..     100     207 ..      92     214 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 3.8e-05
+        PAF-AH_p_II.aln  73 sPekgsfPlllishGsGsvaenlatlate....lvkaGilva.vPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtlta 155
+                            +P   s Pl+++ hG Gs   ++at a+e    l kaGil   + +h  + +    + + G  +  d  ++ l    dl  v    +a
+  sp|Q4WKB2|PPME1_ASPFU 100 TPPTDSGPLFVMHHGAGSSGLSFATCAEEirkiLPKAGILSLdARDHGRTSV----QRTDGGAAELDLSLETL--NQDLVYVARKTQA 181
+                            777899*********************9844445689**9761555655533....34666666666664555..6799999988888 PP
+
+        PAF-AH_p_II.aln 156 dqntgaWskiidkqkisvlGdslGGaaaleia 187
+                            +     W++  d   + ++G+slGGa   ++a
+  sp|Q4WKB2|PPME1_ASPFU 182 EM---GWEELPD---LVLVGHSLGGAVITDVA 207
+                            88...8987665...57899*****9877665 PP
+
+>> sp|O07937|YRAK_BACSU  Uncharacterized hydrolase YraK OS=Bacillus subtilis (strain 168) OX=224308 GN=yraK PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   0.0   3.4e-05      0.27      76     113 ..      20      57 ..       6      94 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 3.4e-05
+       PAF-AH_p_II.aln  76 kgsfPlllishGsGsvaenlatlatelvkaGilvavPq 113
+                           +gs P++l+ hG G+ a+ +  +a++l++   +v+  +
+  sp|O07937|YRAK_BACSU  20 RGSGPIILLVHGGGGDADKFHHVANHLANWYTVVTYDR 57 
+                           69**************************9888887543 PP
+
+>> sp|A0A7H0DN16|PG043_MONPV  Monoglyceride lipase homolog OS=Monkeypox virus OX=10244 GN=OPG043 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.3   0.0   5.3e-05      0.41      81     117 ..      28      64 ..      20      77 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 14.3 bits;  conditional E-value: 5.3e-05
+            PAF-AH_p_II.aln  81 lllishGsGsvaenlatlatelvkaGilvavPqhiGs 117
+                                l+ ishG G     +  la+++ + Gilv   +hiG 
+  sp|A0A7H0DN16|PG043_MONPV  28 LVFISHGAGEHSGRYDELAENISSLGILVFSHDHIGH 64 
+                                789********************************97 PP
+
+>> sp|Q99390|YPT2_ECOLX  Uncharacterized 31.7 kDa protein in traX-finO intergenic region OS=Escherichia coli OX=562 PE=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.5   0.1   0.00075       5.9      78     185 ..      24     115 ..       3     128 .. 0.75
+   2 ?    0.5   0.0      0.85   6.7e+03     263     286 ..     213     236 ..     170     269 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.00075
+       PAF-AH_p_II.aln  78 sfPlllishGsGsvaenl.atlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaWski 165
+                             Pl+++ hG+ + ++ l   +a+ +++aG+   + ++ G          +     ++ P     +t d+ +vi+  +        ++ 
+  sp|Q99390|YPT2_ECOLX  24 KHPLIILCHGFCGIRNVLlPCFANAFTEAGFATITFDYRGF-------GESDGERGRLVP---AMQTEDIISVINWAEK-------QEC 95 
+                           5799******9999887526899999999999888888887.......222223344555...5678899999987543.......679 PP
+
+       PAF-AH_p_II.aln 166 idkqkisvlGdslGGaaale 185
+                           id q+i++ G slGG   + 
+  sp|Q99390|YPT2_ECOLX  96 IDNQRIGLWGTSLGGGHVFS 115
+                           ***************87665 PP
+
+  == domain 2  score: 0.5 bits;  conditional E-value: 0.85
+       PAF-AH_p_II.aln 263 dadslakisiPvslitlGeveiip 286
+                            a+s ak++ Pv ++ +G+  + p
+  sp|Q99390|YPT2_ECOLX 213 PAESAAKVQCPVLIVIAGQDSVNP 236
+                           47899*******777777755554 PP
+
+>> sp|Q06174|EST_GEOSE  Carboxylesterase OS=Geobacillus stearothermophilus OX=1422 GN=est PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0      0.13     1e+03      82     117 ..      18      53 ..      11      64 .. 0.88
+   2 ?    9.3   0.0    0.0017        14     166     219 ..      82     135 ..      67     195 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 3.2 bits;  conditional E-value: 0.13
+      PAF-AH_p_II.aln  82 llishGsGsvaenlatlatelvkaGilvavPqhiGs 117
+                          +l+ hG+ +   ++++l + l ++G+   +P + G 
+  sp|Q06174|EST_GEOSE  18 VLLLHGFTGNSADVRMLGRFLESKGYTCHAPIYKGH 53 
+                          5778************************99988886 PP
+
+  == domain 2  score: 9.3 bits;  conditional E-value: 0.0017
+      PAF-AH_p_II.aln 166 idkqkisvlGdslGGaaaleiaGarldlealarkcd.sygkwdcawyaggigyrd 219
+                             +ki+v G slGG  +l++ G  + +e + + c   y k + + y g + y  
+  sp|Q06174|EST_GEOSE  82 KGYEKIAVAGLSLGGVFSLKL-GYTVPIEGIVTMCApMYIKSEETMYEGVLEYAR 135
+                          5568****************9.57899********83589999999999999854 PP
+
+>> sp|O07427|MGLL_MYCTU  Monoacylglycerol lipase OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=R
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0   0.00013         1      73     117 ..      24      68 ..       9      91 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 0.00013
+       PAF-AH_p_II.aln  73 sPekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGs 117
+                           +P+ +   +++++hG G  a+ +  +a++l  aG++  + +h G 
+  sp|O07427|MGLL_MYCTU  24 TPDTAPQAVVVLAHGLGEHARRYDHVAQRLGAAGLVTYALDHRGH 68 
+                           67777779**********************************996 PP
+
+>> sp|P24640|LIP3_MORS1  Lipase 3 OS=Moraxella sp. (strain TA144) OX=77152 GN=lip3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.1   0.0    0.0084        66      80     108 ..      69      96 ..      46     108 .. 0.77
+   2 ?    4.7   0.1     0.045   3.5e+02     243     324 ..     229     305 ..     213     311 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 7.1 bits;  conditional E-value: 0.0084
+       PAF-AH_p_II.aln  80 PlllishGsGsvaenlatlatelvkaGil 108
+                           Pllli hG+G+ ++n+  +a +l    ++
+  sp|P24640|LIP3_MORS1  69 PLLLI-HGFGGNKDNFTRIADKLEGYHLI 96 
+                           66665.***************99655444 PP
+
+  == domain 2  score: 4.7 bits;  conditional E-value: 0.045
+       PAF-AH_p_II.aln 243 ladrrvkaviaidPllaqiydadslakisiPvslitlGeveiiptgvvadklasitPqgtyvtlegathfsflpeckkgaad 324
+                           l d ++   i++d        a+ +ak +iP  l+  G+ + +     ++ +  i Pq+  + +++  h  ++  +k  a d
+  sp|P24640|LIP3_MORS1 229 L-DTKILEQIVTDNVEE---RAKIIAKYNIPT-LVVWGDKDQVIKPETTELIKEIIPQAQVIMMNDVGHVPMVEAVKDTAND 305
+                           4.555555555554433...46789******9.99******9989999999******************9966666666655 PP
+
+>> sp|Q02104|LIP1_PSYIM  Lipase 1 OS=Psychrobacter immobilis OX=498 GN=lip1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.3   0.0    0.0074        58      80     108 ..      69      96 ..      46     117 .. 0.80
+   2 ?   -2.6   0.0       7.2   5.6e+04     170     187 ..     135     152 ..     129     173 .. 0.76
+   3 ?    4.7   0.1     0.046   3.6e+02     242     328 ..     228     308 ..     213     313 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 7.3 bits;  conditional E-value: 0.0074
+       PAF-AH_p_II.aln  80 PlllishGsGsvaenlatlatelvkaGil 108
+                           Pllli hG+G+ ++n+  +a++l    ++
+  sp|Q02104|LIP1_PSYIM  69 PLLLI-HGFGGNKDNFTRIARQLEGYHLI 96 
+                           66655.***************99655444 PP
+
+  == domain 2  score: -2.6 bits;  conditional E-value: 7.2
+       PAF-AH_p_II.aln 170 kisvlGdslGGaaaleia 187
+                           +i v G+s+GGa ++  a
+  sp|Q02104|LIP1_PSYIM 135 NIHVGGNSMGGAISVAYA 152
+                           688999*****9877654 PP
+
+  == domain 3  score: 4.7 bits;  conditional E-value: 0.046
+       PAF-AH_p_II.aln 242 nladrrvkaviaidPllaqiydadslakisiPvslitlGeveiiptgvvadklasitPqgtyvtlegathfsflpeckkgaadrlks 328
+                           +l d ++   i++d        a+ +a+ +iP  l+  G+ + i      + +  i Pq+  + +e+  h   + e+   +ad  k+
+  sp|Q02104|LIP1_PSYIM 228 EL-DAKILEQIVTDNVEE---RAKIIAQYKIPT-LVVWGDKDQIIKPETVNLIKKIIPQAQVIMMEDVGHVP-MVEALDETADNYKA 308
+                           45.555555555554433...467899*****9.99******99899999999**************99998.67777777777765 PP
+
+>> sp|Q9M7I7|CLH2_ARATH  Chlorophyllase-2 OS=Arabidopsis thaliana OX=3702 GN=CLH2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0    0.0002       1.6      72     114 ..      48      91 ..      41     152 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.0002
+       PAF-AH_p_II.aln  72 dsP.ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqh 114
+                           ++P e+g +P++++ hG+   +  +  l  ++ ++G+++ +Pq 
+  sp|Q9M7I7|CLH2_ARATH  48 ATPvEEGDYPVVMLLHGYLLYNSFYSQLMLHVSSHGFILIAPQL 91 
+                           555588************************************95 PP
+
+>> sp|P29368|YPT1_ECOLX  Uncharacterized 31.7 kDa protein in traX-finO intergenic region OS=Escherichia coli OX=562 PE=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.9   0.1    0.0012       9.1      78     182 ..      24     112 ..       3     125 .. 0.75
+   2 ?    0.5   0.0      0.85   6.7e+03     263     286 ..     213     236 ..     170     269 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.0012
+       PAF-AH_p_II.aln  78 sfPlllishGsGsvaenl.atlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaWski 165
+                             Pl+++ hG+ + ++ l   +a+ +++aG+   + ++ G          +     ++ P     +t d+ +vi+  +        ++ 
+  sp|P29368|YPT1_ECOLX  24 KHPLIILCHGFCGIRNVLlPCFANAFTEAGFATITFDYRGF-------GESDGERGRLVP---AMQTEDIISVINWAEK-------QEC 95 
+                           5799******9999887526899999999999888888877.......222223344555...5678899999987443.......669 PP
+
+       PAF-AH_p_II.aln 166 idkqkisvlGdslGGaa 182
+                           id q+i++ G slGG  
+  sp|P29368|YPT1_ECOLX  96 IDNQRIGLWGTSLGGGH 112
+                           **************975 PP
+
+  == domain 2  score: 0.5 bits;  conditional E-value: 0.85
+       PAF-AH_p_II.aln 263 dadslakisiPvslitlGeveiip 286
+                            a+s ak++ Pv ++ +G+  + p
+  sp|P29368|YPT1_ECOLX 213 PAESAAKVQCPVLIVIAGQDSVNP 236
+                           47899*******777777755554 PP
+
+>> sp|O22527|CLH1_ARATH  Chlorophyllase-1 OS=Arabidopsis thaliana OX=3702 GN=CLH1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.2   0.0   0.00098       7.7      76     113 ..      53      90 ..      40      95 .. 0.89
+   2 ?   -0.5   0.0       1.7   1.3e+04     166     187 ..     127     148 ..     122     157 .. 0.79
+   3 ?   -1.7   0.0       3.8     3e+04      52      94 ..     166     210 ..     152     221 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.00098
+       PAF-AH_p_II.aln  76 kgsfPlllishGsGsvaenlatlatelvkaGilvavPq 113
+                            g++P++l+ hG+  ++  +  + ++++++G+++ +Pq
+  sp|O22527|CLH1_ARATH  53 AGTYPVVLFFHGFYLRNYFYSDVLNHIASHGYILVAPQ 90 
+                           599**********************************8 PP
+
+  == domain 2  score: -0.5 bits;  conditional E-value: 1.7
+       PAF-AH_p_II.aln 166 idkqkisvlGdslGGaaaleia 187
+                           ++ +  s++G+s GG +a+ +a
+  sp|O22527|CLH1_ARATH 127 ANGKYTSLVGHSRGGKTAFAVA 148
+                           56667899**********9987 PP
+
+  == domain 3  score: -1.7 bits;  conditional E-value: 3.8
+       PAF-AH_p_II.aln  52 gkatligdniifkgapaviddsPekgsf....PlllishGsGsvaen 94 
+                           g   + g n  ++  p ++   Pe  sf    P+ ++  G G + +n
+  sp|O22527|CLH1_ARATH 166 GIDPVAGTNKYIRTDPHILTYKPE--SFeldiPVAVVGTGLGPKWNN 210
+                           555667788888888888888888..554444777888887766555 PP
+
+>> sp|P39298|YJFP_ECOLI  Esterase YjfP OS=Escherichia coli (strain K12) OX=83333 GN=yjfP PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.0   0.00024       1.9      71     188 ..      23     126 ..       5     142 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 0.00024
+       PAF-AH_p_II.aln  71 ddsPekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqnt 159
+                            d+P    +P +++ hG+ s    + ++a  l++aG+ v +P+ +           +Gd + ++    +++          tl+a    
+  sp|P39298|YJFP_ECOLI  23 KDTP----LPCVIFYHGFTSSSLVYSYFAVALAQAGLRVIMPDAPDH-----GSRFSGDAARRLNQ--FWQILLQSMQEFTTLRAAI-- 98 
+                           4555....49******************************9998866.....34579999888876..8887655444445555555.. PP
+
+       PAF-AH_p_II.aln 160 gaWskiidkqkisvlGdslGGaaaleiaG 188
+                            a ++ +  ++++v G s+G  +al i+ 
+  sp|P39298|YJFP_ECOLI  99 -AEENWLLDDRLAVGGASMGAMTALGITA 126
+                           .5555566788999999999999998875 PP
+
+>> sp|P0A114|CLCD_PSEPU  Carboxymethylenebutenolidase OS=Pseudomonas putida OX=303 GN=clcD PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.0   0.00027       2.1      72     187 ..      21     133 ..      11     142 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00027
+       PAF-AH_p_II.aln  72 dsPekgsfPlllishGsGsvaenlatlatelvkaGilvavP.....qhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtlta 155
+                            sP k+  P+++i+    +v+  ++     lv +G+    P     q +G+ l+ ++e  + +        ++ a  +dl a i + + 
+  sp|P0A114|CLCD_PSEPU  21 GSPAKAPAPVIVIAQEIFGVNAFMRETVSWLVDQGYAAVCPdlyarQAPGTALDPQDERQREQAYKLWQAFDMEAGVGDLEAAIRYARH 109
+                           68999*******************************98888444446788888888888877777777777888888888888888777 PP
+
+       PAF-AH_p_II.aln 156 dqntgaWskiidkqkisvlGdslGGaaaleia 187
+                           ++            k++++G+ lGGa a+ +a
+  sp|P0A114|CLCD_PSEPU 110 QP--------YSNGKVGLVGYCLGGALAFLVA 133
+                           77........55689***********998876 PP
+
+>> sp|P0A115|CLCD_PSEKB  Carboxymethylenebutenolidase OS=Pseudomonas knackmussii (strain DSM 6978 / CCUG 54928 / LMG 237
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.0   0.00027       2.1      72     187 ..      21     133 ..      11     142 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00027
+       PAF-AH_p_II.aln  72 dsPekgsfPlllishGsGsvaenlatlatelvkaGilvavP.....qhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtlta 155
+                            sP k+  P+++i+    +v+  ++     lv +G+    P     q +G+ l+ ++e  + +        ++ a  +dl a i + + 
+  sp|P0A115|CLCD_PSEKB  21 GSPAKAPAPVIVIAQEIFGVNAFMRETVSWLVDQGYAAVCPdlyarQAPGTALDPQDERQREQAYKLWQAFDMEAGVGDLEAAIRYARH 109
+                           68999*******************************98888444446788888888888877777777777888888888888888777 PP
+
+       PAF-AH_p_II.aln 156 dqntgaWskiidkqkisvlGdslGGaaaleia 187
+                           ++            k++++G+ lGGa a+ +a
+  sp|P0A115|CLCD_PSEKB 110 QP--------YSNGKVGLVGYCLGGALAFLVA 133
+                           77........55689***********998876 PP
+
+>> sp|Q8ZAL4|DLHH_YERPE  Putative carboxymethylenebutenolidase OS=Yersinia pestis OX=632 GN=YPO3787 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.0   0.00027       2.1      75     187 ..      42     147 ..      23     164 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00027
+       PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntgaWs 163
+                             g +P++++     +v e ++ + ++l+k+G+l  +P+     l +rq   k  +  ++   +++++  d   ++d  ++ +    W 
+  sp|Q8ZAL4|DLHH_YERPE  42 HTGPYPVVIVVQEIFGVHEHIQDICRRLAKQGYLAIAPE-----LYFRQGDAKDYSNINELVNNLVKKVPDRQVLVDLDHTAH----WA 121
+                           3589*********99********************9995.....7899999998888888777999999**999999866666....66 PP
+
+       PAF-AH_p_II.aln 164 ki..idkqkisvlGdslGGaaaleia 187
+                            +   d +k+++ G+  GG  a   a
+  sp|Q8ZAL4|DLHH_YERPE 122 SRhgGDTKKLAITGFCWGGRIAWLYA 147
+                           55226999***********9886555 PP
+
+>> sp|Q14HL6|SYL_FRAT1  Leucine--tRNA ligase OS=Francisella tularensis subsp. tularensis (strain FSC 198) OX=393115 GN=l
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.1      0.18   1.4e+03     194     232 ..     121     164 ..     112     172 .. 0.75
+   2 ?    2.2   0.0      0.25     2e+03     155     202 ..     204     251 ..     184     260 .. 0.85
+   3 ?    5.0   0.2     0.037   2.9e+02     227     272 ..     767     812 ..     753     813 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 2.8 bits;  conditional E-value: 0.18
+      PAF-AH_p_II.aln 194 ealarkcds.ygkwd....cawyaggigyrddkivkvdkvdlrs 232
+                           +  + cd  y kw+    +  y  g++yr + +v+ d vd+  
+  sp|Q14HL6|SYL_FRAT1 121 SREITTCDEdYYKWEqwffIQLYKKGLAYRKNSVVNWDPVDQTV 164
+                          5666788744889982222356899***************9975 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.25
+      PAF-AH_p_II.aln 155 adqntgaWskiidkqkisvlGdslGGaaaleiaGarldlealarkcds 202
+                            ++   W + ++  +i  +G s G +  +++  ++ ++e + ++ d+
+  sp|Q14HL6|SYL_FRAT1 204 DINKLDNWPEAVKTMQINWIGKSKGLTVKFKVKDSNQEIEVFTTRPDT 251
+                          4445678***********************************999887 PP
+
+  == domain 3  score: 5.0 bits;  conditional E-value: 0.037
+      PAF-AH_p_II.aln 227 kvdlrsvdklrfeesnladrrvkaviaidPllaqiydadslakisi 272
+                          + +  s +  + ee  lad  vk+ i  +  +  iy ++ l +i i
+  sp|Q14HL6|SYL_FRAT1 767 LELDASLSSNQVEEVVLADEHVKSFIDNKQVVKVIYVPQKLINIVI 812
+                          445677888999*****************************99977 PP
+
+>> sp|Q5NG64|SYL_FRATT  Leucine--tRNA ligase OS=Francisella tularensis subsp. tularensis (strain SCHU S4 / Schu 4) OX=17
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.1      0.18   1.4e+03     194     232 ..     121     164 ..     112     172 .. 0.75
+   2 ?    2.2   0.0      0.25     2e+03     155     202 ..     204     251 ..     184     260 .. 0.85
+   3 ?    5.0   0.2     0.037   2.9e+02     227     272 ..     767     812 ..     753     813 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 2.8 bits;  conditional E-value: 0.18
+      PAF-AH_p_II.aln 194 ealarkcds.ygkwd....cawyaggigyrddkivkvdkvdlrs 232
+                           +  + cd  y kw+    +  y  g++yr + +v+ d vd+  
+  sp|Q5NG64|SYL_FRATT 121 SREITTCDEdYYKWEqwffIQLYKKGLAYRKNSVVNWDPVDQTV 164
+                          5666788744889982222356899***************9975 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.25
+      PAF-AH_p_II.aln 155 adqntgaWskiidkqkisvlGdslGGaaaleiaGarldlealarkcds 202
+                            ++   W + ++  +i  +G s G +  +++  ++ ++e + ++ d+
+  sp|Q5NG64|SYL_FRATT 204 DINKLDNWPEAVKTMQINWIGKSKGLTVKFKVKDSNQEIEVFTTRPDT 251
+                          4445678***********************************999887 PP
+
+  == domain 3  score: 5.0 bits;  conditional E-value: 0.037
+      PAF-AH_p_II.aln 227 kvdlrsvdklrfeesnladrrvkaviaidPllaqiydadslakisi 272
+                          + +  s +  + ee  lad  vk+ i  +  +  iy ++ l +i i
+  sp|Q5NG64|SYL_FRATT 767 LELDASLSSNQVEEVVLADEHVKSFIDNKQVVKVIYVPQKLINIVI 812
+                          445677888999*****************************99977 PP
+
+>> sp|Q8R431|MGLL_RAT  Monoglyceride lipase OS=Rattus norvegicus OX=10116 GN=Mgll PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.1     0.001       7.9      80     117 ..      43      80 ..      36      94 .. 0.88
+   2 ?   -0.2   0.0       1.4   1.1e+04      66      96 ..     104     131 ..      84     149 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.001
+     PAF-AH_p_II.aln  80 PlllishGsGsvaenlatlatelvkaGilvavPqhiGs 117
+                          l+ +shG G     +  la+ l +  +lv + +h+G 
+  sp|Q8R431|MGLL_RAT  43 ALIFVSHGAGEHCGRYDELAQMLKRLDMLVFAHDHVGH 80 
+                         5899********************************97 PP
+
+  == domain 2  score: -0.2 bits;  conditional E-value: 1.4
+     PAF-AH_p_II.aln  66 apaviddsPekgsfPlllishGsGsvaenla 96 
+                           +v  d Pe    P++l+ h +G+    la
+  sp|Q8R431|MGLL_RAT 104 VNTVQKDYPE---VPVFLLGHSMGGAISILA 131
+                         5567777888...889999998888765555 PP
+
+>> sp|A0Q693|SYL_FRATN  Leucine--tRNA ligase OS=Francisella tularensis subsp. novicida (strain U112) OX=401614 GN=leuS P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.1       0.3   2.3e+03     198     232 ..     125     164 ..     111     172 .. 0.74
+   2 ?    3.1   0.0      0.14   1.1e+03     157     202 ..     206     251 ..     185     260 .. 0.87
+   3 ?    4.5   0.1     0.053   4.2e+02     229     272 ..     769     812 ..     752     813 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 2.0 bits;  conditional E-value: 0.3
+      PAF-AH_p_II.aln 198 rkcd.sygkwd....cawyaggigyrddkivkvdkvdlrs 232
+                            cd  y kw+    +  y  g++yr + +v+ d vd+  
+  sp|A0Q693|SYL_FRATN 125 ATCDeDYYKWEqwffIQLYKKGLAYRKNSVVNWDPVDQTV 164
+                          556525888882222356899***************9975 PP
+
+  == domain 2  score: 3.1 bits;  conditional E-value: 0.14
+      PAF-AH_p_II.aln 157 qntgaWskiidkqkisvlGdslGGaaaleiaGarldlealarkcds 202
+                           +   W + ++  +i  +G s G +  ++i  ++ ++e + ++ d+
+  sp|A0Q693|SYL_FRATN 206 SKLDGWPEAVKTMQINWIGKSKGLTVKFKIKDSNQEIEVFTTRPDT 251
+                          45678***********************************999887 PP
+
+  == domain 3  score: 4.5 bits;  conditional E-value: 0.053
+      PAF-AH_p_II.aln 229 dlrsvdklrfeesnladrrvkaviaidPllaqiydadslakisi 272
+                          +  s +  + ee  lad+ vk+ i  +  +  iy ++ l +i i
+  sp|A0Q693|SYL_FRATN 769 LDASLSPNQVEEIVLADQHVKSFIDNKQVVKVIYVPQKLINIVI 812
+                          455667778999***************************99977 PP
+
+>> sp|D4AZY1|A1751_ARTBC  Probable 1-alkyl-2-acetylglycerophosphocholine esterase OS=Arthroderma benhamiae (strain ATCC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.1   0.00044       3.4      75     184 ..     127     234 ..     116     243 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00044
+        PAF-AH_p_II.aln  75 ekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiG.sdlq..yrqelikGdlssadsPvkilarttdlsavidtltadqnt 159
+                            ++   P+ll+s G  + +  +  +a+ + +aG+ v + +h+  +d+      ++i G   +   P  +l    d+  v dt+   +  
+  sp|D4AZY1|A1751_ARTBC 127 DNHGIPILLFSPGGNTTRLVYSSIAQTISSAGYTVITMDHPHdTDIVefLNGDIITGGEVTFSNP-SVLPFWNDVR-VQDTVFVLN-- 210
+                            55678***********************************9536764223557777776666667.6666666653.556655544.. PP
+
+        PAF-AH_p_II.aln 160 gaWskiidkqkisvlGdslGGaaal 184
+                                k     +i++lG+s+GG+a l
+  sp|D4AZY1|A1751_ARTBC 211 -QALKTSPHARIGMLGHSFGGSAVL 234
+                            .3446677899**********9987 PP
+
+>> sp|G2JHL6|AIDA_ACIBM  Quorum-quenching protein AidA OS=Acinetobacter baumannii (strain MDR-ZJ06) OX=497978 GN=aidA PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.9   0.1    0.0024        19      75     111 ..      34      70 ..      18     153 .. 0.73
+   2 ?   -2.8   0.0       8.3   6.5e+04     268     300 ..     236     267 ..     218     285 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 8.9 bits;  conditional E-value: 0.0024
+       PAF-AH_p_II.aln  75 ekgsfPlllishGsGs.vaenlatlatelvkaGilvav 111
+                           e  + P+++++hG G+ ++  l  +a+++v +G+   v
+  sp|G2JHL6|AIDA_ACIBM  34 E-VATPMIVMAHGLGGtRRMRLTAFAERFVAEGYACLV 70 
+                           4.578********9882456789999999999975544 PP
+
+  == domain 2  score: -2.8 bits;  conditional E-value: 8.3
+       PAF-AH_p_II.aln 268 akisiPvslitlGeveiiptgvvadklasitPq 300
+                           ++i+ Pv l  + + + +  +  + + as tP+
+  sp|G2JHL6|AIDA_ACIBM 236 SRIQAPV-LFCVCDTDSVAPSKTTLRHASHTPN 267
+                           5677777.6667777777666677777777773 PP
+
+>> sp|P26174|BCHO_RHOCA  Magnesium-chelatase 30 kDa subunit OS=Rhodobacter capsulatus OX=1061 GN=bchO PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.1   0.0     0.017   1.3e+02      69     116 ..      28      72 ..      23      83 .. 0.81
+   2 ?    2.4   0.0      0.22   1.7e+03     167     187 ..     101     121 ..      90     127 .. 0.83
+   3 ?   -1.9   0.0       4.5   3.6e+04     267     311 ..     222     265 ..     220     274 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 6.1 bits;  conditional E-value: 0.017
+       PAF-AH_p_II.aln  69 viddsPekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiG 116
+                           vid  P     P+ll+ hG G+  ++++ +   l  a + v vP+ +G
+  sp|P26174|BCHO_RHOCA  28 VIDTGPA--DGPVLLLLHGLGASGHSFRKMIPGLS-ARYRVIVPDLPG 72 
+                           8999999..55*****************9998885.455666676666 PP
+
+  == domain 2  score: 2.4 bits;  conditional E-value: 0.22
+       PAF-AH_p_II.aln 167 dkqkisvlGdslGGaaaleia 187
+                           +    +v+G+s GGa al++a
+  sp|P26174|BCHO_RHOCA 101 NVTPAAVIGHSAGGAIALQLA 121
+                           566679************986 PP
+
+  == domain 3  score: -1.9 bits;  conditional E-value: 4.5
+       PAF-AH_p_II.aln 267 lakisiPvslitlGeve.iiptgvvadklasitPqgtyvtlegath 311
+                           l +i  Pv ++ +G+ +  +p+ v ad  a   P +t   ++g + 
+  sp|P26174|BCHO_RHOCA 222 LPRIAKPV-FLIAGNGDrAVPAHVSAD-AARFLPMATLRRIDGGHL 265
+                           66888999.888888873567777666.466778777777776654 PP
+
+>> sp|P70948|YITV_BACSU  Putative esterase YitV OS=Bacillus subtilis (strain 168) OX=224308 GN=yitV PE=4 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.0   0.5    0.0022        17      74     184 ..      22     123 ..       4     134 .. 0.69
+   2 ?   -2.0   0.0       4.8   3.7e+04      93     132 ..     146     185 ..     138     201 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 9.0 bits;  conditional E-value: 0.0022
+       PAF-AH_p_II.aln  74 PekgsfPlllishGsGsvaenlatlatelvkaGilvavPq..hiGsdlqyrqelikGdlssadsPvkilarttdlsavidtltadqntg 160
+                             + + Pl+++ hG+ s +e    +a  l+++G+    P+  h G     r e +      +++  +++    +    i+ +   +n  
+  sp|P70948|YITV_BACSU  22 NRHRAVPLVIFIHGFTSAKEHNLHIAYLLAEKGFRAVLPEalHHGE----RGEEM---AVEELAG-HFWDIVLNE---IEEIGVLKNHF 99 
+                           455689****************************999998335554....32221...2223333.566544333...44444445555 PP
+
+       PAF-AH_p_II.aln 161 aWskiidkqkisvlGdslGGaaal 184
+                             ++ id  +i++ G s+GG ++l
+  sp|P70948|YITV_BACSU 100 EKEGLIDGGRIGLAGTSMGGITTL 123
+                           777888888888888888887766 PP
+
+  == domain 2  score: -2.0 bits;  conditional E-value: 4.8
+       PAF-AH_p_II.aln  93 enlatlatelvkaGilvavPqhiGsdlqyrqelikGdlss 132
+                           e ++    ++ ++Gi + vP+    +l  r el    l +
+  sp|P70948|YITV_BACSU 146 ELFQQQIDHIQSQGIEIDVPEEKVQQLMKRLELRDLSLQP 185
+                           5566667899999999999999999898888887655544 PP
+
+>> sp|A7NCQ3|SYL_FRATF  Leucine--tRNA ligase OS=Francisella tularensis subsp. holarctica (strain FTNF002-00 / FTA) OX=45
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.1      0.33   2.6e+03     198     232 ..     125     164 ..     114     172 .. 0.73
+   2 ?    2.2   0.0      0.25     2e+03     155     202 ..     204     251 ..     184     260 .. 0.85
+   3 ?    5.0   0.2     0.037   2.9e+02     227     272 ..     767     812 ..     753     813 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 1.8 bits;  conditional E-value: 0.33
+      PAF-AH_p_II.aln 198 rkcd.sygkwd....cawyaggigyrddkivkvdkvdlrs 232
+                            cd  y kw+    +  y  g++yr + +v+ d vd+  
+  sp|A7NCQ3|SYL_FRATF 125 ATCDeDYYKWEqwffIQLYKKGLAYRKNSVVNWDPVDQTV 164
+                          456525888872222356899**************99975 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.25
+      PAF-AH_p_II.aln 155 adqntgaWskiidkqkisvlGdslGGaaaleiaGarldlealarkcds 202
+                            ++   W + ++  +i  +G s G +  +++  ++ ++e + ++ d+
+  sp|A7NCQ3|SYL_FRATF 204 DINKLDNWPEAVKTMQINWIGKSKGLTVKFKVKDSNQEIEVFTTRPDT 251
+                          4445678***********************************999887 PP
+
+  == domain 3  score: 5.0 bits;  conditional E-value: 0.037
+      PAF-AH_p_II.aln 227 kvdlrsvdklrfeesnladrrvkaviaidPllaqiydadslakisi 272
+                          + +  s +  + ee  lad  vk+ i  +  +  iy ++ l +i i
+  sp|A7NCQ3|SYL_FRATF 767 LELDASLSSNQVEEVVLADEHVKSFIDNKQVVKVIYVPQKLINIVI 812
+                          445677888999*****************************99977 PP
+
+>> sp|Q0BLI7|SYL_FRATO  Leucine--tRNA ligase OS=Francisella tularensis subsp. holarctica (strain OSU18) OX=393011 GN=leu
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.1      0.33   2.6e+03     198     232 ..     125     164 ..     114     172 .. 0.73
+   2 ?    2.2   0.0      0.25     2e+03     155     202 ..     204     251 ..     184     260 .. 0.85
+   3 ?    5.0   0.2     0.037   2.9e+02     227     272 ..     767     812 ..     753     813 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 1.8 bits;  conditional E-value: 0.33
+      PAF-AH_p_II.aln 198 rkcd.sygkwd....cawyaggigyrddkivkvdkvdlrs 232
+                            cd  y kw+    +  y  g++yr + +v+ d vd+  
+  sp|Q0BLI7|SYL_FRATO 125 ATCDeDYYKWEqwffIQLYKKGLAYRKNSVVNWDPVDQTV 164
+                          456525888872222356899**************99975 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.25
+      PAF-AH_p_II.aln 155 adqntgaWskiidkqkisvlGdslGGaaaleiaGarldlealarkcds 202
+                            ++   W + ++  +i  +G s G +  +++  ++ ++e + ++ d+
+  sp|Q0BLI7|SYL_FRATO 204 DINKLDNWPEAVKTMQINWIGKSKGLTVKFKVKDSNQEIEVFTTRPDT 251
+                          4445678***********************************999887 PP
+
+  == domain 3  score: 5.0 bits;  conditional E-value: 0.037
+      PAF-AH_p_II.aln 227 kvdlrsvdklrfeesnladrrvkaviaidPllaqiydadslakisi 272
+                          + +  s +  + ee  lad  vk+ i  +  +  iy ++ l +i i
+  sp|Q0BLI7|SYL_FRATO 767 LELDASLSSNQVEEVVLADEHVKSFIDNKQVVKVIYVPQKLINIVI 812
+                          445677888999*****************************99977 PP
+
+>> sp|Q2A307|SYL_FRATH  Leucine--tRNA ligase OS=Francisella tularensis subsp. holarctica (strain LVS) OX=376619 GN=leuS 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.1      0.33   2.6e+03     198     232 ..     125     164 ..     114     172 .. 0.73
+   2 ?    2.2   0.0      0.25     2e+03     155     202 ..     204     251 ..     184     260 .. 0.85
+   3 ?    5.0   0.2     0.037   2.9e+02     227     272 ..     767     812 ..     753     813 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 1.8 bits;  conditional E-value: 0.33
+      PAF-AH_p_II.aln 198 rkcd.sygkwd....cawyaggigyrddkivkvdkvdlrs 232
+                            cd  y kw+    +  y  g++yr + +v+ d vd+  
+  sp|Q2A307|SYL_FRATH 125 ATCDeDYYKWEqwffIQLYKKGLAYRKNSVVNWDPVDQTV 164
+                          456525888872222356899**************99975 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.25
+      PAF-AH_p_II.aln 155 adqntgaWskiidkqkisvlGdslGGaaaleiaGarldlealarkcds 202
+                            ++   W + ++  +i  +G s G +  +++  ++ ++e + ++ d+
+  sp|Q2A307|SYL_FRATH 204 DINKLDNWPEAVKTMQINWIGKSKGLTVKFKVKDSNQEIEVFTTRPDT 251
+                          4445678***********************************999887 PP
+
+  == domain 3  score: 5.0 bits;  conditional E-value: 0.037
+      PAF-AH_p_II.aln 227 kvdlrsvdklrfeesnladrrvkaviaidPllaqiydadslakisi 272
+                          + +  s +  + ee  lad  vk+ i  +  +  iy ++ l +i i
+  sp|Q2A307|SYL_FRATH 767 LELDASLSSNQVEEVVLADEHVKSFIDNKQVVKVIYVPQKLINIVI 812
+                          445677888999*****************************99977 PP
+
+>> sp|B2SGM9|SYL_FRATM  Leucine--tRNA ligase OS=Francisella tularensis subsp. mediasiatica (strain FSC147) OX=441952 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.1      0.33   2.6e+03     198     232 ..     125     164 ..     114     172 .. 0.73
+   2 ?    2.2   0.0      0.25     2e+03     155     202 ..     204     251 ..     184     260 .. 0.85
+   3 ?    5.0   0.2     0.037   2.9e+02     227     272 ..     767     812 ..     753     813 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 1.8 bits;  conditional E-value: 0.33
+      PAF-AH_p_II.aln 198 rkcd.sygkwd....cawyaggigyrddkivkvdkvdlrs 232
+                            cd  y kw+    +  y  g++yr + +v+ d vd+  
+  sp|B2SGM9|SYL_FRATM 125 ATCDeDYYKWEqwffIQLYKKGLAYRKNSVVNWDPVDQTV 164
+                          456525888872222356899**************99975 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.25
+      PAF-AH_p_II.aln 155 adqntgaWskiidkqkisvlGdslGGaaaleiaGarldlealarkcds 202
+                            ++   W + ++  +i  +G s G +  +++  ++ ++e + ++ d+
+  sp|B2SGM9|SYL_FRATM 204 DINKLDNWPEAVKTMQINWIGKSKGLTVKFKVKDSNQEIEVFTTRPDT 251
+                          4445678***********************************999887 PP
+
+  == domain 3  score: 5.0 bits;  conditional E-value: 0.037
+      PAF-AH_p_II.aln 227 kvdlrsvdklrfeesnladrrvkaviaidPllaqiydadslakisi 272
+                          + +  s +  + ee  lad  vk+ i  +  +  iy ++ l +i i
+  sp|B2SGM9|SYL_FRATM 767 LELDASLSSNQVEEVVLADEHVKSFIDNKQVVKVIYVPQKLINIVI 812
+                          445677888999*****************************99977 PP
+
+>> sp|Q57427|Y193_HAEIN  Putative esterase/lipase HI_0193 OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.0       2.6     2e+04      79     108 ..      46      75 ..      40     100 .. 0.83
+   2 ?    8.8   0.1    0.0025        20     163     188 ..     105     130 ..      92     140 .. 0.83
+   3 ?   -2.2   0.0       5.5   4.3e+04     272     313 ..     228     268 ..     216     274 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 2.6
+       PAF-AH_p_II.aln  79 fPlllishGsGsvaenlatlatelvkaGil 108
+                            P+l++ hG  +  +nl ++a+ + ++  +
+  sp|Q57427|Y193_HAEIN  46 TPVLIFIHGLFGDMDNLGVIARAFSEHYSI 75 
+                           5999*****999999999999988877544 PP
+
+  == domain 2  score: 8.8 bits;  conditional E-value: 0.0025
+       PAF-AH_p_II.aln 163 skiidkqkisvlGdslGGaaaleiaG 188
+                            + +++ k+ ++G+s+GG +a++i+ 
+  sp|Q57427|Y193_HAEIN 105 IRHLNLSKVILIGHSMGGKTAMKITA 130
+                           567899*****************975 PP
+
+  == domain 3  score: -2.2 bits;  conditional E-value: 5.5
+       PAF-AH_p_II.aln 272 iPvslitlGeveiiptgvvadklasitPqgtyvtlegathfs 313
+                            P  +i+ G+   i     ++k+    P++t  t++g  h+ 
+  sp|Q57427|Y193_HAEIN 228 TPTLFIKGGNSSYI-KIENSEKILEQFPNATAFTINGSGHWV 268
+                           57778999999998.445678888889999999999998875 PP
+
+>> sp|B5FGH1|LEUD_ALIFM  3-isopropylmalate dehydratase small subunit OS=Aliivibrio fischeri (strain MJ11) OX=388396 GN=l
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   0.00059       4.6     243     313 ..      92     160 ..      79     179 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00059
+       PAF-AH_p_II.aln 243 ladrrvkaviaidPllaqiydadslakisiPvslitlGeveiiptgvvadklasitPqgtyvtl.egathfs 313
+                           lad  ++  ++i P +a+i+  +s+ +  +Pv  +t  ev+ i   v a++ a +t +   + + ++++ +s
+  sp|B5FGH1|LEUD_ALIFM  92 LADYGIQ--VMIAPSFADIFYGNSINNQMVPV-RLTESEVDEIFQFVEANEGAEVTVDLEVMLVtANNKQYS 160
+                           5565554..7899*******************.8899******999*******9998543332213344444 PP
+
+>> sp|O18229|6PGL_CAEEL  Putative 6-phosphogluconolactonase OS=Caenorhabditis elegans OX=6239 GN=Y57G11C.3 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0   0.00082       6.5     207     299 ..      72     165 ..      43     187 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.00082
+       PAF-AH_p_II.aln 207 dcawyaggigyrddkivkvdkvdlrsvdklrfeesnladrrvkaviaidPllaqiydadslakisiPvslitlGeveiiptgvvad.kl 294
+                           +  w    i   d++ v++d  +  + ++lr    +l d  v   i  dP l+  +   sl k  +P  l +   ++i+  gv  d + 
+  sp|O18229|6PGL_CAEEL  72 QLNWKRIRIFMVDERNVDLDSEESNQGEYLRLFPNELRDVFVPMQIFKDPCLTAQHYEISLRKYLLPEQLNNTARFDILFLGVGPDgHT 160
+                           567888888999****************************************9988899************************988457 PP
+
+       PAF-AH_p_II.aln 295 asitP 299
+                           asi P
+  sp|O18229|6PGL_CAEEL 161 ASIFP 165
+                           89988 PP
+
+>> sp|A0QNZ7|MGLL_MYCS2  Monoacylglycerol lipase OS=Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) OX=24619
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.1     0.001         8      73     117 ..      25      69 ..      12      83 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.001
+       PAF-AH_p_II.aln  73 sPekgsfPlllishGsGsvaenlatlatelvkaGilvavPqhiGs 117
+                           +P+     +++++hG+   a  +  +a+++  aG+lv + +h G 
+  sp|A0QNZ7|MGLL_MYCS2  25 TPDTDPRGVVVLAHGYAEHAGRYHHVAQRFGAAGLLVYALDHRGH 69 
+                           677777789*********************************996 PP
+
+>> sp|Q5E859|LEUD_ALIF1  3-isopropylmalate dehydratase small subunit OS=Aliivibrio fischeri (strain ATCC 700601 / ES114)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   0.00066       5.2     243     313 ..      92     160 ..      79     180 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00066
+       PAF-AH_p_II.aln 243 ladrrvkaviaidPllaqiydadslakisiPvslitlGeveiiptgvvadklasitPqgt.yvtlegathfs 313
+                           lad  ++  ++i P +a+i+  +s+ +  +Pv  +t  ev+ i   v a++ a +t +    ++ ++++ +s
+  sp|Q5E859|LEUD_ALIF1  92 LADYGIQ--VMIAPSFADIFYGNSINNQMVPV-RLTESEVDEIFQFVEANEGAEVTVDLEaMLVTANNKQYS 160
+                           5666654..7899*******************.8899******999*9**9999997543033334444455 PP
+
+>> sp|A4IXU1|SYL_FRATW  Leucine--tRNA ligase OS=Francisella tularensis subsp. tularensis (strain WY96-3418) OX=418136 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.1      0.33   2.6e+03     198     232 ..     125     164 ..     114     172 .. 0.73
+   2 ?    2.2   0.0      0.25     2e+03     155     202 ..     204     251 ..     184     260 .. 0.85
+   3 ?    4.9   0.2     0.039   3.1e+02     227     272 ..     767     812 ..     755     813 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 1.8 bits;  conditional E-value: 0.33
+      PAF-AH_p_II.aln 198 rkcd.sygkwd....cawyaggigyrddkivkvdkvdlrs 232
+                            cd  y kw+    +  y  g++yr + +v+ d vd+  
+  sp|A4IXU1|SYL_FRATW 125 ATCDeDYYKWEqwffIQLYKKGLAYRKNSVVNWDPVDQTV 164
+                          456525888872222356899**************99975 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.25
+      PAF-AH_p_II.aln 155 adqntgaWskiidkqkisvlGdslGGaaaleiaGarldlealarkcds 202
+                            ++   W + ++  +i  +G s G +  +++  ++ ++e + ++ d+
+  sp|A4IXU1|SYL_FRATW 204 DINKLDNWPEAVKTMQINWIGKSKGLTVKFKVKDSNQEIEVFTTRPDT 251
+                          4445678***********************************999887 PP
+
+  == domain 3  score: 4.9 bits;  conditional E-value: 0.039
+      PAF-AH_p_II.aln 227 kvdlrsvdklrfeesnladrrvkaviaidPllaqiydadslakisi 272
+                          + +  s +  + ee  lad  vk+ i  +  +  iy ++ l +i i
+  sp|A4IXU1|SYL_FRATW 767 LELDASLSSNQVEEVVLADEHVKSFIDNKQVVKVIYVPQKLINIVI 812
+                          445677888999*****************************99977 PP
+
+>> sp|A5F5E3|LEUD_VIBC3  3-isopropylmalate dehydratase small subunit OS=Vibrio cholerae serotype O1 (strain ATCC 39541 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0    0.0009       7.1     243     313 ..      92     161 ..      69     178 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0009
+       PAF-AH_p_II.aln 243 ladrrvkaviaidPllaqiydadslakisiPvslitlGeveiiptgvvadklasitPq..gtyvtlegathfs 313
+                           lad  ++  ++i P +a+i+  +s+ +  +Pv  +t  ev+ + t v   + a+it +  +  vt +g+t++ 
+  sp|A5F5E3|LEUD_VIBC3  92 LADYGIR--VMIAPSFADIFYGNSINNQMVPV-RLTEQEVDELFTYVHDTEGATITVDleALSVTANGKTYHF 161
+                           5666554..7899*******************.88999*****999999999999986214556666666543 PP
+
+>> sp|C3LR35|LEUD_VIBCM  3-isopropylmalate dehydratase small subunit OS=Vibrio cholerae serotype O1 (strain M66-2) OX=57
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0    0.0009       7.1     243     313 ..      92     161 ..      69     178 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0009
+       PAF-AH_p_II.aln 243 ladrrvkaviaidPllaqiydadslakisiPvslitlGeveiiptgvvadklasitPq..gtyvtlegathfs 313
+                           lad  ++  ++i P +a+i+  +s+ +  +Pv  +t  ev+ + t v   + a+it +  +  vt +g+t++ 
+  sp|C3LR35|LEUD_VIBCM  92 LADYGIR--VMIAPSFADIFYGNSINNQMVPV-RLTEQEVDELFTYVHDTEGATITVDleALSVTANGKTYHF 161
+                           5666554..7899*******************.88999*****999999999999986214556666666543 PP
+
+>> sp|Q9KP80|LEUD_VIBCH  3-isopropylmalate dehydratase small subunit OS=Vibrio cholerae serotype O1 (strain ATCC 39315 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0    0.0009       7.1     243     313 ..      92     161 ..      69     178 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0009
+       PAF-AH_p_II.aln 243 ladrrvkaviaidPllaqiydadslakisiPvslitlGeveiiptgvvadklasitPq..gtyvtlegathfs 313
+                           lad  ++  ++i P +a+i+  +s+ +  +Pv  +t  ev+ + t v   + a+it +  +  vt +g+t++ 
+  sp|Q9KP80|LEUD_VIBCH  92 LADYGIR--VMIAPSFADIFYGNSINNQMVPV-RLTEQEVDELFTYVHDTEGATITVDleALSVTANGKTYHF 161
+                           5666554..7899*******************.88999*****999999999999986214556666666543 PP
+
+>> sp|Q9YBQ2|APEH_AERPE  Acylamino-acid-releasing enzyme OS=Aeropyrum pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.0   0.0       1.2   9.5e+03     159     186 ..      24      51 ..       6      65 .. 0.76
+   2 ?    7.7   0.0    0.0053        42      80     122 ..     361     404 ..     347     437 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: -0.0 bits;  conditional E-value: 1.2
+       PAF-AH_p_II.aln 159 tgaWskiidkqkisvlGdslGGaaalei 186
+                             + ++++d +k+ v+G+s G   a   
+  sp|Q9YBQ2|APEH_AERPE  24 KYSLQGVVDGDKLLVVGFSEGSVNAYLY 51 
+                           46889****************9887543 PP
+
+  == domain 2  score: 7.7 bits;  conditional E-value: 0.0053
+       PAF-AH_p_II.aln  80 PlllishG..sGsvaenlatlatelvkaGilvavPqhiGsdlqyr 122
+                           P +++ hG  +    ++  t+a  l+ aG+ v +P++ Gs   y 
+  sp|Q9YBQ2|APEH_AERPE 361 PTVVLVHGgpFAEDSDSWDTFAASLAAAGFHVVMPNYRGS-TGYG 404
+                           8889999855677788999********************9.5554 PP
+
+>> sp|B0U0E8|SYL_FRAP2  Leucine--tRNA ligase OS=Francisella philomiragia subsp. philomiragia (strain ATCC 25017 / CCUG 1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.1     0.095   7.5e+02     196     232 ..     123     164 ..     110     172 .. 0.75
+   2 ?   -0.5   0.0       1.7   1.4e+04     159     202 ..     208     251 ..     189     258 .. 0.86
+   3 ?    5.2   0.4     0.033   2.6e+02     220     271 ..     760     811 ..     754     813 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 3.6 bits;  conditional E-value: 0.095
+      PAF-AH_p_II.aln 196 larkcd.sygkwd....cawyaggigyrddkivkvdkvdlrs 232
+                              cd sy kw+    +  y  g++yr + +v+ d vd+  
+  sp|B0U0E8|SYL_FRAP2 123 EVATCDeSYYKWEqwffIQLYKKGLAYRKNSVVNWDPVDQTV 164
+                          45566548999983322356899***************9975 PP
+
+  == domain 2  score: -0.5 bits;  conditional E-value: 1.7
+      PAF-AH_p_II.aln 159 tgaWskiidkqkisvlGdslGGaaaleiaGarldlealarkcds 202
+                             W + ++  +   +G s G +  ++i  +  ++e + ++ d+
+  sp|B0U0E8|SYL_FRAP2 208 LDGWPEAVKTMQTNWIGKSKGLTVKFKIQNSDKEIEVFTTRPDT 251
+                          5679999******************************9999887 PP
+
+  == domain 3  score: 5.2 bits;  conditional E-value: 0.033
+      PAF-AH_p_II.aln 220 dkivkvdkvdlrsvdklrfeesnladrrvkaviaidPllaqiydadslakis 271
+                          + +vkv++ +  s  k + e+  l+d ++k+ i  +  +  iy ++ l +i 
+  sp|B0U0E8|SYL_FRAP2 760 NGKVKVKLELDASLTKEQVEQEVLSDEQIKTFIKDKQIVKVIYVPQKLINIV 811
+                          56799999999************************************99885 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (365 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     12931  (0.0225412); expected 11473.2 (0.02)
+Passed bias filter:                    10593  (0.0184656); expected 11473.2 (0.02)
+Passed Vit filter:                       798  (0.00139107); expected 573.7 (0.001)
+Passed Fwd filter:                        74  (0.000128996); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              73  [number of targets reported over threshold]
+# CPU time: 4.93u 0.20s 00:00:05.13 Elapsed: 00:00:01.73
+# Mc/sec: 43777.97
+//
+[ok]

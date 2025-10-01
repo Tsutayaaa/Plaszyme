@@ -1,0 +1,218 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/AB_hydrolase.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/clan_families/AB_hydrolase/AB_hydrolase.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/clan_families/AB_hydrolase/AB_hydrolase.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       AB_hydrolase.aln  [M=334]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    1.1e-09   33.1   0.0    1.3e-09   32.9   0.0    1.2  1  e542ce1613  
+    1.4e-09   32.8   0.0    1.9e-09   32.4   0.0    1.1  1  03f3222488  
+    1.4e-09   32.8   0.0    1.9e-09   32.4   0.0    1.2  1  f41c6d89a0  
+    1.5e-09   32.7   0.0    1.7e-09   32.5   0.0    1.2  1  114e6d2abe  
+    2.1e-09   32.3   0.0    2.7e-09   31.9   0.0    1.1  1  54b0f51654  
+    2.2e-09   32.2   0.0    2.8e-09   31.9   0.0    1.2  1  9c28e36175  
+    1.9e-08   29.1   0.0    2.2e-08   28.9   0.0    1.2  1  afb51f2a48  
+    3.1e-08   28.4   0.0    3.6e-08   28.2   0.0    1.2  1  4fd7439f5f  
+    3.5e-08   28.2   0.0    4.1e-08   28.0   0.0    1.2  1  59bb4d8994  
+
+
+Domain annotation for each sequence (and alignments):
+>> e542ce1613  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9   0.0   3.3e-11   1.3e-09      44     187 ..      20     236 ..       1     334 [. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 32.9 bits;  conditional E-value: 3.3e-11
+  AB_hydrolase.aln  44 s.........................................rgpaP....taaslea.ssGvattt...........vsgfg..ggtiyyPt 77 
+                       s                                          +p+P    + +  +a +  v+ ++           +++++   + +y P+
+        e542ce1613  20 SdpadpllvdlpngklrgrdngnyysyeslpyaeppvgdlrfEAPQPykqqWTDTFDAtQPPVSCMQwdqfirgddklAGNEDclTVSVYRPK 112
+                       455555555555555555555555555555555555666666566666677666666644333333346674555554444559999****** PP
+
+  AB_hydrolase.aln  78 gtspgtfpavvlihG....ftgtsssiawlg.prLashG.fvVitidtn.........stldqpdsr...aadllaaldylkaen..gvrgri 150
+                       + s ++fp+v+ ihG    f+g s+     g +++ + G  + + i+++         + +d +        d++ al ++k+ n     g  
+        e542ce1613 113 NSSRNSFPVVAQIHGgafmFGGASQ----NGhENFMREGnLILVKISYRlgplgfvstGDADLS--GnfgLKDQRLALLWIKQ-NiaSFGG-- 196
+                       *999**********66754444444....34544444455999999999999999955445555..3456***********64.4464444.. PP
+
+  AB_hydrolase.aln 151 DpnrlavaGhSmGGggalrlaasrpdl....kaavplapgh 187
+                        p ++ v+GhS+GGg ++ l + r+d+    kaa++ ++ +
+        e542ce1613 197 EPENILVIGHSAGGG-SVHLQVLREDFskvaKAAISFSGNA 236
+                       48*************.7778866655544467777776654 PP
+
+>> 03f3222488  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.4   0.0   4.7e-11   1.9e-09      70     187 ..     108     239 ..      63     324 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 32.4 bits;  conditional E-value: 4.7e-11
+  AB_hydrolase.aln  70 ggtiyyPtgtspgtfpavvlihG....ftgtsssiawlg.prLashG.fvVitidtn.........stldqpdsr...aadllaaldylkaen 144
+                        + +y P++ s ++fp+v+ +hG    f+g s+    +g +++ + G ++ +ti ++         + +d +        d++ al ++k+ n
+        03f3222488 108 TVSVYRPKNSSRNNFPVVANLHGgafmFGGPSQ----YGhENIMREGsVILVTIGYRlgplgfvstGDADLS--GnfgLKDQRLALLWIKQ-N 193
+                       6789*****999**********76764555444....66677767778************999966445555..3456***********64.4 PP
+
+  AB_hydrolase.aln 145 ..gvrgriDpnrlavaGhSmGGggalrla...asrpdl.kaavplapgh 187
+                            g   p ++ v+GhS+GG+  + l    ++++ l kaa++ ++ +
+        03f3222488 194 iaSFGG--EPENILVVGHSAGGAS-VHLQmlrEDFSKLaKAAISFSGNA 239
+                       464444..48*************4.444422222355567788776654 PP
+
+>> f41c6d89a0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.4   0.0   4.8e-11   1.9e-09      70     187 ..     108     239 ..      65     329 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 32.4 bits;  conditional E-value: 4.8e-11
+  AB_hydrolase.aln  70 ggtiyyPtgtspgtfpavvlihG....ftgtsssiawlg.prLashG.fvVitidtn.........stldqpdsr...aadllaaldylkaen 144
+                        + +y P++ s ++fp+v+ +hG    f+g s+    +g +++ + G ++ +ti ++         + +d +        d++ al ++k+ n
+        f41c6d89a0 108 TVSVYRPKNSSRNNFPVVANLHGgafmFGGPSQ----YGhENIMREGsVILVTIGYRlgplgfvstGDADLS--GnfgLKDQRLALLWIKQ-N 193
+                       6789*****999**********76764555444....66677767778************999966445555..3456***********64.4 PP
+
+  AB_hydrolase.aln 145 ..gvrgriDpnrlavaGhSmGGggalrlaasrpdl....kaavplapgh 187
+                            g   p ++ v+GhS+GG+ ++ l   r+d+    kaa++ ++ +
+        f41c6d89a0 194 iaSFGG--EPENILVVGHSAGGA-SVHLQMLREDFskvaKAAISFSGNA 239
+                       464444..48*************.4444433444433367777776654 PP
+
+>> 114e6d2abe  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.5   0.0   4.4e-11   1.7e-09      44     187 ..      48     236 ..       1     338 [. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 32.5 bits;  conditional E-value: 4.4e-11
+  AB_hydrolase.aln  44 s.............rgpaP....taaslea.ssG.vattt..........vsgfg..ggtiyyPtgtspgtfpavvlihG....ftgtsssia 101
+                       s              +p+P    + +  +a +   +  ++          +++++   + +y P++ s ++fp+v+ ihG    f+g s+   
+        114e6d2abe  48 SlpyaeppvgdlrfEAPQPykqqWTDTFDAtQPPvLCMQWdqfiqgddklAGNEDclTVSVYKPKNSSRNSFPVVAQIHGgafmFGGASQ--- 137
+                       055555555555555555566665555555443342222255634444444444499999******999**********66754444444... PP
+
+  AB_hydrolase.aln 102 wlg.prLashG.fvVitidtn.........stldqpdsr...aadllaaldylkaen..gvrgriDpnrlavaGhSmGGggalrlaasrpdl. 177
+                         g +++ + G  + + i+++         + +d +        d++ al ++k+ n     g   p ++ v+GhS+GGg ++ l + r+d+ 
+        114e6d2abe 138 -NGhENFMREGnLILVKISYRlgplgfvstGDADLS--GnfgLKDQRLALLWIKQ-NiaSFGG--EPENILVIGHSAGGG-SVHLQVLREDFs 223
+                       .34544444455999999999999999955445555..3456***********64.4464444..48*************.777776665553 PP
+
+  AB_hydrolase.aln 178 ...kaavplapgh 187
+                          kaa++ ++ +
+        114e6d2abe 224 klaKAAISFSGNA 236
+                       3367788777654 PP
+
+>> 54b0f51654  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.9   0.0   6.8e-11   2.7e-09      70     185 ..     108     237 ..      65     318 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 31.9 bits;  conditional E-value: 6.8e-11
+  AB_hydrolase.aln  70 ggtiyyPtgtspgtfpavvlihG....ftgtsssiawlg.prLashG.fvVitidtn.........stldqpdsr...aadllaaldylkaen 144
+                        + +y P++ s ++fp+v+ +hG    f+g s+    +g +++ + G ++ +ti ++         + +d +        d++ al ++k+ n
+        54b0f51654 108 TVSVYRPKNSSRNNFPVVANLHGgafmFGGPSQ----YGhENIMREGsVILVTIGYRlgplgfvstGDADLS--GnfgLKDQRLALLWIKQ-N 193
+                       6789*****999**********76764555444....66677767778************999966445555..3456***********64.4 PP
+
+  AB_hydrolase.aln 145 ..gvrgriDpnrlavaGhSmGGggalrlaasrpdl....kaavplap 185
+                            g   p ++ v+GhS+GG+  + l   r+d+    kaa++ ++
+        54b0f51654 194 iaSFGG--EPENILVVGHSAGGAS-VHLQMLREDFskvaKAAISFSG 237
+                       464444..48*************4.4444334444333566777665 PP
+
+>> 9c28e36175  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.9   0.0     7e-11   2.8e-09      47     187 ..      64     236 ..       6     327 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 31.9 bits;  conditional E-value: 7e-11
+  AB_hydrolase.aln  47 paP....taaslea.ssG.vattt..........vsgfg..ggtiyyPtgtspgtfpavvlihG....ftgtsssiawlg.prLashG.fvVi 115
+                       p+P    + +  +a +   +  ++          +++++   + +y P++ s ++fp+v+ ihG    f+g s+     g +++ + G  + +
+        9c28e36175  64 PQPykqqWTDTFDAtQPPvLCMQWdqfiqgddklAGNEDclTVSVYRPKNSSRNSFPVVAQIHGvafmFGGASQ----NGhENFMREGnLILV 152
+                       44555554444555333332222244534444434444499999******999**********76654444444....345444444559999 PP
+
+  AB_hydrolase.aln 116 tidtn.........stldqpdsr...aadllaaldylkaen..gvrgriDpnrlavaGhSmGGggalrlaasrpdl....kaavplapgh 187
+                        i+++         + +d +        d++ al ++k+ n     g   p ++ v+GhS+GGg ++ l + r+d+    kaa++ ++ +
+        9c28e36175 153 KISYRlgplgfvstGDADLS--GnfgLKDQRLALLWIKQ-NiaSFGG--EPENILVIGHSAGGG-SVHLQVLREDFskvaKAAISFSGNA 236
+                       99999999999955445555..3456***********64.4464444..48*************.7778866655544467777776654 PP
+
+>> afb51f2a48  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.9   0.0   5.5e-10   2.2e-08      46     185 ..      63     234 ..       1     321 [. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 28.9 bits;  conditional E-value: 5.5e-10
+  AB_hydrolase.aln  46 gpaP....taaslea.ssG...vattt...........vsgfg.....ggtiyyPtgtspgtfpavvlihG..ftgtsssiawlg.prLashG 111
+                       +p+P    + +  +a +     +   +           v   g      + iy P++ts+ +fp+v+ +hG  f+ +++  +  g +++ + G
+        afb51f2a48  63 APQPykqqWTDTFDAtQPPvtcM---QwnqfifgdnklV---GvedclTVSIYKPKNTSQSSFPVVAHMHGgaFMFGEA--RQNGhENMMREG 147
+                       45555555555555543333221...1344555554432...133477899*******************745333333..123444443344 PP
+
+  AB_hydrolase.aln 112 .fvVitidtn.........stldqpdsr...aadllaaldylkaen..gvrgriDpnrlavaGhSmGGggalrlaasrpdl....kaavplap 185
+                         + + i+++         + +d +        d++ al ++k+ n     g   p ++ v+GhS+GG+  + l   r+d+    ka+++ ++
+        afb51f2a48 148 kLILVKISYRlgplgfastGDADLS--GnfgLKDQRLALLWIKQ-NiaSFGG--EPENIIVVGHSAGGAS-VHLQMLREDFaqvaKAGISFGG 234
+                       6999999999*99888855444444..3556***********64.4464444..48*************4.4444334444333466555433 PP
+
+>> 4fd7439f5f  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.2   0.0   9.1e-10   3.6e-08      46     185 ..      63     234 ..       1     323 [. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 28.2 bits;  conditional E-value: 9.1e-10
+  AB_hydrolase.aln  46 gpaP....taaslea.ssG...vattt...........vsgfg.....ggtiyyPtgtspgtfpavvlihG..ftgtsssiawlg.prLashG 111
+                       +p+P    + +  +a +     +   +           +   g      + iy P++ts+ +fp+v+ +hG  f+ +++  +  g +++ + G
+        4fd7439f5f  63 APQPykqqWTDTFDAtQPPvtcM---QwnqfifgdnklA---GvedclTVSIYKPKNTSQSSFPVVAHMHGgaFMFGEA--RQNGhENMMREG 147
+                       55555555555555544333221...1344555553322...244577899*******************745333333..123444443344 PP
+
+  AB_hydrolase.aln 112 .fvVitidtn.......stldqpdsr......aadllaaldylkaen..gvrgriDpnrlavaGhSmGGggalrlaasrpdl....kaavpla 184
+                         + + i+++       st d             d++ al ++k+ n     g   p ++ v+GhS+GG+  + l   r+d+    ka+++ +
+        4fd7439f5f 148 kLILVKISYRlgplgfaSTGDA---GlsgnfgLKDQRLALLWIKQ-NiaSFGG--EPENIIVVGHSAGGAS-VHLQMLREDFaqvaKAGISFG 233
+                       6999999999988766633333...14447889**********64.4464444..48*************4.444433444433346655543 PP
+
+  AB_hydrolase.aln 185 p 185
+                       +
+        4fd7439f5f 234 G 234
+                       3 PP
+
+>> 59bb4d8994  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.0   0.0     1e-09   4.1e-08      46     185 ..      63     234 ..       1     321 [. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 28.0 bits;  conditional E-value: 1e-09
+  AB_hydrolase.aln  46 gpaP....taaslea.ssG...vattt...........vsgfg.....ggtiyyPtgtspgtfpavvlihG..ftgtsssiawlg.prLashG 111
+                       +p+P    + +  +a +     +   +           +   g      + iy P++ts+ +fp+v+ +hG  f+ +++  +  g +++ + G
+        59bb4d8994  63 APQPykqqWTDTFDAtQPPvtcM---QwnqfifgdnklA---GvedclTVSIYKPKNTSQSSFPVVAHMHGgaFMFGEA--RQNGhENMMREG 147
+                       55555555555555544333221...1344555553322...244577899*******************745333333..123444443344 PP
+
+  AB_hydrolase.aln 112 .fvVitidtn.......stldqpdsr......aadllaaldylkaen..gvrgriDpnrlavaGhSmGGggalrlaasrpdl....kaavpla 184
+                         + + i+++       st d             d++ al ++k+ n     g   p ++ v+GhS+GG+  + l   r+d+    ka+++ +
+        59bb4d8994 148 kLILVKISYRlgplgfaSTGDA---GlsgnfgLKDQRLALLWIKQ-NiaSFGG--EPENIIVVGHSAGGAS-VHLQMLREDFaqvaKAGISFG 233
+                       6999999999988766633333...14447889**********64.4464444..48*************4.444433444433346655543 PP
+
+  AB_hydrolase.aln 185 p 185
+                       +
+        59bb4d8994 234 G 234
+                       3 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (334 nodes)
+Target sequences:                        358  (244074 residues searched)
+Passed MSV filter:                        27  (0.075419); expected 7.2 (0.02)
+Passed bias filter:                       20  (0.0558659); expected 7.2 (0.02)
+Passed Vit filter:                        11  (0.0307263); expected 0.4 (0.001)
+Passed Fwd filter:                         9  (0.0251397); expected 0.0 (1e-05)
+Initial search space (Z):                358  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.02u 0.01s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 2846.90
+//
+[ok]

@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PQQ_2.aln	sp|Q588Z1|PVADH_SPHS1	654	654	0.0	1392.9	0.0	0.0	1392.8	1	654	1	654	1	654	1.0	1	1	1.0	1.0	PQQ_2

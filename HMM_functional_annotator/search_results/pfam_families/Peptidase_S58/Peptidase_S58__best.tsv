@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Peptidase_S58.aln	sp|Q79F77|NYLC_PAEUR	355	352	4.5e-165	554.0	1e-169	4.8e-165	553.9	6	337	32	355	1	355	0.96	1	1	0.9204545454545454	0.9352112676056338	Peptidase_S58

@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+SGNH_hydrolase.aln	sp|Q9HZY8|EST_PSEAE	201	201	2e-79	271.1	5.8e-84	2.2e-79	270.9	1	201	1	201	1	201	0.99	1	1	1.0	1.0	SGNH_hydrolase

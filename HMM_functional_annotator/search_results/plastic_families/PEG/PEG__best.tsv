@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PEG.aln	sp|H8ZPX2|SAPD_PSESP	477	668	1.5e-121	412.0	3e-124	1.9e-121	411.7	1	472	1	464	1	470	0.97	1	1	0.6946107784431138	0.989517819706499	PEG

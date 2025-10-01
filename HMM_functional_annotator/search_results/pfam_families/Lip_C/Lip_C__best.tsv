@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Lip_C.aln	sp|Q5U780|LIP_BACSP	416	429	1.4e-137	464.0	1.1e-141	1.6e-137	463.8	42	426	29	414	20	416	0.92	1	1	0.8997668997668997	0.9254807692307693	Lip_C

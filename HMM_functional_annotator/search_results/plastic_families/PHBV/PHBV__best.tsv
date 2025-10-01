@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PHBV.aln	sp|P26495|PHAZ_ECTOL	283	327	7.2e-85	290.3	1e-87	8.8e-85	290.0	3	299	1	280	1	282	0.97	1	1	0.8562691131498471	1.0494699646643109	PHBV

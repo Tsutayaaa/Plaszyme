@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Lipase_GDSL_2.aln	sp|Q9HZY8|EST_PSEAE	201	201	3.7e-94	318.8	1.4e-98	4.1e-94	318.7	1	201	1	201	1	201	1.0	1	1	1.0	1.0	Lipase_GDSL_2

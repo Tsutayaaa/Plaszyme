@@ -1,0 +1,4 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PBAT.aln	afb51f2a48	545	294	1.1e-12	42.9	3.8e-14	1.5e-12	42.5	19	120	110	219	77	296	0.85	1	1	0.3741496598639456	0.1871559633027523	PBAT.hmm
+PET.aln	f41c6d89a0	555	309	9.2e-08	26.5	3.4e-09	1.2e-07	26.1	69	186	107	237	45	308	0.79	1	1	0.42394822006472493	0.2126126126126126	PET.hmm
+PLA.aln	54b0f51654	548	246	1.9e-07	25.7	6.3e-09	2.5e-07	25.4	24	140	102	236	18	286	0.78	1	1	0.5487804878048781	0.21350364963503649	PLA.hmm

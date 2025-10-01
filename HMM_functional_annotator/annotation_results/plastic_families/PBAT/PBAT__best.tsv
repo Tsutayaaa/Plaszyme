@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PBAT.aln	afb51f2a48	545	294	1.1e-12	42.9	3.8e-14	1.5e-12	42.5	19	120	110	219	77	296	0.85	1	1	0.3741496598639456	0.1871559633027523	PBAT.hmm

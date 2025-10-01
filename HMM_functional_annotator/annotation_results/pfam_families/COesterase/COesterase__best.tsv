@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+COesterase.aln	114e6d2abe	545	500	1e-65	217.2	3.7e-67	1.5e-65	216.7	8	421	27	477	22	508	0.78	1	1	0.902	0.7596330275229358	COesterase.hmm

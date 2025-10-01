@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Abhydrolase_3.aln	4fd7439f5f	545	333	1.4e-08	28.6	7.6e-10	3e-08	27.5	74	183	94	211	74	229	0.78	1	1	0.35435435435435436	0.2018348623853211	Abhydrolase_3.hmm

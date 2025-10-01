@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+fn3.aln	sp|O05527|PHB_DELAC	494	498	1.1e-179	603.4	2.7e-183	1.3e-179	603.2	8	498	10	494	1	494	0.92	1	1	0.9738955823293173	0.9939271255060729	fn3

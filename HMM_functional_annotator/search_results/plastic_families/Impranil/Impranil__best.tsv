@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Impranil.aln	sp|P0DX29|PETH1_AMYMS	309	309	5.9e-151	507.0	1.3e-154	7.3e-151	506.7	17	309	29	309	19	309	0.96	1	1	0.9093851132686084	0.948220064724919	Impranil

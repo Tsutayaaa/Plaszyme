@@ -1,0 +1,681 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/DmpA_ArgJ.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/DmpA_ArgJ/DmpA_ArgJ.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/DmpA_ArgJ/DmpA_ArgJ.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       DmpA_ArgJ.aln  [M=344]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+   1.5e-162  545.6   8.3   1.7e-162  545.5   8.3    1.0  1  sp|Q79F77|NYLC_PAEUR   6-aminohexanoate-oligomer endohydrolas
+   2.2e-161  541.8   8.3   2.5e-161  541.6   8.3    1.0  1  sp|Q1EPR5|NYLC_AGRS5   6-aminohexanoate-oligomer endohydrolas
+   1.1e-160  539.5   7.9   1.2e-160  539.3   7.9    1.0  1  sp|Q1EPR4|NYLC_KOCS2   6-aminohexanoate-oligomer endohydrolas
+   1.3e-150  506.3   7.3   1.5e-150  506.2   7.3    1.0  1  sp|Q14T92|NYLC2_AGRS5  Putative NylC-analogous protein OS=Agr
+      2e-90  308.4  13.8    2.2e-90  308.3  13.8    1.0  1  sp|Q52VH2|BAPA_SPHXN   Beta-peptidyl aminopeptidase BapA OS=S
+    3.3e-73  251.8  15.8    4.4e-73  251.4  15.8    1.0  1  sp|P53425|Y1167_MYCLE  Uncharacterized aminopeptidase ML1167 
+    8.1e-70  240.7  11.5    9.1e-70  240.5  11.5    1.0  1  sp|P64812|Y1368_MYCBO  Uncharacterized aminopeptidase Mb1368 
+    8.1e-70  240.7  11.5    9.1e-70  240.5  11.5    1.0  1  sp|P9WM22|Y1333_MYCTO  Uncharacterized aminopeptidase MT1375 
+    8.1e-70  240.7  11.5    9.1e-70  240.5  11.5    1.0  1  sp|P9WM23|Y1333_MYCTU  Uncharacterized aminopeptidase Rv1333 
+    2.1e-61  213.0  15.4    2.7e-61  212.7  15.4    1.0  1  sp|A0MTQ2|BAPA_SPHMI   Beta-peptidyl aminopeptidase BapA OS=S
+    9.8e-43  151.7  12.0    2.8e-21   81.1   2.7    2.4  2  sp|P0DJQ5|GNAT2_STRCL  Glutamate N-acetyltransferase Oat2 OS=
+    9.8e-43  151.7  12.0    2.8e-21   81.1   2.7    2.4  2  sp|P0DJQ6|ARGJ3_STRCL  Arginine biosynthesis bifunctional pro
+    4.3e-13   54.2   7.6    1.3e-05   29.6   3.0    2.1  2  sp|P96426|ARGJ_RHOFA   Arginine biosynthesis bifunctional pro
+     0.0022   22.3   0.6     0.0039   21.4   0.2    1.6  2  sp|Q97ET6|ARGJ2_CLOAB  Arginine biosynthesis bifunctional pro
+     0.0051   21.1   1.1     0.0073   20.5   1.1    1.2  1  sp|Q97GH6|ARGJ1_CLOAB  Arginine biosynthesis bifunctional pro
+  ------ inclusion threshold ------
+       0.19   15.9   0.4       0.19   15.9   0.4    1.8  2  sp|Q6CII9|ARGJ_KLULA   Arginine biosynthesis bifunctional pro
+       0.43   14.7   0.8       0.71   14.0   0.8    1.4  1  sp|Q5FQD0|ARGJ_GLUOX   Arginine biosynthesis bifunctional pro
+       0.48   14.6   0.5       0.84   13.8   0.1    1.6  2  sp|C5MG55|ARGJ_CANTT   Arginine biosynthesis bifunctional pro
+       0.54   14.4   0.2       0.81   13.8   0.2    1.3  1  sp|O67100|ARGJ_AQUAE   Arginine biosynthesis bifunctional pro
+       0.56   14.3   0.0       0.56   14.3   0.0    1.1  1  sp|Q46868|UBIK_ECOLI   Ubiquinone biosynthesis accessory fact
+       0.93   13.6   0.0          1   13.5   0.0    1.1  1  sp|Q8ZLY9|UBIK_SALTY   Ubiquinone biosynthesis accessory fact
+          1   13.5   0.1        1.8   12.7   0.1    1.3  1  sp|A6S9T6|ARGJ2_BOTFB  Arginine biosynthesis bifunctional pro
+        1.1   13.4   0.0        1.8   12.7   0.0    1.2  1  sp|Q53QK0|Y1103_ORYSJ  Flavonoid O-methyltransferase-like pro
+        1.3   13.2   0.4        2.7   12.1   0.1    1.7  2  sp|D0N1U4|ARGJ_PHYIT   Arginine biosynthesis bifunctional pro
+        1.8   12.7   0.0        3.6   11.7   0.0    1.4  1  sp|A7EDG9|ARGJ2_SCLS1  Arginine biosynthesis bifunctional pro
+        2.9   12.0   6.1       0.78   13.9   1.4    1.9  2  sp|Q9X2A3|ARGJ_THEMA   Arginine biosynthesis bifunctional pro
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q79F77|NYLC_PAEUR  6-aminohexanoate-oligomer endohydrolase OS=Paenarthrobacter ureafaciens OX=37931 GN=nylC PE=1 S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  545.5   8.3  7.7e-167  1.7e-162       1     329 [.       1     355 []       1     355 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 545.5 bits;  conditional E-value: 7.7e-167
+         DmpA_ArgJ.aln   1 mnesp...................aapvvlagpgnddldlapvrstgrenaifdvpGVsvGaaeyiegptGvtvilipagartavdvrg 70 
+                           mn++p                   a+p+v++gpgnd++dlapvrstgre+++fd+pGVs+Gaa+y+egptG+tvi+ipagartavd+rg
+  sp|Q79F77|NYLC_PAEUR   1 MNTTPvhaltdidggiavdpaprlAGPPVFGGPGNDAFDLAPVRSTGREMLRFDFPGVSIGAAHYEEGPTGATVIHIPAGARTAVDARG 89 
+                           6777666777777777777788999**************************************************************** PP
+
+         DmpA_ArgJ.aln  71 GavGleggydfnhaivlaggsayGLeaaagvseallereeertglaelqlVseaviyDfsvrdtavrpdkalgraAleaakdgefeeGr 159
+                           GavGl+ggydfnhai+lagg++yGLea+agvs+aller e+rtg+aelqlVs+aviyDfs+r+tav+pdkalgraAle+a++gef++Gr
+  sp|Q79F77|NYLC_PAEUR  90 GAVGLSGGYDFNHAICLAGGAGYGLEAGAGVSDALLERLEHRTGFAELQLVSSAVIYDFSARSTAVYPDKALGRAALEFAVPGEFPQGR 178
+                           ***************************************************************************************** PP
+
+         DmpA_ArgJ.aln 160 vGaGtsasagkvdldrtekgGqGaasravgdvtvgavvvvNpvgvvvdraggvvrGnydaqegkrrhpaldyaealae.eakkteagnt 247
+                           +GaG+sasagkvd+drte++GqGaa+r++gdv+++avvv+Npvgv+vdrag+vvrGnydaq+g+rrhp++dy+ea+ae ++++teagnt
+  sp|Q79F77|NYLC_PAEUR 179 AGAGMSASAGKVDWDRTEITGQGAAFRRLGDVRILAVVVPNPVGVIVDRAGTVVRGNYDAQTGVRRHPVFDYQEAFAEqVPPVTEAGNT 267
+                           ***************************************************************************************** PP
+
+         DmpA_ArgJ.aln 248 titviaTdarLspaelkrlakrvhsslargiqpfhteldGdtlfAltTdelaidle..pg......svnatalgalaaevvedAvvnaa 328
+                           ti++i+T++r+sp+el+++ak+vhss++rgiqpfht++dGdtlfA+tTde  idl+  pg      svnatalga+a+ev++dAv++a+
+  sp|Q79F77|NYLC_PAEUR 268 TISAIVTNVRMSPVELNQFAKQVHSSMHRGIQPFHTDMDGDTLFAVTTDE--IDLPttPGssrgrlSVNATALGAIASEVMWDAVLEAG 354
+                           **************************************************..****998899*************************98 PP
+
+         DmpA_ArgJ.aln 329 l 329
+                           +
+  sp|Q79F77|NYLC_PAEUR 355 K 355
+                           6 PP
+
+>> sp|Q1EPR5|NYLC_AGRS5  6-aminohexanoate-oligomer endohydrolase OS=Agromyces sp. (strain KY5R) OX=388924 GN=nylC PE=1 S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  541.6   8.3  1.1e-165  2.5e-161       1     329 [.       1     355 []       1     355 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 541.6 bits;  conditional E-value: 1.1e-165
+         DmpA_ArgJ.aln   1 mnesp...................aapvvlagpgnddldlapvrstgrenaifdvpGVsvGaaeyiegptGvtvilipagartavdvrg 70 
+                           mn++p                   a+p+v++gpgnd++dlapvrstgre+++fd+pGVs+Gaa+y+egptG+tvi+ipagartavd+rg
+  sp|Q1EPR5|NYLC_AGRS5   1 MNTTPvhaltdidggiavdpaprlAGPPVFGGPGNDAFDLAPVRSTGREMLRFDFPGVSIGAAHYEEGPTGATVIHIPAGARTAVDARG 89 
+                           6777666777777777777788999**************************************************************** PP
+
+         DmpA_ArgJ.aln  71 GavGleggydfnhaivlaggsayGLeaaagvseallereeertglaelqlVseaviyDfsvrdtavrpdkalgraAleaakdgefeeGr 159
+                           GavGl+ggydfnhai+lagg++yGLea+agvs+aller e+rtg+ae qlVs+aviyDfs+r+tav+pdkalgraAle+a++gef++Gr
+  sp|Q1EPR5|NYLC_AGRS5  90 GAVGLSGGYDFNHAICLAGGASYGLEAGAGVSGALLERLEYRTGFAEAQLVSSAVIYDFSARSTAVYPDKALGRAALEFAVPGEFPQGR 178
+                           ***************************************************************************************** PP
+
+         DmpA_ArgJ.aln 160 vGaGtsasagkvdldrtekgGqGaasravgdvtvgavvvvNpvgvvvdraggvvrGnydaqegkrrhpaldyaealae.eakkteagnt 247
+                           +GaG+sasagkvd+drte++GqGaa+r++gdv+++avvv+Npvgv++drag+vvrGnydaq+g+rrhp++dy+ea+ae ++++teagnt
+  sp|Q1EPR5|NYLC_AGRS5 179 AGAGMSASAGKVDWDRTEITGQGAAFRRLGDVRILAVVVPNPVGVIMDRAGTVVRGNYDAQTGVRRHPVFDYQEAFAEqVPPVTEAGNT 267
+                           ***************************************************************************************** PP
+
+         DmpA_ArgJ.aln 248 titviaTdarLspaelkrlakrvhsslargiqpfhteldGdtlfAltTdelaidle..pg......svnatalgalaaevvedAvvnaa 328
+                           ti++i+T++r+sp+el+++ak+vhss++rgiqpfht++dGdtlfA+tTde  idl+  pg      svnatalga+a+ev++dAv++a+
+  sp|Q1EPR5|NYLC_AGRS5 268 TISAIVTNVRMSPVELNQFAKQVHSSMHRGIQPFHTDMDGDTLFAVTTDE--IDLPttPGssrgrlSVNATALGAIASEVMWDAVLEAG 354
+                           **************************************************..****998899*************************98 PP
+
+         DmpA_ArgJ.aln 329 l 329
+                           +
+  sp|Q1EPR5|NYLC_AGRS5 355 K 355
+                           6 PP
+
+>> sp|Q1EPR4|NYLC_KOCS2  6-aminohexanoate-oligomer endohydrolase OS=Kocuria sp. (strain KY2) OX=388923 GN=nylC PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  539.3   7.9  5.6e-165  1.2e-160       1     329 [.       1     355 []       1     355 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 539.3 bits;  conditional E-value: 5.6e-165
+         DmpA_ArgJ.aln   1 mnesp...................aapvvlagpgnddldlapvrstgrenaifdvpGVsvGaaeyiegptGvtvilipagartavdvrg 70 
+                           mn++p                   a+p+v++gpgn ++dl+pvrstgre+++fd+pGVsvG+a+y+egptG+tvi+ipagartavd+rg
+  sp|Q1EPR4|NYLC_KOCS2   1 MNTTPvhaltdidggiavdpaprlAGPPVFGGPGNAAFDLVPVRSTGRETLRFDFPGVSVGSAHYEEGPTGATVIHIPAGARTAVDARG 89 
+                           6777666777777777777788999**************************************************************** PP
+
+         DmpA_ArgJ.aln  71 GavGleggydfnhaivlaggsayGLeaaagvseallereeertglaelqlVseaviyDfsvrdtavrpdkalgraAleaakdgefeeGr 159
+                           GavGl+ggydfnhai+lagg++yGLea+agvs+aller e+rtg+ae qlVs+aviyDfs+r+tav+pdkalgraAle+a++gef++Gr
+  sp|Q1EPR4|NYLC_KOCS2  90 GAVGLSGGYDFNHAICLAGGASYGLEAGAGVSGALLERLEYRTGFAEAQLVSSAVIYDFSARSTAVYPDKALGRAALEFAVPGEFPQGR 178
+                           ***************************************************************************************** PP
+
+         DmpA_ArgJ.aln 160 vGaGtsasagkvdldrtekgGqGaasravgdvtvgavvvvNpvgvvvdraggvvrGnydaqegkrrhpaldyaealae.eakkteagnt 247
+                           +GaG+sasagkvd+drte++GqGaa+r++gdv+++avvv+Npvgv++dragg+vrGnydaq+g+rrhp++dy+ea+ae  +++t+agnt
+  sp|Q1EPR4|NYLC_KOCS2 179 AGAGMSASAGKVDWDRTEITGQGAAFRRLGDVRILAVVVPNPVGVIMDRAGGIVRGNYDAQTGVRRHPVFDYQEAFAEqLPPVTQAGNT 267
+                           ******************************************************************************99********* PP
+
+         DmpA_ArgJ.aln 248 titviaTdarLspaelkrlakrvhsslargiqpfhteldGdtlfAltTdelaidle..pg......svnatalgalaaevvedAvvnaa 328
+                           ti++i+T++r+sp+el+++ak+vhss++rgiqpfht++dGdtlfA+tTde  idl+  pg      svnatalga+a+ev++dAv++aa
+  sp|Q1EPR4|NYLC_KOCS2 268 TISAIVTNVRMSPVELNQFAKQVHSSMHRGIQPFHTDMDGDTLFAVTTDE--IDLPttPGssrgrlSVNATALGAIASEVMWDAVLEAA 354
+                           **************************************************..****998899**************************8 PP
+
+         DmpA_ArgJ.aln 329 l 329
+                           +
+  sp|Q1EPR4|NYLC_KOCS2 355 K 355
+                           6 PP
+
+>> sp|Q14T92|NYLC2_AGRS5  Putative NylC-analogous protein OS=Agromyces sp. (strain KY5R) OX=388924 GN=nylC' PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  506.2   7.3  6.8e-155  1.5e-150      31     329 ..       1     306 []       1     306 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 506.2 bits;  conditional E-value: 6.8e-155
+          DmpA_ArgJ.aln  31 naifdvpGVsvGaaeyiegptGvtvilipagartavdvrgGavGleggydfnhaivlaggsayGLeaaagvseallereeertglael 118
+                            +++fd+pGVs+Gaa+y+egptG+tvi+ipagartavd+rgGavGl+ggydfnhai+lagg++yGLea+agvs+aller e+rtg+ael
+  sp|Q14T92|NYLC2_AGRS5   1 MLRFDFPGVSIGAAHYEEGPTGATVIHIPAGARTAVDARGGAVGLSGGYDFNHAICLAGGAGYGLEAGAGVSGALLERLEYRTGFAEL 88 
+                            579************************************************************************************* PP
+
+          DmpA_ArgJ.aln 119 qlVseaviyDfsvrdtavrpdkalgraAleaakdgefeeGrvGaGtsasagkvdldrtekgGqGaasravgdvtvgavvvvNpvgvvv 206
+                            qlVs+aviyDfs+r+tav+pdkalgraAle+a++gef++Gr+GaG+sasagkvd+drte++GqGaa+r++gdv+++avvv+Npvgv+v
+  sp|Q14T92|NYLC2_AGRS5  89 QLVSSAVIYDFSARSTAVYPDKALGRAALEFAVPGEFPQGRAGAGMSASAGKVDWDRTEITGQGAAFRRLGDVRILAVVVPNPVGVIV 176
+                            **************************************************************************************** PP
+
+          DmpA_ArgJ.aln 207 draggvvrGnydaqegkrrhpaldyaealae.eakkteagnttitviaTdarLspaelkrlakrvhsslargiqpfhteldGdtlfAl 293
+                            drag+vvrGnydaq+g+rrhp++dy+ea+ae ++++teagntti++i+T++r+sp+el+++ak+vhss++rgiqpfht++dGdtlfA+
+  sp|Q14T92|NYLC2_AGRS5 177 DRAGTVVRGNYDAQTGVRRHPVFDYQEAFAEqVPPVTEAGNTTISAIVTNVRMSPVELNQFAKQVHSSMHRGIQPFHTDMDGDTLFAV 264
+                            **************************************************************************************** PP
+
+          DmpA_ArgJ.aln 294 tTdelaidle..pg......svnatalgalaaevvedAvvnaal 329
+                            tTde  idl+  pg      svnatalga+a+ev++dAv++a++
+  sp|Q14T92|NYLC2_AGRS5 265 TTDE--IDLPttPGssrgrlSVNATALGAIASEVMWDAVLEAGK 306
+                            ****..****998899*************************986 PP
+
+>> sp|Q52VH2|BAPA_SPHXN  Beta-peptidyl aminopeptidase BapA OS=Sphingosinicella xenopeptidilytica OX=364098 GN=bapA PE=1 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  308.3  13.8     1e-94   2.2e-90       6     344 .]      23     385 ..       1     385 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 308.3 bits;  conditional E-value: 1e-94
+         DmpA_ArgJ.aln   6 aapvvlagpgnddldlapvrstgrenaifdvpGVsvGaaeyieg...........ptGvtvilipagartavdvrgGav...Gl..... 75 
+                           aa++ lagp+++dl++++++++g+ nai+dv+GV+vG++++i+g           +tGvt+i++  g+++ + v++G++   G+     
+  sp|Q52VH2|BAPA_SPHXN  23 AATASLAGPRARDLGVPFEGTPGALNAITDVAGVEVGHTTVISGdgamvigkgpyRTGVTIIHP-LGKTSLDGVAAGRAvinGTgewtg 110
+                           8999***********************************************************9.9***********999996677999 PP
+
+         DmpA_ArgJ.aln  76 ....eggydfnhaivlaggsayGLeaaagvseallereee.rtglaelqlVseaviyDfsvrdtavrp.dkalgraAleaakdgefeeG 158
+                               +++++f ++i+l+g+ ++G  ++++++++++ +  e + +++ l++V+e+  +D++++d+ +++ ++++++aAl+ ak g+++eG
+  sp|Q52VH2|BAPA_SPHXN 111 mhlvDEVGQFLGPIALTGTGNVG-LVHQSMMDWSVGKVPEeALFSRLLPVVAET--LDNRLNDVFGHGlTRDHVFAALDGAKGGPVAEG 196
+                           9**********************.89************997889999*******..********************************* PP
+
+         DmpA_ArgJ.aln 159 rvGaGtsasagkvdldrtekgGqGaasravgd....vtvgavvvvNpvgvvvdraggvvrGnydaqegkrrhpaldyaealaeeakkte 243
+                           +vG+Gt+++a+++      kgG+G++sr+v++    +tvg++v++N+++++++r++gv++G+    e+k ++p+++ + a++++a k++
+  sp|Q52VH2|BAPA_SPHXN 197 NVGGGTGMIAYTF------KGGIGTSSRVVSAgdtrYTVGVLVQANHGDRNDLRIAGVQIGK----EIKGAWPEVNGIVAAGPDAGKPQ 275
+                           *************......************999****************************....*********************** PP
+
+         DmpA_ArgJ.aln 244 agnttitviaTdarLspaelkrlakrvhsslargiqpfhteldGdtlfAltTdela.........idlepgsvnatalgala...aevv 320
+                           ++n++++viaTda+L+p++l+r+a+r++ +++r+++++++  +G++++A++T++++         + ++  ++++++++al+   ++++
+  sp|Q52VH2|BAPA_SPHXN 276 DKNSLLIVIATDAPLMPHQLERMARRAALGVGRNGSTAGAL-SGEFALAFSTSHVIplggkprlpAIIN--DTDSETMNALFrgvVQAT 361
+                           ***************************************99.************888888877766666..****************** PP
+
+         DmpA_ArgJ.aln 321 edAvvnaalaaetvaGldndvvma 344
+                           e+A+vn+++a+et++G++n++v++
+  sp|Q52VH2|BAPA_SPHXN 362 EEALVNQLVASETMTGANNAKVYG 385
+                           ******************999885 PP
+
+>> sp|P53425|Y1167_MYCLE  Uncharacterized aminopeptidase ML1167 OS=Mycobacterium leprae (strain TN) OX=272631 GN=ML1167 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  251.4  15.8     2e-77   4.4e-73      27     337 ..       5     342 ..       2     348 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 251.4 bits;  conditional E-value: 2e-77
+          DmpA_ArgJ.aln  27 tgrenaifdvpGVsvGaaeyieg........ptGvtvilipagartavdvrgGavGl........eggydfnhaivlaggsayGLeaa 98 
+                            ++  n i+d+ G++vG+ +  +         + Gvtv+l p g + avd rgG++G+         ++++f +a+ laggsayGL aa
+  sp|P53425|Y1167_MYCLE   5 AAPMNSITDISGIQVGHYHRLDPdaslgagwACGVTVVLTPPGTVGAVDCRGGVPGTretdlldpANSVRFVDAVLLAGGSAYGLAAA 92 
+                            567899****************999*************************************************************** PP
+
+          DmpA_ArgJ.aln  99 agvseallereee.rtglaelqlVseaviyDfsvrdtavrpdkalgraAleaa.......kdgefeeGrvGaGtsasagkvdldrtek 178
+                            +gv+++l+e e+       ++++V++avi+D+sv+d + rp++++g+ A++aa       +d+ +++G vGaG +a+ag +      k
+  sp|P53425|Y1167_MYCLE  93 DGVMRWLEEHERGvVMLGGVVPIVPGAVIFDLSVGDFHCRPTAEFGYLACQAAydaavggQDATVAVGTVGAGVGARAGVL------K 174
+                            *************7777899*****************************9998333333334679****************......* PP
+
+          DmpA_ArgJ.aln 179 gGqGaasravgd.vtvgavvvvNpvgvvvdraggvvrGnydaqegkrrhpaldyaealaeeakkteagnttitviaTdarLspaelkr 265
+                            gG+G+as +++   tvgavvvvN+vg+vvdra+g+++  +   e++ r p  ++++ +a+ ++   a ntti+v+aTda+Lspa  +r
+  sp|P53425|Y1167_MYCLE 175 GGVGTASITLESgPTVGAVVVVNSVGDVVDRATGLPWMTDLIDEFALRPPSPEQIAGFAQLKSPLSALNTTIGVVATDATLSPAACQR 262
+                            ************99*************************999******************999************************* PP
+
+          DmpA_ArgJ.aln 266 lakrvhsslargiqpfhteldGdtlfAltTdela....idle....pgsvnatalgalaaevvedAvvnaalaaetvaGl 337
+                            +a+ ++++lar+i+p+ht+ldGdt+fAl+T ++     +d++    p    +t +ga a +  ++Av+ a+laae+vaG+
+  sp|P53425|Y1167_MYCLE 263 VAMAAQDGLARTIRPAHTALDGDTVFALATGAVEatatADVPvamsPETGLITEVGAAADDCLARAVLVAVLAAESVAGI 342
+                            ********************************8899997777544455778999*************************8 PP
+
+>> sp|P64812|Y1368_MYCBO  Uncharacterized aminopeptidase Mb1368 OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  240.5  11.5   4.1e-74   9.1e-70      31     340 ..       2     336 ..       1     340 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 240.5 bits;  conditional E-value: 4.1e-74
+          DmpA_ArgJ.aln  31 naifdvpGVsvGaaeyieg........ptGvtvilipagartavdvrgGavGl........eggydfnhaivlaggsayGLeaaagvs 102
+                            n i+dv G++vG+ +  +         + Gvtv+l+p g + avd rgGa+G+         ++++f +a  laggsayGL aa+gv+
+  sp|P64812|Y1368_MYCBO   2 NSITDVGGIRVGHYQRLDPdaslgagwACGVTVVLPPPGTVGAVDCRGGAPGTretdlldpANSVRFVDALLLAGGSAYGLAAADGVM 89 
+                            789**************9999******************************************************************* PP
+
+          DmpA_ArgJ.aln 103 eallereee.rtglaelqlVseaviyDfsvrdtavrpdkalgraAleaakdgefeeGrvGaGtsasagkvdldrtekgGqGaasravg 189
+                            ++l+e ++  +  + ++++V++avi+D+ v+ ++ rp++++g+ A+ aa   ++++G vG G +a+ag++      kgG+G+as +++
+  sp|P64812|Y1368_MYCBO  90 RWLEEHRRGvAMDSGVVPIVPGAVIFDLPVGGWNCRPTADFGYSACAAA-GVDVAVGTVGVGVGARAGAL------KGGVGTASATLQ 170
+                            *****9999999999********************************99.99******************......************ PP
+
+          DmpA_ArgJ.aln 190 d.vtvgavvvvNpvgvvvdraggvvrGnydaqegkrrhpaldyaealae.eakk...teagnttitviaTdarLspaelkrlakrvhs 272
+                              vtvg++ vvN+ g+vvd+a+g+++  +   e++ r+p +++++ala+   +    ++  ntti+via da Lspa  +r+a  +h+
+  sp|P64812|Y1368_MYCBO 171 SgVTVGVLAVVNAAGNVVDPATGLPWMADLVGEFALRAPPAEQIAALAQlSSPLgafNTPFNTTIGVIACDAALSPAACRRIAIAAHD 258
+                            99**************************9999*************9998654431116788*************************** PP
+
+          DmpA_ArgJ.aln 273 slargiqpfhteldGdtlfAltTdelaidlepg..........svnatalgalaaevvedAvvnaalaaetvaGl..dnd 340
+                            +lar+i+p+ht+ldGdt+fAl+T +  ++++p              +ta+ga aa+  ++Av+  +l+a+ vaG+  ++d
+  sp|P64812|Y1368_MYCBO 259 GLARTIRPAHTPLDGDTVFALATGA--VAVPPEagvpaalspeTQLVTAVGAAAADCLARAVLAGVLNAQPVAGIptYRD 336
+                            *************************..555522235556655466789999999********************977665 PP
+
+>> sp|P9WM22|Y1333_MYCTO  Uncharacterized aminopeptidase MT1375 OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  240.5  11.5   4.1e-74   9.1e-70      31     340 ..       2     336 ..       1     340 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 240.5 bits;  conditional E-value: 4.1e-74
+          DmpA_ArgJ.aln  31 naifdvpGVsvGaaeyieg........ptGvtvilipagartavdvrgGavGl........eggydfnhaivlaggsayGLeaaagvs 102
+                            n i+dv G++vG+ +  +         + Gvtv+l+p g + avd rgGa+G+         ++++f +a  laggsayGL aa+gv+
+  sp|P9WM22|Y1333_MYCTO   2 NSITDVGGIRVGHYQRLDPdaslgagwACGVTVVLPPPGTVGAVDCRGGAPGTretdlldpANSVRFVDALLLAGGSAYGLAAADGVM 89 
+                            789**************9999******************************************************************* PP
+
+          DmpA_ArgJ.aln 103 eallereee.rtglaelqlVseaviyDfsvrdtavrpdkalgraAleaakdgefeeGrvGaGtsasagkvdldrtekgGqGaasravg 189
+                            ++l+e ++  +  + ++++V++avi+D+ v+ ++ rp++++g+ A+ aa   ++++G vG G +a+ag++      kgG+G+as +++
+  sp|P9WM22|Y1333_MYCTO  90 RWLEEHRRGvAMDSGVVPIVPGAVIFDLPVGGWNCRPTADFGYSACAAA-GVDVAVGTVGVGVGARAGAL------KGGVGTASATLQ 170
+                            *****9999999999********************************99.99******************......************ PP
+
+          DmpA_ArgJ.aln 190 d.vtvgavvvvNpvgvvvdraggvvrGnydaqegkrrhpaldyaealae.eakk...teagnttitviaTdarLspaelkrlakrvhs 272
+                              vtvg++ vvN+ g+vvd+a+g+++  +   e++ r+p +++++ala+   +    ++  ntti+via da Lspa  +r+a  +h+
+  sp|P9WM22|Y1333_MYCTO 171 SgVTVGVLAVVNAAGNVVDPATGLPWMADLVGEFALRAPPAEQIAALAQlSSPLgafNTPFNTTIGVIACDAALSPAACRRIAIAAHD 258
+                            99**************************9999*************9998654431116788*************************** PP
+
+          DmpA_ArgJ.aln 273 slargiqpfhteldGdtlfAltTdelaidlepg..........svnatalgalaaevvedAvvnaalaaetvaGl..dnd 340
+                            +lar+i+p+ht+ldGdt+fAl+T +  ++++p              +ta+ga aa+  ++Av+  +l+a+ vaG+  ++d
+  sp|P9WM22|Y1333_MYCTO 259 GLARTIRPAHTPLDGDTVFALATGA--VAVPPEagvpaalspeTQLVTAVGAAAADCLARAVLAGVLNAQPVAGIptYRD 336
+                            *************************..555522235556655466789999999********************977665 PP
+
+>> sp|P9WM23|Y1333_MYCTU  Uncharacterized aminopeptidase Rv1333 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  240.5  11.5   4.1e-74   9.1e-70      31     340 ..       2     336 ..       1     340 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 240.5 bits;  conditional E-value: 4.1e-74
+          DmpA_ArgJ.aln  31 naifdvpGVsvGaaeyieg........ptGvtvilipagartavdvrgGavGl........eggydfnhaivlaggsayGLeaaagvs 102
+                            n i+dv G++vG+ +  +         + Gvtv+l+p g + avd rgGa+G+         ++++f +a  laggsayGL aa+gv+
+  sp|P9WM23|Y1333_MYCTU   2 NSITDVGGIRVGHYQRLDPdaslgagwACGVTVVLPPPGTVGAVDCRGGAPGTretdlldpANSVRFVDALLLAGGSAYGLAAADGVM 89 
+                            789**************9999******************************************************************* PP
+
+          DmpA_ArgJ.aln 103 eallereee.rtglaelqlVseaviyDfsvrdtavrpdkalgraAleaakdgefeeGrvGaGtsasagkvdldrtekgGqGaasravg 189
+                            ++l+e ++  +  + ++++V++avi+D+ v+ ++ rp++++g+ A+ aa   ++++G vG G +a+ag++      kgG+G+as +++
+  sp|P9WM23|Y1333_MYCTU  90 RWLEEHRRGvAMDSGVVPIVPGAVIFDLPVGGWNCRPTADFGYSACAAA-GVDVAVGTVGVGVGARAGAL------KGGVGTASATLQ 170
+                            *****9999999999********************************99.99******************......************ PP
+
+          DmpA_ArgJ.aln 190 d.vtvgavvvvNpvgvvvdraggvvrGnydaqegkrrhpaldyaealae.eakk...teagnttitviaTdarLspaelkrlakrvhs 272
+                              vtvg++ vvN+ g+vvd+a+g+++  +   e++ r+p +++++ala+   +    ++  ntti+via da Lspa  +r+a  +h+
+  sp|P9WM23|Y1333_MYCTU 171 SgVTVGVLAVVNAAGNVVDPATGLPWMADLVGEFALRAPPAEQIAALAQlSSPLgafNTPFNTTIGVIACDAALSPAACRRIAIAAHD 258
+                            99**************************9999*************9998654431116788*************************** PP
+
+          DmpA_ArgJ.aln 273 slargiqpfhteldGdtlfAltTdelaidlepg..........svnatalgalaaevvedAvvnaalaaetvaGl..dnd 340
+                            +lar+i+p+ht+ldGdt+fAl+T +  ++++p              +ta+ga aa+  ++Av+  +l+a+ vaG+  ++d
+  sp|P9WM23|Y1333_MYCTU 259 GLARTIRPAHTPLDGDTVFALATGA--VAVPPEagvpaalspeTQLVTAVGAAAADCLARAVLAGVLNAQPVAGIptYRD 336
+                            *************************..555522235556655466789999999********************977665 PP
+
+>> sp|A0MTQ2|BAPA_SPHMI  Beta-peptidyl aminopeptidase BapA OS=Sphingosinicella microcystinivorans OX=335406 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  212.7  15.4   1.2e-65   2.7e-61       6     339 ..      16     371 ..       5     376 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 212.7 bits;  conditional E-value: 1.2e-65
+         DmpA_ArgJ.aln   6 aapvvlagpgnddldlapvrstgrenaifdvpGVsvGaaeyieg...........ptGvtvilipagartavdvrgGav.....Gl... 75 
+                           a+++ + gp+++dl++++++++g++nai+dv+GV+vG +++i+g           +tGvt++l+ +g+++ ++v++G +     G+   
+  sp|A0MTQ2|BAPA_SPHMI  16 AGAASAEGPRARDLGVPFAGKPGANNAITDVAGVEVGYVSLISGegklergkgpvRTGVTAVLP-RGKESRTPVYAGWEtsnaaGEmtg 103
+                           566677889*****************************************************98.99**********997666655888 PP
+
+         DmpA_ArgJ.aln  76 ....eggydfnhaivlaggsayGLeaaagvseallereeertglaelqlVseaviyDfsvrdtavrp.dkalgraAleaakdgefeeGr 159
+                               e+ ++f ++ ++++++++G  + ++v+++l + +    g +  ++V+e+  yD  ++d+++++ + ++   A++ a++g+++eG+
+  sp|A0MTQ2|BAPA_SPHMI 104 tvwlEERGYFDGPMMITNTHSVG-VVRDAVVGWLADVK--WPGAWFTPVVAET--YDGMLNDINGFHvKPEHALRAIQTAASGPVAEGN 187
+                           8**********************.9*********9865..5688999******..************99******************** PP
+
+         DmpA_ArgJ.aln 160 vGaGtsasagkvdldrtekgGqGaasravgd....vtvgavvvvNpvgvvvdraggvvrGnydaqegkrrhpal.dyaealaeeakkte 243
+                           vG+G +++ + +      kgG+G+asr+v+     +tvg++v+ N++ + ++r +g ++G+    +gk   p++ + ++a+a ++ + +
+  sp|A0MTQ2|BAPA_SPHMI 188 VGGGVGMQCFGF------KGGTGTASRVVEMdgksYTVGVLVQCNFGMRPWLRVAGAPVGEEL--AGK-YLPETrGTQTAAATNNGVAP 267
+                           ************......************99*****************************22..333.45665145666666999999 PP
+
+         DmpA_ArgJ.aln 244 agnttitviaTdarLspaelkrlakrvhsslargiqpfhteldGdtlfAltTdela....idlepg......svnatalgala...aev 319
+                             +++i+v+aTda++ p++lkrlakr++ +++r +    +  +Gd+++A++T++ +         g       +    l  ++    ++
+  sp|A0MTQ2|BAPA_SPHMI 268 GDGSIIVVMATDAPMLPHQLKRLAKRAAAGMGRMGDAGSNG-SGDIFVAFSTANANvqsvG----GnvisveTMPNDKLTLIFeaaTQA 351
+                           ************************************99999.************5544440....25553333333333344467699* PP
+
+         DmpA_ArgJ.aln 320 vedAvvnaalaaetvaGldn 339
+                           +e+A+ n ++aa t++G+++
+  sp|A0MTQ2|BAPA_SPHMI 352 TEEAITNVLVAADTLTGVNG 371
+                           *****************965 PP
+
+>> sp|P0DJQ5|GNAT2_STRCL  Glutamate N-acetyltransferase Oat2 OS=Streptomyces clavuligerus OX=1901 GN=oat2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.1   2.7   1.3e-25   2.8e-21       3     137 ..       3     149 ..       1     157 [. 0.92
+   2 !   75.6   2.5   5.9e-24   1.3e-19     231     344 .]     164     309 ..     139     309 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 81.1 bits;  conditional E-value: 1.3e-25
+          DmpA_ArgJ.aln   3 es.p.........aapvvlagpgnddldlapvrstgrenaifdv.....pGVsvGaaeyieg.ptGvtvilipagartavdvrgGavG 74 
+                            +s p         +apv+la++g+dd+++ +++++++++a+f++     p+V ++++++++g ++Gv+v++++a      +v++G +G
+  sp|P0DJQ5|GNAT2_STRCL   3 DStPktprgfvvhTAPVGLADDGRDDFTVLASTAPATVSAVFTRsrfagPSVVLCREAVADGqARGVVVLARNA------NVATGLEG 84 
+                            55334457777889******************************9*****************99********99......******** PP
+
+          DmpA_ArgJ.aln  75 leggydfnhaivlaggsayG..LeaaagvseallereeertglaelqlVseaviyDfsvrdtavr 137
+                            +e+++++++a+++a g++ G  L a++gv+++++++e+ r++l++l+++++   +D ++r +   
+  sp|P0DJQ5|GNAT2_STRCL  85 EENAREVREAVARALGLPEGemLIASTGVIGRQYPMESIREHLKTLEWPAGEGGFDRAARAIMTT 149
+                            **************************************************988899999887665 PP
+
+  == domain 2  score: 75.6 bits;  conditional E-value: 5.9e-24
+          DmpA_ArgJ.aln 231 yaealae.eakkteagnttitviaTdarLspaelkrlakrv......hsslargiqpfhtel...........dGdtlfAltTdela. 299
+                             +  +a+ +++ +++++t++t++aTdarL+pae++rl++rv      ++s+++++++++t++           +G++  Al+T++la 
+  sp|P0DJQ5|GNAT2_STRCL 164 TLVGIAKgVGMLEPDMATLLTFFATDARLDPAEQDRLFRRVmdrtfnAVSIDTDTSTSDTAVlfanglagevdAGEFEEALHTAALAl 251
+                            4567888899***************************************************************************999 PP
+
+          DmpA_ArgJ.aln 300 .idle.pg.....svnatalgala...aevvedAvvnaalaaetvaGl...dndvvma 344
+                             +d++ +g      ++++++ga++   a++v ++vvn++l++++v+G+   +++v+ma
+  sp|P0DJQ5|GNAT2_STRCL 252 vKDIAsDGegaakLIEVQVTGARDdaqAKRVGKTVVNSPLVKTAVHGCdpnWGRVAMA 309
+                            99999944559999*********999**********************9999999886 PP
+
+>> sp|P0DJQ6|ARGJ3_STRCL  Arginine biosynthesis bifunctional protein ArgJ 3 OS=Streptomyces clavuligerus OX=1901 GN=argJ
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.1   2.7   1.3e-25   2.8e-21       3     137 ..       3     149 ..       1     157 [. 0.92
+   2 !   75.6   2.5   5.9e-24   1.3e-19     231     344 .]     164     309 ..     139     309 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 81.1 bits;  conditional E-value: 1.3e-25
+          DmpA_ArgJ.aln   3 es.p.........aapvvlagpgnddldlapvrstgrenaifdv.....pGVsvGaaeyieg.ptGvtvilipagartavdvrgGavG 74 
+                            +s p         +apv+la++g+dd+++ +++++++++a+f++     p+V ++++++++g ++Gv+v++++a      +v++G +G
+  sp|P0DJQ6|ARGJ3_STRCL   3 DStPktprgfvvhTAPVGLADDGRDDFTVLASTAPATVSAVFTRsrfagPSVVLCREAVADGqARGVVVLARNA------NVATGLEG 84 
+                            55334457777889******************************9*****************99********99......******** PP
+
+          DmpA_ArgJ.aln  75 leggydfnhaivlaggsayG..LeaaagvseallereeertglaelqlVseaviyDfsvrdtavr 137
+                            +e+++++++a+++a g++ G  L a++gv+++++++e+ r++l++l+++++   +D ++r +   
+  sp|P0DJQ6|ARGJ3_STRCL  85 EENAREVREAVARALGLPEGemLIASTGVIGRQYPMESIREHLKTLEWPAGEGGFDRAARAIMTT 149
+                            **************************************************988899999887665 PP
+
+  == domain 2  score: 75.6 bits;  conditional E-value: 5.9e-24
+          DmpA_ArgJ.aln 231 yaealae.eakkteagnttitviaTdarLspaelkrlakrv......hsslargiqpfhtel...........dGdtlfAltTdela. 299
+                             +  +a+ +++ +++++t++t++aTdarL+pae++rl++rv      ++s+++++++++t++           +G++  Al+T++la 
+  sp|P0DJQ6|ARGJ3_STRCL 164 TLVGIAKgVGMLEPDMATLLTFFATDARLDPAEQDRLFRRVmdrtfnAVSIDTDTSTSDTAVlfanglagevdAGEFEEALHTAALAl 251
+                            4567888899***************************************************************************999 PP
+
+          DmpA_ArgJ.aln 300 .idle.pg.....svnatalgala...aevvedAvvnaalaaetvaGl...dndvvma 344
+                             +d++ +g      ++++++ga++   a++v ++vvn++l++++v+G+   +++v+ma
+  sp|P0DJQ6|ARGJ3_STRCL 252 vKDIAsDGegaakLIEVQVTGARDdaqAKRVGKTVVNSPLVKTAVHGCdpnWGRVAMA 309
+                            99999944559999*********999**********************9999999886 PP
+
+>> sp|P96426|ARGJ_RHOFA  Arginine biosynthesis bifunctional protein ArgJ OS=Rhodococcoides fascians OX=1828 GN=argJ PE=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   0.2   3.7e-09   8.2e-05       9     116 ..      33     142 ..      18     155 .. 0.90
+   2 !   29.6   3.0   5.9e-10   1.3e-05     219     344 .]     165     322 ..     151     322 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 27.0 bits;  conditional E-value: 3.7e-09
+         DmpA_ArgJ.aln   9 vvlagpgnddldlapvrstgrenaifdv.....pGVsvGaaeyieg.ptGvtvilipagartavdvrgGavGleggydfnhaivlaggs 91 
+                            +la++g+dd+ ++++  + + +++f+      p V + ++++++  p+Gv v++ +a      +v++Ga+Gl ++ +++  ++++ g 
+  sp|P96426|ARGJ_RHOFA  33 LGLADEGKDDFSMVISDRPCTSSVVFTKslfagPCVTLSKTSIEQTsPRGVLVLAKNA------NVATGAEGLRNASEIRASVARTVGI 115
+                           5789**********************999999999****99999888*********99......************************9 PP
+
+         DmpA_ArgJ.aln  92 ayG..Leaaagvseallereeertgla 116
+                                ++a++gv++ ++++   r gl+
+  sp|P96426|ARGJ_RHOFA 116 EPDalIMASTGVIGVQYPMDTIRAGLD 142
+                           8777789**********9999888765 PP
+
+  == domain 2  score: 29.6 bits;  conditional E-value: 5.9e-10
+         DmpA_ArgJ.aln 219 aqegkrrhpaldyaealae.eakkteagnttitviaTdarLspaelkrlakrv......hsslargiqpfhtel...........dGdt 289
+                            +++ +r+  +  +  +a+ +++ +++++t+++++ Tda   +  l+r+++ v      ++s+++++++++t+            d ++
+  sp|P96426|ARGJ_RHOFA 165 RAKVSERAVGTSTIVGIAKgVGMIEPDMATMLSFVFTDADVPQDTLNRIFRDVvdrtynSVSIDTDTSTSDTAAvfangsagpvpDTEF 253
+                           455666666777888899999*************************************99*************99*****999999999 PP
+
+         DmpA_ArgJ.aln 290 lfAlt...Tdelaidle.pg.....svnatalgala...aevvedAvvnaalaaetvaGl...dndvvma 344
+                             Al    Td +++ ++ +g      +  t+ ga     a vv + ++n++l+++ ++G    +++v ma
+  sp|P96426|ARGJ_RHOFA 254 EQALEevcTDLVKM-IAsDGegatkLIVTTVSGASSerqARVVGKSIINSPLVKTMIHGEdpnWGRVLMA 322
+                           88875332666553.445445488645555555555788********************98777777765 PP
+
+>> sp|Q97ET6|ARGJ2_CLOAB  Arginine biosynthesis bifunctional protein ArgJ 2 OS=Clostridium acetobutylicum (strain ATCC 8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.4   0.0       3.2     7e+04      65      81 ..      72      88 ..      35      91 .. 0.73
+   2 !   21.4   0.2   1.8e-07    0.0039     235     344 .]     165     306 ..     140     306 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: -2.4 bits;  conditional E-value: 3.2
+          DmpA_ArgJ.aln 65 avdvrgGavGleggydf 81
+                             +v++G +Gl++ y++
+  sp|Q97ET6|ARGJ2_CLOAB 72 VANVATGEEGLKNTYRI 88
+                           35788899999888876 PP
+
+  == domain 2  score: 21.4 bits;  conditional E-value: 1.8e-07
+          DmpA_ArgJ.aln 235 lae.eakkteagnttitviaTdarLspaelkrlakrv......hsslargiqpfhtel..........dGdtlfAltTdela...idl 302
+                            +a+  ++ +++++t++  + Tda ++ +elk + kr+       +s++ ++++++t+           + +++    Td  +   +d+
+  sp|Q97ET6|ARGJ2_CLOAB 165 IAKgSGMIEPNMATMLAYFFTDASIKAVELKGILKRAvdksfnMISIDHDTSTSDTAAilangyvgnvNLEVFEKTFTDMCIdmaKDI 252
+                            55667888999**************************9**9999*************9999999555555555555666655777666 PP
+
+          DmpA_ArgJ.aln 303 e.pg.....svnatalgala...aevvedAvvnaalaaetvaGl...dndvvma 344
+                              +g      ++at++g      a+v+++ ++n++l++ ++ G    +++++ma
+  sp|Q97ET6|ARGJ2_CLOAB 253 VrDGegvskLIEATVMGCSSfesAKVIAKSIINSPLVKIAIYGSdpnWGRIAMA 306
+                            67445599999*****9988899********************98888888876 PP
+
+>> sp|Q97GH6|ARGJ1_CLOAB  Arginine biosynthesis bifunctional protein ArgJ 1 OS=Clostridium acetobutylicum (strain ATCC 8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.5   1.1   3.3e-07    0.0073     233     338 ..     176     320 ..     145     326 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 20.5 bits;  conditional E-value: 3.3e-07
+          DmpA_ArgJ.aln 233 ealae.eakkteagnttitviaTdarLspaelkrlakrv......hsslargiqpfhtel......dGdtlfAltTdela........ 299
+                             a+a+  ++  ++++t++++i+Tda +++  l++  k+        +s++r++++ + +l      +G+tl+    ++          
+  sp|Q97GH6|ARGJ1_CLOAB 176 CAIAKgSGMIHPNMATMLSFIVTDANITKDLLNKALKESvkdsynMISVDRDTSTNDMALllangaSGNTLISSENSDYEvfkkalhy 263
+                            567777899999*********************98887779999999*******999998999999*****99998887799999999 PP
+
+          DmpA_ArgJ.aln 300 ......idle.pg.....svnatalgala...aevvedAvvnaalaaetvaGl...d 338
+                                  + ++ +g      ++a++ ga     a+v+++ v+ + l++ +v G    +
+  sp|Q97GH6|ARGJ1_CLOAB 264 vnveisKMIAkDGegatkLIEAKVFGASSsrdAKVAAKSVITSNLVKAAVFGSdanW 320
+                            88444433336336699999*****9998888*****************99985444 PP
+
+>> sp|Q6CII9|ARGJ_KLULA  Arginine biosynthesis bifunctional protein ArgJ, mitochondrial OS=Kluyveromyces lactis (strain 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.2       1.3   2.9e+04     293     337 ..      67     108 ..      42     140 .. 0.73
+   2 ?   15.9   0.4   8.7e-06      0.19     234     337 ..     201     340 ..     184     350 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 1.3
+         DmpA_ArgJ.aln 293 ltTdelaidlepgsvnatalgalaaevvedAvvnaalaaetvaGl 337
+                           +tT++   + +p  v +++l+    e v   vvn++  a++v+G 
+  sp|Q6CII9|ARGJ_KLULA  67 FTTNK--FKAAPVLVSKEVLEVTGGENVDAIVVNSGC-ANAVTGE 108
+                           33333..333456777777777778888888888877.7777775 PP
+
+  == domain 2  score: 15.9 bits;  conditional E-value: 8.7e-06
+         DmpA_ArgJ.aln 234 alae.eakkteagnttitviaTdarLspaelkrlakrv......hsslargiqpfhtel...dGdtlfAltTdela............. 299
+                            +a+  ++  ++++t++++i+Td++++p  l+++ +++       +s++ ++++ +t     +G +  A+  ++ +             
+  sp|Q6CII9|ARGJ_KLULA 201 GIAKgAGMICPNMATLLGFIVTDLPITPSALQKMLRSAtdrsfnCISVDGDMSTNDTISmlaNGAVDTAVIDENSQdfvqvqtqvtefa 289
+                           566667788899**************************999888778888887777754556666666666555557766666665666 PP
+
+         DmpA_ArgJ.aln 300 .....idle..pg.....svnatalgala...aevvedAvvnaalaaetvaGl 337
+                                +     +g      v++++ +al    a+ +++ + n++l+++++ G 
+  sp|Q6CII9|ARGJ_KLULA 290 qrlaqL--VvrDGegstkFVTVNVKNALNfkdAKIIAESISNSMLVKTALYGQ 340
+                           555432..233335577767777777777778999999999999999998887 PP
+
+>> sp|Q5FQD0|ARGJ_GLUOX  Arginine biosynthesis bifunctional protein ArgJ OS=Gluconobacter oxydans (strain 621H) OX=29063
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.0   0.8   3.2e-05      0.71     226     343 ..     189     344 ..     166     345 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 14.0 bits;  conditional E-value: 3.2e-05
+         DmpA_ArgJ.aln 226 hpaldyaealae.eakkteagnttitviaTdarLspaelkrl.akrvhsslargiqpfhteldGdtlfAltTdela............. 299
+                           +p+   ++ +a+  +++ ++++t++  +aTda+L +  l+ l a+  ++s +  +  ++t    d+l+ ++T                 
+  sp|Q5FQD0|ARGJ_GLUOX 189 TPV--RIQGIAKgSGMVAPDMATMLAYVATDAKLPQNVLQSLlASGCAQSFNSITVDSDTS-TSDMLMIFATGLADnpevddvndpala 274
+                           555..5677888899********************99988752677799999999999999.779999999987556677555555555 PP
+
+         DmpA_ArgJ.aln 300 ............idlepg............svnatalgala...aevvedAvvnaalaaetvaGl...dndvvm 343
+                                       +    +             v+++++ga     a +++  + n++l+++++aG    +++vvm
+  sp|Q5FQD0|ARGJ_GLUOX 275 eftlalndllleL----AlmvvrdgegatkLVRIAVTGADSnlsAHRIALCIANSPLVKTAIAGEdanWGRVVM 344
+                           5444444444331....033333335577766666666654555777777777777777777777666666666 PP
+
+>> sp|C5MG55|ARGJ_CANTT  Arginine biosynthesis bifunctional protein ArgJ, mitochondrial OS=Candida tropicalis (strain AT
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.7   0.0       3.9   8.7e+04     190     213 ..     114     137 ..      86     177 .. 0.60
+   2 ?   13.8   0.1   3.8e-05      0.84     241     299 ..     205     286 ..     189     350 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: -2.7 bits;  conditional E-value: 3.9
+         DmpA_ArgJ.aln 190 dvtvgavvvvNpvgvvvdraggvv 213
+                            vtv   v+ Np +  +  ++gv+
+  sp|C5MG55|ARGJ_CANTT 114 MVTVTDSVLENPKDSTLVMSTGVI 137
+                           255555555555555555555554 PP
+
+  == domain 2  score: 13.8 bits;  conditional E-value: 3.8e-05
+         DmpA_ArgJ.aln 241 kteagnttitviaTdarLspaelkrlakrv....hsslargiqpfhtel...................dGdtlfAltTdela 299
+                             ++++t++++++Tda+ sp  l+++ + +     +s+  ++  + ++                    + + + Al+T+ + 
+  sp|C5MG55|ARGJ_CANTT 205 ICPNMATLLGFFVTDAPVSPNALQQILRYAvdrsFNSITVDGDMSTNDTivamangaaggelidntssSAERFSALQTEIVD 286
+                           56789*********************99985555445544444444432234444444444444444444444444444322 PP
+
+>> sp|O67100|ARGJ_AQUAE  Arginine biosynthesis bifunctional protein ArgJ OS=Aquifex aeolicus (strain VF5) OX=224324 GN=a
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.8   0.2   3.7e-05      0.81     235     342 ..     161     299 ..     131     301 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 13.8 bits;  conditional E-value: 3.7e-05
+         DmpA_ArgJ.aln 235 lae.eakkteagnttitviaTdarLspaelkrlakrv....hsslargiqpfhtel.....dGdtlfAltTdela..........idle 303
+                           +a+  ++  ++++t++ ++ T+a L+   lkr+ ++v     +s+  ++  + ++       G++     T e              ++
+  sp|O67100|ARGJ_AQUAE 161 FAKgAGMIHPSMATMLAFVFTNANLEYLTLKRIHESVtektFNSITVDGCESTNDAfgiisLGEVEADPETVEFEllkvseslakQIVA 249
+                           55667888999************************997777667777777766666555556777776677665587777777743333 PP
+
+         DmpA_ArgJ.aln 304 pg.....svnatalgala...aevvedAvvnaalaaetvaGl...dndvv 342
+                           +g      +++++ +a+    a  +++A+ n++l++++v G+   +++++
+  sp|O67100|ARGJ_AQUAE 250 DGegatkIIRVNVRSAITeikAREIAEAIANSLLVKTAVFGRdpnWGRIA 299
+                           445588855556666665666********************976666665 PP
+
+>> sp|Q46868|UBIK_ECOLI  Ubiquinone biosynthesis accessory factor UbiK OS=Escherichia coli (strain K12) OX=83333 GN=ubiK
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.3   0.0   2.5e-05      0.56     259     302 ..       3      46 ..       1      77 [. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 14.3 bits;  conditional E-value: 2.5e-05
+         DmpA_ArgJ.aln 259 spaelkrlakrvhsslargiqpfhteldGdtlfAltTdelaidl 302
+                           +p++++++a++vh s+ +gi+ f+ +++  +  +l+ +  ++dl
+  sp|Q46868|UBIK_ECOLI   3 DPKKIEQIARQVHESMPKGIREFGEDVEKKIRQTLQAQLTRLDL 46 
+                           78999*******************99987777666665555554 PP
+
+>> sp|Q8ZLY9|UBIK_SALTY  Ubiquinone biosynthesis accessory factor UbiK OS=Salmonella typhimurium (strain LT2 / SGSC1412 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.0   4.7e-05         1     258     296 ..      22      60 ..      18      92 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 4.7e-05
+         DmpA_ArgJ.aln 258 LspaelkrlakrvhsslargiqpfhteldGdtlfAltTd 296
+                           ++p++++++a++vh s+ +gi+ f+ +++  +  +l+ +
+  sp|Q8ZLY9|UBIK_SALTY  22 IDPKKIEQIARQVHESMPKGIREFGEDIEKKIRQTLQSQ 60 
+                           578999******************999876666666555 PP
+
+>> sp|A6S9T6|ARGJ2_BOTFB  Arginine biosynthesis bifunctional protein ArgJ 2, mitochondrial OS=Botryotinia fuckeliana (st
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.1     8e-05       1.8     238     271 ..     235     272 ..     223     336 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 8e-05
+          DmpA_ArgJ.aln 238 eakkteagnttitviaTdarLspaelkrlakrv....h 271
+                             ++  ++++tt+++i Tda+++p  l++l + +     
+  sp|A6S9T6|ARGJ2_BOTFB 235 AGMIHPNMATTLGIICTDAPITPSALQQLLSTAadksY 272
+                            6777889**********************998855442 PP
+
+>> sp|Q53QK0|Y1103_ORYSJ  Flavonoid O-methyltransferase-like protein Os11g0303600 OS=Oryza sativa subsp. japonica OX=399
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0     8e-05       1.8      58     135 ..      83     179 ..      80     198 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 8e-05
+          DmpA_ArgJ.aln  58 ipagartavdvrgGavGl...................eggydfnhaivlaggsayGLeaaagvseallereeertglaelqlVseavi 126
+                            ++ g   a d  +G +G+                    +g   + ++vlag+s    eaa g+ e+  +    +   +  + V +av+
+  sp|Q53QK0|Y1103_ORYSJ  83 VHSGVFAAADDTTGSAGTyrltplswllvegeggapvVDGHPCQVPVVLAGTSRHFVEAAMGLAEWFRKDVPAAAPPSPFEEVHGAVL 170
+                            67777778888888888888888888888888888888999999******************************************** PP
+
+          DmpA_ArgJ.aln 127 yDfsvrdta 135
+                            +D s+ + +
+  sp|Q53QK0|Y1103_ORYSJ 171 FDESMASLH 179
+                            ***998765 PP
+
+>> sp|D0N1U4|ARGJ_PHYIT  Arginine biosynthesis bifunctional protein ArgJ, mitochondrial OS=Phytophthora infestans (strai
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.1   0.0       2.5   5.6e+04      38     104 ..      99     163 ..      83     186 .. 0.65
+   2 ?   12.1   0.1   0.00012       2.7     233     339 ..     213     350 ..     174     358 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: -2.1 bits;  conditional E-value: 2.5
+         DmpA_ArgJ.aln  38 GVsvGaaeyiegptGvtvilipagartavdvrgGav.Gleggy.dfnhaivlaggsayGLeaaagvsea 104
+                            V vG++ + e + G+  +  +    + v + gG v  +e++  + ++   l ggs++ L  ++gv+++
+  sp|D0N1U4|ARGJ_PHYIT  99 PVLVGRKRLNEPKLGAILVNSKI---SNVCASGGGVaDAEEVCeNLAKHLRLEGGSQV-LPCSTGVIGW 163
+                           48888888888888887777644...55555666552333333034444555555555.5666666666 PP
+
+  == domain 2  score: 12.1 bits;  conditional E-value: 0.00012
+         DmpA_ArgJ.aln 233 ealae.eakkteagnttitviaTdarLspaelkrlakrv......hsslargiqpfhtel.........dGdtlfAltTdela...... 299
+                             +a+  ++ +++++t+++ i Td+ +    l++l ++v      + s++++ ++++t           d   l  + T+         
+  sp|D0N1U4|ARGJ_PHYIT 213 VGIAKgAGMIEPNMATMLSYILTDLSIPRDVLRQLLTEVvgdtynSLSVDTDQSTSDTVTlvssdqipfDMKQLDEFKTALHEvclgls 301
+                           567777889999***************************99998888888888888887777777777744444555555444667788 PP
+
+         DmpA_ArgJ.aln 300 idle.pg.....svnatalgala...aevvedAvvnaalaaetvaGldn 339
+                            d+  +g      +++ + gal    a+ v + vvn++l + +vaG d 
+  sp|D0N1U4|ARGJ_PHYIT 302 EDIVrNGegahhVMRVRVSGALSnemAKGVGKSVVNSPLLKCAVAGNDP 350
+                           55555445599888899999999899999**********9999999843 PP
+
+>> sp|A7EDG9|ARGJ2_SCLS1  Arginine biosynthesis bifunctional protein ArgJ 2, mitochondrial OS=Sclerotinia sclerotiorum (
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   0.00016       3.6     237     271 ..     234     269 ..     223     291 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00016
+          DmpA_ArgJ.aln 237 e.eakkteagnttitviaTdarLspaelkrlakrvh 271
+                            +  ++  ++++tt+++i Tda+++p  l++l + ++
+  sp|A7EDG9|ARGJ2_SCLS1 234 KgAGMIHPNMATTLGIICTDAPITPPALQQLLSTAA 269
+                            446777889**********************98874 PP
+
+>> sp|Q9X2A3|ARGJ_THEMA  Arginine biosynthesis bifunctional protein ArgJ OS=Thermotoga maritima (strain ATCC 43589 / DSM
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.2      0.54   1.2e+04      16     117 ..      20     125 ..      10     134 .. 0.63
+   2 ?   13.9   1.4   3.5e-05      0.78     236     338 ..     168     309 ..     142     315 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 0.1 bits;  conditional E-value: 0.54
+         DmpA_ArgJ.aln  16 nddldlapvrstgrenaifdvpGVsvGaaeyieg.....ptGvtvilipagartavdvrgGavGleggydfnhaivlaggsayG..Lea 97 
+                           ++dl++ +++++  +  +f+ + V+   + y  +     p G+ ++ ++ g     ++ +G +G  +++++++  +   g ++   L  
+  sp|Q9X2A3|ARGJ_THEMA  20 RKDLGIIFSEVPCVAAGVFTTNVVKAAPVIYDMEilkknPNGIKAVVVNSG---VANACTGEQGMINARRMAEKTAEELGVPVEsvLVS 105
+                           556666666666666666666555544444333344445788877777664...56778888888777777777777777666666777 PP
+
+         DmpA_ArgJ.aln  98 aagvseallereeertglae 117
+                           ++gv++ +l++ + ++g++e
+  sp|Q9X2A3|ARGJ_THEMA 106 STGVIGVQLPMDKVENGIEE 125
+                           77777777777666666655 PP
+
+  == domain 2  score: 13.9 bits;  conditional E-value: 3.5e-05
+         DmpA_ArgJ.aln 236 ae.eakkteagnttitviaTdarLspaelkrlakrv....hsslargiqpfhtel........dGdtlfAltTdela............ 299
+                           a+  ++  ++++t++++i Tda++s++ lk+l k       + ++ ++ ++ +++        +G+t +   Td               
+  sp|Q9X2A3|ARGJ_THEMA 168 AKgSGMIHPNMATMLSFITTDAKISEEALKKLLKLSvddsYNMIDVDGDTSTNDMvivlanglAGNTTIQPETDGFWklyeavhevnqv 256
+                           5557788899*********************9986656656668899999999999999999988888888888865777777777766 PP
+
+         DmpA_ArgJ.aln 300 ...idlepg.....svnatalgala...aevvedAvvnaalaaetvaGl...d 338
+                              + +e+g      +++++++a +   a  +++ +v++ l+++++ G    +
+  sp|Q9X2A3|ARGJ_THEMA 257 laeKIVEDGegatkVMEVHVINAPDiksARLIARSIVSSNLVKTAIYGEdanW 309
+                           77655664455887778888888778888899999999999999999985555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (344 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     15459  (0.026948); expected 11473.2 (0.02)
+Passed bias filter:                     7934  (0.0138305); expected 11473.2 (0.02)
+Passed Vit filter:                       485  (0.000845447); expected 573.7 (0.001)
+Passed Fwd filter:                        26  (4.53229e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              26  [number of targets reported over threshold]
+# CPU time: 4.46u 0.20s 00:00:04.66 Elapsed: 00:00:01.72
+# Mc/sec: 41530.52
+//
+[ok]

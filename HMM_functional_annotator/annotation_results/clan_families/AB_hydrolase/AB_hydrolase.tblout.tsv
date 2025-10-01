@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+e542ce1613           -          AB_hydrolase.aln     -            1.1e-09   33.1   0.0   1.3e-09   32.9   0.0   1.2   1   0   0   1   1   1   1 -
+03f3222488           -          AB_hydrolase.aln     -            1.4e-09   32.8   0.0   1.9e-09   32.4   0.0   1.1   1   0   0   1   1   1   1 -
+f41c6d89a0           -          AB_hydrolase.aln     -            1.4e-09   32.8   0.0   1.9e-09   32.4   0.0   1.2   1   0   0   1   1   1   1 -
+114e6d2abe           -          AB_hydrolase.aln     -            1.5e-09   32.7   0.0   1.7e-09   32.5   0.0   1.2   1   0   0   1   1   1   1 -
+54b0f51654           -          AB_hydrolase.aln     -            2.1e-09   32.3   0.0   2.7e-09   31.9   0.0   1.1   1   0   0   1   1   1   1 -
+9c28e36175           -          AB_hydrolase.aln     -            2.2e-09   32.2   0.0   2.8e-09   31.9   0.0   1.2   1   0   0   1   1   1   1 -
+afb51f2a48           -          AB_hydrolase.aln     -            1.9e-08   29.1   0.0   2.2e-08   28.9   0.0   1.2   1   0   0   1   1   1   1 -
+4fd7439f5f           -          AB_hydrolase.aln     -            3.1e-08   28.4   0.0   3.6e-08   28.2   0.0   1.2   1   0   0   1   1   1   1 -
+59bb4d8994           -          AB_hydrolase.aln     -            3.5e-08   28.2   0.0   4.1e-08   28.0   0.0   1.2   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/AB_hydrolase.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/clan_families/AB_hydrolase/AB_hydrolase.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/clan_families/AB_hydrolase/AB_hydrolase.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/AB_hydrolase.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:04:54 2025
+# [ok]

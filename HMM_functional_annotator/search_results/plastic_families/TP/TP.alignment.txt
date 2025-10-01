@@ -1,0 +1,1417 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/TP.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/TP/TP.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/TP/TP.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       TP.aln  [M=329]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+   1.3e-149  503.2   0.0   1.5e-149  503.0   0.0    1.0  1  sp|Q3C1E3|TPDA1_COMSP      Terephthalate 1,2-dioxygenase, ter
+   2.4e-149  502.4   0.0   2.7e-149  502.2   0.0    1.0  1  sp|Q3C1D5|TPDA2_COMSP      Terephthalate 1,2-dioxygenase, ter
+   2.1e-107  364.5   0.0    7.2e-73  251.0   0.0    2.0  2  sp|Q3C1D2|TPDR2_COMSP      Terephthalate 1,2-dioxygenase, red
+   7.5e-107  362.7   0.0      1e-72  250.5   0.0    2.0  2  sp|Q3C1E0|TPDR1_COMSP      Terephthalate 1,2-dioxygenase, red
+    2.9e-80  275.3   0.1    7.9e-64  221.3   0.0    2.0  2  sp|Q5D0X4|TPHB_COMTE       1,2-dihydroxy-3,5-cyclohexadiene-1
+      3e-80  275.2   0.0    6.9e-64  221.5   0.0    2.0  2  sp|Q3C1E1|TPHB_COMSP       1,2-dihydroxy-3,5-cyclohexadiene-1
+    4.2e-34  123.6   0.0    5.5e-34  123.2   0.0    1.1  1  sp|Q84BZ3|ANDAC_BURCE      Anthranilate 1,2-dioxygenase large
+    1.9e-31  114.8   0.9    2.9e-28  104.4   0.0    2.0  2  sp|Q3C1E2|TPDB1_COMSP      Terephthalate 1,2-dioxygenase, ter
+    4.6e-31  113.6   1.1    4.7e-28  103.7   0.0    2.0  2  sp|Q3C1D4|TPDB2_COMSP      Terephthalate 1,2-dioxygenase, ter
+    3.3e-20   77.9   0.0      4e-20   77.6   0.0    1.0  1  sp|O52379|NAGG_RALSP       Salicylate 5-hydroxylase, large ox
+    4.7e-09   41.2   0.0    2.7e-05   28.9   0.0    2.1  2  sp|P26395|RFBI_SALTY       Protein RfbI OS=Salmonella typhimu
+    2.5e-07   35.6   0.0      9e-05   27.2   0.0    2.1  2  sp|Q66DP5|ASCD_YERPS       CDP-6-deoxy-L-threo-D-glycero-4-he
+    5.1e-07   34.5   0.0    0.00019   26.1   0.0    2.1  2  sp|P68641|ASCD_YERPE       CDP-6-deoxy-L-threo-D-glycero-4-he
+    8.6e-05   27.2   0.0    0.00016   26.3   0.0    1.3  1  sp|Q03304|TMOF_ECTME       Toluene-4-monooxygenase system, fe
+    0.00011   26.9   0.0    0.00026   25.6   0.0    1.5  2  sp|P0DPQ8|GCOB_AMYS7       Aromatic O-demethylase, reductase 
+      0.009   20.6   0.0      0.015   19.8   0.0    1.3  1  sp|A0A0H3LQK8|PDXA2_BORBR  D-threonate 4-phosphate dehydrogen
+  ------ inclusion threshold ------
+      0.013   20.1   0.0       0.69   14.4   0.0    2.6  3  sp|Q52126|NDOR_PSEPU       Naphthalene 1,2-dioxygenase system
+      0.035   18.7   0.1         17    9.8   0.0    2.1  2  sp|Q2N8X0|PDXA_ERYLH       4-hydroxythreonine-4-phosphate deh
+      0.038   18.5   0.2      0.062   17.8   0.1    1.3  1  sp|Q8IED5|FER_PLAF7        Ferredoxin, apicoplast OS=Plasmodi
+      0.089   17.3   0.0       0.22   16.0   0.0    1.6  2  sp|A7GFE5|PDXA2_CLOBL      Putative D-threonate 4-phosphate d
+      0.089   17.3   0.0       0.22   16.0   0.0    1.6  2  sp|B1IGV8|PDXA2_CLOBK      Putative D-threonate 4-phosphate d
+       0.11   17.1   0.0       0.26   15.8   0.0    1.6  2  sp|A5I3X9|PDXA2_CLOBH      Putative D-threonate 4-phosphate d
+       0.11   17.1   0.0       0.26   15.8   0.0    1.6  2  sp|A7FVM3|PDXA2_CLOB1      Putative D-threonate 4-phosphate d
+       0.11   17.1   0.0       0.26   15.8   0.0    1.6  2  sp|B1KVV5|PDXA2_CLOBM      Putative D-threonate 4-phosphate d
+       0.11   17.1   0.0       0.26   15.8   0.0    1.6  2  sp|C1FQK1|PDXA2_CLOBJ      Putative D-threonate 4-phosphate d
+       0.13   16.8   0.2       0.24   15.9   0.1    1.6  2  sp|C3KYY3|PDXA2_CLOB6      Putative D-threonate 4-phosphate d
+       0.14   16.7   0.0       0.33   15.5   0.0    1.6  2  sp|E9RFT0|MIMB_MYCGD       Propane 2-monooxygenase, reductase
+        0.2   16.2   0.3        1.8   13.0   0.0    2.1  2  sp|Q92TP3|PDXAL_RHIME      Putative 4-hydroxythreonine-4-phos
+       0.22   16.0   0.0       0.36   15.3   0.0    1.3  1  sp|Q0K4F5|PDXA2_CUPNH      D-threonate 4-phosphate dehydrogen
+       0.23   16.0   0.3       0.44   15.0   0.0    1.5  2  sp|C0QBU5|PDXA_DESAH       4-hydroxythreonine-4-phosphate deh
+       0.24   15.9   0.6       0.27   15.7   0.6    1.0  1  sp|Q1XDG7|FER_PYRYE        Ferredoxin OS=Pyropia yezoensis OX
+       0.24   15.9   0.0        5.7   11.4   0.0    2.1  2  sp|O07824|NDOB_PSEFL       Naphthalene 1,2-dioxygenase system
+       0.27   15.7   0.4        2.9   12.3   0.1    2.1  2  sp|O85987|PDXAL_NOVAR      Putative 4-hydroxythreonine-4-phos
+       0.28   15.7   0.0        0.4   15.2   0.0    1.2  1  sp|Q89ZK3|PDXA_BACTN       4-hydroxythreonine-4-phosphate deh
+        0.3   15.6   0.2       0.33   15.5   0.2    1.0  1  sp|P51320|FER_PORPU        Ferredoxin OS=Porphyra purpurea OX
+       0.38   15.2   0.2        2.7   12.4   0.1    2.0  2  sp|B3E252|PDXA_TRIL1       4-hydroxythreonine-4-phosphate deh
+        0.4   15.2   0.0        1.3   13.5   0.0    1.7  2  sp|A7IPX7|XAMOF_XANP2      Alkene monooxygenase system, ferre
+       0.53   14.8   0.0        1.2   13.6   0.0    1.5  2  sp|A0QTU9|MIMB_MYCS2       Propane 2-monooxygenase, reductase
+       0.62   14.5   0.0        3.5   12.1   0.0    1.9  2  sp|Q89MT9|PDXA_BRADU       4-hydroxythreonine-4-phosphate deh
+       0.66   14.5   0.0         53    8.2   0.0    2.2  2  sp|B2V9E6|PDXA_SULSY       4-hydroxythreonine-4-phosphate deh
+       0.89   14.0   0.4        1.8   13.0   0.2    1.5  2  sp|Q9A7N4|PDXA_CAUVC       4-hydroxythreonine-4-phosphate deh
+        1.2   13.6   0.0        1.4   13.4   0.0    1.0  1  sp|P45154|Y1309_HAEIN      Uncharacterized ferredoxin-like pr
+          2   12.9   0.0    2.2e+02    6.1   0.0    2.3  2  sp|Q89NF3|PDXA2_BRADU      Putative D-threonate 4-phosphate d
+        2.1   12.8   0.0    1.4e+02    6.8   0.0    2.1  2  sp|Q2JKQ8|PDXA_SYNJB       4-hydroxythreonine-4-phosphate deh
+        2.2   12.8   0.0        6.2   11.3   0.0    1.6  1  sp|Q4UV65|MSBA_XANC8       ATP-dependent lipid A-core flippas
+        2.2   12.8   0.0        6.2   11.3   0.0    1.6  1  sp|Q8P8W4|MSBA_XANCP       ATP-dependent lipid A-core flippas
+        2.3   12.7   0.1        2.5   12.6   0.1    1.1  1  sp|P13106|FER_BUMFI        Ferredoxin OS=Bumilleriopsis filif
+        2.5   12.5   0.0        2.5   12.5   0.0    1.1  1  sp|P00241|FER3_CYACA       Ferredoxin OS=Cyanidium caldarium 
+        2.5   12.5   0.2        2.7   12.4   0.2    1.0  1  sp|P00242|FER_PORUM        Ferredoxin OS=Porphyra umbilicalis
+        2.8   12.4   0.0        5.5   11.4   0.0    1.5  1  sp|Q8PKS5|MSBA_XANAC       ATP-dependent lipid A-core flippas
+        3.4   12.1   0.4        3.9   11.9   0.4    1.0  1  sp|P15789|FER2_CYACA       Ferredoxin OS=Cyanidium caldarium 
+        3.7   12.0   0.0        5.7   11.4   0.0    1.2  1  sp|Q9JK45|KCNQ5_MOUSE      Potassium voltage-gated channel su
+          4   11.9   0.0    1.4e+02    6.8   0.0    2.1  2  sp|B1ZAJ4|PDXA_METPB       4-hydroxythreonine-4-phosphate deh
+          4   11.9   0.5    3.8e+02    5.4   0.0    2.1  2  sp|Q984S6|PDXA_RHILO       4-hydroxythreonine-4-phosphate deh
+        4.1   11.8   0.0    1.3e+02    6.9   0.0    2.1  2  sp|Q2JSC8|PDXA_SYNJA       4-hydroxythreonine-4-phosphate deh
+        4.6   11.7   0.0        4.9   11.6   0.0    1.0  1  sp|P00225|FER_LEULE        Ferredoxin OS=Leucaena leucocephal
+        4.7   11.6   0.0         66    7.9   0.0    2.1  2  sp|P0A110|NDOB_PSEPU       Naphthalene 1,2-dioxygenase system
+        4.7   11.6   0.0         66    7.9   0.0    2.1  2  sp|P0A111|NDOB_PSEU8       Naphthalene 1,2-dioxygenase system
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q3C1E3|TPDA1_COMSP  Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit alpha 1 OS=Comamonas sp. O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  503.0   0.0  1.5e-153  1.5e-149       1     323 [.       3     413 .]       3     413 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 503.0 bits;  conditional E-value: 1.5e-153
+                 TP.aln   1 esivqrrlalairvPfGiiteia..........................................vrdadi.ikAfe..cAkekslik 43 
+                            esi+q+++a+++rvPfGi+t++a                                          vrdad+ i+Afe  cA++++li+
+  sp|Q3C1E3|TPDA1_COMSP   3 ESIIQWHGATNTRVPFGIYTDTAnadqeqqriyrgevwnylcleseipgagdfrttfagetpivvVRDADQeIYAFEnrCAHRGALIA 90 
+                            69************************************************************************************** PP
+
+                 TP.aln  44 v.......alqavylpwSyrkqGdlasvalekavksfnGmraelCamEq.......vllCGl...slakDvPsieerldPeirk.... 110
+                            +       ++q+vy++wSy++qGdl++va+ek+vk+++Gm+a++C++E+       +++CGl   s+++DvPsie++l+Pei++    
+  sp|Q3C1E3|TPDA1_COMSP  91 LeksgrtdSFQCVYHAWSYNRQGDLTGVAFEKGVKGQGGMPASFCKEEHgprklrvAVFCGLvfgSFSEDVPSIEDYLGPEICErier 178
+                            ********************************************************9******************************* PP
+
+                 TP.aln 111 ..........rftakl.......yeNvkdaydvsllrlrltvfeaeklaagageivdqdglesvsyalaearakedgevdhviavpse 181
+                                      rft+kl       +eNvkd+y++sll++++t+fe ++l++++g+ivd++g+++vsy++++++ak+d+++d++i++++e
+  sp|Q3C1E3|TPDA1_COMSP 179 vlhkpvevigRFTQKLpnnwklyFENVKDSYHASLLHMFFTTFELNRLSQKGGVIVDESGGHHVSYSMIDRSAKDDSYKDQAIRSDNE 266
+                            **************************************************************************************** PP
+
+                 TP.aln 182 rta..dPsllervlelEdeVf....aagerlvkvtlqesvsaverlkpkavsdseltftllalpkdasedrkvrlkdaqltgpAgiks 263
+                            r++  dPslle+++e+Ed+V+    ++++++v++++q+s+ av++l+pk++s+sel++t+l++++d++e+rkvrlk+a+l+gpAg++s
+  sp|Q3C1E3|TPDA1_COMSP 267 RYRlkDPSLLEGFEEFEDGVTlqilSVFPGFVLQQIQNSI-AVRQLLPKSISSSELNWTYLGYADDSTEQRKVRLKQANLIGPAGFIS 353
+                            ****99**********************************.*********************************************** PP
+
+                 TP.aln 264 veddlakglvqrgiaGAaNlaavlelGgrvadssaGradetdvaGrgkAlrthlgqevrl 323
+                            +ed++++g+vqrgiaGAaNl+av+e+Gg++++ss+Gra+et+v+G++kA+r+h+gqe+++
+  sp|Q3C1E3|TPDA1_COMSP 354 MEDGAVGGFVQRGIAGAANLDAVIEMGGDHEGSSEGRATETSVRGFWKAYRKHMGQEMQA 413
+                            **********************************************************96 PP
+
+>> sp|Q3C1D5|TPDA2_COMSP  Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit alpha 2 OS=Comamonas sp. O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  502.2   0.0  2.7e-153  2.7e-149       1     323 [.       3     413 .]       3     413 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 502.2 bits;  conditional E-value: 2.7e-153
+                 TP.aln   1 esivqrrlalairvPfGiiteia..........................................vrdadi.ikAfe..cAkekslik 43 
+                            esi+q+++a+++rvPfGi+t++a                                          vrdad+ i+Afe  cA++++li+
+  sp|Q3C1D5|TPDA2_COMSP   3 ESIIQWHGATNTRVPFGIYTDTAnadqeqqriyrgevwnylcleseipgagdfrttfagetpivvVRDADQeIYAFEnrCAHRGALIA 90 
+                            69************************************************************************************** PP
+
+                 TP.aln  44 v.......alqavylpwSyrkqGdlasvalekavksfnGmraelCamEq.......vllCGl...slakDvPsieerldPeirk.... 110
+                            +       ++q+vy++wSy++qGdl++va+ek+vk+++Gm+a++C++E+       +++CGl   s+++DvPsie++l+Pei++    
+  sp|Q3C1D5|TPDA2_COMSP  91 LeksgrtdSFQCVYHAWSYNRQGDLTGVAFEKGVKGQGGMPASFCKEEHgprklrvAVFCGLvfgSFSEDVPSIEDYLGPEICErier 178
+                            ********************************************************9******************************* PP
+
+                 TP.aln 111 ..........rftakl.......yeNvkdaydvsllrlrltvfeaeklaagageivdqdglesvsyalaearakedgevdhviavpse 181
+                                      rft+kl       +eNvkd+y++sll++++t+fe ++l++++g+ivd++g+++vsy+++++ ak+d+++d++i++++e
+  sp|Q3C1D5|TPDA2_COMSP 179 vlhkpvevigRFTQKLpnnwklyFENVKDSYHASLLHMFFTTFELNRLSQKGGVIVDESGGHHVSYSMIDRGAKDDSYKDQAIRSDNE 266
+                            **************************************************************************************** PP
+
+                 TP.aln 182 rta..dPsllervlelEdeVf....aagerlvkvtlqesvsaverlkpkavsdseltftllalpkdasedrkvrlkdaqltgpAgiks 263
+                            r++  dPslle+++e+Ed+V+    ++++++v++++q+s+ av++l+pk++s+sel++t+l++++d++e+rkvrlk+a+l+gpAg++s
+  sp|Q3C1D5|TPDA2_COMSP 267 RYRlkDPSLLEGFEEFEDGVTlqilSVFPGFVLQQIQNSI-AVRQLLPKSISSSELNWTYLGYADDSAEQRKVRLKQANLIGPAGFIS 353
+                            ****99**********************************.*********************************************** PP
+
+                 TP.aln 264 veddlakglvqrgiaGAaNlaavlelGgrvadssaGradetdvaGrgkAlrthlgqevrl 323
+                            +ed++++g+vqrgiaGAaNl+av+e+Gg++++ss+Gra+et+v+G++kA+r+h+gqe+++
+  sp|Q3C1D5|TPDA2_COMSP 354 MEDGAVGGFVQRGIAGAANLDAVIEMGGDHEGSSEGRATETSVRGFWKAYRKHMGQEMQA 413
+                            **********************************************************96 PP
+
+>> sp|Q3C1D2|TPDR2_COMSP  Terephthalate 1,2-dioxygenase, reductase component 2 OS=Comamonas sp. OX=34028 GN=tphA1II PE=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  251.0   0.0   7.3e-77   7.2e-73      18     184 ..       1     173 [.       1     174 [. 0.99
+   2 !  112.5   0.0     1e-34   9.9e-31     216     329 .]     174     317 ..     172     317 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 251.0 bits;  conditional E-value: 7.3e-77
+                 TP.aln  18 iiteiavrdadiikAfecAkekslikvalqa.vylpwSyrkq..GdlasvalekavksfnGm..raelCamEqvllCGlslakDv... 97 
+                            ++++i+++d+di  Af+cA+++s++++alqa ++lp+S+rk+  G++as++l+++++sfnGm  r+elCa+EqvllCG+++a+D+   
+  sp|Q3C1D2|TPDR2_COMSP   1 MNHQIHIHDSDI--AFPCAPGQSVLDAALQAgIELPYSCRKGscGNCASTLLDGNIASFNGMavRNELCASEQVLLCGCTAASDIrih 86 
+                            89**********..************************************************************************** PP
+
+                 TP.aln  98 PsieerldPeirkrftaklyeNvkdaydvsllrlrltvfeaeklaagageivdqdglesvsyalaearakedgevdhviavpserta 184
+                            Ps+++rldPe+rkrftak+y+N+++a+dvsllrlrl+v++++k++ag+++++++d++es+sy++a++++++dg+++hv++vp++r++
+  sp|Q3C1D2|TPDR2_COMSP  87 PSSFRRLDPEARKRFTAKVYSNTLAAPDVSLLRLRLPVGKRAKFEAGQYLLIHLDDGESRSYSMANPPHESDGITLHVRHVPGGRFS 173
+                            *************************************************************************************97 PP
+
+  == domain 2  score: 112.5 bits;  conditional E-value: 1e-34
+                 TP.aln 216 saverlkpkavsdseltftllalpkdasedrkvrlkdaqltgpAgiksveddlakglvqrgia...GAaN.................. 282
+                            ++v++lk+++++d+el+f+++al++   +d+++++++a++tg+A+iksv+ddlak++vqr+i+   GA+N                  
+  sp|Q3C1D2|TPDR2_COMSP 174 TIVQQLKSGDTLDIELPFGSIALKP---DDARPLICVAGGTGFAPIKSVLDDLAKRKVQRDITliwGARNpsglylpsaidkwrkvwp 258
+                            69***********************...************************************************************ PP
+
+                 TP.aln 283 ....laavlelGgrvadssaGradetdvaGrgkAlrthlg................qevrllaadmG 329
+                                +aa+++lG+++ad++aGr+d+        Alrth+g                q+vr++a+dmG
+  sp|Q3C1D2|TPDR2_COMSP 259 qfryIAAITDLGDMPADAHAGRVDD--------ALRTHFGnlhdhvvhccgspalvQSVRTAASDMG 317
+                            *************************........*********************************9 PP
+
+>> sp|Q3C1E0|TPDR1_COMSP  Terephthalate 1,2-dioxygenase, reductase component 1 OS=Comamonas sp. OX=34028 GN=tphA1I PE=1 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  250.5   0.0     1e-76     1e-72      18     184 ..       1     173 [.       1     174 [. 0.99
+   2 !  111.2   0.0   2.5e-34   2.5e-30     216     329 .]     174     317 ..     172     317 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 250.5 bits;  conditional E-value: 1e-76
+                 TP.aln  18 iiteiavrdadiikAfecAkekslikvalqa.vylpwSyrkq..GdlasvalekavksfnGm..raelCamEqvllCGlslakDv... 97 
+                            ++++i+++d+di  Af+cA+++s++++alqa ++lp+S+rk+  G++as++l+++++sfnGm  r+elC++EqvllCG+++a+D+   
+  sp|Q3C1E0|TPDR1_COMSP   1 MNHQIHIHDSDI--AFPCAPGQSVLDAALQAgIELPYSCRKGscGNCASALLDGNITSFNGMavRSELCTSEQVLLCGCTAASDIriq 86 
+                            89**********..************************************************************************** PP
+
+                 TP.aln  98 PsieerldPeirkrftaklyeNvkdaydvsllrlrltvfeaeklaagageivdqdglesvsyalaearakedgevdhviavpserta 184
+                            Ps+++rldPe+rkrftak+y+N+++a+dvsllrlrl+v++++k++ag+++++++d++es+sy++a++++++dg+++hv++vp++r++
+  sp|Q3C1E0|TPDR1_COMSP  87 PSSFRRLDPEARKRFTAKVYSNTLAAPDVSLLRLRLPVGKRAKFEAGQYLLIHLDDGESRSYSMANPPHESDGITLHVRHVPGGRFS 173
+                            *************************************************************************************97 PP
+
+  == domain 2  score: 111.2 bits;  conditional E-value: 2.5e-34
+                 TP.aln 216 saverlkpkavsdseltftllalpkdasedrkvrlkdaqltgpAgiksveddlakglvqrgia...GAaN.................. 282
+                            ++v++lk+++++++el+f+++al++   +d+++++++a++tg+A+iksv+ddlak++vqr+i+   GA+N                  
+  sp|Q3C1E0|TPDR1_COMSP 174 TIVQQLKSGDTLEIELPFGSIALKP---DDTRPLICVAGGTGFAPIKSVLDDLAKRKVQRDITliwGARNpsglylpsaidkwrktwp 258
+                            69***********************...************************************************************ PP
+
+                 TP.aln 283 ....laavlelGgrvadssaGradetdvaGrgkAlrthlg................qevrllaadmG 329
+                                +aa+++lG+++ad++aGr+d+        Alrth+g                q+vr++a+dmG
+  sp|Q3C1E0|TPDR1_COMSP 259 qfryIAAITDLGNVPADAHAGRVDD--------ALRTHFGnlhdhvvhccgspslvQSVRTAASDMG 317
+                            *************************........*********************************9 PP
+
+>> sp|Q5D0X4|TPHB_COMTE  1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxylate dehydrogenase OS=Comamonas testosteroni OX=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.7   0.0   7.8e-17   7.7e-13       1     102 [.       1      66 [.       1      70 [. 0.95
+   2 !  221.3   0.0     8e-68   7.9e-64     137     329 .]      67     315 .]      63     315 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 53.7 bits;  conditional E-value: 7.8e-17
+                TP.aln   1 esivqrrlalairvPfGiiteiavrdadiikAfe..cAkekslikvalqavylpwSyrkqGdlasvalekavksfnGmraelCamEqvl 87 
+                           ++iv+rrlalai++P+Gi++eia      +kA++  +A+e+slikv     y+pwS          ale+a        a++C+mE   
+  sp|Q5D0X4|TPHB_COMTE   1 MTIVHRRLALAIGDPHGIGPEIA------LKALQqlSATERSLIKV-----YGPWS----------ALEQA--------AQICQME--- 57 
+                           79*********************......9****************.....*****..........*****........*******... PP
+
+                TP.aln  88 lCGlslakDvPsiee 102
+                               sl++D+  i+e
+  sp|Q5D0X4|TPHB_COMTE  58 ----SLLQDL--IHE 66 
+                           ....899999..877 PP
+
+  == domain 2  score: 221.3 bits;  conditional E-value: 8e-68
+                TP.aln 137 eaeklaaga..geivdqdglesvsyalaearakedgevdhviavpserta..d........Psllervlel.EdeVf....aagerlvk 208
+                           ea++la++a  gei++q+gl++v++a+a++ra+e+gevd+via+p+++ta  +        Psll++vl++ EdeVf    +ag+r+v+
+  sp|Q5D0X4|TPHB_COMTE  67 EAGSLAQPAqwGEITPQAGLSTVQSATAAIRACENGEVDAVIACPHHETAihRagiafsgyPSLLANVLGMnEDEVFlmlvGAGLRIVH 155
+                           899*****99****************************************85499********************************** PP
+
+                TP.aln 209 vtlqesv.saverlkpk....avsdseltftllalpk..........dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaG... 279
+                           vtl+esv sa+erl+p+    av+++++t+tll++pk          +ase+++++l+d+q+t+pA    ve+++++gl+++g++G   
+  sp|Q5D0X4|TPHB_COMTE 156 VTLHESVrSALERLSPQlvvdAVDAAVQTCTLLGVPKpqvavfginpHASEGQLFGLEDSQITAPA----VETLRKCGLAVDGPMGadm 240
+                           ******************************************************************....******************* PP
+
+                TP.aln 280 .........................AaNlaavlelGgrvadssaGradetdvaGrgkAlrthlgqevrllaadmG 329
+                                                    A+N+a++l++Ggrv++ss+G+++++d+aGrg+A++t+l+++++ll+a++G
+  sp|Q5D0X4|TPHB_COMTE 241 vlaqrkhdlyvamlhdqghipikllAPNGASALSIGGRVVLSSVGHGSAMDIAGRGVADSTALLRTIALLGAQPG 315
+                           *************************************************************************98 PP
+
+>> sp|Q3C1E1|TPHB_COMSP  1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxylate dehydrogenase OS=Comamonas sp. OX=34028 GN=t
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.4   0.0   9.3e-17   9.2e-13       1     102 [.       1      66 [.       1      70 [. 0.95
+   2 !  221.5   0.0     7e-68   6.9e-64     137     329 .]      67     315 .]      63     315 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 53.4 bits;  conditional E-value: 9.3e-17
+                TP.aln   1 esivqrrlalairvPfGiiteiavrdadiikAfe..cAkekslikvalqavylpwSyrkqGdlasvalekavksfnGmraelCamEqvl 87 
+                           ++iv+rrlalai++P+Gi++eia      +kA++  +A+e+slikv     y+pwS          ale+a        a++C+mE   
+  sp|Q3C1E1|TPHB_COMSP   1 MTIVHRRLALAIGDPHGIGPEIA------LKALRqlSANERSLIKV-----YGPWS----------ALEQA--------AQICQME--- 57 
+                           79*********************......9****************.....*****..........*****........*******... PP
+
+                TP.aln  88 lCGlslakDvPsiee 102
+                               sl++D+  i+e
+  sp|Q3C1E1|TPHB_COMSP  58 ----SLLQDL--IHE 66 
+                           ....899999..877 PP
+
+  == domain 2  score: 221.5 bits;  conditional E-value: 7e-68
+                TP.aln 137 eaeklaaga..geivdqdglesvsyalaearakedgevdhviavpserta..d........Psllervlel.EdeVf....aagerlvk 208
+                           ea++la++a  gei++q+gl++v++a+a++ra+e+gevd+via+p+++ta  +        Psll++vl++ Ed+Vf    +ag+r+v+
+  sp|Q3C1E1|TPHB_COMSP  67 EAGSLAQPAqwGEITPQAGLSTVQSATAAIRACENGEVDAVIACPHHETAihRagiafsgyPSLLANVLGMnEDQVFlmlvGAGLRIVH 155
+                           899*****99****************************************85499********************************** PP
+
+                TP.aln 209 vtlqesv.saverlkpk....avsdseltftllalpk..........dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaG... 279
+                           vtl+esv sa+erl+p+    av+++++t+tll++pk          +ase+++++l+d+q+t+pA    ve+++++gl+++g++G   
+  sp|Q3C1E1|TPHB_COMSP 156 VTLHESVrSALERLSPQlvvnAVQAAVQTCTLLGVPKpqvavfginpHASEGQLFGLEDSQITAPA----VETLRKCGLAVDGPMGadm 240
+                           ******************************************************************....******************* PP
+
+                TP.aln 280 .........................AaNlaavlelGgrvadssaGradetdvaGrgkAlrthlgqevrllaadmG 329
+                                                    A+N+a++l++Ggrv++ss+G+++++d+aGrg+A++t+l+++++ll+a++G
+  sp|Q3C1E1|TPHB_COMSP 241 vlaqrkhdlyvamlhdqghipikllAPNGASALSIGGRVVLSSVGHGSAMDIAGRGVADSTALLRTIALLGAQPG 315
+                           *************************************************************************98 PP
+
+>> sp|Q84BZ3|ANDAC_BURCE  Anthranilate 1,2-dioxygenase large subunit OS=Burkholderia cepacia OX=292 GN=andAc PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  123.2   0.0   5.6e-38   5.5e-34      31     318 ..      89     422 ..      68     423 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 123.2 bits;  conditional E-value: 5.6e-38
+                 TP.aln  31 kAfe..cAkekslikv.......alqavylpwSyrkqGdlasvalekavksfnGmraelCamEq........vllCGl...slakDvP 98 
+                             A    cA++++ +         +  +vy+ wS+  +G+l +v + ++ k++ Gm+a++  + +          + Gl   ++++Dv 
+  sp|Q84BZ3|ANDAC_BURCE  89 SAWVnrCAHRGAQVCRksrgnasSHTCVYHQWSFDNEGNLLGVPFRRGQKGMTGMPADFDPKQHglrklrvdS-YRGLvfaTFSDDVA 175
+                            55545699988866555788888999************************************99999998852.56666779*****9 PP
+
+                 TP.aln  99 sieerldPeirk................rftakl.....yeNvkdaydvsllrlrltvfeaeklaagageivdqd.glesvsyalaea 164
+                               ++l+ ++r                 r   k      +eNvkd y++s+l+l+ t+f+  +   +a  i d + gl+s +  +   
+  sp|Q84BZ3|ANDAC_BURCE 176 PLPDYLGAQMRPwidrifhkpieylgctRQYSKSnwklyMENVKDPYHASMLHLFHTTFNIFRVGMKARSIPDANhGLHSIITVTKTG 263
+                            99********999999999999999988444444566689*************************99999877651677778888888 PP
+
+                 TP.aln 165 rakedgevdhviavpserta..dPsllervlel.EdeVf....aagerlvkvtlqesvsaverlkpkavsdseltftllalpkdased 245
+                               +  ++++ i++ +e +   d s+l  v e  E + +      +++lv ++++++  + ++++pk  ++ el f + ++++d+ e 
+  sp|Q84BZ3|ANDAC_BURCE 264 DDTSAAYKQQNIRSFDEGFHleDESILDLVSEYdE-DCTnhiqPIFPQLVIQQIHNTL-VARQILPKGPDNFELIFHFFGYADDTPEL 349
+                            89999999999999888888889**********55.55558889**************.9**************************** PP
+
+                 TP.aln 246 rkvrlkdaqltgpAgiksveddlakglvqrgiaGAaNlaavlelGgrvadssaGradetdvaGrgkAlrthlg 318
+                            r +r+k+a+l+gpAg++s+ed  a+ lvqrg +  a   +v+e+     + +    +e  ++ +++ +++ +g
+  sp|Q84BZ3|ANDAC_BURCE 350 RALRIKQANLVGPAGYISMEDTEATELVQRGTVRDADATSVIEMSRGNPEQQDTVITESLIRKFWVGYQKLMG 422
+                            ********************************************9888888899999999*********9997 PP
+
+>> sp|Q3C1E2|TPDB1_COMSP  Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit beta 1 OS=Comamonas sp. OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.4   0.2    0.0023        22      18      46 ..       1      23 [.       1      29 [. 0.89
+   2 !  104.4   0.0   2.9e-32   2.9e-28     118     239 ..      39     153 ..      27     154 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 9.4 bits;  conditional E-value: 0.0023
+                 TP.aln 18 iiteiavrdadiikAfecAkekslikval 46
+                           +i+ei+      i+Af++A++k+++++a+
+  sp|Q3C1E2|TPDB1_COMSP  1 MINEIQ------IAAFNAAYAKTVDSDAM 23
+                           789999......9*************976 PP
+
+  == domain 2  score: 104.4 bits;  conditional E-value: 2.9e-32
+                 TP.aln 118 eNvkdaydvsllrlrltvfeaeklaaga..geivdqdglesvsyalaearakedgevdhviavpsertad........Psllervlel 195
+                            +Nv++              +ae+laag+  ++  +qd+l+++++al+ea+++e+++++h++++ps++++d        P++++r++++
+  sp|Q3C1E2|TPDB1_COMSP  39 TNVDN--------------HAEGLAAGIvwAD--SQDMLTDRISALREANIYERHRYRHILGLPSIQSGDatqasastPFMVLRIMHT 110
+                            44444..............99*******5555..***********************************8999*************** PP
+
+                 TP.aln 196 .EdeVfaagerlvkvtlqesv.saverlkpkavsdseltftllalp 239
+                             E+eVfa+ge+l+k+t+++++ +++er+   av+ds++t+tl+alp
+  sp|Q3C1E2|TPDB1_COMSP 111 gETEVFASGEYLDKFTTIDGKlRLQERI---AVCDSTVTDTLMALP 153
+                            ****************************...*************98 PP
+
+>> sp|Q3C1D4|TPDB2_COMSP  Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit beta 2 OS=Comamonas sp. OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.1   0.3    0.0029        28      18      46 ..       1      23 [.       1      35 [. 0.89
+   2 !  103.7   0.0   4.8e-32   4.7e-28     119     239 ..      40     153 ..      28     154 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.0029
+                 TP.aln 18 iiteiavrdadiikAfecAkekslikval 46
+                           +i+ei+      i+Af++A++k+++++a+
+  sp|Q3C1D4|TPDB2_COMSP  1 MINEIQ------IAAFNAAYAKTIDSDAM 23
+                           789999......9*************976 PP
+
+  == domain 2  score: 103.7 bits;  conditional E-value: 4.8e-32
+                 TP.aln 119 Nvkdaydvsllrlrltvfeaeklaaga..geivdqdglesvsyalaearakedgevdhviavpsertad........Psllervlel. 195
+                            Nv++              ++e+laag+  ++  +qd+l+++++al+ea+++e+++++h++++ps++++d        P++++r++++ 
+  sp|Q3C1D4|TPDB2_COMSP  40 NVDN--------------HDEGLAAGIvwAD--SQDMLTDRISALREANIYERHRYRHILGLPSIQSGDatqasastPFMVLRIMHTg 111
+                            5544..............99*******5555..***********************************8999**************** PP
+
+                 TP.aln 196 EdeVfaagerlvkvtlqesv.saverlkpkavsdseltftllalp 239
+                            E+eVfa+ge+l+k+t+++++ +++er+   av+ds++t+tl+alp
+  sp|Q3C1D4|TPDB2_COMSP 112 ETEVFASGEYLDKFTTIDGKlRLQERI---AVCDSTVTDTLMALP 153
+                            ***************************...*************98 PP
+
+>> sp|O52379|NAGG_RALSP  Salicylate 5-hydroxylase, large oxygenase component OS=Ralstonia sp. OX=54061 GN=nagG PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.6   0.0   4.1e-24     4e-20       9     318 ..      74     422 ..      53     423 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 77.6 bits;  conditional E-value: 4.1e-24
+                TP.aln   9 alairvPfGiiteiavrdadi.ikAfe..cAkekslikv.......alqavylpwSyrkqGdlasvalekavks....fnGmraelCam 83 
+                            +             vrd d  i+  e  cA+++             + + y+ w y  +Gdl +v + ++vk      +Gm+ ++  +
+  sp|O52379|NAGG_RALSP  74 VIM------------VRDPDGgINVVEnvCAHRGMRFCRerhgnakDFFCPYHQWNYSLKGDLQGVPFRRGVKQdgkvNGGMPKDFKLE 150
+                           444............455555455554555554433322344444459************************862232679******** PP
+
+                TP.aln  84 Eq.......vllCGl...slakDvPsieerldPeirk...................rftakl.......yeNvkdaydvsllrlrltvf 136
+                           E+       +   G    s+ +Dv   ee+l+P i +                   r    +        eN+kd y+  ll+  +++f
+  sp|O52379|NAGG_RALSP 151 EHgltklkvAARGGAvfaSFDHDVEPFEEFLGPTILHyfdrvfngrklkilgyrrqR----IpgnwklmQENIKDPYHPGLLHTWFSTF 235
+                           **9999987323343666999***999**********88877777777777665553....145556689******************* PP
+
+                TP.aln 137 eaeklaagageivdqdglesvsyalaearakedgevdhviavpserta....dPsllervlel....EdeVf.aagerlvkvtlqesvs 216
+                              + + +  +   + + + +  a++  r +  +  + v +v+s + +    dP ll  v e      + V+ + ++ ++ ++  +sv 
+  sp|O52379|NAGG_RALSP 236 GLWRADNKSEL---KMDAKFRHAAMISTRGQGGKNEEVVSGVDSFKEQmkvnDPRLLDIVPEPwwggPTAVMtTIFPSVIIQQQVNSV- 320
+                           ***99999987...566777888888888888777888888887555544678****99987652224555578999999999999*9. PP
+
+                TP.aln 217 averlkpkavsdseltftllalpkdasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaNlaavlelGgrvadssaGradetd 305
+                             + ++p+   +    +t  ++++d  e ++ rl +a+l gpAg++s  d+ +    q+g    +   +v+e+Gg+  +     ++et 
+  sp|O52379|NAGG_RALSP 321 STRHIQPNGHGSFDFVWTHFGFEDDNEEWTQRRLIQANLFGPAGFVSADDGEVIEWSQEGFEQKPTHRTVIEMGGHEIGDTDHMVTETL 409
+                           899************************************************************************************** PP
+
+                TP.aln 306 vaGrgkAlrthlg 318
+                           ++G++   r+ +g
+  sp|O52379|NAGG_RALSP 410 IRGMYDYWRKVMG 422
+                           *****99999997 PP
+
+>> sp|P26395|RFBI_SALTY  Protein RfbI OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=rfbI P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.9   0.0   2.7e-09   2.7e-05      24     189 ..       7     170 ..       1     184 [. 0.82
+   2 !   10.5   0.0    0.0011        11     244     277 ..     193     226 ..     173     235 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 28.9 bits;  conditional E-value: 2.7e-09
+                TP.aln  24 vrdadiikAfecAkekslikvalqa.vylpwSyrkq..GdlasvalekavksfnGmraelCamEqvllCGl...slakDvPsieerldP 106
+                           +  ++i   f   + +s++++al a + l +S++ +  G + s +l + v    G  + + + +++l C +   ++++     +  l  
+  sp|P26395|RFBI_SALTY   7 IFPSNI--EFSGREDESILDAALSAgIHLEHSCKAGdcGICESDLLAGEVVDSKG--NIFGQGDKILTCCCkpkTALELNAHFFPELAG 91 
+                           555555..56677889******************99999**********988887..78999***999***775444433456666777 PP
+
+                TP.aln 107 eirkrftaklyeNvkdaydvsllrlrltvfeaeklaagageivdqdglesvsyalaearakedgevdhviavpsertadPsll 189
+                           + +k    k+ + v+ + dv  l+lr +   + ++  g++  + + ++ ++sy++a+   +++g+ +hv++vp+++++  sl+
+  sp|P26395|RFBI_SALTY  92 QTKKIVPCKVNSAVLVSGDVMTLKLRTPPTAKIGFLPGQYINL-HYKGVTRSYSIANS-DESNGIELHVRNVPNGQMS--SLI 170
+                           7777888899******************999999999998744.567889****9986.689**************99..665 PP
+
+  == domain 2  score: 10.5 bits;  conditional E-value: 0.0011
+                TP.aln 244 edrkvrlkdaqltgpAgiksveddlakglvqrgi 277
+                           e  ++ +  a++tg+A++ks+ + l +g+  r+i
+  sp|P26395|RFBI_SALTY 193 ESDRPIIFLAGGTGFAPVKSMVEHLIQGKCRREI 226
+                           678999999*********************9998 PP
+
+>> sp|Q66DP5|ASCD_YERPS  CDP-6-deoxy-L-threo-D-glycero-4-hexulose-3-dehydrase reductase OS=Yersinia pseudotuberculosis s
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.2   0.0   9.1e-09     9e-05      25     184 ..       8     172 ..       1     192 [. 0.78
+   2 ?    6.7   0.0     0.015   1.5e+02     244     277 ..     198     231 ..     172     248 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 27.2 bits;  conditional E-value: 9.1e-09
+                TP.aln  25 rdadiikAfecAkekslikvalqa.vylpwSyrkq..GdlasvalekavksfnGmraelCamEq.....vllCGlslakDvPsieerld 105
+                           + + i   f +    +++++al + +   +S++ +  G + ++++ + v s     + + ++E      +l C   + +D+        
+  sp|Q66DP5|ASCD_YERPS   8 HPSGI--IFTSDGTSTILDAALDSnIHIEYSCKDGtcGSCKAILISGEVDSA---ENTFLTEEDvakgaILTCCSKAKSDI-ELDVNYY 90 
+                           55555..577778899********9*********999***********8876...578888888888845566668999**.5555566 PP
+
+                TP.aln 106 Peirk....rftakl..yeNvkdaydvsllrlrltvfeaeklaaga.geivdqdglesvsyalaearakedgevdhviavpserta 184
+                           Pe  +     +  kl  +e v +  d+++l lrl+   + +  ag+  +++   +++ +sy++a+a+  + ++ +hv++v ++ ++
+  sp|Q66DP5|ASCD_YERPS  91 PELSHiqkkTYPCKLdsIEFVGE--DIAILSLRLPPTAKIQYLAGQyIDLI--INGQRRSYSIANAPGGNGNIELHVRKVVNGVFS 172
+                           88765443366667777777777..9********86666666666635555..4699**********************9888776 PP
+
+  == domain 2  score: 6.7 bits;  conditional E-value: 0.015
+                TP.aln 244 edrkvrlkdaqltgpAgiksveddlakglvqrgi 277
+                           ed+++ +  a++tg+A++ks+ + l  +  qr +
+  sp|Q66DP5|ASCD_YERPS 198 EDNLPIVFLAGGTGFAPVKSMVEALINKNDQRQV 231
+                           689999999************9999888877765 PP
+
+>> sp|P68641|ASCD_YERPE  CDP-6-deoxy-L-threo-D-glycero-4-hexulose-3-dehydrase reductase OS=Yersinia pestis OX=632 GN=asc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.1   0.0   1.9e-08   0.00019      25     184 ..       8     172 ..       1     189 [. 0.77
+   2 ?    7.0   0.0     0.013   1.3e+02     244     277 ..     198     231 ..     172     268 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 26.1 bits;  conditional E-value: 1.9e-08
+                TP.aln  25 rdadiikAfecAkekslikvalqa.vylpwSyrkq..GdlasvalekavksfnGmraelCamEq.....vllCGlslakDvPsieerld 105
+                           + + i   f +    +++++al + +   +S++ +  G + ++++ + v s     + + ++E      +l C   + +D+        
+  sp|P68641|ASCD_YERPE   8 HPSGI--IFTSDGTSTILDAALDSnIHIEYSCKDGtcGSCKAILISGEVDSA---ENTFLTEEDvakgaILTCCSKAKSDI-ELDVNYY 90 
+                           55555..577778899********9*********999***********8876...578888888888845566668999**.5555566 PP
+
+                TP.aln 106 Peirk....rftakl..yeNvkdaydvsllrlrltvfeaeklaaga.geivdqdglesvsyalaearakedgevdhviavpserta 184
+                           Pe  +     +  kl  +e + +  d+++l lrl+   + +  ag+  +++   +++ +sy++a+a+  + ++ +hv++v ++ ++
+  sp|P68641|ASCD_YERPE  91 PELSHiqkkTYPCKLdsIEFIGE--DIAILSLRLPPTAKIQYLAGQyIDLI--INGQRRSYSIANAPGGNGNIELHVRKVVNGVFS 172
+                           88765333356666666666655..9********86666666666635555..4699**********************9888776 PP
+
+  == domain 2  score: 7.0 bits;  conditional E-value: 0.013
+                TP.aln 244 edrkvrlkdaqltgpAgiksveddlakglvqrgi 277
+                           ed+++ +  a++tg+A++ks+ + l  +  qr +
+  sp|P68641|ASCD_YERPE 198 EDNLPIVFLAGGTGFAPVKSMVEALINKNDQRQV 231
+                           689999999*************999988888876 PP
+
+>> sp|Q03304|TMOF_ECTME  Toluene-4-monooxygenase system, ferredoxin--NAD(+) reductase component OS=Ectopseudomonas mendo
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.3   0.0   1.6e-08   0.00016      25     186 ..       5     188 ..       2     220 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 26.3 bits;  conditional E-value: 1.6e-08
+                TP.aln  25 rdadiikAfecAkekslikvalqa.vylpwSyrkq..GdlasvalekavksfnGmraelCamEq....vllCGlslakDvPsieerldP 106
+                           +  d ++ fe+  + +l+++al+a +  p+ ++ +  G +   +le+ v+        l a E      l C +  ++D+  i+     
+  sp|Q03304|TMOF_ECTME   5 QSDDLLHHFEADSNDTLLSAALRAeLVFPYECNSGgcGACKIELLEGEVSNLWPDAPGLAARELrknrFLACQCKPLSDL-KIKVINRA 92 
+                           3556699***************************98999*********99865444444444433444999*********.44433334 PP
+
+                TP.aln 107 eirk.....rftaklyeNvkdaydvsllrlrltvfeaeklaagageivdqdglesvsyalaearakedgevdhviavpserta.d.... 185
+                           e r      rf  ++++         ++ lrl   ++  ++ g++ +vd  +l ++ y+ a++    +  ++ v avp+++++      
+  sp|Q03304|TMOF_ECTME  93 EGRAshppkRFSTRVVSKRFL--SDEMFELRLEAEQKVVFSPGQYFMVDVPELGTRAYSAANP-VDGNTLTLIVKAVPNGKVScAlane 178
+                           444355777***999887655..346899999***************************8875.678999999******9998313344 PP
+
+                TP.aln 186 .........P 186
+                                    P
+  sp|Q03304|TMOF_ECTME 179 tietlqldgP 188
+                           5555555554 PP
+
+>> sp|P0DPQ8|GCOB_AMYS7  Aromatic O-demethylase, reductase subunit OS=Amycolatopsis sp. (strain ATCC 39116 / 75iv2) OX=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6   0.0   2.6e-08   0.00026      34     189 ..      13     177 ..      10     192 .. 0.75
+   2 ?   -1.7   0.0       5.4   5.3e+04     229     291 ..     188     253 ..     174     260 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 25.6 bits;  conditional E-value: 2.6e-08
+                TP.aln  34 ecAkekslikvalqa.vylpwSyrkq..GdlasvalekavksfnGmraelCamEq....vllCGlslakDvPsieerldPeirk..... 110
+                           +c ++++l+++ l+  v  p S++++  G +   +l + v   +     l a+E+    +l C    + D          e+r      
+  sp|P0DPQ8|GCOB_AMYS7  13 DCEPGQTLLEAFLRGgVWMPNSCNQGtcGTCKLQVLSGEVDHGGAPEDTLSAEERasglALACQARPLAD---------TEVRStadag 92 
+                           58899******99999***********************7665555889999999544444444433333.........4555555555 PP
+
+                TP.aln 111 .......rftaklyeNvkdaydvsllrlrltvfeaeklaaga.geivdqdglesvsyalaearakedgevdhviavpsertadPsll 189
+                                   +ta + e  + a d    r+ l   e   ++ag+  e+v    +  ++y+la+   +++   +hv++vp++   d  l 
+  sp|P0DPQ8|GCOB_AMYS7  93 rvthplrDLTATVLEVADIARD--TRRVLLGLAEPLAFEAGQyVELVVPGSGARRQYSLANTADEDKVLELHVRRVPGGVATDGWLF 177
+                           2333443344444444444334..4678888899999*****878999999**************************9987776655 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 5.4
+                TP.aln 229 seltftllalpkdasedrkvrlkdaqltgpAgiksveddlakglvqrgia...GAaNlaavlelGg 291
+                           ++ + +   lp+   +d  + +   ++tg A+++ +   +  +   r++    G +  a   +lG 
+  sp|P0DPQ8|GCOB_AMYS7 188 ATGPLGDFHLPPPDEDDGGPMVLIGGGTGLAPLVGIARTALARHPSREVLlyhGVRGAADLYDLGR 253
+                           555666666777777888888888999******999999999999998877787777777777776 PP
+
+>> sp|A0A0H3LQK8|PDXA2_BORBR  D-threonate 4-phosphate dehydrogenase OS=Bordetella bronchiseptica (strain ATCC BAA-588 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.8   0.0   1.5e-06     0.015     146     318 ..      98     325 ..      86     340 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 19.8 bits;  conditional E-value: 1.5e-06
+                     TP.aln 146 geivdqdglesvsyalaearakedgevdhviavpserta.d.........PsllervlelEdeVf....aag.erlvkvtlqes 214
+                                g++  ++g  sv y + +     dg  d ++  p ++ a             ll++  ++ +  f    +ag +++ + t++ s
+  sp|A0A0H3LQK8|PDXA2_BORBR  98 GQLSAEAGDGSVRYVTTACALARDGLIDGIVTAPLNKAAmHmaghkwpghTELLAHEFGVKT--FslvlSAGdLYIFHATTHVS 179
+                                56666777778888888888888888888888888888852667788554445554444422..234556553799******** PP
+
+                     TP.aln 215 v.saverlkpk..............avsdseltftllalpkdasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN. 282
+                                  +a+e ++p+              a   +  ++++ +l+++a e+  ++ +da++ +pA    v +  a g+   g++ A   
+  sp|A0A0H3LQK8|PDXA2_BORBR 180 LrQAIEDVNPQrmravlrlagsfarALGRADHPVAVAGLNPHAGENGIFGTEDAEILAPA----VAQANAEGILAAGPIPADAl 259
+                                ***********999888888888888888888888888888*******************....***************97777 PP
+
+                     TP.aln 283 ..............................laavlelGgrvadssaGradetdvaGrgkAlrthlg 318
+                                                                  + +G  v+  s+ ++++ d+aG+g A    l 
+  sp|A0A0H3LQK8|PDXA2_BORBR 260 fpqavrgkwkfviacyhdqghapfksvygdDGVNITVGLPVVRVSVDHGTAFDIAGKGIAREDSLV 325
+                                7888888888888888888888889998743344789***********************887765 PP
+
+>> sp|Q52126|NDOR_PSEPU  Naphthalene 1,2-dioxygenase system ferredoxin--NAD(P)(+), reductase component OS=Pseudomonas pu
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.4   0.0     7e-05      0.69      48     184 ..      28     168 ..       8     186 .. 0.81
+   2 ?    0.5   0.0       1.2   1.2e+04     245     270 ..     196     221 ..     178     233 .. 0.83
+   3 ?    1.1   0.0      0.78   7.7e+03      58      93 ..     272     307 ..     228     318 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 7e-05
+                TP.aln  48 avylpwSyrkq..GdlasvalekavksfnGm..raelCamEqvllCGlslakDvPsieerldPeirk......rftaklyeNvkdaydv 126
+                            v  ++S+  +  G +   +++++v   +    +++l  +  vl C   l+  + +ie    Pe+ +      r  +  +  v+  +  
+  sp|Q52126|NDOR_PSEPU  28 GVAISYSCLSGrcGTCRCRVIDGSVIDSGAEngQSNLTDKQYVLACQSVLTGNC-AIEV---PEADEivthpaRIIKGTVVAVES-PTH 111
+                           4788999988888***********987776666889999998************.8888...99999554555444444666665.888 PP
+
+                TP.aln 127 sllrlrltvfeaeklaagageivdqdglesvsyalaearakedgevdhviavpserta 184
+                            + rlr+   +  +++ g++  ++ +  + + y++a  +  ++    h+++vp++r+ 
+  sp|Q52126|NDOR_PSEPU 112 DIRRLRVRLSKPFEFSPGQYATLQFSPEHARPYSMAGLPD-DQEMEFHIRKVPGGRVT 168
+                           8999999999**********99**************9985.566778*******9987 PP
+
+  == domain 2  score: 0.5 bits;  conditional E-value: 1.2
+                TP.aln 245 drkvrlkdaqltgpAgiksveddlak 270
+                            + + l++ ++tg A++ s+  ++ k
+  sp|Q52126|NDOR_PSEPU 196 HTGPMLCVGGGTGLAPVLSIVRGALK 221
+                           56689**************9877654 PP
+
+  == domain 3  score: 1.1 bits;  conditional E-value: 0.78
+                TP.aln  58 qGdlasvalekavksfnGmraelCamEqvllCGlsl 93 
+                              l + ++ek + s  G ra lC    ++   +++
+  sp|Q52126|NDOR_PSEPU 272 RAGLITDVIEKDILSLAGWRAYLCGAPAMVEALCTV 307
+                           344555679***************876644333344 PP
+
+>> sp|Q2N8X0|PDXA_ERYLH  4-hydroxythreonine-4-phosphate dehydrogenase OS=Erythrobacter litoralis (strain HTCC2594) OX=31
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.015   1.5e+02       5      52 ..       5      57 ..       4      85 .. 0.80
+   2 ?    9.8   0.0    0.0017        17     236     318 ..     211     320 ..     196     330 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.015
+                TP.aln  5 qrrlalairvPfGiiteia.....vrdadiikAfecAkekslikvalqavylp 52
+                          qr la+++++P Gi++ei      +rd+  ++ f  A +  ++  a  a+  p
+  sp|Q2N8X0|PDXA_ERYLH  5 QRPLAVSLGDPAGIGPEIIvhawrMRDSANLAPFAVAGGANVLRSATEALGVP 57
+                          6789**************96666677999999999999998888877776555 PP
+
+  == domain 2  score: 9.8 bits;  conditional E-value: 0.0017
+                TP.aln 236 lalpkdasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN...............................laavlelGgrv 293
+                            +l+++a ed k++ ++ ++++pA    + ++la g+   g+  A                                     + lG   
+  sp|Q2N8X0|PDXA_ERYLH 211 TGLNPHAGEDGKFGNEEQDVIAPA----IAELLADGITATGPHPADAlfsphsragfdaalcmyhdqalipvkaldfdQGVNVTLGLPI 295
+                           58999*******************....9999999***99999866667777777777777888888888888877764556789**** PP
+
+                TP.aln 294 adssaGradetdvaGrgkAlrthlg 318
+                           + +s  ++++ d+aGrg A   ++ 
+  sp|Q2N8X0|PDXA_ERYLH 296 VRTSPDHGTAFDIAGRGTAHPGAMV 320
+                           ******************9987775 PP
+
+>> sp|Q8IED5|FER_PLAF7  Ferredoxin, apicoplast OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=FD PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.8   0.1   6.3e-06     0.062      19     102 ..      98     185 ..      84     193 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 6.3e-06
+               TP.aln  19 iteiavrdadiikAfecAkekslikval.qavylpwSyrkq..GdlasvalekavksfnGmraelCamEq.....vllCGlslakDvPsi 100
+                            +i +r  d  k +ec + + +++++  q v+lp+S+r +    +a+ ++e+ v   +    +   +Eq     +llC +   +D+  i
+  sp|Q8IED5|FER_PLAF7  98 FYNITLRTNDGEKKIECNEDEYILDASErQNVELPYSCRGGscSTCAAKLVEGEVDNDD---QSYLDEEQikkkyILLCTCYPKSDC-VI 183
+                          5566777777767889999999999975166******9988878899999999987654...3444555555555***********9.66 PP
+
+               TP.aln 101 ee 102
+                          e 
+  sp|Q8IED5|FER_PLAF7 184 ET 185
+                          55 PP
+
+>> sp|A7GFE5|PDXA2_CLOBL  Putative D-threonate 4-phosphate dehydrogenase OS=Clostridium botulinum (strain Langeland / NC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.2   0.0       7.5   7.5e+04     202     279 ..      18      99 ..      13     124 .. 0.57
+   2 ?   16.0   0.0   2.2e-05      0.22     224     325 ..     195     326 ..      99     329 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: -2.2 bits;  conditional E-value: 7.5
+                 TP.aln 202 agerlvkvtlqesvsaverlkpkavsdseltftllalpk........dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaG 279
+                            +g+++v   l e+  + e+ +p  + d+++    +++ +        + +++ k+ l   +l+    i    d+l+ g+vq giaG
+  sp|A7GFE5|PDXA2_CLOBL  18 VGPEIVVKSLTEAE-VYEKCNPILIGDAKVIKQAMGFCNvnlninsiKKADEGKFTLGTIDLIDLNNID--IDELKIGKVQ-GIAG 99 
+                            55666666666665.666666665666655555555555555555555566666666666666655332..3555555554.5555 PP
+
+  == domain 2  score: 16.0 bits;  conditional E-value: 2.2e-05
+                 TP.aln 224 kavsdseltftllalpk...dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN.......................... 282
+                            +a ++  ++++ +a++    ++ e  +++ ++ + + pA    +e+ ++ g+ ++g++GA                            
+  sp|A7GFE5|PDXA2_CLOBL 195 EALEKLGVKDGKMAVAGlnpHSGEHGLFGDEEMKAVVPA----IEEAQKMGYKVEGPIGADSvfhlalkgrynsvlslyhdqghiatk 278
+                            24444455555555443555*******************....****************98899999999999999999999999999 PP
+
+                 TP.aln 283 ......laavlelGgrvadssaGradetdvaGrgkAlrthlgqevrlla 325
+                                    av+  G     +s+ ++++ d+aG g+A +  +   + l+a
+  sp|A7GFE5|PDXA2_CLOBL 279 tldferTIAVT-NGMPILRTSVDHGTAFDIAGTGQASSVSMVEAIVLAA 326
+                            99987444444.47778899*********************99998865 PP
+
+>> sp|B1IGV8|PDXA2_CLOBK  Putative D-threonate 4-phosphate dehydrogenase OS=Clostridium botulinum (strain Okra / Type B1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.2   0.0       7.5   7.5e+04     202     279 ..      18      99 ..      13     124 .. 0.57
+   2 ?   16.0   0.0   2.2e-05      0.22     224     325 ..     195     326 ..      99     329 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: -2.2 bits;  conditional E-value: 7.5
+                 TP.aln 202 agerlvkvtlqesvsaverlkpkavsdseltftllalpk........dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaG 279
+                            +g+++v   l e+  + e+ +p  + d+++    +++ +        + +++ k+ l   +l+    i    d+l+ g+vq giaG
+  sp|B1IGV8|PDXA2_CLOBK  18 VGPEIVVKSLTEAE-VYEKCNPILIGDAKVIKQAMGFCNvnlninsiKKADEGKFTLGTIDLIDLNNID--IDELKIGKVQ-GIAG 99 
+                            55666666666665.666666665666655555555555555555555566666666666666655332..3555555554.5555 PP
+
+  == domain 2  score: 16.0 bits;  conditional E-value: 2.2e-05
+                 TP.aln 224 kavsdseltftllalpk...dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN.......................... 282
+                            +a ++  ++++ +a++    ++ e  +++ ++ + + pA    +e+ ++ g+ ++g++GA                            
+  sp|B1IGV8|PDXA2_CLOBK 195 EALEKLGVKDGKMAVAGlnpHSGEHGLFGDEEMKAVVPA----IEEAQKMGYKVEGPIGADSvfhlalkgrynsvlslyhdqghiatk 278
+                            24444455555555443555*******************....****************98899999999999999999999999999 PP
+
+                 TP.aln 283 ......laavlelGgrvadssaGradetdvaGrgkAlrthlgqevrlla 325
+                                    av+  G     +s+ ++++ d+aG g+A +  +   + l+a
+  sp|B1IGV8|PDXA2_CLOBK 279 tldferTIAVT-NGMPILRTSVDHGTAFDIAGTGQASSVSMVEAIVLAA 326
+                            99987444444.47778899*********************99998865 PP
+
+>> sp|A5I3X9|PDXA2_CLOBH  Putative D-threonate 4-phosphate dehydrogenase OS=Clostridium botulinum (strain Hall / ATCC 35
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.2   0.0       7.5   7.5e+04     202     279 ..      18      99 ..      13     124 .. 0.57
+   2 ?   15.8   0.0   2.6e-05      0.26     224     325 ..     195     326 ..      99     329 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: -2.2 bits;  conditional E-value: 7.5
+                 TP.aln 202 agerlvkvtlqesvsaverlkpkavsdseltftllalpk........dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaG 279
+                            +g+++v   l e+  + e+ +p  + d+++    +++ +        + +++ k+ l   +l+    i    d+l+ g+vq giaG
+  sp|A5I3X9|PDXA2_CLOBH  18 VGPEIVVKSLTEAE-VYEKCNPILIGDAKVIKQAMGFCNvnlninsiKKADEGKFTLGTIDLIDLNNID--IDELKIGKVQ-GIAG 99 
+                            55666666666665.666666665666655555555555555555555566666666666666655332..3555555554.5555 PP
+
+  == domain 2  score: 15.8 bits;  conditional E-value: 2.6e-05
+                 TP.aln 224 kavsdseltftllalpk...dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN.......................... 282
+                            +a ++  ++++ +a++    ++ e  +++ ++ + + pA    +e+ ++ g+ ++g++GA                            
+  sp|A5I3X9|PDXA2_CLOBH 195 EALEKLGVKDGKMAVAGlnpHSGEHGLFGDEEMKAVVPA----IEEAQKMGYKVEGPIGADSvfhlalkgrynsvlslyhdqghiatk 278
+                            24444455555555443555*******************....****************98899999999999999999999999999 PP
+
+                 TP.aln 283 ......laavlelGgrvadssaGradetdvaGrgkAlrthlgqevrlla 325
+                                    av+  G     +s+ ++++ d+aG g+A +  +   + l+a
+  sp|A5I3X9|PDXA2_CLOBH 279 tldferTIAVT-NGMPILRTSVDHGTAFDIAGTGQASSVSMVEAIILAA 326
+                            99987444444.47778899*********************99988755 PP
+
+>> sp|A7FVM3|PDXA2_CLOB1  Putative D-threonate 4-phosphate dehydrogenase OS=Clostridium botulinum (strain ATCC 19397 / T
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.2   0.0       7.5   7.5e+04     202     279 ..      18      99 ..      13     124 .. 0.57
+   2 ?   15.8   0.0   2.6e-05      0.26     224     325 ..     195     326 ..      99     329 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: -2.2 bits;  conditional E-value: 7.5
+                 TP.aln 202 agerlvkvtlqesvsaverlkpkavsdseltftllalpk........dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaG 279
+                            +g+++v   l e+  + e+ +p  + d+++    +++ +        + +++ k+ l   +l+    i    d+l+ g+vq giaG
+  sp|A7FVM3|PDXA2_CLOB1  18 VGPEIVVKSLTEAE-VYEKCNPILIGDAKVIKQAMGFCNvnlninsiKKADEGKFTLGTIDLIDLNNID--IDELKIGKVQ-GIAG 99 
+                            55666666666665.666666665666655555555555555555555566666666666666655332..3555555554.5555 PP
+
+  == domain 2  score: 15.8 bits;  conditional E-value: 2.6e-05
+                 TP.aln 224 kavsdseltftllalpk...dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN.......................... 282
+                            +a ++  ++++ +a++    ++ e  +++ ++ + + pA    +e+ ++ g+ ++g++GA                            
+  sp|A7FVM3|PDXA2_CLOB1 195 EALEKLGVKDGKMAVAGlnpHSGEHGLFGDEEMKAVVPA----IEEAQKMGYKVEGPIGADSvfhlalkgrynsvlslyhdqghiatk 278
+                            24444455555555443555*******************....****************98899999999999999999999999999 PP
+
+                 TP.aln 283 ......laavlelGgrvadssaGradetdvaGrgkAlrthlgqevrlla 325
+                                    av+  G     +s+ ++++ d+aG g+A +  +   + l+a
+  sp|A7FVM3|PDXA2_CLOB1 279 tldferTIAVT-NGMPILRTSVDHGTAFDIAGTGQASSVSMVEAIILAA 326
+                            99987444444.47778899*********************99988755 PP
+
+>> sp|B1KVV5|PDXA2_CLOBM  Putative D-threonate 4-phosphate dehydrogenase OS=Clostridium botulinum (strain Loch Maree / T
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.2   0.0       7.5   7.5e+04     202     279 ..      18      99 ..      13     124 .. 0.57
+   2 ?   15.8   0.0   2.6e-05      0.26     224     325 ..     195     326 ..      99     329 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: -2.2 bits;  conditional E-value: 7.5
+                 TP.aln 202 agerlvkvtlqesvsaverlkpkavsdseltftllalpk........dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaG 279
+                            +g+++v   l e+  + e+ +p  + d+++    +++ +        + +++ k+ l   +l+    i    d+l+ g+vq giaG
+  sp|B1KVV5|PDXA2_CLOBM  18 VGPEIVVKSLTEAE-VYEKCNPILIGDAKVIKQAMGFCNvnlninsiKKADEGKFTLGTIDLIDLNNID--IDELKIGKVQ-GIAG 99 
+                            55666666666665.666666665666655555555555555555555566666666666666655332..3555555554.5555 PP
+
+  == domain 2  score: 15.8 bits;  conditional E-value: 2.6e-05
+                 TP.aln 224 kavsdseltftllalpk...dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN.......................... 282
+                            +a ++  ++++ +a++    ++ e  +++ ++ + + pA    +e+ ++ g+ ++g++GA                            
+  sp|B1KVV5|PDXA2_CLOBM 195 EALEKLGVKDGKMAVAGlnpHSGEHGLFGDEEMKAVVPA----IEEAQKMGYKVEGPIGADSvfhlalkgrynsvlslyhdqghiatk 278
+                            24444455555555443555*******************....****************98899999999999999999999999999 PP
+
+                 TP.aln 283 ......laavlelGgrvadssaGradetdvaGrgkAlrthlgqevrlla 325
+                                    av+  G     +s+ ++++ d+aG g+A +  +   + l+a
+  sp|B1KVV5|PDXA2_CLOBM 279 tldferTIAVT-NGMPILRTSVDHGTAFDIAGTGQASSVSMVEAIILAA 326
+                            99987444444.47778899*********************99988755 PP
+
+>> sp|C1FQK1|PDXA2_CLOBJ  Putative D-threonate 4-phosphate dehydrogenase OS=Clostridium botulinum (strain Kyoto / Type A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.2   0.0       7.5   7.5e+04     202     279 ..      18      99 ..      13     124 .. 0.57
+   2 ?   15.8   0.0   2.6e-05      0.26     224     325 ..     195     326 ..      99     329 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: -2.2 bits;  conditional E-value: 7.5
+                 TP.aln 202 agerlvkvtlqesvsaverlkpkavsdseltftllalpk........dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaG 279
+                            +g+++v   l e+  + e+ +p  + d+++    +++ +        + +++ k+ l   +l+    i    d+l+ g+vq giaG
+  sp|C1FQK1|PDXA2_CLOBJ  18 VGPEIVVKSLTEAE-VYEKCNPILIGDAKVIKQAMGFCNvnlninsiKKADEGKFTLGTIDLIDLNNID--IDELKIGKVQ-GIAG 99 
+                            55666666666665.666666665666655555555555555555555566666666666666655332..3555555554.5555 PP
+
+  == domain 2  score: 15.8 bits;  conditional E-value: 2.6e-05
+                 TP.aln 224 kavsdseltftllalpk...dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN.......................... 282
+                            +a ++  ++++ +a++    ++ e  +++ ++ + + pA    +e+ ++ g+ ++g++GA                            
+  sp|C1FQK1|PDXA2_CLOBJ 195 EALEKLGVKDGKMAVAGlnpHSGEHGLFGDEEMKAVVPA----IEEAQKMGYKVEGPIGADSvfhlalkgrynsvlslyhdqghiatk 278
+                            24444455555555443555*******************....****************98899999999999999999999999999 PP
+
+                 TP.aln 283 ......laavlelGgrvadssaGradetdvaGrgkAlrthlgqevrlla 325
+                                    av+  G     +s+ ++++ d+aG g+A +  +   + l+a
+  sp|C1FQK1|PDXA2_CLOBJ 279 tldferTIAVT-NGMPILRTSVDHGTAFDIAGTGQASSVSMVEAIILAA 326
+                            99987444444.47778899*********************99988755 PP
+
+>> sp|C3KYY3|PDXA2_CLOB6  Putative D-threonate 4-phosphate dehydrogenase OS=Clostridium botulinum (strain 657 / Type Ba4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.0       8.2   8.1e+04      11      27 ..      11      27 ..       8      55 .. 0.78
+   2 ?   15.9   0.1   2.4e-05      0.24     224     325 ..     195     326 ..      87     329 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 8.2
+                 TP.aln 11 airvPfGiiteiavrda 27
+                            i++P G+++ei v+  
+  sp|C3KYY3|PDXA2_CLOB6 11 PIGDPAGVGPEIVVKSL 27
+                           58999999999997654 PP
+
+  == domain 2  score: 15.9 bits;  conditional E-value: 2.4e-05
+                 TP.aln 224 kavsdseltftllalpk...dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN.......................... 282
+                            +a ++  ++++ +a++    ++ e  +++ ++ + + pA    +e+ ++ g+ ++g++GA                            
+  sp|C3KYY3|PDXA2_CLOB6 195 EALEKLGVKDGKMAVAGlnpHSGEHGLFGDEEMKAVVPA----IEEAQKMGYKVEGPIGADSvfhlalkgrynsvlslyhdqghiatk 278
+                            24444455555555443556*******************....****************98899999999999999999999999999 PP
+
+                 TP.aln 283 ......laavlelGgrvadssaGradetdvaGrgkAlrthlgqevrlla 325
+                                    av+  G     +s+ ++++ d+aG g+A +  +   + l+a
+  sp|C3KYY3|PDXA2_CLOB6 279 tldferTIAVT-NGMPILRTSVDHGTAFDIAGTGQASSVSMVEAIILAA 326
+                            99987444444.47778899*********************99988755 PP
+
+>> sp|E9RFT0|MIMB_MYCGD  Propane 2-monooxygenase, reductase component OS=Mycolicibacterium goodii OX=134601 GN=mimB PE=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.5   0.0   3.3e-05      0.33      39     205 ..      22     200 ..       6     214 .. 0.75
+   2 ?   -1.8   0.0       5.9   5.8e+04     239     290 ..     206     263 ..     195     268 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 3.3e-05
+                TP.aln  39 kslikvalqa.vylpwSyrkq..GdlasvalekavksfnGmraelCamEq.....vllCGlslakDvPsieerldPeirk....rftak 115
+                           + ++++a++  + l + +r +    + s +l++ ++  n      C+  +     vllC   + +D+    e l+ +  +       + 
+  sp|E9RFT0|MIMB_MYCGD  22 ENILDAAFRQgIHLMHGCREGrcSACKSYVLDGEIQMENYST-FACNDAEvdegfVLLCRSHAFSDC--TIELLNFDEDEllggIPIQD 107
+                           56778888666*******9998899*********98877653.335443347789************..55557766666555622344 PP
+
+                TP.aln 116 lyeNvkda..ydvsllrlrltvfeaeklaaga...geivdqdglesvsyalaearakedgevdhviavpsertadPsllervlelEdeV 199
+                           + + v++       ++ lrl   e +k++ +    +++      e++s+++a  + ++d     + + p+++++   ll + +++ de+
+  sp|E9RFT0|MIMB_MYCGD 108 VRTEVLAVepKTRDIVSLRLKPVEPGKFDFKPgqyADLHIPGTEEHRSFSMATTPSCSDEVEFLIKKYPGGKFS--ALLDGHIQVGDEI 194
+                           444444321133467888888999998876653466665566789*****************************..9**9999999998 PP
+
+                TP.aln 200 faager 205
+                             +g++
+  sp|E9RFT0|MIMB_MYCGD 195 ALTGPY 200
+                           866654 PP
+
+  == domain 2  score: -1.8 bits;  conditional E-value: 5.9
+                TP.aln 239 pkdasedrkvrlkdaqltgpAgiksveddlak...glvqrgiaGAaN......laavlelG 290
+                           ++      ++ ++  ++ g A+i s++  +     g   r   GA+       l+ +lelG
+  sp|E9RFT0|MIMB_MYCGD 206 KD---GHVLPVVCIGGGAGMAPILSLLRHMNEtgnGRPARFYYGARTaadlfyLDEILELG 263
+                           55...55677889999999999999987655410133333334666655555566666666 PP
+
+>> sp|Q92TP3|PDXAL_RHIME  Putative 4-hydroxythreonine-4-phosphate dehydrogenase 2 OS=Rhizobium meliloti (strain 1021) OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.9   0.0       0.9   8.9e+03       8      32 ..      16      48 ..      12      66 .. 0.85
+   2 ?   13.0   0.0   0.00019       1.8     230     321 ..     213     331 ..     163     338 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 0.9 bits;  conditional E-value: 0.9
+                 TP.aln  8 lalairvPfGiiteia........vrdadiikA 32
+                            ala+++P Gi +e          +rda  i A
+  sp|Q92TP3|PDXAL_RHIME 16 IALAMGDPAGISPELTarllalsdIRDAAHIIA 48
+                           599***********9978888888888777666 PP
+
+  == domain 2  score: 13.0 bits;  conditional E-value: 0.00019
+                 TP.aln 230 eltftllalpkdasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN..............................laavl 287
+                            e ++++ +l+++a ++  +++++ +++ pA    ve  +a g+ ++g+  A                                   v+
+  sp|Q92TP3|PDXAL_RHIME 213 EAKIAVAGLNPHAGDGGSFGMEEIDIIEPA----VEKARALGFNVEGPFPADTvflralkegfnavmtmyhdqgqiamkiigfDKGVT 296
+                            44556667888*******************....***************9888888888889999999999999999999997789** PP
+
+                 TP.aln 288 elGgrva.dssaGradetdvaGrgkAlrthlgqev 321
+                             +Gg +  +    ++++ d+aG+g A+  +    +
+  sp|Q92TP3|PDXAL_RHIME 297 MMGGLPFpLCTPAHGTAYDIAGKGIADIGATREAI 331
+                            ****986378999************9976655544 PP
+
+>> sp|Q0K4F5|PDXA2_CUPNH  D-threonate 4-phosphate dehydrogenase OS=Cupriavidus necator (strain ATCC 17699 / DSM 428 / KC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.3   0.0   3.6e-05      0.36     174     323 ..     128     324 ..      97     329 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 3.6e-05
+                 TP.aln 174 hviavpserta.dPsllervlel.EdeVf..aagerlvkvtlqesv.saverlkpk....avsdseltftllalpk..........da 242
+                            ++++  ++++     +l+ + ++ E   +  a  +r+++vt++ +   a+++++p+     ++   +t    +++           +a
+  sp|Q0K4F5|PDXA2_CUPNH 128 EALHAGGHKFPgHTEMLAYLTGTpEVSMMlvAPKLRVIHVTTHIGLlDAIRKIEPGlvqrTIERGHQTLQRAGIAAprigvcginpHA 215
+                            4555555666545789999999999888877888999******************9777755555555555444445588888888** PP
+
+                 TP.aln 243 sedrkvrl.kdaqltgpAgiksveddlakglvqrgiaGAaN...............................laavlelGgrvadssa 298
+                             e+ +++  ++ + + pA    ve ++a g  ++g+  A                                     + +G  v  +s+
+  sp|Q0K4F5|PDXA2_CUPNH 216 GENGLFGHgEEEEKIIPA----VEALRARGRDVEGPLPADTlfyragrgdfdlvvamyhdqghgpvkvlgleAGVNITVGLPVIRTSV 299
+                            ******873667889999....***************98888888888889999999999999999999964344577899******* PP
+
+                 TP.aln 299 GradetdvaGrgkAlrthlgqevrl 323
+                             ++++ d+aG+g A+ + l+  +r 
+  sp|Q0K4F5|PDXA2_CUPNH 300 DHGTAFDIAGKGIADERSLLEALRQ 324
+                            *******************998886 PP
+
+>> sp|C0QBU5|PDXA_DESAH  4-hydroxythreonine-4-phosphate dehydrogenase OS=Desulforapulum autotrophicum (strain ATCC 43914
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.0       8.3   8.2e+04      11      26 ..      11      26 ..       8      34 .. 0.80
+   2 ?   15.0   0.0   4.5e-05      0.44     170     327 ..     116     329 ..      86     331 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 8.3
+                TP.aln 11 airvPfGiiteiavrd 26
+                          ++++P Gi++ei v  
+  sp|C0QBU5|PDXA_DESAH 11 TMGDPVGIGPEIIVSA 26
+                          689********98654 PP
+
+  == domain 2  score: 15.0 bits;  conditional E-value: 4.5e-05
+                TP.aln 170 gevdhviavpserta.d.........Psllervlel.EdeVf..aagerlvkvtlqesv.saverlkpk.....avsdseltftllalp 239
+                           g+ +++  +p  +ta +           l+++  ++     +  +  +r+v+vt++    ++  rl+         + se   t  ++p
+  sp|C0QBU5|PDXA_DESAH 116 GKIQAIATCPITKTAmKlagskfhghTELIADRTHTpRVAMMmaGDRLRVVLVTIHIPLcEVSARLNQAeilatISLTSETLKTKFGIP 204
+                           55555555555555532444444444555555555544444433444567888888888888888866633321112244445666666 PP
+
+                TP.aln 240 k..........dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaG.......AaN.......................laav.l 287
+                           +          +  ed  ++ ++ ++++pA    ve+ + kg+ + g+         AaN                        + v +
+  sp|C0QBU5|PDXA_DESAH 205 EpriavaglnpHGGEDGMFGSEELEIIAPA----VEQARSKGITVSGPFPpdtlffnAANhkfdavvcmyhdqglipfkmihfSDGVnT 289
+                           68999999999*******************....**************95455666699999999999999999999999999555538 PP
+
+                TP.aln 288 elGgrvadssaGradetdvaGrgkAlrthlgqevrllaad 327
+                            lG     +s+ ++++ d+a rg A+   l   ++++a +
+  sp|C0QBU5|PDXA_DESAH 290 TLGLPIIRTSVDHGTAYDIAWRGTADPSSLIAAIKMAALQ 329
+                           89****************************9999987755 PP
+
+>> sp|Q1XDG7|FER_PYRYE  Ferredoxin OS=Pyropia yezoensis OX=2788 GN=petF PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.7   0.6   2.8e-05      0.27      32     100 ..      18      90 ..       9      98 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 2.8e-05
+               TP.aln  32 AfecAkekslikvalqa.vylpwSyrkq..GdlasvalekavksfnGmraelCamEq.....vllCGlslakDvPsi 100
+                           f+cA+   ++++a    ++lp+S+r +    +a+ + e+ v        ++   +q     vl C    ++D+ +i
+  sp|Q1XDG7|FER_PYRYE  18 TFNCAEDTYILDAAEEEgIELPYSCRAGacSTCAGKVTEGTVDQA---DQSFLDDDQllagyVLTCIAYPSSDC-TI 90 
+                          79***********88878********9988889999999886544...35555555555555666766777777.44 PP
+
+>> sp|O07824|NDOB_PSEFL  Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas fluorescens OX=294
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0   0.00058       5.7      16     105 ..      59     164 ..      53     210 .. 0.81
+   2 ?    2.3   0.0      0.34   3.3e+03     231     317 ..     325     424 ..     316     435 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00058
+                TP.aln  16 fGiiteiavrdadi.ikAfe..cAke.kslikv......alqavylpwSyrkqGdlasvalekavksfnGmraelCamEq...vllCGl 91 
+                            Gi + i  r +d  i+Af   c ++ k+l+++       + + y+ w +  +G+l sv +ek + + +  +  l  +E      + G 
+  sp|O07824|NDOB_PSEFL  59 MGIDEVIVSRQSDGsIRAFLnvCRHRgKTLVNAeagnakGFVCSYHGWGFGSNGELQSVPFEKELYGESLNKKCLGLKEVarvESFHGF 147
+                           68888888899**99****889887637899889999999************************8876655544444444444124444 PP
+
+                TP.aln  92 ...slakDvPsieerld 105
+                               + +  Ps  ++l+
+  sp|O07824|NDOB_PSEFL 148 iygCFDQEAPSLMDYLG 164
+                           44457778888888887 PP
+
+  == domain 2  score: 2.3 bits;  conditional E-value: 0.34
+                TP.aln 231 ltftllalpkdasedrkvrlkda..qltgpAgiksveddla.kglvqrgia.GAaNlaavlelG.......grvadssaGrad..etdv 306
+                             +t+  ++kd  ed k rl da     gpAg+    d+       q+g     +  + + +lG       + v    +G++   et+ 
+  sp|O07824|NDOB_PSEFL 325 EVWTYAIVEKDMPEDLKRRLADAvqRTFGPAGFWESDDNDNmETASQNGKKyQSRDSDLISNLGfgkdvygDAVYPGVVGKSAigETSY 413
+                           56899999999999999999998434679999976665544044455555544444444433322111111333344556543336777 PP
+
+                TP.aln 307 aGrgkAlrthl 317
+                           +G+++A++ h+
+  sp|O07824|NDOB_PSEFL 414 RGFYRAYQAHV 424
+                           89988888886 PP
+
+>> sp|O85987|PDXAL_NOVAR  Putative 4-hydroxythreonine-4-phosphate dehydrogenase OS=Novosphingobium aromaticivorans OX=48
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.0      0.63   6.2e+03       9      26 ..      13      30 ..       8      60 .. 0.76
+   2 ?   12.3   0.1   0.00029       2.9     282     325 ..     249     319 ..     160     323 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 0.63
+                 TP.aln  9 alairvPfGiiteiavrd 26
+                            + i++P Gi++e+avr 
+  sp|O85987|PDXAL_NOVAR 13 GTMIGDPAGIGPEVAVRA 30
+                           5789***********653 PP
+
+  == domain 2  score: 12.3 bits;  conditional E-value: 0.00029
+                 TP.aln 282 N...........................laavlelGgrvadssaGradetdvaGrgkAlrthlgqevrlla 325
+                                                        +++v+ +G      s+ ++++ d+ G gkA+   ++  +r+ +
+  sp|O85987|PDXAL_NOVAR 249 HciegrydmvlamfhdqghiavktwgfsGNSVIIMGPPYLHMSVAHGTAYDIVGTGKADAAMMLSAMRTCG 319
+                            033333344444555555555556666689*************************************9965 PP
+
+>> sp|Q89ZK3|PDXA_BACTN  4-hydroxythreonine-4-phosphate dehydrogenase OS=Bacteroides thetaiotaomicron (strain ATCC 29148
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.2   0.0   4.1e-05       0.4     209     323 ..     182     323 ..     164     327 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 4.1e-05
+                TP.aln 209 vtlqesvsaverlkpkavsdseltftllalpkdasedrkvrlkdaqltgpAgiksveddla...kglvqrgiaGAaN............ 282
+                             +qe   + +r + ++       +++l+l+++a ++ ++++++ +++ pA +k +e++     + ++ +g +G  N            
+  sp|Q89ZK3|PDXA_BACTN 182 ELIQEKLMIFHRCLKQDFGIGAPRIAVLSLNPHAGDGGLLGMEEQEIIIPA-MKEMEEKGIicyGPYAADGFMGSGNythfdgilamyh 269
+                           5555555666666666666666678899***********************.9999886431115689999999777888888888888 PP
+
+                TP.aln 283 ............laav.lelGgrvadssaGradetdvaGrgkAlrthlgqevrl 323
+                                        + v    G  v+ +s  ++++ d+aG+g A    + q + +
+  sp|Q89ZK3|PDXA_BACTN 270 dqglapfkalamEDGVnYTAGLPVVRTSPAHGTAYDIAGKGLASEDSFRQAIYV 323
+                           888888877776444414567778999********************9999866 PP
+
+>> sp|P51320|FER_PORPU  Ferredoxin OS=Porphyra purpurea OX=2787 GN=petF PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.5   0.2   3.3e-05      0.33      31      97 ..      17      88 ..       4      98 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 3.3e-05
+               TP.aln 31 kAfecAkekslikvalqa.vylpwSyrkq..GdlasvalekavksfnGmraelCamEq.....vllCGlslakDv 97
+                           f+c +   ++++a  a ++lp+S+r +    +a+ + e++v        ++   Eq     vl C     +D+
+  sp|P51320|FER_PORPU 17 VTFDCSEDTYILDAAEEAgIELPYSCRAGacSTCAGKVTEGSVDQS---DQSFLDDEQllkgyVLTCIAYPESDC 88
+                         3799***********************9988899999999986544...57788888877776667766777777 PP
+
+>> sp|B3E252|PDXA_TRIL1  4-hydroxythreonine-4-phosphate dehydrogenase OS=Trichlorobacter lovleyi (strain ATCC BAA-1151 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.3   0.0       1.4   1.4e+04       8      37 ..       8      36 ..       5      54 .. 0.73
+   2 ?   12.4   0.1   0.00027       2.7     160     325 ..     121     330 ..      96     333 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 0.3 bits;  conditional E-value: 1.4
+                TP.aln  8 lalairvPfGiiteiavrd.adiikAfecAk 37
+                           a+++++P G+++ei v   +d   A+++A 
+  sp|B3E252|PDXA_TRIL1  8 IAITMGDPCGVGPEIIVAAlSDP--AIRSAC 36
+                          7999***********96542444..555555 PP
+
+  == domain 2  score: 12.4 bits;  conditional E-value: 0.00027
+                TP.aln 160 alaearakedgevdhviavpsertadPsllervlelEdeVf...aagerlvkvtlqesvsaverlkpkavsdseltftllalpk..... 240
+                           a+a a++  +   ++  + p++      ll+++   ++ V+   +  +r+ +vt++e+   v  l + +    ++ +t  ++++     
+  sp|B3E252|PDXA_TRIL1 121 AMATAPISKEAMHRAGHHYPGHTE----LLAELCRCDEFVMmlaGDVLRVALVTIHEALAHVPALISTEQVLKTIRVTANGVAPlcgnr 205
+                           666666666666666666666543....6888888866666677778888999999999666666666444456677777777777778 PP
+
+                TP.aln 241 ...........dasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN.................................laa 285
+                                      ++ e+  ++ ++a+ + pA    +   +  gl + g+  A                                      
+  sp|B3E252|PDXA_TRIL1 206 spriavlalnpHCGEGGMFGSEEADAIIPA----ITAAQSEGLDVAGPFSADTffhfavqepapydavvamyhdqgliplkmrhfdD-G 289
+                           88888888888*******************....88899999999999997777888888888888888889999999999999742.3 PP
+
+                TP.aln 286 v.lelGgrvadssaGradetdvaGrgkAlrthlgqevrlla 325
+                           + + lG     +s+ ++++ ++aG g A  t +  ++r++a
+  sp|B3E252|PDXA_TRIL1 290 InITLGLPIIRTSVDHGTAYNLAGTGTASATSMKASIRIAA 330
+                           33789*********************************965 PP
+
+>> sp|A7IPX7|XAMOF_XANP2  Alkene monooxygenase system, ferredoxin--NAD(+) reductase component OS=Xanthobacter autotrophi
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.0   0.00013       1.3      32     170 ..       8     155 ..       2     167 .. 0.80
+   2 ?   -1.7   0.0       5.6   5.5e+04     243     269 ..     195     221 ..     189     227 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 0.00013
+                 TP.aln  32 AfecAkekslikvalqa.vylpwSyrkq..GdlasvalekavksfnGmraelCamEq.....vllCGlslakDvPsieerldPeirk. 110
+                             f c   ++++++al a +  p+ +  +  G +   +  ++v+        l a ++     +l C  + ++D+  i+ r +    + 
+  sp|A7IPX7|XAMOF_XANP2   8 SFSCRSDQTVLHAALAAgIDMPYECASGscGSCRCRLSHGSVSLLWPEAPGLSARDRqkgdrILACQSTPSSDL-EINVRAGDALLEp 94 
+                            699***********************999999999999999876544344444444445556999*********.7777777777666 PP
+
+                 TP.aln 111 ...rftaklyeNvkdaydvsllrlrltvfeaeklaagageivdqdglesvsyalaearakedg 170
+                               r +a++   vk++  +s++rl l v+   ++  g+  i+d+ g   + y++a+ +    g
+  sp|A7IPX7|XAMOF_XANP2  95 pprRHAARV--TVKETLCASVIRLVLNVGGPIHFLPGQFFILDLPGAGRRAYSVANLENAAGG 155
+                            665666666..3556666*************************************98776655 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 5.6
+                 TP.aln 243 sedrkvrlkdaqltgpAgiksveddla 269
+                            ++ ++  + +a++ g A++ s++ ++ 
+  sp|A7IPX7|XAMOF_XANP2 195 ADSARGIVAVAGGSGLAPMLSILRGAL 221
+                            5778888999***********998765 PP
+
+>> sp|A0QTU9|MIMB_MYCS2  Propane 2-monooxygenase, reductase component OS=Mycolicibacterium smegmatis (strain ATCC 700084
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.6   0.0   0.00012       1.2      39     205 ..      22     200 ..       5     213 .. 0.74
+   2 ?   -1.5   0.0       4.9   4.9e+04     240     290 ..     207     263 ..     196     268 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 0.00012
+                TP.aln  39 kslikvalqa.vylpwSyrkq..GdlasvalekavksfnGmraelCamEq.....vllCGlslakDvPsieerldPeirk......... 110
+                           + ++++a++  + l + +r +    + s +l++ ++  +   +  C+  +     vllC   + +D+    e l+ +  +         
+  sp|A0QTU9|MIMB_MYCS2  22 ENILDAAFRQgIHLMHGCREGrcSACKSYVLDGEIQMES-YSTFACNDAEvdegyVLLCRSHAFSDC--TIELLNFDEDEllggipiqd 107
+                           5678888866699*****9998899********986433.344445544446678************..55557776666666655543 PP
+
+                TP.aln 111 .rftaklyeNvkdaydvsllrlrltvfeaeklaaga...geivdqdglesvsyalaearakedgevdhviavpsertadPsllervlel 195
+                            r     ++ v+      ++ lrl   e +k++ +    +++      e++s+++a  +  +d     + + p+++++   ll + +++
+  sp|A0QTU9|MIMB_MYCS2 108 vRTQ---VQAVEP-KTRDIVSLRLKPIEPGKFDFKPgqyADLHIPGTDEHRSFSMATTQSRSDEVEFLIKKYPGGKFS--ALLDGHIQV 190
+                           3222...333333.34468888999999999887653466665566789*****************************..9**999999 PP
+
+                TP.aln 196 EdeVfaager 205
+                            de+  +g++
+  sp|A0QTU9|MIMB_MYCS2 191 GDEIALTGPY 200
+                           9998866654 PP
+
+  == domain 2  score: -1.5 bits;  conditional E-value: 4.9
+                TP.aln 240 kdasedrkvrlkdaqltgpAgiksveddlakglvqrgia...GAaN......laavlelG 290
+                           +      ++ ++  ++ g A+i s++  +      r      GA+       l+ +lelG
+  sp|A0QTU9|MIMB_MYCS2 207 D---GHVLPVVCIGGGAGMAPILSLLRHMNETENSRPARfyyGARTpadlfyLDEILELG 263
+                           5...55677889999999****99998877766666554555777766666677777776 PP
+
+>> sp|Q89MT9|PDXA_BRADU  4-hydroxythreonine-4-phosphate dehydrogenase OS=Bradyrhizobium diazoefficiens (strain JCM 10833
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.0         2   1.9e+04       8      24 ..       9      25 ..       5      87 .. 0.76
+   2 ?   12.1   0.0   0.00035       3.5     205     323 ..     175     336 ..     159     341 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 2
+                TP.aln  8 lalairvPfGiiteiav 24
+                          lal++++P Gi+++i +
+  sp|Q89MT9|PDXA_BRADU  9 LALTLGEPAGIGPDITI 25
+                          79999*********994 PP
+
+  == domain 2  score: 12.1 bits;  conditional E-value: 0.00035
+                TP.aln 205 rlvkvtlqesv.saverlkpk......avsdseltftllalpk................dasedrkvrlkdaqltgpAgiksveddlak 270
+                            +v vt++ s   a+ +l ++       + + el+                        +a ed  ++ ++  +++pA    +++++  
+  sp|Q89MT9|PDXA_BRADU 175 AVVPVTIHVSLrDALSQLTSElivstvRIVATELK-------SrfgiarpriavsglnpHAGEDGSLGHEEQTIIAPA----LKTLRND 252
+                           56778888888888888877754432222222222.......12233336677777777*******************....9999999 PP
+
+                TP.aln 271 glvqrgiaGAaN...............................laavlelGgrvadssaGradetdvaGrgkAlrthlgqevrl 323
+                           g+  rg+  A                                  a  + lG     +s  ++++ d+aG gkA    l   ++l
+  sp|Q89MT9|PDXA_BRADU 253 GIDARGPLPADTmfheaarssydcavcmyhdqalipiktvafdDAVNVTLGLPFIRTSPDHGTAFDIAGTGKANPASLIAALEL 336
+                           *******985555555555566666666666666666666653555689************************99888777766 PP
+
+>> sp|B2V9E6|PDXA_SULSY  4-hydroxythreonine-4-phosphate dehydrogenase OS=Sulfurihydrogenibium sp. (strain YO3AOP1) OX=43
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.0     0.082   8.1e+02       7      72 ..       3      60 ..       1      70 [. 0.71
+   2 ?    8.2   0.0    0.0054        53     209     315 ..     174     305 ..     153     315 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 4.3 bits;  conditional E-value: 0.082
+                TP.aln  7 rlalairvPfGiiteiavrdadiikAfecAkekslikvalqavylpw.SyrkqGdlasvale.kavks 72
+                          +la+++++P Gi+ ei       +kA++  +++ +  v    +y++  + +k  +l++v l+ k +ks
+  sp|B2V9E6|PDXA_SULSY  3 KLAITLGDPSGINSEIL------LKALNKLPKRNISYV----IYGSKkALEKAKKLTGVDLNiKEIKS 60
+                          799**************......999998888888777....66543133445666666665445555 PP
+
+  == domain 2  score: 8.2 bits;  conditional E-value: 0.0054
+                TP.aln 209 vtlqesvsaverlkpkavsdseltftllalpkdasedrkvrlkdaqltgpAgiksveddlakglvqrgia...GAaN............ 282
+                            +++  v++++r   +    s+ ++++l+l+++as++  ++ ++ +++ pA    v++++  g+   ++     A N            
+  sp|B2V9E6|PDXA_SULSY 174 EKIISKVRLINREFKEKFGISKPKIAILGLNPHASDNGNIGNEEQNIILPA----VKTLREDGIEITDPLspdTAFNrykdfdiyvamy 258
+                           555555555544444455556677899************************....9999999999999985555777888888888888 PP
+
+                TP.aln 283 ..............laavlelGgrvadssaGradetdvaGrgkAlrt 315
+                                          a  + lG     +s  +++  d+aG+  A+  
+  sp|B2V9E6|PDXA_SULSY 259 hdqgliplkllcfrKAVNITLGLPFIRTSPDHGTGYDIAGKNIADPS 305
+                           88888888888886777789999999999999999999999988765 PP
+
+>> sp|Q9A7N4|PDXA_CAUVC  4-hydroxythreonine-4-phosphate dehydrogenase OS=Caulobacter vibrioides (strain ATCC 19089 / CIP
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.0       8.6   8.5e+04       6      23 ..       4      21 ..       2      47 .. 0.76
+   2 ?   13.0   0.2   0.00018       1.8     205     325 ..     178     325 ..     140     328 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 8.6
+                TP.aln  6 rrlalairvPfGiiteia 23
+                          r la++ ++P G++ ei 
+  sp|Q9A7N4|PDXA_CAUVC  4 RPLAISAGDPAGVGAEII 21
+                          568999999999999997 PP
+
+  == domain 2  score: 13.0 bits;  conditional E-value: 0.00018
+                TP.aln 205 rlvkvtlqesvsaverlkpkavsdseltftllalpkdasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN........... 282
+                            l    +++s  +  + + k+   +e   ++ al+++a e+  ++ ++ ++++pA    ve ++a g+   g+a A             
+  sp|Q9A7N4|PDXA_CAUVC 178 ALTTEAIINSGLVTAQALRKDFGIAEPRLAVAALNPHAGEGGALGREEIDIIAPA----VEALRALGVQASGPAPADTlfhpeararyd 262
+                           455566677765555666777777778888889999*******************....***************988888888888999 PP
+
+                TP.aln 283 ....................laavlelGgrvadssaGradetdvaGrgkAlrthlgqevrlla 325
+                                               +   + lG   + +s  +++  d+aGrg A    l   ++l+a
+  sp|Q9A7N4|PDXA_CAUVC 263 gvlcmyhdqalipvkmldfwGGVNITLGLPIVRTSPDHGTGFDIAGRGIARPDSLIAAIQLAA 325
+                           999999999*******9999888899*****************************99999965 PP
+
+>> sp|P45154|Y1309_HAEIN  Uncharacterized ferredoxin-like protein HI_1309 OS=Haemophilus influenzae (strain ATCC 51907 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.0   0.00014       1.4      37      97 ..      16      78 ..       3      81 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 0.00014
+                 TP.aln 37 kekslikvalqa..vylpwSyrkq..GdlasvalekavksfnGmraelCamEqvllCGlslakDv 97
+                           +e sl++  l    + + + +r +  G +  v + k+  s+  m+  + + +++llC + + +D+
+  sp|P45154|Y1309_HAEIN 16 NETSLLDH-LEKnnIHHEYQCRSGycGSC-RVKIKKGKVSYKEMPLAFIQPDEILLCCCHVESDI 78
+                           67788887.43336******999986665.577888889***********999***********9 PP
+
+>> sp|Q89NF3|PDXA2_BRADU  Putative D-threonate 4-phosphate dehydrogenase OS=Bradyrhizobium diazoefficiens (strain JCM 10
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.5   0.0     0.071     7e+02       5      25 ..       3      23 ..       1      37 [. 0.90
+   2 ?    6.1   0.0     0.023   2.2e+02     188     322 ..     141     331 ..      90     339 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 4.5 bits;  conditional E-value: 0.071
+                 TP.aln  5 qrrlalairvPfGiiteiavr 25
+                            r+la+++++P Gi++ei v+
+  sp|Q89NF3|PDXA2_BRADU  3 SRHLAITMGDPAGIGPEIIVK 23
+                           69****************876 PP
+
+  == domain 2  score: 6.1 bits;  conditional E-value: 0.023
+                 TP.aln 188 llervlelEdeVf..aag.erlvkvtlqesv.saverlkpk......avsdseltftllalpk..........dasedrkvrlkdaql 255
+                            +l+++ ++   V+  a g  r+ +v ++ +   + +rl p+      +    +     l+++k          +a e+ +++ +d ++
+  sp|Q89NF3|PDXA2_BRADU 141 MLAHLTGVRGSVMllAHGnMRVSHVSTHVALeDVPKRLTPErlrmviD--LTNDALRRLGIAKpkiavaalnpHAGEGGLFGRQDIDV 226
+                            555555555555555333145556666666666666666665553221..11122223333334455555555888888888888888 PP
+
+                 TP.aln 256 tgpAgiksveddl.akglvqrgiaG.............AaN.........................laavlelGgrvadssaGradet 304
+                             +p   k+v d+l + g v  + +                                              + lG     +s+ ++++ 
+  sp|Q89NF3|PDXA2_BRADU 227 SAPTIAKAVADGLdVIGPVPGDTIFvklragqfdaavaM-YhdqghipvkllgfqvdpatgrwqelSGVNITLGLPIIRTSVDHGTAF 313
+                            888866777766523344433333144444466554440.044444444444444455555555533344889999999********* PP
+
+                 TP.aln 305 dvaGrgkAlrthlgqevr 322
+                            d+aG+g A    l   + 
+  sp|Q89NF3|PDXA2_BRADU 314 DIAGKGIANEHSLIEAID 331
+                            ********9998877665 PP
+
+>> sp|Q2JKQ8|PDXA_SYNJB  4-hydroxythreonine-4-phosphate dehydrogenase OS=Synechococcus sp. (strain JA-2-3B'a(2-13)) OX=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.8   0.0     0.014   1.4e+02       1      53 [.       1      51 [.       1     115 [. 0.84
+   2 ?    4.2   0.0     0.087   8.6e+02     294     325 ..     301     332 ..     261     336 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 6.8 bits;  conditional E-value: 0.014
+                TP.aln  1 esivqrrlalairvPfGiiteiavrdadiikAfe......cAkekslikvalqavylpw 53
+                          +si + +lal++++P Gi++ei       +kA+       cA+   + +   q+++ ++
+  sp|Q2JKQ8|PDXA_SYNJB  1 MSIPRPKLALTLGDPAGIGPEIV------LKALAdpevqsCAHITVVGDR--QVLEATY 51
+                          5777889****************......666655555568887766666..6666665 PP
+
+  == domain 2  score: 4.2 bits;  conditional E-value: 0.087
+                TP.aln 294 adssaGradetdvaGrgkAlrthlgqevrlla 325
+                           + +s  ++++ d+aG g+A    l q + l+a
+  sp|Q2JKQ8|PDXA_SYNJB 301 VRTSPDHGTAFDIAGQGVARCESLKQAILLAA 332
+                           6677889*******************998866 PP
+
+>> sp|Q4UV65|MSBA_XANC8  ATP-dependent lipid A-core flippase OS=Xanthomonas campestris pv. campestris (strain 8004) OX=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.0   0.00063       6.2     146     241 ..      86     187 ..      80     241 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00063
+                TP.aln 146 geivdqdglesvsyalaearakedgevdhviavpsertad...PsllervlelEdeVfaagerlvkvtlqesvsaverlkpkavsdsel 231
+                           g i+d ++++s  +  ++ r k  ++    +++p+ r+     Ps+l r+    d+V  a    vkv +q+s +++  l      + ++
+  sp|Q4UV65|MSBA_XANC8  86 GYITDMAMGKSARSIARDLRVKVMSK---YLRLPGSRFDSepvPSMLIRLGSDSDQVAQAAVDAVKVMIQQSLQVIGALALMLWHSWQV 171
+                           77899999999999999998886665...5789****994477*******999********************9999998778888889 PP
+
+                TP.aln 232 tftllalpk......d 241
+                           t t+l l++      d
+  sp|Q4UV65|MSBA_XANC8 172 TLTILVLAPvlawvmD 187
+                           9999888875555551 PP
+
+>> sp|Q8P8W4|MSBA_XANCP  ATP-dependent lipid A-core flippase OS=Xanthomonas campestris pv. campestris (strain ATCC 33913
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.0   0.00063       6.2     146     241 ..      86     187 ..      80     241 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00063
+                TP.aln 146 geivdqdglesvsyalaearakedgevdhviavpsertad...PsllervlelEdeVfaagerlvkvtlqesvsaverlkpkavsdsel 231
+                           g i+d ++++s  +  ++ r k  ++    +++p+ r+     Ps+l r+    d+V  a    vkv +q+s +++  l      + ++
+  sp|Q8P8W4|MSBA_XANCP  86 GYITDMAMGKSARSIARDLRVKVMSK---YLRLPGSRFDSepvPSMLIRLGSDSDQVAQAAVDAVKVMIQQSLQVIGALALMLWHSWQV 171
+                           77899999999999999998886665...5789****994477*******999********************9999998778888889 PP
+
+                TP.aln 232 tftllalpk......d 241
+                           t t+l l++      d
+  sp|Q8P8W4|MSBA_XANCP 172 TLTILVLAPvlawvmD 187
+                           9999888875555551 PP
+
+>> sp|P13106|FER_BUMFI  Ferredoxin OS=Bumilleriopsis filiformis OX=2835 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.1   0.00025       2.5      30      72 ..      14      60 ..       4      94 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00025
+               TP.aln 30 ikAfe.cAkekslikval.qavylpwSyrkq..Gdlasvalekavks 72
+                         i+A   c   + ++++a  q ++lp+S+r +    +a+ +l + +  
+  sp|P13106|FER_BUMFI 14 INAVIkCPDDQFILDAAEeQGIELPYSCRAGacSTCAGKVLSGTIDQ 60
+                         566555999999998865267********999889999999998754 PP
+
+>> sp|P00241|FER3_CYACA  Ferredoxin OS=Cyanidium caldarium OX=2771 GN=PETF PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.0   0.00026       2.5      24      72 ..       7      60 ..       2      84 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.00026
+                TP.aln 24 vrdadi.i.kAfecAkekslikval.qavylpwSyrkq..Gdlasvalekavks 72
+                          + + d+ i + +ec   + ++++a  q + lp+S+r +    +a+ +le+ v  
+  sp|P00241|FER3_CYACA  7 LVNKDQgIdETIECPDDQYILDAAEeQGLDLPYSCRAGacSTCAGKLLEGEVDQ 60
+                          5555555424678999999998865266*********99899********9864 PP
+
+>> sp|P00242|FER_PORUM  Ferredoxin OS=Porphyra umbilicalis OX=2786 GN=PETF PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.2   0.00027       2.7      32      97 ..      17      87 ..       5      97 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00027
+               TP.aln 32 AfecAkekslikvalqa.vylpwSyrkq..GdlasvalekavksfnGmraelCamEq.....vllCGlslakDv 97
+                          f+c +   ++++a    ++lp+S+r +    +a+ + e+ v        ++   Eq     vl C     +D+
+  sp|P00242|FER_PORUM 17 TFDCSEDTYILDAAEEEgIELPYSCRAGacSTCAGKVTEGTVDQS---DQSFLDDEQmlkgyVLTCIAYPESDC 87
+                         799999999999988777********9988899999999996554...46788888877776666766667777 PP
+
+>> sp|Q8PKS5|MSBA_XANAC  ATP-dependent lipid A-core flippase OS=Xanthomonas axonopodis pv. citri (strain 306) OX=190486 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0   0.00055       5.5     146     241 ..      86     198 ..      80     297 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00055
+                TP.aln 146 geivdqdglesvsyalaearakedgevdhviavpsertad...PsllervlelEdeVfaagerlvkvtlqesvsaverlkpkavsdsel 231
+                           g i+d ++++s  +  ++ r+k      + +++p+ r+     Ps+l r+    d+V  a    vkv +q+s +++  l      + ++
+  sp|Q8PKS5|MSBA_XANAC  86 GYITDMAMGKSARSIARDLRIKVM---AKYLRLPGSRFDSepvPSMLIRLGSDSDQVAQAAVDAVKVMIQQSLQVIGALALMLWHSWQV 171
+                           678899999999999999998754...556899*****94477*******999********************9999998888888999 PP
+
+                TP.aln 232 tftllalpk.................d 241
+                           t t+l l++                 +
+  sp|Q8PKS5|MSBA_XANAC 172 TLTILVLAPvlawvmdkvarryrrisH 198
+                           999999988666666444444444442 PP
+
+>> sp|P15789|FER2_CYACA  Ferredoxin OS=Cyanidium caldarium OX=2771 GN=PETF PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.4    0.0004       3.9      33      97 ..      17      86 ..       7      95 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.0004
+                TP.aln 33 fecAkekslikva.lqavylpwSyrkq..GdlasvalekavksfnGmraelCamEq.....vllCGlslakDv 97
+                          ++c   + ++++a  q v lp+S+r +    +a+ ++ ++v        ++  +Eq     +l C    ++D+
+  sp|P15789|FER2_CYACA 17 INCPGDQYILDAAeEQGVDLPYSCRAGacSTCAGKLVKGSVDQ---SDQSFLDEEQinngfILTCVAYPTSDC 86
+                          56666777777751577*******9998778888888887554...468999999999988778888889998 PP
+
+>> sp|Q9JK45|KCNQ5_MOUSE  Potassium voltage-gated channel subfamily KQT member 5 OS=Mus musculus OX=10090 GN=Kcnq5 PE=1 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0   0.00058       5.7     164     208 ..     579     623 ..     546     689 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00058
+                 TP.aln 164 arakedgevdhviavpsertadPsllervlelEdeVfaagerlvk 208
+                             ++ +d++ ++ i  ++e t dPs+l+rv+++E +V +   +l+ 
+  sp|Q9JK45|KCNQ5_MOUSE 579 GQMTSDKKSREKITAEHETTDDPSMLARVVKVEKQVQSIESKLDC 623
+                            567889999999999**********************98888764 PP
+
+>> sp|B1ZAJ4|PDXA_METPB  4-hydroxythreonine-4-phosphate dehydrogenase OS=Methylorubrum populi (strain ATCC BAA-705 / NCI
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.0   0.0       0.2     2e+03       6      31 ..       6      25 ..       4     122 .. 0.80
+   2 ?    6.8   0.0     0.014   1.4e+02     237     323 ..     217     330 ..     204     335 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 3.0 bits;  conditional E-value: 0.2
+                TP.aln  6 rrlalairvPfGiiteiavrdadiik 31
+                          r lal++++P Gi++eia      ++
+  sp|B1ZAJ4|PDXA_METPB  6 RPLALTLGDPSGIGPEIA------LA 25
+                          5689*************9......33 PP
+
+  == domain 2  score: 6.8 bits;  conditional E-value: 0.014
+                TP.aln 237 alpkdasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN...............................laavlelGgrva 294
+                           +l+++a e   ++ +d ++ +pA    v  ++a g+  rg+  A                                     + lG   +
+  sp|B1ZAJ4|PDXA_METPB 217 GLNPHAGESGTMGTEDRDVLAPA----VAALRAEGIDIRGPLPADTlfheraratydvalapthdqalipiktlafdEGVNVTLGLPFV 301
+                           89999******************....999******999999855555555555666666666666666666666546666889***** PP
+
+                TP.aln 295 dssaGradetdvaGrgkAlrthlgqevrl 323
+                            +s  ++++ d+aG+g+A+   l   +rl
+  sp|B1ZAJ4|PDXA_METPB 302 RTSPDHGTAFDIAGKGVAKPDSLIAALRL 330
+                           ******************99888877766 PP
+
+>> sp|Q984S6|PDXA_RHILO  4-hydroxythreonine-4-phosphate dehydrogenase OS=Mesorhizobium japonicum (strain LMG 29417 / CEC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.4   0.0     0.039   3.8e+02       7      34 ..       7      28 ..       3      44 .. 0.86
+   2 ?    4.7   0.1     0.061   6.1e+02     236     322 ..     214     327 ..     182     334 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 5.4 bits;  conditional E-value: 0.039
+                TP.aln  7 rlalairvPfGiiteiavrdadiikAfe 34
+                           lal++++P Gi++eia      i+Af 
+  sp|Q984S6|PDXA_RHILO  7 ALALSVGDPSGIGPEIA------IAAFL 28
+                          589**************......78885 PP
+
+  == domain 2  score: 4.7 bits;  conditional E-value: 0.061
+                TP.aln 236 lalpkdasedrkvrlkdaqltgpAgiksveddlakglvqrgiaGAaN...............................laavlelGgrv 293
+                            +l+++a e+  ++l+d  ++ pA    v  ++a g+   g+  A                                  a  + lG   
+  sp|Q984S6|PDXA_RHILO 214 AGLNPHAGEGGSLGLEDEHIVRPA----VDILRAEGIDAFGPLAADTlfhararagydaalcmyhdqalipaktlafdDAVNVTLGLPF 298
+                           57899*******************....888888888888888744444444455666666666666666666666535555899*9** PP
+
+                TP.aln 294 adssaGradetdvaGrgkAlrthlgqevr 322
+                             +s  ++++ d+aG+g A    l   ++
+  sp|Q984S6|PDXA_RHILO 299 IRTSPDHGTAFDIAGKGIARPDSLIAALK 327
+                           *****************998877765555 PP
+
+>> sp|Q2JSC8|PDXA_SYNJA  4-hydroxythreonine-4-phosphate dehydrogenase OS=Synechococcus sp. (strain JA-3-3Ab) OX=321327 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.9   0.0     0.014   1.3e+02       2      59 ..       2      58 ..       1      74 [. 0.75
+   2 ?    2.9   0.0      0.22   2.2e+03     289     325 ..     296     332 ..     263     335 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 6.9 bits;  conditional E-value: 0.014
+                TP.aln  2 sivqrrlalairvPfGiiteiavrdadiikAfe......cAkekslikvalqavylpwSyrkq.G 59
+                          s++  +lal++++P Gi++ei       +kA+       cA+   + +   q+++ ++   +q G
+  sp|Q2JSC8|PDXA_SYNJA  2 SLLLPKLALTLGDPAGIGPEIV------LKALAdpqvqaCAQITVVGER--QVLEATYCLLRQrG 58
+                          5666789***************......666655555557777666666..88999998877743 PP
+
+  == domain 2  score: 2.9 bits;  conditional E-value: 0.22
+                TP.aln 289 lGgrvadssaGradetdvaGrgkAlrthlgqevrlla 325
+                           lG     +s  ++++ d+aG g+A    l q + l+a
+  sp|Q2JSC8|PDXA_SYNJA 296 LGLPFIRTSPDHGTAFDLAGQGVARAESLKQAILLAA 332
+                           666666778889*******************998854 PP
+
+>> sp|P00225|FER_LEULE  Ferredoxin OS=Leucaena leucocephala OX=3866 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0    0.0005       4.9      33     101 ..      15      87 ..       8      95 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.0005
+               TP.aln  33 fecAkekslikvalqa.vylpwSyrkq..GdlasvalekavksfnGmraelCamEq.....vllCGlslakDvPsie 101
+                          fec     ++++a    ++lp+S+r +    +a+ ++e+ +   +    ++   Eq     vl C     +Dv  ie
+  sp|P00225|FER_LEULE  15 FECPDDVYILDQAEELgIELPYSCRAGscSSCAGKLVEGDL---DQSDQSFLDDEQieegwVLTCAAYPRSDV-VIE 87 
+                          77777777788877777********9998899999999994...44467788888888888888998888888.444 PP
+
+>> sp|P0A110|NDOB_PSEPU  Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas putida OX=303 GN=n
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.9   0.0    0.0067        66      16      73 ..      59     126 ..      54     167 .. 0.81
+   2 ?    1.3   0.0      0.66   6.5e+03     231     317 ..     325     424 ..     317     435 .. 0.57
+
+  Alignments for each domain:
+  == domain 1  score: 7.9 bits;  conditional E-value: 0.0067
+                TP.aln  16 fGiiteiavrdadi.ikAfe..cAke.kslikv......alqavylpwSyrkqGdlasvalekavksf 73 
+                            Gi + i  r  d  i+Af   c ++ k+l++v       + + y+ w +  +G+l sv +ek + + 
+  sp|P0A110|NDOB_PSEPU  59 MGIDEVIVSRQNDGsIRAFLnvCRHRgKTLVSVeagnakGFVCSYHGWGFGSNGELQSVPFEKDLYGE 126
+                           5777777778888889**9889887537999999999999***********************97654 PP
+
+  == domain 2  score: 1.3 bits;  conditional E-value: 0.66
+                TP.aln 231 ltftllalpkdasedrkvrlkda..qltgpAgiksveddlak.glvqrgia.GAaN..laavlelG.....grvadssaGrad..etdv 306
+                             +t+  ++kd  ed k rl d+     gpAg+    d+       q+g     +   l + l +G     + v    +G++   et+ 
+  sp|P0A110|NDOB_PSEPU 325 EVWTYAIVEKDMPEDLKRRLADSvqRTFGPAGFWESDDNDNMeTASQNGKKyQSRDsdLLSNLGFGedvygDAVYPGVVGKSAigETSY 413
+                           45888889999999999999887434678999876655544404445554433333222222223310000223333445542226677 PP
+
+                TP.aln 307 aGrgkAlrthl 317
+                           +G+++A++ h+
+  sp|P0A110|NDOB_PSEPU 414 RGFYRAYQAHV 424
+                           88888888886 PP
+
+>> sp|P0A111|NDOB_PSEU8  Naphthalene 1,2-dioxygenase system, large oxygenase component OS=Pseudomonas sp. (strain C18) O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.9   0.0    0.0067        66      16      73 ..      59     126 ..      54     167 .. 0.81
+   2 ?    1.3   0.0      0.66   6.5e+03     231     317 ..     325     424 ..     317     435 .. 0.57
+
+  Alignments for each domain:
+  == domain 1  score: 7.9 bits;  conditional E-value: 0.0067
+                TP.aln  16 fGiiteiavrdadi.ikAfe..cAke.kslikv......alqavylpwSyrkqGdlasvalekavksf 73 
+                            Gi + i  r  d  i+Af   c ++ k+l++v       + + y+ w +  +G+l sv +ek + + 
+  sp|P0A111|NDOB_PSEU8  59 MGIDEVIVSRQNDGsIRAFLnvCRHRgKTLVSVeagnakGFVCSYHGWGFGSNGELQSVPFEKDLYGE 126
+                           5777777778888889**9889887537999999999999***********************97654 PP
+
+  == domain 2  score: 1.3 bits;  conditional E-value: 0.66
+                TP.aln 231 ltftllalpkdasedrkvrlkda..qltgpAgiksveddlak.glvqrgia.GAaN..laavlelG.....grvadssaGrad..etdv 306
+                             +t+  ++kd  ed k rl d+     gpAg+    d+       q+g     +   l + l +G     + v    +G++   et+ 
+  sp|P0A111|NDOB_PSEU8 325 EVWTYAIVEKDMPEDLKRRLADSvqRTFGPAGFWESDDNDNMeTASQNGKKyQSRDsdLLSNLGFGedvygDAVYPGVVGKSAigETSY 413
+                           45888889999999999999887434678999876655544404445554433333222222223310000223333445542226677 PP
+
+                TP.aln 307 aGrgkAlrthl 317
+                           +G+++A++ h+
+  sp|P0A111|NDOB_PSEU8 414 RGFYRAYQAHV 424
+                           88888888886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (329 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     12932  (0.0225429); expected 11473.2 (0.02)
+Passed bias filter:                    10257  (0.0178799); expected 11473.2 (0.02)
+Passed Vit filter:                       779  (0.00135794); expected 573.7 (0.001)
+Passed Fwd filter:                        58  (0.000101105); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              58  [number of targets reported over threshold]
+# CPU time: 4.69u 0.20s 00:00:04.89 Elapsed: 00:00:01.71
+# Mc/sec: 39857.61
+//
+[ok]

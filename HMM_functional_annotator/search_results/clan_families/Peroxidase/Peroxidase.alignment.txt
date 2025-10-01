@@ -1,0 +1,1621 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Peroxidase.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Peroxidase/Peroxidase.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Peroxidase/Peroxidase.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Peroxidase.aln  [M=387]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+   1.5e-215  720.3   9.9   1.6e-215  720.2   9.9    1.0  1  sp|P19136|PEM4_PHACH   Manganese peroxidase H4 OS=Phanerodont
+   7.8e-211  704.8  11.1   8.7e-211  704.6  11.1    1.0  1  sp|Q02567|PEM1_PHACH   Manganese peroxidase 1 OS=Phanerodonti
+   3.9e-200  669.5  11.1   4.4e-200  669.4  11.1    1.0  1  sp|P78733|PEM3_PHACH   Manganese peroxidase H3 OS=Phanerodont
+   1.8e-182  611.4  15.0   2.2e-182  611.1  15.0    1.0  1  sp|Q70LM3|PEM2_PHLRA   Manganese peroxidase 2 OS=Phlebia radi
+   1.5e-108  368.0   5.7   1.8e-108  367.7   5.7    1.0  1  sp|Q9UVP6|VPS1_PLEER   Versatile peroxidase VPS1 OS=Pleurotus
+    1.5e-99  338.4   4.1    1.8e-99  338.1   4.1    1.0  1  sp|P11542|LIG4_PHACH   Ligninase H2 OS=Phanerodontia chrysosp
+      2e-99  338.0   7.7    2.4e-99  337.7   7.7    1.0  1  sp|Q96TS6|PEM3_PHLRA   Manganese peroxidase 3 OS=Phlebia radi
+    1.5e-98  335.1   7.6    1.7e-98  334.9   7.6    1.0  1  sp|Q9UR19|VPL1_PLEER   Versatile peroxidase VPL1 OS=Pleurotus
+    2.6e-98  334.3   7.0    3.1e-98  334.1   7.0    1.0  1  sp|O94753|VPL2_PLEER   Versatile peroxidase VPL2 OS=Pleurotus
+    2.7e-96  327.7   5.9    3.2e-96  327.4   5.9    1.0  1  sp|P50622|LIG6_PHACH   Ligninase LG6 OS=Phanerodontia chrysos
+    1.6e-94  321.8   5.3      2e-94  321.5   5.3    1.0  1  sp|P11543|LIG5_PHACH   Ligninase LG5 OS=Phanerodontia chrysos
+    3.9e-94  320.5   3.1    4.7e-94  320.3   3.1    1.0  1  sp|P06181|LIG8_PHACH   Ligninase H8 OS=Phanerodontia chrysosp
+    1.4e-93  318.8   4.0    1.6e-93  318.5   4.0    1.0  1  sp|P31838|LIGB_PHACH   Ligninase B OS=Phanerodontia chrysospo
+    3.9e-92  314.0   4.3    4.7e-92  313.7   4.3    1.0  1  sp|P31837|LIGA_PHACH   Ligninase A OS=Phanerodontia chrysospo
+    1.8e-91  311.8   4.1    2.2e-91  311.5   4.1    1.0  1  sp|P21764|LIG3_PHACH   Ligninase LG3 OS=Phanerodontia chrysos
+    4.2e-91  310.6   4.8    5.1e-91  310.3   4.8    1.0  1  sp|P49012|LIG2_PHACH   Ligninase LG2 OS=Phanerodontia chrysos
+    1.6e-89  305.3   5.8      2e-89  305.1   5.8    1.0  1  sp|P20010|LIG_PHLRA    Ligninase-3 OS=Phlebia radiata OX=5308
+    6.1e-88  300.2   4.4    7.3e-88  299.9   4.4    1.0  1  sp|P20013|LIGC_TRAVE   Ligninase C OS=Trametes versicolor OX=
+    1.2e-80  276.1   1.0    1.3e-80  276.0   1.0    1.0  1  sp|P28314|PER_COPCI    Peroxidase OS=Coprinopsis cinerea OX=5
+    5.2e-80  274.1   0.9    5.6e-80  274.0   0.9    1.0  1  sp|P28313|PER_ARTRA    Peroxidase OS=Arthromyces ramosus OX=5
+    5.5e-80  274.0   0.9    5.9e-80  273.9   0.9    1.0  1  sp|A8NK72|PER_COPC7    Peroxidase OS=Coprinopsis cinerea (str
+    1.6e-67  232.9   0.1    2.1e-67  232.6   0.1    1.0  1  sp|C0IW58|LNP_TAICA    Low-redox potential peroxidase OS=Taiw
+    1.2e-10   45.8   0.0      2e-10   45.0   0.0    1.3  1  sp|Q7XZP5|APX5_ARATH   L-ascorbate peroxidase 5, peroxisomal 
+    2.7e-09   41.2   0.0    1.3e-08   39.0   0.0    1.7  2  sp|P48534|APX1_PEA     L-ascorbate peroxidase, cytosolic OS=P
+    6.4e-09   40.0   0.0    8.3e-09   39.6   0.0    1.1  1  sp|Q0JEQ2|APX3_ORYSJ   Probable L-ascorbate peroxidase 3, per
+    2.1e-08   38.3   0.0    2.8e-08   37.9   0.0    1.1  1  sp|Q01MI9|APX3_ORYSI   Probable L-ascorbate peroxidase 3 OS=O
+    2.5e-08   38.1   0.0    3.3e-08   37.7   0.0    1.1  1  sp|Q6ZJJ1|APX4_ORYSJ   Probable L-ascorbate peroxidase 4, per
+    3.1e-08   37.8   0.0    3.7e-08   37.5   0.0    1.0  1  sp|Q59X94|CCPR2_CANAL  Putative heme-binding peroxidase OS=Ca
+    1.4e-07   35.6   0.0    2.6e-07   34.7   0.0    1.4  2  sp|A2XFC7|APX1_ORYSI   L-ascorbate peroxidase 1, cytosolic OS
+    1.7e-07   35.4   0.0    2.6e-07   34.7   0.0    1.3  1  sp|Q10N21|APX1_ORYSJ   L-ascorbate peroxidase 1, cytosolic OS
+    2.9e-07   34.6   0.0    6.2e-07   33.5   0.0    1.4  2  sp|Q9FE01|APX2_ORYSJ   L-ascorbate peroxidase 2, cytosolic OS
+    5.2e-07   33.7   0.0      7e-07   33.3   0.0    1.1  1  sp|Q42564|APX3_ARATH   L-ascorbate peroxidase 3 OS=Arabidopsi
+    5.7e-07   33.6   0.0    7.2e-07   33.3   0.0    1.1  1  sp|Q4WLG9|CCPR2_ASPFU  Putative heme-binding peroxidase OS=As
+    1.2e-06   32.5   0.0    1.6e-06   32.1   0.0    1.0  1  sp|Q5B1Z0|CCPR2_EMENI  Putative heme-binding peroxidase OS=Em
+    1.7e-06   32.1   0.0    2.7e-06   31.4   0.0    1.3  1  sp|Q05431|APX1_ARATH   L-ascorbate peroxidase 1, cytosolic OS
+      2e-06   31.8   0.0    2.9e-06   31.3   0.0    1.2  1  sp|A4R606|CCPR2_PYRO7  Putative heme-binding peroxidase OS=Py
+    2.6e-06   31.4   0.1    1.1e-05   29.3   0.1    1.8  1  sp|Q6C0Z6|CCPR_YARLI   Cytochrome c peroxidase, mitochondrial
+    2.8e-06   31.3   0.0    3.5e-06   31.0   0.0    1.1  1  sp|Q4PD66|CCPR2_MYCMD  Putative heme-binding peroxidase OS=My
+    3.8e-06   30.9   0.0    5.4e-06   30.4   0.0    1.1  1  sp|Q4HWQ2|CCPR2_GIBZE  Putative heme-binding peroxidase OS=Gi
+    4.3e-06   30.7   0.0    5.6e-06   30.3   0.0    1.2  1  sp|Q4WPF8|CCPR_ASPFU   Cytochrome c peroxidase, mitochondrial
+    5.5e-06   30.3   0.0    7.4e-06   29.9   0.0    1.2  1  sp|Q6C7U1|CCPR3_YARLI  Putative heme-binding peroxidase OS=Ya
+    9.4e-06   29.6   0.0    3.7e-05   27.6   0.0    1.7  1  sp|Q5AEN1|CCPR_CANAL   Cytochrome c peroxidase, mitochondrial
+    2.4e-05   28.3   0.0    2.9e-05   28.0   0.0    1.1  1  sp|P0C0V3|CCPR_EMENI   Cytochrome c peroxidase, mitochondrial
+    3.5e-05   27.7   0.0    4.3e-05   27.4   0.0    1.1  1  sp|Q1PER6|APX2_ARATH   L-ascorbate peroxidase 2, cytosolic OS
+    0.00013   25.8   0.0    0.00028   24.7   0.0    1.5  1  sp|Q6CAB5|CCPR2_YARLI  Putative cytochrome c peroxidase, mito
+    0.00033   24.5   0.1      0.001   22.9   0.0    1.7  2  sp|P0C0L1|APX6_ORYSJ   Probable L-ascorbate peroxidase 6, chl
+    0.00037   24.4   0.0     0.0012   22.7   0.0    1.6  1  sp|P0CP56|CCPR2_CRYNJ  Putative heme-binding peroxidase OS=Cr
+    0.00044   24.1   0.0     0.0007   23.4   0.0    1.3  1  sp|Q6CW24|CCPR_KLULA   Cytochrome c peroxidase, mitochondrial
+    0.00048   24.0   0.0      0.077   16.7   0.0    2.1  2  sp|P0CP57|CCPR2_CRYNB  Putative heme-binding peroxidase OS=Cr
+    0.00048   24.0   0.1    0.00098   22.9   0.0    1.5  2  sp|P0C0L0|APX5_ORYSJ   Probable L-ascorbate peroxidase 5, chl
+     0.0012   22.6   0.0     0.0076   20.0   0.0    1.9  2  sp|Q8GY91|APX6_ARATH   Putative L-ascorbate peroxidase 6 OS=A
+     0.0018   22.1   0.0     0.0034   21.2   0.0    1.4  1  sp|A4QVH4|CCPR_PYRO7   Cytochrome c peroxidase, mitochondrial
+     0.0051   20.6   0.0     0.0078   20.0   0.0    1.2  1  sp|Q6BIB1|CCPR2_DEBHA  Putative heme-binding peroxidase OS=De
+      0.009   19.8   0.0      0.021   18.6   0.0    1.4  1  sp|Q6URB0|CCPR_CRYNH   Cytochrome c peroxidase, mitochondrial
+  ------ inclusion threshold ------
+       0.01   19.6   0.2        3.1   11.4   0.2    2.4  2  sp|Q9LHA7|PER31_ARATH  Peroxidase 31 OS=Arabidopsis thaliana 
+       0.02   18.7   0.0      0.068   16.9   0.0    1.8  1  sp|Q4PBY6|CCPR_MYCMD   Cytochrome c peroxidase, mitochondrial
+      0.032   17.9   0.0        0.1   16.3   0.0    1.6  1  sp|Q7SDV9|CCPR_NEUCR   Cytochrome c peroxidase, mitochondrial
+       0.72   13.5   0.1        2.3   11.8   0.1    1.7  2  sp|B1KKZ2|LEUC_SHEWM   3-isopropylmalate dehydratase large su
+       0.86   13.3   0.1        2.6   11.7   0.0    1.7  2  sp|A8FQ85|LEUC_SHESH   3-isopropylmalate dehydratase large su
+        1.7   12.3   0.0        2.8   11.6   0.0    1.2  1  sp|Q1E1R7|SPB4_COCIM   ATP-dependent rRNA helicase SPB4 OS=Co
+          2   12.0   0.0          3   11.5   0.0    1.2  1  sp|Q81G06|HISX_BACCR   Histidinol dehydrogenase OS=Bacillus c
+        3.3   11.3   0.0        7.1   10.2   0.0    1.5  1  sp|P00431|CCPR_YEAST   Cytochrome c peroxidase, mitochondrial
+          4   11.0   0.0        5.3   10.7   0.0    1.1  1  sp|Q68W78|RL3_RICTY    Large ribosomal subunit protein uL3 OS
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|P19136|PEM4_PHACH  Manganese peroxidase H4 OS=Phanerodontia chrysosporium OX=2822231 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  720.2   9.9  1.8e-219  1.6e-215       3     383 ..       1     382 []       1     382 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 720.2 bits;  conditional E-value: 1.8e-219
+        Peroxidase.aln   3 lalssllslvalaalaraapaaetavcfdgtrvsnsaccafiplaqdlqatvfqndcgedahevirlifhdavaisrskgpsagggadg 91 
+                           +a+ sll++valaa++raap+ae+avc+dgtrv+n+accafiplaqdlq t+fq dcgedahevirl fhda+ais+s gp agggadg
+  sp|P19136|PEM4_PHACH   1 MAFGSLLAFVALAAITRAAPTAESAVCPDGTRVTNAACCAFIPLAQDLQETLFQGDCGEDAHEVIRLTFHDAIAISQSLGPQAGGGADG 89 
+                           789************************************************************************************** PP
+
+        Peroxidase.aln  92 smllfptveplfaanngiddsvnnlipflakh.pvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttila 179
+                           sml fpt+ep f+an giddsvnnl+pf+ kh  +saadlvqfagavalsncpgaprlef++grpn tipa++gl+pepq d vt il 
+  sp|P19136|PEM4_PHACH  90 SMLHFPTIEPNFSANSGIDDSVNNLLPFMQKHdTISAADLVQFAGAVALSNCPGAPRLEFMAGRPNTTIPAVEGLIPEPQ-DSVTKILQ 177
+                           ********************************458*********************************************.******** PP
+
+        Peroxidase.aln 180 rfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsd 268
+                           rfedag f+pfevvsllash+varadkvdetidaapfdstpftfdtqvflevllkgtgfpg  nntgev splp gsg dtgemrlqsd
+  sp|P19136|PEM4_PHACH 178 RFEDAGNFSPFEVVSLLASHTVARADKVDETIDAAPFDSTPFTFDTQVFLEVLLKGTGFPGSNNNTGEVMSPLPLGSGSDTGEMRLQSD 266
+                           ***************************************************************************************** PP
+
+        Peroxidase.aln 269 falardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdle.lncnsqkfptltvd 356
+                           falard rtacfwq fvneqefmaasfk+a+akla+lgh r  lidcs+vvpvpkpav+kpa+fpat   kdl+ l c++ kfptlt d
+  sp|P19136|PEM4_PHACH 267 FALARDERTACFWQSFVNEQEFMAASFKAAMAKLAILGHSRSSLIDCSDVVPVPKPAVNKPATFPATKGPKDLDtLTCKALKFPTLTSD 355
+                           *************************************************************************769************* PP
+
+        Peroxidase.aln 357 qgatqsliphcsnggqncpavqfdgps 383
+                            gat++liphcsngg  cp vqfdgp+
+  sp|P19136|PEM4_PHACH 356 PGATETLIPHCSNGGMSCPGVQFDGPA 382
+                           *************************95 PP
+
+>> sp|Q02567|PEM1_PHACH  Manganese peroxidase 1 OS=Phanerodontia chrysosporium OX=2822231 GN=MNP1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  704.6  11.1  9.5e-215  8.7e-211       3     383 ..       1     378 []       1     378 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 704.6 bits;  conditional E-value: 9.5e-215
+        Peroxidase.aln   3 lalssllslvalaalaraapaaetavcfdgtrvsnsaccafiplaqdlqatvfqndcgedahevirlifhdavaisrskgpsagggadg 91 
+                           +a+ sl+++valaa  raap   tavc+dgtrvs +accafiplaqdlq t+fqn+cgedahevirl fhda+aisrs+gp agggadg
+  sp|Q02567|PEM1_PHACH   1 MAFKSLIAFVALAAAVRAAP---TAVCPDGTRVSHAACCAFIPLAQDLQETIFQNECGEDAHEVIRLTFHDAIAISRSQGPKAGGGADG 86 
+                           67888888888888877777...89**************************************************************** PP
+
+        Peroxidase.aln  92 smllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttila 179
+                           smllfptvep f+anngiddsvnnlipf+ kh  +saadlvqfagavalsncpgaprlefl+grpn+ti a+dgl+pepq d vt il 
+  sp|Q02567|PEM1_PHACH  87 SMLLFPTVEPNFSANNGIDDSVNNLIPFMQKHNtISAADLVQFAGAVALSNCPGAPRLEFLAGRPNKTIAAVDGLIPEPQ-DSVTKILQ 174
+                           ********************************648*********************************************.******** PP
+
+        Peroxidase.aln 180 rfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsd 268
+                           rfedaggftpfevvsllashsvaradkvd+tidaapfdstpftfdtqvflevllkg gfpg +nntgevasplp gsg dtgemrlqsd
+  sp|Q02567|PEM1_PHACH 175 RFEDAGGFTPFEVVSLLASHSVARADKVDQTIDAAPFDSTPFTFDTQVFLEVLLKGVGFPGSANNTGEVASPLPLGSGSDTGEMRLQSD 263
+                           ***************************************************************************************** PP
+
+        Peroxidase.aln 269 falardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptltvdq 357
+                           fala d rtac+wqgfvneq fmaasf++a++klavlghnr+ lidcs+vvpvpkpa  +pa fpa+t  +dlel c s++fptlt + 
+  sp|Q02567|PEM1_PHACH 264 FALAHDPRTACIWQGFVNEQAFMAASFRAAMSKLAVLGHNRNSLIDCSDVVPVPKPATGQPAMFPASTGPQDLELSCPSERFPTLTTQP 352
+                           ***************************************************************************************** PP
+
+        Peroxidase.aln 358 gatqsliphcsnggqncpavqfdgps 383
+                           ga+qsli hc +g   cp vqf+gp+
+  sp|Q02567|PEM1_PHACH 353 GASQSLIAHCPDGSMSCPGVQFNGPA 378
+                           ************************95 PP
+
+>> sp|P78733|PEM3_PHACH  Manganese peroxidase H3 OS=Phanerodontia chrysosporium OX=2822231 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  669.4  11.1  4.8e-204  4.4e-200       6     383 ..       5     380 .]       1     380 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 669.4 bits;  conditional E-value: 4.8e-204
+        Peroxidase.aln   6 ssllslvalaalaraapaaetavcfdgtrvsnsaccafiplaqdlqatvfqndcgedahevirlifhdavaisrskgpsagggadgsml 94 
+                           ssll+lvalaa++ aapa+  a c+dgt+v n+accafiplaqdlq t+fqndcgedahevirl fhda+ais+skgpsag gadgsml
+  sp|P78733|PEM3_PHACH   5 SSLLALVALAAVTSAAPATTQATCPDGTKVNNAACCAFIPLAQDLQETIFQNDCGEDAHEVIRLTFHDAIAISQSKGPSAG-GADGSML 92 
+                           79*****************************************************************************96.69***** PP
+
+        Peroxidase.aln  95 lfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfe 182
+                           lfpt+ep f+anngiddsvnnlipf+ kh  +sa d+vqf+gaval+ncpgap+lefl+ rpn+tipaidgl+pepq d vt+il rf+
+  sp|P78733|PEM3_PHACH  93 LFPTIEPNFSANNGIDDSVNNLIPFMQKHNtISAGDIVQFTGAVALTNCPGAPQLEFLARRPNKTIPAIDGLIPEPQ-DSVTSILERFK 180
+                           *****************************6489********************************************.*********** PP
+
+        Peroxidase.aln 183 daggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfal 271
+                           dag f+pfevvsllashsvaradkvdetidaapfd+tpf fdtq+flevllkg gfpg     gevasplp  sg dtge+rlqsdfal
+  sp|P78733|PEM3_PHACH 181 DAGNFSPFEVVSLLASHSVARADKVDETIDAAPFDTTPFVFDTQIFLEVLLKGVGFPGTRTTRGEVASPLPLTSGSDTGELRLQSDFAL 269
+                           ***************************************************************************************** PP
+
+        Peroxidase.aln 272 ardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptltvdqgat 360
+                           ard rtac+wqgfvneq +m asfk+a+ klavlg+ r+ lidcs+vvp pkpav+kpasfpatt  +dlel cn++ fp+l+vd ga 
+  sp|P78733|PEM3_PHACH 270 ARDERTACIWQGFVNEQALM-ASFKAAMRKLAVLGQHRNTLIDCSDVVPAPKPAVNKPASFPATTGPQDLELSCNTKPFPSLSVDAGAQ 357
+                           ******************99.59****************************************************************** PP
+
+        Peroxidase.aln 361 qsliphcsnggqncpavqfdgps 383
+                           q+liphcs+g   c +vqf+gp+
+  sp|P78733|PEM3_PHACH 358 QTLIPHCSDGDMTCQSVQFNGPA 380
+                           *********************95 PP
+
+>> sp|Q70LM3|PEM2_PHLRA  Manganese peroxidase 2 OS=Phlebia radiata OX=5308 GN=mnp2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  611.1  15.0  2.4e-186  2.2e-182       1     383 [.       1     381 [.       1     384 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 611.1 bits;  conditional E-value: 2.4e-186
+        Peroxidase.aln   1 lalalssllslvalaalaraapaaetavcfdgtrvsnsaccafiplaqdlqatvfqndcgedahevirlifhdavaisrskgpsaggga 89 
+                           +a++++++l++v+laa++ aap+  t  c +g  v ++ cc f+pla  lq+ v+  dcgedahe++rlifhda+ais+s gpsaggga
+  sp|Q70LM3|PEM2_PHLRA   1 MAFNFAAILAFVSLAAVTSAAPSKTT--CSNGVVVPDAVCCDFVPLASALQSEVLMGDCGEDAHELVRLIFHDAIAISQSMGPSAGGGA 87 
+                           7899******************8765..9************************************************************ PP
+
+        Peroxidase.aln  90 dgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvtti 177
+                           dgsml+fptvep f  n gi dsvnnlipfl++ p +sa dlvqfagava+sncpgap+lefl+grpn t paidgl+pepq ddvt i
+  sp|Q70LM3|PEM2_PHLRA  88 DGSMLIFPTVEPAFFPNLGIADSVNNLIPFLSQFPtISAGDLVQFAGAVAISNCPGAPQLEFLAGRPNATAPAIDGLIPEPQ-DDVTKI 175
+                           **********************************96799*******************************************.****** PP
+
+        Peroxidase.aln 178 larfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlq 266
+                           larf+dag f+p evv+llashs+arad+vd t+daapfdstpf fdtq+flevllkg gfpgl+nntgev+splp   g d ge+rlq
+  sp|Q70LM3|PEM2_PHLRA 176 LARFKDAGNFSPAEVVALLASHSIARADHVDPTLDAAPFDSTPFDFDTQIFLEVLLKGVGFPGLANNTGEVSSPLPVTDGTDVGELRLQ 264
+                           ***************************************************************************************** PP
+
+        Peroxidase.aln 267 sdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptltv 355
+                           sdfalard rtac wq fvneqe ma++fk av klavlghnr+dl+dcs vvpvpkpa   pa+fpa+t  +dlel c ++ fptl+ 
+  sp|Q70LM3|PEM2_PHLRA 265 SDFALARDERTACAWQSFVNEQEAMATAFKNAVKKLAVLGHNRNDLVDCSAVVPVPKPATGTPATFPASTGPQDLELTCTTEPFPTLST 353
+                           ***************************************************************************************** PP
+
+        Peroxidase.aln 356 dqgatqsliphcsnggqncpavqfdgps 383
+                             ga q+liphcs+g   c +vqfdgp+
+  sp|Q70LM3|PEM2_PHLRA 354 APGAQQTLIPHCSDGTMTCNSVQFDGPA 381
+                           ***************************7 PP
+
+>> sp|Q9UVP6|VPS1_PLEER  Versatile peroxidase VPS1 OS=Pleurotus eryngii OX=5323 GN=vps1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  367.7   5.7    2e-112  1.8e-108      25     361 ..      30     362 ..       5     368 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 367.7 bits;  conditional E-value: 2e-112
+        Peroxidase.aln  25 etavcfdgtrvsnsaccafiplaqdlqatvfq.ndcgedahevirlifhdavaisrs...kgpsagggadgsmllfptveplfaanngi 109
+                           +   c  g   +n acca+ p+ +d+q+ +f+  +cge+ he +rl fhda+a s +    g   gggadgsm++f   ep f an gi
+  sp|Q9UVP6|VPS1_PLEER  30 KRVTCATGQTTANEACCALFPILDDIQTNLFDgAQCGEEVHESLRLTFHDAIAFSPAltnAGQFGGGGADGSMIIFSDTEPNFHANLGI 118
+                           55689**************************8468*******************96522268889************************ PP
+
+        Peroxidase.aln 110 ddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfedaggftpfevvsllas 198
+                           d+ v+   pf+a+h +saad++qfaga+ +snc gaprl+f+ grp+ t    dglvpep  ddvt il+r+ da gf+ +evv llas
+  sp|Q9UVP6|VPS1_PLEER 119 DEIVEAQKPFIARHNISAADFIQFAGAIGVSNCAGAPRLNFFLGRPDATQIPPDGLVPEPF-DDVTKILSRMGDA-GFSTVEVVWLLAS 205
+                           *************************************************9889*******9.************9.5999********* PP
+
+        Peroxidase.aln 199 hsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvne 287
+                           h++a ad+vd +i  +pfdstp tfd+q fle +l+gt fpg   n gev spl       +gemrlqsdf lardsr+ac wq +vn+
+  sp|Q9UVP6|VPS1_PLEER 206 HTIAAADHVDPSIPGTPFDSTPSTFDSQFFLETMLQGTAFPGTPGNQGEVESPL-------AGEMRLQSDFLLARDSRSACEWQSMVNN 287
+                           *****************************************************9.......59************************** PP
+
+        Peroxidase.aln 288 qefmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsq..kfptltvdqgatq 361
+                              +   f   + kl++lghn+ dlidcs+v+pvpk  + k a+fpa  s  d+e+ cn+    fp+l+ d g   
+  sp|Q9UVP6|VPS1_PLEER 288 MPKIQNRFTQVMKKLSLLGHNQADLIDCSDVIPVPKT-LTKAATFPAGKSQADVEIVCNAAatPFPALASDPGPVT 362
+                           ***********************************96.7899****************975226999*99998765 PP
+
+>> sp|P11542|LIG4_PHACH  Ligninase H2 OS=Phanerodontia chrysosporium OX=2822231 GN=GLG4 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  338.1   4.1    2e-103   1.8e-99       6     362 ..       7     361 ..       1     367 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 338.1 bits;  conditional E-value: 2e-103
+        Peroxidase.aln   6 ssllslvalaalaraapaaetav.cfdgtr.vsnsaccafiplaqdlqatvfq.ndcgedahevirlifhdavais...rskgpsaggg 88 
+                            + ls+  + ++++aap  +  v c+dg    sn+acca+ p+ +d+q  +f+  +cg +ahe +r++fhd++ais   +s+g   ggg
+  sp|P11542|LIG4_PHACH   7 LAALSVALTLQVTQAAPNLDKRVaCPDGVHtASNAACCAWFPVLDDIQQNLFHgGQCGAEAHEALRMVFHDSIAISpklQSQGKFGGGG 95 
+                           3456655667899****9887554****86369******************98358*******************976679******** PP
+
+        Peroxidase.aln  89 adgsmllfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvtti 177
+                           adgs++ f ++e  +  n g+d+ v    pf+akh v+  d++ fagav +sncpgap+++f+ grp+ t  a dglvpep    +  +
+  sp|P11542|LIG4_PHACH  96 ADGSIITFSSIETTYHPNIGLDEVVAIQKPFIAKHGVTRGDFIAFAGAVGVSNCPGAPQMQFFLGRPEATQAAPDGLVPEPF-HTIDQV 183
+                           *********************************************************************************9.89**** PP
+
+        Peroxidase.aln 178 larfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlq 266
+                           lar+ daggf  +e v ll++hs+a a+ vd ti   pfdstp  fd+q f+e  l+gt fpg +   g v spl        gemrlq
+  sp|P11542|LIG4_PHACH 184 LARMLDAGGFDEIETVWLLSAHSIAAANDVDPTISGLPFDSTPGQFDSQFFVETQLRGTAFPGKTGIQGTVMSPL-------KGEMRLQ 265
+                           **************************************************************************9.......49***** PP
+
+        Peroxidase.aln 267 sdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptltv 355
+                           +d  +ardsrtac wq fvn+q  +   f+   + l+ lgh+ + + dcsev+p pkp    p+ fpa  +  d+e  c s  fptl  
+  sp|P11542|LIG4_PHACH 266 TDHLFARDSRTACEWQSFVNNQTKLQEDFQFIFTALSTLGHDMNAMTDCSEVIPAPKPVNFGPSFFPAGKTHADIEQACASTPFPTLIT 354
+                           ***************************************************************************************98 PP
+
+        Peroxidase.aln 356 dqgatqs 362
+                             g + s
+  sp|P11542|LIG4_PHACH 355 APGPSAS 361
+                           8876665 PP
+
+>> sp|Q96TS6|PEM3_PHLRA  Manganese peroxidase 3 OS=Phlebia radiata OX=5308 GN=mnp3 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  337.7   7.7  2.6e-103   2.4e-99       3     365 ..       1     358 [.       1     361 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 337.7 bits;  conditional E-value: 2.6e-103
+        Peroxidase.aln   3 lalssllslvalaalaraapaaetavcfdgtrv.snsaccafiplaqdlqatvfq.ndcgedahevirlifhdavais...rskgpsag 86 
+                           +a+  ll+ +++ ++a aa +     c+dg    +n+ cc++  + + +q  +f+  +cge+ he +rl fhda+ is    s g   g
+  sp|Q96TS6|PEM3_PHLRA   1 MAFKQLLTAISIVSVANAALTRR-VACPDGVNTaTNAVCCSLFAVRDLIQDQLFDgGECGEEVHESLRLTFHDAIGISptiASTGVFGG 88 
+                           67889999888888888876655.56****8752688899999999999*****8359*******************95445899999* PP
+
+        Peroxidase.aln  87 ggadgsmllfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvt 175
+                           ggadgs+ +f  +e  f anng+d+ + +  pf+    +++ad++qfagav +sncpgap l ++ grp+ t pa d  vpep  d v 
+  sp|Q96TS6|PEM3_PHLRA  89 GGADGSIAIFAEIETNFHANNGVDEIIGEQAPFIQMTNMTTADFIQFAGAVGVSNCPGAPALPVFVGRPDATQPAPDKTVPEPF-DTVD 176
+                           ***********************************************************************************9.**** PP
+
+        Peroxidase.aln 176 tilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemr 264
+                           +ilarf daggf+  evv+llash++a ad+vd +i  +pfdstp  fdtq f+e  l+g  fpg   n gev spl        ge+r
+  sp|Q96TS6|PEM3_PHLRA 177 SILARFADAGGFSSAEVVALLASHTIAAADHVDPSIPGTPFDSTPEIFDTQFFIETQLRGILFPGTGGNQGEVESPLH-------GEIR 258
+                           *****************************************************************************5.......9*** PP
+
+        Peroxidase.aln 265 lqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptl 353
+                           lqsd  lardsrtac wq fvn+q  + ++fk+a  k+++lgh    li+csev+  p pa++  a +pa  + +d+e  c +  fp+l
+  sp|Q96TS6|PEM3_PHLRA 259 LQSDSELARDSRTACEWQSFVNNQAKIQSAFKAAFRKMTILGHSESSLIECSEVIQTP-PALEGNAHLPAGQTMNDIEQACATTPFPSL 346
+                           ********************************************************99.9***************************** PP
+
+        Peroxidase.aln 354 tvdqgatqslip 365
+                           + d g + s+ p
+  sp|Q96TS6|PEM3_PHLRA 347 SADPGPATSVAP 358
+                           *****9999877 PP
+
+>> sp|Q9UR19|VPL1_PLEER  Versatile peroxidase VPL1 OS=Pleurotus eryngii OX=5323 GN=vpl1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  334.9   7.6  1.9e-102   1.7e-98       9     364 ..      11     356 ..       1     360 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 334.9 bits;  conditional E-value: 1.9e-102
+        Peroxidase.aln   9 lslvalaalaraa.pa.aetavcfdgtrvsnsaccafiplaqdlqatvfq.ndcgedahevirlifhdavaisrskgpsagggadgsml 94 
+                           l+l a+ + a aa p   + a c dg   +n+acc + p+ +d+q  +f+  +cge+ he +rl fhda+  s + g   gggadgs++
+  sp|Q9UR19|VPL1_PLEER  11 LALGAAVQFASAAvPLvQKRATCADGRTTANAACCVLFPILDDIQENLFDgAQCGEEVHESLRLTFHDAIGFSPTLG---GGGADGSII 96 
+                           333333444433324314689****************************8468******************998776...99******* PP
+
+        Peroxidase.aln  95 lfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfed 183
+                            f t+e  f an gid+ v    pf+akh +sa d++qfagav +sncpg  r+ f+ grp+    + d lvpep  d v +ilar+ d
+  sp|Q9UR19|VPL1_PLEER  97 AFDTIETNFPANAGIDEIVSAQKPFVAKHNISAGDFIQFAGAVGVSNCPGGVRIPFFLGRPDAVAASPDHLVPEPF-DSVDSILARMSD 184
+                           ***************************************************************************9.************ PP
+
+        Peroxidase.aln 184 aggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfala 272
+                           a gf+p+evv llashs+a adkvd +i  +pfdstp  fd+q f+e  lkg  fpg ++n ge  spl        ge+rlqsd  la
+  sp|Q9UR19|VPL1_PLEER 185 A-GFSPVEVVWLLASHSIAAADKVDPSIPGTPFDSTPGVFDSQFFIETQLKGRLFPGTADNKGEAQSPL-------QGEIRLQSDHLLA 265
+                           9.5*****************************************************************9.......59*********** PP
+
+        Peroxidase.aln 273 rdsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptltvdqgatq 361
+                           rd +tac wq +vn+q  +   f ++++k+a+lg+++  lidcs+v+p p pa+   a +pa  s  d+e  c +  fp+lt d g   
+  sp|Q9UR19|VPL1_PLEER 266 RDPQTACEWQSMVNNQPKIQNRFAATMSKMALLGQDKTKLIDCSDVIPTP-PALVGAAHLPAGFSLSDVEQACAATPFPALTADPGPVT 353
+                           *************************************************9.899999*****************************988 PP
+
+        Peroxidase.aln 362 sli 364
+                           s+ 
+  sp|Q9UR19|VPL1_PLEER 354 SVP 356
+                           875 PP
+
+>> sp|O94753|VPL2_PLEER  Versatile peroxidase VPL2 OS=Pleurotus eryngii OX=5323 GN=vpl2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  334.1   7.0  3.4e-102   3.1e-98       9     364 ..      11     356 ..       1     360 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 334.1 bits;  conditional E-value: 3.4e-102
+        Peroxidase.aln   9 lslvalaalaraa.pa.aetavcfdgtrvsnsaccafiplaqdlqatvfq.ndcgedahevirlifhdavaisrskgpsagggadgsml 94 
+                           l+l a+ + a aa p   + a c dg   +n+acc + p+ +d+q  +f+  +cge+ he +rl fhda+  s + g   gggadgs++
+  sp|O94753|VPL2_PLEER  11 LALGAAVQFASAAvPLvQKRATCDDGRTTANAACCILFPILDDIQENLFDgAQCGEEVHESLRLTFHDAIGFSPTLG---GGGADGSII 96 
+                           333333444433324314689****************************8468******************998776...99******* PP
+
+        Peroxidase.aln  95 lfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfed 183
+                            f t+e  f an gid+ v    pf+akh +sa d++qfagav +sncpg  r+ f+ grp+    + d lvpep  d v +ilar+ d
+  sp|O94753|VPL2_PLEER  97 AFDTIETNFPANAGIDEIVSAQKPFVAKHNISAGDFIQFAGAVGVSNCPGGVRIPFFLGRPDAVAASPDHLVPEPF-DSVDSILARMGD 184
+                           ***************************************************************************9.************ PP
+
+        Peroxidase.aln 184 aggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfala 272
+                           a gf+p+evv llashs+a adkvd +i  +pfdstp  fd+q f+e  lkg  fpg ++n ge  spl        ge+rlqsd  la
+  sp|O94753|VPL2_PLEER 185 A-GFSPVEVVWLLASHSIAAADKVDPSIPGTPFDSTPGVFDSQFFIETQLKGRLFPGTADNKGEAQSPL-------QGEIRLQSDHLLA 265
+                           9.5*****************************************************************9.......59*********** PP
+
+        Peroxidase.aln 273 rdsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptltvdqgatq 361
+                           rd +tac wq +vn+q  +   f ++++k+a+lg+++  lidcs+v+p p pa+   a +pa  s  d+e  c +  fp+lt d g   
+  sp|O94753|VPL2_PLEER 266 RDPQTACEWQSMVNNQPKIQNRFAATMSKMALLGQDKTKLIDCSDVIPTP-PALVGAAHLPAGFSLSDVEQACAATPFPALTADPGPVT 353
+                           *************************************************9.899999*****************************988 PP
+
+        Peroxidase.aln 362 sli 364
+                           s+ 
+  sp|O94753|VPL2_PLEER 354 SVP 356
+                           875 PP
+
+>> sp|P50622|LIG6_PHACH  Ligninase LG6 OS=Phanerodontia chrysosporium OX=2822231 GN=GLG6 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  327.4   5.9  3.6e-100   3.2e-96       7     358 ..       5     358 ..       1     367 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 327.4 bits;  conditional E-value: 3.6e-100
+        Peroxidase.aln   7 sllslvala....alaraapaaetavcfdgtrvsnsaccafiplaqdlqatvfq.ndcgedahevirlifhdavais...rskgpsagg 87 
+                            l + vala    a + aa   + a c +g+ v +++ ca+  + +d+q  +f+  +cg +ahe irl+fhda+ais    s+g   gg
+  sp|P50622|LIG6_PHACH   5 QLAAAVALAlsiqAAQGAAVKEKRATCSNGATVGDASSCAWFDVLDDIQQNLFNgAQCGAEAHESIRLVFHDAIAISpalESQGKFGGG 93 
+                           4444455441000333444455689****************************8468*******************9555699****** PP
+
+        Peroxidase.aln  88 gadgsmllfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvtt 176
+                           gadgs++lf  +e  f  n g+d+ vn   pf+ kh v+  d++ fagava+sncpgap+++f++gr   t  a dglvpep    v  
+  sp|P50622|LIG6_PHACH  94 GADGSIILFDDIETNFHPNIGLDEIVNLQKPFIQKHGVTPGDFIAFAGAVAMSNCPGAPQMNFFTGRAPATQAAPDGLVPEPF-HTVDQ 181
+                           **********************************************************************************9.99*** PP
+
+        Peroxidase.aln 177 ilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrl 265
+                           i++r++dag f  +e+v +l++hsva a+ vd ti+   fdstp  fd+q f+e  l+gt fpg   n gev splp       gemrl
+  sp|P50622|LIG6_PHACH 182 IISRVNDAGEFDELELVWMLSAHSVAAANDVDPTIQGLAFDSTPGVFDSQFFVETQLRGTAFPGSGGNQGEVESPLP-------GEMRL 263
+                           ****************************************************************************9.......9**** PP
+
+        Peroxidase.aln 266 qsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpavkk.pas.fpattsakdlelncnsqkfpt 352
+                           qsd ++ardsrtac wq fvn+q  + + f+     l+ lg n d + dcs+v+p+ kp  ++ p s fpa  +  d+e  c    fpt
+  sp|P50622|LIG6_PHACH 264 QSDSSIARDSRTACEWQSFVNNQSKLVSDFQFIFLALTQLGENPDAMTDCSDVIPISKPVPNNvPFSfFPAGKTMADVEQACAETPFPT 352
+                           ***********************************************************9764377736******************** PP
+
+        Peroxidase.aln 353 ltvdqg 358
+                           lt   g
+  sp|P50622|LIG6_PHACH 353 LTTLPG 358
+                           *98666 PP
+
+>> sp|P11543|LIG5_PHACH  Ligninase LG5 OS=Phanerodontia chrysosporium OX=2822231 GN=GLG5 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  321.5   5.3   2.1e-98     2e-94       3     361 ..       1     360 [.       1     366 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 321.5 bits;  conditional E-value: 2.1e-98
+        Peroxidase.aln   3 lalssllslvalaalaraapaa...etavcfdgtrvsnsaccafiplaqdlqatvfqn.dcgedahevirlifhdavaisrskgpsagg 87 
+                           +a+  ll+++++a   raa  a   + a c +g  v  ++cc++  +  d+q  +f+  +cg +ahe irl+fhda+ais +  p a  
+  sp|P11543|LIG5_PHACH   1 MAFKKLLAVLTAALSLRAAQGAaveKRATCSNGKVVPAASCCTWFNVLSDIQENLFNGgQCGAEAHESIRLVFHDAIAISPAMEPQASS 89 
+                           6788888877766666766543122579****************************8538***********************997764 PP
+
+        Peroxidase.aln  88 ..gadgsmllfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddv 174
+                             gadgs+++f  +e  f  n g+d+ v    pf+ kh v+  d++ fagavalsncpgap+++f++gr   t pa dglvpep    v
+  sp|P11543|LIG5_PHACH  90 vrGADGSIMIFDEIETNFHPNIGLDEIVRLQKPFVQKHGVTPGDFIAFAGAVALSNCPGAPQMNFFTGRAPATQPAPDGLVPEPF-HSV 177
+                           44**********************************************************************************9.99* PP
+
+        Peroxidase.aln 175 ttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgem 263
+                             i+ r+ dag f  +e+v +l++hsva a+ +d  i+  pfdstp  fd+q f+e  l gtgf g snn gev+splp       gem
+  sp|P11543|LIG5_PHACH 178 DQIIDRVFDAGEFDELELVWMLSAHSVAAANDIDPNIQGLPFDSTPGIFDSQFFVETQLAGTGFTGGSNNQGEVSSPLP-------GEM 259
+                           ******************************************************************************9.......9** PP
+
+        Peroxidase.aln 264 rlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpavkkp...asfpattsakdlelncnsqk 349
+                           rlqsdf +ard+rtac wq fvn+q  + + f+     l+ lg++ d + dcs v+p+ kpa ++    + fp   +  d+e  c    
+  sp|P11543|LIG5_PHACH 260 RLQSDFLIARDARTACEWQSFVNNQSKLVSDFQFIFLALTQLGQDPDAMTDCSAVIPISKPAPNNTpgfSFFPPGMTMDDVEQACAETP 348
+                           **************************************************************88652324579999************* PP
+
+        Peroxidase.aln 350 fptltvdqgatq 361
+                           fptl+   g + 
+  sp|P11543|LIG5_PHACH 349 FPTLSTLPGPAT 360
+                           ****87666554 PP
+
+>> sp|P06181|LIG8_PHACH  Ligninase H8 OS=Phanerodontia chrysosporium OX=2822231 GN=LPOA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  320.3   3.1   5.2e-98   4.7e-94       5     359 ..       3     359 ..       1     367 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 320.3 bits;  conditional E-value: 5.2e-98
+        Peroxidase.aln   5 lssllslvalaalaraapaa....etavcfdgtrvsnsaccafiplaqdlqatvfq.ndcgedahevirlifhdavais...rskgpsa 85 
+                           +  l++ ++la l  aa aa    + a c +g  v +++cca+  + +d+q  +f+  +cg +ahe irl+fhd++ais    ++g   
+  sp|P06181|LIG8_PHACH   3 FKQLFAAISLALLLSAANAAavieKRATCSNGKTVGDASCCAWFDVLDDIQQNLFHgGQCGAEAHESIRLVFHDSIAISpamEAQGKFG 91 
+                           555555555555555554442222579***************************98358*******************9444468999* PP
+
+        Peroxidase.aln  86 gggadgsmllfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddv 174
+                           gggadgs+++f  +e  f  n g+d+ v+   pf+ kh v+  d++ fag valsncpgap+++f++gr   t pa dglvpep    v
+  sp|P06181|LIG8_PHACH  92 GGGADGSIMIFDDIETAFHPNIGLDEIVKLQKPFVQKHGVTPGDFIAFAGRVALSNCPGAPQMNFFTGRAPATQPAPDGLVPEPF-HTV 179
+                           ************************************************************************************9.99* PP
+
+        Peroxidase.aln 175 ttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgem 263
+                             i+ r++dag f  +e+v +l++hsva  + vd t++  pfdstp  fd+q f+e  l+gt fpg   n gev splp       ge+
+  sp|P06181|LIG8_PHACH 180 DQIINRVNDAGEFDELELVWMLSAHSVAAVNDVDPTVQGLPFDSTPGIFDSQFFVETQLRGTAFPGSGGNQGEVESPLP-------GEI 261
+                           ******************************************************************************9.......9** PP
+
+        Peroxidase.aln 264 rlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpa.vkkpas.fpattsakdlelncnsqkf 350
+                           r+qsd ++ardsrtac wq fvn+q  +   f+     l+ lg++ + + dcs+v+p  kp   + p s fpa  + kd+e  c    f
+  sp|P06181|LIG8_PHACH 262 RIQSDHTIARDSRTACEWQSFVNNQSKLVDDFQFIFLALTQLGQDPNAMTDCSDVIPQSKPIpGNLPFSfFPAGKTIKDVEQACAETPF 350
+                           ************************************************************97357788746****************** PP
+
+        Peroxidase.aln 351 ptltvdqga 359
+                           ptlt   g 
+  sp|P06181|LIG8_PHACH 351 PTLTTLPGP 359
+                           ***986665 PP
+
+>> sp|P31838|LIGB_PHACH  Ligninase B OS=Phanerodontia chrysosporium OX=2822231 GN=LIPB PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  318.5   4.0   1.8e-97   1.6e-93      10     359 ..      11     359 ..       1     367 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 318.5 bits;  conditional E-value: 1.8e-97
+        Peroxidase.aln  10 slv.alaalaraapaaetavcfdgtrvsnsaccafiplaqdlqatvfq.ndcgedahevirlifhdavais...rskgpsagggadgsm 93 
+                           sl  +l+a + aa   + a c +g  v +++cca+  + +d+q  +f+  +cg +ahe irl+fhd++ais    ++g   gggadgs+
+  sp|P31838|LIGB_PHACH  11 SLAlSLSAANAAAVIEKRATCSNGKTVGDASCCAWFDVLDDIQQNLFHgGQCGAEAHESIRLVFHDSIAISpamEAQGKFGGGGADGSI 99 
+                           3320233444455556789***************************98358*******************9444468999********* PP
+
+        Peroxidase.aln  94 llfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfe 182
+                           ++f  +e  f  n g+d+ v+   pf+ kh v+   ++ fagavalsncpgap+++f++gr   t pa dglvpep    v  i+ r++
+  sp|P31838|LIGB_PHACH 100 MIFDDIETAFHPNIGLDEIVKLQKPFVQKHGVTPGAFIAFAGAVALSNCPGAPQMNFFTGRAPATQPAPDGLVPEPF-HTVDQIINRVN 187
+                           ****************************************************************************9.99********* PP
+
+        Peroxidase.aln 183 daggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfal 271
+                           dag f  +e+v +l++hsva  + vd t++  pfdstp  fd+q f+e  l+gt fpg   n gev splp       ge+r+qsd ++
+  sp|P31838|LIGB_PHACH 188 DAGEFDELELVWMLSAHSVAAVNDVDPTVQGLPFDSTPGIFDSQFFVETQLRGTAFPGSGGNQGEVESPLP-------GEIRIQSDHTI 269
+                           **********************************************************************9.......9********** PP
+
+        Peroxidase.aln 272 ardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpa.vkkpas.fpattsakdlelncnsqkfptltvdqg 358
+                           ardsrtac wq fvn+q  +   f+     l+ lg++ + + dcs+v+p  kp   + p s fpa  + kd+e  c    fptlt   g
+  sp|P31838|LIGB_PHACH 270 ARDSRTACEWQSFVNNQSKLVDDFQFIFLALTQLGQDPNAMTDCSDVIPQSKPIpGNLPFSfFPAGKTIKDVEQACAETPFPTLTTLPG 358
+                           ****************************************************97357788746*********************98666 PP
+
+        Peroxidase.aln 359 a 359
+                            
+  sp|P31838|LIGB_PHACH 359 P 359
+                           5 PP
+
+>> sp|P31837|LIGA_PHACH  Ligninase A OS=Phanerodontia chrysosporium OX=2822231 GN=LIPA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  313.7   4.3   5.2e-96   4.7e-92       7     360 ..       8     360 ..       1     367 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 313.7 bits;  conditional E-value: 5.2e-96
+        Peroxidase.aln   7 sllslvalaalaraapaae.tavcfdgtrvsnsaccafiplaqdlqatvfqn.dcgedahevirlifhdavais...rskgpsagggad 90 
+                           + +sl  + + a aa   e  a c +g+ v +++cca+  + +d+q  +fq  +cg +ahe irl+fhda+ais    ++g   gggad
+  sp|P31837|LIGA_PHACH   8 AAISLALSLTTANAAVVKEkRATCSNGATVGDASCCAWFDVLDDIQQNLFQGgQCGAEAHESIRLVFHDAIAISpamEAQGKFGGGGAD 96 
+                           44455545555566655552699****************************648*******************9444468999****** PP
+
+        Peroxidase.aln  91 gsmllfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttila 179
+                           gs+++f  +ep f  n g+d+ +n   pf+ kh v+   ++ fagavalsncpgap+++f++gr   t pa dglvpep    v  i+a
+  sp|P31837|LIGA_PHACH  97 GSIMIFDDIEPNFHPNIGLDEIINLQKPFVQKHGVTPGAFIAFAGAVALSNCPGAPQMNFFTGRAPATQPAPDGLVPEPF-HTVDQIIA 184
+                           *******************************************************************************9.99****** PP
+
+        Peroxidase.aln 180 rfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsd 268
+                           r++dag f  +e+v +l++hsva  + vd t++  pfdstp  fd+q f+e  ++g  fpg   n gev s +       +ge+r+q+d
+  sp|P31837|LIGA_PHACH 185 RVNDAGEFDELELVWMLSAHSVAAVNDVDPTVQGLPFDSTPGIFDSQFFVETQFRGILFPGSGGNQGEVESGM-------AGEIRIQTD 266
+                           *********************************************************************9876.......69******* PP
+
+        Peroxidase.aln 269 falardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpa.vkkpas.fpattsakdlelncnsqkfptltv 355
+                            +lardsrtac wq fvn+q  + + f+     l+ lg++ + + dcs+v+p+ kp   + p s fp   s kd+e  c    fp+l  
+  sp|P31837|LIGA_PHACH 267 HTLARDSRTACEWQSFVNNQSKLVSDFQFIFLALTQLGQDPNAMTDCSDVIPISKPIpGNLPFSfFPPGKSMKDVEQACAETPFPSLVT 355
+                           ********************************************************735789873699******************977 PP
+
+        Peroxidase.aln 356 dqgat 360
+                             g +
+  sp|P31837|LIGA_PHACH 356 LPGPA 360
+                           66654 PP
+
+>> sp|P21764|LIG3_PHACH  Ligninase LG3 OS=Phanerodontia chrysosporium OX=2822231 GN=GLG3 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  311.5   4.1   2.4e-95   2.2e-91      10     359 ..      11     359 ..       1     367 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 311.5 bits;  conditional E-value: 2.4e-95
+        Peroxidase.aln  10 slv.alaalaraapaaetavcfdgtrvsnsaccafiplaqdlqatvfq.ndcgedahevirlifhdavais...rskgpsagggadgsm 93 
+                           sl  +l+a + aa   + a c +g  v +++ ca+  + +d+q  +f+  +cg +ahe irl+fhd++ais    ++g   gggadgs+
+  sp|P21764|LIG3_PHACH  11 SLAlSLSAANAAAVIEKRATCSNGKTVGDASSCAWFDVLDDIQQNLFHgGQCGAEAHESIRLVFHDSIAISpamEAQGKFGGGGADGSI 99 
+                           3320233444455556789***************************98358*******************9444468999********* PP
+
+        Peroxidase.aln  94 llfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfe 182
+                           ++f  +e  f  n g+d+ v+   pf+ kh  +  d++ fagavalsncpgap+++f++gr   t  a dglvpep    v  i+ r++
+  sp|P21764|LIG3_PHACH 100 MIFDDIETAFHPNIGLDEIVKLQKPFVQKHGCTPGDFIAFAGAVALSNCPGAPQMNFFTGRAPATQAAPDGLVPEPF-HTVDQIINRVN 187
+                           ****************************************************************************9.99********* PP
+
+        Peroxidase.aln 183 daggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfal 271
+                           dag f  +e+v +l++hsva  + vd t++  pfdstp  fd+q f+e  l+gt fpg   n gev splp       ge+r+qsd ++
+  sp|P21764|LIG3_PHACH 188 DAGEFDELELVWMLSAHSVAAVNDVDPTVQGLPFDSTPGIFDSQFFVETQLRGTAFPGSGGNQGEVESPLP-------GEIRIQSDHTI 269
+                           **********************************************************************9.......9********** PP
+
+        Peroxidase.aln 272 ardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpa.vkkpas.fpattsakdlelncnsqkfptltvdqg 358
+                           ardsrtac wq fvn+q  +   f+     l+ lg++ + + dcs+v+p  kp   + p s fpa  + kd+e  c    fptlt   g
+  sp|P21764|LIG3_PHACH 270 ARDSRTACEWQSFVNNQSKLVDDFQFIFLALTQLGQDPNAMTDCSDVIPQSKPIpGNLPFSfFPAGKTIKDVEQACAETPFPTLTTLPG 358
+                           ****************************************************97357788746*********************98666 PP
+
+        Peroxidase.aln 359 a 359
+                            
+  sp|P21764|LIG3_PHACH 359 P 359
+                           5 PP
+
+>> sp|P49012|LIG2_PHACH  Ligninase LG2 OS=Phanerodontia chrysosporium OX=2822231 GN=GLG2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  310.3   4.8   5.6e-95   5.1e-91       9     361 ..      14     361 ..       1     369 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 310.3 bits;  conditional E-value: 5.6e-95
+        Peroxidase.aln   9 lslvalaalaraapaaetavcfdgtrvsnsaccafiplaqdlqatvfq.ndcgedahevirlifhdavais...rskgpsagggadgsm 93 
+                           ls   l+a + a    + a c +g  v +++cca+  + +d+qa +f+  +cg +ahe irl+fhd++ais    +kg   gggadgs+
+  sp|P49012|LIG2_PHACH  14 LS---LTAANAAVVKEKRATCANGKTVGDASCCAWFDVLDDIQANMFHgGQCGAEAHESIRLVFHDSIAISpamEAKGKFGGGGADGSI 99 
+                           22...22222333344679****************************8358*******************9444579************ PP
+
+        Peroxidase.aln  94 llfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfe 182
+                           ++f t+e  f  n g+d+ v    pf+ kh v+  d++ fagavalsncpgap+++f++gr   t pa dglvpep    v  i+ar++
+  sp|P49012|LIG2_PHACH 100 MIFDTIETAFHPNIGLDEVVAMQKPFVQKHGVTPGDFIAFAGAVALSNCPGAPQMNFFTGRKPATQPAPDGLVPEPF-HTVDQIIARVN 187
+                           ****************************************************************************9.99********* PP
+
+        Peroxidase.aln 183 daggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfal 271
+                           dag f  +e+v +l++hsva  + vd t++  pfdstp  fd+q f+e  ++gt fpg   n gev s +       +ge+r+q+d +l
+  sp|P49012|LIG2_PHACH 188 DAGEFDELELVWMLSAHSVAAVNDVDPTVQGLPFDSTPGIFDSQFFVETQFRGTLFPGSGGNQGEVESGM-------AGEIRIQTDHTL 269
+                           ******************************************************************9876.......69********** PP
+
+        Peroxidase.aln 272 ardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpa.vkkpas.fpattsakdlelncnsqkfptltvdqg 358
+                           ardsrtac wq fv +q  +   f+     l+ lg++ + + dcs+v+p+ kp   + p s fp   s  d+e  c    fp+l    g
+  sp|P49012|LIG2_PHACH 270 ARDSRTACEWQSFVGNQSKLVDDFQFIFLALTQLGQDPNAMTDCSDVIPLSKPIpGNGPFSfFPPGKSHSDIEQACAETPFPSLVTLPG 358
+                           *****************************************************735788873699******************987666 PP
+
+        Peroxidase.aln 359 atq 361
+                            + 
+  sp|P49012|LIG2_PHACH 359 PAT 361
+                           554 PP
+
+>> sp|P20010|LIG_PHLRA  Ligninase-3 OS=Phlebia radiata OX=5308 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  305.1   5.8   2.2e-93     2e-89       3     361 ..       1     353 [.       1     359 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 305.1 bits;  conditional E-value: 2.2e-93
+       Peroxidase.aln   3 lalssllslvalaalaraapaaetavcfdgtrvsnsaccafiplaqdlqatvfqndcgedahevirlifhdavais...rskgpsaggga 89 
+                          +a+  lls v+la  a aa  +  a c+dgt++ n+ cca++ + +dlq  +f+n+cg++ahe +rl fhda+ais    + g   ggga
+  sp|P20010|LIG_PHLRA   1 MAFKQLLSAVTLALAASAASVTRRATCPDGTQLMNAECCALLAVRDDLQNNMFNNECGDEAHEALRLTFHDAIAISpamEATGQFGGGGA 90 
+                          78999**********************************************************************93333578899**** PP
+
+       Peroxidase.aln  90 dgsmllfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttila 179
+                          dgs+++f  +e  f  n g+d+ v+ + pf  +  +  ad++qf+gav  sncpgap l+ + gr + t  a dglvpep   dv tila
+  sp|P20010|LIG_PHLRA  91 DGSIMIFSDIETKFHPNIGLDEVVESFRPFQQRSGMGVADFIQFSGAVGTSNCPGAPTLNAFIGRKDATQAAPDGLVPEPF-HDVNTILA 179
+                          ********************************************************************************9.99****** PP
+
+       Peroxidase.aln 180 rfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdf 269
+                          rf+dag f  +e v +l +hsva  + +d ++  apfdstp  +d q f+e  l+g  f g     g   sp+        ge+rl sd 
+  sp|P20010|LIG_PHLRA 180 RFNDAGDFDELETVWFLIAHSVAAQNDIDPAVSHAPFDSTPSVMDGQFFIETQLRGVEFIGSGGIEGVAESPV-------KGEFRLMSDQ 262
+                          *************************************************************999999988997.......58******** PP
+
+       Peroxidase.aln 270 alardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptltvdqga 359
+                           +ard rtac wq f  +q  +   f+     +  lg +   lidcs+v+pvp p    p  fpa  + +d+e  c    fptl  d g 
+  sp|P20010|LIG_PHLRA 263 QIARDNRTACEWQSFGTDQAKLQNRFQFIFEAMGQLGTDPTTLIDCSDVLPVPPPLSTVP-HFPAGITINDVEPACAETPFPTLPTDPGP 351
+                          *****************************************************9988877.7************************9986 PP
+
+       Peroxidase.aln 360 tq 361
+                          + 
+  sp|P20010|LIG_PHLRA 352 AT 353
+                          54 PP
+
+>> sp|P20013|LIGC_TRAVE  Ligninase C OS=Trametes versicolor OX=5325 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  299.9   4.4     8e-92   7.3e-88       3     365 ..       1     363 [.       1     367 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 299.9 bits;  conditional E-value: 8e-92
+        Peroxidase.aln   3 lalssllslvalaalaraapaaet..avcfdgtr.vsnsaccafiplaqdlqatvfqnd.cgedahevirlifhdavais...rskgps 84 
+                           +a+ slls+v++    + a aa t    c+dg    +n+acc +  + +dlq  +f+   c  +ahe +rl fhda+ais    ++g  
+  sp|P20013|LIGC_TRAVE   1 MAFKSLLSFVSVIGALQGANAALTrrVACPDGVNtATNAACCQLFAVREDLQQNLFHGGlCTAEAHESLRLTFHDAIAISpalEAQGIF 89 
+                           7899*****9988777777777653368****8725799*****************9754*******************9444468999 PP
+
+        Peroxidase.aln  85 agggadgsmllfptveplfaanngiddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqedd 173
+                            gggadgs+ +fp +e  f  n g+d+ ++   pf+a+h +s ad++qfaga+  snc gap+l  + gr + t pa dglvpep    
+  sp|P20013|LIGC_TRAVE  90 GGGGADGSIAIFPEIETNFHPNIGLDEIIELQKPFIARHNISVADFIQFAGAIGASNCAGAPQLAAFVGRKDATQPAPDGLVPEPF-HT 177
+                           *************************************************************************************9.67 PP
+
+        Peroxidase.aln 174 vttilarfeda..ggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndt 260
+                              i+ r+ da  g f p+  v ll++h+va a+ vd t    pfdstp  +dtq fle  l+gt fpg   n gev spl       +
+  sp|P20013|LIGC_TRAVE 178 PDQIFDRLADAsqGEFDPILTVWLLTAHTVAAANDVDPTKSGLPFDSTPELWDTQFFLETQLRGTSFPGSGGNQGEVESPL-------A 259
+                           789999999986689*****************************************************************9.......5 PP
+
+        Peroxidase.aln 261 gemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqk 349
+                           gemrlqsd ++ardsrtac wq fv++q      f+     l+++g++ + l+dc+evvp+p    +  + fpa  s  d+e  c    
+  sp|P20013|LIGC_TRAVE 260 GEMRLQSDHTIARDSRTACEWQSFVDNQPKAQQMFQFVFHDLSIFGQDINTLVDCTEVVPIPADP-QGHTHFPAGLSNADIEQACAETP 347
+                           9************************************************************9765.56789****************** PP
+
+        Peroxidase.aln 350 fptltvdqgatqslip 365
+                           fpt+  d g   ++ p
+  sp|P20013|LIGC_TRAVE 348 FPTFPTDPGPKTAVAP 363
+                           ******9998776655 PP
+
+>> sp|P28314|PER_COPCI  Peroxidase OS=Coprinopsis cinerea OX=5346 GN=CIP1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  276.0   1.0   1.5e-84   1.3e-80      23     365 ..      25     361 ..       1     363 [] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 276.0 bits;  conditional E-value: 1.5e-84
+       Peroxidase.aln  23 aaetavcfdgtrvsnsaccafiplaqdlqatvfqn.dcgedahevirlifhdavais...rskgpsagggadgsmllfptveplfaanng 108
+                             +  c+ g   sns cc +  + +dlq+  +q   c     +++r++fhda+  s    + g   gggadgs++    +e  f an g
+  sp|P28314|PER_COPCI  25 GGGSVTCPGGQSTSNSQCCVWFDVLDDLQTNFYQGsKCESPVRKILRIVFHDAIGFSpalTAAGQFGGGGADGSIIAHSNIELAFPANGG 114
+                          345667***************************962688899************9993334578899*********************** PP
+
+       Peroxidase.aln 109 iddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfedaggftpfevvsllas 198
+                          + d+v+ l  +  +h vs  dl+qfa av +sncpg+prlefl+gr n + p+   l+p p  + vt+il r+ da gf+p evv lla+
+  sp|P28314|PER_COPCI 115 LTDTVEALRAVGINHGVSFGDLIQFATAVGMSNCPGSPRLEFLTGRSNSSQPSPPSLIPGPG-NTVTAILDRMGDA-GFSPDEVVDLLAA 202
+                          *************************************************************9.99**********9.5************ PP
+
+       Peroxidase.aln 199 hsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneq 288
+                          hs+a  + ++ +i  +p+dstp  fdtq ++e llkgt  pg s    e  sp+p       ge+r++sd  lardsrtac wq +   +
+  sp|P28314|PER_COPCI 203 HSLASQEGLNSAIFRSPLDSTPQVFDTQFYIETLLKGTTQPGPSLGFAEELSPFP-------GEFRMRSDALLARDSRTACRWQSMTSSN 285
+                          ******************************************************9.......9*************************** PP
+
+       Peroxidase.aln 289 efmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptltvdqgatqslip 365
+                          e+m   +++a+ak++vlg +r+ l dcs+v+p        p  +p   +  d+e+ c s+ fp ++   g   sl p
+  sp|P28314|PER_COPCI 286 EVMGQRYRAAMAKMSVLGFDRNALTDCSDVIPSAVSNNAAP-VIPGGLTVDDIEVSCPSEPFPEIATASGPLPSLAP 361
+                          *******************************9876554444.58999*******************99999888877 PP
+
+>> sp|P28313|PER_ARTRA  Peroxidase OS=Arthromyces ramosus OX=5451 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  274.0   0.9   6.1e-84   5.6e-80      26     365 ..      29     362 ..       1     364 [] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 274.0 bits;  conditional E-value: 6.1e-84
+       Peroxidase.aln  26 tavcfdgtrvsnsaccafiplaqdlqatvfqn.dcgedahevirlifhdavais...rskgpsagggadgsmllfptveplfaanngidd 111
+                          +  c+ g   sns cc +  + +dlq+  +q   c     +++r++fhda+  s    + g   gggadgs++    +e  f an g+ d
+  sp|P28313|PER_ARTRA  29 SVTCPGGQSTSNSQCCVWFDVLDDLQTNFYQGsKCESPVRKILRIVFHDAIGFSpalTAAGQFGGGGADGSIIAHSNIELAFPANGGLTD 118
+                          568***************************962688899************9993334578899************************** PP
+
+       Peroxidase.aln 112 svnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfedaggftpfevvsllashsv 201
+                          +++ l  +  +h vs  dl+qfa av +sncpg+prlefl+gr n + p+   l+p p  + vt+il r+ da gf+p evv lla+hs+
+  sp|P28313|PER_ARTRA 119 TIEALRAVGINHGVSFGDLIQFATAVGMSNCPGSPRLEFLTGRSNSSQPSPPSLIPGPG-NTVTAILDRMGDA-GFSPDEVVDLLAAHSL 206
+                          **********************************************************9.99**********9.5*************** PP
+
+       Peroxidase.aln 202 aradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefm 291
+                          a  + ++ +i  +p+dstp  fdtq ++e llkgt  pg s    e  sp+p       ge+r++sd  lardsrtac wq +   +e+m
+  sp|P28313|PER_ARTRA 207 ASQEGLNSAIFRSPLDSTPQVFDTQFYIETLLKGTTQPGPSLGFAEELSPFP-------GEFRMRSDALLARDSRTACRWQSMTSSNEVM 289
+                          ***************************************************9.......9****************************** PP
+
+       Peroxidase.aln 292 aasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptltvdqgatqslip 365
+                             +++a+ak++vlg +r+ l dcs+v+p        p  +p   +  d+e+ c s+ fp ++   g   sl p
+  sp|P28313|PER_ARTRA 290 GQRYRAAMAKMSVLGFDRNALTDCSDVIPSAVSNNAAP-VIPGGLTVDDIEVSCPSEPFPEIATASGPLPSLAP 362
+                          ****************************9876554444.58999*******************99999888877 PP
+
+>> sp|A8NK72|PER_COPC7  Peroxidase OS=Coprinopsis cinerea (strain Okayama-7 / 130 / ATCC MYA-4618 / FGSC 9003) OX=240176
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  273.9   0.9   6.5e-84   5.9e-80      23     365 ..      25     361 ..       1     363 [] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 273.9 bits;  conditional E-value: 6.5e-84
+       Peroxidase.aln  23 aaetavcfdgtrvsnsaccafiplaqdlqatvfqn.dcgedahevirlifhdavais...rskgpsagggadgsmllfptveplfaanng 108
+                             +  c+ g   sns cc +  + +dlq+  +q   c     +++r++fhda+  s    + g   gggadgs++    +e  f an g
+  sp|A8NK72|PER_COPC7  25 GGGSVTCPGGQSTSNSQCCVWFDVLDDLQTNFYQGsKCESPVRKILRIVFHDAIGFSpalTAAGQFGGGGADGSIIAHSNIELAFPANGG 114
+                          345667***************************962688899************9993334578899*********************** PP
+
+       Peroxidase.aln 109 iddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfedaggftpfevvsllas 198
+                          + d+++ l  +  +h vs  dl+qfa av +sncpg+prlefl+gr n + p+   l+p p  + vt+il r+ da gf+p evv lla+
+  sp|A8NK72|PER_COPC7 115 LTDTIEALRAVGINHGVSFGDLIQFATAVGMSNCPGSPRLEFLTGRSNSSQPSPPSLIPGPG-NIVTAILDRMGDA-GFSPDEVVDLLAA 202
+                          *************************************************************9.99**********9.5************ PP
+
+       Peroxidase.aln 199 hsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneq 288
+                          hs+a  + ++ +i  +p+dstp  fdtq ++e llkgt  pg s    e  sp+p       ge+r++sd  lardsrtac wq +   +
+  sp|A8NK72|PER_COPC7 203 HSLASQEGLNSAIFRSPLDSTPQVFDTQFYIETLLKGTTQPGPSLGFAEELSPFP-------GEFRMRSDALLARDSRTACRWQSMTSSN 285
+                          ******************************************************9.......9*************************** PP
+
+       Peroxidase.aln 289 efmaasfksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptltvdqgatqslip 365
+                          e+m   +++a+ak++vlg +r+ l dcs+v+p        p  +p   +  d+e+ c s+ fp ++   g   sl p
+  sp|A8NK72|PER_COPC7 286 EVMGQRYRAAMAKMSVLGFDRNALTDCSDVIPSAVSNNAAP-VIPGGLTVDDIEVSCPSEPFPEIATASGPLPSLAP 361
+                          *******************************9876554444.58999*******************99999888877 PP
+
+>> sp|C0IW58|LNP_TAICA  Low-redox potential peroxidase OS=Taiwanofungus camphoratus OX=2696576 GN=LnP PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  232.6   0.1   2.3e-71   2.1e-67      42     356 ..      17     325 ..       7     329 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 232.6 bits;  conditional E-value: 2.3e-71
+       Peroxidase.aln  42 afiplaqdlq..atvfqndcged.ahevirlifhdavais...rskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhpv 125
+                           f+  a  l   +  +q d   +   e+   +fh+    s   r+ g   gggadgs++ f   e  + an+g+++ v  l  f   h v
+  sp|C0IW58|LNP_TAICA  17 VFVTSAIALSnhTNAYQCDRWSNvLNELQANLFHEGQCRSaalRASGTFGGGGADGSIIQFAHTELAYPANEGLEEMVYTLKHFADGHEV 106
+                          5555555444113445555443314566677899876544333899999***************************************** PP
+
+       Peroxidase.aln 126 saadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaap 215
+                          s  d++qfagavalsncpg+prl f +grp+   p+   l+p p  d v  il+r+ da gf   + v+lla+hs+a  + +d +i  +p
+  sp|C0IW58|LNP_TAICA 107 SYGDMIQFAGAVALSNCPGSPRLRFYAGRPEAIAPSPPNLLPLPT-DPVEKILSRMADA-GFNAGDTVALLAAHSIAVQNTIDPSIPDSP 194
+                          ********************************************9.************9.59999************************* PP
+
+       Peroxidase.aln 216 fdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavl 305
+                          +dstp  fdtq +le ll+gt +pg      +  sp+         e+rl sd a+ar + tac wq f+++qe + ++f+ a+ kla  
+  sp|C0IW58|LNP_TAICA 195 LDSTPRIFDTQFYLETLLRGTRYPGKGRGPAQSKSPIE-------HEFRLASDAAIARHTSTACEWQSFIDNQEGLRSAFRNAMVKLANQ 277
+                          *************************9999999999986.......59******************************************* PP
+
+       Peroxidase.aln 306 ghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptltvd 356
+                          gh  d+l+dcs v+pvp p  + p  +p+  s  d+e  c    fpt++++
+  sp|C0IW58|LNP_TAICA 278 GH--DNLVDCSFVIPVPPP-WNLPVEYPSGKSRSDVEQSCSDVPFPTISLN 325
+                          *9..89***********66.799************************9875 PP
+
+>> sp|Q7XZP5|APX5_ARATH  L-ascorbate peroxidase 5, peroxisomal OS=Arabidopsis thaliana OX=3702 GN=APX5 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.0   0.0   2.2e-14     2e-10      50     241 ..      20     197 ..      14     211 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 45.0 bits;  conditional E-value: 2.2e-14
+        Peroxidase.aln  50 lqatvfqndcgedahevirlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagav 137
+                           l+a +   +c   a  ++rl +hda +    k     gga+gs+ +   ++     n+g++ +v     + akhp vs adl q+ag v
+  sp|Q7XZP5|APX5_ARATH  20 LRALISSRNC---APIMLRLAWHDAGTYDAKK---KTGGANGSIRFKEELN--RPHNKGLEKAVAFCEEVKAKHPrVSYADLYQLAGVV 100
+                           5555555555...456899*****99877665...579*****98755444..46899****************989************ PP
+
+        Peroxidase.aln 138 alsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtq 226
+                           a+  + g p + f  gr +    a dg +p+p+e   + + + f    g+   ++v+l   h++ ra k     +  p+   p+ fd  
+  sp|Q7XZP5|APX5_ARATH 101 AVE-VTGGPAIPFTPGRKDA-DSADDGELPNPNE-GASHLRTLF-SRMGLLDRDIVALSGGHTLGRAHKERSDFE-GPWTQDPLKFDNS 184
+                           *85.7899*********875.5899*******94.344444444.45578899***************9776665.7************ PP
+
+        Peroxidase.aln 227 vflevllkgtgfpgl 241
+                            f+e+ lkg   pgl
+  sp|Q7XZP5|APX5_ARATH 185 YFVEL-LKGET-PGL 197
+                           ***95.56643.554 PP
+
+>> sp|P48534|APX1_PEA  L-ascorbate peroxidase, cytosolic OS=Pisum sativum OX=3888 GN=APX1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.0   0.0   1.4e-12   1.3e-08      98     232 ..      63     195 ..      30     202 .. 0.84
+   2 ?    0.6   0.0      0.67   6.1e+03     257     307 ..     197     247 ..     195     249 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 39.0 bits;  conditional E-value: 1.4e-12
+      Peroxidase.aln  98 tveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfedaggf 187
+                           e    anng+d +v  l p+  + p vs ad+ q+ag va+    g p + f  gr ++  p  +g +p+        +   f  a g+
+  sp|P48534|APX1_PEA  63 QAELAHGANNGLDIAVRLLEPIKEQFPiVSYADFYQLAGVVAVE-ITGGPEVPFHPGREDKPEPPPEGRLPDAT-KGSDHLRDVFGKAMGL 151
+                         4567789*******************96699**********985.7899***********************98.667788899******* PP
+
+      Peroxidase.aln 188 tpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevl 232
+                         +  ++v+l   h++  a k     +  p+ s p+ fd   f e+l
+  sp|P48534|APX1_PEA 152 SDQDIVALSGGHTIGAAHKERSGFE-GPWTSNPLIFDNSYFTELL 195
+                         ******************9887776.7**************9987 PP
+
+  == domain 2  score: 0.6 bits;  conditional E-value: 0.67
+      Peroxidase.aln 257 gndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlgh 307
+                         g+  g ++l sd al  ds    + + +  +++++ a +  a  kl+ lg 
+  sp|P48534|APX1_PEA 197 GEKDGLLQLPSDKALLTDSVFRPLVEKYAADEDVFFADYAEAHLKLSELGF 247
+                         67789999*************************999*******99999986 PP
+
+>> sp|Q0JEQ2|APX3_ORYSJ  Probable L-ascorbate peroxidase 3, peroxisomal OS=Oryza sativa subsp. japonica OX=39947 GN=APX3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   0.0   9.2e-13   8.3e-09      49     234 ..      21     195 ..       8     214 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 9.2e-13
+        Peroxidase.aln  49 dlqatvfqndcgedahevirlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfaga 136
+                           dl+a +  + c   a  ++rl +hda +  ++   +  gg +gs+  fp  e   aan gi  +++ l p+  khp ++ adl q+ag 
+  sp|Q0JEQ2|APX3_ORYSJ  21 DLRALIASKSC---APIMLRLAWHDAGTYDKA---TKTGGPNGSI-RFPQ-EYSHAANAGIKIAIDLLEPMKQKHPkITYADLYQLAGV 101
+                           55555555555...4567999****9887654...4568899996.6886.8899********************96788********* PP
+
+        Peroxidase.aln 137 valsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdt 225
+                           va+  + g p ++++ gr + +    +g +p+ +    ++ l  +    g++  ++v+l   h++ +a       d a +   p+ fd 
+  sp|Q0JEQ2|APX3_ORYSJ 102 VAVE-VTGGPTIDYVPGRRDSSDSPEEGRLPDAK--KGAAHLREVFYRMGLSDKDIVALSGGHTLGKARPERSGFDGA-WTKDPLKFDN 186
+                           **85.7899**************99*******99..344455555566789*****************9999999988.5678****** PP
+
+        Peroxidase.aln 226 qvflevllk 234
+                             f+e+l  
+  sp|Q0JEQ2|APX3_ORYSJ 187 SYFIELLKE 195
+                           *****8854 PP
+
+>> sp|Q01MI9|APX3_ORYSI  Probable L-ascorbate peroxidase 3 OS=Oryza sativa subsp. indica OX=39946 GN=APX3 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.9   0.0     3e-12   2.8e-08      49     234 ..      21     195 ..       8     214 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 37.9 bits;  conditional E-value: 3e-12
+        Peroxidase.aln  49 dlqatvfqndcgedahevirlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfaga 136
+                           dl+a +  + c   a  ++rl +hda +  ++   +  gg +gs+  fp  e   aan gi  +++ l p+  +hp ++ adl q+ag 
+  sp|Q01MI9|APX3_ORYSI  21 DLRALIASKSC---APIMLRLAWHDAGTYDKA---TKTGGPNGSI-RFPQ-EYSHAANAGIKIAIDLLEPMKQRHPkITYADLYQLAGV 101
+                           55555555555...4567999****9887654...4568899996.6886.8899********************96788********* PP
+
+        Peroxidase.aln 137 valsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdt 225
+                           va+  + g p ++++ gr + +    +g +p+ +    ++ l  +    g++  ++v+l   h++ +a       d a +   p+ fd 
+  sp|Q01MI9|APX3_ORYSI 102 VAVE-VTGGPTIDYVPGRRDSSDSPEEGRLPDAK--KGAAHLREVFYRMGLSDKDIVALSGGHTLGKARPERSGFDGA-WTKDPLKFDN 186
+                           **85.7899**************99*******99..344455555566789*****************9999999988.5678****** PP
+
+        Peroxidase.aln 226 qvflevllk 234
+                             f+e+l  
+  sp|Q01MI9|APX3_ORYSI 187 SYFIELLKE 195
+                           *****8854 PP
+
+>> sp|Q6ZJJ1|APX4_ORYSJ  Probable L-ascorbate peroxidase 4, peroxisomal OS=Oryza sativa subsp. japonica OX=39947 GN=APX4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.7   0.0   3.6e-12   3.3e-08      66     235 ..      34     194 ..      20     207 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 37.7 bits;  conditional E-value: 3.6e-12
+        Peroxidase.aln  66 virlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldg 153
+                           ++rl +hda +       +  gga+gs+      e    +n g+  +++ l p+ ak p ++ adl q+ag va+  + g p +ef+ g
+  sp|Q6ZJJ1|APX4_ORYSJ  34 MLRLAWHDAGTYD---VNTKTGGANGSIRY--EEEYTHGSNAGLKIAIDLLEPIKAKSPkITYADLYQLAGVVAVE-VTGGPTVEFIPG 116
+                           5788888887654...4567899****875..4688899*******************96788***********85.7899******** PP
+
+        Peroxidase.aln 154 rpnhtipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkg 235
+                           r + ++   +g +p+ ++      l  +    g++  ++v+l   h++ ra       + a +   p+ fd   fle+ lkg
+  sp|Q6ZJJ1|APX4_ORYSJ 117 RRDSSVCPREGRLPDAKKGA--LHLRDIFYRMGLSDKDIVALSGGHTLGRAHPERSGFEGA-WTQEPLKFDNSYFLEL-LKG 194
+                           ***************99443..344445556799******************999999887.6789***********6.566 PP
+
+>> sp|Q59X94|CCPR2_CANAL  Putative heme-binding peroxidase OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.5   0.0   4.1e-12   3.7e-08      63     311 ..      52     290 ..      32     291 .] 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 37.5 bits;  conditional E-value: 4.1e-12
+         Peroxidase.aln  63 ahevirlifhdavaisrskgpsagggadgs.mllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprl 148
+                            a  ++rl +h + +       +  gg++g+ m ++p +      n g+d +   l p+  ++p +s adl  +ag va+    g p +
+  sp|Q59X94|CCPR2_CANAL  52 APIILRLAWHCCATY---DMTTNTGGSNGAtMRFVPEI--TDEGNYGLDIARAALEPIKQRYPaISYADLWTLAGKVAIEY-MGGPTI 133
+                            444444444443332...23344566666515566655..4579******************96799***********976.57899* PP
+
+         Peroxidase.aln 149 efldgrpnht...ipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevll 233
+                             + +gr ++t       +gl+p  +  d   i   f    g+   + v+l+ +h v r+ k     +   +  tp tf  q +  vll
+  sp|Q59X94|CCPR2_CANAL 134 IWKSGRVDYTndrCTPSNGLLPFAD-KDANHIRKTFTRL-GYNDQQTVALIGAHGVGRCHKRFSGWEG-KWTRTPKTFSNQFY-VVLL 217
+                            ******988722245579****998.7889999999865.79999****************9988875.7899*****99955.699* PP
+
+         Peroxidase.aln 234 kgtgfpglsnntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrdd 311
+                            + t   g   +tg+           d   + l++d+ l rd     + + + +++  +   f sa akl  lg +r+ 
+  sp|Q59X94|CCPR2_CANAL 218 NETWSQGEVPETGKTQ-----YFNADKSLIMLNTDMELIRDKSYLHWVEIYAKDEPKFFHDFSSAFAKLLELGIKRET 290
+                            ***9999999999865.....456789999***********87766666677666677899************99986 PP
+
+>> sp|A2XFC7|APX1_ORYSI  L-ascorbate peroxidase 1, cytosolic OS=Oryza sativa subsp. indica OX=39946 GN=APX1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.7   0.0   2.9e-11   2.6e-07      66     232 ..      36     195 ..      15     215 .. 0.84
+   2 ?   -1.3   0.0       2.5   2.3e+04     256     306 ..     196     246 ..     195     248 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 34.7 bits;  conditional E-value: 2.9e-11
+        Peroxidase.aln  66 virlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldg 153
+                           ++rl +h a +       s  gg  g+m      e   aan g+d +v  l p+    p +s ad+ q+ag va+  + g p + f  g
+  sp|A2XFC7|APX1_ORYSI  36 MLRLAWHSAGTFDV---SSKTGGPFGTMKT--PAELSHAANAGLDIAVRMLEPIKEEIPtISYADFYQLAGVVAVE-VSGGPAVPFHPG 118
+                           45566665555443...4667888888864..357889*****************99985799**********985.7899******** PP
+
+        Peroxidase.aln 154 rpnhtipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevl 232
+                           r ++  p  +g +p+        +   f    g++  ++v+l   h++ r+ k     +  p+   p+ fd   f e+l
+  sp|A2XFC7|APX1_ORYSI 119 REDKPAPPPEGRLPDAT-KGSDHLRQVFGAQMGLSDQDIVALSGGHTLGRCHKERSGFE-GPWTRNPLQFDNSYFTELL 195
+                           ***************98.5667788889999**********************888776.7**************9987 PP
+
+  == domain 2  score: -1.3 bits;  conditional E-value: 2.5
+        Peroxidase.aln 256 sgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlg 306
+                           sg+  g ++l sd al  d   + + + +  +++ +   +k a  kl+ lg
+  sp|A2XFC7|APX1_ORYSI 196 SGDKEGLLQLPSDKALLSDPAFCPLVEKYAADEKAFFEDYKEAHLKLSELG 246
+                           788899999********9999999999999988888899999999999888 PP
+
+>> sp|Q10N21|APX1_ORYSJ  L-ascorbate peroxidase 1, cytosolic OS=Oryza sativa subsp. japonica OX=39947 GN=APX1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.7   0.0   2.8e-11   2.6e-07      66     232 ..      36     195 ..      15     216 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 34.7 bits;  conditional E-value: 2.8e-11
+        Peroxidase.aln  66 virlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldg 153
+                           ++rl +h a +       s  gg  g+m      e   aan g+d +v  l p+    p +s ad+ q+ag va+  + g p + f  g
+  sp|Q10N21|APX1_ORYSJ  36 MLRLAWHSAGTFDV---SSKTGGPFGTMKT--PAELSHAANAGLDIAVRMLEPIKEEIPtISYADFYQLAGVVAVE-VSGGPAVPFHPG 118
+                           45566665555443...4667888888864..357889*****************99985799**********985.7899******** PP
+
+        Peroxidase.aln 154 rpnhtipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevl 232
+                           r ++  p  +g +p+        +   f    g++  ++v+l   h++ r+ k     +  p+   p+ fd   f e+l
+  sp|Q10N21|APX1_ORYSJ 119 REDKPAPPPEGRLPDAT-KGSDHLRQVFGAQMGLSDQDIVALSGGHTLGRCHKERSGFE-GPWTRNPLQFDNSYFTELL 195
+                           ***************98.5667788889999**********************888776.7**************9987 PP
+
+>> sp|Q9FE01|APX2_ORYSJ  L-ascorbate peroxidase 2, cytosolic OS=Oryza sativa subsp. japonica OX=39947 GN=APX2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.5   0.0   6.8e-11   6.2e-07      83     232 ..      51     196 ..      29     217 .. 0.83
+   2 ?   -1.0   0.0         2   1.9e+04     256     307 ..     197     248 ..     194     250 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 33.5 bits;  conditional E-value: 6.8e-11
+        Peroxidase.aln  83 psagggadgsmllfptveplfaanngiddsvnnlipflakhpv.saadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepq 170
+                            s  gg  g+m      e   aan g+d +v  l p+  + p+ s ad+ q+ag va+  + g p + f  gr ++  p  +g +p+  
+  sp|Q9FE01|APX2_ORYSJ  51 SSRTGGPFGTMKN--PGEQSHAANAGLDIAVRLLDPIKDQLPIlSYADFYQLAGVVAVE-VTGGPEVPFHPGRQDKPEPPPEGRLPDAT 136
+                           3566777777753..458889*********************7589***********85.7899**********************987 PP
+
+        Peroxidase.aln 171 eddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevl 232
+                            +    +   f    g++  ++v+l   h++ r+ k     + a + s p+ fd   f e++
+  sp|Q9FE01|APX2_ORYSJ 137 -QGSDHLRQVFSAQMGLSDKDIVALSGGHTLGRCHKERSGFEGA-WTSNPLIFDNSYFTELV 196
+                           .5666778889999**********************99999987.789********999965 PP
+
+  == domain 2  score: -1.0 bits;  conditional E-value: 2
+        Peroxidase.aln 256 sgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlgh 307
+                           sg+  g ++l sd al  d     + + +  +++ + a +  a  kl+ lg 
+  sp|Q9FE01|APX2_ORYSJ 197 SGEKEGLLQLPSDKALMADPAFRPLVEKYAADEDAFFADYAEAHLKLSELGF 248
+                           78999999***********999999999999999999999999999998886 PP
+
+>> sp|Q42564|APX3_ARATH  L-ascorbate peroxidase 3 OS=Arabidopsis thaliana OX=3702 GN=APX3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.3   0.0   7.7e-11     7e-07      65     235 ..      33     194 ..      18     206 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 33.3 bits;  conditional E-value: 7.7e-11
+        Peroxidase.aln  65 evirlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefld 152
+                            ++rl +hda +       s  gg +gs+      e    an g+  +++    + akhp ++ adl q+ag va+  + g p + f+ 
+  sp|Q42564|APX3_ARATH  33 IMLRLAWHDAGTY---DAQSKTGGPNGSIR--NEEEHTHGANSGLKIALDLCEGVKAKHPkITYADLYQLAGVVAVE-VTGGPDIVFVP 115
+                           4678999998765...466889999**975..677999************999******96788***********85.7899******* PP
+
+        Peroxidase.aln 153 grpnhtipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkg 235
+                           gr +  +   +g +p+ + +    +   f    g++  ++v+l   h++ ra       d  p+   p+ fd   f+e+ lkg
+  sp|Q42564|APX3_ARATH 116 GRKDSNVCPKEGRLPDAK-QGFQHLRDVFY-RMGLSDKDIVALSGGHTLGRAHPERSGFD-GPWTQEPLKFDNSYFVEL-LKG 194
+                           ****************99.55555555555.56899****************99988888.69**************96.566 PP
+
+>> sp|Q4WLG9|CCPR2_ASPFU  Putative heme-binding peroxidase OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.3   0.0   7.9e-11   7.2e-07      86     311 ..      49     273 ..      22     304 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 33.3 bits;  conditional E-value: 7.9e-11
+         Peroxidase.aln  86 gggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrpnht....ipaidglvpe 168
+                             gg++g+ + +   e    an g++     l p+  khp ++ adl  +ag va+    g p++ +  gr +      +p   g +p+
+  sp|Q4WLG9|CCPR2_ASPFU  49 TGGSNGAGMRYE-AEGGDPANAGLQHGRAFLEPVKEKHPwITYADLWTLAGVVAIEA-LGGPKVVWKPGRTDLVddskVPP-RGRLPD 133
+                            466666665554.4666779*******************6788***********975.688*****999986531111333.455565 PP
+
+         Peroxidase.aln 169 pqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgs 256
+                               +    + a f    gf   e+v+l   h++ r+ ++d +    p+   p  f  q f  +l        l n   +     p   
+  sp|Q4WLG9|CCPR2_ASPFU 134 AT-QGAEHLRAVFY-RMGFNDQEIVALAGGHTLGRC-HIDRSGFQGPWVNNPTRFSNQFFKLLLTLDWKPKTLPNGISQFVYVDPDAE 218
+                            55.34455556665.568*****************8.59999999*************887766666677789999************ PP
+
+         Peroxidase.aln 257 gndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrdd 311
+                              d   m l +d+al  d    ++ + +  +++++   f  a akl  lg +rd+
+  sp|Q4WLG9|CCPR2_ASPFU 219 EGDEPLMMLPTDIALKTDPAFRVWVDKYAADKDLFFDHFAKAFAKLMELGIKRDE 273
+                            ***********************99**************************9986 PP
+
+>> sp|Q5B1Z0|CCPR2_EMENI  Putative heme-binding peroxidase OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1   0.0   1.7e-10   1.6e-06      74     311 ..      36     273 ..      18     293 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 32.1 bits;  conditional E-value: 1.7e-10
+         Peroxidase.aln  74 avaisrs.kgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrpnht. 158
+                            a++ s +    s  gg++g+ + +   e    an g++     l p+  khp ++ +dl  +ag va+ +  g p++ +l gr +   
+  sp|Q5B1Z0|CCPR2_EMENI  36 AWHSSGTyDAASDTGGSNGAGMRYE-AEGGDPANAGLQHGRAFLEPVKEKHPwITYSDLWTLAGVVAIEEM-GGPKIPWLPGRTDFVd 121
+                            5555544145678899999988876.5778899*******************66889***********986.77*********98651 PP
+
+         Peroxidase.aln 159 ...ipaidglvpep.qe.ddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpgl 241
+                               +p   g +p+  q  d +  i+       gf   e+v+l   h + r+   d +    p+   p  f  q f  +l        l
+  sp|Q5B1Z0|CCPR2_EMENI 122 dskVPP-RGRLPDGaQGaDHLRFIFY----RMGFNDQEIVALAGGHNLGRCH-ADRSGFQGPWVNNPTRFSNQFFKLLLNMEWKPKTL 203
+                            111444.4555554143133444444....469*****************86.68888889**********99776555555555579 PP
+
+         Peroxidase.aln 242 snntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrdd 311
+                             n   +     p     +   m l +d+al  d     + + + ++++++   f  a akl  lg +rd 
+  sp|Q5B1Z0|CCPR2_EMENI 204 ENGVSQFVYIDPEAEDHEEPLMMLPTDVALRDDPAFRPWVERYAKDKDLFFDHFSKAFAKLIELGIQRDA 273
+                            99999999999*******************99999999999***************************96 PP
+
+>> sp|Q05431|APX1_ARATH  L-ascorbate peroxidase 1, cytosolic OS=Arabidopsis thaliana OX=3702 GN=APX1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.4   0.0     3e-10   2.7e-06      68     232 ..      38     195 ..      27     218 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 31.4 bits;  conditional E-value: 3e-10
+        Peroxidase.aln  68 rlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrp 155
+                           rl +h a +       s  gg  g+m +    e    an gi  ++  l p+  + p +s ad+ q+ag va+  + g p + f  gr 
+  sp|Q05431|APX1_ARATH  38 RLAWHSAGTF---DCQSRTGGPFGTMRF--DAEQAHGANSGIHIALRLLDPIREQFPtISFADFHQLAGVVAVE-VTGGPDIPFHPGRE 120
+                           5555554433...456778888888864..468899*******************996799***********85.7899********** PP
+
+        Peroxidase.aln 156 nhtipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevl 232
+                           ++  p  +g +p+        +   f    g++  ++v+l  +h++ r+ k     + a + s p+ fd   f e+l
+  sp|Q05431|APX1_ARATH 121 DKPQPPPEGRLPDAT-KGCDHLRDVFAKQMGLSDKDIVALSGAHTLGRCHKDRSGFEGA-WTSNPLIFDNSYFKELL 195
+                           *************98.6778888899999**********************88888766.89*********999976 PP
+
+>> sp|A4R606|CCPR2_PYRO7  Putative heme-binding peroxidase OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 89
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.3   0.0   3.2e-10   2.9e-06      65     311 ..      32     272 ..      11     293 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 31.3 bits;  conditional E-value: 3.2e-10
+         Peroxidase.aln  65 evirlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefl 151
+                             ++rl +h a +  +s      gg++g+ + +   e    an g++++ + l p+ a+hp ++ adl  +ag va+    g p + + 
+  sp|A4R606|CCPR2_PYRO7  32 VLVRLAWHSAGTYDKST---DTGGSNGAGMRYE-AEGGDPANAGLQNARQFLEPVKARHPwITYADLRTLAGVVAVRA-MGGPEIPWR 114
+                            56788888887776664...3566777776665.577888********************6788***********975.688****** PP
+
+         Peroxidase.aln 152 dgrpnhtipaidglvp.epqeddvttilarfeda...ggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkg 235
+                            +gr +    a d  vp   +  d t   a + d     gf   e+v+l  +hs+ r+   +   +   +   p  f  q f  + l  
+  sp|A4R606|CCPR2_PYRO7 115 AGRTDF---ADDSRVPpRGRLPDATQGAAHVRDIfyrMGFDDREIVALSGAHSLGRCHPANSGFEGK-WVNNPTRFSNQYFRLL-LSE 197
+                            **9876...566666515566788888888888533369**********************999976.5568999**9988654.444 PP
+
+         Peroxidase.aln 236 tgfpglsnntge.vasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrdd 311
+                                     tg      +   +g++   m l +d++l+ d   a + + + ++q+++ a f     kl  lg +rd 
+  sp|A4R606|CCPR2_PYRO7 198 DWREKTVAGTGLkQFVAVDEVTGDE--LMMLPTDLSLTSDPVFARWVKVYRDDQDLFFADFAKVFDKLMELGIKRDA 272
+                            4444444555540334444445543..599********************************************995 PP
+
+>> sp|Q6C0Z6|CCPR_YARLI  Cytochrome c peroxidase, mitochondrial OS=Yarrowia lipolytica (strain CLIB 122 / E 150) OX=2845
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.3   0.1   1.2e-09   1.1e-05      67     234 ..      96     257 ..      76     326 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 29.3 bits;  conditional E-value: 1.2e-09
+        Peroxidase.aln  67 irlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgr 154
+                           +rl +h + +  +       g + g+m + p  e   aanng+ ++ n l p+  k p +s+ dl  + g  a+ +  g p + +  gr
+  sp|Q6C0Z6|CCPR_YARLI  96 LRLAWHSSGTYNK--SDNKFGSSGGTMRFKP--EASHAANNGLVNARNFLKPIHEKFPwISTGDLYTLGGVTAVQEL-GGPIIPWKRGR 179
+                           4555555544443..3445566777888777..7789********************978999****9999998875.77999999999 PP
+
+        Peroxidase.aln 155 pnhtipa..idglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaa.pfdstpftfdtqvflevllk 234
+                            +    a   dg +p+   +  t +   f+   gf   e+v+l+ +h++ r+ k +   +    f  t ft d   f ++ll 
+  sp|Q6C0Z6|CCPR_YARLI 180 VDEPESAspPDGSLPDAS-QGATHVRNVFN-RQGFNDQEMVALIGAHALGRCHKQNSGFEGPwTFSPTMFTND---FYKLLLD 257
+                           776554411599999988.56677766665.679********************9999875213444555544...5555554 PP
+
+>> sp|Q4PD66|CCPR2_MYCMD  Putative heme-binding peroxidase OS=Mycosarcoma maydis OX=5270 GN=CCP2 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.0   0.0   3.9e-10   3.5e-06      74     311 ..      36     272 ..       7     296 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 31.0 bits;  conditional E-value: 3.9e-10
+         Peroxidase.aln  74 avaisrskg.psagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrpnht. 158
+                            a++ s +    +  gg++g+ + +   e    an g++ +   l p+  kh  ++ adl  +ag va+    g p +++  gr + + 
+  sp|Q4PD66|CCPR2_MYCMD  36 AWHASGTYCaRTDTGGSNGAGMRYE-AEGGDPANAGLQHARVFLEPIKEKHSwITYADLWTLAGVVAIEA-MGGPSIQWKPGRTDFAd 121
+                            4444444330345677777777765.5777889******************75789***********975.688*****999988751 PP
+
+         Peroxidase.aln 159 ...ipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsn 243
+                               +p   g +p+    + +  l  + +  gf   e+v+l  +h + r+   d +    p+  +p  f  q   ++llk    p   +
+  sp|Q4PD66|CCPR2_MYCMD 122 dsrLPP-RGRLPDGA--QGADHLRFIFNRMGFNDQEIVALSGAHNLGRCHS-DRSGFEGPWVNSPTRFSNQY-YKLLLKLKWQPKKWD 204
+                            111333.45555543..22333333345679*****************975.77777789999*****9995.5899********999 PP
+
+         Peroxidase.aln 244 ntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrdd 311
+                               +  +  p    +d   m l +d+al +d +   + + + ++++ +   f    akl  lg  rd+
+  sp|Q4PD66|CCPR2_MYCMD 205 GPFQYVAKAPGADDDDEQLMMLPTDYALIQDEKMRPWVEKYAEDRDAFFNDFAKVFAKLIELGVYRDE 272
+                            999999999*99999**************************************************997 PP
+
+>> sp|Q4HWQ2|CCPR2_GIBZE  Putative heme-binding peroxidase OS=Gibberella zeae (strain ATCC MYA-4620 / CBS 123657 / FGSC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.4   0.0   5.9e-10   5.4e-06      84     336 ..      59     311 ..      28     316 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 30.4 bits;  conditional E-value: 5.9e-10
+         Peroxidase.aln  84 sagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrpnhtipai...dglvp 167
+                            +  gg++g+ + +   e    an g++++   l p+   hp ++ +dl  +ag  a+    g p +++l gr +    +     g +p
+  sp|Q4HWQ2|CCPR2_GIBZE  59 TDTGGSNGAGMRYE-AEGGDPANAGLQNARVFLEPVKRLHPwITYSDLWTLAGVTAIHA-MGGPEIDWLPGRTDFVDDSKlppRGRLP 144
+                            34566777766665.4777789******************966889*******999975.688*********9875433211156666 PP
+
+         Peroxidase.aln 168 epqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkg 255
+                            +   +    i   f    gf   e+v+l  +h + r+   +   +   +   p  f  q f  +ll  t       ++g +       
+  sp|Q4HWQ2|CCPR2_GIBZE 145 DAA-QGAEHIRHIFY-RMGFNDREIVALSGAHNLGRCHTANSGFEGK-WVNNPTRFSNQYF-RLLLSETWTEKTIPESGLLQFS---S 225
+                            665.33444444443.469*********************9999976.5568999*99987.5777777666555555554322...2 PP
+
+         Peroxidase.aln 256 sgndtge..mrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrd...dlidcsevvpvpkpavkkpasfpatt 336
+                              +dt e  m l +d+al+ ds  + + q + ++++++   fk a akl  lg  r+    +i+  +     + a kk  s pat+
+  sp|Q4HWQ2|CCPR2_GIBZE 226 VDQDTEEelMMLPTDIALTTDSEFSKYVQLYAKDKDVFFQDFKKAFAKLLELGIARNsegKVINTDNQKGGYRSAPKKSDSTPATS 311
+                            33455444499******************************************988733358888888888999999999999986 PP
+
+>> sp|Q4WPF8|CCPR_ASPFU  Cytochrome c peroxidase, mitochondrial OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.3   0.0   6.1e-10   5.6e-06      69     228 ..     124     278 ..      98     350 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 30.3 bits;  conditional E-value: 6.1e-10
+        Peroxidase.aln  69 lifhdavaisrskgpsag.ggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrp 155
+                           l    a++ s +    +g gg++g+ + f   e    an g+  + + l p+ a+ p +s +dl  +aga a+ +  g p + +  gr 
+  sp|Q4WPF8|CCPR_ASPFU 124 L----AWHASGTYDKETGtGGSNGATMRFA-PESDHGANAGLKIARDFLEPIKAQFPwISYSDLWTLAGACAIQEL-GGPTIPWRPGRQ 206
+                           3....5555555444333267777777774.478899*******************97899************986.779********* PP
+
+        Peroxidase.aln 156 nhtipai..dglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvf 228
+                           ++ + a   dg +p+    d   i   f    gf   e+v+l+ +h++ ra   d +    p+d +p  f  + f
+  sp|Q4WPF8|CCPR_ASPFU 207 DKDVAACtpDGRLPDAS-KDQRHIRDIFYR-MGFNDQEIVALIGAHALGRAHP-DRSGYDGPWDFSPTVFTNEFF 278
+                           **99986669*****99.555667776754.58******************86.555555799999988866554 PP
+
+>> sp|Q6C7U1|CCPR3_YARLI  Putative heme-binding peroxidase OS=Yarrowia lipolytica (strain CLIB 122 / E 150) OX=284591 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.9   0.0   8.1e-10   7.4e-06      54     306 ..      58     296 ..      41     297 .] 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 29.9 bits;  conditional E-value: 8.1e-10
+         Peroxidase.aln  54 vfqndcgedahevirlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavals 140
+                            vf++  g  a  +irl +h + +  +    +  gg++g+ + +  +e     n g++ +   l p+  khp ++ adl  +ag v++ 
+  sp|Q6C7U1|CCPR3_YARLI  58 VFKD--GTLAPLLIRLAWHSCATYDK---YTRTGGSNGATMRY-HLEASDEGNVGLEVARLSLEPIKRKHPwITYADLWILAGVVSIE 139
+                            5543..55566678888887665543...34456777777666.47888999*******************6788************* PP
+
+         Peroxidase.aln 141 ncpgaprlefldgrpnht...ipaidglvpepqed..dvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftf 223
+                             c g p +++ dgr ++    +   +g +p    d   v ti++r+    gf   e v+l+ +hs+ r  +     d  p+ s p   
+  sp|Q6C7U1|CCPR3_YARLI 140 ACKG-PSIKWRDGRVDYEddlLVPPNGRLPLGGGDasHVRTIFSRM----GFNDQETVALIGAHSLGRLHHHRSGFD-GPWTSNPAKC 221
+                            **98.99*******98752223344788887653311566777665....9********************999999.5********* PP
+
+         Peroxidase.aln 224 dtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlg 306
+                            d + + ++ l g  +  +   tg       k   n tg++ + sd++l  d+    + + +   +e+    f  a  kl+ lg
+  sp|Q6C7U1|CCPR3_YARLI 222 DNEFY-KL-LLGNVWTLVDSPTG------RKQYVNSTGQVMMPSDMSLIEDANFRFWVDQYAVSEELWRDHFALAFEKLTELG 296
+                            *9855.44.44655555555555......37789*****************98876667888889999999999999998887 PP
+
+>> sp|Q5AEN1|CCPR_CANAL  Cytochrome c peroxidase, mitochondrial OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.6   0.0     4e-09   3.7e-05      67     303 ..     118     342 ..      93     349 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 27.6 bits;  conditional E-value: 4e-09
+        Peroxidase.aln  67 irlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgr 154
+                           +rl +h + +    k   +gg   g+m++ p  e +   n g++   + l+ fl k+p +s  dl  + g  a+ +  g p++e+  gr
+  sp|Q5AEN1|CCPR_CANAL 118 LRLAWHTSGTY--DKSDNSGGSYGGTMIFAP--EEFDPENAGLQVGREFLMEFLVKYPwISRGDLWTLGGVAAV-QESGGPKIEWRPGR 201
+                           44444444333..355567777778887777..66777999****************97789999988776665.55789********* PP
+
+        Peroxidase.aln 155 pnh.tipai..dglvpepqedd..vttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgf 238
+                            +  t   +  +g +p+  +d   v  ++ar     gf   e v+ll +h + r+ k +   d  p+    f   t+vf   ll     
+  sp|Q5AEN1|CCPR_CANAL 202 VDDnTASKVppNGRLPDASKDGkyVKDLFAR----MGFNERETVALLGAHVLGRCHKHNSGYDG-PWGP-SFNQFTNVFYTTLLGDWH- 283
+                           8651444444479999999664224445555....59*********************999996.6654.477779999999885443. PP
+
+        Peroxidase.aln 239 pglsnntgevasplpkgsgndtge.mrlqsdfalardsrtacfwqgfvneqefmaasfksavakla 303
+                             + +  g+      +   ++tge m l +d+al  +s    + + + ++q+++   f  a +kl 
+  sp|Q5AEN1|CCPR_CANAL 284 --VKKWDGK-----KQYEDDETGEfMMLPTDMALKEESYFLKYVKMYADDQDLFFKDFAKAFSKLI 342
+                           ..3333343.....3445677887667888888888888888888888888888888888888886 PP
+
+>> sp|P0C0V3|CCPR_EMENI  Cytochrome c peroxidase, mitochondrial OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CB
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.0   0.0   3.2e-09   2.9e-05      71     228 ..     117     273 ..      73     314 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 28.0 bits;  conditional E-value: 3.2e-09
+        Peroxidase.aln  71 fhdavaisrskgpsag.ggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrpnh 157
+                           +  a++ s +    +g gg++g+ + f   e    an g+  + + l p+ ak p ++ +dl  +aga a+ +  g p + +  gr ++
+  sp|P0C0V3|CCPR_EMENI 117 VRLAWHASGTYDAETGtGGSNGATMRFA-PESDHGANAGLKYARDFLEPIKAKFPwITYSDLWTLAGACAIQEL-GGPDIPWRPGRQDK 203
+                           4557777776655554378888888875.48889*********************66889***********986.779*********99 PP
+
+        Peroxidase.aln 158 tipai..dglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvf 228
+                            +     dg +p+    +   i a f    gf   e+v+l+ +h++ ra       d  p++ +p  f  + f
+  sp|P0C0V3|CCPR_EMENI 204 DVSGCtpDGRLPDAT-KNQDHIRAIFGR-MGFDDREMVALIGAHALGRAHTDRSGFD-GPWNFSPTVFTNEFF 273
+                           99754349**99986.344455555544.48******************87555555.577777776654443 PP
+
+>> sp|Q1PER6|APX2_ARATH  L-ascorbate peroxidase 2, cytosolic OS=Arabidopsis thaliana OX=3702 GN=APX2 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.4   0.0   4.7e-09   4.3e-05     100     233 ..      66     196 ..      32     217 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 27.4 bits;  conditional E-value: 4.7e-09
+        Peroxidase.aln 100 eplfaanngiddsvnnlipflakhpv.saadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfedaggf 187
+                           e    anng+d +v  l p+    p+ s ad+ q+ag va+    g p + f  gr ++  p  +g +p+     v  +   f    g+
+  sp|Q1PER6|APX2_ARATH  66 ELAHDANNGLDIAVRLLDPIKELFPIlSYADFYQLAGVVAVE-ITGGPEIPFHPGRLDKVEPPPEGRLPQAT-KGVDHLRDVFGR-MGL 151
+                           555789*******************7589**********985.7899*********************9988.667666666654.579 PP
+
+        Peroxidase.aln 188 tpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevll 233
+                              ++v+l   h++ r+ k     + a +   p+ fd   f e+l 
+  sp|Q1PER6|APX2_ARATH 152 NDKDIVALSGGHTLGRCHKERSGFEGA-WTPNPLIFDNSYFKEILS 196
+                           999****************99999987.6789*********99984 PP
+
+>> sp|Q6CAB5|CCPR2_YARLI  Putative cytochrome c peroxidase, mitochondrial OS=Yarrowia lipolytica (strain CLIB 122 / E 15
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.7   0.0   3.1e-08   0.00028      69     306 ..      30     260 ..       9     267 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 24.7 bits;  conditional E-value: 3.1e-08
+         Peroxidase.aln  69 lifhdavaisrskgpsag.ggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgr 154
+                            +++  a++ s +   ++g gg++g+ + +   e    anng++++ + l p+ ak p ++ adl  +ag va+ +  g p++ +  gr
+  sp|Q6CAB5|CCPR2_YARLI  30 VLVRLAWHASGTYDKATGtGGSNGATMRY-MKEAKDEANNGLENARQFLEPIKAKFPwITYADLWTLAGVVAIEEMDG-PKVPWKPGR 115
+                            44555777776665555525667766655.5688999*******************96788*************9987.999999999 PP
+
+         Peroxidase.aln 155 pnh...tipaidglvpep.q.eddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtg 237
+                             ++   t    +g +p+  q +d +  i+ r     gf   e+v+l  +h + r+       + a +   p+ f    f  ++     
+  sp|Q6CAB5|CCPR2_YARLI 116 QDYvdeTNVPPNGRLPDGaQgQDHLRDIFYR----MGFNDQEIVALCGAHNMGRCHMDRSGFEGA-WVPNPIRFANTYFKLLMNEEWK 198
+                            8762224334577777651323556666666....49**************99986544444444.4455666665555444444444 PP
+
+         Peroxidase.aln 238 fpglsnntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlg 306
+                            +  l n          +   +d   m l +d++l +d     + + +  ++e +   f    akl  lg
+  sp|Q6CAB5|CCPR2_YARLI 199 LTTLKNGV-------KQYFNEDEELMMLPADYSLMQDPEFHKWVEIYAADKEKFFEDFSKVFAKLIELG 260
+                            44444432.......222334445555566666666665555555555555555555555555555555 PP
+
+>> sp|P0C0L1|APX6_ORYSJ  Probable L-ascorbate peroxidase 6, chloroplastic/mitochondrial OS=Oryza sativa subsp. japonica 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.9   0.0   1.1e-07     0.001      66     160 ..      63     156 ..      24     203 .. 0.83
+   2 ?   -1.1   0.0       2.2     2e+04     264     308 ..     255     299 ..     247     302 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 22.9 bits;  conditional E-value: 1.1e-07
+        Peroxidase.aln  66 virlifhdavaisrskg.psagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefld 152
+                           ++rl +hda +  +        gga+gs+ +   +e   aan g+ ++++ + p+  kh  v+ adl q+a a a+ ++ g p++ ++ 
+  sp|P0C0L1|APX6_ORYSJ  63 LVRLGWHDAGTYDKNITeWPKCGGANGSLRF--EIELKHAANAGLVNALKLIQPIKDKHAgVTYADLFQLASATAIEEA-GGPKIPMIY 148
+                           579999**99888765413457899**9654..69999*********************65999***********9885.7799*9999 PP
+
+        Peroxidase.aln 153 grpnhtip 160
+                           gr + + p
+  sp|P0C0L1|APX6_ORYSJ 149 GRVDVAAP 156
+                           99887666 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 2.2
+        Peroxidase.aln 264 rlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghn 308
+                            l +d  l  ds    + + +  +q+ +   +  a akl+ lg +
+  sp|P0C0L1|APX6_ORYSJ 255 VLPTDAVLFEDSSFKIYAEKYAADQDAFFEDYAEAHAKLSNLGAK 299
+                           577889999999999999********9999**********99976 PP
+
+>> sp|P0CP56|CCPR2_CRYNJ  Putative heme-binding peroxidase OS=Cryptococcus neoformans var. neoformans serotype D (strain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.7   0.0   1.3e-07    0.0012      70     311 ..      38     274 ..      24     280 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 22.7 bits;  conditional E-value: 1.3e-07
+         Peroxidase.aln  70 ifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipfl.akhpvsaadlvqfagavalsncpgaprlefldgrpn 156
+                             +h + + s        gg++g+ + fp  e +  an g+  ++  l+p+  a+  +s adl  +ag  a+    g p++ +  gr +
+  sp|P0CP56|CCPR2_CRYNJ  38 AWHASGNFSLV---EHNGGSNGAGMRFPP-ESVDPANAGLHYAISFLLPLQsANSWISHADLWTLAGVTAIEA-MGGPQIPWEPGRLD 120
+                            44444444333...356899999999996.78888**************9636778***********999865.68899999999977 PP
+
+         Peroxidase.aln 157 ht..ipaid..glvpepqeddvttilarfeda...ggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtg 237
+                            +     a++  g v +    d +   a + d     gf+  e+v+l  +h + r+       d  p+   p  f  q f ++ll+   
+  sp|P0CP56|CCPR2_CRYNJ 121 YEseQAAVEhrGDVSNRLP-DGALGAAHIRDVfgrMGFSDQEIVALSGAHNLGRCHADRSGFD-GPWVVNPTRFSNQYF-KLLLRPIW 205
+                            6411345543377777664.444455666665211589999*************976555555.7999******99977.68888888 PP
+
+         Peroxidase.aln 238 fpglsnntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrdd 311
+                             p   +   +            t  m l +d+al  d     + + +  +q+++   f  a  kl  lg +rdd
+  sp|P0CP56|CCPR2_CRYNJ 206 KPRQWDGPFQY-----EAIVAGTRLMMLPTDMALIEDPSFRPWVEKYAADQNLFFKDFANAFGKLIELGVDRDD 274
+                            88655443332.....233456889************************************************9 PP
+
+>> sp|Q6CW24|CCPR_KLULA  Cytochrome c peroxidase, mitochondrial OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.4   0.0   7.7e-08    0.0007      87     300 ..     117     320 ..      90     329 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 23.4 bits;  conditional E-value: 7.7e-08
+        Peroxidase.aln  87 ggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgr...pnhtipaidglvpepqe 171
+                           gg  g    f ++e    +nng++++ + l p+  k+p +s  dl  +ag  a+ +  g p + + +gr   p+ t p  +g +p+   
+  sp|Q6CW24|CCPR_KLULA 117 GGPYGGTYRF-AMETNDPSNNGLQNAAKFLEPIHEKYPwLSHGDLYSLAGVTAIQEMQG-PTIPWRSGRvdqPEDTTPE-NGRLPDAS- 201
+                           4555555555.35666679*******************6799************98866.6666666653338889986.79999998. PP
+
+        Peroxidase.aln 172 ddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndt 260
+                            d   +   f     f   +vv+ll +h++ ++   +   +  p+ ++   f    f + ll+   +  ++n++g+      k   nd 
+  sp|Q6CW24|CCPR_KLULA 202 KDAKYVR-CFFHRLNFEDRQVVALLGAHALGKTHLKNSGFE-GPWGAATNIFTN-EFYNNLLNE-KWDLITNDAGN------KQYVNDK 280
+                           4555554.4556678****************9987666665.688888777755.566666654.57778999886......7889*** PP
+
+        Peroxidase.aln 261 gemrlqsdfalardsrtacfwqgfvneqefmaasfksava 300
+                           g m l +d+al +d +   + + f n+q+ +   f  a  
+  sp|Q6CW24|CCPR_KLULA 281 GWMMLPTDMALVQDPKYLPIVKEFANDQDTFFKEFTKAFV 320
+                           ****************************988777776654 PP
+
+>> sp|P0CP57|CCPR2_CRYNB  Putative heme-binding peroxidase OS=Cryptococcus neoformans var. neoformans serotype D (strain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.7   0.0   8.4e-06     0.077      70     236 ..      38     204 ..      24     207 .. 0.72
+   2 ?    5.7   0.0     0.019   1.7e+02     262     311 ..     206     255 ..     202     261 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 16.7 bits;  conditional E-value: 8.4e-06
+         Peroxidase.aln  70 ifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipfl.akhpvsaadlvqfagavalsncpgaprlefldgrpn 156
+                             +h + + s        gg++g+ + fp  e +  an g+  ++  l+p+  a+  +s adl  +ag  a+    g p++ +  gr +
+  sp|P0CP57|CCPR2_CRYNB  38 AWHASGNFSLV---EHNGGSNGAGMRFPP-ESVDPANAGLHYAISFLLPLQsANSWISHADLWTLAGVTAIEA-MGGPQIPWEPGRLD 120
+                            44444444333...356899999999996.78888**************9636778***********999865.68899999999977 PP
+
+         Peroxidase.aln 157 ht..ipaid..glvpepqeddvttilarfeda...ggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgt 236
+                            +     a++  g v +    d +   a + d     gf+  e+v+l  +h + r+       d  p+   p  f  q f ++ll gt
+  sp|P0CP57|CCPR2_CRYNB 121 YEseQAAVEhrGDVSNRLP-DGALGAAHIRDVfgrMGFSDQEIVALSGAHNLGRCHADRSGFD-GPWVVNPTRFSNQYF-KLLLPGT 204
+                            6411345543377777664.444445566664211579999************9876555555.699999999998876.5677666 PP
+
+  == domain 2  score: 5.7 bits;  conditional E-value: 0.019
+         Peroxidase.aln 262 emrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrdd 311
+                             m l +d+al  d     + + +  +q+++   f  a  kl  lg +rdd
+  sp|P0CP57|CCPR2_CRYNB 206 LMMLPTDMALIEDPSFRPWVEKYAADQNLFFKDFANAFGKLIELGVDRDD 255
+                            588999***********99******************************9 PP
+
+>> sp|P0C0L0|APX5_ORYSJ  Probable L-ascorbate peroxidase 5, chloroplastic OS=Oryza sativa subsp. japonica OX=39947 GN=AP
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.9   0.0   1.1e-07   0.00098      66     156 ..      74     163 ..      37     215 .. 0.79
+   2 ?   -2.4   0.0       5.4   4.9e+04     265     308 ..     267     310 ..     260     313 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 22.9 bits;  conditional E-value: 1.1e-07
+        Peroxidase.aln  66 virlifhdavaisrskg.psagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefld 152
+                           ++rl +hda +  +        gga+gs+ +   ve + aan+g+  ++  +ip+ +k+  v+ ad+ q+a a a+ ++ g p++ ++ 
+  sp|P0C0L0|APX5_ORYSJ  74 LVRLGWHDAGTYDKNITeWPKCGGANGSLRF--GVELVHAANKGLLKALFLVIPIKSKYAgVTYADIFQLASATAIEEA-GGPKIPMIY 159
+                           57999***99888765413457899**9653..79***********************854999***********9886.779999999 PP
+
+        Peroxidase.aln 153 grpn 156
+                           gr +
+  sp|P0C0L0|APX5_ORYSJ 160 GRAD 163
+                           9975 PP
+
+  == domain 2  score: -2.4 bits;  conditional E-value: 5.4
+        Peroxidase.aln 265 lqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghn 308
+                           l +d  l  ds      + + ++q+ +   +  a akl+ lg +
+  sp|P0C0L0|APX5_ORYSJ 267 LPTDAVLFEDSSFKIHAEKYAEDQDAFFEDYAEAHAKLSNLGAK 310
+                           66788888999999999999999999999999999999999976 PP
+
+>> sp|Q8GY91|APX6_ARATH  Putative L-ascorbate peroxidase 6 OS=Arabidopsis thaliana OX=3702 GN=APX6 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.0   0.0   8.4e-07    0.0076      62     206 ..     113     251 ..      91     263 .. 0.75
+   2 ?    0.6   0.0      0.66     6e+03     255     306 ..     271     323 ..     248     328 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 20.0 bits;  conditional E-value: 8.4e-07
+        Peroxidase.aln  62 dahevirlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflak....hpvsaadlvqfagavalsncpgap 146
+                            a  v+rl+fhda +          gg +gs+      e     n g+  s++ l     k    +pvs ad++ +ag+ a+s c   p
+  sp|Q8GY91|APX6_ARATH 113 KAAGVLRLVFHDAGTFELD---DHSGGINGSIAY----ELERPENIGLKKSLKVLAKAKVKvdeiQPVSWADMISVAGSEAVSICG-GP 193
+                           57889********988765...567999999854....3333467788888777766555533338*****************995.59 PP
+
+        Peroxidase.aln 147 rlefldgrpnhtipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradk 206
+                            + ++ gr + + p  +g +p       + +   f    gf+  e+v+l  +h++     
+  sp|Q8GY91|APX6_ARATH 194 TIPVVLGRLDSAQPDPEGKLPPET-LSASGLKECF-KRKGFSTQELVALSGAHTIGSKGF 251
+                           9*****************988443.4555555555.56789999*****99999876555 PP
+
+  == domain 2  score: 0.6 bits;  conditional E-value: 0.66
+        Peroxidase.aln 255 gsgnd.tgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlg 306
+                            s    t  + l sd al +d     + + + ++q+ +   f  a  kl   g
+  sp|Q8GY91|APX6_ARATH 271 TSTSKmTSMVGLPSDHALVQDDECLRWVKRYAEDQDKFFEDFTNAYIKLVNSG 323
+                           4444315566799**********999999******999999999999997655 PP
+
+>> sp|A4QVH4|CCPR_PYRO7  Cytochrome c peroxidase, mitochondrial OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.2   0.0   3.8e-07    0.0034      74     305 ..     119     342 ..     103     348 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 21.2 bits;  conditional E-value: 3.8e-07
+        Peroxidase.aln  74 avaisrskgpsag.ggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrpnhtip 160
+                           a++ s +    +g gg++g+ + f   e    an g+  + + l p+ ak+p ++ +dl  + g  a+ +  g p++ +  gr ++   
+  sp|A4QVH4|CCPR_PYRO7 119 AWHASGTYDKETGtGGSNGATMRFS-PEGGHGANAGLKAARDFLEPIKAKYPwITYSDLWILGGVCAIQEMLG-PKIPYRPGRSDKDAA 205
+                           5666555444443277888877775.48899*********************66789***9999999999987.9********999877 PP
+
+        Peroxidase.aln 161 ai..dglvpep..qeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnnt 245
+                           a   dg +p+   ++d v  i+ r+    gf   e+v+l  +h++ r+       d + fd  p+tf   v+ +       f  l n+ 
+  sp|A4QVH4|CCPR_PYRO7 206 ACtpDGRLPDAaqRQDHVRNIFYRM----GFNDQEIVALAGAHALGRCHT-----DRSGFDG-PWTFSPTVLTNDY-----FKLLLNEK 279
+                           65459****8632358899999886....9*****************864.....5556653.6666655543333.....33344444 PP
+
+        Peroxidase.aln 246 geva...splpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavl 305
+                            e      p      +    m l +d++l  d +   + + + ++++++   f +av kl  l
+  sp|A4QVH4|CCPR_PYRO7 280 WEYKkwdGPKQYVDSKTKSLMMLPADMCLIEDKKFKEWTKKYADDNDLFFKDFSAAVLKLFEL 342
+                           443210023333334444556677777777777777766777777777777777777776655 PP
+
+>> sp|Q6BIB1|CCPR2_DEBHA  Putative heme-binding peroxidase OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.0   0.0   8.6e-07    0.0078      70     311 ..     182     417 ..     141     423 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 20.0 bits;  conditional E-value: 8.6e-07
+         Peroxidase.aln  70 ifhdavaisrskgp.sagggadgsmllf.ptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgr 154
+                            i+  a++   +    +  gg++gs + f p  e     n g+d +   l p+  k p ++ +dl  +ag +++ +  g p++ +  gr
+  sp|Q6BIB1|CCPR2_DEBHA 182 ILRLAWHCCATYNKfTGNGGSNGSTMRFvP--EITDDGNSGLDIARSALEPIKQKFPdITYSDLWTLAGKISIQEM-GGPKIPWRCGR 266
+                            444455554443330334778888666615..455689******************967889***********986.66999999998 PP
+
+         Peroxidase.aln 155 pn....htipaidglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgf 238
+                             +      +p  +g +p     +   i   f    gf   e vsll +h + r+ k     +   +   p +f    f +vll     
+  sp|Q6BIB1|CCPR2_DEBHA 267 VDciddRYVP-PNGRLPFAY-KNANHIRETFGR-MGFNDRETVSLLGAHGLGRCHKRFSGWEGK-WTENPTSFSN-DFYKVLLDEEWS 349
+                            7511113344.367777776.677788888865.58********************99988765.6667888865.4889****9999 PP
+
+         Peroxidase.aln 239 pglsnntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlghnrdd 311
+                             g   +tg+      +   +d   + l++d+ l rd     f + + ++q  +   f  a  kl  lg +rd 
+  sp|Q6BIB1|CCPR2_DEBHA 350 LGTVPETGKE-----QYYNKDKSLIMLNTDIELIRDPHFLHFVKLYSQHQATFFQDFANAFGKLLELGIERDS 417
+                            9999999975.....4456799999*********************************************995 PP
+
+>> sp|Q6URB0|CCPR_CRYNH  Cytochrome c peroxidase, mitochondrial OS=Cryptococcus neoformans var. grubii serotype A (strai
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.6   0.0   2.3e-06     0.021      65     306 ..     131     360 ..     118     365 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 18.6 bits;  conditional E-value: 2.3e-06
+        Peroxidase.aln  65 evirlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefld 152
+                            ++rl +h + +   sk   +gg    +m + p  e   +anng+  + + +  +    p +s  dl  + g  a+ +  g p + +  
+  sp|Q6URB0|CCPR_CRYNH 131 VLLRLAWHASGTY--SKADGTGGSNFATMRFKPEAE--HSANNGLHVAREHMEKIKQEFPwISYGDLWTLGGVCAIQES-GGPTIPWRP 214
+                           4556666655554..455557888888888888666..79**************9999997899******999999775.668888888 PP
+
+        Peroxidase.aln 153 grpnhtipai..dglvpepq..eddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtg 237
+                           gr +     +  dg +p+    +d +  i+    +  gf   e+v+l  +h++ r+       d  p+  +p+tf  q f   ll+   
+  sp|Q6URB0|CCPR_CRYNH 215 GRIDGYAAQVtpDGRLPDATqaQDHLRFIF----NRMGFNDQEIVALSGAHAMGRCHPNRSGFD-GPWTFSPVTFSNQYFA--LLRDEP 296
+                           887655443333999998651123344444....4569******************99999998.5999*********994..666665 PP
+
+        Peroxidase.aln 238 fpglsnntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlg 306
+                           +    + tg           +    m l +d+al +d     + + + +++e + + f  a +kl  lg
+  sp|Q6URB0|CCPR_CRYNH 297 WQ-WKKWTGP----AQFEDKKTKTLMMLPTDMALVKDKSFKKYVDIYADNEEKFFSDFAKAFSKLIELG 360
+                           53.3444553....3333344455677888888888888888888888777777778888888887776 PP
+
+>> sp|Q9LHA7|PER31_ARATH  Peroxidase 31 OS=Arabidopsis thaliana OX=3702 GN=PER31 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.2   0.00034       3.1      39     202 ..      29     192 ..      16     200 .. 0.66
+   2 ?    5.4   0.0     0.023   2.1e+02     264     307 ..     257     300 ..     246     307 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00034
+         Peroxidase.aln  39 accafiplaqdlqatvfqndcgedahevirlifhdavaisrskgpsagggadgsmllfptveplfaanngiddsvnnl..ipflakhp 124
+                            +c  f+ + +d   t  q      a  virl fhd++             a  +     ++  l    +g d  v     + + +   
+  sp|Q9LHA7|PER31_ARATH  29 TCPRFLDIIRDT-ITNKQITNPTTAAAVIRLFFHDCFPNGCDASVLISSTAFNTAERDSSI-NLSLPGDGFDVIVRAKtaLELACPNT 114
+                            566666666664.344455555677889999999987544333333333332222222222.34444577777776541144555678 PP
+
+         Peroxidase.aln 125 vsaadlvqfagavalsncpgaprlefldgrpnhtipa..idglvpepqeddvttilarfedaggftpfevvsllashsva 202
+                            vs++d++ +a    l  + g     fl  r   t  +  +  l+p p    ++ i+ +fe   gft  e+v+l  +hs+ 
+  sp|Q9LHA7|PER31_ARATH 115 VSCSDIISVATRDLLITVGGPYYDVFLGRRDSRTSKSslLTDLLPLPS-TPISKIIQQFES-KGFTVQEMVALSGAHSIG 192
+                            9********998888776665555567666777754323789*****9.89********96.68*************986 PP
+
+  == domain 2  score: 5.4 bits;  conditional E-value: 0.023
+         Peroxidase.aln 264 rlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlgh 307
+                             l+sd  l  d rt  f + + ++q+++   f  a+ kl+++g 
+  sp|Q9LHA7|PER31_ARATH 257 LLESDHGLYSDPRTRYFVDLYAKNQDLFFKDFAKAMQKLSLFGI 300
+                            589************************************99985 PP
+
+>> sp|Q4PBY6|CCPR_MYCMD  Cytochrome c peroxidase, mitochondrial OS=Mycosarcoma maydis OX=5270 GN=CCP1 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.9   0.0   7.5e-06     0.068      69     307 ..     142     368 ..     111     377 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 16.9 bits;  conditional E-value: 7.5e-06
+        Peroxidase.aln  69 lifhdavaisrs.kgpsagggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrp 155
+                           l    a++ s +    s  gg++g+ + f   e    an g+  + + +  +  k p ++ +dl  + g  a+ +  g p++ +  gr 
+  sp|Q4PBY6|CCPR_MYCMD 142 L----AWHASGTyDKNSNTGGSNGATMRFA-PESEHGANAGLGAARDFMEKIHQKFPwITYSDLWTLGGVAAIQE-LGGPKIPWRPGRK 224
+                           4....5555543134567788888777774.366789*******99999999****9567789998888777766.688********** PP
+
+        Peroxidase.aln 156 nhtipai..dglvpepqeddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpgls 242
+                           + t      dg +p+ +       l  +    gf   e+v+l  +h++ r+       d  p+  +p +f  +  +++l++        
+  sp|Q4PBY6|CCPR_MYCMD 225 DATADKCtpDGRLPDGD--KGPDHLRYIFYKMGFNDQEIVALSGAHALGRCHTDRSGFD-GPWTFAPTSFTNEY-FNLLMNEK------ 303
+                           *9986542378887765..55555555566789*****************976444444.46666666664443.34444432...... PP
+
+        Peroxidase.aln 243 nntgevasplpkgsgndtgemrlqsdfalardsrtacfwqgfvneqefmaasfksavaklavlgh 307
+                            n  +   p           m l +d+al +d       q + + ++ +   f+sa akl  lg 
+  sp|Q4PBY6|CCPR_MYCMD 304 WNIRKWNGPPQFEDKSTKSLMMLMTDMALVQDPSFKKHVQRYAKSEDEFFNDFRSAYAKLLELGV 368
+                           344445555444444555679999********99999999999877766789*******998885 PP
+
+>> sp|Q7SDV9|CCPR_NEUCR  Cytochrome c peroxidase, mitochondrial OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.3   0.0   1.1e-05       0.1      74     230 ..     117     267 ..     103     346 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 1.1e-05
+        Peroxidase.aln  74 avaisrskgpsag.ggadgsmllfptveplfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgrpnhtip 160
+                           a++ s +    +g gg++g+ + f   e    an g+  + + l p+ ak p ++ +dl  + g  a+ +  g p++ +  gr +    
+  sp|Q7SDV9|CCPR_NEUCR 117 AWHASGTYDKETGtGGSNGATMRFA-PESDHGANAGLKAARDFLEPVKAKFPwITYSDLWILGGVCAIQEMLG-PQIPYRPGRQDRDAA 203
+                           5555555444433267777777774.47889*********************66789***9*99999999987.99*******987665 PP
+
+        Peroxidase.aln 161 ..aidglvpepq..eddvttilarfedaggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvfle 230
+                             + dg +p+    +d +  i+ r     gf   e+v+l  +h++ r+         + fd  p+tf   v+ +
+  sp|Q7SDV9|CCPR_NEUCR 204 gcTPDGRLPDASqaQDHLRNIFYR----MGFNDQEIVALSGAHALGRCHAD-----RSGFDG-PWTFSPTVLTN 267
+                           115699999865113555556555....59****************98653.....344442.44444443333 PP
+
+>> sp|B1KKZ2|LEUC_SHEWM  3-isopropylmalate dehydratase large subunit OS=Shewanella woodyi (strain ATCC 51908 / MS32) OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.7   0.0       3.3     3e+04      27      92 ..      58     122 ..      41     129 .. 0.67
+   2 ?   11.8   0.1   0.00025       2.3     133     189 ..     273     327 ..     264     343 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: -1.7 bits;  conditional E-value: 3.3
+        Peroxidase.aln  27 avcfdgtrvsnsa.ccafiplaqdlqatvfqndcgedahevirlifhdavaisrskgpsagggadgs 92 
+                              +d    ++sa   a+ p+a+ +q   +q++c e   ++   i h    i    gp  g    g+
+  sp|B1KKZ2|LEUC_SHEWM  58 FATMDHNTSTKSAsLDALSPMAR-IQVETLQDNCKEFGIKL-YDIHHKNQGIVHVMGPELGITLPGT 122
+                           33444444444540457777775.89999999999987665.4578888888888888887666665 PP
+
+  == domain 2  score: 11.8 bits;  conditional E-value: 0.00025
+        Peroxidase.aln 133 fagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfedaggftp 189
+                           f  +v l  +  ap+l +  g     + aidg+vp+pq++  +t+ a +e a  +  
+  sp|B1KKZ2|LEUC_SHEWM 273 FDSTVILEAADIAPQLTW--GTNPGQVVAIDGVVPNPQDEPNATVKASIEKALEYVA 327
+                           777888888888998876..55556788**********999********99976655 PP
+
+>> sp|A8FQ85|LEUC_SHESH  3-isopropylmalate dehydratase large subunit OS=Shewanella sediminis (strain HAW-EB3) OX=425104 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.8   0.0       3.4   3.1e+04      27      92 ..      59     122 ..      41     129 .. 0.67
+   2 ?   11.7   0.0   0.00028       2.6     133     191 ..     273     329 ..     259     344 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: -1.8 bits;  conditional E-value: 3.4
+        Peroxidase.aln  27 avcfdgtrvsnsa.ccafiplaqdlqatvfqndcgedahevirlifhdavaisrskgpsagggadgs 92 
+                           a  +d    ++sa   a+ p+a+ +q   +q++c e    +   i h    i    gp  g    g+
+  sp|A8FQ85|LEUC_SHESH  59 A-TMDHNTSTKSAsLDALSPMAR-IQVETLQDNCKEFGVRL-YDIHHKNQGIVHVMGPELGITLPGT 122
+                           3.344444444440557777775.89999999999976554.4578888889888888887666665 PP
+
+  == domain 2  score: 11.7 bits;  conditional E-value: 0.00028
+        Peroxidase.aln 133 fagavalsncpgaprlefldgrpnhtipaidglvpepqeddvttilarfedaggftpfe 191
+                           f  +v l     ap+l +  g     + aidglvp+p+++  +t+ a +e a  +  + 
+  sp|A8FQ85|LEUC_SHESH 273 FDASVVLEASDIAPQLTW--GTNPGQVVAIDGLVPNPEDESNATVKASIEKALEYVALS 329
+                           667788888888898876..55556788**********999*********998777665 PP
+
+>> sp|Q1E1R7|SPB4_COCIM  ATP-dependent rRNA helicase SPB4 OS=Coccidioides immitis (strain RS) OX=246410 GN=SPB4 PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   0.00031       2.8     108     177 ..     238     307 ..     229     318 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00031
+        Peroxidase.aln 108 giddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipaidglvpepqeddvtti 177
+                            + d+v+++i +  + pv  a  v+ a        p + ++ +l  rp h ipai  ++   ++    ti
+  sp|Q1E1R7|SPB4_COCIM 238 TVSDAVDQIIRVGLRNPVKIAVKVKGAPGTEEKRTPASLQMTYLLTRPSHKIPAIRQILNSIDNTPQKTI 307
+                           589************************999*************************988776655555555 PP
+
+>> sp|Q81G06|HISX_BACCR  Histidinol dehydrogenase OS=Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.0   0.00033         3      22     161 ..     232     369 ..     217     407 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.00033
+        Peroxidase.aln  22 paaetavcfdgtrvsnsaccafipla.qdlqatvfq.ndcgedahevirlifhdavaisrskgpsagggadgsmllfptveplfaanng 108
+                             +e  v+ d t  ++  ++ ++  a +d +at +      e a+ev + +  +  ++ rs         +g+++++p++e  +   n 
+  sp|Q81G06|HISX_BACCR 232 GPSEIVVVADETGNAKYIAADLLSQAeHDERATAICiTTNMELAKEVEKEVERQLETLPRSEIARESINRNGAIFIVPSLEEALKLSNE 320
+                           55666667777666666666666555246666655414456788999999999999999999999999999*********999999999 PP
+
+        Peroxidase.aln 109 iddsvnnlipflakhpvsaadlvqfagavalsncpgaprlefldgrpnhtipa 161
+                           i     + + +  k p+ a d v+ ag++ l      p  ++l+g pnh +p+
+  sp|Q81G06|HISX_BACCR 321 IAP---EHLELHIKEPMNALDYVKHAGSIFLGPYSPEPLGDYLAG-PNHVLPT 369
+                           875...4566789*********************99********9.9***997 PP
+
+>> sp|P00431|CCPR_YEAST  Cytochrome c peroxidase, mitochondrial OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.2   0.0   0.00078       7.1     101     302 ..     144     336 ..     111     343 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.00078
+        Peroxidase.aln 101 plfaanngiddsvnnlipflakhp.vsaadlvqfagavalsncpgaprlefldgr...pnhtipaidglvpepqed..dvttilarfed 183
+                               +n g+++  + l p+    p +s+ dl  + g  a+ +  g p++ +  gr   p+ t p  +g +p+ ++d   v t + r+  
+  sp|P00431|CCPR_YEAST 144 FNDPSNAGLQNGFKFLEPIHKEFPwISSGDLFSLGGVTAVQEMQG-PKIPWRCGRvdtPEDTTPD-NGRLPDADKDadYVRTFFQRL-- 228
+                           4445799999999999999999997899********999999877.8888888875557888886.688888764311355555555.. PP
+
+        Peroxidase.aln 184 aggftpfevvsllashsvaradkvdetidaapfdstpftfdtqvflevllkgtgfpglsnntgevasplpkgsgndtgemrlqsdfala 272
+                              +   evv+l+ +h++ ++    ++    p+ ++   f  + +l++l     +     n  +            +g m l +d++l 
+  sp|P00431|CCPR_YEAST 229 --NMNDREVVALMGAHALGKTHLK-NSGYEGPWGAANNVFTNEFYLNLLNEDWKLEKNDANNEQ--------WDSKSGYMMLPTDYSLI 306
+                           ..57889***********998755.55566899999999*999999999877665544444333........33457899999999999 PP
+
+        Peroxidase.aln 273 rdsrtacfwqgfvneqefmaasfksavakl 302
+                           +d +   + + + n+q+ +   f  a  kl
+  sp|P00431|CCPR_YEAST 307 QDPKYLSIVKEYANDQDKFFKDFSKAFEKL 336
+                           999999999999999999888998888887 PP
+
+>> sp|Q68W78|RL3_RICTY  Large ribosomal subunit protein uL3 OS=Rickettsia typhi (strain ATCC VR-144 / Wilmington) OX=257
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   0.00058       5.3     296     384 ..      74     162 ..      59     165 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00058
+       Peroxidase.aln 296 ksavaklavlghnrddlidcsevvpvpkpavkkpasfpattsakdlelncnsqkfptltvdqgatqsliphcsnggqncpavqfdgpsq 384
+                           s  +kl  +    d++id + ++ v + +v +   + att  k +    + ++f  l   +g + s   h s g ++ p   f g   
+  sp|Q68W78|RL3_RICTY  74 ISPKTKLKEFRISEDNFIDIASILEVDHFSVGQFVDITATTIGKGFAGSMKRHNFRGLEASHGVSISHRSHGSTGQRQDPGKVFKGKKM 162
+                          46667888888899***************************************************************999999998765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (387 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     13606  (0.0237178); expected 11473.2 (0.02)
+Passed bias filter:                    10406  (0.0181396); expected 11473.2 (0.02)
+Passed Vit filter:                       579  (0.00100931); expected 573.7 (0.001)
+Passed Fwd filter:                        63  (0.000109821); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              63  [number of targets reported over threshold]
+# CPU time: 5.05u 0.18s 00:00:05.23 Elapsed: 00:00:01.66
+# Mc/sec: 48352.81
+//
+[ok]

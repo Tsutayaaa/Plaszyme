@@ -1,0 +1,2586 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Beta_propeller.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Beta_propeller/Beta_propeller.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/Beta_propeller/Beta_propeller.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Beta_propeller.aln  [M=654]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+          0 1392.9  20.9          0 1392.8  20.9    1.0  1  sp|Q588Z1|PVADH_SPHS1     Polyvinylalcohol dehydrogenase OS=S
+          0 1349.3  16.1          0 1349.1  16.1    1.0  1  sp|P77931|PVADH_PSESP     Polyvinylalcohol dehydrogenase OS=P
+    2.2e-18   70.5   7.5    4.3e-16   62.9   1.0    2.6  2  sp|C5AXV8|EXAF_METEA      Lanthanide-dependent ethanol dehydr
+    8.1e-17   65.3   9.8    2.4e-11   47.2   6.7    2.9  2  sp|I0JWN7|XOXF_METFB      Lanthanide-dependent methanol dehyd
+    2.4e-16   63.7  15.3    8.7e-16   61.9   3.4    3.3  4  sp|Q8GR64|QHED_PSEPU      Quinohemoprotein alcohol dehydrogen
+    5.3e-15   59.3  21.3    3.3e-13   53.4  10.6    3.0  3  sp|Q46444|QHED_COMTE      Quinohemoprotein alcohol dehydrogen
+    7.5e-14   55.5   1.0      4e-10   43.2   0.1    2.8  2  sp|Q88JH0|PEDH_PSEPK      Quinoprotein alcohol dehydrogenase 
+    8.5e-14   55.3  20.7    1.4e-10   44.7  10.9    2.6  2  sp|A0A3F2YLY8|XOXF_METBY  Lanthanide-dependent methanol dehyd
+    1.5e-13   54.5   6.6    8.7e-08   35.5   1.5    2.7  2  sp|Q9AGW3|BOH_THABB       1-butanol dehydrogenase (quinone) O
+    4.7e-13   52.9   9.9    2.3e-12   50.6   2.6    2.3  2  sp|P29968|XOXF_PARDE      Putative dehydrogenase XoxF OS=Para
+    5.4e-13   52.7   9.9    3.8e-05   26.7   0.6    3.9  4  sp|Q934G0|LUH_PSESP       Lupanine 17-hydroxylase [cytochrome
+    7.9e-13   52.1  11.1    5.5e-08   36.1   4.3    3.7  3  sp|Q9Z4J7|QEDH_PSEAE      Quinoprotein ethanol dehydrogenase 
+      2e-11   47.5  13.4    2.3e-09   40.7   6.9    3.6  2  sp|Q4W6G0|QGDA_PSEPU      Quinohemoprotein alcohol dehydrogen
+    2.1e-11   47.4  12.9    2.2e-06   30.9   5.4    3.9  3  sp|Q88JH5|PEDE_PSEPK      Quinoprotein alcohol dehydrogenase 
+    9.5e-11   45.3  11.2    1.6e-06   31.3   0.3    4.4  5  sp|A8R3S4|QEDH_PSEPU      Quinoprotein ethanol dehydrogenase 
+    1.4e-10   44.7   1.6    1.6e-07   34.6   0.1    3.0  3  sp|Q9AF95|BDH_THABB       1-butanol dehydrogenase (cytochrome
+    2.9e-10   43.7   6.3    1.3e-08   38.2   2.8    2.6  2  sp|Q70JN9|SLDA_GLUOX      Glycerol dehydrogenase large subuni
+    1.4e-09   41.4  10.8    1.3e-06   31.6   4.0    2.5  2  sp|C5B120|XOXF1_METEA     Lanthanide-dependent methanol dehyd
+    3.7e-09   40.0   6.6    7.2e-08   35.7   3.3    2.6  2  sp|Q8KIL1|SLDA_GLUTH      Glycerol dehydrogenase large subuni
+    8.7e-09   38.8  15.5      2e-08   37.6   7.1    3.8  3  sp|O05542|ADHA_GLUOX      Alcohol dehydrogenase (quinone), de
+    3.7e-08   36.7   7.5    3.7e-08   36.7   7.5    3.3  2  sp|P28036|ADHA_GLUPO      Alcohol dehydrogenase (quinone), de
+    4.3e-08   36.5   1.9       0.21   14.4   0.0    6.7  6  sp|Q60282|Y3523_METJA     Uncharacterized protein MJECL23 OS=
+    4.6e-08   36.4   7.4    4.6e-08   36.4   7.4    3.2  2  sp|Q44002|ADHA_KOMEU      Alcohol dehydrogenase (quinone), de
+    6.8e-08   35.8   7.1    6.8e-08   35.8   7.1    2.7  2  sp|P18278|ADHA_ACEAC      Alcohol dehydrogenase (quinone), de
+      2e-07   34.3  13.9    0.00048   23.1   7.2    3.2  2  sp|P38539|DHM1_METME      Methanol dehydrogenase [cytochrome 
+    4.1e-07   33.3   7.0       0.71   12.6   0.1    5.1  3  sp|Q5RG49|ACSF4_DANRE     Beta-alanine-activating enzyme OS=D
+    2.1e-06   30.9   2.4       0.22   14.4   0.1    3.2  3  sp|P27175|DHG_GLUOX       Quinoprotein glucose dehydrogenase 
+    3.6e-06   30.1   5.7      0.031   17.1   0.1    4.7  6  sp|F7XXL0|BAMB_MOREP      Outer membrane protein assembly fac
+      7e-06   29.2   4.7        0.4   13.5   0.1    4.4  6  sp|Q32D50|BAMB_SHIDS      Outer membrane protein assembly fac
+      7e-06   29.2   4.6       0.42   13.4   0.1    4.4  6  sp|P77774|BAMB_ECOLI      Outer membrane protein assembly fac
+    8.9e-06   28.8   1.3        2.3   10.9   0.0    4.0  3  sp|Q9XD78|QUIA_XANCJ      Probable quinate dehydrogenase (qui
+    1.2e-05   28.5   8.5       0.51   13.1   0.4    4.3  6  sp|Q7CJM5|BAMB_YERPE      Outer membrane protein assembly fac
+    1.2e-05   28.4   5.7       0.19   14.5   0.2    3.6  3  sp|B7J3C9|TTH_ACIF2       Tetrathionate hydrolase OS=Acidithi
+    1.7e-05   27.9   4.3        3.1   10.5   0.4    3.8  3  sp|H9L451|BAMB_SALTY      Outer membrane protein assembly fac
+    4.3e-05   26.6   0.2         16    8.1   0.0    4.5  4  sp|Q5E769|BAMB_ALIF1      Outer membrane protein assembly fac
+    7.3e-05   25.8   5.3        1.9   11.2   0.5    4.2  3  sp|P05465|DHGA_ACICA      Quinoprotein glucose dehydrogenase 
+    8.6e-05   25.6   1.2       0.34   13.7   0.0    4.0  3  sp|P15877|DHG_ECOLI       Quinoprotein glucose dehydrogenase 
+    0.00013   25.0   1.7        2.4   10.9   0.1    3.6  3  sp|Q9KTW8|BAMB_VIBCH      Outer membrane protein assembly fac
+    0.00014   24.9  10.8        4.8    9.9   8.8    4.3  2  sp|Q59086|QUIA_ACIAD      Quinate/shikimate dehydrogenase (qu
+    0.00054   22.9   7.1        9.5    8.9   0.1    4.3  4  sp|F8GAQ8|BAMB_FRAST      Outer membrane protein assembly fac
+    0.00063   22.7   3.4         52    6.5   0.1    3.8  3  sp|Q5NIB1|BAMB_FRATT      Outer membrane protein assembly fac
+    0.00073   22.5   4.3         11    8.7   0.1    4.0  4  sp|C7R5S3|BAMB_KANKD      Outer membrane protein assembly fac
+      0.001   22.1   1.1        0.2   14.5   0.2    3.2  3  sp|Q8EC35|BAMB_SHEON      Outer membrane protein assembly fac
+     0.0032   20.4   7.5      0.094   15.5   0.7    2.5  2  sp|P12293|DHM1_PARDE      Methanol dehydrogenase [cytochrome 
+     0.0036   20.2   0.2     0.0042   20.0   0.2    1.0  1  sp|P00115|CYC6_SYNP3      Cytochrome c6 OS=Synechococcus sp. 
+     0.0047   19.8   5.8        9.5    8.9   0.3    4.1  4  sp|Q5X521|BAMB_LEGPA      Outer membrane protein assembly fac
+  ------ inclusion threshold ------
+      0.015   18.2   0.1      0.017   18.0   0.1    1.0  1  sp|P46445|CYC6_SYNY3      Cytochrome c6 OS=Synechocystis sp. 
+      0.015   18.1   0.5        2.7   10.7   0.3    3.6  3  sp|Q80WC9|ACSF4_MOUSE     Beta-alanine-activating enzyme OS=M
+      0.016   18.1   1.1       0.11   15.3   0.1    2.8  4  sp|Q9RRH3|RQKA_DEIRA      DNA damage-responsive serine/threon
+      0.026   17.4   5.5         13    8.5   0.1    3.8  3  sp|P54741|AFSK_STRCO      Serine/threonine-protein kinase Afs
+      0.034   17.0   0.1         70    6.1   0.0    3.2  2  sp|F4K1G2|AEE19_ARATH     Putative acyl-activating enzyme 19 
+      0.045   16.6   1.0         50    6.5   0.0    3.7  4  sp|E4PKG3|BAMB_MARAH      Outer membrane protein assembly fac
+      0.045   16.6   0.8        2.1   11.1   0.3    2.9  3  sp|Q4L235|ACSF4_HUMAN     Beta-alanine-activating enzyme OS=H
+       0.05   16.4   1.7      0.065   16.1   1.7    1.1  1  sp|P08197|CYC6_CHLRE      Cytochrome c6, chloroplastic OS=Chl
+      0.092   15.6   0.2       0.36   13.6   0.0    2.0  3  sp|Q6NNP0|ATG16_ARATH     Autophagy-related protein 16 OS=Ara
+       0.15   14.8   1.8         30    7.3   0.2    3.9  4  sp|Q0A984|BAMB_ALKEH      Outer membrane protein assembly fac
+       0.16   14.8   0.1       0.16   14.8   0.1    1.0  1  sp|P0A3X7|CYC6_NOSS1      Cytochrome c6 OS=Nostoc sp. (strain
+       0.16   14.8   0.1       0.16   14.8   0.1    1.0  1  sp|P0A3X8|CYC6_NOSSO      Cytochrome c6 OS=Nostoc sp. (strain
+       0.17   14.7   0.1       0.26   14.1   0.1    1.2  1  sp|A8ILK1|CFA52_CHLRE     Cilia- and flagella-associated prot
+       0.22   14.3   0.0       0.22   14.3   0.0    1.0  1  sp|Q8WKJ8|CYC6_PYRYE      Cytochrome c6 OS=Pyropia yezoensis 
+       0.23   14.3   1.3    1.7e+02    4.7   0.0    3.7  3  sp|Q9HXJ7|BAMB_PSEAE      Outer membrane protein assembly fac
+       0.29   13.9   0.1         34    7.1   0.1    2.4  2  sp|Q5ZJH5|SKI8_CHICK      Superkiller complex protein 8 OS=Ga
+       0.33   13.7   0.1       0.33   13.7   0.1    1.0  1  sp|Q6B941|CYC6_GRATL      Cytochrome c6 OS=Gracilaria tenuist
+       0.34   13.7   0.1       0.34   13.7   0.1    1.0  1  sp|P51200|CYC6_PORPU      Cytochrome c6 OS=Porphyra purpurea 
+       0.36   13.6   0.2    1.1e+02    5.4   0.0    3.8  4  sp|Q92IV6|Y314_RICCN      Uncharacterized protein RC0314 OS=R
+       0.52   13.1   0.0       0.52   13.1   0.0    1.0  1  sp|Q3MDW2|CYC6_TRIV2      Cytochrome c6 OS=Trichormus variabi
+       0.57   13.0   0.0         27    7.4   0.0    3.0  3  sp|Q9ZDU2|Y232_RICPR      Uncharacterized protein RP232 OS=Ri
+       0.72   12.6   0.4       0.83   12.4   0.4    1.0  1  sp|P24059|CY552_BRADU     Cytochrome c-552 OS=Bradyrhizobium 
+       0.79   12.5   0.1         50    6.5   0.1    2.1  2  sp|Q6P5M2|SKI8_DANRE      Superkiller complex protein 8 OS=Da
+       0.82   12.4   0.5       0.94   12.2   0.5    1.0  1  sp|A9KJI3|RL24_LACP7      Large ribosomal subunit protein uL2
+        0.9   12.3   0.1       0.93   12.3   0.1    1.0  1  sp|P00116|CYC6_APHFL      Cytochrome c6 OS=Aphanizomenon flos
+       0.95   12.2   0.1       0.95   12.2   0.1    1.0  1  sp|P00111|CYC6_PYRTE      Cytochrome c6 OS=Pyropia tenera OX=
+       0.98   12.2   1.0         34    7.1   0.0    3.0  3  sp|Q0AE45|BAMB_NITEC      Outer membrane protein assembly fac
+        1.9   11.3   0.1        2.3   11.0   0.1    1.1  1  sp|Q869N1|CYC_DICDI       Cytochrome c OS=Dictyostelium disco
+        1.9   11.2   0.8        9.9    8.9   0.8    1.9  1  sp|P25938|C554_HALNE      Cytochrome c-554(547) OS=Halothioba
+          2   11.2   0.2        2.5   10.8   0.2    1.1  1  sp|P15422|VME1_CVH22      Membrane protein OS=Human coronavir
+          2   11.1   0.0        3.3   10.4   0.0    1.2  1  sp|O64781|Y1639_ARATH     G-type lectin S-receptor-like serin
+        2.4   10.9   0.0         45    6.7   0.0    2.1  2  sp|Q8C7X2|EMC1_MOUSE      ER membrane protein complex subunit
+        3.1   10.5   0.1         29    7.3   0.1    2.1  2  sp|Q5ZL00|EMC1_CHICK      ER membrane protein complex subunit
+        3.3   10.5   0.0        4.5   10.0   0.0    1.1  1  sp|O28041|PUR8_ARCFU      Adenylosuccinate lyase OS=Archaeogl
+        3.4   10.4   2.5        4.9    9.9   0.2    1.9  2  sp|M1V1V5|FDHC_GLUJA      Fructose dehydrogenase cytochrome s
+        3.6   10.3   0.0         65    6.2   0.0    2.1  2  sp|Q8N766|EMC1_HUMAN      ER membrane protein complex subunit
+        4.3   10.1   0.0    1.1e+02    5.4   0.0    2.0  2  sp|O67706|Y1854_AQUAE     Uncharacterized protein aq_1854 OS=
+        4.6   10.0   0.0        6.5    9.5   0.0    1.1  1  sp|B7JXU8|PYRD_RIPO1      Dihydroorotate dehydrogenase (quino
+        5.5    9.7   0.0        7.6    9.2   0.0    1.1  1  sp|D3RVD4|TSDA_ALLVD      Thiosulfate dehydrogenase OS=Alloch
+          6    9.6   0.0         81    5.8   0.0    2.1  2  sp|Q5R7K6|EMC1_PONAB      ER membrane protein complex subunit
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q588Z1|PVADH_SPHS1  Polyvinylalcohol dehydrogenase OS=Sphingopyxis sp. (strain 113P3) OX=292913 GN=pvadh PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1392.8  20.9         0         0       1     654 []       1     654 []       1     654 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1392.8 bits;  conditional E-value: 0
+     Beta_propeller.aln   1 mqsniernavssaaslivfgsvvhasavvaevalqsasaveldlldgealykarcaachdnaedrtparevlaknsaafilaamrtgv 88 
+                            m+s+++++av+saa+li+fgsvvhas++vae+a+qs++av++d+ldge+lykarcaachdnae+rtp+revl+kn+a+fila+mrtg+
+  sp|Q588Z1|PVADH_SPHS1   1 MGSHAWGGAVFSAATLIAFGSVVHASGTVAETAPQSGHAVPADQLDGETLYKARCAACHDNAEGRTPSREVLSKNPASFILASMRTGA 88 
+                            89************************************************************************************** PP
+
+     Beta_propeller.aln  89 mvpmaeglseeektaialalgkadaktddeidlraiwgnsvestpldapkckskitpvdlsaadqwngwsaekdnarfqrkpaldvad 176
+                            mvpmaegl++ee+taia+a+gkadaktdd+idlr+iwgnsve+tpldap+c+s++tpvdl+aa+qwngws+ekdn+rfqrkpaldvad
+  sp|Q588Z1|PVADH_SPHS1  89 MVPMAEGLTLEEMTAIARAVGKADAKTDDGIDLRRIWGNSVEGTPLDAPQCSSAPTPVDLGAANQWNGWSTEKDNGRFQRKPALDVAD 176
+                            **************************************************************************************** PP
+
+     Beta_propeller.aln 177 vpklklkwafqypgskngqatvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftkaavald 264
+                            +pklklkwafqypgskngqatv+gdrlf+tstsgavyalnaktgcvywrh+ae+atr+s+v++alpegapaktalffsdftkaavald
+  sp|Q588Z1|PVADH_SPHS1 177 IPKLKLKWAFQYPGSKNGQATVIGDRLFTTSTSGAVYALNAKTGCVYWRHAAEGATRTSPVIAALPEGAPAKTALFFSDFTKAAVALD 264
+                            **************************************************************************************** PP
+
+     Beta_propeller.aln 265 aetgkqlwktvvddqpalqmtgsityhegklyvpissgteafatidtwecckfrgalvaldalsgkvlwkryttekepapfklnklgk 352
+                            aetgkqlwktvvddqpalqmtgsity++gk+yvpissgteafa+i+twecckfrgalvalda++gk+lwkrytte+ep+pfklnk+g+
+  sp|Q588Z1|PVADH_SPHS1 265 AETGKQLWKTVVDDQPALQMTGSITYWDGKIYVPISSGTEAFAQIPTWECCKFRGALVALDAATGKILWKRYTTEQEPRPFKLNKAGR 352
+                            **************************************************************************************** PP
+
+     Beta_propeller.aln 353 qmwgpaggaiwvaptvdekrrlvyvatsnsytevhyensdavmaieietgkvrwivqllkddnyiigcwqkgkeaancpeklgpdfal 440
+                            qmwgp+ggaiwv+ptvde+rrl+yv+tsnsyt+v+y+nsd+vmai+++tg+vrw+vqll+ddnyi+gcwqkgke+ancp++lgpdf++
+  sp|Q588Z1|PVADH_SPHS1 353 QMWGPSGGAIWVTPTVDEARRLIYVGTSNSYTDVPYDNSDSVMAIDADTGAVRWTVQLLADDNYIDGCWQKGKEHANCPNPLGPDFSI 440
+                            **************************************************************************************** PP
+
+     Beta_propeller.aln 441 gaapilrkladgkeyllvgqksgavyaldpdndgekiwerrlslgselggvefgtaaddekvyvgvsdvisqakdrgkpglyaldird 528
+                            gaapi+rk+adgke+llvgqksg++yaldp+n+g+kiwer+lslgs+lgg+efgtaadd+kvy+gvsd++sqakdrgkpgl+aldir+
+  sp|Q588Z1|PVADH_SPHS1 441 GAAPIYRKMADGKEFLLVGQKSGMIYALDPANKGAKIWERQLSLGSALGGIEFGTAADDGKVYAGVSDIASQAKDRGKPGLWALDIRT 528
+                            **************************************************************************************** PP
+
+     Beta_propeller.aln 529 gevvwaflnapdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavktlagkkadggvmdgagptia 616
+                            gev+w+flnapdtkcrwnn++chga+sqa+svipg++fags+dghfrafdta+gk++w+vdt++kav+tl+g+ka+ggvmdgagptia
+  sp|Q588Z1|PVADH_SPHS1 529 GEVAWNFLNAPDTKCRWNNWWCHGAFSQAISVIPGAIFAGSYDGHFRAFDTATGKIIWDVDTGTKAVTTLSGAKAFGGVMDGAGPTIA 616
+                            **************************************************************************************** PP
+
+     Beta_propeller.aln 617 ggmvyvhsgyagrssesagrdlrgregnvliafsvdgk 654
+                            ggmvyvhsgyagrsses+grdlrg++gn+l+afsvdgk
+  sp|Q588Z1|PVADH_SPHS1 617 GGMVYVHSGYAGRSSESGGRDLRGTDGNILMAFSVDGK 654
+                            *************************************8 PP
+
+>> sp|P77931|PVADH_PSESP  Polyvinylalcohol dehydrogenase OS=Pseudomonas sp. OX=306 GN=pvaA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ! 1349.1  16.1         0         0       1     654 []       1     639 []       1     639 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 1349.1 bits;  conditional E-value: 0
+     Beta_propeller.aln   1 mqsniernavssaaslivfgsvvhasavvaevalqsasaveldlldgealykarcaachdnaedrtparevlaknsaafilaamrtgv 88 
+                            mq+niern+vs+++s++v+g      av+a+val+sasa+el+l+dg+aly+arc++chdn++drtpar+v+a+ns+afi+aam +gv
+  sp|P77931|PVADH_PSESP   1 MQQNIERNQVSMTTSRFVWG------AVMALVALGSASAAELNLPDGAALYRARCGTCHDNPQDRTPARDVIARNSPAFIMAAM-NGV 81 
+                            9*******************......9*********************************************************.*** PP
+
+     Beta_propeller.aln  89 mvpmaeglseeektaialalgkadaktddeidlraiwgnsvestpldapkckskitpvdlsaadqwngwsaekdnarfqrkpaldvad 176
+                            m+pma+glse+ek+aial+lg+++a++++ei+++aiwg++++s+pld+pkck+ki+p+dls++dqwngw+a+++narfq++p+l++ad
+  sp|P77931|PVADH_PSESP  82 MAPMAAGLSEAEKQAIALHLGARPAGGSQEINPHAIWGPPSASMPLDGPKCKGKIPPIDLSTPDQWNGWGAGITNARFQPNPGLTAAD 169
+                            **************************************************************************************** PP
+
+     Beta_propeller.aln 177 vpklklkwafqypgskngqatvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftkaavald 264
+                            vp+lk+kwaf+ypgskngqatvvgdrlfvts+sgavyalnaktgcvywrhda+aatrssv+vv+lp+gapa++a+ffsd+tkaavald
+  sp|P77931|PVADH_PSESP 170 VPRLKVKWAFNYPGSKNGQATVVGDRLFVTSMSGAVYALNAKTGCVYWRHDAAAATRSSVHVVQLPAGAPAQYAIFFSDWTKAAVALD 257
+                            **************************************************************************************** PP
+
+     Beta_propeller.aln 265 aetgkqlwktvvddqpalqmtgsityhegklyvpissgteafatidtwecckfrgalvaldalsgkvlwkryttekepapfklnklgk 352
+                            a+tgkqlwkt++ddqp++qmtgs+tyhegkl+vpissg+eafat+d+wecckfrgalvaldalsgkvlwk+ytt+kepapf+lnklgk
+  sp|P77931|PVADH_PSESP 258 AQTGKQLWKTTIDDQPGVQMTGSPTYHEGKLFVPISSGNEAFATNDQWECCKFRGALVALDALSGKVLWKTYTTQKEPAPFRLNKLGK 345
+                            **************************************************************************************** PP
+
+     Beta_propeller.aln 353 qmwgpaggaiwvaptvdekrrlvyvatsnsytevhyensdavmaieietgkvrwivqllkddnyiigcwqkgkeaancpeklgpdfal 440
+                            qmwgpagg+iw+apt+d+kr+lvyvatsnsytevh+e+sdavma+eietgkvrwi+q++kddnyiigc    ++aancpek+gpdfal
+  sp|P77931|PVADH_PSESP 346 QMWGPAGGSIWSAPTIDPKRGLVYVATSNSYTEVHHEGSDAVMAMEIETGKVRWINQVTKDDNYIIGC----PRAANCPEKVGPDFAL 429
+                            ********************************************************************....**************** PP
+
+     Beta_propeller.aln 441 gaapilrkladgkeyllvgqksgavyaldpdndgekiwerrlslgselggvefgtaaddekvyvgvsdvisqakdrgkpglyaldird 528
+                            g++pil++l+dg++y++vgqksgavya+dpdndge+iw+rr+s+gselggvefg+aad+e+vyvg+sdvi+  +++gkpg+yal+ird
+  sp|P77931|PVADH_PSESP 430 GNSPILHTLQDGRQYIVVGQKSGAVYAMDPDNDGELIWMRRVSPGSELGGVEFGMAADAENVYVGISDVIT--RKGGKPGVYALRIRD 515
+                            ***********************************************************************..*************** PP
+
+     Beta_propeller.aln 529 gevvwaflnapdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavktlagkkadggvmdgagptia 616
+                            g++vwaf +ap+t+crwnnifch+avsqav+++pgvvfags+dghfraf+t+dgkvlwe++taa+++kt+agk+adggvmdgagptia
+  sp|P77931|PVADH_PSESP 516 GADVWAF-PAPRTPCRWNNIFCHPAVSQAVTAMPGVVFAGSMDGHFRAFSTSDGKVLWEFNTAAAPYKTVAGKQADGGVMDGAGPTIA 602
+                            *******.******************************************************************************** PP
+
+     Beta_propeller.aln 617 ggmvyvhsgyagrssesagrdlrgregnvliafsvdgk 654
+                            ggmvyvhsgyagrs+++ag dlrgregnvliafsvdgk
+  sp|P77931|PVADH_PSESP 603 GGMVYVHSGYAGRSTQNAG-DLRGREGNVLIAFSVDGK 639
+                            *******************.*****************8 PP
+
+>> sp|C5AXV8|EXAF_METEA  Lanthanide-dependent ethanol dehydrogenase OS=Methylorubrum extorquens (strain ATCC 14718 / DSM
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.9   1.0   6.4e-20   4.3e-16     147     415 ..      36     315 ..      18     324 .. 0.81
+   2 !   10.3   0.7   0.00054       3.6     544     597 ..     480     533 ..     467     568 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 62.9 bits;  conditional E-value: 6.4e-20
+    Beta_propeller.aln 147 dlsaadqwngwsaekdnarfqrkpaldvadvpklklkwafqypgskn....gqatvvgdrlfvtstsgavyalnaktgcvywrhdaeaa 231
+                           d  ++d+   ++ + +  rf +  +l+  ++  l   w+f + g k+     qa v    l+vt     +ya++a+tg   w ++a   
+  sp|C5AXV8|EXAF_METEA  36 DAKTTDDVVTYGLGPQAQRFSPIKTLNRDNIKGLVPAWSFSFGGEKQrgqeSQALVKDGVLYVTGSYSRLYAVDARTGEKKWEYNARLP 124
+                           56678888889999999***************************98532225788888899*************************999 PP
+
+    Beta_propeller.aln 232 trssvvvvalpegap.aktalffsdftkaavaldaetgkqlwktvvdd.qpalqmtgsityhegklyvpissgteafatidtwecckfr 318
+                               +    +  ga   k  ++f  +    vald +tgk +w+  +dd + +   t ++   +gk+   +s g+  f            
+  sp|C5AXV8|EXAF_METEA 125 EGILPCCDVVNRGAAlYKDKVYFGTLDAKLVALDQKTGKVVWRKDIDDfKSGYSYTAAPMIVKGKIITGVSGGE--FGV---------V 202
+                           98888888888887626889***************************9567899****************9986..433.........4 PP
+
+    Beta_propeller.aln 319 galvaldalsgkvlwkrytte.....kepapfklnklgk.....qmwgpaggaiwvaptvdekrrlvyvatsn.....s.ytevhyens 391
+                           g + a da +g v+wkr   e      + +p  +    +     + w   gga w   t d++ +l+y +t n     s     + + s
+  sp|C5AXV8|EXAF_METEA 203 GRVEARDAETGEVVWKRPVIEghmgeLNGKPSTMTGKANeswpgDTWKFGGGATWLGGTYDPELNLIYFGTGNpgpwnSaLRPGDNKWS 291
+                           777899**********9776511111456676654333311222567889*********************984322121122334458 PP
+
+    Beta_propeller.aln 392 davmaieietgkvrwivqllkddn 415
+                            + +ai+ + g++ w  q +  d 
+  sp|C5AXV8|EXAF_METEA 292 ASRLAINPDNGEIVWGFQTTPHDG 315
+                           8999***********999988775 PP
+
+  == domain 2  score: 10.3 bits;  conditional E-value: 0.00054
+    Beta_propeller.aln 544 rwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavkt 597
+                            w+     +  +  +++    vf+g+ +g ++afd+ +g  +w+++ ++  v +
+  sp|C5AXV8|EXAF_METEA 480 VWEYKNKAPLWAGVLTTAGNLVFTGTPEGFLKAFDAKTGEEVWKFQVGTGVVAS 533
+                           555555566666777888889*************************99987765 PP
+
+>> sp|I0JWN7|XOXF_METFB  Lanthanide-dependent methanol dehydrogenase OS=Methylacidiphilum fumariolicum (strain SolV) OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.2   6.7   3.6e-15   2.4e-11     151     415 ..      45     331 ..      32     340 .. 0.71
+   2 !   17.4   0.1   3.8e-06     0.026     539     591 ..     486     538 ..     465     565 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 47.2 bits;  conditional E-value: 3.6e-15
+    Beta_propeller.aln 151 adqwngwsaekdnarfqrkpaldvadvpklklkwafqypg..skngqatvvgdrlfvtsts.gavyaln..aktgcvywrhdaeaatrs 234
+                           + qw   + +  n+r+ +   +++ +v +l+l w+f       ++g   vvg  ++v s     vyal+   k   + w++     +++
+  sp|I0JWN7|XOXF_METFB  45 PGQWVMQNKNYANTRYSELNQINTKNVSRLRLAWSFSTGAlrGHEGGPLVVGTTMYVHSAYpNHVYALDltQKPYAIKWQYTPVQNSQA 133
+                           78999999****************************9765224578899********9975278***86326888999*9976554443 PP
+
+    Beta_propeller.aln 235 svv.vva.lpeg.apaktalffsdftkaavaldaetgkqlwktvv.ddqpalqmtgsityhegklyvpissgteaf.atidtwecckfr 318
+                            +v  ++ +  g a a+  +f++ +    +alda+tgk+lwk    d   +  +tg++   + k+ v +s g+     ++  ++     
+  sp|I0JWN7|XOXF_METFB 134 VAVaCCDvVNRGlAYANGKIFMTTLDGQIIALDANTGKELWKMKHaDVTKGETITGAPLVVKDKVLVGVSGGEFGVrGRVGAYDINTGN 222
+                           3220333133444889999***********************87615578999*****************9975431344455544322 PP
+
+    Beta_propeller.aln 319 galval.dalsgkvlwkryttekepa...pfklnkl..gkqmwgpaggaiwvaptvdekrrlvyvatsnsyt..evhyen.....sdav 394
+                              +a  +     vl      ++ p+   p    k   g + w   gg+ w   + d++  l y +tsn  t    + ++     s ++
+  sp|I0JWN7|XOXF_METFB 223 RVWLAYsQGPDEEVLLDSDFNKEFPQhggPGDGTKTwpG-EQWKLGGGTTWGWYSYDPALDLFYYGTSNPGTwnAEQRKGgdnkwSCTI 310
+                           222222023334565554443333331113333333213.458889***********************87632223333111225578 PP
+
+    Beta_propeller.aln 395 maieietgkvrwivqllkddn 415
+                           +a   +tgk rw  q++  d 
+  sp|I0JWN7|XOXF_METFB 311 FARRPDTGKARWAYQMTPWDS 331
+                           89999**********997765 PP
+
+  == domain 2  score: 17.4 bits;  conditional E-value: 3.8e-06
+    Beta_propeller.aln 539 pdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdta 591
+                            + k  w+     +  s  v +  g  f g++dg f+a d  +gkvlw+ + +
+  sp|I0JWN7|XOXF_METFB 486 LKGKRVWEIHEHFPVWSGPVVTAGGLAFYGTMDGWFKAVDIKTGKVLWQQKLG 538
+                           55566676666678889999999*************************97765 PP
+
+>> sp|Q8GR64|QHED_PSEPU  Quinohemoprotein alcohol dehydrogenase ADH IIB OS=Pseudomonas putida OX=303 GN=qbdA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.9   3.4   1.3e-19   8.7e-16     150     416 ..      36     316 ..      15     330 .. 0.79
+   2 ?   -2.6   0.0       4.2   2.8e+04     343     380 ..     384     422 ..     356     448 .. 0.69
+   3 !    7.4   1.8     0.004        27     171     239 ..     461     530 ..     434     555 .. 0.74
+   4 ?   -1.2   0.0       1.6   1.1e+04      33      60 ..     591     618 ..     584     623 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 61.9 bits;  conditional E-value: 1.3e-19
+    Beta_propeller.aln 150 aadqwngwsaekdnarfqrkpaldvadvpklklkwafqypgskngqat.vvgdrlfvtsts.gavyalnaktgcvywrhdaeaa...tr 233
+                           a  +w   +    + rf +   +d+++v  l l w ++   ++  +at +  d ++ ts+s   v a++a +g   wr+d e a   +r
+  sp|Q8GR64|QHED_PSEPU  36 AGGEWLSHGRTYAEQRFSPLKQIDASNVRSLGLAWYMDLDNTRGLEATpLFHDGVIYTSMSwSRVIAVDAASGKELWRYDPEVAkvkAR 124
+                           445688888899999*****************************9999456899******94469**************9877632257 PP
+
+    Beta_propeller.aln 234 ssvvvvalpegapaktalffsdftkaavaldaetgkqlwkt.vvddqpalqmtgsityhegklyvpissgteafatidtwecckfrgal 321
+                           +s   +     a     ++   +    +alda+tgk +w   + d      +tg++   +gk+ +    g   +           rg +
+  sp|Q8GR64|QHED_PSEPU 125 TSCCDAVNRGVALWGDKVYVGTLDGRLIALDAKTGKAIWSQqTTDPAKPYSITGAPRVVKGKVII--GNGGAEY---------GVRGFV 202
+                           7766555555566778899999*****************761566677899***********875..4444333.........479*** PP
+
+    Beta_propeller.aln 322 valdalsgkvlwkryttekepa.pfk...lnkl.....gkqmwgp.aggaiwvaptvdekrrlvyvatsns...ytevhyens.d.... 392
+                            a da +gk+ w+ yt   +pa p+    l  +     g q w    gg++w + + d++  l+yv+t n      ev+  +  d    
+  sp|Q8GR64|QHED_PSEPU 203 SAYDADTGKLAWRFYTVPGDPAlPYEhpeLREAaktwqGDQYWKLgGGGTVWDSMAYDPELDLLYVGTGNGspwNREVRSPGGgDnlyl 291
+                           ******************99976775222333222233889998615689******************997332468876543233333 PP
+
+    Beta_propeller.aln 393 .avmaieietgkvrwivqllkddny 416
+                            +++ai  +tgk+ w  q++  d +
+  sp|Q8GR64|QHED_PSEPU 292 sSILAIRPDTGKLAWHYQVTPGDSW 316
+                           389*****************98876 PP
+
+  == domain 2  score: -2.6 bits;  conditional E-value: 4.2
+    Beta_propeller.aln 343 apfklnklgkqmw.gpaggaiwvaptvdekrrlvyvats 380
+                              + +k    mw  p g   w + + ++  +lvy+   
+  sp|Q8GR64|QHED_PSEPU 384 PGVRYEKEPIVMWpSPFGAHNWHSMSFNPGTGLVYIPYQ 422
+                           336788888899955888889999999999999999655 PP
+
+  == domain 3  score: 7.4 bits;  conditional E-value: 0.004
+    Beta_propeller.aln 171 aldvadvpklklkwafqypgskngqa.tvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvv 239
+                           al + d  k k  w   yp   ng + +  g+ +f  + +g ++a  a  g   w+ +a++   ++++  
+  sp|Q8GR64|QHED_PSEPU 461 ALLAWDPVKQKAAWKVPYPTHWNGGTlSTAGNLVFQGTAAGQMHAYSADKGEALWQFEAQSGIVAAPMTF 530
+                           5666677778888888888888875425678888888888888888888888888888887766665554 PP
+
+  == domain 4  score: -1.2 bits;  conditional E-value: 1.6
+    Beta_propeller.aln  33 alqsasaveldlldgealykarcaachd 60 
+                            +q  +a++ +   g+ ly   c+ ch 
+  sp|Q8GR64|QHED_PSEPU 591 VPQPVTAAPEQVQAGKQLYGQFCSVCHG 618
+                           57888999999****************5 PP
+
+>> sp|Q46444|QHED_COMTE  Quinohemoprotein alcohol dehydrogenase OS=Comamonas testosteroni OX=285 GN=qheDH PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.4  10.6   4.9e-17   3.3e-13     151     416 ..      57     338 ..      32     347 .. 0.77
+   2 !   11.2   1.7   0.00028       1.9     545     605 ..     502     562 ..     492     599 .. 0.77
+   3 ?   -1.9   0.0       2.8   1.8e+04      39      61 ..     619     641 ..     589     651 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 53.4 bits;  conditional E-value: 4.9e-17
+    Beta_propeller.aln 151 adqwngwsaekdnarfqrkpaldvadvpklklkwafqypgskngqat.vvgdrlfvtsts.gavyalnaktgcvywrhdaeaatrss.. 235
+                           + +w   + +  ++r+ r   +++a+v  l l w+++   ++  +at vv d ++  s s   v+a++++tg   w +d +    +   
+  sp|Q46444|QHED_COMTE  57 TPDWPTIGVDYAETRYSRLDQINAANVKDLGLAWSYNLESTRGVEATpVVVDGIMYVSASwSVVHAIDTRTGNRIWTYDPQIDRSTGfk 145
+                           4579999999********************************99998767777666666526789************997654443311 PP
+
+    Beta_propeller.aln 236 vvvvalpeg.apaktalffsdftkaavaldaetgkqlwk.tvvddq.palqmtgsityhegklyvpissgteafatidtwecckfrgal 321
+                                +  g a  k  ++   +    +alda tgk++w+  + + q  +l +tg++  ++gk+ +    g+e             rg +
+  sp|Q46444|QHED_COMTE 146 GCCDVVNRGvALWKGKVYVGAWDGRLIALDAATGKEVWHqNTFEGQkGSLTITGAPRVFKGKVIIGK-RGAE----------YGVRGYI 223
+                           3333445552567899**********************734566661579************98764.3444..........357**** PP
+
+    Beta_propeller.aln 322 valdalsgkvlwkryttekep.apfkln..klgkqmwgpa........ggaiwvaptvdekrrlvyvatsnsytevhy....ensd... 392
+                            a da +g   w+ ++   +p +pf  +  k   + w p+        gg++w + t d + + +yv+t n     h     ++ d   
+  sp|Q46444|QHED_COMTE 224 TAYDAETGERKWRWFSVPGDPsKPFEDEsmKRAARTWDPSgkwweaggGGTMWDSMTFDAELNTMYVGTGNGSPWSHKvrspKGGDnly 312
+                           *****************9998569*86612445567988733333333589*******************9754333311123334344 PP
+
+    Beta_propeller.aln 393 ..avmaieietgkvrwivqllkddny 416
+                             +++a++ +tgk +w  q +  dn+
+  sp|Q46444|QHED_COMTE 313 laSIVALDPDTGKYKWHYQETPGDNW 338
+                           44799****************99997 PP
+
+  == domain 2  score: 11.2 bits;  conditional E-value: 0.00028
+    Beta_propeller.aln 545 wnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavktlagkkadg 605
+                           w   ++ +    ++++   vvf g+ dg + a+++a+g  lwe  t++  v + +    dg
+  sp|Q46444|QHED_COMTE 502 WSVEHVSPWNGGTLTTAGNVVFQGTADGRLVAYHAATGEKLWEAPTGTGVVAAPSTYMVDG 562
+                           5555555556667888889****************************99887766665555 PP
+
+  == domain 3  score: -1.9 bits;  conditional E-value: 2.8
+    Beta_propeller.aln  39 aveldlldgealykarcaachdn 61 
+                             +++   g  ly a c  ch  
+  sp|Q46444|QHED_COMTE 619 YDPAKVEAGTMLYVANCVFCHGV 641
+                           45677788999**********75 PP
+
+>> sp|Q88JH0|PEDH_PSEPK  Quinoprotein alcohol dehydrogenase PedH OS=Pseudomonas putida (strain ATCC 47054 / DSM 6125 / C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.2   0.1     6e-14     4e-10     151     415 ..      41     321 ..      33     329 .. 0.74
+   2 !    9.8   0.1   0.00078       5.2     558     593 ..     497     532 ..     468     564 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 43.2 bits;  conditional E-value: 6e-14
+    Beta_propeller.aln 151 adqwngwsaekdnarfqrkpaldvadvpklklkwafqypgskn.gqat..vvgdr.lfvtstsgavyalnaktgcvywrhdaeaatrss 235
+                           ++q    + +++  r+ +   l+v +v  l+  waf + g k+ gq +  ++ d  ++ t     v+a++a+tg   w++da       
+  sp|Q88JH0|PEDH_PSEPK  41 PQQIVTNGLGVQGQRYSPLDLLNVNNVKELRPVWAFSFGGEKQrGQQAqpLIKDGvMYLTGSYSRVFAVDARTGKKLWQYDARLPDDIR 129
+                           566666777888999*************************9854654324677752678989999*****************9988888 PP
+
+    Beta_propeller.aln 236 vvvvalpegapa.ktalffsdftkaavaldaetgkqlw.ktvvddqpalqmtgsityhegklyvpissgteafa.tidtwecckfrgal 321
+                           +    +  g       +ff  +    val+ +tgk +w k v d + +  ++ ++   +gkl   ++ g+     +i+ ++     g l
+  sp|Q88JH0|PEDH_PSEPK 130 PCCDVINRGVALyGNLVFFGTLDAKLVALNKDTGKVVWsKKVADHKEGYSISAAPMIVNGKLITGVAGGEFGVVgKIQAYNP--ENGEL 216
+                           88877888865515678999999999************556778899*******************9998654414444433..23444 PP
+
+    Beta_propeller.aln 322 val.dalsgkvlwkryttekepapfklnklgk....qmwgpaggaiwvaptvdekrrlvyvatsnsyt.evhy...en..sdavmaiei 399
+                           + +  ++ g++ +     +   + +    +gk    ++w   g a w     d++ +l+  +t n    + h    +n  s + +a++ 
+  sp|Q88JH0|PEDH_PSEPK 217 LWMrPTVEGHMGYVYKDGKAIENGISGGEAGKtwpgDLWKTGGAAPWLGGYYDPETNLILFGTGNPAPwNSHLrpgDNlySSSRLALNP 305
+                           44314455555444434444444555556665333368999999999999999999999999998643133321123334778899999 PP
+
+    Beta_propeller.aln 400 etgkvrwivqllkddn 415
+                           + g+++w  q +  d 
+  sp|Q88JH0|PEDH_PSEPK 306 DDGTIKWHFQSTPHDG 321
+                           9999999999887765 PP
+
+  == domain 2  score: 9.8 bits;  conditional E-value: 0.00078
+    Beta_propeller.aln 558 vsvipgvvfagsldghfrafdtadgkvlwevdtaak 593
+                           +++    vf+g+ +g ++af++ +g  +we++t++ 
+  sp|Q88JH0|PEDH_PSEPK 497 LTTKGNLVFTGTPEGFLQAFNAKTGDKVWEFQTGSG 532
+                           55666789*************************975 PP
+
+>> sp|A0A3F2YLY8|XOXF_METBY  Lanthanide-dependent methanol dehydrogenase XoxF OS=Methylotuvimicrobium buryatense OX=9564
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.7  10.9   2.1e-14   1.4e-10     134     416 ..      18     326 ..       4     336 .. 0.72
+   2 !   15.2   2.1   1.7e-05      0.12     537     613 ..     489     569 ..     475     594 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 44.7 bits;  conditional E-value: 2.1e-14
+        Beta_propeller.aln 134 ldapkckskitpvdlsa..adqwngwsaekdnarfqrkpaldvadvpklklkwafqyp..gskngqatvvgdrlfv.tstsgavy 213
+                               l  p ++ + + v+  +  + +w  w+ + + +r+ +   +++++v +l+  w+f       ++g   vv d +++ t    +vy
+  sp|A0A3F2YLY8|XOXF_METBY  18 LAVPAVSQANSEVEKLTknPANWATWGGNYHGTRYSELKQINTSNVKNLQPAWTFSTGvlRGHEGGPLVVNDVMYIhTPFPNTVY 102
+                               5667777777777754411679*********************************9752235678899****9987477899*** PP
+
+        Beta_propeller.aln 214 alnaktgcvywrhdaea.atrssvvvv..alpeg.apaktalffsdftkaavaldaetgkqlwktvvddqpalqmtg..sityhe 292
+                               a++ kt  v w +  +  a  + +v++  ++  g a  +  +f+ +      alda+tgk++w    + +p l mt   ++   +
+  sp|A0A3F2YLY8|XOXF_METBY 103 AIDQKTQAVIWEYTPQQdADVTIPVMCcdTVNRGlAYGDGKIFLQQSDTVLTALDAKTGKRVWSVQ-NGDPKLGMTNtqAPLVVK 186
+                               ***********9986541444544443224566645677889999999999************765.556777776511677899 PP
+
+        Beta_propeller.aln 293 gklyvpissgt...eaf..atidtwecckfrgalvaldals.....gkvlwkryttekepapfklnklgkqmwgpaggaiwvapt 367
+                                k+   is g+     f  a + +     ++g  +  da +         wk    +   +         + w   gg+ w   +
+  sp|A0A3F2YLY8|XOXF_METBY 187 DKVITGISGGEfgvRGFlaAYNIRTGELDWKGYSMGPDADTlinptKTTTWKDGKVQPVGKDSSTSTWEGDQWKIGGGTTWGWYS 271
+                               9*******9862223442122223333567777777777551111134455555555555555555555677999********** PP
+
+        Beta_propeller.aln 368 vdekrrlvyvatsnsytevhy....en..sdavmaieietgkvrwivqllkddny 416
+                                d++ +lvy ++ n  t  +     +n  s ++ a +++tg+v+w+ q++  d++
+  sp|A0A3F2YLY8|XOXF_METBY 272 YDPELNLVYYGSGNPSTWNPAqrpgDNkwSMSLWARNADTGEVKWVYQMTPHDEW 326
+                               ************998875443111144336788899**************98875 PP
+
+  == domain 2  score: 15.2 bits;  conditional E-value: 1.7e-05
+        Beta_propeller.aln 537 napdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavktla.....gkkadggvmdgagp 613
+                               +a   k  w n    +  s ++++  gvvf g+l+g+++a d+ +gk l+ ++t +  +  +      gk  + gv+ g g 
+  sp|A0A3F2YLY8|XOXF_METBY 489 DATTGKIIWSNKEQFSVWSGSLATAGGVVFYGTLEGYLKAVDAKTGKELYRFKTPSGIIGNVNtweyeGK-QYVGVLSGVGG 569
+                               56778999**********************************************9876665551112133.34567776554 PP
+
+>> sp|Q9AGW3|BOH_THABB  1-butanol dehydrogenase (quinone) OS=Thauera butanivorans (strain ATCC 43655 / DSM 2080 / JCM 20
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.5   1.5   1.3e-11   8.7e-08     156     304 ..      49     208 ..       9     298 .. 0.71
+   2 !   20.7   0.3   3.8e-07    0.0025     552     596 ..     526     570 ..     522     601 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 35.5 bits;  conditional E-value: 1.3e-11
+   Beta_propeller.aln 156 gwsaekdnarfqrkpaldvadvpklklkwafqypgskn.gq.atv.vgd.rlfvtstsgavyalnaktgcvywrhdaeaatrssvvvval 241
+                           ++ + +  r  +  a+++ +v +l   w+f + g k+ gq a v v d  +++t+    ++a++a++g   w ++a       +    +
+  sp|Q9AGW3|BOH_THABB  49 TYGLGLKAQRHSPLKAINTDNVANLVPAWSFSFGGEKQrGQeAQVlVHDgVIYATASYSRIFAIDARSGKRLWEYNARLPDDIRPCCDVV 138
+                          5777888899999999*******************9854663333145525788888899*****************9877777776667 PP
+
+   Beta_propeller.aln 242 pegapa.ktalffsdftkaavaldaetgkqlwktvv.ddqpalqmtgsityh.egk....lyvpissgte 304
+                            ga      +ff  +  a vald +tgk +w+    d + +  mtg++    + k    l v  ssg+e
+  sp|Q9AGW3|BOH_THABB 139 NRGAAIyGDKVFFGTLDAAMVALDRKTGKVVWRKKFgDHKVGYTMTGAPFVIkDQKsgrtLLVHGSSGDE 208
+                          77776514689*********************8876266789*****98643132222236677777776 PP
+
+  == domain 2  score: 20.7 bits;  conditional E-value: 3.8e-07
+   Beta_propeller.aln 552 gavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavk 596
+                          +av+ ++++  g vf+g+ dg+++afd+ +gk lw+++t++  v 
+  sp|Q9AGW3|BOH_THABB 526 PAVAGTLTTAGGWVFTGTSDGYLKAFDAKNGKELWKFQTGSGVVS 570
+                          7999999********************************987665 PP
+
+>> sp|P29968|XOXF_PARDE  Putative dehydrogenase XoxF OS=Paracoccus denitrificans OX=266 GN=xoxF PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.6   2.6   3.5e-16   2.3e-12     151     416 ..      32     317 ..      25     326 .. 0.78
+   2 !    6.3   0.8    0.0087        58     544     613 ..     484     557 ..     467     579 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 50.6 bits;  conditional E-value: 3.5e-16
+    Beta_propeller.aln 151 adqwngwsaekdnarfqrkpaldvadvpklklkwafqypg..skngqatvvgdrlfv.tstsgavyalna.ktgcvywrhdaeaatrss 235
+                           a qw     +  n+r+     ++  +v  l++ w+f       ++g   v+gd ++v t     v+al+    g + wr++ +      
+  sp|P29968|XOXF_PARDE  32 APQWAIQMGDYANTRYSTLDQINKDNVKDLRVAWTFSTGVlrGHEGSPLVIGDVMYVhTPFPNRVFALDLnDNGKILWRYEPQQDPNVI 120
+                           56899999999*************************975422578999*******984678999****962589******988766554 PP
+
+    Beta_propeller.aln 236 vvvv..alpeg.apaktalffsdftkaavaldaetgkqlwktvvddqpal..qmtgsityhegklyvpissgteafa.tidtwecckfr 318
+                           +v+   ++  g + a+  +++ +   + valda +g   w t + d p++   +t ++   + k+ v is g+     ++   +     
+  sp|P29968|XOXF_PARDE 121 AVMScdTVYRGlSYADGMILLGQADTTVVALDATSGEVKWSTKIGD-PGIgeTLTATVVPVKDKVLVGISGGEYGVRgRMTALNLTDGS 208
+                           444311455662457888999999999*****************88.5551167788888999*******9987654145556666666 PP
+
+    Beta_propeller.aln 319 galvaldals.gkvlwkryttekepapf....klnklgkqmwgpaggaiwvaptvdekrrlvyvatsnsytevhy....en..sdavma 396
+                            a  a  +     +l    tt +  +p+     ln    + w   gg+iw   + d+  +lvy +t n  t  +     +n  s ++ma
+  sp|P29968|XOXF_PARDE 209 EAWKAWSTGPdEELLVDPETTTHLGKPIgadsSLNSWEGDQWQIGGGTIWGWFSYDPDLNLVYYGTGNPSTWNPSqrpgDNkwSMTIMA 297
+                           66666655431468888888888777763333799999999***************************8875443111144337789** PP
+
+    Beta_propeller.aln 397 ieietgkvrwivqllkddny 416
+                            +++tg  +w  q++  d++
+  sp|P29968|XOXF_PARDE 298 RDADTGMAKWFYQMTPHDEW 317
+                           **************998875 PP
+
+  == domain 2  score: 6.3 bits;  conditional E-value: 0.0087
+    Beta_propeller.aln 544 rwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavktl....agkkadggvmdgagp 613
+                           +w      +  s a+++   vvf g+l+g+++  d+ +g  l++++t +  +  +     g k + g++ g g 
+  sp|P29968|XOXF_PARDE 484 KWSVPEQFSVWSGALATAGDVVFYGTLEGYLKPVDAQTGEELYKFKTPSGIIGNVmtyeHGGKQYVGILSGVGG 557
+                           55555556677889999999999999999999999999999999999775443331112466667777777654 PP
+
+>> sp|Q934G0|LUH_PSESP  Lupanine 17-hydroxylase [cytochrome c] OS=Pseudomonas sp. OX=306 GN=luh PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.3   0.3   0.00026       1.8     514     606 ..      91     185 ..      61     199 .. 0.79
+   2 !   26.7   0.6   5.7e-09   3.8e-05     317     414 ..     200     316 ..     185     325 .. 0.70
+   3 !   18.0   0.1   2.5e-06     0.017     555     599 ..     484     528 ..     455     553 .. 0.75
+   4 ?   -0.3   0.0      0.88   5.9e+03      47      85 ..     603     642 ..     591     672 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00026
+   Beta_propeller.aln 514 kdrgkpg.lyaldirdgevvwaflnap..dtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdta.akavktla 599
+                           ++g pg +ya d+++g++ w++ +    d +  w  ++  + v + ++v    v+ gs+  ++ a + ++ k+ w  +++  k +++++
+  sp|Q934G0|LUH_PSESP  91 YQGGPPGkIYANDLKTGKNLWTYTPEVqyDKDTSWTGFWG-THVNRGLAVDDDNVYIGSYC-KLLAVSRTTHKLTWSSQSCdPKKMQAIT 178
+                          478888878**************77542256789999986.568999999*********95.78899999******98765268899999 PP
+
+   Beta_propeller.aln 600 gkkadgg 606
+                          g+   gg
+  sp|Q934G0|LUH_PSESP 179 GAPRVGG 185
+                          9987776 PP
+
+  == domain 2  score: 26.7 bits;  conditional E-value: 5.7e-09
+   Beta_propeller.aln 317 frgalvaldalsgkvlwkryttekep.apfk...lnklgkqmwgp.....a..ggaiwvaptvdekrrlvyvatsn....sytevhyen. 390
+                           rg l a+da +gk lw+ yt   +p +pf    l k+  + wg      +  g + w a t de+   +y +t      s ++   ++ 
+  sp|Q934G0|LUH_PSESP 200 DRGHLDAFDAKTGKHLWRFYTMPGDPsKPFEndlLAKAS-KTWGTdywkyTkgGVSPWDAITYDEASDTLYFGTDGpspwSPAQRAPDAg 288
+                          59********************99985699833344443.34553222223215577****************97522223333333331 PP
+
+   Beta_propeller.aln 391 ....sdavmaieietgkvrwivqllkdd 414
+                              s +++a+++ tg+ +w  q +++d
+  sp|Q934G0|LUH_PSESP 289 delfSHSIIAVDASTGAYKWHFQTVQND 316
+                          2234779****************99888 PP
+
+  == domain 3  score: 18.0 bits;  conditional E-value: 2.5e-06
+   Beta_propeller.aln 555 sqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavktla 599
+                             +++  g vf g+ dghf afd+ +g  lw ++ + + + + +
+  sp|Q934G0|LUH_PSESP 484 GGVLATAGGLVFQGTGDGHFEAFDANTGEKLWSFHVGGSILAAPT 528
+                          556677889*************************99876554443 PP
+
+  == domain 4  score: -0.3 bits;  conditional E-value: 0.88
+   Beta_propeller.aln  47 gealyka.rcaachd.naedrtparevlaknsaafilaamr 85 
+                          g  +++a  c+ach  nae+ tp    l + s  + la m+
+  sp|Q934G0|LUH_PSESP 603 GRHIFNAnACGACHGfNAEGSTPGLPDLRR-SDKLDLAVMK 642
+                          666776635*****769******9877755.4445555554 PP
+
+>> sp|Q9Z4J7|QEDH_PSEAE  Quinoprotein ethanol dehydrogenase OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.1   4.3   8.2e-12   5.5e-08     157     304 ..      55     213 ..      37     350 .. 0.75
+   2 ?   -0.3   0.0      0.87   5.8e+03     319     587 ..     500     515 ..     494     522 .. 0.62
+   3 !   16.8   0.6   5.7e-06     0.038     559     595 ..     528     564 ..     509     596 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 36.1 bits;  conditional E-value: 8.2e-12
+    Beta_propeller.aln 157 wsaekdnarfqrkpaldvadvpklklkwafqypgskn....gqatvvgdrlfvtstsgavyalnaktgcvywrhdae..aatrssvvvv 239
+                           ++ + +  r+ +   +++ +v kl   w++ +   k+     qa v    ++vt+    ++al+aktg   w ++       r    vv
+  sp|Q9Z4J7|QEDH_PSEAE  55 YGMGTHAQRWSPLKQVNADNVFKLTPAWSYSFGDEKQrgqeSQAIVSDGVIYVTASYSRLFALDAKTGKRLWTYNHRlpDDIRPCCDVV 143
+                           6777888899999999***************998774311146666666789***99**************986666115556666665 PP
+
+    Beta_propeller.aln 240 alpegapa.ktalffsdftkaavaldaetgkqlwktvvddq.palqmtgsity.hegk....lyvpissgte 304
+                           +   ga      +ff  +  + val+ +tgk +wk    d   +  mtg++t   +gk    l +  ssg+e
+  sp|Q9Z4J7|QEDH_PSEAE 144 N--RGAAIyGDKVFFGTLDASVVALNKNTGKVVWKKKFADHgAGYTMTGAPTIvKDGKtgkvLLIHGSSGDE 213
+                           5..5554414679*********************98876652789******973466533233455667766 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 0.87
+    Beta_propeller.aln 319 galvaldalsgkvlwkryttekepapfklnklgkqmwgpaggaiwvaptvdekrrlvyvatsnsytevhyensdavmaieietgkvrwi 407
+                           g+l a+d +sgkv+w                                                                          
+  sp|Q9Z4J7|QEDH_PSEAE 500 GSLRAMDPVSGKVVW-------------------------------------------------------------------------- 514
+                           455555555555555.......................................................................... PP
+
+    Beta_propeller.aln 408 vqllkddnyiigcwqkgkeaancpeklgpdfalgaapilrkladgkeyllvgqksgavyaldpdndgekiwerrlslgselggvefgta 496
+                                                                                                                    
+  sp|Q9Z4J7|QEDH_PSEAE   - -----------------------------------------------------------------------------------------   -
+                           ......................................................................................... PP
+
+    Beta_propeller.aln 497 addekvyvgvsdvisqakdrgkpglyaldirdgevvwaflnapdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvl 585
+                                                                                                                    
+  sp|Q9Z4J7|QEDH_PSEAE   - -----------------------------------------------------------------------------------------   -
+                           ......................................................................................... PP
+
+    Beta_propeller.aln 586 we 587
+                            e
+  sp|Q9Z4J7|QEDH_PSEAE 515 -E 515
+                           .4 PP
+
+  == domain 3  score: 16.8 bits;  conditional E-value: 5.7e-06
+    Beta_propeller.aln 559 svipgvvfagsldghfrafdtadgkvlwevdtaakav 595
+                           ++    vf+g+ dg+f+afd+ +gk lw+++t++  v
+  sp|Q9Z4J7|QEDH_PSEAE 528 ATAGNLVFTGTGDGYFKAFDAKSGKELWKFQTGSGIV 564
+                           4445679*************************98655 PP
+
+>> sp|Q4W6G0|QGDA_PSEPU  Quinohemoprotein alcohol dehydrogenase ADH-IIG OS=Pseudomonas putida OX=303 GN=qgdA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.7   6.9   3.4e-13   2.3e-09     152     416 ..      49     328 ..      40     337 .. 0.78
+   2 !    6.4   0.4    0.0082        54     557     595 ..     510     548 ..     484     589 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 40.7 bits;  conditional E-value: 3.4e-13
+    Beta_propeller.aln 152 dqwngwsaekdnarfqrkpaldvadvpklklkwafqypgskngqat..vvgdrlfvtstsgavyalnaktgcvywrhdaeaat.rssv. 236
+                            +w   +   d+ r+ +   ++  +v +l l w+++    +  +at  vv   +++t     vyal+a+ g + w++d ++   r+   
+  sp|Q4W6G0|QGDA_PSEPU  49 GNWMSTGRTYDEQRYSPLKQISDQNVGQLGLAWSYKLDLDRGVEATpiVVDGAMYTTGPFSVVYALDARDGRLIWKYDPQSDRhRAGEa 137
+                           56888888889999*99999999**************99999888865778899************************98764155441 PP
+
+    Beta_propeller.aln 237 vvvalpegapa.ktalffsdftkaavaldaetgkqlwk..tvvddqpalqmtgsityhegklyvpissgteafatidtwecckfrgalv 322
+                              a+  g    k  ++   +     a+da+tg++ w   t  d + +  +tg++   +gk+   i  g   f           rg + 
+  sp|Q4W6G0|QGDA_PSEPU 138 CCDAVNRGVAVwKGKVYVGVLDGRLEAIDAKTGQRAWSvdTRADHKRSYTITGAPRVVNGKVV--IGNGGAEFG---------VRGYVT 215
+                           45567778554277788888888999***********6448899*****************75..566766664.........79**** PP
+
+    Beta_propeller.aln 323 aldalsgkvlwkryttekepa..p..fklnklgkqmwgpa......ggaiwvaptvdekrrlvyvatsn.sytevhyens...d..... 392
+                           a da +gk  w+ yt   +p+  p    ++ + k  +g a      gg+ w + + d++ +l+y++  n s  + ++ +    d     
+  sp|Q4W6G0|QGDA_PSEPU 216 AYDAETGKEAWRFYTVPGDPKlpPegKGMEIAAKTWFGDAyveqggGGTAWDSFAYDPELNLLYIGVGNgSLWDPKWRSQakgDnlfls 304
+                           ***************9988864212133555666666764455544899*****************99944444443221111222233 PP
+
+    Beta_propeller.aln 393 avmaieietgkvrwivqllkddny 416
+                           +++a++++tg+  w  q +  d +
+  sp|Q4W6G0|QGDA_PSEPU 305 SIVAVNADTGEYVWHYQTTPGDAW 328
+                           899**************9988765 PP
+
+  == domain 2  score: 6.4 bits;  conditional E-value: 0.0082
+    Beta_propeller.aln 557 avsvipgvvfagsldghfrafdtadgkvlwevdtaakav 595
+                           ++s+    vf gs dg   a+ + +g  lwe  +a+  +
+  sp|Q4W6G0|QGDA_PSEPU 510 TLSTAGNLVFEGSADGRVIAYAADTGEKLWEQPAASGVM 548
+                           445556678888888888888888888888876654322 PP
+
+>> sp|Q88JH5|PEDE_PSEPK  Quinoprotein alcohol dehydrogenase PedE OS=Pseudomonas putida (strain ATCC 47054 / DSM 6125 / C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.9   5.4   3.2e-10   2.2e-06     155     381 ..      61     308 ..      31     362 .. 0.61
+   2 ?   -0.3   0.0       0.9     6e+03     572     588 ..     508     524 ..     501     539 .. 0.77
+   3 !   17.1   0.4   4.7e-06     0.032     563     595 ..     540     572 ..     527     604 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 30.9 bits;  conditional E-value: 3.2e-10
+    Beta_propeller.aln 155 ngwsaekdnarfqrkpaldvadvpklklkwafqypgskn....gqatvvgdrlfvtstsgavyalnaktgcvywrhdae..aatrssvv 237
+                             ++ + +  r+ +   ++  +v kl   w++ +   k+     qa v    ++vt     v+al+aktg   w ++       r    
+  sp|Q88JH5|PEDE_PSEPK  61 LQYGMGTNAQRWSPLAQVNDKNVFKLTPAWSYSFGDEKQrgqeSQAIVSDGVVYVTGSYSRVFALDAKTGKRLWTYNHRlpDNIRPCCD 149
+                           457778888899999999999999********9998774311146666666789*******************9876661155555555 PP
+
+    Beta_propeller.aln 238 vvalpegapa.ktalffsdftkaavaldaetgkqlwktvvdd.qpalqmtgsityhe....gkly.vpissgte......afati.dtw 312
+                           vv    ga      ++f  +    +ald +tgk +w+    d   +  mtg++   +    gk+  +  ssg+e       fa+  dt 
+  sp|Q88JH5|PEDE_PSEPK 150 VV--NRGAAIyGDKIYFGTLDARVIALDKRTGKVVWNKKFGDhSAGYTMTGAPVLIKdktsGKVLlIHGSSGDEfgvvgqLFARDpDTG 236
+                           55..55655415689*********************88776515789*****9875412226654155677776222221244331233 PP
+
+    Beta_propeller.aln 313 ecckfrgalvaldalsgkvlwkrytte...kepa.pf.klnklgk.qmwgpaggaiwvaptvdekrrlvyvatsn 381
+                           e + +r     ++   g++  k  t     k p+ p       gk + w   gga w + + d++ + + v++ n
+  sp|Q88JH5|PEDE_PSEPK 237 EEVWMRPF---VEGHMGRLNGKDSTPTgdvKAPSwPDdPTTETGKvEAWSHGGGAPWQSASFDPETNTIIVGAGN 308
+                           33333332...2333344443433322001111112212334454346777777777777777777777666654 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 0.9
+    Beta_propeller.aln 572 ghfrafdtadgkvlwev 588
+                           g +ra+d ++gk++we 
+  sp|Q88JH5|PEDE_PSEPK 508 GTLRAMDPTTGKLVWEH 524
+                           56788888888888875 PP
+
+  == domain 3  score: 17.1 bits;  conditional E-value: 4.7e-06
+    Beta_propeller.aln 563 gvvfagsldghfrafdtadgkvlwevdtaakav 595
+                             vf+g+ dg f+afd+ +gk lw+++t++  v
+  sp|Q88JH5|PEDE_PSEPK 540 NLVFTGTGDGFFKAFDAKTGKELWKFQTGSGIV 572
+                           579*************************98655 PP
+
+>> sp|A8R3S4|QEDH_PSEPU  Quinoprotein ethanol dehydrogenase OS=Pseudomonas putida OX=303 GN=qedA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.3   0.3   2.5e-10   1.6e-06     157     303 ..      55     212 ..      27     219 .. 0.72
+   2 ?    0.5   0.0      0.51   3.4e+03     452     485 ..     211     239 ..     197     256 .. 0.79
+   3 ?    1.1   0.4      0.34   2.2e+03     353     414 ..     272     347 ..     260     354 .. 0.65
+   4 ?    1.7   0.0      0.22   1.5e+03     572     589 ..     500     517 ..     494     531 .. 0.82
+   5 !   13.9   0.3   4.3e-05      0.29     563     595 ..     532     564 ..     522     596 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 31.3 bits;  conditional E-value: 2.5e-10
+    Beta_propeller.aln 157 wsaekdnarfqrkpaldvadvpklklkwafqypgsk.ngq...atvvgdrlfvtstsgavyalnaktgcvywrhdae..aatrssvvvv 239
+                           ++ + +  r+ +   ++  +v kl   w++ +   +  gq   a +    ++vt     v+al+aktg   w ++       r    vv
+  sp|A8R3S4|QEDH_PSEPU  55 YGMGTNAQRWSPLAMVNDKNVFKLTPAWSYSFGDERqRGQesqAIINDGVIYVTGSYSRVFALDAKTGRRLWTYNHRlpDNIRPCCDVV 143
+                           667777788888888899999999999*9999765424542205444556899*999**************986665115566666665 PP
+
+    Beta_propeller.aln 240 alpegap.aktalffsdftkaavaldaetgkqlwktvvdd.qpalqmtgsityhe....gkly.vpissgt 303
+                           +   ga      ++f  +    +al+ +tgk +w+    d   +  mtg++t  +    gk+  +  ssg+
+  sp|A8R3S4|QEDH_PSEPU 144 N--RGAAiFGDKIYFGTLDARVIALNKDTGKVVWNKKFGDhSAGYTMTGAPTLIKdqksGKVLlIHGSSGD 212
+                           5..5554145789*********************88776515789******97431222665414445555 PP
+
+  == domain 2  score: 0.5 bits;  conditional E-value: 0.51
+    Beta_propeller.aln 452 gkeyllvgqksgavyaldpdndgekiwerrlslg 485
+                           g e+ +vgq    +ya dp+  ge +w+r    g
+  sp|A8R3S4|QEDH_PSEPU 211 GDEFGVVGQ----LYARDPE-TGEEVWMRPFVEG 239
+                           555666655....8*****7.69******87766 PP
+
+  == domain 3  score: 1.1 bits;  conditional E-value: 0.34
+    Beta_propeller.aln 353 qmwgpaggaiwvaptvdekrrlvyvatsn.....sytevhyens....dav.....maieietgkvrwivqllkdd 414
+                           + w   gga w + + d++ + + v++ n     +++    ++     d++     + ++  tg+v+w  q + +d
+  sp|A8R3S4|QEDH_PSEPU 272 ESWSHGGGAPWQSASFDPETNTIIVGAGNpgpwnTWARTSKDGNphdfDSLytsgqVGVDPTTGEVKWFYQHTPND 347
+                           469999**************99999987632222344443333211114431111145677788888888777666 PP
+
+  == domain 4  score: 1.7 bits;  conditional E-value: 0.22
+    Beta_propeller.aln 572 ghfrafdtadgkvlwevd 589
+                           g +ra+d ++gkv+we +
+  sp|A8R3S4|QEDH_PSEPU 500 GSLRAMDPTTGKVVWEHN 517
+                           778999999999999877 PP
+
+  == domain 5  score: 13.9 bits;  conditional E-value: 4.3e-05
+    Beta_propeller.aln 563 gvvfagsldghfrafdtadgkvlwevdtaakav 595
+                             vf+g+ dg+f+af++ +g  lw+++t++  v
+  sp|A8R3S4|QEDH_PSEPU 532 NLVFTGTGDGYFKAFNAKTGEELWKFQTGSGIV 564
+                           479*************************98655 PP
+
+>> sp|Q9AF95|BDH_THABB  1-butanol dehydrogenase (cytochrome c) OS=Thauera butanivorans (strain ATCC 43655 / DSM 2080 / J
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.6   0.1   2.4e-11   1.6e-07     521     614 ..     103     198 ..      97     209 .. 0.79
+   2 ?   -2.6   0.0       4.5     3e+04     394     416 ..     299     321 ..     295     365 .. 0.65
+   3 !    6.9   0.1    0.0058        39     560     594 ..     500     534 ..     477     559 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 34.6 bits;  conditional E-value: 2.4e-11
+   Beta_propeller.aln 521 lyaldirdgevvwaflnapdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaa...kavktlagk..kadg 605
+                          ++ald+r+g+  w++   p+ +    +  c   v + v+v  g vf gsldg + a+d+ +gk +we +t     k++ t++g+    +g
+  sp|Q9AF95|BDH_THABB 103 VHALDVRSGKRLWTY--DPEVPREKGKNACCDVVNRGVAVHEGKVFVGSLDGRLVAIDARTGKRVWERNTLIdddKPY-TITGAprVIKG 189
+                          89*************..788888888888999*************************************975111455.45554114567 PP
+
+   Beta_propeller.aln 606 gvmdgagpt 614
+                           v+ g g +
+  sp|Q9AF95|BDH_THABB 190 KVVIGNGGA 198
+                          777777765 PP
+
+  == domain 2  score: -2.6 bits;  conditional E-value: 4.5
+   Beta_propeller.aln 394 vmaieietgkvrwivqllkddny 416
+                          ++a+  +tg+  w  q +  dn+
+  sp|Q9AF95|BDH_THABB 299 IVALRPDTGEYVWHYQQTPADNW 321
+                          44555555555555555544443 PP
+
+  == domain 3  score: 6.9 bits;  conditional E-value: 0.0058
+   Beta_propeller.aln 560 vipgvvfagsldghfrafdtadgkvlwevdtaaka 594
+                          +   vvf g+ d  + afd+ dgk lw    ++  
+  sp|Q9AF95|BDH_THABB 500 TAGNVVFQGTADARLLAFDARDGKELWSAPMGTGV 534
+                          456799*********************97766544 PP
+
+>> sp|Q70JN9|SLDA_GLUOX  Glycerol dehydrogenase large subunit OS=Gluconobacter oxydans (strain 621H) OX=290633 GN=sldA P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.2   2.8     2e-12   1.3e-08     149     415 ..     103     400 ..      77     415 .. 0.69
+   2 ?    5.7   0.1     0.013        87     558     587 ..     663     693 ..     619     724 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 38.2 bits;  conditional E-value: 2e-12
+    Beta_propeller.aln 149 saadqwngwsaekdnarfqrkpaldvadvpklklkwafq...y..pgskngqat.....vvgdrlfvtstsgavyalnaktgcvywrhd 227
+                            a+ +w  ++ + ++ r+ +   ++  +  +lk+ + ++   y  pg  n  a+      vgd l++ s    +  ++  tg   wrh+
+  sp|Q70JN9|SLDA_GLUOX 103 PASGDWAAYGHDDSQMRYSPLSEITPQNADQLKVAFVYHtgsYprPGQTNKWAAettpiKVGDGLYMCSAQNDIMKIDPATGKEIWRHN 191
+                           46678****************************9998753334336888866532223359***************************8 PP
+
+    Beta_propeller.aln 228 ae.........aatr..ssvvvvalpegapaktalffsdftkaavaldaetgk...........qlwktvvddqpa.lqmtgsityheg 293
+                            +         aa +  +  +  ++peg p++  ++   +    +a+da tg+           +l +   +  p+ + mt  +   +g
+  sp|Q70JN9|SLDA_GLUOX 192 INekyeaipytAACKgvTYFTSSQVPEGQPCHNRILEGTLDMRLIAVDAATGNlcegfgnggqvNLMQGLGESVPGfVSMTTPPPVVNG 280
+                           642222222213333112334579***************************97222221111112333333444443344444444554 PP
+
+    Beta_propeller.aln 294 klyvpissgteafatidtwecckfrgalvaldalsgkvlwkryttekepapfklnklgkqmwgpaggaiwvaptvdekrrlvyvatsns 382
+                            + v      e +  + +w      g +   da sgk lw     +  p+  + +  g++ +       w+a t d++ +lvyv t ns
+  sp|Q70JN9|SLDA_GLUOX 281 VVVV----NHEVLDGQRRWAP---SGVIRGYDAESGKFLWAWDVNR--PND-HSQPTGNNHYSRGTPNSWAAMTGDNALGLVYVPTGNS 359
+                           4443....3566666666654...688999**********865543..333.34568899999999999*****************999 PP
+
+    Beta_propeller.aln 383 ytev......hyen..sdavmaieietgkvrwivqllkddn 415
+                            ++       + en  s av+a++++tg+ rw+ q ++ d 
+  sp|Q70JN9|SLDA_GLUOX 360 ASDYysalrsPEENkvSSAVVALDVKTGSPRWVFQTVHKDV 400
+                           7664222232334334899****************998874 PP
+
+  == domain 2  score: 5.7 bits;  conditional E-value: 0.013
+    Beta_propeller.aln 558 vsvipgvvf.agsldghfrafdtadgkvlwe 587
+                           v +  gvvf a + d ++ra+d  +gkv+w 
+  sp|Q70JN9|SLDA_GLUOX 663 VVTAGGVVFiAAATDNQIRAIDEHTGKVVWS 693
+                           55567888747789****************7 PP
+
+>> sp|C5B120|XOXF1_METEA  Lanthanide-dependent methanol dehydrogenase OS=Methylorubrum extorquens (strain ATCC 14718 / D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.6   4.0     2e-10   1.3e-06     160     416 ..      41     317 ..      29     326 .. 0.70
+   2 !   13.2   0.6   7.2e-05      0.48     540     599 ..     480     539 ..     469     587 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 31.6 bits;  conditional E-value: 2e-10
+     Beta_propeller.aln 160 ekdnarfqrkpaldvadvpklklkwafqypg..skngqatvvgdrlfv.tstsgavyalnaktgc.vywrhdaeaatrssvvvv..al 241
+                            +  n+r+ +   +++++v +l++ w+f       ++g   vvg+ ++v t     vyal+   g  + w+++ +      +v++  ++
+  sp|C5B120|XOXF1_METEA  41 DYANTRYSKLDQINASNVKNLQVAWTFSTGVlrGHEGSPLVVGNIMYVhTPFPNIVYALDLDQGAkIVWKYEPKQDPSVIPVMCcdTV 128
+                            6789***********************975422578999******9984678999*****99986489***99988777776652246 PP
+
+     Beta_propeller.aln 242 peg.apaktalffsdftkaavaldaetgkqlwktvvdd.qpalqmtgsityhegklyvpissgteaf...atidtwecck..frgalv 322
+                              g a a+ a+++ +   + v+lda++gk  w     d   +   t ++   + k+ v is g+       t  + +  k  +rg  +
+  sp|C5B120|XOXF1_METEA 129 NRGlAYADGAILLHQADTTLVSLDAKSGKVNWSVKNGDpSKGETNTATVLPVKDKVIVGISGGEFGVqchVTAYDLKSGKkvWRGYSI 216
+                            66657899************************87654413344555556667999*****9987443000222222222222344444 PP
+
+     Beta_propeller.aln 323 aldalsgkvlwkrytte.kep..apfklnklgkqmwgpaggaiwvaptvdekrrlvyvatsnsytevhy....en..sdavmaieiet 401
+                              d     ++    tt   +p  +   l+    + w   gg+ w   + d+k  l+y ++ n  t  +     +n  s ++ a + +t
+  sp|C5B120|XOXF1_METEA 217 GPDDQ--LIVDPEKTTSlGKPigKDSSLKTWEGDQWKTGGGCTWGWFSYDPKLDLMYYGSGNPSTWNPKqrpgDNkwSMTIWARNPDT 302
+                            44432..2222222222022211233444445567999************************888655411113323556778889** PP
+
+     Beta_propeller.aln 402 gkvrwivqllkddny 416
+                            g  +w+ q++  d++
+  sp|C5B120|XOXF1_METEA 303 GMAKWVYQMTPHDEW 317
+                            *********998875 PP
+
+  == domain 2  score: 13.2 bits;  conditional E-value: 7.2e-05
+     Beta_propeller.aln 540 dtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavktla 599
+                            + k +w n    +a   a+++   vvf g+l+g ++a d+ +gk l++++t +  +  + 
+  sp|C5B120|XOXF1_METEA 480 QGKIKWSNPEQFSAWGGALATAGDVVFYGTLEGFLKAVDSKTGKELYKFKTPSGIIGNVM 539
+                            57899*********************************************9876655443 PP
+
+>> sp|Q8KIL1|SLDA_GLUTH  Glycerol dehydrogenase large subunit OS=Gluconobacter thailandicus OX=257438 GN=sldA PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.7   3.3   1.1e-11   7.2e-08     150     416 ..     100     397 ..      80     433 .. 0.71
+   2 ?    4.2   0.1     0.038   2.5e+02     562     588 ..     663     690 ..     616     722 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 35.7 bits;  conditional E-value: 1.1e-11
+    Beta_propeller.aln 150 aadqwngwsaekdnarfqrkpaldvadvpklklkwafq...y..pgskngqat.....vvgdrlfvtstsgavyalnaktgcvywrhda 228
+                           a  +w  ++ + +++r+ +   ++  +  klk+ + ++   y  pg  n  a+      vgd l++ s    +  l+  tg   wr + 
+  sp|Q8KIL1|SLDA_GLUTH 100 ARGDWVAYGRDDHQTRYSPLSEITPENASKLKVAFVYHtgsYprPGQVNKWAAettpiKVGDGLYTCSAMNDIIKLDPATGKQIWRRNV 188
+                           4467999*************************9998753334336877765532223359**************************987 PP
+
+    Beta_propeller.aln 229 eaatrssvvvva...........lpegapaktalffsdftkaavaldaetgkqlwktvvddq...........pa.lqmtgsityhegk 294
+                           +    s ++ +a           +peg p++  l+   +    +a+daetg    +     q           p+ + mt  +   +g 
+  sp|Q8KIL1|SLDA_GLUTH 189 DVKYHSIPYTAAckgvtyftssvVPEGQPCHNRLIEGTLDMRLIAVDAETGDFCPNFGHGGQvnlmqglgesvPGfVSMTAPPPVINGV 277
+                           654443333222111111112238**************************986655544444000000000004433455555555554 PP
+
+    Beta_propeller.aln 295 lyvpissgteafatidtwecckfrgalvaldalsgkvlwkryttekepapfklnklgkqmwgpaggaiwvaptvdekrrlvyvatsns. 382
+                           + v      e +  + +w      g +   da sgk +w     + + +    +  g++ +       w++ t d++ +lvyv t ns 
+  sp|Q8KIL1|SLDA_GLUTH 278 VVV----NHEVLDGQRRWAP---SGVIRGYDAESGKFVWAWDVNNSDDH---SQPTGNRHYSRGTPNSWATMTGDNEEGLVYVPTGNSa 356
+                           443....4566677777764...688999**********8776665554...456899999999999********************93 PP
+
+    Beta_propeller.aln 383 ...y....tevhyensdavmaieietgkvrwivqllkddny 416
+                              y    ++ + + s av+ai+++tg+ rw+ q  + d +
+  sp|Q8KIL1|SLDA_GLUTH 357 adyYsalrSDAENKVSSAVVAIDVKTGSPRWVFQTAHKDVW 397
+                           333311112344556899****************9988843 PP
+
+  == domain 2  score: 4.2 bits;  conditional E-value: 0.038
+    Beta_propeller.aln 562 pgvvfags.ldghfrafdtadgkvlwev 588
+                            g +f g+  d ++ra+d  +gkv+w  
+  sp|Q8KIL1|SLDA_GLUTH 663 GGLIFIGAaTDNQIRAIDEHTGKVVWSA 690
+                           5889998636999999999999999974 PP
+
+>> sp|O05542|ADHA_GLUOX  Alcohol dehydrogenase (quinone), dehydrogenase subunit OS=Gluconobacter oxydans (strain 621H) O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.6   7.1     3e-12     2e-08     143     415 ..      42     340 ..      25     350 .. 0.67
+   2 ?    2.9   0.3     0.096   6.4e+02     562     596 ..     532     566 ..     516     619 .. 0.66
+   3 ?    1.4   0.0      0.26   1.7e+03      41      61 ..     639     660 ..     634     666 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 37.6 bits;  conditional E-value: 3e-12
+    Beta_propeller.aln 143 itpvdl.saadqwngwsaekdnarfqrkpaldvadvpklklkwafqypgsk..ngqatvvgdrlfvtstsgavyalnaktgcvywrhda 228
+                           it  d  + + +w  ++   ++ r+ +   +++ +v klkl w ++    +  +g   +v   +++t+    + al+a tg + w +d 
+  sp|O05542|ADHA_GLUOX  42 ITSSDNgGHPGDWLSYGRSYSEQRYSPLDQINTENVGKLKLAWHYDLDTNRgqEGTPLIVNGVMYATTNWSKMKALDAATGKLLWSYDP 130
+                           555554146889********************************9987764116777799999************************97 PP
+
+    Beta_propeller.aln 229 ea....atrssvvvvalpegap.aktalffsdftkaavaldaetgkqlwkt.vvdd......qpalqmtgsityhegklyvpissgtea 305
+                           +     a r      ++  ga   +  ++f  f    +alda+tgk +w   ++        q +  + g++   +gk+          
+  sp|O05542|ADHA_GLUOX 131 KVpgniADRGC--CDTVSRGAAyWNGKVYFGTFDGRLIALDAKTGKLVWSVyTIPKeaqlghQRSYTVDGAPRIAKGKV---------- 207
+                           64111144444..44556666515678**********************852444300000033333444444444443.......... PP
+
+    Beta_propeller.aln 306 fatidtwecckfrgalvaldalsgkvlwkrytt.ekepap.......fklnkl....gkq.mwgp..aggaiwvaptvdekrrlvyvat 379
+                           +  +   e    rg + a+da +gk+ w+ +t  + e +p       + + k+    gk+  w     gg++w +   d+   lvy++ 
+  sp|O05542|ADHA_GLUOX 208 LIGNGGAEF-GARGFVSAFDAETGKLDWRFFTVpNPENKPdgaasddILMSKAyptwGKNgAWKQqgGGGTVWDSLVYDPVTDLVYLGV 295
+                           333333343.359******************9742344442222221223333222233213433215789****************99 PP
+
+    Beta_propeller.aln 380 sns....ytevhyen.sd.....avmaieietgkvrwivqllkddn 415
+                            n     y   + e+  d     +++ai+ +tgk  w  q +  d+
+  sp|O05542|ADHA_GLUOX 296 GNGspwnYK-FRSEGkGDnlflgSIVAINPDTGKYVWHFQETPMDE 340
+                           985222232.2222212323333899***********999877665 PP
+
+  == domain 2  score: 2.9 bits;  conditional E-value: 0.096
+    Beta_propeller.aln 562 pgvvfagsldghfrafdtadgkvlwevdtaakavk 596
+                             v+f g  +g f a+d+++g+ l+ + + ++ + 
+  sp|O05542|ADHA_GLUOX 532 GNVIFQGLANGEFHAYDATNGNDLYSFPAQSAIIA 566
+                           5699*********************9987665433 PP
+
+  == domain 3  score: 1.4 bits;  conditional E-value: 0.26
+    Beta_propeller.aln  41 eldlldgealykarcaach.dn 61 
+                           e+ + dg  +y++ c+ach dn
+  sp|O05542|ADHA_GLUOX 639 EARQKDGYFMYQTFCSACHgDN 660
+                           67899**************455 PP
+
+>> sp|P28036|ADHA_GLUPO  Alcohol dehydrogenase (quinone), dehydrogenase subunit OS=Gluconacetobacter polyoxogenes OX=439
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.7   7.5   5.6e-12   3.7e-08     150     414 ..      52     340 ..      17     349 .. 0.71
+   2 ?   -0.4   0.1      0.96   6.4e+03     564     602 ..     530     572 ..     503     615 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 36.7 bits;  conditional E-value: 5.6e-12
+    Beta_propeller.aln 150 aadqwngwsaekdnarfqrkpaldvadvpklklkwafqypgs..kngqatvvgdrlfvtstsgavyalnaktgcvywrhdae..aatrs 234
+                            + +w  ++   ++ r+ +   ++ ++v +lkl w ++      ++g   v+   +++t+    + a++a tg + w +d    +    
+  sp|P28036|ADHA_GLUPO  52 HPGNWMTYGRTYSDQRYSPLDQINRSNVGNLKLAWYLDLDTNrgQEGTPLVIDGVMYATTNWSMMKAVDAATGKLLWSYDPRvpGNIAD 140
+                           5778999****************************99887651156777899999***********************99762133444 PP
+
+    Beta_propeller.aln 235 svvvvalpegapa.ktalffsdftkaavaldaetgkqlwkt.vvddqpalqmtgsityhegklyvpissgteafatidtwecckfrgal 321
+                                ++  ga   +  ++f  f    +alda+tgk +w   ++  +  l    s t  +g     i+ g   +  +   e    rg +
+  sp|P28036|ADHA_GLUPO 141 KGCCDTVNRGAAYwNGKVYFGTFDGRLIALDAKTGKLVWSVnTIPPEAELGKQRSYT-VDGA--PRIAKGRVII-GNGGSEF-GARGFV 224
+                           44556677777642678**********************742444333333333333.2443..3455555443.3444443.469*** PP
+
+    Beta_propeller.aln 322 valdalsgkvlwkrytt...ekepap....fklnklgkqmwgpa........ggaiwvaptvdekrrlvyvatsns.ytevhy...ens 391
+                            a+da +gkv w+ +t    ++ep        +nk   q w p+        gg++w +   d+   lvy++  n    + +y    + 
+  sp|P28036|ADHA_GLUPO 225 SAFDAETGKVDWRFFTVpnpKNEPDAasdsVLMNK-AYQTWSPTgawtrqggGGTVWDSIVYDPVADLVYLGVGNGsPWNYKYrseGKG 312
+                           ***************97444578865222134555.5789999633333333589*****************99842223333111222 PP
+
+    Beta_propeller.aln 392 d.....avmaieietgkvrwivqllkdd 414
+                           d     +++a++ etg+  w  q +  d
+  sp|P28036|ADHA_GLUPO 313 DnlflgSIVALKPETGEYVWHFQETPMD 340
+                           2233337888999999988888876555 PP
+
+  == domain 2  score: -0.4 bits;  conditional E-value: 0.96
+    Beta_propeller.aln 564 vvfagsldghfrafdtadgkvlwevdta....akavktlagkk 602
+                            +f g  +g f a+d+++g  l+++ +     a +v+ la  k
+  sp|P28036|ADHA_GLUPO 530 LLFQGLANGEFHAYDATNGSDLFHFAADsgiiAPPVTYLANGK 572
+                           4677788888888888888777776543111133455555444 PP
+
+>> sp|Q60282|Y3523_METJA  Uncharacterized protein MJECL23 OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.2   0.0      0.15     1e+03     199     227 ..     101     129 ..      77     180 .. 0.65
+   2 ?    1.5   0.1      0.25   1.6e+03     517     538 ..     188     208 ..     175     217 .. 0.77
+   3 !   14.4   0.0   3.1e-05      0.21     184     277 ..     490     589 ..     471     599 .. 0.76
+   4 ?    4.3   0.0     0.035   2.3e+02     174     232 ..     613     671 ..     589     684 .. 0.64
+   5 ?    2.8   0.0     0.098   6.5e+02     518     537 ..     726     745 ..     671     752 .. 0.83
+   6 ?    1.9   0.0      0.18   1.2e+03     521     536 ..     767     782 ..     761     788 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 2.2 bits;  conditional E-value: 0.15
+     Beta_propeller.aln 199 vgdrlfvtstsgavyalnaktgcvywrhd 227
+                            + d +++   s  ++al+ ktg   w ++
+  sp|Q60282|Y3523_METJA 101 IKDNIIILGCSNHLFALDIKTGNKIWEYK 129
+                            33333333333333333333333333333 PP
+
+  == domain 2  score: 1.5 bits;  conditional E-value: 0.25
+     Beta_propeller.aln 517 gkpglyaldirdgevvwaflna 538
+                            g   +ya+d+r+g + w+f +a
+  sp|Q60282|Y3523_METJA 188 GDKYIYAIDVRTGGKLWEF-EA 208
+                            66679*************9.33 PP
+
+  == domain 3  score: 14.4 bits;  conditional E-value: 3.1e-05
+     Beta_propeller.aln 184 wafqypgskngqatvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrs...svvvvalpegapaktalffsdft....kaavald 264
+                            w f+  g      ++ gd ++   +sg vya++ ktg   w  +ae +         +v l  g   +  +++ +        a ald
+  sp|Q60282|Y3523_METJA 490 WEFRAEGGVR-LLSIKGDIVILGCVSGHVYAIDIKTGKKLWEFKAEDTVWGlsiKDDIVVLGCGNIFESIVMLKNGKileeGYAYALD 576
+                            6666555543.34678999**************************9887542114579999999999988888764311114699*** PP
+
+     Beta_propeller.aln 265 aetgkqlwktvvd 277
+                             +tg+++w++ + 
+  sp|Q60282|Y3523_METJA 577 INTGREIWRSKIK 589
+                            ********99885 PP
+
+  == domain 4  score: 4.3 bits;  conditional E-value: 0.035
+     Beta_propeller.aln 174 vadvpklklkwafqypgskngqatvvgdrlfvtstsgavyalnaktgcvywrhdaeaat 232
+                            + d+   ++ w f+    k  +   + + ++       +yal+  tg   wr +ae+  
+  sp|Q60282|Y3523_METJA 613 ALDINAGNMLWEFKAKSGKSIRNLSIKNDILLFGCDNYLYALDIDTGRELWRFKAEGEV 671
+                            34555555566666666666666666666666666666666666666666666666655 PP
+
+  == domain 5  score: 2.8 bits;  conditional E-value: 0.098
+     Beta_propeller.aln 518 kpglyaldirdgevvwafln 537
+                            +  +yaldi  ge+ waf +
+  sp|Q60282|Y3523_METJA 726 RECVYALDINAGENLWAFKT 745
+                            56799999999999999954 PP
+
+  == domain 6  score: 1.9 bits;  conditional E-value: 0.18
+     Beta_propeller.aln 521 lyaldirdgevvwafl 536
+                            lyaldi +ge++w+f 
+  sp|Q60282|Y3523_METJA 767 LYALDINTGEEIWKFK 782
+                            89***********994 PP
+
+>> sp|Q44002|ADHA_KOMEU  Alcohol dehydrogenase (quinone), dehydrogenase subunit OS=Komagataeibacter europaeus OX=33995 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.4   7.4   6.9e-12   4.6e-08     150     414 ..      52     341 ..      15     352 .. 0.70
+   2 ?   -0.4   0.1      0.96   6.4e+03     564     602 ..     531     573 ..     504     616 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 36.4 bits;  conditional E-value: 6.9e-12
+    Beta_propeller.aln 150 aadqwngwsaekdnarfqrkpaldvadvpklklkwafqypgs..kngqatvvgdrlfvtstsgavyalnaktgcvywrhdae..aatrs 234
+                            + +w  ++   ++ r+ +   ++ ++v +lkl w ++      ++g   v+   +++t+    + a++a tg + w +d    +    
+  sp|Q44002|ADHA_KOMEU  52 HPGNWMTYGRTYSEQRYSPLDQINRSNVGNLKLAWYLDLDTNrgQEGTPLVIDGVMYATTNWSMMKAVDAATGKLLWSYDPRvpGNIAD 140
+                           5778999****************************99887651156777899999***********************99762133444 PP
+
+    Beta_propeller.aln 235 svvvvalpegapa.ktalffsdftkaavaldaetgkqlwkt.vvddqpalqmtgsityhegklyvpissgteafatidtwecckfrgal 321
+                                ++  ga   +  ++f  f    +alda+tgk +w   ++  +  l    s t  +g     i+ g   +  +   e    rg +
+  sp|Q44002|ADHA_KOMEU 141 KGCCDTVNRGAAYwNGKVYFGTFDGRLIALDAKTGKLVWSVnTIPPEAELGKQRSYT-VDGA--PRIAKGRVII-GNGGSEF-GARGFV 224
+                           44556677777642678**********************742444333333333333.2443..3455555443.3444443.469*** PP
+
+    Beta_propeller.aln 322 valdalsgkvlwkrytt...ekepapfk.....lnklgkqmwgpa........ggaiwvaptvdekrrlvyvatsns.ytevhy...en 390
+                            a+da +gkv w+ +t+   ++ep         +nk   q w p+        gg++w +   d+   lvy++  n    + +y    +
+  sp|Q44002|ADHA_KOMEU 225 TAFDAETGKVDWRFFTApnpKNEPDHTAsdsvlMNK-AYQTWSPTgawtrqggGGTVWDSIVYDPVADLVYLGVGNGsPWNYKYrseGK 312
+                           ***************974445677543212221455.5789999633333333589*****************9984222333311122 PP
+
+    Beta_propeller.aln 391 sd.....avmaieietgkvrwivqllkdd 414
+                            d     +++a++ etg+  w  q +  d
+  sp|Q44002|ADHA_KOMEU 313 GDnlflgSIVALKPETGEYVWHFQETPMD 341
+                           22233337889999999999988877655 PP
+
+  == domain 2  score: -0.4 bits;  conditional E-value: 0.96
+    Beta_propeller.aln 564 vvfagsldghfrafdtadgkvlwevdta....akavktlagkk 602
+                            +f g  +g f a+d+++g  l+++ +     a +v+ la  k
+  sp|Q44002|ADHA_KOMEU 531 LLFQGLANGEFHAYDATNGSDLFHFAADsgiiAPPVTYLANGK 573
+                           4677788888888888888777776543111133455555444 PP
+
+>> sp|P18278|ADHA_ACEAC  Alcohol dehydrogenase (quinone), dehydrogenase subunit OS=Acetobacter aceti OX=435 GN=adhA PE=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.8   7.1     1e-11   6.8e-08     150     415 ..      51     341 ..      35     354 .. 0.72
+   2 ?    1.6   0.2      0.24   1.6e+03     564     592 ..     530     558 ..     499     613 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 35.8 bits;  conditional E-value: 1e-11
+    Beta_propeller.aln 150 aadqwngwsaekdnarfqrkpaldvadvpklklkwafqypgskngqat..vvgdrlfvtstsgavyalnaktgcvywrhdaea..atrs 234
+                            +++w  ++   ++ r+ +   ++ ++v  lkl   +     +  +at  vv   +++t+    + al+a tg + w++d +       
+  sp|P18278|ADHA_ACEAC  51 HPENWLSYGRTYSEQRYSPLDQINRSNVGDLKLLGYYTLDTNRGQEATplVVDGIMYATTNWSKMEALDAATGKLLWQYDPKVpgNIAD 139
+                           578999***************************9888888777777776577788899999999***************9765113333 PP
+
+    Beta_propeller.aln 235 svvvvalpegapa.ktalffsdftkaavaldaetgkqlwktvvddqpalqmtgsityhegklyvpissgteafatidtwecckfrgalv 322
+                                ++  ga   +  +f+  f    va da+tgk++w   v+  pa    g    +     v ++ g   +  +   e    rg + 
+  sp|P18278|ADHA_ACEAC 140 KGCCDTVNRGAGYwNGKVFWGTFDGRLVAADAKTGKKVWA--VNTIPADASLGKQRSYTVDGAVRVAKGLVLI-GNGGAEF-GARGFVS 224
+                           344555666665415679*********************6..4445555555554444444456667776544.4444454.469**** PP
+
+    Beta_propeller.aln 323 aldalsgkvlwkrytt...ekepap.....fklnklgkqmwgpa........ggaiwvaptvdekrrlvyvatsn.sytevhye....n 390
+                           a+da +gk+ w+ yt    ++ep       + +nk+  + wgp         gg++w +   d+   l+y+a  n s  + +y     +
+  sp|P18278|ADHA_ACEAC 225 AFDAETGKLKWRFYTVpnnKNEPDHaasdnILMNKAY-KTWGPKgawvrqggGGTVWDSLVYDPVSDLIYLAVGNgSPWNYKYRsegiG 312
+                           **************97333567753112214567765.57999633333333689*****************99833344444311122 PP
+
+    Beta_propeller.aln 391 sd....avmaieietgkvrwivqllkddn 415
+                           s+    +++a++ etg+  w  q +  d+
+  sp|P18278|ADHA_ACEAC 313 SNlflgSIVALKPETGEYVWHFQATPMDQ 341
+                           32333378899999999999998887665 PP
+
+  == domain 2  score: 1.6 bits;  conditional E-value: 0.24
+    Beta_propeller.aln 564 vvfagsldghfrafdtadgkvlwevdtaa 592
+                            +f g  +g f a+d+++g  l+++d+ +
+  sp|P18278|ADHA_ACEAC 530 LLFQGLANGEFHAYDATNGSDLYKFDAQS 558
+                           45667777777777777777777766543 PP
+
+>> sp|P38539|DHM1_METME  Methanol dehydrogenase [cytochrome c] subunit 1 OS=Methylophilus methylotrophus OX=17 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.1   7.2   7.1e-08   0.00048     170     460 ..      32     344 ..       8     354 .. 0.65
+   2 !   13.8   0.5   4.7e-05      0.32     537     638 ..     452     558 ..     442     573 .] 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 23.1 bits;  conditional E-value: 7.1e-08
+    Beta_propeller.aln 170 paldvadvpklklkwafqyp..gskngqatvvgdrlfvtst.sgavyalnak.tgcvywrhdae..aatrssvvvvalpegap.aktal 251
+                             ++ ++v ++k  w+f       ++g   v+gd ++v s      yaln +  g + w+h+ +  a+t++ +    +  g       +
+  sp|P38539|DHM1_METME  32 AQINKSNVKNVKAAWSFSTGvlNGHEGAPLVIGDMMYVHSAfPNNTYALNLNdPGKIVWQHKPKqdASTKAVMCCDVVDRGLAyGAGQI 120
+                           45667889999999**98531134567789********98725789****75279******8651145555544445555643034456 PP
+
+    Beta_propeller.aln 252 ffsdftkaavaldaetgkqlwktvvdd.qpalqmtgsityhegklyvpissgteafatidtwecckfrgalvaldalsgkvlwkrytte 339
+                              +     +alda+tgk  w   v d + +  +t ++   +  + +   sg+e             rga+ a+d  +g + w+ ++t 
+  sp|P38539|DHM1_METME 121 VKKQANGHLLALDAKTGKINWEVEVCDpKVGSTLTQAPFVAKDTVLMG-CSGAEL----------GVRGAVNAFDLKTGELKWRAFATG 198
+                           6677777889***********997755155666666665555555544.456653..........579*****************9997 PP
+
+    Beta_propeller.aln 340 kepapfklnk.............lgkqm.....wgpaggaiwvaptvdekrrlvyvatsns..ytevhy..ensdavmai...eietgk 403
+                            + +  +l k             lg +      w   gg+ w   + d+k +l y ++ n   + e     +n    m+i   +++tg 
+  sp|P38539|DHM1_METME 199 SDDS-VRLAKdfnsanphygqfgLGTKTwegdaWKIGGGTNWGWYAYDPKLNLFYYGSGNPapWNETMRpgDNK-WTMTIwgrDLDTGM 285
+                           6542.2222211111122222224555511111566799*****************999952344544310443.2344334499**** PP
+
+    Beta_propeller.aln 404 vrwivqllkddny.iigcwqkgkeaancpeklgpdfa.lgaapilrkladgkeyllvgq 460
+                            +w  q +  d++   g+ q       +  k+ p ++ +    il +l+  +  l+v +
+  sp|P38539|DHM1_METME 286 AKWGYQKTPHDEWdFAGVNQMVLTDQPVNGKMTPLLShIDRNGILYTLNRENGNLIVAE 344
+                           ****9999877763677777766666666777776654566667777666666666655 PP
+
+  == domain 2  score: 13.8 bits;  conditional E-value: 4.7e-05
+    Beta_propeller.aln 537 napdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaa....kavk.tlagkkadggvmdgagptiaggmv 620
+                           +    k +w ++   +a   ++ +  g v+  +ldg+++a+d  dgk lw+++  +    ++++ +  gk+ + g m g g     g+v
+  sp|P38539|DHM1_METME 452 DLTTGKAKWTKWEKFAAWGGTLYTKGGLVWYATLDGYLKALDNKDGKELWNFKMPSggigSPMTySFKGKQ-YIGSMYGVGGWPGVGLV 539
+                           55667999********************************************8754111123331344555.55678888877777777 PP
+
+    Beta_propeller.aln 621 y.vhsgyagrssesagrdl 638
+                           + +    ag  +  a r+l
+  sp|P38539|DHM1_METME 540 FdLTDPSAGLGAVGAFREL 558
+                           6233445565555555555 PP
+
+>> sp|Q5RG49|ACSF4_DANRE  Beta-alanine-activating enzyme OS=Danio rerio OX=7955 GN=aasdh PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.6   0.9   0.00011      0.71     516     592 ..     895     971 ..     802     977 .. 0.56
+   2 ?    0.7   0.1      0.45     3e+03     564     591 ..     983    1009 ..     978    1016 .. 0.86
+   3 !   12.6   0.1   0.00011      0.71     555     625 ..    1034    1106 ..    1026    1116 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00011
+     Beta_propeller.aln 516 rgkpglyaldirdgevvwaflnapdtkcrwnnifchgav..sqavsvipgvvfagsldghfrafdtadgkvlwevdtaa 592
+                              k gl      dg+ v+a+ n     c w+ +   gav  s +v   p  +++ sl gh+ +++  +gkvlw++ ++a
+  sp|Q5RG49|ACSF4_DANRE 895 DPKTGLVFAGSHDGH-VYAL-NPLTKTCTWQHYCGGGAVfsSPCVHLSPRQLYCSSLGGHLHCLNPDSGKVLWKYSSSA 971
+                            345555555555554.5666.444456999987777886445678999*************************998765 PP
+
+  == domain 2  score: 0.7 bits;  conditional E-value: 0.45
+     Beta_propeller.aln  564 vvfagsldghfrafdtadgkvlwevdta 591 
+                              vf gs++gh+  ++ + g+ lw++ t 
+  sp|Q5RG49|ACSF4_DANRE  983 SVFIGSVNGHIIGISHS-GNTLWDFSTD 1009
+                             79**********99875.999****996 PP
+
+  == domain 3  score: 12.6 bits;  conditional E-value: 0.00011
+     Beta_propeller.aln  555 sqavsvipg.vvfagsldghfrafdtadgkvlwevdtaakavkt.lagkkadggvmdgagptiaggmvyvhsg 625 
+                             s +v++ p  +v +gs dgh  ++++ +g +lw+++t+ k + t    + a  g+   a    + g v+v  g
+  sp|Q5RG49|ACSF4_DANRE 1034 SSSVTTSPNhIVTCGSHDGHVYCLNAQNGSLLWQFQTTGKVFSTpFVFSGALWGLRTLAAVCSTDGKVWVLDG 1106
+                             56677777625678************************99988733344455566555666666666666555 PP
+
+>> sp|P27175|DHG_GLUOX  Quinoprotein glucose dehydrogenase OS=Gluconobacter oxydans (strain 621H) OX=290633 GN=gdh PE=3 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.3   0.1    0.0011       7.5     146     227 ..     159     250 ..     138     257 .. 0.80
+   2 !   14.4   0.1   3.2e-05      0.22     316     414 ..     363     467 ..     348     476 .. 0.83
+   3 ?    5.4   0.0     0.016   1.1e+02     566     592 ..     738     764 ..     730     788 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 9.3 bits;  conditional E-value: 0.0011
+   Beta_propeller.aln 146 vdlsaadqwngwsaekdnarfqrkpaldvadvpklklkwaf........qypgskngqatvv..gdrlfvtstsgavyalnaktgcvywr 225
+                           d   a +w  ++  +   r+ +   +++++v +lk+ w +        + pg    +at +   + l++ s+   ++a++  tg v w 
+  sp|P27175|DHG_GLUOX 159 PDNVPASEWHAYGRTQAGDRWSPLNQINASNVSNLKVAWHIhtkdmmnsNDPGEATNEATPIefNNTLYMCSLHQKLFAVDGATGNVKWV 248
+                          34556899*******************************8633333333568888888998733589**********************8 PP
+
+   Beta_propeller.aln 226 hd 227
+                          +d
+  sp|P27175|DHG_GLUOX 249 YD 250
+                          87 PP
+
+  == domain 2  score: 14.4 bits;  conditional E-value: 3.2e-05
+   Beta_propeller.aln 316 kfrgalvaldalsgkvlwkryttekepapfklnklgkqmwgpaggaiwvaptvdekrrlvy....vatsnsytevhyensd....avmai 397
+                          +  ga  a+d  +gk +w   +   +p p +l    + ++ p     w+  + d + +lvy    v+t + +   + ++s+     ++a+
+  sp|P27175|DHG_GLUOX 363 QASGATQAFDVYTGKRVWVFDA--SNPDPNQLPDDSHPVFHPNSPNSWIVSSYDRNLNLVYipmgVGTPDQWGGDRTKDSErfapGIVAL 450
+                          567999************8654..679999*******************************555558888887666666653333699** PP
+
+   Beta_propeller.aln 398 eietgkvrwivqllkdd 414
+                          +++tgk+ w  q ++ d
+  sp|P27175|DHG_GLUOX 451 NADTGKLAWFYQTVHHD 467
+                          ************99877 PP
+
+  == domain 3  score: 5.4 bits;  conditional E-value: 0.016
+   Beta_propeller.aln 566 fagsldghfrafdtadgkvlwevdtaa 592
+                          ++ s+d ++ra++ ++gkvlw+    a
+  sp|P27175|DHG_GLUOX 738 LTASMDYYIRAYNLTTGKVLWQDRLPA 764
+                          5689*****************854433 PP
+
+>> sp|F7XXL0|BAMB_MOREP  Outer membrane protein assembly factor BamB OS=Moranella endobia (strain PCIT) OX=903503 GN=bam
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4   0.0     0.032   2.2e+02     193     228 ..      58      93 ..      34     102 .. 0.79
+   2 !   17.1   0.1   4.7e-06     0.031     187     239 ..     103     155 ..      99     158 .. 0.90
+   3 ?    2.6   0.0      0.11   7.5e+02     562     601 ..     156     195 ..     153     217 .. 0.81
+   4 ?   -0.6   0.1       1.1   7.3e+03     457     486 ..     205     233 ..     200     246 .. 0.76
+   5 ?    5.4   0.1     0.017   1.1e+02     559     592 ..     249     282 ..     213     291 .. 0.83
+   6 ?   -3.4   0.0       7.5     5e+04     389     409 ..     297     317 ..     293     326 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 4.4 bits;  conditional E-value: 0.032
+    Beta_propeller.aln 193 ngqatvvgdrlfvtstsgavyalnaktgcvywrhda 228
+                           n q tv   r+fv+   g v al+a +g   w +d 
+  sp|F7XXL0|BAMB_MOREP  58 NLQPTVQNTRVFVANRYGLVKALDADSGKELWAKDL 93 
+                           558899999999999999999999999988887765 PP
+
+  == domain 2  score: 17.1 bits;  conditional E-value: 4.7e-06
+    Beta_propeller.aln 187 qypgskngqatvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvv 239
+                           + p    g  t vg+r++v+s    vya++ak g + w    ++ t s +vv 
+  sp|F7XXL0|BAMB_MOREP 103 NRPAQLSGGVTAVGNRIYVASELAKVYAMEAKCGSLAWEVLVAGETLSPPVVS 155
+                           567888999*******************************9999999988875 PP
+
+  == domain 3  score: 2.6 bits;  conditional E-value: 0.11
+    Beta_propeller.aln 562 pgvvfagsldghfrafdtadgkvlwevdtaakavktlagk 601
+                            gv++  + +g ++a++ adg + w v+  ak ++   g+
+  sp|F7XXL0|BAMB_MOREP 156 DGVILIHTSNGMLQALNEADGALKWTVNLEAKMLNIRGGS 195
+                           699999999*******************999988766554 PP
+
+  == domain 4  score: -0.6 bits;  conditional E-value: 1.1
+    Beta_propeller.aln 457 lvgqksgavyaldpdndgekiwerrlslgs 486
+                           +vg   g+v a+   n g+ iw++r+s   
+  sp|F7XXL0|BAMB_MOREP 205 IVGSDNGLVSAVM-LNIGQIIWQQRISQTG 233
+                           6888888888875.5889999999998654 PP
+
+  == domain 5  score: 5.4 bits;  conditional E-value: 0.017
+    Beta_propeller.aln 559 svipgvvfagsldghfrafdtadgkvlwevdtaa 592
+                            v+ g v+a +++g + a+d  +gk++w  + ++
+  sp|F7XXL0|BAMB_MOREP 249 VVVNGYVYALAYNGNLAALDLFSGKLMWSREIGS 282
+                           4678999999999999999999999999877665 PP
+
+  == domain 6  score: -3.4 bits;  conditional E-value: 7.5
+    Beta_propeller.aln 389 ensdavmaieietgkvrwivq 409
+                           ++ d v+a++++ g   w + 
+  sp|F7XXL0|BAMB_MOREP 297 DQNDRVIAVDAKNGITSWYQS 317
+                           567778888888887777654 PP
+
+>> sp|Q32D50|BAMB_SHIDS  Outer membrane protein assembly factor BamB OS=Shigella dysenteriae serotype 1 (strain Sd197) O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   0.0      0.23   1.5e+03     563     591 ..      70      98 ..      59     102 .. 0.78
+   2 !   13.5   0.1     6e-05       0.4     184     238 ..     103     157 ..      96     161 .. 0.83
+   3 ?    1.5   0.0      0.26   1.7e+03     561     592 ..     158     189 ..     149     213 .. 0.72
+   4 !    6.6   0.1    0.0071        48     499     586 ..     247     279 ..     201     279 .. 0.55
+   5 !   10.0   0.0   0.00068       4.6     559     601 ..     252     294 ..     244     315 .. 0.85
+   6 ?   -1.1   0.0       1.5   9.9e+03     389     408 ..     300     319 ..     294     324 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.6 bits;  conditional E-value: 0.23
+    Beta_propeller.aln 563 gvvfagsldghfrafdtadgkvlwevdta 591
+                            vv+a    g  +a+++ dgk +w v  a
+  sp|Q32D50|BAMB_SHIDS  70 NVVYAADRAGLVKALNADDGKEIWSVSLA 98 
+                           57888888888888888888888888766 PP
+
+  == domain 2  score: 13.5 bits;  conditional E-value: 6e-05
+    Beta_propeller.aln 184 wafqypgskngqatvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvv 238
+                           w  + p    g  tv g  +++ s    vyaln+  g v w+ + ++ + s +vv
+  sp|Q32D50|BAMB_SHIDS 103 WFSKEPALLSGGVTVSGGHVYIGSEKAQVYALNTSDGTVAWQTKVAGEALSRPVV 157
+                           6666777788999999999999999999999999999999999988888777776 PP
+
+  == domain 3  score: 1.5 bits;  conditional E-value: 0.26
+    Beta_propeller.aln 561 ipgvvfagsldghfrafdtadgkvlwevdtaa 592
+                             g v+  + +g+++a++ adg v w v+   
+  sp|Q32D50|BAMB_SHIDS 158 SDGLVLIHTSNGQLQALNEADGAVKWTVNLDM 189
+                           46888888899999999999999999998654 PP
+
+  == domain 4  score: 6.6 bits;  conditional E-value: 0.0071
+    Beta_propeller.aln 499 dekvyvgvsdvisqakdrgkpglyaldirdgevvwaflnapdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlw 586
+                            +                                                           v+ gvvfa +++g + a+d  +g+++w
+  sp|Q32D50|BAMB_SHIDS 247 VDTTP-------------------------------------------------------VVVNGVVFALAYNGNLTALDLRSGQIMW 279
+                           33333.......................................................4556666666666666666666666666 PP
+
+  == domain 5  score: 10.0 bits;  conditional E-value: 0.00068
+    Beta_propeller.aln 559 svipgvvfagsldghfrafdtadgkvlwevdtaakavktlagk 601
+                            v+ gvvfa +++g + a+d  +g+++w+ + ++     + g+
+  sp|Q32D50|BAMB_SHIDS 252 VVVNGVVFALAYNGNLTALDLRSGQIMWKRELGSVNDFIVDGN 294
+                           5789************************999888776666666 PP
+
+  == domain 6  score: -1.1 bits;  conditional E-value: 1.5
+    Beta_propeller.aln 389 ensdavmaieietgkvrwiv 408
+                           ++ d vma+ i+ g   w++
+  sp|Q32D50|BAMB_SHIDS 300 DQNDRVMALTIDGGVTLWTQ 319
+                           7899***********99986 PP
+
+>> sp|P77774|BAMB_ECOLI  Outer membrane protein assembly factor BamB OS=Escherichia coli (strain K12) OX=83333 GN=bamB P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   0.0      0.23   1.6e+03     563     591 ..      70      98 ..      60     102 .. 0.78
+   2 !   13.4   0.1   6.3e-05      0.42     184     238 ..     103     157 ..      98     161 .. 0.83
+   3 ?    1.4   0.0      0.27   1.8e+03     561     592 ..     158     189 ..     150     218 .. 0.73
+   4 !    8.0   0.1    0.0027        18     501     586 ..     249     279 ..     197     281 .. 0.57
+   5 !   10.2   0.1   0.00056       3.8     559     601 ..     252     294 ..     218     315 .. 0.85
+   6 ?   -1.2   0.0       1.6   1.1e+04     389     408 ..     300     319 ..     297     324 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.6 bits;  conditional E-value: 0.23
+    Beta_propeller.aln 563 gvvfagsldghfrafdtadgkvlwevdta 591
+                            vv+a    g  +a+++ dgk +w v  a
+  sp|P77774|BAMB_ECOLI  70 NVVYAADRAGLVKALNADDGKEIWSVSLA 98 
+                           57888888888888888888888888766 PP
+
+  == domain 2  score: 13.4 bits;  conditional E-value: 6.3e-05
+    Beta_propeller.aln 184 wafqypgskngqatvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvv 238
+                           w  + p    g  tv g  +++ s    vyaln+  g v w+ + ++ + s +vv
+  sp|P77774|BAMB_ECOLI 103 WFSKEPALLSGGVTVSGGHVYIGSEKAQVYALNTSDGTVAWQTKVAGEALSRPVV 157
+                           6666677778999999999999999999999999999999999988887777776 PP
+
+  == domain 3  score: 1.4 bits;  conditional E-value: 0.27
+    Beta_propeller.aln 561 ipgvvfagsldghfrafdtadgkvlwevdtaa 592
+                             g v+  + +g+++a++ adg v w v+   
+  sp|P77774|BAMB_ECOLI 158 SDGLVLIHTSNGQLQALNEADGAVKWTVNLDM 189
+                           46888888899999999999999999998654 PP
+
+  == domain 4  score: 8.0 bits;  conditional E-value: 0.0027
+    Beta_propeller.aln 501 kvyvgvsdvisqakdrgkpglyaldirdgevvwaflnapdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlw 586
+                                                                                      v+ gvvfa +++g + a+d  +g+++w
+  sp|P77774|BAMB_ECOLI 249 TTP-------------------------------------------------------VVVNGVVFALAYNGNLTALDLRSGQIMW 279
+                           333.......................................................4556666666666666666666666666 PP
+
+  == domain 5  score: 10.2 bits;  conditional E-value: 0.00056
+    Beta_propeller.aln 559 svipgvvfagsldghfrafdtadgkvlwevdtaakavktlagk 601
+                            v+ gvvfa +++g + a+d  +g+++w+ + ++     + g+
+  sp|P77774|BAMB_ECOLI 252 VVVNGVVFALAYNGNLTALDLRSGQIMWKRELGSVNDFIVDGN 294
+                           5889************************999888776666665 PP
+
+  == domain 6  score: -1.2 bits;  conditional E-value: 1.6
+    Beta_propeller.aln 389 ensdavmaieietgkvrwiv 408
+                           ++ d vma+ i+ g   w++
+  sp|P77774|BAMB_ECOLI 300 DQNDRVMALTIDGGVTLWTQ 319
+                           7889***********99986 PP
+
+>> sp|Q9XD78|QUIA_XANCJ  Probable quinate dehydrogenase (quinone) OS=Xanthomonas campestris pv. juglandis OX=195709 GN=q
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.9   0.0   0.00035       2.3     257     329 ..     216     300 ..     203     304 .. 0.66
+   2 ?    4.5   0.1     0.032   2.1e+02     384     415 ..     426     457 ..     421     521 .. 0.85
+   3 !    8.6   0.1    0.0018        12     557     587 ..     709     740 ..     701     772 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00035
+    Beta_propeller.aln 257 tkaavaldaetgkqlwktvvddqpal.qmtgsityhegklyvpissgte....afatidtwecckfr.......galvaldalsg 329
+                            +  +alda tgkqlw+  ++   ++ q      y++    +p  s ++    a  t+ +   c+ r       g l+a+da +g
+  sp|Q9XD78|QUIA_XANCJ 216 HNNLIALDASTGKQLWRREINATSSVwQRCRGLGYFDADAALPAPSVANpspiAAVTVAQGANCRRRlftntidGRLIAVDADTG 300
+                           56679***************99888757788899999998888766543222233344444444433222333356666666665 PP
+
+  == domain 2  score: 4.5 bits;  conditional E-value: 0.032
+    Beta_propeller.aln 384 tevhyensdavmaieietgkvrwivqllkddn 415
+                           t +++    +v+a+++ tg+ +w+ q +++d 
+  sp|Q9XD78|QUIA_XANCJ 426 TALDHRYGASVLALDATTGAEKWVYQTVHNDL 457
+                           55667778899999999999999999988874 PP
+
+  == domain 3  score: 8.6 bits;  conditional E-value: 0.0018
+    Beta_propeller.aln 557 avsvipgvvf.agsldghfrafdtadgkvlwe 587
+                           ++s+  g vf ag+ d ++rafd+a+gk lw+
+  sp|Q9XD78|QUIA_XANCJ 709 TLSTQGGLVFiAGTQDYYLRAFDSATGKELWK 740
+                           56667787775899999999******999997 PP
+
+>> sp|Q7CJM5|BAMB_YERPE  Outer membrane protein assembly factor BamB OS=Yersinia pestis OX=632 GN=bamB PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.3   0.2    0.0023        15     249     279 ..      70     100 ..      64     116 .. 0.78
+   2 !   10.0   0.2   0.00067       4.4     193     238 ..     113     158 ..     105     160 .. 0.87
+   3 !   13.1   0.4   7.7e-05      0.51     530     600 ..     130     197 ..     118     218 .. 0.79
+   4 ?    5.6   0.1     0.014        94     560     586 ..     254     280 ..     205     281 .. 0.70
+   5 !    7.6   0.0    0.0035        24     560     592 ..     254     286 ..     247     297 .. 0.81
+   6 ?   -2.7   0.0       4.6     3e+04     198     215 ..     374     391 ..     370     392 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 8.3 bits;  conditional E-value: 0.0023
+    Beta_propeller.aln 249 talffsdftkaavaldaetgkqlwktvvddq 279
+                           t++f +d      a+da+tgkq+w+t + ++
+  sp|Q7CJM5|BAMB_YERPE  70 TSVFAADRKGLVKAMDADTGKQIWQTDLSEK 100
+                           5677788777788999999999999987665 PP
+
+  == domain 2  score: 10.0 bits;  conditional E-value: 0.00067
+    Beta_propeller.aln 193 ngqatvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvv 238
+                            g  t  g  ++v s    vyalna  g v w+   ++ + s +vv
+  sp|Q7CJM5|BAMB_YERPE 113 SGGVTASGSHVYVGSEKAVVYALNAYDGQVAWQTVVAGEALSRPVV 158
+                           5778999**************************9998888777776 PP
+
+  == domain 3  score: 13.1 bits;  conditional E-value: 7.7e-05
+    Beta_propeller.aln 530 evvwaflnapdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavktlag 600
+                           +vv+a+ na d ++ w+ +    a+s+ v v  gvv+  + +g ++a++ +dg + w ++  + a+  l g
+  sp|Q7CJM5|BAMB_YERPE 130 AVVYAL-NAYDGQVAWQTVVAGEALSRPV-VSDGVVLIHTSNGMLQALNESDGAIKWTLNLDTPALS-LRG 197
+                           667776.*******************998.569************************9987776543.333 PP
+
+  == domain 4  score: 5.6 bits;  conditional E-value: 0.014
+    Beta_propeller.aln 560 vipgvvfagsldghfrafdtadgkvlw 586
+                           v+ gvv+a +++g + a+d  +g++lw
+  sp|Q7CJM5|BAMB_YERPE 254 VVDGVVYALAYNGNLTALDLRSGQILW 280
+                           566777777777777777777777777 PP
+
+  == domain 5  score: 7.6 bits;  conditional E-value: 0.0035
+    Beta_propeller.aln 560 vipgvvfagsldghfrafdtadgkvlwevdtaa 592
+                           v+ gvv+a +++g + a+d  +g++lw+ + ++
+  sp|Q7CJM5|BAMB_YERPE 254 VVDGVVYALAYNGNLTALDLRSGQILWKREIGS 286
+                           678999999999999999999999999877665 PP
+
+  == domain 6  score: -2.7 bits;  conditional E-value: 4.6
+    Beta_propeller.aln 198 vvgdrlfvtstsgavyal 215
+                           v  d+l++ + sg+vya+
+  sp|Q7CJM5|BAMB_YERPE 374 VASDKLLIQARSGTVYAF 391
+                           66899999999***9996 PP
+
+>> sp|B7J3C9|TTH_ACIF2  Tetrathionate hydrolase OS=Acidithiobacillus ferrooxidans (strain ATCC 23270 / DSM 14882 / CIP 1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.4   0.0     0.017   1.1e+02     559     587 ..     135     163 ..     125     178 .. 0.73
+   2 !   14.5   0.2   2.9e-05      0.19     211     297 ..     216     291 ..     204     314 .. 0.80
+   3 !    9.1   0.3    0.0012       8.2     209     305 ..     352     446 ..     339     454 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 5.4 bits;  conditional E-value: 0.017
+   Beta_propeller.aln 559 svipgvvfagsldghfrafdtadgkvlwe 587
+                          sv+ gvv+a s d    a ++ +gk++w 
+  sp|B7J3C9|TTH_ACIF2 135 SVVDGVVYAESDDMFAYAVNAKTGKLIWR 163
+                          56667777777777777777777777775 PP
+
+  == domain 2  score: 14.5 bits;  conditional E-value: 2.9e-05
+   Beta_propeller.aln 211 avyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftkaavaldaetgkqlwktvvddqpalqmtgsityhegklyv 297
+                           +yaln   g + w  ++ + t +++        a  + +lf++d +  a  ++a tgkq+wkt v    +++   s+t +  ++y 
+  sp|B7J3C9|TTH_ACIF2 216 GIYALNRSNGKLLWYFATPGETMATP--------AYDNNTLFIADGAGNAFGINATTGKQVWKTHVG---GMDNMSSVTAYRHNIYF 291
+                          47999999999999999888886554........566889************************996...44445566666666665 PP
+
+  == domain 3  score: 9.1 bits;  conditional E-value: 0.0012
+   Beta_propeller.aln 209 sgavyalnaktgcvywrhdaeaatrssvvvvalpegapa.ktalffsd..ftkaavaldaetgkqlwktvvddqpalqmt.gsityhegk 294
+                          s  + a++aktg v w  +  +      ++ a+  g p  +  + +     + +  a + +tgk lw   v  + a      ++ty++g 
+  sp|B7J3C9|TTH_ACIF2 352 SNVIRAFDAKTGAVLWTRNMGS----GGKIPAFKGGVPMiHNNIVYVGnpVASTYQAYELKTGKLLWTWHVPTKVAAGAGrSAPTYYKGL 437
+                          778899**********988765....5567778888885234455544114555679999*********999998877651569****** PP
+
+   Beta_propeller.aln 295 lyvpissgtea 305
+                          ly+  ++g+  
+  sp|B7J3C9|TTH_ACIF2 438 LYI--TTGQYI 446
+                          *96..455555 PP
+
+>> sp|H9L451|BAMB_SALTY  Outer membrane protein assembly factor BamB OS=Salmonella typhimurium (strain LT2 / SGSC1412 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.5   0.4   0.00046       3.1     561     627 ..      68     129 ..      60     133 .. 0.81
+   2 !    8.4   0.2     0.002        13     531     595 ..     130     192 ..     127     237 .. 0.79
+   3 !    8.2   0.0    0.0023        16     559     596 ..     252     289 ..     216     298 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.00046
+    Beta_propeller.aln 561 ipgvvfagsldghfrafdtadgkvlwevdtaakavktlagkkadggvmdgagptiaggmvyvhsgya 627
+                           +  vv+a    g  +a+++ dgk +w v+ + k      g  +    +   g t+agg vy+ s  a
+  sp|H9L451|BAMB_SALTY  68 VDNVVYAADRAGVVKALNADDGKEIWSVNLGEKD-----GWFSRSSALLSGGVTVAGGHVYIGSEKA 129
+                           56799*************************9986.....333444444555779*******988655 PP
+
+  == domain 2  score: 8.4 bits;  conditional E-value: 0.002
+    Beta_propeller.aln 531 vvwaflnapdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakav 595
+                           +v+a+ n+ d    w+      a+s+ v v  g+v+  + +g+++a++ adg + w v+    ++
+  sp|H9L451|BAMB_SALTY 130 EVYAL-NTSDGTTAWQTKVAGEALSRPV-VSDGIVLIHTSNGQLQALNQADGAIKWTVNLDMPSL 192
+                           56666.88999999999999*****998.568*************************99765443 PP
+
+  == domain 3  score: 8.2 bits;  conditional E-value: 0.0023
+    Beta_propeller.aln 559 svipgvvfagsldghfrafdtadgkvlwevdtaakavk 596
+                            v+ gvv+a +++g + a+d  +g+++w+ + ++    
+  sp|H9L451|BAMB_SALTY 252 VVVNGVVYALAYNGNLTALDLRSGQIMWKRELGSVNDF 289
+                           57899999999999999999999999999887776555 PP
+
+>> sp|Q5E769|BAMB_ALIF1  Outer membrane protein assembly factor BamB OS=Aliivibrio fischeri (strain ATCC 700601 / ES114)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.1   0.0    0.0025        16     456     485 ..      70      98 ..      60     119 .. 0.60
+   2 ?    2.6   0.0      0.12     8e+02     261     278 ..     124     141 ..     114     145 .. 0.81
+   3 ?    2.4   0.0      0.13     9e+02     560     621 ..     194     251 ..     188     258 .. 0.68
+   4 ?    5.2   0.0     0.019   1.3e+02     198     236 ..     245     283 ..     240     313 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 8.1 bits;  conditional E-value: 0.0025
+    Beta_propeller.aln 456 llvgqksgavyaldpdndgekiwerrlslg 485
+                           + v  + g+v aldp+n g+ iwer l   
+  sp|Q5E769|BAMB_ALIF1  70 IYVASRDGLVKALDPEN-GKTIWERDLEQD 98 
+                           55666677777777765.667777766543 PP
+
+  == domain 2  score: 2.6 bits;  conditional E-value: 0.12
+    Beta_propeller.aln 261 valdaetgkqlwktvvdd 278
+                           ++ldaetg +lw+  vd 
+  sp|Q5E769|BAMB_ALIF1 124 ITLDAETGEELWREKVDG 141
+                           689999999999998885 PP
+
+  == domain 3  score: 2.4 bits;  conditional E-value: 0.13
+    Beta_propeller.aln 560 vipgvvfagsldghfrafdtadgkvlwevdtaakavktlagkkadggvmd.gagptiaggmvy 621
+                            i g vf g  +g + a   ++g++lw+   ++       g+     ++d  a p i g  +y
+  sp|Q5E769|BAMB_ALIF1 194 SISGGVFWGMSNGRLAAALISKGQLLWQQPVGTP-----KGATEIDRLVDvDASPLILGSRLY 251
+                           68899**********************9766554.....343333333331456666666555 PP
+
+  == domain 4  score: 5.2 bits;  conditional E-value: 0.019
+    Beta_propeller.aln 198 vvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssv 236
+                           ++g rl++    g + al+ +tg   w+ + ++a   s+
+  sp|Q5E769|BAMB_ALIF1 245 ILGSRLYTVGYNGQLIALDLRTGQPVWKRNYSSAMNMSS 283
+                           689999999999999999999999999988877776654 PP
+
+>> sp|P05465|DHGA_ACICA  Quinoprotein glucose dehydrogenase A OS=Acinetobacter calcoaceticus OX=471 GN=gdhA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.8   0.0     0.025   1.7e+02     148     235 ..     160     257 ..     134     267 .. 0.76
+   2 !   11.2   0.5   0.00029       1.9     308     417 ..     357     471 ..     303     511 .. 0.68
+   3 !    8.2   0.1    0.0023        15     526     592 ..     684     757 ..     671     789 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 4.8 bits;  conditional E-value: 0.025
+    Beta_propeller.aln 148 lsaadqwngwsaekdnarfqrkpaldvadvpklklkwafqy........pgskngqat..vvgdrlfvtstsgavyalnaktgcvywrh 226
+                             a  +w  ++  +   r+ +   ++  +v  lk+ w+++          g    q t   +g+ +f+ +    + a++  tg   wr 
+  sp|P05465|DHGA_ACICA 160 GVAESDWPAYGRTQAGVRYSPLKQINDQNVKDLKVAWTLRTgdlktdndSGETTNQVTpiKIGNNMFICTAHQQLIAIDPATGKEKWRF 248
+                           446778999**9999**********************9975111111113444456653348**************************9 PP
+
+    Beta_propeller.aln 227 daeaatrss 235
+                           d +  t  s
+  sp|P05465|DHGA_ACICA 249 DPKLKTDKS 257
+                           988777655 PP
+
+  == domain 2  score: 11.2 bits;  conditional E-value: 0.00029
+    Beta_propeller.aln 308 tidtwecckfrgalvaldalsgkvlwkryttekepapfklnklgkqmwgpaggaiwvaptvdekrrlvyvatsn........sytevhy 388
+                            +d++      g +   d  +gk+lw   t   +p+ +     g  +   +    w+  + d k  +vyv t            te++ 
+  sp|P05465|DHGA_ACICA 357 VTDNYSNKEPSGVIRGYDVNTGKLLWVFDTGAADPNAMP--GEGTTFVHNS-PNAWAPLAYDAKLDIVYVPTGVgtpdiwggDRTELKE 442
+                           45666666667888899999******9999999888764..5566555444.567999999********98754111122224688899 PP
+
+    Beta_propeller.aln 389 ensdavmaieietgkvrwivqllkddnyi 417
+                             +++++ai++ tgk+ w  q ++ d + 
+  sp|P05465|DHGA_ACICA 443 RYANSMLAINASTGKLVWNFQTTHHDLWD 471
+                           9999*****************99988664 PP
+
+  == domain 3  score: 8.2 bits;  conditional E-value: 0.0023
+    Beta_propeller.aln 526 irdgevvwaflnapdtkcrwnnifchgavs.......qavsvipgvvfags.ldghfrafdtadgkvlwevdtaa 592
+                           +++ evvw+       +    n+f  +av         ++s+   v+f g+  d ++raf+ ++gk lwe    a
+  sp|P05465|DHGA_ACICA 684 LKTHEVVWKK-RIGTIRDSLPNLFQLPAVKigvpglgGSISTAGNVMFVGAtQDNYLRAFNVTNGKKLWEARLPA 757
+                           5555566655.4445555555666665554111111145666667889986268999************986544 PP
+
+>> sp|P15877|DHG_ECOLI  Quinoprotein glucose dehydrogenase OS=Escherichia coli (strain K12) OX=83333 GN=gcd PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.7   0.0   5.1e-05      0.34     149     237 ..     163     261 ..     142     278 .. 0.79
+   2 ?    3.5   0.0     0.063   4.2e+02     559     596 ..     346     387 ..     318     398 .. 0.70
+   3 ?    0.7   0.0      0.43   2.9e+03     556     587 ..     714     746 ..     670     774 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 13.7 bits;  conditional E-value: 5.1e-05
+   Beta_propeller.aln 149 saadqwngwsaekdnarfqrkpaldvadvpklklkwaf........qypgskngqat..vvgdrlfvtstsgavyalnaktgcvywrhda 228
+                           a ++w  ++ +++  rf +   +++ +v +lk  w f        + pg    + t   vgd l+  +    ++al+a +g   w +d 
+  sp|P15877|DHG_ECOLI 163 VADQDWPAYGRNQEGQRFSPLKQINADNVHNLKEAWVFrtgdvkqpNDPGEITNEVTpiKVGDTLYLCTAHQRLFALDAASGKEKWHYDP 252
+                          35678*********************************33333222235554444443358****************************9 PP
+
+   Beta_propeller.aln 229 eaatrssvv 237
+                          e  t  s +
+  sp|P15877|DHG_ECOLI 253 ELKTNESFQ 261
+                          999987754 PP
+
+  == domain 2  score: 3.5 bits;  conditional E-value: 0.063
+   Beta_propeller.aln 559 svipgvv...f.agsldghfrafdtadgkvlwevdtaakavk 596
+                           v+ g v   f +    g +r fd  +g +lw +d +ak  +
+  sp|P15877|DHG_ECOLI 346 IVMAGSVtdnFsTRETSGVIRGFDVNTGELLWAFDPGAKDPN 387
+                          55555552222123467999***************9998755 PP
+
+  == domain 3  score: 0.7 bits;  conditional E-value: 0.43
+   Beta_propeller.aln 556 qavsvipgvvf.agsldghfrafdtadgkvlwe 587
+                            +s+   v+f a + d ++ra++ ++g  lw+
+  sp|P15877|DHG_ECOLI 714 GPISTAGNVLFiAATADNYLRAYNMSNGEKLWQ 746
+                          444555555553556677777777777777776 PP
+
+>> sp|Q9KTW8|BAMB_VIBCH  Outer membrane protein assembly factor BamB OS=Vibrio cholerae serotype O1 (strain ATCC 39315 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.7   0.0    0.0017        11     564     600 ..      69     105 ..      61     113 .. 0.79
+   2 !   10.9   0.1   0.00035       2.4     196     307 ..     107     211 ..     100     222 .. 0.75
+   3 ?    3.4   0.0     0.067   4.5e+02     198     232 ..     245     279 ..     227     315 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 8.7 bits;  conditional E-value: 0.0017
+    Beta_propeller.aln 564 vvfagsldghfrafdtadgkvlwevdtaakavktlag 600
+                            vf  s dg  +a+d  +gkv+w  d   +    l+g
+  sp|Q9KTW8|BAMB_VIBCH  69 KVFVASRDGVVKALDPQNGKVIWTTDLEIEGSARLSG 105
+                           5888999999999999999999988887777766666 PP
+
+  == domain 2  score: 10.9 bits;  conditional E-value: 0.00035
+    Beta_propeller.aln 196 atvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftkaavaldaetgkqlwktvvddqpalqm 284
+                            t    +lf+ s  g v al+a tg   w  + e+       v a p  a  +  ++      a +al+ e g q w t+  + p l +
+  sp|Q9KTW8|BAMB_VIBCH 107 ITAAFGKLFIGSENGVVNALDAETGEPLWASAIEGE------VLAAP--AADNNIVIVNTSRGALIALNQEDGAQKW-TISTEVPNLTL 186
+                           5556679**********************9888875......33444..334445555556678899********99.55567898888 PP
+
+    Beta_propeller.aln 285 tgs..ityhegklyvpissgteafa 307
+                            g   +t   g ++    sg  a a
+  sp|Q9KTW8|BAMB_VIBCH 187 RGDsrPTAVAGGVFWGTPSGRLAAA 211
+                           8743378888999988888877665 PP
+
+  == domain 3  score: 3.4 bits;  conditional E-value: 0.067
+    Beta_propeller.aln 198 vvgdrlfvtstsgavyalnaktgcvywrhdaeaat 232
+                           v+g  lf+    g + a++ ++g   w+ + ++at
+  sp|Q9KTW8|BAMB_VIBCH 245 VIGGTLFTVGFNGQLIAIDLRSGQPIWKRNYSSAT 279
+                           55555555555555555555555555555555554 PP
+
+>> sp|Q59086|QUIA_ACIAD  Quinate/shikimate dehydrogenase (quinone) OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.9   8.8   0.00072       4.8     144     414 ..     162     476 ..     144     521 .. 0.71
+   2 ?    5.2   0.0     0.019   1.3e+02     564     588 ..     738     762 ..     722     792 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.00072
+    Beta_propeller.aln 144 tpvdlsaad.qwngwsaekdnarfqrkpaldvadvpklklkwafqy....pgskng...qat..vvgdrlfvtstsgavyalnaktgcv 222
+                            pvd +  + +w+ ++ +   +rf     ++  +v klk  w f+      g+ ng   q t   vg+++f  +    ++a++a +g  
+  sp|Q59086|QUIA_ACIAD 162 VPVDPAKKQvNWDHYGNDAGGSRFVALDQINRNNVSKLKEAWRFRTgdftTGTGNGaedQMTplQVGNKVFLCTPHNNIFAIDADSGKQ 250
+                           467765443279999****************************98522235777874444553369*********************** PP
+
+    Beta_propeller.aln 223 ywrhdaeaat...rssvvvvalpegapaktalffsdftkaavaldaetgkqlwktvvddq.palq...........mtgsityheg... 293
+                            w+ + ++++        v+ + +  p  +  +      aa+a ++e  ++++  +vd +  a++           + g++  heg   
+  sp|Q59086|QUIA_ACIAD 251 LWKAEVNSTAdawERCRGVAYFDSTQPLVQPTLAGATPVAALAANTECPRRVYTNTVDGRlIAVNadtgarckdfgVNGTVNLHEGlge 339
+                           **987655441114456677888888888888888888888888888888888888886422222111111111115566777776444 PP
+
+    Beta_propeller.aln 294 .....k...lyvpissgteafa..tidtwecckfr.galvaldalsgkvlwkryttekepapfklnklgkqmwgpaggaiwvaptvdek 371
+                                +      p  +gt      +i +     +  g + a d ++gk+ w      ++p p  + k g  ++  +    w+a + d++
+  sp|Q59086|QUIA_ACIAD 340 ntkapRfevTSAPTIAGTTIVVgsRIADNVAADMPgGVIRAYDVITGKLRWAF--DPRNPDPNYVLKPGE-IYKRSSTNSWAAMSYDPQ 425
+                           33221111112355555555431133344445554156779**********75..568899999999996.788888899********* PP
+
+    Beta_propeller.aln 372 rrlvyvatsnsytev........hyensdavmaieietgkvrwivqllkdd 414
+                            + v++    s  +v        +++   +v+a+++ tgk +w+ + +++d
+  sp|Q59086|QUIA_ACIAD 426 MNTVFLPMGSSSVDVwggnrtaaDHKYNTSVLALDATTGKEKWVYNTVHND 476
+                           *****9887777666333222225777889*************99888777 PP
+
+  == domain 2  score: 5.2 bits;  conditional E-value: 0.019
+    Beta_propeller.aln 564 vvfagsldghfrafdtadgkvlwev 588
+                           v fa + d ++raf++++gk lw+ 
+  sp|Q59086|QUIA_ACIAD 738 VFFAATQDYYLRAFNSSNGKELWKA 762
+                           4589999****************85 PP
+
+>> sp|F8GAQ8|BAMB_FRAST  Outer membrane protein assembly factor BamB OS=Francisella salina OX=573569 GN=bamB PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.4   0.4     0.002        13     195     274 ..      62     133 ..      35     133 .. 0.60
+   2 !    7.5   0.0    0.0038        25     560     592 ..     105     137 ..      99     162 .. 0.78
+   3 !    8.9   0.1    0.0014       9.5     253     334 ..     248     268 ..     184     279 .. 0.70
+   4 ?    2.1   0.0      0.17   1.1e+03     557     590 ..     276     309 ..     270     317 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 8.4 bits;  conditional E-value: 0.002
+    Beta_propeller.aln 195 qatvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftkaavaldaetgkqlwkt 274
+                             t   + +fv    g  y l    g + w+hd+ +   s +  +          a++f        a+d + gk lw+t
+  sp|F8GAQ8|BAMB_FRAST  62 SPTYANNTVFVPNQNGVAYGLSITDGKIVWKHDTGTILSSQPNTI--------ANAVIFGSVKGVLTAVDQKDGKILWRT 133
+                           456667778888888888888888888888888665544444332........345666667777777777777777776 PP
+
+  == domain 2  score: 7.5 bits;  conditional E-value: 0.0038
+    Beta_propeller.aln 560 vipgvvfagsldghfrafdtadgkvlwevdtaa 592
+                           +i  +v+ gs+ g + a d  dgk+lw  d+ +
+  sp|F8GAQ8|BAMB_FRAST 105 TIANAVIFGSVKGVLTAVDQKDGKILWRTDAPS 137
+                           455667779999999999999999999988765 PP
+
+  == domain 3  score: 8.9 bits;  conditional E-value: 0.0014
+    Beta_propeller.aln 253 fsdftkaavaldaetgkqlwktvvddqpalqmtgsityhegklyvpissgteafatidtwecckfrgalvaldalsgkvlwk 334
+                           f+ f  a vald +tgk lw                                                              
+  sp|F8GAQ8|BAMB_FRAST 248 FAAFQGAIVALDKDTGKMLW-------------------------------------------------------------A 268
+                           55555555555555555555.............................................................4 PP
+
+  == domain 4  score: 2.1 bits;  conditional E-value: 0.17
+    Beta_propeller.aln 557 avsvipgvvfagsldghfrafdtadgkvlwevdt 590
+                            +++  gv+f+   +  ++a+d  +g  +w   t
+  sp|F8GAQ8|BAMB_FRAST 276 NMAINNGVIFTAQANSELKAYDIQTGDTVWTQST 309
+                           566778************************8766 PP
+
+>> sp|Q5NIB1|BAMB_FRATT  Outer membrane protein assembly factor BamB OS=Francisella tularensis subsp. tularensis (strain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.8   0.1     0.012        83     564     605 ..      69     113 ..      57     118 .. 0.74
+   2 !    6.5   0.1    0.0079        52     316     335 ..     250     269 ..     243     276 .. 0.77
+   3 ?    4.2   0.0     0.037   2.5e+02     557     590 ..     276     309 ..     269     318 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 5.8 bits;  conditional E-value: 0.012
+    Beta_propeller.aln 564 vvfagsldghfrafdtadgkvlwevdtaakav...ktlagkkadg 605
+                           +vf    +g   a+  ++gk++w+ dt+++     +t+a +  +g
+  sp|Q5NIB1|BAMB_FRATT  69 TVFVPNQNGMAYALAITNGKIIWKNDTGTNLSvqpNTIANAVIFG 113
+                           688888999999999999999999999986421224666665555 PP
+
+  == domain 2  score: 6.5 bits;  conditional E-value: 0.0079
+    Beta_propeller.aln 316 kfrgalvaldalsgkvlwkr 335
+                            ++ga+vald  sgk+lw +
+  sp|Q5NIB1|BAMB_FRATT 250 AYQGAIVALDKDSGKMLWAK 269
+                           47788888888888888865 PP
+
+  == domain 3  score: 4.2 bits;  conditional E-value: 0.037
+    Beta_propeller.aln 557 avsvipgvvfagsldghfrafdtadgkvlwevdt 590
+                            +++  gv+f+   d  ++a++  +g  +w  dt
+  sp|Q5NIB1|BAMB_FRATT 276 NMAINNGVIFTTQDDSELKAYNIQTGDTVWTQDT 309
+                           567778************************9998 PP
+
+>> sp|C7R5S3|BAMB_KANKD  Outer membrane protein assembly factor BamB OS=Kangiella koreensis (strain DSM 16069 / JCM 1231
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.9   0.0     0.012        78     565     589 ..      70      94 ..      62      98 .. 0.87
+   2 !    6.6   0.1    0.0072        48     554     594 ..      99     139 ..      94     157 .. 0.88
+   3 !    8.7   0.1    0.0016        11     204     273 ..     196     268 ..     182     285 .. 0.57
+   4 ?   -1.6   0.0       2.2   1.5e+04     317     334 ..     289     306 ..     266     316 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 5.9 bits;  conditional E-value: 0.012
+    Beta_propeller.aln 565 vfagsldghfrafdtadgkvlwevd 589
+                           +++  +dg + afd  +gkv+we +
+  sp|C7R5S3|BAMB_KANKD  70 IITADVDGLITAFDIKSGKVIWETN 94 
+                           667789****************987 PP
+
+  == domain 2  score: 6.6 bits;  conditional E-value: 0.0072
+    Beta_propeller.aln 554 vsqavsvipgvvfagsldghfrafdtadgkvlwevdtaaka 594
+                           +s  v++  g v  g+ + +   +d  dgk lw+v+ +++ 
+  sp|C7R5S3|BAMB_KANKD  99 LSGGVTANAGLVAVGTKNAQVHVLDVNDGKQLWHVNVTTEV 139
+                           678899999**************************998875 PP
+
+  == domain 3  score: 8.7 bits;  conditional E-value: 0.0016
+    Beta_propeller.aln 204 fvtstsgavyalnaktgcvywrhdaeaatrssvvvvalp..egapakta..lffsdftkaavaldaetgkqlwk 273
+                           ++    g + a+n +tg + w ++  +a r s+ + ++   + +p  ++  l+ + f   a+a+d   g+ lw+
+  sp|C7R5S3|BAMB_KANKD 196 ITGFANGKMAAFNLRTGDMLWEQSI-SAPRGSSEISRIVdvDSTPVVYSnyLYAAGFNGFAIAMDLTNGRYLWR 268
+                           2223456666677777777776544.445555555544311345554432245556666677777777777775 PP
+
+  == domain 4  score: -1.6 bits;  conditional E-value: 2.2
+    Beta_propeller.aln 317 frgalvaldalsgkvlwk 334
+                            +g +vald ++g  +w 
+  sp|C7R5S3|BAMB_KANKD 289 TKGRIVALDRITGEEVWT 306
+                           456666666666666664 PP
+
+>> sp|Q8EC35|BAMB_SHEON  Outer membrane protein assembly factor BamB OS=Shewanella oneidensis (strain ATCC 700550 / JCM 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.1      0.21   1.4e+03     563     590 ..      69      96 ..      60     120 .. 0.68
+   2 !   14.5   0.2     3e-05       0.2     197     309 ..     118     223 ..     106     236 .. 0.81
+   3 ?    3.3   0.0      0.07   4.7e+02     561     589 ..     256     284 ..     212     299 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 1.8 bits;  conditional E-value: 0.21
+    Beta_propeller.aln 563 gvvfagsldghfrafdtadgkvlwevdt 590
+                           g +fa    g   afd a+g  +w  d 
+  sp|Q8EC35|BAMB_SHEON  69 GKIFAADRYGAVMAFDEASGEQVWRKDF 96 
+                           6677777777777777777777776554 PP
+
+  == domain 2  score: 14.5 bits;  conditional E-value: 3e-05
+    Beta_propeller.aln 197 tvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftkaavaldaetgkqlwktvvd.dqpalqm 284
+                           t   ++lf+   sg + alna  g v w   a +   s ++v        a+  +  s  + +  a + +tg +lw   ++  + +l+ 
+  sp|Q8EC35|BAMB_SHEON 118 TAARNKLFIGGESGLLAALNAEDGQVLWHVIAGGELLSKPTV--------ADDVVVVSTSSGSLEAYNVDTGAKLWVYDMQlPNLTLRG 198
+                           556789**********************99998887776666........5677888999999999**********7665413346778 PP
+
+    Beta_propeller.aln 285 tgsityhegklyvpissgteafati 309
+                           tgs +y  g +++  + g+ a   +
+  sp|Q8EC35|BAMB_SHEON 199 TGSAAYEAGGFFIGTADGKVAVVVK 223
+                           9**************9999887654 PP
+
+  == domain 3  score: 3.3 bits;  conditional E-value: 0.07
+    Beta_propeller.aln 561 ipgvvfagsldghfrafdtadgkvlwevd 589
+                           +   ++a s++g + +++  +g+++w  +
+  sp|Q8EC35|BAMB_SHEON 256 LGDNLYAVSYNGNLVSMELRTGRIIWTRK 284
+                           33345555555555555555555555544 PP
+
+>> sp|P12293|DHM1_PARDE  Methanol dehydrogenase [cytochrome c] subunit 1 OS=Paracoccus denitrificans OX=266 GN=moxF PE=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.5   0.7   1.4e-05     0.094     151     339 ..      43     234 ..      25     340 .. 0.61
+   2 !    8.0   1.1    0.0026        18     519     653 ..     472     613 ..     464     614 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 1.4e-05
+    Beta_propeller.aln 151 adqwngwsaekdnarfqrkpaldvadvpklklkwafqyp..gskngqatvvgdrlfv.tstsgavyalna.ktgcvywrhdae..aatr 233
+                           + +w   + + +   + +   ++  +v +l+  w+f       ++g   vvgdr+f+ t    + +al+    g + w+ + +   ++r
+  sp|P12293|DHM1_PARDE  43 PANWVMTGRDYNAQNYSEMTDINKENVKQLRPAWSFSTGvlHGHEGTPLVVGDRMFIhTPFPNTTFALDLnEPGKILWQNKPKqnPTAR 131
+                           45666666666777788888899999999*******9752246789999*******846788999***9625799***87643112334 PP
+
+    Beta_propeller.aln 234 s..svvvva.....lpegapaktalffsdftkaavaldaetgkqlwktvvdd.qpalqmtgsityhegklyvpissgteafatidtwec 314
+                           +     vv+      p     k  +f +++    va+daetg   w     d + +  +t ++ y    l +  ssg+e          
+  sp|P12293|DHM1_PARDE 132 TvaCCDVVNrglayWPGDDQVKPLIFRTQLDGHIVAMDAETGETRWIMENSDiKVGSTLTIAP-YVIKDLVLVGSSGAEL--------- 210
+                           311344433121115777788999999*******************87655513444444443.4444455555777774......... PP
+
+    Beta_propeller.aln 315 ckfrgalvaldalsgkvlwkrytte 339
+                              rg + a d  sg + w+ ++t 
+  sp|P12293|DHM1_PARDE 211 -GVRGYVTAYDVKSGEMRWRAFATG 234
+                           .468888888888888888888774 PP
+
+  == domain 2  score: 8.0 bits;  conditional E-value: 0.0026
+    Beta_propeller.aln 519 pglyaldirdgevvwaflnapdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaa....kavktlagkka 603
+                           pg  a   r g+   +  +a   + +w+++   +    ++++  g  f  +ldg ++a d+ +g +lw+++  +    ++++     + 
+  sp|P12293|DHM1_PARDE 472 PGPKATAERAGAGQIKAYDAISGEMKWEKMERFSVWGGTMATAGGLTFYVTLDGFIKARDSDTGDLLWKFKLPSgvigHPMTYKHDGRQ 560
+                           666677778888777777999999*********************************************98755111134444444455 PP
+
+    Beta_propeller.aln 604 dggvmdgagptiaggmvy.vhsgyagrssesagrdlr..gregnvliafsvdg 653
+                           +  +m g g     g+v+ +    ag  s  a + l+   + g  ++ fs+dg
+  sp|P12293|DHM1_PARDE 561 YVAIMYGVGGWPGVGLVFdLADPTAGLGSVGAFKRLQefTQMGGGVMVFSLDG 613
+                           56788888877777777623345666666666655552223455556666666 PP
+
+>> sp|P00115|CYC6_SYNP3  Cytochrome c6 OS=Synechococcus sp. (strain ATCC 27167 / PCC 6312) OX=195253 GN=petJ PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.0   0.2   6.3e-07    0.0042      25     109 ..       9     103 ..       4     111 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 20.0 bits;  conditional E-value: 6.3e-07
+    Beta_propeller.aln  25 asavvaevalqsasaveldlldgealykarcaachdna.....edrtparevl...aknsaafilaamrtgvmvpmaeg..lseeekta 103
+                           a + v++++  s+ a  +d  dg+ ++ a caach         ++t  +e l     nsa  i+  +++g  +  a g  lse++ + 
+  sp|P00115|CYC6_SYNP3   9 ALTLVTLTTWLSTPAFAADIADGAKVFSANCAACHMGGgnvvmANKTLKKEALeqfGMNSADAIMYQVQNGKNAMPAFGgrLSEAQIEN 97 
+                           556788899999***********************75411111445555555411156999999*999999655444432378888888 PP
+
+    Beta_propeller.aln 104 ialalg 109
+                           +a  + 
+  sp|P00115|CYC6_SYNP3  98 VAAYVL 103
+                           877665 PP
+
+>> sp|Q5X521|BAMB_LEGPA  Outer membrane protein assembly factor BamB OS=Legionella pneumophila (strain Paris) OX=297246 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.9   0.3    0.0014       9.5     193     248 ..      64     121 ..      36     140 .. 0.76
+   2 ?    4.8   0.1     0.025   1.7e+02     533     593 ..     123     182 ..     113     191 .. 0.71
+   3 ?    5.3   0.0     0.018   1.2e+02     455     533 ..     198     271 ..     186     289 .. 0.65
+   4 ?    2.0   0.0      0.18   1.2e+03     199     229 ..     284     314 ..     259     349 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 8.9 bits;  conditional E-value: 0.0014
+    Beta_propeller.aln 193 ngqatvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvva..lpegapak 248
+                           n + ++ gd ++++  sg v a+n k g + w  + +    s ++v+a  +  g+ a 
+  sp|Q5X521|BAMB_LEGPA  64 NIKPAIRGDVIYTADASGLVQAVNRKDGQIKWSTALKNNIVSGPTVAAgyVAVGTNAS 121
+                           5566788*************************99999988888888762234444444 PP
+
+  == domain 2  score: 4.8 bits;  conditional E-value: 0.025
+    Beta_propeller.aln 533 waflnapdtkcrwnnifchgavsq.avsvipgvvfagsldghfrafdtadgkvlwevdtaak 593
+                             +ln  d k  w+n      ++  a+s     v+a ++dg+  a+d+ +gk lw  d +a 
+  sp|Q5X521|BAMB_LEGPA 123 LVLLNQSDGKEIWQNKVSAEVLAPpAIS--HQKVIAKTIDGKVYAIDAVNGKQLWVADHGAP 182
+                           5566777777777777666555431333..456889999**************999988875 PP
+
+  == domain 3  score: 5.3 bits;  conditional E-value: 0.018
+    Beta_propeller.aln 455 yllvgqksgavyaldpdndgekiwerrlslgselggvefgtaaddekvyvgvsdvisqakdrgkpglyaldirdgevvw 533
+                            +lvg   g + al+  + g +iw+r ++ g+    ve  +  d++ +     +v+  a  +g  g  al + +g+ +w
+  sp|Q5X521|BAMB_LEGPA 198 LVLVGFSDGKLDALEL-QTGRLIWQRSIAYGTGASDVERLVDIDSDPIISN--NVAYLATYQGYVG--ALSLSNGQFIW 271
+                           5677777777777775.4677888888888877777777777776665432..3333333444433..55555566555 PP
+
+  == domain 4  score: 2.0 bits;  conditional E-value: 0.18
+    Beta_propeller.aln 199 vgdrlfvtstsgavyalnaktgcvywrhdae 229
+                             + l+ t     +++ln+ tg v w++ + 
+  sp|Q5X521|BAMB_LEGPA 284 SHNNLYFTDSNDVLWSLNSSTGQVNWKQTSL 314
+                           4556777777778888888888888877543 PP
+
+>> sp|P46445|CYC6_SYNY3  Cytochrome c6 OS=Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa) OX=1111708 GN=petJ P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.0   0.1   2.6e-06     0.017      11     108 ..       5     112 ..       2     119 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 18.0 bits;  conditional E-value: 2.6e-06
+    Beta_propeller.aln  11 ssaaslivfgsvvhasavvaevalqsasaveldlldgealykarcaachdna.edrtpar.......evlaknsaafilaamrt..gvm 89 
+                           +  as+i fg  + +   +  +     +a  +dl  g+a++   caach+   +   p++       e   kns a i+a + +  g+m
+  sp|P46445|CYC6_SYNY3   5 FNQASRIFFGIALPCLIFLGGIFSLGNTALAADLAHGKAIFAGNCAACHNGGlNAINPSKtlkmadlEANGKNSVAAIVAQITNgnGAM 93 
+                           778899999977777777777777788999*******************95413334554222221245579********997622678 PP
+
+    Beta_propeller.aln  90 vpmaeglseeektaialal 108
+                             +   +s ++++ +a  +
+  sp|P46445|CYC6_SYNY3  94 PGFKGRISDSDMEDVAAYV 112
+                           7788889999999888766 PP
+
+>> sp|Q80WC9|ACSF4_MOUSE  Beta-alanine-activating enzyme OS=Mus musculus OX=10090 GN=Aasdh PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.8   0.0       2.5   1.6e+04     388     416 ..     787     814 ..     761     824 .. 0.64
+   2 ?   10.7   0.3   0.00041       2.7     199     275 ..     822     892 ..     791    1008 .. 0.85
+   3 ?    1.3   0.0      0.29   1.9e+03     364     596 ..     980    1021 ..     964    1025 .. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: -1.8 bits;  conditional E-value: 2.5
+     Beta_propeller.aln 388 yensdavmaieietgkvrwivqllkddny 416
+                               s +v a+++ +g+ rw  qll d   
+  sp|Q80WC9|ACSF4_MOUSE 787 GSHSHTVKAVDLSSGETRWE-QLLGDRIE 814
+                            34577899999999999994.66666555 PP
+
+  == domain 2  score: 10.7 bits;  conditional E-value: 0.00041
+     Beta_propeller.aln 199 vgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftkaavaldaetgkqlwktv 275
+                             g+ + v    g vy l++++g  yw   +e a +ss+ v       p+   ++   + + a ald    k +wk  
+  sp|Q80WC9|ACSF4_MOUSE 822 CGNFIVVGCYNGLVYVLKSNSGEKYWTFTTEDAVKSSPAV------DPTTGLIYVGSHDQHAYALDIYEKKCVWKLN 892
+                            5677778888999999999999999999999999999665......6888889999999999999999999999865 PP
+
+  == domain 3  score: 1.3 bits;  conditional E-value: 0.29
+     Beta_propeller.aln  364 vaptvdekrrlvyvatsnsytevhyensdavmaieietgkvrwivqllkddnyiigcwqkgkeaancpeklgpdfalgaapilrkl 449 
+                             ++p                                                                                   
+  sp|Q80WC9|ACSF4_MOUSE  980 SSP----------------------------------------------------------------------------------- 982 
+                             333................................................................................... PP
+
+     Beta_propeller.aln  450 adgkeyllvgqksgavyaldpdndgekiwerrlslgselggvefgtaaddekvyvgvsdvisqakdrgkpglyaldirdgevvwaf 535 
+                                                                                                                   
+  sp|Q80WC9|ACSF4_MOUSE    - --------------------------------------------------------------------------------------    -
+                             ...................................................................................... PP
+
+     Beta_propeller.aln  536 lnapdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavk 596 
+                                                  +vs+    +f gs d  + +  + +g++ w+++t+a+ + 
+  sp|Q80WC9|ACSF4_MOUSE  983 ---------------------CVSAAEQEIFFGSHDCFIYCC-SKEGHLRWKFETTARVYA 1021
+                             .....................455666666777776655444.356777777777766665 PP
+
+>> sp|Q9RRH3|RQKA_DEIRA  DNA damage-responsive serine/threonine-protein kinase RqkA OS=Deinococcus radiodurans (strain A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.0       0.6     4e+03     557     589 ..     363     395 ..     325     400 .. 0.70
+   2 ?   15.3   0.1   1.6e-05      0.11     184     277 ..     392     477 ..     379     525 .. 0.81
+   3 ?   -2.4   0.0       3.8   2.6e+04     558     588 ..     556     586 ..     550     602 .. 0.75
+   4 ?   -1.7   0.0       2.4   1.6e+04     521     534 ..     612     625 ..     590     637 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 0.2 bits;  conditional E-value: 0.6
+    Beta_propeller.aln 557 avsvipgvvfagsldghfrafdtadgkvlwevd 589
+                             + i g v+ g++dg +r  +  +g  +w  +
+  sp|Q9RRH3|RQKA_DEIRA 363 PATLIGGHVLYGAWDGTLRRVELQSGSEVWRHQ 395
+                           445566666666666666666666666666544 PP
+
+  == domain 2  score: 15.3 bits;  conditional E-value: 1.6e-05
+    Beta_propeller.aln 184 wafqypgskngqatvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftkaavaldaetgkqlw 272
+                           w  q      g  tv g rl++ s  g ++al  +tg + w + a ++  +s+ v    +ga         d t    alda++g  lw
+  sp|Q9RRH3|RQKA_DEIRA 392 WRHQARAEFTGAPTVWGGRLLAPSRDGHLHALSLRTGELAWAYRAGGSLAASPLVW---AGAAL-----QCDETGWLHALDARSGTPLW 472
+                           6666666678999***************************************9986...46544.....4688999999********** PP
+
+    Beta_propeller.aln 273 ktvvd 277
+                           k  v 
+  sp|Q9RRH3|RQKA_DEIRA 473 KVEVG 477
+                           *8553 PP
+
+  == domain 3  score: -2.4 bits;  conditional E-value: 3.8
+    Beta_propeller.aln 558 vsvipgvvfagsldghfrafdtadgkvlwev 588
+                            ++  gvv    + g+ r +  adg  lwe 
+  sp|Q9RRH3|RQKA_DEIRA 556 SAAPGGVVVVAGWGGKVRGLRLADGEDLWER 586
+                           4444567788889999999999999999984 PP
+
+  == domain 4  score: -1.7 bits;  conditional E-value: 2.4
+    Beta_propeller.aln 521 lyaldirdgevvwa 534
+                           l ald+r+gev w+
+  sp|Q9RRH3|RQKA_DEIRA 612 LLALDVRNGEVRWT 625
+                           34444444444443 PP
+
+>> sp|P54741|AFSK_STRCO  Serine/threonine-protein kinase AfsK OS=Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.0   0.4     0.086   5.8e+02     517     593 ..     487     549 ..     472     566 .. 0.72
+   2 ?    8.5   0.1    0.0019        13     212     277 ..     618     681 ..     596     703 .. 0.61
+   3 ?    5.7   0.0     0.013        88     182     239 ..     714     771 ..     701     793 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 3.0 bits;  conditional E-value: 0.086
+    Beta_propeller.aln 517 gkpglyaldirdgevvwaflnapdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaak 593
+                             p l+ald r+g++ w      +t+      +       ++ +  g+v++ +  g  +a++++ g+ lwev  a +
+  sp|P54741|AFSK_STRCO 487 DGPTLFALDAREGADLWRV----QTD-----AW-----VYSLQADRGTVLTATRGGGVQAWEASAGQKLWEVTGAQT 549
+                           4588899999999999987....332.....22.....334556678888888888889999999999998876655 PP
+
+  == domain 2  score: 8.5 bits;  conditional E-value: 0.0019
+    Beta_propeller.aln 212 vyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftkaavaldaetgkqlwktvvd 277
+                           v al+  +g v w  +a a   + ++ v  p  a +   ++++d+  +  alda  g++ w+ + +
+  sp|P54741|AFSK_STRCO 618 VLALEVASGHVRWHFEAPAVFLAPPTFV--PGPAVTGGGVYLADYLGTVYALDATDGRDRWRIATE 681
+                           5566666666666666666666555554..333444455666666666666666666666655443 PP
+
+  == domain 3  score: 5.7 bits;  conditional E-value: 0.013
+    Beta_propeller.aln 182 lkwafqypgskngqatvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvv 239
+                            kw fq  g   g  +v   r+   s    +y+l+a  g + w+ ++ +    s+vv 
+  sp|P54741|AFSK_STRCO 714 PKWRFQAGGDIVGAPAVAEGRIHFGSSDHLLYTLKADDGRLRWKLATGGEITGSPVVR 771
+                           59****************9*******9*****************99999998888875 PP
+
+>> sp|F4K1G2|AEE19_ARATH  Putative acyl-activating enzyme 19 OS=Arabidopsis thaliana OX=3702 GN=At5g35930 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.1   0.0      0.01        70     183     238 ..     726     783 ..     715     789 .. 0.84
+   2 ?    5.7   0.0     0.013        88     358     481 ..     815     942 ..     809     946 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 6.1 bits;  conditional E-value: 0.01
+     Beta_propeller.aln 183 kwafqypgskngqatvvgd..rlfvtstsgavyalnaktgcvywrhdaeaatrssvvv 238
+                             w     g  +g a vvgd  ++ +    g +y l+  tg + w+ +a +  ++ +vv
+  sp|F4K1G2|AEE19_ARATH 726 YWETILEGRIEGSAMVVGDfsQVVIGCYKGKLYFLDFSTGSLCWKFQACGEIKCQPVV 783
+                            56667778899*******95557778999*******************9999988877 PP
+
+  == domain 2  score: 5.7 bits;  conditional E-value: 0.013
+     Beta_propeller.aln 358 aggaiwvaptvdekrrlvyva.tsnsytevhyens..davmaieietgkvrwivqllkddnyiigcwqkgkeaancpek.lgpdfalg 441
+                            +gg+i+++p++de    +yva ts     v  ++s   ++  +e+e+        ++   + +i c   g+  a  p   +   +  g
+  sp|F4K1G2|AEE19_ARATH 815 CGGSIFASPAIDEGHSSLYVAsTSGRVIAVSIKDSpfHTLWLFELEAPIFG-SLCITPSTQNVICCLVDGQVIAMSPSGtIIWRYRTG 901
+                            699999999999999999997466777777777762235555666655443.445666666677788888888888764133444443 PP
+
+     Beta_propeller.aln 442 aapilrk..ladg.keyllvgqksgavyaldpdndgekiwerr 481
+                              pi+    ++      +lv  + g vy+l+p+  g ++we +
+  sp|F4K1G2|AEE19_ARATH 902 -GPIFAGpcMSHVlPSQVLVCCRNGCVYSLEPE-SGCLVWEDN 942
+                            .34444211222213457777888888888886.577888765 PP
+
+>> sp|E4PKG3|BAMB_MARAH  Outer membrane protein assembly factor BamB OS=Marinobacter adhaerens (strain DSM 23420 / HP15)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.5   0.0    0.0075        50     201     591 ..      73     101 ..      64     115 .. 0.65
+   2 ?    2.0   0.0      0.18   1.2e+03     564     592 ..     154     182 ..     149     197 .. 0.81
+   3 ?    3.9   0.0     0.048   3.2e+02     198     274 ..     195     274 ..     183     298 .. 0.73
+   4 ?   -1.4   0.0       1.9   1.3e+04     454     480 ..     328     353 ..     321     358 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 6.5 bits;  conditional E-value: 0.0075
+    Beta_propeller.aln 201 drlfvtstsgavyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftkaavaldaetgkqlwktvvddqpalqmtgsit 289
+                           d                                                                                        
+  sp|E4PKG3|BAMB_MARAH  73 D---------------------------------------------------------------------------------------- 73 
+                           3........................................................................................ PP
+
+    Beta_propeller.aln 290 yhegklyvpissgteafatidtwecckfrgalvaldalsgkvlwkryttekepapfklnklgkqmwgpaggaiwvaptvdekrrlvyva 378
+                                                                                                                    
+  sp|E4PKG3|BAMB_MARAH   - -----------------------------------------------------------------------------------------   -
+                           ......................................................................................... PP
+
+    Beta_propeller.aln 379 tsnsytevhyensdavmaieietgkvrwivqllkddnyiigcwqkgkeaancpeklgpdfalgaapilrkladgkeyllvgqksgavya 467
+                                                                                                                    
+  sp|E4PKG3|BAMB_MARAH   - -----------------------------------------------------------------------------------------   -
+                           ......................................................................................... PP
+
+    Beta_propeller.aln 468 ldpdndgekiwerrlslgselggvefgtaaddekvyvgvsdvisqakdrgkpglyaldirdgevvwaflnapdtkcrwnnifchgavsq 556
+                                                                                                                    
+  sp|E4PKG3|BAMB_MARAH   - -----------------------------------------------------------------------------------------   -
+                           ......................................................................................... PP
+
+    Beta_propeller.aln 557 avsvipgvvfagsldghfrafdtadgkvlwevdta 591
+                                   ++a s dg + a  t +g v we +  
+  sp|E4PKG3|BAMB_MARAH  74 -------LIYAASADGELYAVATETGEVAWESEFE 101
+                           .......5667777777777777777777766554 PP
+
+  == domain 2  score: 2.0 bits;  conditional E-value: 0.18
+    Beta_propeller.aln 564 vvfagsldghfrafdtadgkvlwevdtaa 592
+                            v a + dg+   f+++dg  lw++d + 
+  sp|E4PKG3|BAMB_MARAH 154 LVVAQTTDGKVLGFSATDGEKLWQYDGSV 182
+                           578999******************99765 PP
+
+  == domain 3  score: 3.9 bits;  conditional E-value: 0.048
+    Beta_propeller.aln 198 vvgdrlfvtstsgavyalnaktgcvywrhda.eaatrssvvvvalpegap..aktalffsdftkaavaldaetgkqlwkt 274
+                           v gd ++++  sg + al a +g   w+++  +   r+         g p   +ta++   +      +d +tg+++w  
+  sp|E4PKG3|BAMB_MARAH 195 VGGDVVIASFASGKLIALTAASGQPMWQYEVgQPQGRTELERLVDVTGQPlvIETAVMVVGYQGKLALVDIRTGQEIWSR 274
+                           33566666668999999999999999998862345666655444455666336889999999888788899999999964 PP
+
+  == domain 4  score: -1.4 bits;  conditional E-value: 1.9
+    Beta_propeller.aln 454 eyllvgqksgavyaldpdndgekiwer 480
+                           +yl+vg+  g ++ald + dg+++ +r
+  sp|E4PKG3|BAMB_MARAH 328 DYLVVGDFEGYLHALDRE-DGSLVGQR 353
+                           799************975.67777666 PP
+
+>> sp|Q4L235|ACSF4_HUMAN  Beta-alanine-activating enzyme OS=Homo sapiens OX=9606 GN=AASDH PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.3   0.00032       2.1     173     274 ..     795     892 ..     762     904 .. 0.85
+   2 ?    4.6   0.0     0.029   1.9e+02     539     590 ..     884     936 ..     877     966 .. 0.62
+   3 ?   -2.7   0.0       4.7   3.2e+04     563     597 ..     990    1023 ..     967    1032 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00032
+     Beta_propeller.aln 173 dvadvpklklkwafqypgskngqatv..vgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftk 258
+                            ++ d    k+kw        +  a v   g+ + v    g vy l++++g  yw   +e a +ss+++       p+   +++  + +
+  sp|Q4L235|ACSF4_HUMAN 795 KAVDFYSGKVKWEQILGDRIESSACVskCGNFIVVGCYNGLVYVLKSNSGEKYWMFTTEDAVKSSATM------DPTTGLIYIGSHDQ 876
+                            6677777899998666666666666644689999999***************************9876......58888999999999 PP
+
+     Beta_propeller.aln 259 aavaldaetgkqlwkt 274
+                             a ald    k +wk+
+  sp|Q4L235|ACSF4_HUMAN 877 HAYALDIYRKKCVWKS 892
+                            9999999999999997 PP
+
+  == domain 2  score: 4.6 bits;  conditional E-value: 0.029
+     Beta_propeller.aln 539 pdtkcrwnnifchgavsq.avsvipgvvfagsldghfrafdtadgkvlwevdt 590
+                             + kc w+     + +s  ++  ip  ++  +l g + a + a+g+v+w+   
+  sp|Q4L235|ACSF4_HUMAN 884 YRKKCVWKSKCGGTVFSSpCLNLIPHHLYFATLGGLLLAVNPATGNVIWKHSC 936
+                            45566665554444443314556666666666666666666666666665443 PP
+
+  == domain 3  score: -2.7 bits;  conditional E-value: 4.7
+     Beta_propeller.aln  563 gvvfagsldghfrafdtadgkvlwevdtaakavkt 597 
+                               +f gs d  + +    +g++ w+++t+++ + t
+  sp|Q4L235|ACSF4_HUMAN  990 QKIFFGSHDCFIYCC-NMKGHLQWKFETTSRVYAT 1023
+                             457888888766554.4678888888888887776 PP
+
+>> sp|P08197|CYC6_CHLRE  Cytochrome c6, chloroplastic OS=Chlamydomonas reinhardtii OX=3055 GN=petJ PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.1   1.7   9.8e-06     0.065      26     112 ..      41     141 ..      16     146 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 9.8e-06
+    Beta_propeller.aln  26 savva..evalqsasaveldlldgealykarcaachdnaedrtparevlakns......aaf....ilaamr..tgvmvpmaeglseee 100
+                            av a  + + ++asa  +dl  g+ +++  caach   ++     + l k +        f    i+  +   +g+m   a+ lseee
+  sp|P08197|CYC6_CHLRE  41 LAVTAsiLLTTGAASASAADLALGAQVFNGNCAACHMGGRNSVMPEKTLDKAAleqyldGGFkvesIIYQVEngKGAMPAWADRLSEEE 129
+                           333331134567889999999***************8877655444444443311111233411113333331268999********** PP
+
+    Beta_propeller.aln 101 ktaialalgkad 112
+                            +a+a  + k+ 
+  sp|P08197|CYC6_CHLRE 130 IQAVAEYVFKQA 141
+                           *****9997765 PP
+
+>> sp|Q6NNP0|ATG16_ARATH  Autophagy-related protein 16 OS=Arabidopsis thaliana OX=3702 GN=ATG16 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.5   0.0       4.1   2.7e+04     556     587 ..     231     262 ..     200     283 .. 0.72
+   2 ?   13.6   0.0   5.5e-05      0.36     554     602 ..     355     403 ..     327     438 .. 0.80
+   3 ?   -2.1   0.0       3.1   2.1e+04     564     593 ..     453     482 ..     444     489 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -2.5 bits;  conditional E-value: 4.1
+     Beta_propeller.aln 556 qavsvipgvvfagsldghfrafdtadgkvlwe 587
+                                   g++f+g  d   + +dt +g ++  
+  sp|Q6NNP0|ATG16_ARATH 231 IVFEYNSGTLFTGGQDRAVKMWDTNSGTLIKS 262
+                            33445679999999999999999999998865 PP
+
+  == domain 2  score: 13.6 bits;  conditional E-value: 5.5e-05
+     Beta_propeller.aln 554 vsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavktlagkk 602
+                             + ++s+   +vf+g +dg +r +d  +gk+l ev   ++av++++ ++
+  sp|Q6NNP0|ATG16_ARATH 355 NAICLSIDGLTVFSGHMDGNLRLWDIQTGKLLSEVAGHSSAVTSVSLSR 403
+                            333444444579*******************************998665 PP
+
+  == domain 3  score: -2.1 bits;  conditional E-value: 3.1
+     Beta_propeller.aln 564 vvfagsldghfrafdtadgkvlwevdtaak 593
+                             v ags dg    ++ ++g+++  ++  ++
+  sp|Q6NNP0|ATG16_ARATH 453 YVAAGSADGSVHVWSLSKGNIVSILKEQTS 482
+                            5789***************99876666655 PP
+
+>> sp|Q0A984|BAMB_ALKEH  Outer membrane protein assembly factor BamB OS=Alkalilimnicola ehrlichii (strain ATCC BAA-1101 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.3   0.2    0.0045        30     542     593 ..      43      98 ..      36     118 .. 0.74
+   2 ?   -0.1   0.0      0.78   5.2e+03     455     483 ..     109     136 ..     104     145 .. 0.73
+   3 ?    2.1   0.0      0.17   1.1e+03     456     485 ..     195     223 ..     190     275 .. 0.62
+   4 ?   -0.2   0.0      0.81   5.4e+03     450     481 ..     279     308 ..     270     324 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 7.3 bits;  conditional E-value: 0.0045
+    Beta_propeller.aln 542 kcrwnnifchgavsqavsvip....gvvfagsldghfrafdtadgkvlwevdtaak 593
+                           +  w      g+ s a + +p    g v+a   +g   a+d+ +g  lw vdt+ +
+  sp|Q0A984|BAMB_ALKEH  43 ETLWTASTGSGSASSAYALVPavegGRVYAADSNGRVTAWDAESGERLWRVDTGRE 98 
+                           555666666777777777766333367**************************965 PP
+
+  == domain 2  score: -0.1 bits;  conditional E-value: 0.78
+    Beta_propeller.aln 455 yllvgqksgavyaldpdndgekiwerrls 483
+                            +lvg + g + ald +n ge  w   ls
+  sp|Q0A984|BAMB_ALKEH 109 LVLVGARDGRLLALDAEN-GEERWVSGLS 136
+                           678888888888888766.6666766555 PP
+
+  == domain 3  score: 2.1 bits;  conditional E-value: 0.17
+    Beta_propeller.aln 456 llvgqksgavyaldpdndgekiwerrlslg 485
+                           ++vgq  g + +l+  +dge iwe  +s+ 
+  sp|Q0A984|BAMB_ALKEH 195 VVVGQDNGRLVTLNL-QDGEVIWEAPVSIP 223
+                           566666666666654.46666666666653 PP
+
+  == domain 4  score: -0.2 bits;  conditional E-value: 0.81
+    Beta_propeller.aln 450 adgkeyllvgqksgavyaldpdndgekiwerr 481
+                           ad ++  +v ++s  ++ald  n+g+ +w + 
+  sp|Q0A984|BAMB_ALKEH 279 ADSRQLYVVDDQS-RLWALDR-NNGATVWRQD 308
+                           5667766666665.4677775.5577777654 PP
+
+>> sp|P0A3X7|CYC6_NOSS1  Cytochrome c6 OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=petJ PE=1 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.8   0.1   2.4e-05      0.16      34     113 ..      18     108 ..       4     111 .] 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 2.4e-05
+    Beta_propeller.aln  34 lqsasaveldlldgealykarcaachdnaedrtparevlakn........saafilaamrtgvmv.pmaeg.lseeektai.alalgka 111
+                             s+ a  +d ++g+ ++ a ca+ch   ++   a++ l k         sa  i+a + +g  + p  +g l  e+ + + a  lgka
+  sp|P0A3X7|CYC6_NOSS1  18 AFSSPALAADSVNGAKIFSANCASCHAGGKNLVQAQKTLKKAdlekygmySAEAIIAQVTNGKNAmPAFKGrLKPEQIEDVaAYVLGKA 106
+                           45778999*******************99998888888776422222333678899999888543255555255555555515567888 PP
+
+    Beta_propeller.aln 112 da 113
+                           da
+  sp|P0A3X7|CYC6_NOSS1 107 DA 108
+                           87 PP
+
+>> sp|P0A3X8|CYC6_NOSSO  Cytochrome c6 OS=Nostoc sp. (strain ATCC 29151 / PCC 7119) OX=1168 GN=petJ PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.8   0.1   2.4e-05      0.16      34     113 ..      18     108 ..       4     111 .] 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 2.4e-05
+    Beta_propeller.aln  34 lqsasaveldlldgealykarcaachdnaedrtparevlakn........saafilaamrtgvmv.pmaeg.lseeektai.alalgka 111
+                             s+ a  +d ++g+ ++ a ca+ch   ++   a++ l k         sa  i+a + +g  + p  +g l  e+ + + a  lgka
+  sp|P0A3X8|CYC6_NOSSO  18 AFSSPALAADSVNGAKIFSANCASCHAGGKNLVQAQKTLKKAdlekygmySAEAIIAQVTNGKNAmPAFKGrLKPEQIEDVaAYVLGKA 106
+                           45778999*******************99998888888776422222333678899999888543255555255555555515567888 PP
+
+    Beta_propeller.aln 112 da 113
+                           da
+  sp|P0A3X8|CYC6_NOSSO 107 DA 108
+                           87 PP
+
+>> sp|A8ILK1|CFA52_CHLRE  Cilia- and flagella-associated protein 52 OS=Chlamydomonas reinhardtii OX=3055 GN=CFAP52 PE=1 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.1   3.8e-05      0.26     555     623 ..     369     434 ..     352     464 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 3.8e-05
+     Beta_propeller.aln 555 sqavsvipgvvfagsldghfrafdtadgkvlwevdtaa.kavktlagkkadggvmdgagptiaggmvyvh 623
+                              a ++   ++++g  dg++raf   +gk+++ ++ a  kav+++a +     ++ g       gmv v 
+  sp|A8ILK1|CFA52_CHLRE 369 CIAFTTDGSAILSGWSDGKIRAFGPQSGKIIFTINDAHqKAVTAIASTADSSRILSGGE----EGMVRVW 434
+                            5567777789************************9876267777776666666666643....4666664 PP
+
+>> sp|Q8WKJ8|CYC6_PYRYE  Cytochrome c6 OS=Pyropia yezoensis OX=2788 GN=petJ PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.3   0.0   3.3e-05      0.22      39      83 ..      23      72 ..       8     108 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 14.3 bits;  conditional E-value: 3.3e-05
+    Beta_propeller.aln 39 aveldlldgealykarcaachdnae.....drtparevlaknsaafilaa 83
+                          a  +dl +ge ++ a caach   +     d+t  ++vl  ns   i a 
+  sp|Q8WKJ8|CYC6_PYRYE 23 AFAADLDNGEKVFSANCAACHAGGNnaimpDKTLKKDVLEANSMNTIDAI 72
+                          66788999*************64331223489999****99998877553 PP
+
+>> sp|Q9HXJ7|BAMB_PSEAE  Outer membrane protein assembly factor BamB OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.6   0.1     0.029   1.9e+02     200     230 ..      66      96 ..      61     137 .. 0.55
+   2 ?    1.2   0.0      0.31     2e+03     317     335 ..     114     132 ..     110     145 .. 0.72
+   3 ?    4.7   0.0     0.026   1.7e+02     239     274 ..     232     268 ..     180     298 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 4.6 bits;  conditional E-value: 0.029
+    Beta_propeller.aln 200 gdrlfvtstsgavyalnaktgcvywrhdaea 230
+                           g  ++++s  g v a++  tg v w++d e 
+  sp|Q9HXJ7|BAMB_PSEAE  66 GSTIYAASAEGRVMAIQRETGDVLWKKDLER 96 
+                           5556666666666666666666666666554 PP
+
+  == domain 2  score: 1.2 bits;  conditional E-value: 0.31
+    Beta_propeller.aln 317 frgalvaldalsgkvlwkr 335
+                           +rg ++ald ++gk  w +
+  sp|Q9HXJ7|BAMB_PSEAE 114 LRGDVIALDEATGKKKWTK 132
+                           6788888888888887754 PP
+
+  == domain 3  score: 4.7 bits;  conditional E-value: 0.026
+    Beta_propeller.aln 239 valpegap.aktalffsdftkaavaldaetgkqlwkt 274
+                           v++  g   +  +l+   +   a ald ++g+ lw+ 
+  sp|Q9HXJ7|BAMB_PSEAE 232 VDIDGGLLlSGDTLYVVSYQGRAAALDVNSGRLLWQR 268
+                           4444443313344555555555555555555555543 PP
+
+>> sp|Q5ZJH5|SKI8_CHICK  Superkiller complex protein 8 OS=Gallus gallus OX=9031 GN=SKIC8 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.1   0.1     0.005        34     512     592 ..      26     106 ..       6     119 .. 0.84
+   2 ?    4.1   0.0      0.04   2.7e+02     566     598 ..     164     196 ..     148     202 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 7.1 bits;  conditional E-value: 0.005
+    Beta_propeller.aln 512 qakdrgkpglyaldirdgevvwaflnapdtkcrwn.nifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaa 592
+                           + k++g   + +  + d  +vw++ n  + + +w  + +  g vs  +s    +  + sld h+r +d  +gk +  +d++ 
+  sp|Q5ZJH5|SKI8_CHICK  26 KNKKNGSETVISGSLDDLVKVWKW-NDEKLDLQWTlEGHQLGVVSVDISHTGSIAASSSLDAHIRLWDLETGKQIKSIDAGP 106
+                           567888888888888999999999.8999999997345667899999999888888899****************9999875 PP
+
+  == domain 2  score: 4.1 bits;  conditional E-value: 0.04
+    Beta_propeller.aln 566 fagsldghfrafdtadgkvlwevdtaakavktl 598
+                            +g++dg +  fd a+gk+l  ++  a ++++l
+  sp|Q5ZJH5|SKI8_CHICK 164 ASGAIDGIINIFDIATGKLLHTLEGHAMPIRSL 196
+                           5799********************999998876 PP
+
+>> sp|Q6B941|CYC6_GRATL  Cytochrome c6 OS=Gracilaria tenuistipitata var. liui OX=285951 GN=petJ PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.7   0.1     5e-05      0.33      41     108 ..      23     100 ..       5     107 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 13.7 bits;  conditional E-value: 5e-05
+    Beta_propeller.aln  41 eldlldgealykarcaachdnae.....drtparevlaknsaafila...amrtg..vmvpmaeglseeektaialal 108
+                            +dl  ge ++ a c+ach n +     d+t   + l+ n    i a    +++g  +m  +   l+ e+ + +a  +
+  sp|Q6B941|CYC6_GRATL  23 AADLDAGEQIFSANCSACHANGNnaimpDKTLKSDALSENKMNSIEAitnQVKNGknAMPAFGGRLADEDIENVANYV 100
+                           567888*************99763333467888899998876655441116677722333344446666777776655 PP
+
+>> sp|P51200|CYC6_PORPU  Cytochrome c6 OS=Porphyra purpurea OX=2787 GN=petJ PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.7   0.1   5.1e-05      0.34      38      82 ..      22      71 ..       6     108 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 13.7 bits;  conditional E-value: 5.1e-05
+    Beta_propeller.aln 38 saveldlldgealykarcaachdnae.....drtparevlaknsaafila 82
+                           a  +dl +ge ++ a caach   +     d+t  ++vl  ns   i a
+  sp|P51200|CYC6_PORPU 22 VAFAADLDNGEKVFSANCAACHAGGNnaimpDKTLKKDVLEANSMNGIDA 71
+                          466788999*************643312234899999**99999876654 PP
+
+>> sp|Q92IV6|Y314_RICCN  Uncharacterized protein RC0314 OS=Rickettsia conorii (strain ATCC VR-613 / Malish 7) OX=272944 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.0      0.31   2.1e+03     561     592 ..      78     109 ..      45     127 .. 0.71
+   2 ?   -0.4   0.0      0.93   6.2e+03     202     232 ..     167     197 ..     151     208 .. 0.77
+   3 ?    5.4   0.0     0.016   1.1e+02     203     282 ..     213     297 ..     203     309 .. 0.43
+   4 ?    0.7   0.0      0.45     3e+03     197     225 ..     298     326 ..     291     335 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 0.31
+    Beta_propeller.aln 561 ipgvvfagsldghfrafdtadgkvlwevdtaa 592
+                           i  +++a  +   + af+  + k++w ++ + 
+  sp|Q92IV6|Y314_RICCN  78 IGDMIYALDIRSNISAFSIEKNKIIWSYNLSR 109
+                           55678888888889999999999999888664 PP
+
+  == domain 2  score: -0.4 bits;  conditional E-value: 0.93
+    Beta_propeller.aln 202 rlfvtstsgavyalnaktgcvywrhdaeaat 232
+                            ++v ++s    alna t    w h++ a  
+  sp|Q92IV6|Y314_RICCN 167 TVLVQTISNQTIALNAETLKTVWEHESLAEV 197
+                           4567788889999999999999999876655 PP
+
+  == domain 3  score: 5.4 bits;  conditional E-value: 0.016
+    Beta_propeller.aln 203 lfvtstsgavyalnaktgcvywrhdaea.atrssv....vvvalpegapaktalffsdftkaavaldaetgkqlwktvvddqpal 282
+                           ++vt  sg + aln   g v w  +      r+++        l      ++ l+++      + l+  tg  +w+   +d  ++
+  sp|Q92IV6|Y314_RICCN 213 VIVTYNSGQILALNITNGEVKWNFEFTNlNDRTAIpnfdESSILCTPVHDNMNLYIATGLGKLIKLNVATGSVIWQVNAEDIQSM 297
+                           5555555555555555555555544322122322211001122222233333344443333444444444444444444444444 PP
+
+  == domain 4  score: 0.7 bits;  conditional E-value: 0.45
+    Beta_propeller.aln 197 tvvgdrlfvtstsgavyalnaktgcvywr 225
+                           +++g+ lfvt  +  + a+n  tg v + 
+  sp|Q92IV6|Y314_RICCN 298 SLIGNSLFVTNNARQIAAFNPETGKVKFV 326
+                           57999999999999999999999998765 PP
+
+>> sp|Q3MDW2|CYC6_TRIV2  Cytochrome c6 OS=Trichormus variabilis (strain ATCC 29413 / PCC 7937) OX=240292 GN=petJ PE=3 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.0   7.9e-05      0.52      34      84 ..      18      69 ..       4     109 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 7.9e-05
+    Beta_propeller.aln 34 lqsasaveldlldgealykarcaachdnaedrtparevlakns.aafilaam 84
+                            s+ a  +d  +g+ ++ a ca+ch   ++   a++ l k+    f + + 
+  sp|Q3MDW2|CYC6_TRIV2 18 AFSSPALAADVANGAKIFSANCASCHAGGKNLVQAQKTLKKEDlEKFGMYSA 69
+                          45778999*******************9998888888877753123333333 PP
+
+>> sp|Q9ZDU2|Y232_RICPR  Uncharacterized protein RP232 OS=Rickettsia prowazekii (strain Madrid E) OX=272947 GN=RP232 PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.0   0.0      0.71   4.8e+03     570     593 ..      87     110 ..      60     133 .. 0.63
+   2 ?    1.6   0.0      0.24   1.6e+03     177     273 ..      96     190 ..      85     197 .. 0.52
+   3 ?    7.4   0.0    0.0041        27     198     287 ..     208     302 ..     199     310 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: -0.0 bits;  conditional E-value: 0.71
+    Beta_propeller.aln 570 ldghfrafdtadgkvlwevdtaak 593
+                           +   + af+  + k++w ++ + +
+  sp|Q9ZDU2|Y232_RICPR  87 IRANISAFSIEKNKIIWSYNLSKH 110
+                           444555666666666665554433 PP
+
+  == domain 2  score: 1.6 bits;  conditional E-value: 0.24
+    Beta_propeller.aln 177 vpklklkwafqypgskngqatvvg.......drlfvtstsgavyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftk 258
+                           + k k+ w+++    k+     +g        +l++t  +  +  l+ak+g    r++        + ++++   a  + +++    ++
+  sp|Q9ZDU2|Y232_RICPR  96 IEKNKIIWSYNLSKHKKD--NYIGggilhhnGKLYITYGARLLIVLDAKSGYEIIRKEL-------PDIIRIKPIALNDHTILVQTISN 175
+                           555555555554433332..222200111113445555444455555555544444433.......44444444555666777777778 PP
+
+    Beta_propeller.aln 259 aavaldaetgkqlwk 273
+                            ++ald+et k lw 
+  sp|Q9ZDU2|Y232_RICPR 176 QTIALDSETLKTLWD 190
+                           888888888888885 PP
+
+  == domain 3  score: 7.4 bits;  conditional E-value: 0.0041
+    Beta_propeller.aln 198 vvgdrlfvtstsgavyalnaktgcvywrhdaeaatr.....ssvvvvalpegapaktalffsdftkaavaldaetgkqlwktvvddqpa 281
+                           v  d ++vt  +g v aln k g v w  +              +   l       + l+++      + l+  tg  lw+   dd  +
+  sp|Q9ZDU2|Y232_RICPR 208 VQHDNVIVTYNTGQVLALNIKNGEVKWNFEFTNLNDhtaipNFDTSSILCTPVHDSMNLYIATGLGKLIKLNLLTGSVLWQINADDIQS 296
+                           5568999999999**********999998754432200000222233344444455666776666677888888888888888888877 PP
+
+    Beta_propeller.aln 282 lqmtgs 287
+                           + + g 
+  sp|Q9ZDU2|Y232_RICPR 297 MSLIGN 302
+                           777775 PP
+
+>> sp|P24059|CY552_BRADU  Cytochrome c-552 OS=Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.4   0.00012      0.83      28      68 ..      10      50 ..       3      66 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00012
+     Beta_propeller.aln 28 vvaevalqsasaveldlldgealykarcaachdnaedrtpa 68
+                            v  va +s+sa  +d   g+ l k  ca+ch  a++++ a
+  sp|P24059|CY552_BRADU 10 LVLAVASSSSSALAADAGHGADLAKRWCASCHVVANGQAVA 50
+                           56679999************************999987644 PP
+
+>> sp|Q6P5M2|SKI8_DANRE  Superkiller complex protein 8 OS=Danio rerio OX=7955 GN=skic8 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.5   0.1    0.0075        50     549     599 ..      63     113 ..      25     161 .. 0.74
+   2 ?    4.2   0.0     0.039   2.6e+02     565     598 ..     163     196 ..     146     201 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 6.5 bits;  conditional E-value: 0.0075
+    Beta_propeller.aln 549 fchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavktla 599
+                           +  g vs  +s    +  + sld h+r +d  +gk +  +d++     t+a
+  sp|Q6P5M2|SKI8_DANRE  63 HQLGVVSVNISQNGAIAASSSLDAHIRLWDLETGKQIKSMDAGPVDAWTVA 113
+                           4456778888775555556789*******************9988877776 PP
+
+  == domain 2  score: 4.2 bits;  conditional E-value: 0.039
+    Beta_propeller.aln 565 vfagsldghfrafdtadgkvlwevdtaakavktl 598
+                           + +g++dg +  fd a+gk+l  ++  a ++++l
+  sp|Q6P5M2|SKI8_DANRE 163 LASGAIDGIINIFDIATGKLLHTLEGHAMPIRSL 196
+                           45799********************999998876 PP
+
+>> sp|A9KJI3|RL24_LACP7  Large ribosomal subunit protein uL24 OS=Lachnoclostridium phytofermentans (strain ATCC 700394 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.5   0.00014      0.94     565     631 ..      14      81 ..       9      99 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 0.00014
+    Beta_propeller.aln 565 vfagsldgh.frafdtadgkvlwe.vdtaakavktlagkkadggvmdgagptiaggmvyvhsgyagrss 631
+                           v+ag   g+  + ++ ++gkvl e v+t +k  k  + ++ +gg++    p  a  ++yv+ g + r  
+  sp|A9KJI3|RL24_LACP7  14 VIAGKDKGKeGKVISVSNGKVLVEgVNTITKHSK-ASQANPKGGIIHQEAPIDASNVMYVQKGKTTRIG 81 
+                           5566666652478999*****9985888888766.588999********************99888754 PP
+
+>> sp|P00116|CYC6_APHFL  Cytochrome c6 OS=Aphanizomenon flos-aquae OX=1176 GN=petJ PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.1   0.00014      0.93      43     107 ..       2      76 ..       1      86 [. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00014
+    Beta_propeller.aln  43 dlldgealykarcaachd...n..aedrtparevlakn...saafilaamrtg..vmvpmaeglseeektaiala 107
+                           d + g+al+ka ca ch    n   + +t  +e l k    sa  i+a +  g  +m  +   l  e+ + +a  
+  sp|P00116|CYC6_APHFL   2 DTVSGAALFKANCAQCHVgggNlvNRAKTLKKEALEKYnmySAKAIIAQVTHGkgAMPAFGIRLKAEQIENVAAY 76 
+                           7789*************6222422345577788887742336788999887651155555555555555556554 PP
+
+>> sp|P00111|CYC6_PYRTE  Cytochrome c6 OS=Pyropia tenera OX=2785 GN=petJ PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.1   0.00014      0.95      43      83 ..       2      47 ..       1      83 [. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 0.00014
+    Beta_propeller.aln 43 dlldgealykarcaachdnae.....drtparevlaknsaafilaa 83
+                          dl +ge ++ a caach   +     d+t  ++vl  ns   i a 
+  sp|P00111|CYC6_PYRTE  2 DLDNGEKVFSANCAACHAGGNnaimpDKTLKKDVLEANSMNTIDAI 47
+                          7889*************64331223489999****99998877553 PP
+
+>> sp|Q0AE45|BAMB_NITEC  Outer membrane protein assembly factor BamB OS=Nitrosomonas eutropha (strain DSM 101675 / C91 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.21   1.4e+03     563     593 ..      96     126 ..      74     167 .. 0.67
+   2 ?    7.1   0.0    0.0051        34     526     589 ..     179     246 ..     171     257 .. 0.75
+   3 ?   -0.8   0.1       1.3   8.5e+03     546     583 ..     291     329 ..     261     357 .. 0.56
+
+  Alignments for each domain:
+  == domain 1  score: 1.8 bits;  conditional E-value: 0.21
+    Beta_propeller.aln 563 gvvfagsldghfrafdtadgkvlwevdtaak 593
+                           g+++    dg +  +d  +g+ +w v+t ++
+  sp|Q0AE45|BAMB_NITEC  96 GALYVADEDGRLVKLDPVTGREIWRVETKSQ 126
+                           5566666666666666666666666666543 PP
+
+  == domain 2  score: 7.1 bits;  conditional E-value: 0.0051
+    Beta_propeller.aln 526 irdgevvwaflnapdtkcrwnnifchgavs....qavsvipgvvfagsldghfrafdtadgkvlwevd 589
+                           +r+g+     lna d k  w    + + ++      vs+  g+vfag   g++ a+d  +g+v we  
+  sp|Q0AE45|BAMB_NITEC 179 VRTGDSKLFGLNATDGKRIWSYQSVTPPLTvrsfVGVSITRGAVFAGFPGGKLIALDLLTGNVGWEET 246
+                           67777766667777777777776666654311123689999************************954 PP
+
+  == domain 3  score: -0.8 bits;  conditional E-value: 1.3
+    Beta_propeller.aln 546 nnifchgavsqavsvip.gvvfagsldghfrafdtadgk 583
+                           n+i+   a s    vi    v+     g   a+d ++g 
+  sp|Q0AE45|BAMB_NITEC 291 NQIWARDASSSMGMVIDnHHVYISEEHGIVAAYDKSSGT 329
+                           333333333333333321233333344444444444444 PP
+
+>> sp|Q869N1|CYC_DICDI  Cytochrome c OS=Dictyostelium discoideum OX=44689 GN=cytC PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.1   0.00034       2.3      40      64 ..       6      30 ..       1      36 [. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00034
+   Beta_propeller.aln 40 veldlldgealykarcaachdnaed 64
+                         +  +  +g+ l+karca ch  a++
+  sp|Q869N1|CYC_DICDI  6 ARGNVENGDKLFKARCAQCHTTANG 30
+                         5668899*************99886 PP
+
+>> sp|P25938|C554_HALNE  Cytochrome c-554(547) OS=Halothiobacillus neapolitanus OX=927 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.9   0.8    0.0015       9.9      44      89 ..       4      52 ..       1      90 [. 0.52
+
+  Alignments for each domain:
+  == domain 1  score: 8.9 bits;  conditional E-value: 0.0015
+    Beta_propeller.aln 44 lldgealykarcaachdn.a..edrtparevlaknsaafilaamrtgvm 89
+                             g++ly a ca+ch   a  ++  p    l+ +     l a+++g  
+  sp|P25938|C554_HALNE  4 AAAGKTLYDASCASCHGMqAqgQGMFPKLAGLTSERIKTTLVAFKSGDT 52
+                          56799***********741311445565555544444444444443332 PP
+
+>> sp|P15422|VME1_CVH22  Membrane protein OS=Human coronavirus 229E OX=11137 GN=M PE=3 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   0.2   0.00038       2.5     538     623 ..      63     151 ..      44     161 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00038
+    Beta_propeller.aln 538 apdtkcrwnnifchgavsqavsvipgvvfagsldghfrafdtadgkvlwevdtaakavktlagkkadggvmd...gagptiaggmvyvh 623
+                             dt   w+  +   a+s  ++v   v++   +   fr f  a     w+ +  a +v+t+ g+  +  + +   g   t+  g++yv 
+  sp|P15422|VME1_CVH22  63 IFDTWANWDSNWAFVAFSFFMAVSTLVMWVMYFANSFRLFRRARTFWAWNPEVNAITVTTVLGQTYYQPIQQaptGITVTLLSGVLYVD 151
+                           56889999999********999999999999********************************98877765422266667778888885 PP
+
+>> sp|O64781|Y1639_ARATH  G-type lectin S-receptor-like serine/threonine-protein kinase At1g61390 OS=Arabidopsis thalian
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0   0.00049       3.3     251     336 ..      80     162 ..      69     168 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.00049
+     Beta_propeller.aln 251 lffsdftkaavaldaetgkqlwktvvddqpalqmtgsityhegklyvpissgteafatidtwecckfrgalvaldalsgkvlwkry 336
+                            ++f + +   v   a+  k + kt+ +   ++   gs    +g   v  s   eaf++++        g lv +d +sgk lwk +
+  sp|O64781|Y1639_ARATH  80 IWFKNIAPQVVVWVANRDKPVTKTAAN--LTISSNGSLILLDGTQDVIWS-TGEAFTSNKCHAELLDTGNLVVIDDVSGKTLWKSF 162
+                            666667777777777777777777654..578889999999999988555.559*****99999999*****************97 PP
+
+>> sp|Q8C7X2|EMC1_MOUSE  ER membrane protein complex subunit 1 OS=Mus musculus OX=10090 GN=Emc1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0    0.0067        45     201     244 ..      53      95 ..      19     146 .. 0.70
+   2 ?    1.7   0.0      0.21   1.4e+03     318     347 ..     546     576 ..     530     584 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.0067
+    Beta_propeller.aln 201 drlfvtstsgavyalnaktgcvywrhdaeaatrssvvvvalpeg 244
+                            +l v++    + aln++tg + wrh  ++++  +v  + l +g
+  sp|Q8C7X2|EMC1_MOUSE  53 KKLVVATEKNVIAALNSRTGEILWRHVDKGTAEGAVD-AMLVHG 95 
+                           46777777788899************98887665554.444444 PP
+
+  == domain 2  score: 1.7 bits;  conditional E-value: 0.21
+    Beta_propeller.aln 318 rgalvaldalsgkvlwkryttekepa.pfkl 347
+                            g l  +++ sg +lwk+y  + +p   fkl
+  sp|Q8C7X2|EMC1_MOUSE 546 SGKLFGIESSSGTILWKQYLPNVKPDsSFKL 576
+                           6889999************998877425776 PP
+
+>> sp|Q5ZL00|EMC1_CHICK  ER membrane protein complex subunit 1 OS=Gallus gallus OX=9031 GN=EMC1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.3   0.1    0.0044        29     182     277 ..      24     118 ..      15     141 .. 0.67
+   2 ?    0.4   0.0      0.55   3.6e+03     318     342 ..     532     556 ..     517     566 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 7.3 bits;  conditional E-value: 0.0044
+    Beta_propeller.aln 182 lkwafqypgskng...qatvvgdrlfvtstsgavyalnaktgcvywrhdaeaatrssvvvvalpegapaktalffsdftkaavaldaet 267
+                             w  qy g  +    +a+    +l+v +    v aln+++g + wrh+ +a t   +  + l +g   + a+  s   +   + +++ 
+  sp|Q5ZL00|EMC1_CHICK  24 FDWRQQYVGKLKFaslEAAQGSKKLLVGTEKNVVAALNSRSGEILWRHADKA-TPEGAIDAMLIHG---QDAITVSSAGRILRSWETNI 108
+                           56666666653321113444557899999999****************7665.5555555566555...44555566666666666666 PP
+
+    Beta_propeller.aln 268 gkqlwktvvd 277
+                           g   w t +d
+  sp|Q5ZL00|EMC1_CHICK 109 GGLNWETSLD 118
+                           6666666655 PP
+
+  == domain 2  score: 0.4 bits;  conditional E-value: 0.55
+    Beta_propeller.aln 318 rgalvaldalsgkvlwkryttekep 342
+                            g l  +++ sg +lwk+y  +  p
+  sp|Q5ZL00|EMC1_CHICK 532 SGKLFGIESSSGTILWKQYLRNVRP 556
+                           68899999***********887666 PP
+
+>> sp|O28041|PUR8_ARCFU  Adenylosuccinate lyase OS=Archaeoglobus fulgidus (strain ATCC 49558 / DSM 4304 / JCM 9628 / NBR
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.0   0.0   0.00067       4.5     378     466 ..      96     189 ..      79     208 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.00067
+    Beta_propeller.aln 378 atsnsytevh..yensdavmaieietgkvrwivqllkdd..nyii.gcwqkgkeaancpeklgpdfalgaapilr...kladgkeyllv 458
+                           atsn   +     +  d++  +e+   k++ ++++l+d   +y +  c  +++ +a  p   g  fal aa + r   +l++ k+ llv
+  sp|O28041|PUR8_ARCFU  96 ATSNDIIDTAtaLQLRDSLKILEV---KIKRLAKVLADKalEYKDvVCLGRTHGQAALPTTYGFRFALWAAEVARhyiRLQQMKDRLLV 181
+                           566665443311344566555555...5666677777762235442699999999**************99885522279********* PP
+
+    Beta_propeller.aln 459 gqksgavy 466
+                           gq sgav 
+  sp|O28041|PUR8_ARCFU 182 GQMSGAVG 189
+                           *****995 PP
+
+>> sp|M1V1V5|FDHC_GLUJA  Fructose dehydrogenase cytochrome subunit OS=Gluconobacter japonicus OX=376620 GN=fdhC PE=1 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.0   0.1      0.74   4.9e+03      12      64 ..      12      61 ..       7      66 .. 0.60
+   2 ?    9.9   0.2   0.00073       4.9      27      61 ..     315     349 ..     296     357 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: -0.0 bits;  conditional E-value: 0.74
+    Beta_propeller.aln 12 saaslivfgsvvhasavvaevalqsasaveldlldgeal.ykarcaachdnaed 64
+                          +++ l+  g+ v+a    +e ++ sa+        g+ l   a caach n +d
+  sp|M1V1V5|FDHC_GLUJA 12 MTTVLLLAGTNVRAQP--TEPTPASAHR--PSISRGHYLaIAADCAACHTNGRD 61
+                          5666666665544443..3444445554..44455655524689******9876 PP
+
+  == domain 2  score: 9.9 bits;  conditional E-value: 0.00073
+    Beta_propeller.aln  27 avvaevalqsasaveldlldgealykarcaachdn 61 
+                             va++  + ++++  +  dg+aly a ca+ch+ 
+  sp|M1V1V5|FDHC_GLUJA 315 YSVANANSRRSNSTLTKTTDGAALYEAVCASCHQS 349
+                           4567777777777788999**************75 PP
+
+>> sp|Q8N766|EMC1_HUMAN  ER membrane protein complex subunit 1 OS=Homo sapiens OX=9606 GN=EMC1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.2   0.0    0.0098        65     201     237 ..      52      88 ..      18     142 .. 0.77
+   2 ?    1.7   0.0      0.22   1.5e+03     318     347 ..     542     572 ..     526     580 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 6.2 bits;  conditional E-value: 0.0098
+    Beta_propeller.aln 201 drlfvtstsgavyalnaktgcvywrhdaeaatrssvv 237
+                            +l v++    + aln++tg + wrh  ++++  +v 
+  sp|Q8N766|EMC1_HUMAN  52 KKLVVATEKNVIAALNSRTGEILWRHVDKGTAEGAVD 88 
+                           46777777788899************98887766554 PP
+
+  == domain 2  score: 1.7 bits;  conditional E-value: 0.22
+    Beta_propeller.aln 318 rgalvaldalsgkvlwkryttekepa.pfkl 347
+                            g l  +++ sg +lwk+y  + +p   fkl
+  sp|Q8N766|EMC1_HUMAN 542 SGKLFGIESSSGTILWKQYLPNVKPDsSFKL 572
+                           6889999************998887425776 PP
+
+>> sp|O67706|Y1854_AQUAE  Uncharacterized protein aq_1854 OS=Aquifex aeolicus (strain VF5) OX=224324 GN=aq_1854 PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.0   0.0     0.086   5.7e+02      39      61 ..      16      39 ..       5      72 .. 0.75
+   2 ?    5.4   0.0     0.017   1.1e+02      81     110 ..     104     133 ..      89     150 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 3.0 bits;  conditional E-value: 0.086
+     Beta_propeller.aln 39 aveldll.dgealykarcaachdn 61
+                           av+ +ll  g  +yk  c+ach +
+  sp|O67706|Y1854_AQUAE 16 AVDHNLLqKGYEVYKKHCSACHIE 39
+                           677776526999**********64 PP
+
+  == domain 2  score: 5.4 bits;  conditional E-value: 0.017
+     Beta_propeller.aln  81 laamrtgvmvpmaeglseeektaialalgk 110
+                            +a    gvm p+ + lseeek+a+a  l +
+  sp|O67706|Y1854_AQUAE 104 MAFKLFGVMPPIGKALSEEEKEAVAYWLYH 133
+                            5555579*****************987755 PP
+
+>> sp|B7JXU8|PYRD_RIPO1  Dihydroorotate dehydrogenase (quinone) OS=Rippkaea orientalis (strain PCC 8801 / RF-1) OX=41431
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.5   0.0   0.00097       6.5     102     158 ..     123     180 ..     116     194 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 9.5 bits;  conditional E-value: 0.00097
+    Beta_propeller.aln 102 taialalgkadaktddei.dlraiwgnsvestpldapkckskitpvdlsaadqwngws 158
+                           +a+   lg+++ +++     l  iw  s  ++p+    ckskitp+d +a d    +s
+  sp|B7JXU8|PYRD_RIPO1 123 KAVLNRLGANNQGAEIMAqTLAEIWQRSPRNIPIGINLCKSKITPLDEAAQDYVGSFS 180
+                           67777888888777654415789************************99888665555 PP
+
+>> sp|D3RVD4|TSDA_ALLVD  Thiosulfate dehydrogenase OS=Allochromatium vinosum (strain ATCC 17899 / DSM 180 / NBRC 103801 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.2   0.0    0.0011       7.6      40      61 ..     172     193 ..     142     203 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 9.2 bits;  conditional E-value: 0.0011
+    Beta_propeller.aln  40 veldlldgealykarcaachdn 61 
+                            e d + gealy+arc ach  
+  sp|D3RVD4|TSDA_ALLVD 172 REPDGVHGEALYQARCLACHGA 193
+                           4567789*************75 PP
+
+>> sp|Q5R7K6|EMC1_PONAB  ER membrane protein complex subunit 1 OS=Pongo abelii OX=9601 GN=EMC1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.8   0.0     0.012        81     201     237 ..      52      88 ..      21     140 .. 0.79
+   2 ?    1.1   0.0      0.32   2.1e+03     318     347 ..     545     575 ..     529     582 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 5.8 bits;  conditional E-value: 0.012
+    Beta_propeller.aln 201 drlfvtstsgavyalnaktgcvywrhdaeaatrssvv 237
+                            +l v++    + aln++tg + wrh  ++++  +v 
+  sp|Q5R7K6|EMC1_PONAB  52 KKLVVATEKNVIAALNSRTGEILWRHVDKGTAEGAVD 88 
+                           46777777788899************98887766554 PP
+
+  == domain 2  score: 1.1 bits;  conditional E-value: 0.32
+    Beta_propeller.aln 318 rgalvaldalsgkvlwkryttekep.apfkl 347
+                            g l  +++ sg +lwk+y    +p + fkl
+  sp|Q5R7K6|EMC1_PONAB 545 SGKLFGIESSSGTILWKQYLPSVKPdSSFKL 575
+                           6889999************987776245666 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (654 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     15135  (0.0263832); expected 11473.2 (0.02)
+Passed bias filter:                    10769  (0.0187724); expected 11473.2 (0.02)
+Passed Vit filter:                       883  (0.00153924); expected 573.7 (0.001)
+Passed Fwd filter:                        86  (0.000149914); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              86  [number of targets reported over threshold]
+# CPU time: 7.93u 0.20s 00:00:08.12 Elapsed: 00:00:02.18
+# Mc/sec: 62286.20
+//
+[ok]

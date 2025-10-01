@@ -1,0 +1,1845 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/HemolysinCabind.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/HemolysinCabind/HemolysinCabind.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/HemolysinCabind/HemolysinCabind.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       HemolysinCabind.aln  [M=617]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+     9e-253  845.3  20.4   3.2e-228  764.2   9.5    2.0  2  sp|P41773|LIPB_PSEFL   Lipase OS=Pseudomonas fluorescens OX=2
+   2.9e-184  619.0   6.7   6.8e-179  601.3   1.8    2.0  2  sp|P26504|LIPA_PSEFL   Lipase OS=Pseudomonas fluorescens OX=2
+    3.3e-53  186.1 147.6    6.1e-08   36.6  14.5    9.3  9  sp|Q9JYV5|FRPC_NEIMB   Iron-regulated protein FrpC OS=Neisser
+    4.5e-53  185.7 149.9    1.2e-08   39.0  14.9    9.2  9  sp|P55127|FRPC_NEIMC   Iron-regulated protein FrpC OS=Neisser
+    1.4e-31  114.7  77.1    3.9e-08   37.2  14.4    5.3  5  sp|Q9K0K9|FRPA_NEIMB   Iron-regulated protein FrpA OS=Neisser
+      8e-29  105.6  86.2    1.9e-05   28.4   3.4    8.1  7  sp|Q44496|ALGE3_AZOVI  Mannuronan C5-epimerase AlgE3 OS=Azoto
+    2.2e-19   74.4  42.1    2.1e-08   38.2  14.8    3.6  3  sp|P55126|FRPA_NEIMC   Iron-regulated protein FrpA OS=Neisser
+    2.3e-18   71.1  45.6    0.00024   24.7   5.3    4.4  4  sp|Q44494|ALGE1_AZOVI  Mannuronan C5-epimerase AlgE1 OS=Azoto
+    1.7e-14   58.3  49.5    4.7e-05   27.1   6.1    4.8  4  sp|Q44492|ALGE5_AZOVI  Mannuronan C5-epimerase AlgE5 OS=Azoto
+    6.4e-14   56.4 104.3    1.3e-05   28.9   9.4    5.7  6  sp|Q57506|CYAA_BORBR   Bifunctional hemolysin/adenylate cycla
+      2e-12   51.5  58.2      8e-06   29.6   6.8    4.8  4  sp|Q44495|ALGE2_AZOVI  Mannuronan C5-epimerase AlgE2 OS=Azoto
+    4.4e-12   50.3 108.8    7.9e-05   26.3  11.5    6.2  6  sp|J7QLC0|CYAA_BORP1   Bifunctional hemolysin/adenylate cycla
+    4.4e-12   50.3 108.8    7.9e-05   26.3  11.5    6.2  6  sp|P0DKX7|CYAA_BORPE   Bifunctional hemolysin/adenylate cycla
+      1e-06   32.6  43.2     0.0071   19.9  27.8    3.8  3  sp|Q9ZFG9|ALGE7_AZOVI  Alginate lyase 7 OS=Azotobacter vinela
+    1.8e-06   31.8  42.9       0.03   17.8   7.1    3.8  5  sp|P55131|RTX32_ACTPL  RTX-III toxin determinant A from serot
+    2.6e-06   31.2  15.9    0.00013   25.6   7.6    2.6  2  sp|P15728|NODO_RHILV   Nodulation protein O OS=Rhizobium legu
+    8.5e-06   29.5  42.2       0.03   17.8   6.7    3.6  3  sp|P16462|LTXA_AGGAC   Leukotoxin OS=Aggregatibacter actinomy
+    2.5e-05   28.0  46.5      0.052   17.0   8.7    4.0  5  sp|P55130|RTX31_ACTPL  RTX-III toxin determinant A from serot
+    3.4e-05   27.5  31.9      0.055   16.9   5.6    4.3  4  sp|Q9ZFH0|ALGE6_AZOVI  Mannuronan C5-epimerase AlgE6 OS=Azoto
+    4.3e-05   27.2  42.3       0.31   14.4  11.7    3.8  3  sp|Q9RCG8|PAXA_PASAE   Exotoxin PaxA OS=Pasteurella aerogenes
+     0.0001   25.9  44.4     0.0093   19.5  11.8    4.2  4  sp|P55128|RTX11_ACTPL  RTX-I toxin determinant A from serotyp
+    0.00011   25.9  44.4     0.0093   19.5  11.8    4.2  4  sp|P55129|RTX12_ACTPL  RTX-I toxin determinant A from serotyp
+    0.00029   24.5  14.1     0.0025   21.4   7.7    2.1  2  sp|O33680|EXSH_RHIME   Endo-1,3-1,4-beta-glycanase ExsH OS=Rh
+    0.00061   23.4  33.5     0.0095   19.5   8.7    3.6  3  sp|Q9EV34|LKTA8_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+    0.00068   23.2  33.5     0.0095   19.5   8.7    3.6  3  sp|P0C083|LKTA6_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+    0.00068   23.2  33.5     0.0095   19.5   8.7    3.6  3  sp|P0C084|LKA7A_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+    0.00071   23.2  28.8    0.00086   22.9  14.9    3.2  3  sp|Q00951|HLYA_ACTSU   Hemolysin OS=Actinobacillus suis OX=71
+    0.00072   23.2  48.9      0.049   17.1  11.0    3.8  4  sp|P09983|HLYAC_ECOLX  Hemolysin, chromosomal OS=Escherichia 
+    0.00077   23.1  33.5     0.0095   19.5   8.7    3.5  3  sp|Q9EV29|LKA2D_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+    0.00086   22.9  14.9    0.00086   22.9  14.9    3.3  3  sp|P15377|RTX2A_ACTPL  RTX-II toxin determinant A OS=Actinoba
+    0.00091   22.8  15.4     0.0043   20.6   9.0    2.1  2  sp|Q9Z3Q2|EGLC_RHIME   Endo-1,3-1,4-beta-glycanase EglC OS=Rh
+     0.0013   22.4  13.0     0.0013   22.4  13.0    4.0  4  sp|A1YKW7|RTXA_KINKI   Cytolysin RtxA OS=Kingella kingae OX=5
+     0.0023   21.5  45.3       0.46   13.9  11.3    4.0  4  sp|P08715|HLYAP_ECOLX  Hemolysin, plasmid OS=Escherichia coli
+      0.003   21.1  35.5      0.024   18.1   9.5    3.7  4  sp|P16535|LKA1A_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+      0.003   21.1  35.5      0.024   18.1   9.5    3.7  4  sp|Q7BHI8|LKA1B_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+     0.0034   21.0  33.8     0.0042   20.6  12.2    3.2  3  sp|Q9ETX2|LKTA_MANGL   Leukotoxin OS=Mannheimia glucosida OX=
+     0.0034   20.9  33.4     0.0035   20.9  11.9    3.2  3  sp|P55118|LKA11_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+     0.0073   19.8  33.6      0.064   16.7   8.7    3.2  3  sp|P55123|LKTA_PASSP   Leukotoxin OS=Pasteurella haemolytica-
+  ------ inclusion threshold ------
+       0.01   19.4  33.4      0.015   18.8  10.4    3.3  2  sp|Q9EV32|LKA16_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+       0.01   19.4  33.4      0.015   18.8  10.4    3.3  2  sp|Q9EV33|LKA14_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+       0.01   19.3  33.4      0.015   18.8  10.4    3.3  2  sp|P0C085|LKA7B_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+       0.01   19.3  33.4      0.015   18.8  10.4    3.3  2  sp|Q9EV27|LKA2E_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+      0.011   19.2  33.6      0.022   18.2  13.1    3.6  3  sp|Q9EV30|LKA2A_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+      0.013   19.0  34.1      0.015   18.8  10.3    3.3  2  sp|Q9EV31|LKA13_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+      0.014   18.9  34.2        1.4   12.3   9.1    3.3  1  sp|P55117|LKTA_BIBTR   Leukotoxin OS=Bibersteinia trehalosi O
+      0.038   17.5  36.8      0.076   16.5  13.6    3.6  4  sp|P0C081|LKA2B_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+      0.038   17.5  36.8      0.076   16.5  13.6    3.6  4  sp|P0C082|LKA2C_MANHA  Leukotoxin OS=Mannheimia haemolytica O
+      0.044   17.3   8.5      0.044   17.3   8.5    2.2  2  sp|Q11137|ZAPA_PROMI   Serralysin OS=Proteus mirabilis OX=584
+        1.3   12.4   0.1        1.6   12.1   0.1    1.2  1  sp|P63459|FABD_MYCBO   Malonyl CoA-acyl carrier protein trans
+        1.3   12.4   0.1        1.6   12.1   0.1    1.2  1  sp|P9WNG4|FABD_MYCTO   Malonyl CoA-acyl carrier protein trans
+        1.3   12.4   0.1        1.6   12.1   0.1    1.2  1  sp|P9WNG5|FABD_MYCTU   Malonyl CoA-acyl carrier protein trans
+        1.6   12.1   0.0          2   11.8   0.0    1.1  1  sp|Q9XTR8|LIP1_CAEEL   Lipase ZK262.3 OS=Caenorhabditis elega
+        2.8   11.3   0.2        3.1   11.2   0.2    1.0  1  sp|Q5P9I2|RS20_ANAMM   Small ribosomal subunit protein bS20 O
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|P41773|LIPB_PSEFL  Lipase OS=Pseudomonas fluorescens OX=294 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  764.2   9.5    3e-232  3.2e-228       1     405 [.       1     405 [.       1     406 [. 1.00
+   2 !   91.6   3.5   1.3e-28   1.4e-24     541     616 ..     403     475 ..     403     476 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 764.2 bits;  conditional E-value: 3e-232
+   HemolysinCabind.aln   1 msvfdyknllasdskalfsdalaitlysyhnldngfaegyqhnglglglpatlvtaligstnsqgviPGipwnpdsekaaldalqqagw 89 
+                           m++fdyknl +++sk+lf+da+aitlysyhnldngfa+gyqhnglglglpatlv al+gst+sqgviPGipwnpdsekaal+a+q+agw
+  sp|P41773|LIPB_PSEFL   1 MGIFDYKNLGTEGSKTLFADAMAITLYSYHNLDNGFAVGYQHNGLGLGLPATLVGALLGSTDSQGVIPGIPWNPDSEKAALEAVQKAGW 89 
+                           9**************************************************************************************** PP
+
+   HemolysinCabind.aln  90 spisasqlGydgkvdargtilgekaavstaqvevlakydaaGklesigiafrgtsgkresvisdtiddvindllaalgpkdlaknyage 178
+                           +pisas lGy gkvdargt++geka+++taqvevl+kyd+aGkl +igi frgtsg+re++isd+i+d i+dllaalgpkd+aknyage
+  sp|P41773|LIPB_PSEFL  90 TPISASALGYAGKVDARGTFFGEKAGYTTAQVEVLGKYDDAGKLLEIGIGFRGTSGPRETLISDSIGDLISDLLAALGPKDYAKNYAGE 178
+                           ***************************************************************************************** PP
+
+   HemolysinCabind.aln 179 afdkllgkvaafaaaqGlsGkdvlvsGhslGGlgvnsladlssekwsgfykdanylayasPtqsasdkvlniGyendpvfraldgssfn 267
+                           af+ ll++va++a a+Gl+Gkdv+vsGhslGGl+vns+adls+ kw+gfykdany+ayasPtqsa+dkvlniGyendpvfraldgssfn
+  sp|P41773|LIPB_PSEFL 179 AFGGLLKNVADYAGAHGLTGKDVVVSGHSLGGLAVNSMADLSNYKWAGFYKDANYVAYASPTQSAGDKVLNIGYENDPVFRALDGSSFN 267
+                           ***************************************************************************************** PP
+
+   HemolysinCabind.aln 268 lsslGvhdkaqesatnnivsfndhyasslwnvlPfsilnlptwlshlptgygdGltrvlesdfydltsrdstvvvanlsdparastwvk 356
+                           lsslGvhdk++es+t+nivsfndhyas+lwnvlPfsi+nlptw+shlpt ygdG+tr+les+fyd+++rdstv+vanlsdpara+twv+
+  sp|P41773|LIPB_PSEFL 268 LSSLGVHDKPHESTTDNIVSFNDHYASTLWNVLPFSIVNLPTWVSHLPTAYGDGMTRILESGFYDQMTRDSTVIVANLSDPARANTWVQ 356
+                           ***************************************************************************************** PP
+
+   HemolysinCabind.aln 357 dlnrnaekhkGstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyn 405
+                           dlnrnae hkG+tfiiGsdgndli+GG+G+d++eGg+Gndt+rd++G+n
+  sp|P41773|LIPB_PSEFL 357 DLNRNAEPHKGNTFIIGSDGNDLIQGGNGADFIEGGKGNDTIRDNSGHN 405
+                           ************************************************9 PP
+
+  == domain 2  score: 91.6 bits;  conditional E-value: 1.3e-28
+   HemolysinCabind.aln 541 gnntflfsGnfGqdrilGyqatdklvfmgvsGvdadqdyrdhlsssGndtvltfGedsvtlvGvsleslsGsGivl 616
+                           g ntflfsG+fG+dr++Gyq tdklvf++v+G   ++d rdh++++G dtvltfG+dsvtlvGv+   l  +G+v+
+  sp|P41773|LIPB_PSEFL 403 GHNTFLFSGHFGNDRVIGYQPTDKLVFKDVQG---STDLRDHAKVVGADTVLTFGADSVTLVGVGHGGLWTEGVVI 475
+                           78******************************...9**************************************98 PP
+
+>> sp|P26504|LIPA_PSEFL  Lipase OS=Pseudomonas fluorescens OX=294 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  601.3   1.8  6.3e-183  6.8e-179       1     405 [.       1     405 [.       1     406 [. 0.93
+   2 !   26.3   0.4   7.3e-09   7.9e-05     540     562 ..     402     424 ..     401     427 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 601.3 bits;  conditional E-value: 6.3e-183
+   HemolysinCabind.aln   1 msvfdyknllasdskalfsdalaitlysyhnldngfaegyqhnglglglpatlvtaligs...tnsqgviPGipwnpdsekaaldalqq 86 
+                           m+vfdyknl ++ sk+lf+da aitly+yhnldngfa+gyq+ glglg   t           +    + PGi      +++      q
+  sp|P26504|LIPA_PSEFL   1 MGVFDYKNLGTEASKTLFADATAITLYTYHNLDNGFAVGYQQHGLGLGCRHTGRGVARQHrlpGSDPPAFPGI---LTRKRPPWTRCTQ 86 
+                           9***********************************************9988543322220002223456665...4567788888889 PP
+
+   HemolysinCabind.aln  87 agwspisasqlGydgkvdargtilgekaavstaqvevlakydaaGklesigiafrgtsgkresvisdtiddvindllaalgpkdlakny 175
+                              +  sas lGy gkvdargt++geka+++taq+evl+kyd+aGkl +igi frgtsg+res+i+  +    ++ ++  gp+ l++++
+  sp|P26504|LIPA_PSEFL  87 PVGRQSSASALGYGGKVDARGTFFGEKAGYTTAQAEVLGKYDDAGKLLEIGIGFRGTSGPRESLITTPCRSG-QRPARRAGPQGLCEKL 174
+                           999999***********************************************************9887654.44455556777***** PP
+
+   HemolysinCabind.aln 176 ageafdkllgkvaafaaaqGlsGkdvlvsGhslGGlgvnsladlssekwsgfykdanylayasPtqsasdkvlniGyendpvfraldgs 264
+                            + +f+ ll+ va++a a+GlsGkdvlvsGhslGGl+vns+adls +kw+gfykdanylayasPtqsa+dkvlniGyendpvfraldgs
+  sp|P26504|LIPA_PSEFL 175 CRRTFGGLLKTVADYAGAHGLSGKDVLVSGHSLGGLAVNSMADLSTSKWAGFYKDANYLAYASPTQSAGDKVLNIGYENDPVFRALDGS 263
+                           ***************************************************************************************** PP
+
+   HemolysinCabind.aln 265 sfnlsslGvhdkaqesatnnivsfndhyasslwnvlPfsilnlptwlshlptgygdGltrvlesdfydltsrdstvvva.nlsdparas 352
+                           +fnlsslGvhdka+es+t+nivsfndhyas+lwnvlPfsi nl tw+shlp+ ygdG+trvles+fy++++rdst++++   sdpara+
+  sp|P26504|LIPA_PSEFL 264 TFNLSSLGVHDKAHESTTDNIVSFNDHYASTLWNVLPFSIANLSTWVSHLPSAYGDGMTRVLESGFYEQMTRDSTIILCpTWSDPARAN 352
+                           ****************************************************************************987368******* PP
+
+   HemolysinCabind.aln 353 twvkdlnrnaekhkGstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyn 405
+                           twv+dlnrnae h+G+tfiiGsdgndli+GGkG+d++eGg+Gndt+rd++G+n
+  sp|P26504|LIPA_PSEFL 353 TWVQDLNRNAEPHTGNTFIIGSDGNDLIQGGKGADFIEGGKGNDTIRDNSGHN 405
+                           ****************************************************9 PP
+
+  == domain 2  score: 26.3 bits;  conditional E-value: 7.3e-09
+   HemolysinCabind.aln 540 ggnntflfsGnfGqdrilGyqat 562
+                            g ntflfsG+fGqdri+Gyq t
+  sp|P26504|LIPA_PSEFL 402 SGHNTFLFSGHFGQDRIIGYQPT 424
+                           599******************87 PP
+
+>> sp|Q9JYV5|FRPC_NEIMB  Iron-regulated protein FrpC OS=Neisseria meningitidis serogroup B (strain ATCC BAA-335 / MC58) 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.5   5.4   3.9e-10   4.2e-06     509     567 ..     868     928 ..     829     971 .. 0.81
+   2 !   17.7  10.3   3.1e-06     0.034     485     545 ..     999    1059 ..     984    1068 .. 0.79
+   3 !   32.9  11.7   7.6e-11   8.2e-07     499     561 ..    1058    1120 ..    1056    1160 .. 0.85
+   4 !   17.2  11.4   4.1e-06     0.045     486     555 ..    1200    1267 ..    1188    1270 .. 0.78
+   5 !   32.7  11.7   8.3e-11     9e-07     499     566 ..    1258    1327 ..    1256    1371 .. 0.83
+   6 !   17.2  11.5   4.1e-06     0.045     485     555 ..    1399    1467 ..    1385    1470 .. 0.77
+   7 !   34.6  14.0   2.4e-11   2.5e-07     491     566 ..    1450    1527 ..    1449    1571 .. 0.85
+   8 !   15.6  10.7   1.3e-05      0.14     491     555 ..    1605    1667 ..    1584    1670 .. 0.71
+   9 !   36.6  14.5   5.6e-12   6.1e-08     496     599 ..    1655    1756 ..    1652    1765 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 30.5 bits;  conditional E-value: 3.9e-10
+   HemolysinCabind.aln 509 lfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq..atdklvf 567
+                            fg++ +  l ++++n++++ggagnd +e g g++t++f   fGqd +  y   ++ k + 
+  sp|Q9JYV5|FRPC_NEIMB 868 GFGHNKNVSLYGNDGNDTLIGGAGNDYLEGGSGSDTYVFGEGFGQDTVYNYDyaTGRKDII 928
+                           59**********************************************9885214445444 PP
+
+  == domain 2  score: 17.7 bits;  conditional E-value: 3.1e-06
+   HemolysinCabind.aln  485 tayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntf 545 
+                            t+ ++ l     +n+l    + d+l+g dgddll +d +n+ +  g gnd ++ g gn+++
+  sp|Q9JYV5|FRPC_NEIMB  999 TDGSDRLYAYQSGNTLNGGLGDDYLYGADGDDLLNGDAGNDSIYSGNGNDTLDGGEGNDAL 1059
+                            5555556666778999999999999999999999999999999999999999988887653 PP
+
+  == domain 3  score: 32.9 bits;  conditional E-value: 7.6e-11
+   HemolysinCabind.aln  499 vlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyqa 561 
+                            +l    + d l g +g+d+l ++++n++++ggagnd +e g g++t++f   fGqd +  y  
+  sp|Q9JYV5|FRPC_NEIMB 1058 ALYGYNGNDALNGGEGNDHLNGEDGNDTLIGGAGNDYLEGGSGSDTYVFGKGFGQDTVYNYDY 1120
+                            666778899*************************************************98863 PP
+
+  == domain 4  score: 17.2 bits;  conditional E-value: 4.1e-06
+   HemolysinCabind.aln  486 ayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdr 555 
+                            + ++ l     +n+l    + d+l+g dgddll +d +n+ +  g gnd ++ g gn+++ + G  G+d 
+  sp|Q9JYV5|FRPC_NEIMB 1200 DGSDRLYAYQSGNTLNGGLGDDYLYGADGDDLLNGDAGNDSIYSGNGNDTLDGGEGNDAL-Y-GYNGNDA 1267
+                            555556666778999999999****************************99988777653.3.5556665 PP
+
+  == domain 5  score: 32.7 bits;  conditional E-value: 8.3e-11
+   HemolysinCabind.aln  499 vlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq..atdklv 566 
+                            +l    + d l g +g+d+l ++++n++++ggagnd +e g g++t++f   fGqd +  y   ++ k +
+  sp|Q9JYV5|FRPC_NEIMB 1258 ALYGYNGNDALNGGEGNDHLNGEDGNDTLIGGAGNDYLEGGSGSDTYVFGKGFGQDAVYNYDyaTGRKDI 1327
+                            666778899*************************************************988521444544 PP
+
+  == domain 6  score: 17.2 bits;  conditional E-value: 4.1e-06
+   HemolysinCabind.aln  485 tayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdr 555 
+                            t+ ++ l     +n+l    + d+l+g dgddll +d +n+ +  g gnd ++ g gn++ l+ G  G+d 
+  sp|Q9JYV5|FRPC_NEIMB 1399 TDGSDRLYAYQSGNTLNGGLGDDYLYGADGDDLLNGDAGNDSIYSGNGNDTLNGGEGNDA-LY-GYNGNDA 1467
+                            555555666667899999999999999999999999999999999999999987777665.33.5556665 PP
+
+  == domain 7  score: 34.6 bits;  conditional E-value: 2.4e-11
+   HemolysinCabind.aln  491 lrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq..atdklv 566 
+                            l+g  ++++l    + d l g +g+d+l ++++n++++ggagnd +e g g++t++f   fGqd +  y   ++ k +
+  sp|Q9JYV5|FRPC_NEIMB 1450 LNGGEGNDALYGYNGNDALNGGEGNDHLNGEDGNDTLIGGAGNDYLEGGSGSDTYVFGKGFGQDAVYNYDyaTGRKDI 1527
+                            78999999**********************************************************988521444544 PP
+
+  == domain 8  score: 15.6 bits;  conditional E-value: 1.3e-05
+   HemolysinCabind.aln  491 lrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdr 555 
+                            l     + +l    + d+l+g dgddll +d +n+ +  g gnd ++ g gn+++ + G  G+d 
+  sp|Q9JYV5|FRPC_NEIMB 1605 LYAYQSGSTLNGGLGDDYLYGADGDDLLNGDAGNDSIYSGNGNDTLDGGEGNDAL-Y-GYNGNDA 1667
+                            4444556677788888999999999999999999999999999988877776653.3.5555555 PP
+
+  == domain 9  score: 36.6 bits;  conditional E-value: 5.6e-12
+   HemolysinCabind.aln  496 ydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq...atdklvfmgvsGvdadqdy 579 
+                            ++++l    + d l g +g+d+l ++++n++++ggagnd +e g g++t++f   fGqd +  y    ++d + f+g +     +  
+  sp|Q9JYV5|FRPC_NEIMB 1655 GNDALYGYNGNDALNGGEGNDHLNGEDGNDTLIGGAGNDYLEGGSGSDTYVFGEGFGQDTVYNYHvdkNSDTMHFKGFKA----A-- 1735
+                            6778999999******************************************************7222555555555554....2.. PP
+
+   HemolysinCabind.aln  580 rdhlsssGndtvltf.Gedsv 599 
+                              h   sG+d vl+   +d v
+  sp|Q9JYV5|FRPC_NEIMB 1736 DVHFIRSGSDLVLSAsEQDNV 1756
+                            358888899988887334444 PP
+
+>> sp|P55127|FRPC_NEIMC  Iron-regulated protein FrpC OS=Neisseria meningitidis serogroup C OX=135720 GN=frpC PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.3   6.1   4.7e-10   5.1e-06     509     575 ..     868     936 ..     829     972 .. 0.77
+   2 !   17.3  11.4     4e-06     0.043     486     555 ..    1000    1067 ..     988    1070 .. 0.77
+   3 !   33.9  14.2   3.7e-11     4e-07     491     567 ..    1050    1128 ..    1050    1171 .. 0.85
+   4 !   17.2  11.5   4.3e-06     0.046     485     555 ..    1199    1267 ..    1183    1270 .. 0.79
+   5 !   32.0  14.7   1.4e-10   1.5e-06     496     575 ..    1255    1336 ..    1252    1372 .. 0.78
+   6 !   15.8   9.7   1.1e-05      0.12     493     545 ..    1407    1459 ..    1388    1468 .. 0.69
+   7 !   32.0  14.2   1.4e-10   1.5e-06     496     567 ..    1455    1528 ..    1452    1571 .. 0.83
+   8 !   17.7  10.4     3e-06     0.032     483     545 ..    1597    1659 ..    1584    1668 .. 0.78
+   9 !   39.0  14.9   1.1e-12   1.2e-08     491     599 ..    1650    1756 ..    1649    1765 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 30.3 bits;  conditional E-value: 4.7e-10
+   HemolysinCabind.aln 509 lfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq..atdklvfmgvsGvda 575
+                            fg++ +  l ++++n++++ggagnd +e g g++t++f   fGqd +  y   ++ k +     G+ a
+  sp|P55127|FRPC_NEIMC 868 GFGHNKNVSLYGNDGNDTLIGGAGNDYLEGGSGSDTYVFGKGFGQDTVYNYDyaTGRKDIIRFTDGITA 936
+                           59**********************************************987521455666655666555 PP
+
+  == domain 2  score: 17.3 bits;  conditional E-value: 4e-06
+   HemolysinCabind.aln  486 ayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdr 555 
+                            + ++ l     +n+l    + d+l+g dgddll +d +n+ +  g gnd ++ g gn++ l+ G  G+d 
+  sp|P55127|FRPC_NEIMC 1000 DGSDRLYAYQSGNTLNGGLGDDYLYGADGDDLLNGDAGNDSIYSGNGNDTLNGGEGNDA-LY-GYNGNDA 1067
+                            55555566667899999999999999999999999999999999999999987777665.33.5556665 PP
+
+  == domain 3  score: 33.9 bits;  conditional E-value: 3.7e-11
+   HemolysinCabind.aln  491 lrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq..atdklvf 567 
+                            l+g  ++++l    + d l g +g+d+l ++++n++++ggagnd +e g g++t++f   fGqd +  y   ++ k + 
+  sp|P55127|FRPC_NEIMC 1050 LNGGEGNDALYGYNGNDALNGGEGNDHLNGEDGNDTLIGGAGNDYLEGGSGSDTYVFGKGFGQDTVYNYDyaTGRKDII 1128
+                            57888999**********************************************************9885214445444 PP
+
+  == domain 4  score: 17.2 bits;  conditional E-value: 4.3e-06
+   HemolysinCabind.aln  485 tayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdr 555 
+                            t+ ++ l     +n+l    + d+l+g dgddll +d +n+ +  g gnd ++ g gn+++ + G  G+d 
+  sp|P55127|FRPC_NEIMC 1199 TDGSDRLYAYQSGNTLNGGLGDDYLYGADGDDLLNGDAGNDSIYSGNGNDTLDGGEGNDAL-Y-GYNGNDA 1267
+                            555555666677999999999*****************************99988777653.3.5556665 PP
+
+  == domain 5  score: 32.0 bits;  conditional E-value: 1.4e-10
+   HemolysinCabind.aln  496 ydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq..atdklvfmgvsGvda 575 
+                            ++++l    + d l g +g+d+l ++++n++++ggagnd +e g g++t++f   fGqd +  y   ++ k +     G+ a
+  sp|P55127|FRPC_NEIMC 1255 GNDALYGYNGNDALNGGEGNDHLNGEDGNDTLIGGAGNDYLEGGSGSDTYVFGKGFGQDTVYNYDyaTGRKDIIRFTDGITA 1336
+                            6778999999***************************************************987521455666655666555 PP
+
+  == domain 6  score: 15.8 bits;  conditional E-value: 1.1e-05
+   HemolysinCabind.aln  493 gdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntf 545 
+                                + +l    + d+l+g dgddll +d +n+ +  g gnd ++ g gn+++
+  sp|P55127|FRPC_NEIMC 1407 AYQSGSTLNGGLGDDYLYGADGDDLLNGDAGNDSIYSGNGNDTLDGGEGNDAL 1459
+                            44456677777788888888888888888888888888888888877776543 PP
+
+  == domain 7  score: 32.0 bits;  conditional E-value: 1.4e-10
+   HemolysinCabind.aln  496 ydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq..atdklvf 567 
+                            ++++l    + d l g +g+d+l ++++n++++ggagnd +e g g++t++f   fGqd +  y   ++ k + 
+  sp|P55127|FRPC_NEIMC 1455 GNDALYGYNGNDALNGGEGNDHLNGEDGNDTLIGGAGNDYLEGGSGSDTYVFGKGFGQDTVYNYDyaTGRKDII 1528
+                            6778999999***************************************************9885214445444 PP
+
+  == domain 8  score: 17.7 bits;  conditional E-value: 3e-06
+   HemolysinCabind.aln  483 qltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntf 545 
+                            q t+ ++ l     +n+l    + d+l+g dgddll +d +n+ +  g gnd ++ g gn+++
+  sp|P55127|FRPC_NEIMC 1597 QSTDGSDRLYAYQSGNTLNGGLGDDYLYGADGDDLLNGDAGNDSIYSGNGNDTLNGGEGNDAL 1659
+                            555555666666778999999999999999999999999999999999999999988777653 PP
+
+  == domain 9  score: 39.0 bits;  conditional E-value: 1.1e-12
+   HemolysinCabind.aln  491 lrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq...atdklvfmgvsGvd 574 
+                            l+g  ++++l    + d l g +g+d+l ++++n++++ggagnd +e g g++t++f   fGqd +  y    ++d + f+g +   
+  sp|P55127|FRPC_NEIMC 1650 LNGGEGNDALYGYNGNDVLNGGEGNDHLNGEDGNDTLIGGAGNDYLEGGSGSDTYVFGKGFGQDTVYNYHvdkNSDTMHFKGFKA-- 1734
+                            78999999*************************************************************7222555555555554.. PP
+
+   HemolysinCabind.aln  575 adqdyrdhlsssGndtvltf.Gedsv 599 
+                              +    h   sG+d vl+   +d v
+  sp|P55127|FRPC_NEIMC 1735 --A--DVHFIRSGSDLVLSAsEQDNV 1756
+                            ..2..358888899988887334444 PP
+
+>> sp|Q9K0K9|FRPA_NEIMB  Iron-regulated protein FrpA OS=Neisseria meningitidis serogroup B (strain ATCC BAA-335 / MC58) 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.1   5.5   2.6e-10   2.9e-06     509     567 ..     741     801 ..     702     844 .. 0.81
+   2 !   17.9  11.3   2.5e-06     0.027     485     555 ..     872     940 ..     858     943 .. 0.79
+   3 !   33.1  12.5   6.4e-11   6.9e-07     498     567 ..     930    1001 ..     928    1044 .. 0.83
+   4 !   17.8  11.2   2.7e-06     0.029     488     555 ..    1075    1140 ..    1064    1143 .. 0.78
+   5 !   37.2  14.4   3.6e-12   3.9e-08     496     599 ..    1128    1229 ..    1125    1238 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 31.1 bits;  conditional E-value: 2.6e-10
+   HemolysinCabind.aln 509 lfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq..atdklvf 567
+                            fg++ +  l ++++n++++ggagnd +e g g++t++f   fGqd +  y   ++ k + 
+  sp|Q9K0K9|FRPA_NEIMB 741 GFGHNKNVSLYGNDGNDTLIGGAGNDYLEGGSGSDTYVFGEGFGQDTVYNYDyaTGRKDII 801
+                           59**********************************************9885214445444 PP
+
+  == domain 2  score: 17.9 bits;  conditional E-value: 2.5e-06
+   HemolysinCabind.aln 485 tayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdr 555
+                           t+ ++ l     +n+l    + d+l+g dgddll +d +n+ +  g gnd ++ g gn+++ + G  G+d 
+  sp|Q9K0K9|FRPA_NEIMB 872 TDGSDRLYAYQSGNTLNGGLGDDYLYGADGDDLLNGDAGNDSIYSGNGNDTLDGGEGNDAL-Y-GYNGNDA 940
+                           5555556666779999999999****************************99988777653.3.5556665 PP
+
+  == domain 3  score: 33.1 bits;  conditional E-value: 6.4e-11
+   HemolysinCabind.aln  498 nvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq..atdklvf 567 
+                            ++l    + d l g +g+d+l ++++n++++ggagnd +e g g++t++f   fGqd +  y   ++ k + 
+  sp|Q9K0K9|FRPA_NEIMB  930 DALYGYNGNDALNGGEGNDHLNGEDGNDTLIGGAGNDYLEGGSGSDTYVFGKGFGQDAVYNYDyaTGRKDII 1001
+                            677788899**************************************************9885214445444 PP
+
+  == domain 4  score: 17.8 bits;  conditional E-value: 2.7e-06
+   HemolysinCabind.aln  488 asslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdr 555 
+                            ++ l     +n+l    + d+l+g dgddll +d +n+ +  g gnd ++ g gn+++ + G  G+d 
+  sp|Q9K0K9|FRPA_NEIMB 1075 SDRLYAYQSGNTLNGGLGDDYLYGADGDDLLNGDAGNDSIYSGNGNDTLDGGEGNDAL-Y-GYNGNDA 1140
+                            5555566678999999999****************************99988777653.3.5556665 PP
+
+  == domain 5  score: 37.2 bits;  conditional E-value: 3.6e-12
+   HemolysinCabind.aln  496 ydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq...atdklvfmgvsGvdadqdy 579 
+                            ++++l    + d l g +g+d+l ++++n++++ggagnd +e g g++t++f   fGqd +  y    ++d + f+g +     +  
+  sp|Q9K0K9|FRPA_NEIMB 1128 GNDALYGYNGNDALNGGEGNDHLNGEDGNDTLIGGAGNDYLEGGSGSDTYVFGEGFGQDTVYNYHvdkNSDTMHFKGFKA----A-- 1208
+                            6778999999******************************************************7222555555555554....2.. PP
+
+   HemolysinCabind.aln  580 rdhlsssGndtvltf.Gedsv 599 
+                              h   sG+d vl+   +d v
+  sp|Q9K0K9|FRPA_NEIMB 1209 DVHFIRSGSDLVLSAsEQDNV 1229
+                            358888899988887334444 PP
+
+>> sp|Q44496|ALGE3_AZOVI  Mannuronan C5-epimerase AlgE3 OS=Azotobacter vinelandii OX=354 GN=algE3 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.1   3.9   6.9e-08   0.00074     489     550 ..     384     445 ..     368     466 .. 0.90
+   2 !   21.2   8.0   2.6e-07    0.0028     486     549 ..     532     595 ..     512     619 .. 0.86
+   3 !   21.5   2.6   2.1e-07    0.0022     489     550 ..     692     753 ..     668     768 .. 0.89
+   4 !   23.1   4.6   7.1e-08   0.00077     487     550 ..    1223    1286 ..    1197    1301 .. 0.87
+   5 !   28.4   3.4   1.8e-09   1.9e-05     486     548 ..    1373    1435 ..    1341    1455 .. 0.89
+   6 !   10.9  10.8   0.00034       3.6     370     534 ..    1524    1693 ..    1518    1693 .. 0.60
+   7 !   10.6  11.6   0.00042       4.5     371     420 ..    1686    1726 ..    1668    1755 .. 0.47
+
+  Alignments for each domain:
+  == domain 1  score: 23.1 bits;  conditional E-value: 6.9e-08
+    HemolysinCabind.aln 489 sslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGn 550
+                             +l+g a+++vl  +   + ++gl g+d l ++ +++++ ggag d +  g g++tf fs +
+  sp|Q44496|ALGE3_AZOVI 384 ATLEGTAGNDVLSGTGAHELILGLAGNDRLDGGAGDDTLDGGAGRDTLTGGAGADTFRFSAR 445
+                            5799*******************************************************976 PP
+
+  == domain 2  score: 21.2 bits;  conditional E-value: 2.6e-07
+    HemolysinCabind.aln 486 ayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsG 549
+                              a  + g  +++ l  +  g+ l+g++g+d l ++ +n+++vggag d +  g g++ f f  
+  sp|Q44496|ALGE3_AZOVI 532 FDAAPVTGTEGNDNLSGTDAGETLLGYGGNDTLNGGAGNDILVGGAGRDTLTGGAGADVFRFEA 595
+                            456678999999999999******************************************9965 PP
+
+  == domain 3  score: 21.5 bits;  conditional E-value: 2.1e-07
+    HemolysinCabind.aln 489 sslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGn 550
+                             +++g  +++ l+ +   + l+gl+g d l ++ +++v+ gga  d +  g g++tflfs +
+  sp|Q44496|ALGE3_AZOVI 692 ATIEGTDGNDSLQGTGADELLLGLGGRDSLNGGAGDDVLDGGAERDTLTGGTGADTFLFSAR 753
+                            5688999999999999999****************************************976 PP
+
+  == domain 4  score: 23.1 bits;  conditional E-value: 7.1e-08
+    HemolysinCabind.aln  487 yasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGn 550 
+                              + +l+g +++++l  s   + l+gldgdd l ++ +n+++ gg g d +  g g++tf fs +
+  sp|Q44496|ALGE3_AZOVI 1223 QQATLEGTTGNDTLGGSDAHETLLGLDGDDRLDGGAGNDILDGGVGRDTLTGGAGADTFRFSAR 1286
+                             446799999****************************************************975 PP
+
+  == domain 5  score: 28.4 bits;  conditional E-value: 1.8e-09
+    HemolysinCabind.aln  486 ayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfs 548 
+                                 +++gda+dn+l  +   + l+g+ g+d l +  +++++vggag d +  g g++ f f 
+  sp|Q44496|ALGE3_AZOVI 1373 FERPAIEGDAGDNALLGTSVAETLLGHAGNDTLDGAGGDDILVGGAGSDSLTGGAGADVFRFD 1435
+                             555689******************************************************996 PP
+
+  == domain 6  score: 10.9 bits;  conditional E-value: 0.00034
+    HemolysinCabind.aln  370 fiiGs.dgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdgdgtlylrdayggismtrdvgalv 454 
+                             fi  +  g+ l++G  Gnd l+G a ++ +   +G + + gg g +v+ + +    y   s     l + d         d+  l 
+  sp|Q44496|ALGE3_AZOVI 1524 FIFATpSGQQLLEGTAGNDSLQGTAADEVIHGGSGRDTLAGGAGADVFRFSELTDSYRTDSASYADL-ITDFD-ASEDRIDLSGLG 1607
+                             5555424677888888888888888888888888888888888888887777777666544444333.23322.222333555554 PP
+
+    HemolysinCabind.aln  455 sketgs.lwqlfkddvihsvtddglka...gnqltayasslrgday..dnvlkasvdgdwlfgldgddllisdkanvvfvggagnd 534 
+                                 g  + + +  +v    t   lk+    +   +++ sl+gd    d+      +   l g dg+d l+++ a + ++ggagnd
+  sp|Q44496|ALGE3_AZOVI 1608 FSGLGNgYGGTLALQVNSAGTRTYLKSyeaNAAGERFELSLDGDLSglDESHLVFDERVVLAGGDGNDTLSGGSAAEELLGGAGND 1693
+                             44444313345555666666666665411033344678888888651234444455566788899999999999999999999987 PP
+
+  == domain 7  score: 10.6 bits;  conditional E-value: 0.00042
+    HemolysinCabind.aln  371 iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqq 420 
+                             ++         GG Gnd l GgaGnd +   +G + + gg gs+++ + +
+  sp|Q44496|ALGE3_AZOVI 1686 LL---------GGAGNDSLSGGAGNDILDGGAGRDTLSGGSGSDIFRFGD 1726
+                             23.........333333333333333333333333333333333333333 PP
+
+>> sp|P55126|FRPA_NEIMC  Iron-regulated protein FrpA OS=Neisseria meningitidis serogroup C OX=135720 GN=frpA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.2   6.1   2.5e-10   2.7e-06     509     576 ..     754     823 ..     715     859 .. 0.76
+   2 !   16.5  11.1   7.1e-06     0.077     495     563 ..     895     952 ..     878     956 .. 0.52
+   3 !   38.2  14.8   1.9e-12   2.1e-08     493     599 ..     938    1042 ..     936    1051 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 31.2 bits;  conditional E-value: 2.5e-10
+   HemolysinCabind.aln 509 lfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq..atdklvfmgvsGvdad 576
+                            fg++ +  l ++++n++++ggagnd +e g g++t++f   fGqd +  y   ++ k +     G+ ad
+  sp|P55126|FRPA_NEIMC 754 GFGHNKNVSLYGNDGNDTLIGGAGNDYLEGGSGSDTYVFGKGFGQDTVYNYDyaTGRKDIIRFTDGITAD 823
+                           59**********************************************9875214556666666665554 PP
+
+  == domain 2  score: 16.5 bits;  conditional E-value: 7.1e-06
+   HemolysinCabind.aln 495 aydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyqatd 563
+                             + +l    + d+l+g dg+dll +d +n+ +  g gnd ++ g g           +d + Gy + d
+  sp|P55126|FRPA_NEIMC 895 QSGSTLNGGLGDDYLYGADGNDLLNGDAGNDSIYSGNGNDTLDGGEG-----------NDALYGYNGND 952
+                           33444555555566666666666666666666666666665555444...........44444444444 PP
+
+  == domain 3  score: 38.2 bits;  conditional E-value: 1.9e-12
+   HemolysinCabind.aln  493 gdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyq...atdklvfmgvsGvdad 576 
+                            g  ++++l    + d l g +g+d+l ++++n++++ggagnd +e g g++t++f   fGqd +  y    ++d + f+g +     
+  sp|P55126|FRPA_NEIMC  938 GGEGNDALYGYNGNDALNGGEGNDHLNGEDGNDTLIGGAGNDYLEGGSGSDTYVFGEGFGQDTVYNYHvdkNSDTMHFKGFKA---- 1020
+                            66788999999********************************************************7222555555555554.... PP
+
+   HemolysinCabind.aln  577 qdyrdhlsssGndtvltf.Gedsv 599 
+                            +    h   sG+d vl+   +d v
+  sp|P55126|FRPA_NEIMC 1021 A--DVHFIRSGSDLVLSAsEQDNV 1042
+                            2..358888899988887334444 PP
+
+>> sp|Q44494|ALGE1_AZOVI  Mannuronan C5-epimerase AlgE1 OS=Azotobacter vinelandii OX=354 GN=algE1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.7   5.3   2.2e-08   0.00024     488     550 ..     383     445 ..     369     467 .. 0.92
+   2 !   20.4   5.4   4.5e-07    0.0048     477     548 ..     523     594 ..     485     616 .. 0.86
+   3 !   22.9   4.9   7.7e-08   0.00084     485     550 ..     694     755 ..     669     769 .. 0.89
+   4 !   20.8   6.1   3.4e-07    0.0037     366     547 ..    1229    1281 ..    1182    1301 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 24.7 bits;  conditional E-value: 2.2e-08
+    HemolysinCabind.aln 488 asslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGn 550
+                            + +l+g a++++l  +   + l+g+ gdd l +d +n+++ ggag d +  g g++tf fs +
+  sp|Q44494|ALGE1_AZOVI 383 QATLEGSAGNDALSGTEAHETLLGQAGDDRLNGDAGNDILDGGAGRDNLTGGAGADTFRFSAR 445
+                            46799*******************************************************975 PP
+
+  == domain 2  score: 20.4 bits;  conditional E-value: 4.5e-07
+    HemolysinCabind.aln 477 glkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfs 548
+                            gl + n+l   a    g  + + l  +  g+ l+g++g+d l ++ +++++vggag d +  g g++ f f 
+  sp|Q44494|ALGE1_AZOVI 523 GLFNDNNLLFDAAPATGTEGSDNLLGTDAGETLLGYGGNDTLNGGAGDDILVGGAGRDSLTGGAGADVFRFD 594
+                            667777777777777787777777788889***************************************996 PP
+
+  == domain 3  score: 22.9 bits;  conditional E-value: 7.7e-08
+    HemolysinCabind.aln 485 tayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGn 550
+                            t     ++g  ++++l+ +   + l+gldg d l ++ +++++ ggag d +  g g++tflfs +
+  sp|Q44494|ALGE1_AZOVI 694 T----IIEGTDGNDTLQGTEANERLLGLDGRDNLNGGAGDDILDGGAGRDTLTGGTGADTFLFSTR 755
+                            3....4788899999999999******************************************975 PP
+
+  == domain 4  score: 20.8 bits;  conditional E-value: 3.4e-07
+    HemolysinCabind.aln  366 kGstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdgdgtlylrdayggismtrdvg 451 
+                              G+  ++Gsd+nd + GG G+d l+GgaG+d +   +G + + gg g +++                                   
+  sp|Q44494|ALGE1_AZOVI 1229 DGNDVLVGSDANDQLYGGAGDDRLDGGAGDDLLDGGAGRDDLTGGTGADTF----------------------------------- 1279
+                             456666666666666666666666666666666666666666666666554................................... PP
+
+    HemolysinCabind.aln  452 alvsketgslwqlfkddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlme 537 
+                                                                                                                   
+  sp|Q44494|ALGE1_AZOVI    - --------------------------------------------------------------------------------------    -
+                             ...................................................................................... PP
+
+    HemolysinCabind.aln  538 agggnntflf 547 
+                                     +f
+  sp|Q44494|ALGE1_AZOVI 1280 --------VF 1281
+                             ........33 PP
+
+>> sp|Q44492|ALGE5_AZOVI  Mannuronan C5-epimerase AlgE5 OS=Azotobacter vinelandii OX=354 GN=algE5 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.7   3.9   7.2e-07    0.0078     488     548 ..     383     443 ..     361     458 .. 0.88
+   2 !   27.1   6.1   4.3e-09   4.7e-05     482     566 ..     528     614 ..     513     626 .. 0.80
+   3 !   15.2   0.3   1.7e-05      0.18     365     400 ..     696     731 ..     664     747 .. 0.67
+   4 !   11.3  17.6   0.00026       2.8     371     530 ..     836     988 ..     820     993 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 19.7 bits;  conditional E-value: 7.2e-07
+    HemolysinCabind.aln 488 asslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfs 548
+                            + +l+g +++++l  s   + l+gldg+d l ++ +n+++ ggag d +  g g++ f  s
+  sp|Q44492|ALGE5_AZOVI 383 QATLEGTTGNDTLTGSEAHETLLGLDGNDRLNGGAGNDILDGGAGRDNLTGGAGADLFRVS 443
+                            5678999999999999999999999999999999999999999999999999999988766 PP
+
+  == domain 2  score: 27.1 bits;  conditional E-value: 4.3e-09
+    HemolysinCabind.aln 482 nqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGq..drilGyqatdklv 566
+                            ++l      ++gda++n+l  +   + l+g+ g+d l +  +++++vggag d +  g g++ f f        +  +G  ++d++v
+  sp|Q44492|ALGE5_AZOVI 528 GNLIFERPVIEGDAGNNALLGTSAAETLLGHAGNDTLDGAGGDDILVGGAGRDTLTGGAGADLFRFDALSDSqrNYTTGDNQGDRIV 614
+                            45555566799*****************************************************99764433003345566666665 PP
+
+  == domain 3  score: 15.2 bits;  conditional E-value: 1.7e-05
+    HemolysinCabind.aln 365 hkGstfiiGsdgndlikGGkGndyleGgaGndtfrd 400
+                              G+  + G+ ++++++GG G d l GgaG d fr 
+  sp|Q44492|ALGE5_AZOVI 696 SAGNDSLQGTAADEIVHGGAGRDTLSGGAGADVFRF 731
+                            344455555666666666666666666666666553 PP
+
+  == domain 4  score: 11.3 bits;  conditional E-value: 0.00026
+    HemolysinCabind.aln 371 iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdg.dgtlylrdayggismtrdvgalvske 457
+                              Gs +++l  GG Gnd l+GgaGnd +   +G + + gg gs+++  +++l  +     g  gt  + d   g  +  d+ al    
+  sp|Q44492|ALGE5_AZOVI 836 DGGSAAEEL-LGGAGNDSLDGGAGNDILDGGAGRDTLSGGSGSDIFRYDDALDSFRNYGTGvTGTDTITDFTPGEDLI-DLSALGYTG 921
+                            234444444.47788888888888888888888888888888888888877776654333325777777777776653.666665444 PP
+
+    HemolysinCabind.aln 458 tgslwqlfkddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvv...fvgg 530
+                             g           ++ t   + +g+   +y +  + da +n +    dgd +  ld  d++ ++ a  +    vgg
+  sp|Q44492|ALGE5_AZOVI 922 LGD---------GYNGTLAVVLNGDGTRTYLKDRESDAEGNQFEIALDGDLVDRLDAGDFIFAEAAATTaieVVGG 988
+                            433.........2344555667888888999999999999999999999999999999999988877662224555 PP
+
+>> sp|Q57506|CYAA_BORBR  Bifunctional hemolysin/adenylate cyclase OS=Bordetella bronchiseptica (strain ATCC BAA-588 / NC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.2   1.2       6.3   6.8e+04     173     234 ..     573     633 ..     554     665 .. 0.69
+   2 !   14.7  16.0   2.4e-05      0.26     367     537 ..    1018    1068 ..     895    1110 .. 0.67
+   3 !   25.0  24.9   1.9e-08    0.0002     367     536 ..    1018    1190 ..    1010    1210 .. 0.74
+   4 !   19.1  21.3   1.1e-06     0.012     360     544 ..    1131    1313 ..    1123    1314 .. 0.73
+   5 !   22.8  33.8   8.3e-08   0.00089     373     567 ..    1289    1486 ..    1289    1504 .. 0.85
+   6 !   28.9   9.4   1.2e-09   1.3e-05     490     558 ..    1535    1603 ..    1521    1628 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: -3.2 bits;  conditional E-value: 6.3
+   HemolysinCabind.aln 173 knyageafdkllgkva.afaaaqGlsGkdvlvsGhslGGlgvnsladlssekwsgfykdanyl 234
+                            +++g +  +l+ ++a a+aaa+G++ + + v+G s G  ++   a+ls  ++ g+ ++++y 
+  sp|Q57506|CYAA_BORBR 573 LQLTGGTV-ELASSIAlALAAARGVT-SGLQVAGASAGAAAGALAAALSPMEIYGLVQQSHYA 633
+                           45554443.45666654788899975.446799999999999999999999999999998874 PP
+
+  == domain 2  score: 14.7 bits;  conditional E-value: 2.4e-05
+   HemolysinCabind.aln  367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdgdgtlylrdayggismtrdvgal 453 
+                            G+  i G   ++++ GG G+d l+GgaGndt+    G+n + gg g++v+                                     
+  sp|Q57506|CYAA_BORBR 1018 GNDSITGNAHDNFLAGGAGDDRLDGGAGNDTLVGGEGHNTVVGGAGDDVF------------------------------------- 1067
+                            55556666666666666666666666666666666666666666666653..................................... PP
+
+   HemolysinCabind.aln  454 vsketgslwqlfkddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlme 537 
+                                                                                                                
+  sp|Q57506|CYAA_BORBR 1068 -----------------------------------------------------------------------------------L 1068
+                            ...................................................................................3 PP
+
+  == domain 3  score: 25.0 bits;  conditional E-value: 1.9e-08
+   HemolysinCabind.aln  367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdg.dgtlylrdayggismtr.... 448 
+                            G+  i G   ++++ GG G+d l+GgaGndt+    G+n + gg g++v+   q l  +s   dg +g   ++      s  r    
+  sp|Q57506|CYAA_BORBR 1018 GNDSITGNAHDNFLAGGAGDDRLDGGAGNDTLVGGEGHNTVVGGAGDDVF--LQDLGVWSNQLDGgAGVDTVKYNVHQPSEERlerm 1102
+                            788899******************************************96..46777788776652565555544333333221112 PP
+
+   HemolysinCabind.aln  449 .dvgalvsketg..slwqlfk.ddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvgga 531 
+                             d g     + g    w  ++   v h    + l+ g   ++ ++s+ gd  dn l  + + d + g +gdd l ++ + +++ g  
+  sp|Q57506|CYAA_BORBR 1103 gDTGIHADLQKGtvEKWPALNlFSVDHVKNIENLH-G---SSLNDSIAGDDRDNELWGDDGNDTIHGRGGDDILRGGLGLDTLYGED 1185
+                            26665444444411445332202333333333443.3...46799****************************************** PP
+
+   HemolysinCabind.aln  532 gndlm 536 
+                            gnd++
+  sp|Q57506|CYAA_BORBR 1186 GNDIF 1190
+                            ***96 PP
+
+  == domain 4  score: 19.1 bits;  conditional E-value: 1.1e-06
+   HemolysinCabind.aln  360 rnaekhkGstf...iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdgdgtlylrdaygg 443 
+                            +n e+ +Gs++   i G d ++ + G  Gnd ++G+ G+d +r   G + ++g +g++++ lq+     s   dg   l   d    
+  sp|Q57506|CYAA_BORBR 1131 KNIENLHGSSLndsIAGDDRDNELWGDDGNDTIHGRGGDDILRGGLGLDTLYGEDGNDIF-LQDD-ETVSDDIDGGAGLDTVDYS-- 1213
+                            5566666655433388999999999*******************99**999999998875.4443.4445555555556555544.. PP
+
+   HemolysinCabind.aln  444 ismtrdvgalvsketgslwqlfkddvihsvtddglkagnqltayass...lrgdaydnvlkasvdgdwlfgldgddllisdkanvvf 527 
+                             +m      +  +e g+     + d++     +  + g ++ +  +s   + g + ++vl  +++ + l+g++gdd + ++++++ +
+  sp|Q57506|CYAA_BORBR 1214 -AMIHAGKIVAPHEYGFGI---EADLSEGWVRKAARRGMDYYDSVRSvenVIGTSMKDVLIGDAQANTLMGQGGDDTVRGGDGDDLL 1296
+                            .444444445679999864...456666666666666666555544411156899999***************************** PP
+
+   HemolysinCabind.aln  528 vggagndlmeagggnnt 544 
+                             gg gnd++    gn+t
+  sp|Q57506|CYAA_BORBR 1297 FGGDGNDMLYGDAGNDT 1313
+                            ********999999988 PP
+
+  == domain 5  score: 22.8 bits;  conditional E-value: 8.3e-08
+   HemolysinCabind.aln  373 GsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdgdgtlyl....rdayggismtr.dvgalv 454 
+                            G dg+dl+ GG Gnd l G aGndt+    G + + gg g++ +  q + +++ +   g+g   +      a+ g++  r  +g l 
+  sp|Q57506|CYAA_BORBR 1289 GGDGDDLLFGGDGNDMLYGDAGNDTLYGGLGDDTLEGGAGNDWFG-QTPAREHDVLRGGAGVDTVdysqAGAHAGVATGRiGLGILA 1374
+                            789*************************************88775.999********999965441111357788888885689999 PP
+
+   HemolysinCabind.aln  455 sketgslwqlfkddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeaggg 541 
+                               +g + +l +   +   t  g+++    t+ a+ + gda+ nvl+   + d l g +gdd l ++++++ + g ag d +    g
+  sp|Q57506|CYAA_BORBR 1375 DLGAGRVDKLGEAGSSAYDTVSGIENVV-GTELADRITGDAQANVLRGAGGADVLAGGEGDDVLLGGDGDDQLSGDAGRDRLYGEAG 1460
+                            999*******999999999*****9865.58999**********************************************9998888 PP
+
+   HemolysinCabind.aln  542 nntflfsGnfGqdrilGyqatdklvf 567 
+                            ++ f+       +++ G  + d + f
+  sp|Q57506|CYAA_BORBR 1461 DDWFFQDAANAGNLLDGGDGNDTVDF 1486
+                            88777655555556666666666655 PP
+
+  == domain 6  score: 28.9 bits;  conditional E-value: 1.2e-09
+   HemolysinCabind.aln  490 slrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilG 558 
+                             l gda+ nvl   ++ d l g  gdd l +d++ + + g agnd +  g g++t+lf   +G+d i  
+  sp|Q57506|CYAA_BORBR 1535 VLIGDAGANVLNGLAGNDVLSGGAGDDVLLGDEGSDLLSGDAGNDDLFGGQGDDTYLFGAGYGHDTIYE 1603
+                            578**************************************************************9974 PP
+
+>> sp|Q44495|ALGE2_AZOVI  Mannuronan C5-epimerase AlgE2 OS=Azotobacter vinelandii OX=354 GN=algE2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.4   7.7   7.2e-06     0.078     488     549 ..     383     444 ..     371     468 .. 0.89
+   2 !   29.6   6.8   7.4e-10     8e-06     481     548 ..     527     594 ..     515     617 .. 0.87
+   3 !   15.8  24.3   1.1e-05      0.12     365     553 ..     697     888 ..     673     937 .. 0.62
+   4 !   11.5  14.6   0.00022       2.4     368     443 ..     832     908 ..     821     993 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 16.4 bits;  conditional E-value: 7.2e-06
+    HemolysinCabind.aln 488 asslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsG 549
+                            + +l+g a++++l  s   + l+gldg+d l ++ +n+++ ggag d +  g g++ f  s 
+  sp|Q44495|ALGE2_AZOVI 383 QATLEGTAGNDTLGGSDAHETLLGLDGNDRLNGGAGNDILDGGAGRDNLTGGAGADLFRVSA 444
+                            5679999********9999******************************9999999887765 PP
+
+  == domain 2  score: 29.6 bits;  conditional E-value: 7.4e-10
+    HemolysinCabind.aln 481 gnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfs 548
+                             ++l    ++++gda+dn+l  +   + l+g+ g+d l ++ +++++vggag d +  g g++ f f 
+  sp|Q44495|ALGE2_AZOVI 527 AGNLLFERTAIEGDAGDNALLGTSAAETLLGHAGNDTLDGGAGDDILVGGAGRDSLTGGAGADVFRFD 594
+                            44455556799******************************************************996 PP
+
+  == domain 3  score: 15.8 bits;  conditional E-value: 1.1e-05
+    HemolysinCabind.aln 365 hkGstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdgdgtlylrdayggismtr.... 448
+                              G+  + G+ ++++i+GG G d l GgaG d fr s   +          l  +    +  i   g g   l + ygg    +    
+  sp|Q44495|ALGE2_AZOVI 697 SAGNDSLQGTAADEVIHGGGGRDTLAGGAGADVFRFSELTDSYRDSASYADLITDFDASEDRIDLSGLGFSGLGNGYGGTLALQvnsa 784
+                            5677778899999999999999999999998877655544444443333333333333333333444444445555554321110000 PP
+
+    HemolysinCabind.aln 449 .dvgalvsketgslwqlfkddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndl 535
+                                 l+s et +  + f+  +  ++++ g    n + +  + l g  ++++l  s   + l+g  g+d l ++ +n+++ ggag d 
+  sp|Q44495|ALGE2_AZOVI 785 gTRTYLKSFETNAAGERFEIALDGDLSALG--GANLILDARTVLAGGDGNDTLSGSSAAEELLGGVGNDSLDGGAGNDILDGGAGRDT 870
+                            011235555655555555544444444333..33444555556677777778888888888888888888888888888888888888 PP
+
+    HemolysinCabind.aln 536 meagggnntflfsGnfGq 553
+                            +  g g++ f f G +  
+  sp|Q44495|ALGE2_AZOVI 871 LSGGSGSDIFRFGGALDS 888
+                            888888888888776543 PP
+
+  == domain 4  score: 11.5 bits;  conditional E-value: 0.00022
+    HemolysinCabind.aln 368 stfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslkny.siasdgdgtlylrdaygg 443
+                            +  + Gs + + + GG Gnd l+GgaGnd +   +G + + gg gs+++ +  +l  +  +as  +gt  + d   g
+  sp|Q44495|ALGE2_AZOVI 832 NDTLSGSSAAEELLGGVGNDSLDGGAGNDILDGGAGRDTLSGGSGSDIFRFGGALDSFrNYASGTNGTDSITDFTPG 908
+                            44445555555566677777777777777776666777777777777776666666652345555666666655444 PP
+
+>> sp|J7QLC0|CYAA_BORP1  Bifunctional hemolysin/adenylate cyclase OS=Bordetella pertussis (strain ATCC 9797 / DSM 5571 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.2   1.2       6.3   6.8e+04     173     234 ..     573     633 ..     554     665 .. 0.69
+   2 !   11.6  17.5   0.00021       2.3     367     416 ..    1018    1067 ..     888    1112 .. 0.71
+   3 !   22.8  23.0   8.7e-08   0.00095     367     535 ..    1018    1189 ..    1011    1190 .. 0.73
+   4 !   17.9  21.7   2.6e-06     0.028     370     544 ..    1144    1313 ..    1121    1314 .. 0.57
+   5 !   24.5  36.4   2.7e-08   0.00029     367     565 ..    1283    1484 ..    1281    1505 .. 0.83
+   6 !   26.3  11.5   7.3e-09   7.9e-05     488     557 ..    1533    1602 ..    1512    1619 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -3.2 bits;  conditional E-value: 6.3
+   HemolysinCabind.aln 173 knyageafdkllgkva.afaaaqGlsGkdvlvsGhslGGlgvnsladlssekwsgfykdanyl 234
+                            +++g +  +l+ ++a a+aaa+G++ + + v+G s G  ++   a+ls  ++ g+ ++++y 
+  sp|J7QLC0|CYAA_BORP1 573 LQLTGGTV-ELASSIAlALAAARGVT-SGLQVAGASAGAAAGALAAALSPMEIYGLVQQSHYA 633
+                           45554443.45666654788899975.446799999999999999999999999999998874 PP
+
+  == domain 2  score: 11.6 bits;  conditional E-value: 0.00021
+   HemolysinCabind.aln  367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvl 416 
+                            G+  i G   ++++ GG+G+d l+GgaGndt+    G n + gg g++v+
+  sp|J7QLC0|CYAA_BORP1 1018 GNDSITGNAHDNFLAGGSGDDRLDGGAGNDTLVGGEGQNTVIGGAGDDVF 1067
+                            55566666666777777777777777777777777777777777776664 PP
+
+  == domain 3  score: 22.8 bits;  conditional E-value: 8.7e-08
+   HemolysinCabind.aln  367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdg.dgtlylrdaygg.....ismt 447 
+                            G+  i G   ++++ GG+G+d l+GgaGndt+    G n + gg g++v+   q l  +s   dg +g   ++          +   
+  sp|J7QLC0|CYAA_BORP1 1018 GNDSITGNAHDNFLAGGSGDDRLDGGAGNDTLVGGEGQNTVIGGAGDDVF--LQDLGVWSNQLDGgAGVDTVKYNVHQpseerLERM 1102
+                            788899******************************************97..46777788776652565555544333000014444 PP
+
+   HemolysinCabind.aln  448 rdvgalvsketg..slwqlfk.ddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvgga 531 
+                             d g     + g    w  ++   v h    + l+ g   ++ ++ + gd +dn l  + + d + g +gdd l ++ + +++ g  
+  sp|J7QLC0|CYAA_BORP1 1103 GDTGIHADLQKGtvEKWPALNlFSVDHVKNIENLH-G---SRLNDRIAGDDQDNELWGHDGNDTIRGRGGDDILRGGLGLDTLYGED 1185
+                            46665444444411445333302333333333343.3...456899***************************************** PP
+
+   HemolysinCabind.aln  532 gndl 535 
+                            gnd+
+  sp|J7QLC0|CYAA_BORP1 1186 GNDI 1189
+                            ***8 PP
+
+  == domain 4  score: 17.9 bits;  conditional E-value: 2.6e-06
+   HemolysinCabind.aln  370 fiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdgdgtlylrdayggismtrdvgalvsk 456 
+                             i G d ++ + G  Gnd + G+ G+d +r   G + ++g +g++++ lq+     s   dg   l   d    i   r    +  +
+  sp|J7QLC0|CYAA_BORP1 1144 RIAGDDQDNELWGHDGNDTIRGRGGDDILRGGLGLDTLYGEDGNDIF-LQD-DETVSDDIDGGAGLDTVDYSAMIHPGR---IVAPH 1225
+                            24455555555555555555555555555555555555555554443.222.233344444444454445444444433...44568 PP
+
+   HemolysinCabind.aln  457 etgslwq.lfkddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggn 542 
+                            e g+  +  +  + + + ++ g++  +++ +  + + g + ++vl  +++ + l+g++gdd + ++++++ + gg gnd++    gn
+  sp|J7QLC0|CYAA_BORP1 1226 EYGFGIEaDLSREWVRKASALGVDYYDNVRN-VENVIGTSMKDVLIGDAQANTLMGQGGDDTVRGGDGDDLLFGGDGNDMLYGDAGN 1311
+                            8887543134555556666666666555544.4556788888888888888888888888888888888888888888888888887 PP
+
+   HemolysinCabind.aln  543 nt 544 
+                            +t
+  sp|J7QLC0|CYAA_BORP1 1312 DT 1313
+                            77 PP
+
+  == domain 5  score: 24.5 bits;  conditional E-value: 2.7e-08
+   HemolysinCabind.aln  367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdgdg..tl.yl.rdayggismtr. 448 
+                            G+  + G dg+dl+ GG Gnd l G aGndt+    G + + gg g++ +   q+ +++ +   gdg  t+ y    a+ gi+  r 
+  sp|J7QLC0|CYAA_BORP1 1283 GDDTVRGGDGDDLLFGGDGNDMLYGDAGNDTLYGGLGDDTLEGGAGNDWFGQTQA-REHDVLRGGDGvdTVdYSqTGAHAGIAAGRi 1368
+                            5666889***************************************999986665.556665555551155233246899***9995 PP
+
+   HemolysinCabind.aln  449 dvgalvsketgslwqlfkddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndl 535 
+                             +g l    +g + +l +   +   t  g+++    t+ a+ + gda+ nvl+   + d l g +gdd l ++++++ + g ag d 
+  sp|J7QLC0|CYAA_BORP1 1369 GLGILADLGAGRVDKLGEAGSSAYDTVSGIENVV-GTELADRITGDAQANVLRGAGGADVLAGGEGDDVLLGGDGDDQLSGDAGRDR 1454
+                            69999*************************9965.58999**********************************************9 PP
+
+   HemolysinCabind.aln  536 meagggnntflfsGnfGqdrilGyqatdkl 565 
+                            +    g++ f+       +++ G  + d +
+  sp|J7QLC0|CYAA_BORP1 1455 LYGEAGDDWFFQDAANAGNLLDGGDGRDTV 1484
+                            998888887765555444555555555555 PP
+
+  == domain 6  score: 26.3 bits;  conditional E-value: 7.3e-09
+   HemolysinCabind.aln  488 asslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdril 557 
+                            ++ l gda+ nvl   ++ d l g  gdd l +d++ + + g agnd +  g g++t+lf   +G+d i 
+  sp|J7QLC0|CYAA_BORP1 1533 DDVLIGDAGANVLNGLAGNDVLSGGAGDDVLLGDEGSDLLSGDAGNDDLFGGQGDDTYLFGVGYGHDTIY 1602
+                            56789**************************************************************996 PP
+
+>> sp|P0DKX7|CYAA_BORPE  Bifunctional hemolysin/adenylate cyclase OS=Bordetella pertussis (strain Tohama I / ATCC BAA-58
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.2   1.2       6.3   6.8e+04     173     234 ..     573     633 ..     554     665 .. 0.69
+   2 !   11.6  17.5   0.00021       2.3     367     416 ..    1018    1067 ..     888    1112 .. 0.71
+   3 !   22.8  23.0   8.7e-08   0.00095     367     535 ..    1018    1189 ..    1011    1190 .. 0.73
+   4 !   17.9  21.7   2.6e-06     0.028     370     544 ..    1144    1313 ..    1121    1314 .. 0.57
+   5 !   24.5  36.4   2.7e-08   0.00029     367     565 ..    1283    1484 ..    1281    1505 .. 0.83
+   6 !   26.3  11.5   7.3e-09   7.9e-05     488     557 ..    1533    1602 ..    1512    1619 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -3.2 bits;  conditional E-value: 6.3
+   HemolysinCabind.aln 173 knyageafdkllgkva.afaaaqGlsGkdvlvsGhslGGlgvnsladlssekwsgfykdanyl 234
+                            +++g +  +l+ ++a a+aaa+G++ + + v+G s G  ++   a+ls  ++ g+ ++++y 
+  sp|P0DKX7|CYAA_BORPE 573 LQLTGGTV-ELASSIAlALAAARGVT-SGLQVAGASAGAAAGALAAALSPMEIYGLVQQSHYA 633
+                           45554443.45666654788899975.446799999999999999999999999999998874 PP
+
+  == domain 2  score: 11.6 bits;  conditional E-value: 0.00021
+   HemolysinCabind.aln  367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvl 416 
+                            G+  i G   ++++ GG+G+d l+GgaGndt+    G n + gg g++v+
+  sp|P0DKX7|CYAA_BORPE 1018 GNDSITGNAHDNFLAGGSGDDRLDGGAGNDTLVGGEGQNTVIGGAGDDVF 1067
+                            55566666666777777777777777777777777777777777776664 PP
+
+  == domain 3  score: 22.8 bits;  conditional E-value: 8.7e-08
+   HemolysinCabind.aln  367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdg.dgtlylrdaygg.....ismt 447 
+                            G+  i G   ++++ GG+G+d l+GgaGndt+    G n + gg g++v+   q l  +s   dg +g   ++          +   
+  sp|P0DKX7|CYAA_BORPE 1018 GNDSITGNAHDNFLAGGSGDDRLDGGAGNDTLVGGEGQNTVIGGAGDDVF--LQDLGVWSNQLDGgAGVDTVKYNVHQpseerLERM 1102
+                            788899******************************************97..46777788776652565555544333000014444 PP
+
+   HemolysinCabind.aln  448 rdvgalvsketg..slwqlfk.ddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvgga 531 
+                             d g     + g    w  ++   v h    + l+ g   ++ ++ + gd +dn l  + + d + g +gdd l ++ + +++ g  
+  sp|P0DKX7|CYAA_BORPE 1103 GDTGIHADLQKGtvEKWPALNlFSVDHVKNIENLH-G---SRLNDRIAGDDQDNELWGHDGNDTIRGRGGDDILRGGLGLDTLYGED 1185
+                            46665444444411445333302333333333343.3...456899***************************************** PP
+
+   HemolysinCabind.aln  532 gndl 535 
+                            gnd+
+  sp|P0DKX7|CYAA_BORPE 1186 GNDI 1189
+                            ***8 PP
+
+  == domain 4  score: 17.9 bits;  conditional E-value: 2.6e-06
+   HemolysinCabind.aln  370 fiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdgdgtlylrdayggismtrdvgalvsk 456 
+                             i G d ++ + G  Gnd + G+ G+d +r   G + ++g +g++++ lq+     s   dg   l   d    i   r    +  +
+  sp|P0DKX7|CYAA_BORPE 1144 RIAGDDQDNELWGHDGNDTIRGRGGDDILRGGLGLDTLYGEDGNDIF-LQD-DETVSDDIDGGAGLDTVDYSAMIHPGR---IVAPH 1225
+                            24455555555555555555555555555555555555555554443.222.233344444444454445444444433...44568 PP
+
+   HemolysinCabind.aln  457 etgslwq.lfkddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggn 542 
+                            e g+  +  +  + + + ++ g++  +++ +  + + g + ++vl  +++ + l+g++gdd + ++++++ + gg gnd++    gn
+  sp|P0DKX7|CYAA_BORPE 1226 EYGFGIEaDLSREWVRKASALGVDYYDNVRN-VENVIGTSMKDVLIGDAQANTLMGQGGDDTVRGGDGDDLLFGGDGNDMLYGDAGN 1311
+                            8887543134555556666666666555544.4556788888888888888888888888888888888888888888888888887 PP
+
+   HemolysinCabind.aln  543 nt 544 
+                            +t
+  sp|P0DKX7|CYAA_BORPE 1312 DT 1313
+                            77 PP
+
+  == domain 5  score: 24.5 bits;  conditional E-value: 2.7e-08
+   HemolysinCabind.aln  367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdgdg..tl.yl.rdayggismtr. 448 
+                            G+  + G dg+dl+ GG Gnd l G aGndt+    G + + gg g++ +   q+ +++ +   gdg  t+ y    a+ gi+  r 
+  sp|P0DKX7|CYAA_BORPE 1283 GDDTVRGGDGDDLLFGGDGNDMLYGDAGNDTLYGGLGDDTLEGGAGNDWFGQTQA-REHDVLRGGDGvdTVdYSqTGAHAGIAAGRi 1368
+                            5666889***************************************999986665.556665555551155233246899***9995 PP
+
+   HemolysinCabind.aln  449 dvgalvsketgslwqlfkddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndl 535 
+                             +g l    +g + +l +   +   t  g+++    t+ a+ + gda+ nvl+   + d l g +gdd l ++++++ + g ag d 
+  sp|P0DKX7|CYAA_BORPE 1369 GLGILADLGAGRVDKLGEAGSSAYDTVSGIENVV-GTELADRITGDAQANVLRGAGGADVLAGGEGDDVLLGGDGDDQLSGDAGRDR 1454
+                            69999*************************9965.58999**********************************************9 PP
+
+   HemolysinCabind.aln  536 meagggnntflfsGnfGqdrilGyqatdkl 565 
+                            +    g++ f+       +++ G  + d +
+  sp|P0DKX7|CYAA_BORPE 1455 LYGEAGDDWFFQDAANAGNLLDGGDGRDTV 1484
+                            998888887765555444555555555555 PP
+
+  == domain 6  score: 26.3 bits;  conditional E-value: 7.3e-09
+   HemolysinCabind.aln  488 asslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdril 557 
+                            ++ l gda+ nvl   ++ d l g  gdd l +d++ + + g agnd +  g g++t+lf   +G+d i 
+  sp|P0DKX7|CYAA_BORPE 1533 DDVLIGDAGANVLNGLAGNDVLSGGAGDDVLLGDEGSDLLSGDAGNDDLFGGQGDDTYLFGVGYGHDTIY 1602
+                            56789**************************************************************996 PP
+
+>> sp|Q9ZFG9|ALGE7_AZOVI  Alginate lyase 7 OS=Azotobacter vinelandii OX=354 GN=algE7 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.9  27.8   6.5e-07    0.0071     363     564 ..     386     598 ..     346     605 .. 0.62
+   2 !    9.5   4.2   0.00093        10     367     400 ..     568     601 ..     564     622 .. 0.62
+   3 !   11.1   6.2   0.00029       3.1     373     431 ..     706     764 ..     697     833 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 19.9 bits;  conditional E-value: 6.5e-07
+    HemolysinCabind.aln 363 ekhkGstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdg..dgtlylrdayggismtr 448
+                            +  +G+ ++ G+   dli GG+Gnd l G aGnd +   +G + + gg+g +++ +      y  as    d  l +  ++  i +t 
+  sp|Q9ZFG9|ALGE7_AZOVI 386 DGSTGNDLLTGTPIADLIVGGSGNDTLSGDAGNDVLEGGAGSDRLTGGEGADIFRFTAVSDSYYTASSSvaDQILDFDASNDRIDLTG 473
+                            5568999999999999999999999999999999999999999999999999999999888888776642155566666677787774 PP
+
+    HemolysinCabind.aln 449 .dvgalvsketgslwqlfkddvi...............hsvtddglkag....nqltayasslrgdaydnvlkasvdgdwlfgldgdd 516
+                                 l     g+l  l + d +                s+t dg   g    ++l    +++ g  +d+ l  ++  + l g  g+d
+  sp|Q9ZFG9|ALGE7_AZOVI 474 lGFTGLGDGYGGTLAVLANSDGSrtylrsyekdadgryFSLTLDGNFVGrlddSNLVFRHKTIAGTEGDDSLTGNAMAEILDGGSGND 561
+                            2333444444444555544444400000000000011144455544333111123333444455555555555555555555555555 PP
+
+    HemolysinCabind.aln 517 llisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyqatdk 564
+                             l+++ +n+v+ ggag+d+++           G +G d++ G  ++d 
+  sp|Q9ZFG9|ALGE7_AZOVI 562 SLAGGLGNDVLRGGAGDDILN-----------GGLGRDQLSGGEGADI 598
+                            555555555555555555555...........5555555555555555 PP
+
+  == domain 2  score: 9.5 bits;  conditional E-value: 0.00093
+    HemolysinCabind.aln 367 GstfiiGsdgndlikGGkGndyleGgaGndtfrd 400
+                            G+  + G  g+d+++GG G d l Gg+G d fr 
+  sp|Q9ZFG9|ALGE7_AZOVI 568 GNDVLRGGAGDDILNGGLGRDQLSGGEGADIFRF 601
+                            4444556666666666666666666666666664 PP
+
+  == domain 3  score: 11.1 bits;  conditional E-value: 0.00029
+    HemolysinCabind.aln 373 GsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdg 431
+                            G++ n+ + GG G d l+GgaG+d +   +  + + gg g +v+ ++ +l  +   ++g
+  sp|Q9ZFG9|ALGE7_AZOVI 706 GTELNEELLGGAGRDILNGGAGDDILDGGSERDTLTGGSGADVFRFNATLDSFRNYDNG 764
+                            88889999999999999999999999999999999999999999999988876544444 PP
+
+>> sp|P55131|RTX32_ACTPL  RTX-III toxin determinant A from serotype 8 OS=Actinobacillus pleuropneumoniae OX=715 GN=apxII
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.7   0.1         9   9.7e+04     561     590 ..     582     611 ..     578     636 .. 0.76
+   2 ?   -3.2   0.0       6.4     7e+04     392     417 ..     629     654 ..     612     665 .. 0.84
+   3 !   17.7  10.1     3e-06     0.033     365     415 ..     743     796 ..     736     798 .. 0.86
+   4 !   15.4  11.0   1.5e-05      0.16     367     416 ..     784     834 ..     783     835 .. 0.89
+   5 !   17.8   7.1   2.8e-06      0.03     371     414 ..     834     880 ..     830     908 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -3.7 bits;  conditional E-value: 9
+    HemolysinCabind.aln 561 atdklvfmgvsGvdadqdyrdhlsssGndt 590
+                            + dk v +gv+   a +dy + ++++   +
+  sp|P55131|RTX32_ACTPL 582 GKDKWVVNGVKDKGAVYDYTNLIQHAHISS 611
+                            789*******999999**998766655444 PP
+
+  == domain 2  score: -3.2 bits;  conditional E-value: 6.4
+    HemolysinCabind.aln 392 gaGndtfrdsgGyniilggqgsnvle 417
+                            g+Gnd++   +G   i+ g+g++v+ 
+  sp|P55131|RTX32_ACTPL 629 GNGNDKVFLAAGSAEIHAGEGHDVVY 654
+                            67899999999999999999998864 PP
+
+  == domain 3  score: 17.7 bits;  conditional E-value: 3e-06
+    HemolysinCabind.aln 365 hkGstf...iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnv 415
+                             kGs f     G+dg+dl++G  G+d l G +Gnd +r + G + ++gg+g++ 
+  sp|P55131|RTX32_ACTPL 743 FKGSKFrdiFHGADGDDLLNGNDGDDILYGDKGNDELRGDNGNDQLYGGEGNDK 796
+                            67777644246****************************************876 PP
+
+  == domain 4  score: 15.4 bits;  conditional E-value: 1.5e-05
+    HemolysinCabind.aln 367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsg.Gyniilggqgsnvl 416
+                            G+  + G +gnd + GG+Gn+yl Gg Gnd ++  g G+n++ gg+g++ l
+  sp|P55131|RTX32_ACTPL 784 GNDQLYGGEGNDKLLGGNGNNYLSGGDGNDELQVLGnGFNVLRGGKGDDKL 834
+                            6667889*************************97544**********8765 PP
+
+  == domain 5  score: 17.8 bits;  conditional E-value: 2.8e-06
+    HemolysinCabind.aln 371 iiGsdgndlikGGkGndyleGgaGnd..tfrdsgGyniil.ggqgsn 414
+                            + Gs g dl+ GG+GndyleGg G d   +r  +G   i+  g+ s+
+  sp|P55131|RTX32_ACTPL 834 LYGSSGSDLLDGGEGNDYLEGGDGSDfyVYRSTSGNHTIYdQGKSSD 880
+                            679***********************444688888665551444443 PP
+
+>> sp|P15728|NODO_RHILV  Nodulation protein O OS=Rhizobium leguminosarum bv. viciae OX=387 GN=nodO PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6   7.6   1.2e-08   0.00013     369     418 ..      10      59 ..       2      88 .. 0.81
+   2 !    9.4   1.2   0.00096        10     513     548 ..      97     132 ..      91     142 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 25.6 bits;  conditional E-value: 1.2e-08
+   HemolysinCabind.aln 369 tfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlel 418
+                           +fi Gs  nd+i GGk nd+++ g+G+d+++   G + i  g g++++  
+  sp|P15728|NODO_RHILV  10 SFIKGSPENDIIDGGKKNDWIDAGNGDDRIKAGDGQDSITAGPGHDIVWA 59 
+                           6*****************************************99998754 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 0.00096
+   HemolysinCabind.aln 513 dgddllisdkanvvfvggagndlmeagggnntflfs 548
+                           +gdd l ++ + +++v g g d++  g  +++f+f 
+  sp|P15728|NODO_RHILV  97 EGDDVLYAGPGSDILVAGDGADVLTGGDDGDAFVFR 132
+                           79*******************************996 PP
+
+>> sp|P16462|LTXA_AGGAC  Leukotoxin OS=Aggregatibacter actinomycetemcomitans OX=714 GN=ltxA PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.5  16.5   0.00011       1.2     468     552 ..     698     788 ..     611     790 .. 0.50
+   2 !   10.7  11.5   0.00041       4.4     367     412 ..     779     824 ..     774     824 .. 0.59
+   3 !   17.8   6.7   2.8e-06      0.03     367     435 ..     815     887 ..     814     899 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.00011
+   HemolysinCabind.aln 468 dvihsvtddglkagnqltaya........sslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfs 548
+                            + +  t++g+ka ++l + +        +   g  +++v+  + + d ++g+dgdd l +d++n+ + gg gnd +  g gn   lf 
+  sp|P16462|LTXA_AGGAC 698 KLDYYYTNKGFKAHDELNSVEeiigstlrDKFYGSKFNDVFHGHDGDDLIYGYDGDDRLYGDNGNDEIHGGQGNDKLYGGAGN-DRLF- 784
+                           34445566666666666544311110000334466677888889999999999999999999999999999999998766555.4555. PP
+
+   HemolysinCabind.aln 549 GnfG 552
+                           G++G
+  sp|P16462|LTXA_AGGAC 785 GEYG 788
+                           5666 PP
+
+  == domain 2  score: 10.7 bits;  conditional E-value: 0.00041
+   HemolysinCabind.aln 367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqg 412
+                           G+  + G  gn+++ GG+G+d+leGg+G d +r  +G + ++g qg
+  sp|P16462|LTXA_AGGAC 779 GNDRLFGEYGNNYLDGGEGDDHLEGGNGSDILRGGSGNDKLFGNQG 824
+                           4444556666666666666666666666666666666666666665 PP
+
+  == domain 3  score: 17.8 bits;  conditional E-value: 2.8e-06
+   HemolysinCabind.aln 367 GstfiiGsdgndlikGGkGndyleGgaGndt..frdsgGyniilggqg.snvlelqq.slknysiasdgdgtl 435
+                           G+  + G +g+dl+ GG+G+d l Gg+Gnd   +r + G+  i    g ++ l l + +lk+ s+  +g+  l
+  sp|P16462|LTXA_AGGAC 815 GNDKLFGNQGDDLLDGGEGDDQLAGGEGNDIyvYRKEYGHHTITEHSGdKDKLSLANiNLKDVSFERNGNDLL 887
+                           666788************************6336999999999777762467888653899999999998765 PP
+
+>> sp|P55130|RTX31_ACTPL  RTX-III toxin determinant A from serotype 2 OS=Actinobacillus pleuropneumoniae OX=715 GN=apxII
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.6   0.1       8.6   9.3e+04     561     591 ..     582     612 ..     578     637 .. 0.76
+   2 ?   -3.4   0.0       7.1   7.7e+04     392     416 ..     629     653 ..     614     660 .. 0.84
+   3 !   16.7  10.9   5.9e-06     0.064     364     415 ..     741     795 ..     730     796 .. 0.86
+   4 !   15.0   9.2     2e-05      0.21     372     416 ..     788     833 ..     786     834 .. 0.90
+   5 !   17.0   8.7   4.8e-06     0.052     366     414 ..     828     879 ..     828     939 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: -3.6 bits;  conditional E-value: 8.6
+    HemolysinCabind.aln 561 atdklvfmgvsGvdadqdyrdhlsssGndtv 591
+                            + dk v +gv+   a +dy + ++++   + 
+  sp|P55130|RTX31_ACTPL 582 GKDKWVVNGVKDKGAVYDYTNLIQHAHISSS 612
+                            789*******999999**9987666555444 PP
+
+  == domain 2  score: -3.4 bits;  conditional E-value: 7.1
+    HemolysinCabind.aln 392 gaGndtfrdsgGyniilggqgsnvl 416
+                            g+Gnd++   +G   i+ g+g++v+
+  sp|P55130|RTX31_ACTPL 629 GNGNDKVFLAAGSAEIHAGEGHDVV 653
+                            6799999999999999999999886 PP
+
+  == domain 3  score: 16.7 bits;  conditional E-value: 5.9e-06
+    HemolysinCabind.aln 364 khkGstf...iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnv 415
+                            + kGs f     G+dg+dl++G  G+d l G +Gnd +r + G + ++gg+g++ 
+  sp|P55130|RTX31_ACTPL 741 EFKGSKFrdiFHGADGDDLLNGNDGDDILYGDKGNDELRGDNGNDQLYGGEGDDK 795
+                            567777754346****************************************875 PP
+
+  == domain 4  score: 15.0 bits;  conditional E-value: 2e-05
+    HemolysinCabind.aln 372 iGsdgndlikGGkGndyleGgaGndtfrdsg.Gyniilggqgsnvl 416
+                             G +g+d + GG+Gn+yl Gg Gnd ++  g G+n++ gg+g++ l
+  sp|P55130|RTX31_ACTPL 788 YGGEGDDKLLGGNGNNYLSGGDGNDELQVLGnGFNVLRGGKGDDKL 833
+                            5899***********************97544**********8765 PP
+
+  == domain 5  score: 17.0 bits;  conditional E-value: 4.8e-06
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGnd..tfrdsgGynii.lggqgsn 414
+                            kG+  + Gs g dl+ GG+GndyleGg G d   +r  +G   i   g+ s+
+  sp|P55130|RTX31_ACTPL 828 KGDDKLYGSSGSDLLDGGEGNDYLEGGDGSDfyVYRSTSGNHTIyDQGKASD 879
+                            5777789************************434688777554404565554 PP
+
+>> sp|Q9ZFH0|ALGE6_AZOVI  Mannuronan C5-epimerase AlgE6 OS=Azotobacter vinelandii OX=354 GN=algE6 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.9   5.6   5.1e-06     0.055     366     416 ..     385     435 ..     380     446 .. 0.91
+   2 !   10.5   2.3   0.00045       4.9     371     547 ..     569     598 ..     535     640 .. 0.66
+   3 ?    1.6   0.8      0.23   2.5e+03     369     398 ..     701     730 ..     697     735 .. 0.87
+   4 !   12.4   4.2   0.00012       1.3     371     419 ..     730     781 ..     725     803 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 16.9 bits;  conditional E-value: 5.1e-06
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvl 416
+                             G+  +iGsd  + i GG G+d l+GgaG+d +   +G + + gg g +++
+  sp|Q9ZFH0|ALGE6_AZOVI 385 DGNDVLIGSDVGEQISGGAGDDRLDGGAGDDLLDGGAGRDRLTGGLGADTF 435
+                            589999***************************99**********999886 PP
+
+  == domain 2  score: 10.5 bits;  conditional E-value: 0.00045
+    HemolysinCabind.aln 371 iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvlelqqslknysiasdgdgtlylrdayggismtrdvgalvsket 458
+                            + G  g dl+ GG G d l Gg+G dtfr                                                           
+  sp|Q9ZFH0|ALGE6_AZOVI 569 LYGYGGGDLLDGGAGRDRLTGGEGADTFR----------------------------------------------------------- 597
+                            33444455555555555555555555554........................................................... PP
+
+    HemolysinCabind.aln 459 gslwqlfkddvihsvtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntfl 546
+                                                                                                                    
+  sp|Q9ZFH0|ALGE6_AZOVI   - ----------------------------------------------------------------------------------------   -
+                            ........................................................................................ PP
+
+    HemolysinCabind.aln 547 f 547
+                            f
+  sp|Q9ZFH0|ALGE6_AZOVI 598 F 598
+                            3 PP
+
+  == domain 3  score: 1.6 bits;  conditional E-value: 0.23
+    HemolysinCabind.aln 369 tfiiGsdgndlikGGkGndyleGgaGndtf 398
+                            t ++Gsd +d ++G  G++ + Gg G d++
+  sp|Q9ZFH0|ALGE6_AZOVI 701 TPVVGSDLDDELHGTLGSEQILGGGGADQL 730
+                            6689*****************999999987 PP
+
+  == domain 4  score: 12.4 bits;  conditional E-value: 0.00012
+    HemolysinCabind.aln 371 iiGsdgndlikGGkGndyleGgaGndtfr...dsgGyniilggqgsnvlelq 419
+                            + G  gndl+ GG G d l Gg+G dtfr    +  +   lg  g+ +l+++
+  sp|Q9ZFH0|ALGE6_AZOVI 730 LYGYAGNDLLDGGAGRDKLSGGEGADTFRfalREDSHRSPLGTFGDRILDFD 781
+                            56889***********************933324455566777777777665 PP
+
+>> sp|Q9RCG8|PAXA_PASAE  Exotoxin PaxA OS=Pasteurella aerogenes OX=749 GN=paxA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.2  11.3   0.00056         6     392     542 ..     629     785 ..     625     789 .. 0.55
+   2 !   14.4  11.7   2.9e-05      0.31     367     416 ..     784     834 ..     782     835 .. 0.89
+   3 !   13.0   7.3   7.9e-05      0.86     366     412 ..     829     878 ..     829     891 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.00056
+   HemolysinCabind.aln 392 gaGndtfrdsgGyniilggqgsnvlelqqslknysi......asdgdgtlylrdayggismtrdvgalvsketgslwql..fkddvihs 472
+                           g+Gnd++   +G   i+ g+g++v+  +++     +      +++gd t+  r+  g   + r+v   +    gs  +   ++d+   +
+  sp|Q9RCG8|PAXA_PASAE 629 GKGNDKVFLASGSAEIHAGDGHDVVYYDKTDTGLLMvdgtqaTKQGDYTV-TRELSGATQILREVVKNQKSSVGSRQETveYRDNELAQ 716
+                           56777777777777777777777776665543333300000033333333.57777777777777777777777665542255666667 PP
+
+   HemolysinCabind.aln 473 vtddglkagnqltayasslrgdaydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggn 542
+                             +  lka ++l + ++ + g  + + +k s   d + g dgddll ++++++++ g  gnd ++   gn
+  sp|Q9RCG8|PAXA_PASAE 717 SGNSNLKAKDNLYSVEE-IIGSNHRDEFKGSKFRDIFHGADGDDLLNGNDGDDILYGDKGNDELRGDNGN 785
+                           77777777776655544.3344444445555555666666666666666666666666666655544443 PP
+
+  == domain 2  score: 14.4 bits;  conditional E-value: 2.9e-05
+   HemolysinCabind.aln 367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsg.Gyniilggqgsnvl 416
+                           G+  + G +gnd + GG+Gn+yl Gg G+d ++  g G+n++ gg+g++ l
+  sp|Q9RCG8|PAXA_PASAE 784 GNDQLYGGEGNDKLFGGNGNNYLSGGDGDDELQVLGnGFNVLRGGKGNDKL 834
+                           777789**************************97544**********9765 PP
+
+  == domain 3  score: 13.0 bits;  conditional E-value: 7.9e-05
+   HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGnd..tfrdsgGyniil.ggqg 412
+                           kG+  + G  g d++ GG+G+dyl Gg+Gnd   +r  +G   i+  g+ 
+  sp|Q9RCG8|PAXA_PASAE 829 KGNDKLYGGAGSDFLDGGEGDDYLAGGEGNDfyVYRSTSGNHTIYdQGKS 878
+                           577778899**********************4336887775555414544 PP
+
+>> sp|P55128|RTX11_ACTPL  RTX-I toxin determinant A from serotypes 1/9 OS=Actinobacillus pleuropneumoniae OX=715 GN=apxI
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.1       1.5   1.6e+04     393     417 ..     614     638 ..     601     654 .. 0.84
+   2 !    8.9   9.1    0.0014        15     372     413 ..     730     771 ..     708     774 .. 0.65
+   3 !   19.5  11.8   8.6e-07    0.0093     367     416 ..     770     820 ..     767     821 .. 0.92
+   4 !   10.8   8.6   0.00037         4     367     436 ..     816     889 ..     815     913 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 1.5
+    HemolysinCabind.aln 393 aGndtfrdsgGyniilggqgsnvle 417
+                            + nd++  s+G  i++ g+g++v  
+  sp|P55128|RTX11_ACTPL 614 EKNDRIYLSSGSSIVYAGNGHDVAY 638
+                            569******************9865 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.0014
+    HemolysinCabind.aln 372 iGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgs 413
+                             Gs   d+ +G kG+d + G+ G+d +  + G ++i+gg+g+
+  sp|P55128|RTX11_ACTPL 730 FGSRFTDIFHGAKGDDEIYGNDGHDILYGDDGNDVIHGGDGN 771
+                            356666666666666666666666666666666666666665 PP
+
+  == domain 3  score: 19.5 bits;  conditional E-value: 8.6e-07
+    HemolysinCabind.aln 367 GstfiiGsdgndlikGGkGndyleGgaGndtfrd.sgGyniilggqgsnvl 416
+                            G+  ++G +gnd + GGkGn++l+Gg G+d ++  +g yn++lgg g+++l
+  sp|P55128|RTX11_ACTPL 770 GNDHLVGGNGNDRLIGGKGNNFLNGGDGDDELQVfEGQYNVLLGGAGNDIL 820
+                            88999***************************963778*********9987 PP
+
+  == domain 4  score: 10.8 bits;  conditional E-value: 0.00037
+    HemolysinCabind.aln 367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGy...niilggqgsnvlel.qqslknysiasdgdgtly 436
+                            G+  + Gsdg +l  GG Gnd + Gg G+d +r s  y    ii  g  +++l l + s k+  +   gd  l 
+  sp|P55128|RTX11_ACTPL 816 GNDILYGSDGTNLFDGGVGNDKIYGGLGKDIYRYSKEYgrhIIIEKGGDDDTLLLsDLSFKDVGFIRIGDDLLV 889
+                            788899**************************988654221456555555555551568999888877775443 PP
+
+>> sp|P55129|RTX12_ACTPL  RTX-I toxin determinant A from serotypes 5/10 OS=Actinobacillus pleuropneumoniae OX=715 GN=apx
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.1       1.5   1.6e+04     393     417 ..     614     638 ..     601     654 .. 0.84
+   2 !    8.9   9.1    0.0014        15     372     413 ..     730     771 ..     708     774 .. 0.65
+   3 !   19.5  11.8   8.6e-07    0.0093     367     416 ..     770     820 ..     767     821 .. 0.92
+   4 !   10.8   8.6   0.00037         4     367     436 ..     816     889 ..     815     913 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 1.5
+    HemolysinCabind.aln 393 aGndtfrdsgGyniilggqgsnvle 417
+                            + nd++  s+G  i++ g+g++v  
+  sp|P55129|RTX12_ACTPL 614 EKNDRIYLSSGSSIVYAGNGHDVAY 638
+                            569******************9865 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.0014
+    HemolysinCabind.aln 372 iGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgs 413
+                             Gs   d+ +G kG+d + G+ G+d +  + G ++i+gg+g+
+  sp|P55129|RTX12_ACTPL 730 FGSRFTDIFHGAKGDDEIYGNDGHDILYGDDGNDVIHGGDGN 771
+                            356666666666666666666666666666666666666665 PP
+
+  == domain 3  score: 19.5 bits;  conditional E-value: 8.6e-07
+    HemolysinCabind.aln 367 GstfiiGsdgndlikGGkGndyleGgaGndtfrd.sgGyniilggqgsnvl 416
+                            G+  ++G +gnd + GGkGn++l+Gg G+d ++  +g yn++lgg g+++l
+  sp|P55129|RTX12_ACTPL 770 GNDHLVGGNGNDRLIGGKGNNFLNGGDGDDELQVfEGQYNVLLGGAGNDIL 820
+                            88999***************************963778*********9987 PP
+
+  == domain 4  score: 10.8 bits;  conditional E-value: 0.00037
+    HemolysinCabind.aln 367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGy...niilggqgsnvlel.qqslknysiasdgdgtly 436
+                            G+  + Gsdg +l  GG Gnd + Gg G+d +r s  y    ii  g  +++l l + s k+  +   gd  l 
+  sp|P55129|RTX12_ACTPL 816 GNDILYGSDGTNLFDGGVGNDKIYGGLGKDIYRYSKEYgrhIIIEKGGDDDTLLLsDLSFKDVGFIRIGDDLLV 889
+                            788899**************************988654221456555555555551568999888877775443 PP
+
+>> sp|O33680|EXSH_RHIME  Endo-1,3-1,4-beta-glycanase ExsH OS=Rhizobium meliloti (strain 1021) OX=266834 GN=exsH PE=1 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.9   0.6    0.0056        61     502     537 ..      25      61 ..      14      83 .. 0.58
+   2 !   21.4   7.7   2.3e-07    0.0025     498     595 ..      93     191 ..      70     208 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 6.9 bits;  conditional E-value: 0.0056
+   HemolysinCabind.aln 502 asvdgdwlfgldgddllisdka.nvvfvggagndlme 537
+                           a+  g  l g  g+d + +d + nv+++gg g+d+  
+  sp|O33680|EXSH_RHIME  25 ATGSGPTLHGTAGNDSMWGDSSvNVTMIGGRGDDIYY 61 
+                           4445556666666666666543266666666666543 PP
+
+  == domain 2  score: 21.4 bits;  conditional E-value: 2.3e-07
+   HemolysinCabind.aln 498 nvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyqatdklvfmgvsGvdadqdyrdhlsss 586
+                           + l  +  g + fg + d+ + ++ + +++ g  gnd++   gg++tf+f+   G d+i+ +   d +v  +  G  + +   + + + 
+  sp|O33680|EXSH_RHIME  93 ENLTVTGSGRFAFGNEADNIIKGGSGTQTIDGRGGNDVLIGAGGADTFVFARGNGSDLITDFN-YDDIVRLDGYGFTSFEQILSNVAQE 180
+                           4567778899*************************************************9995.6778999999999988999999999 PP
+
+   HemolysinCabind.aln 587 Gndtvltf..G 595
+                           G d  l++  G
+  sp|O33680|EXSH_RHIME 181 GADLRLHLadG 191
+                           99988877433 PP
+
+>> sp|Q9EV34|LKTA8_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.9      0.28     3e+03     366     404 ..     602     642 ..     592     664 .. 0.79
+   2 !   13.6   8.4   5.1e-05      0.56     370     417 ..     713     760 ..     702     761 .. 0.93
+   3 !   19.5   8.7   8.8e-07    0.0095     373     425 ..     761     816 ..     758     831 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 1.3 bits;  conditional E-value: 0.28
+    HemolysinCabind.aln 366 kGstfiiG..sdgndlikGGkGndyleGgaGndtfrdsgGy 404
+                            + +t ii    +g+d +  G+G+  ++Gg+G d++  s G 
+  sp|Q9EV34|LKTA8_MANHA 602 TKETKIIAklGEGDDNVFVGSGTTEIDGGEGYDRVHYSRGN 642
+                            5567777622489999******************9988775 PP
+
+  == domain 2  score: 13.6 bits;  conditional E-value: 5.1e-05
+    HemolysinCabind.aln 370 fiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                             iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++l+
+  sp|Q9EV34|LKTA8_MANHA 713 EIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDILD 760
+                            59******************************************9997 PP
+
+  == domain 3  score: 19.5 bits;  conditional E-value: 8.8e-07
+    HemolysinCabind.aln 373 GsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkny 425
+                            G +g+d+i GGkGnd l+Gg+G+d f  r   G +ii   +g++ l + +s lk+ 
+  sp|Q9EV34|LKTA8_MANHA 761 GGNGDDFIDGGKGNDLLHGGKGDDIFvhRKGDGNDIITDSDGNDKLSFSDSnLKDL 816
+                            889*********************98667788999*******99998865425655 PP
+
+>> sp|P0C083|LKTA6_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.9       0.3   3.3e+03     366     404 ..     602     642 ..     592     664 .. 0.80
+   2 !   13.6   8.4   5.1e-05      0.55     370     417 ..     713     760 ..     702     761 .. 0.93
+   3 !   19.5   8.7   8.8e-07    0.0095     373     425 ..     761     816 ..     758     831 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 0.3
+    HemolysinCabind.aln 366 kGstfiiG..sdgndlikGGkGndyleGgaGndtfrdsgGy 404
+                            + +t ii    +g+d +  G+G+  ++Gg+G d++  s G 
+  sp|P0C083|LKTA6_MANHA 602 TKETKIIAklGEGDDNVFVGSGTTEIDGGEGYDRVHYSRGN 642
+                            5566777622489999******************9988774 PP
+
+  == domain 2  score: 13.6 bits;  conditional E-value: 5.1e-05
+    HemolysinCabind.aln 370 fiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                             iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++l+
+  sp|P0C083|LKTA6_MANHA 713 EIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDILD 760
+                            59******************************************9997 PP
+
+  == domain 3  score: 19.5 bits;  conditional E-value: 8.8e-07
+    HemolysinCabind.aln 373 GsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkny 425
+                            G +g+d+i GGkGnd l+Gg+G+d f  r   G +ii   +g++ l + +s lk+ 
+  sp|P0C083|LKTA6_MANHA 761 GGNGDDFIDGGKGNDLLHGGKGDDIFvhRKGDGNDIITDSDGNDKLSFSDSnLKDL 816
+                            889*********************98667788999*******99998865425655 PP
+
+>> sp|P0C084|LKA7A_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.9       0.3   3.3e+03     366     404 ..     602     642 ..     592     664 .. 0.80
+   2 !   13.6   8.4   5.1e-05      0.55     370     417 ..     713     760 ..     702     761 .. 0.93
+   3 !   19.5   8.7   8.8e-07    0.0095     373     425 ..     761     816 ..     758     831 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 0.3
+    HemolysinCabind.aln 366 kGstfiiG..sdgndlikGGkGndyleGgaGndtfrdsgGy 404
+                            + +t ii    +g+d +  G+G+  ++Gg+G d++  s G 
+  sp|P0C084|LKA7A_MANHA 602 TKETKIIAklGEGDDNVFVGSGTTEIDGGEGYDRVHYSRGN 642
+                            5566777622489999******************9988774 PP
+
+  == domain 2  score: 13.6 bits;  conditional E-value: 5.1e-05
+    HemolysinCabind.aln 370 fiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                             iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++l+
+  sp|P0C084|LKA7A_MANHA 713 EIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDILD 760
+                            59******************************************9997 PP
+
+  == domain 3  score: 19.5 bits;  conditional E-value: 8.8e-07
+    HemolysinCabind.aln 373 GsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkny 425
+                            G +g+d+i GGkGnd l+Gg+G+d f  r   G +ii   +g++ l + +s lk+ 
+  sp|P0C084|LKA7A_MANHA 761 GGNGDDFIDGGKGNDLLHGGKGDDIFvhRKGDGNDIITDSDGNDKLSFSDSnLKDL 816
+                            889*********************98667788999*******99998865425655 PP
+
+>> sp|Q00951|HLYA_ACTSU  Hemolysin OS=Actinobacillus suis OX=716 GN=appA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.3      0.48   5.2e+03     374     403 ..     615     644 ..     579     669 .. 0.74
+   2 !   10.1   9.4   0.00062       6.7     371     417 ..     717     763 ..     705     765 .. 0.55
+   3 !   22.9  14.9   7.9e-08   0.00086     505     571 ..     749     815 ..     745     826 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 0.5 bits;  conditional E-value: 0.48
+   HemolysinCabind.aln 374 sdgndlikGGkGndyleGgaGndtfrdsgG 403
+                             gnd +  G+ +  ++Gg G+d++  s G
+  sp|Q00951|HLYA_ACTSU 615 GAGNDNVFVGSSTTVIDGGDGHDRVHYSRG 644
+                           246777777777777777777777766655 PP
+
+  == domain 2  score: 10.1 bits;  conditional E-value: 0.00062
+   HemolysinCabind.aln 371 iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                           iiGs+ nd+ kG + +d ++Gg+G dt+  + G + ++gg g++v++
+  sp|Q00951|HLYA_ACTSU 717 IIGSQFNDIFKGSQFDDVFHGGNGVDTIDGNDGDDHLFGGAGDDVID 763
+                           55555555555555555555555555555555555555555555544 PP
+
+  == domain 3  score: 22.9 bits;  conditional E-value: 7.9e-08
+   HemolysinCabind.aln 505 dgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyqatdklvfmgvs 571
+                           + d lfg  gdd + ++++n+ +vgg+gnd++  g  n+ ++     G+d i+   + dkl f +v+
+  sp|Q00951|HLYA_ACTSU 749 GDDHLFGGAGDDVIDGGNGNNFLVGGTGNDIISGGKDNDIYVHKTGDGNDSITDSGGQDKLAFSDVN 815
+                           5689*****************************999999****9999******************97 PP
+
+>> sp|P09983|HLYAC_ECOLX  Hemolysin, chromosomal OS=Escherichia coli OX=562 GN=hlyA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.1   0.5       2.9   3.1e+04     392     418 ..     616     642 ..     574     672 .. 0.68
+   2 !   11.3   8.8   0.00025       2.7     372     415 ..     731     774 ..     724     776 .. 0.88
+   3 !   11.2  10.8   0.00028         3     370     416 ..     774     823 ..     771     824 .. 0.83
+   4 !   17.1  11.0   4.5e-06     0.049     366     433 ..     818     889 ..     817     972 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: -2.1 bits;  conditional E-value: 2.9
+    HemolysinCabind.aln 392 gaGndtfrdsgGyniilggqgsnvlel 418
+                            g G+d++  s+G   i+ g+g++v+  
+  sp|P09983|HLYAC_ECOLX 616 GDGDDKVFLSAGSANIYAGKGHDVVYY 642
+                            456666666666666666666666544 PP
+
+  == domain 2  score: 11.3 bits;  conditional E-value: 0.00025
+    HemolysinCabind.aln 372 iGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnv 415
+                             Gs+  d+ +G  G+d++eG+ Gnd++  + G + + gg+g++ 
+  sp|P09983|HLYAC_ECOLX 731 FGSKFADIFHGADGDDHIEGNDGNDRLYGDKGNDTLSGGNGDDQ 774
+                            58999999999999999999999999999999999999999876 PP
+
+  == domain 3  score: 11.2 bits;  conditional E-value: 0.00028
+    HemolysinCabind.aln 370 fiiGsdgndlikGGkGndyleGgaGndtfrdsg...Gyniilggqgsnvl 416
+                             + G dgnd + GG Gn+yl+Gg G+d ++ +g     n++ gg+g++ l
+  sp|P09983|HLYAC_ECOLX 774 QLYGGDGNDKLIGGAGNNYLNGGDGDDELQVQGnslAKNVLSGGKGNDKL 823
+                            56799**********************998665222689******98765 PP
+
+  == domain 4  score: 17.1 bits;  conditional E-value: 4.5e-06
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGy..niilggqgs.nvlelqq.slknysiasdgdg 433
+                            kG+  + Gs+g dl+ GG+Gnd l+Gg Gnd +r  +Gy   ii    g+ + l l +   ++ ++  +g+ 
+  sp|P09983|HLYAC_ECOLX 818 KGNDKLYGSEGADLLDGGEGNDLLKGGYGNDIYRYLSGYghHIIDDDGGKdDKLSLADiDFRDVAFRREGND 889
+                            7888899***************************98876325776444331445554325566666666654 PP
+
+>> sp|Q9EV29|LKA2D_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.9       0.3   3.3e+03     366     404 ..     602     642 ..     592     664 .. 0.80
+   2 !   13.6   8.4   5.1e-05      0.55     370     417 ..     713     760 ..     702     761 .. 0.93
+   3 !   19.5   8.7   8.8e-07    0.0095     373     425 ..     761     816 ..     758     831 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 0.3
+    HemolysinCabind.aln 366 kGstfiiG..sdgndlikGGkGndyleGgaGndtfrdsgGy 404
+                            + +t ii    +g+d +  G+G+  ++Gg+G d++  s G 
+  sp|Q9EV29|LKA2D_MANHA 602 TKETKIIAklGEGDDNVFVGSGTTEIDGGEGYDRVHYSRGN 642
+                            5566777622489999******************9988774 PP
+
+  == domain 2  score: 13.6 bits;  conditional E-value: 5.1e-05
+    HemolysinCabind.aln 370 fiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                             iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++l+
+  sp|Q9EV29|LKA2D_MANHA 713 EIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDILD 760
+                            59******************************************9997 PP
+
+  == domain 3  score: 19.5 bits;  conditional E-value: 8.8e-07
+    HemolysinCabind.aln 373 GsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkny 425
+                            G +g+d+i GGkGnd l+Gg+G+d f  r   G +ii   +g++ l + +s lk+ 
+  sp|Q9EV29|LKA2D_MANHA 761 GGNGDDFIDGGKGNDLLHGGKGDDIFvhRKGDGNDIITDSDGNDKLSFSDSnLKDL 816
+                            889*********************98667788999*******99998865425655 PP
+
+>> sp|P15377|RTX2A_ACTPL  RTX-II toxin determinant A OS=Actinobacillus pleuropneumoniae OX=715 GN=apxIIA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.4      0.49   5.3e+03     374     403 ..     615     644 ..     573     668 .. 0.73
+   2 !   10.1   9.4   0.00062       6.7     371     417 ..     717     763 ..     705     765 .. 0.55
+   3 !   22.9  14.9   7.9e-08   0.00086     505     571 ..     749     815 ..     745     826 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 0.5 bits;  conditional E-value: 0.49
+    HemolysinCabind.aln 374 sdgndlikGGkGndyleGgaGndtfrdsgG 403
+                              gnd +  G+ +  ++Gg G+d++  s G
+  sp|P15377|RTX2A_ACTPL 615 GAGNDNVFVGSSTTVIDGGDGHDRVHYSRG 644
+                            246677777777777777777777766555 PP
+
+  == domain 2  score: 10.1 bits;  conditional E-value: 0.00062
+    HemolysinCabind.aln 371 iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                            iiGs+ nd+ kG + +d ++Gg+G dt+  + G + ++gg g++v++
+  sp|P15377|RTX2A_ACTPL 717 IIGSQFNDIFKGSQFDDVFHGGNGVDTIDGNDGDDHLFGGAGDDVID 763
+                            55555555555555555555555555555555555555555555544 PP
+
+  == domain 3  score: 22.9 bits;  conditional E-value: 7.9e-08
+    HemolysinCabind.aln 505 dgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyqatdklvfmgvs 571
+                            + d lfg  gdd + ++++n+ +vgg+gnd++  g  n+ ++     G+d i+   + dkl f +v+
+  sp|P15377|RTX2A_ACTPL 749 GDDHLFGGAGDDVIDGGNGNNFLVGGTGNDIISGGKDNDIYVHKTGDGNDSITDSGGQDKLAFSDVN 815
+                            5689*****************************999999****9999******************97 PP
+
+>> sp|Q9Z3Q2|EGLC_RHIME  Endo-1,3-1,4-beta-glycanase EglC OS=Rhizobium meliloti (strain 1021) OX=266834 GN=eglC PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.3   0.5    0.0087        94     500     543 ..      23      67 ..      14      84 .. 0.78
+   2 !   20.6   9.0     4e-07    0.0043     495     598 ..      91     194 ..      71     212 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 6.3 bits;  conditional E-value: 0.0087
+   HemolysinCabind.aln 500 lkasvdgdwlfgldgddllisdka.nvvfvggagndlmeagggnn 543
+                           + as  g  l+g  g+d + +d + +v+++g +g+d+     g n
+  sp|Q9Z3Q2|EGLC_RHIME  23 FSASGSGPLLYGTAGNDSMWADSSvDVTMIGDSGDDIYYLYSGVN 67 
+                           6789999************99986267899******988666655 PP
+
+  == domain 2  score: 20.6 bits;  conditional E-value: 4e-07
+   HemolysinCabind.aln 495 aydnvlkasvdgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyqatdklvfmgvsGvdadqdyrdhl 583
+                            ++n  ++ v+g + fg    + ++++ + +++ ggagnd++   gg++tf f    G d+i  +  +d +v  +  G  +     + +
+  sp|Q9Z3Q2|EGLC_RHIME  91 NFENLTVTGVEG-FGFGNSASNIISGGSGSQTINGGAGNDVLTGAGGADTFAFKRGNGSDLISDFG-SDDVVRLEGYGFTSFDHILANV 177
+                           466777777776.679999*******************************************9985.5667777777866666677888 PP
+
+   HemolysinCabind.aln 584 sssGndtvltf..Geds 598
+                            + G d  l++  Ge++
+  sp|Q9Z3Q2|EGLC_RHIME 178 AQEGLDLKLSLadGEYL 194
+                           88888888777444443 PP
+
+>> sp|A1YKW7|RTXA_KINKI  Cytolysin RtxA OS=Kingella kingae OX=504 GN=rtxA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.6   0.9       1.1   1.1e+04     124     230 ..     135     246 ..      97     322 .. 0.64
+   2 ?    0.6   1.1      0.44   4.7e+03     375     399 ..     617     641 ..     592     693 .. 0.77
+   3 !   10.5   6.0   0.00044       4.7     371     414 ..     720     763 ..     708     765 .. 0.75
+   4 !   22.4  13.0   1.2e-07    0.0013     505     570 ..     752     817 ..     747     829 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: -0.6 bits;  conditional E-value: 1.1
+   HemolysinCabind.aln 124 lakydaaGklesigiafrgts..gkresvisdtiddvindllaa.......lgpkdlaknyageafdkllgkv.aafaaaqGlsGkdvl 202
+                            +k++++ ++ s  ++f gt+  g   + + ++ d   +dl++a       l  +   +  + eaf++ lg++ aa+++ +GlsG    
+  sp|A1YKW7|RTXA_KINKI 135 DSKLTKTNHILSTLSSFLGTAlaGMDLDSLVKQGDASATDLAKAsldlineLVNNISNSVQSIEAFSEQLGRLgAAISQTKGLSGL--- 220
+                           55666666666666777666422333334444444455555444111000033333333345689999999986788999999994... PP
+
+   HemolysinCabind.aln 203 vsGhslGGlgvnsladlssekwsgfykd 230
+                             G  l  l     a+l  e +sg++ +
+  sp|A1YKW7|RTXA_KINKI 221 --GNKLQNLPNFGKANLALEMISGLLSG 246
+                           ..45555555555555555555555555 PP
+
+  == domain 2  score: 0.6 bits;  conditional E-value: 0.44
+   HemolysinCabind.aln 375 dgndlikGGkGndyleGgaGndtfr 399
+                            gnd i  G+G+  ++Gg+G+d++ 
+  sp|A1YKW7|RTXA_KINKI 617 SGNDDIFAGQGKMNVDGGTGHDRVF 641
+                           4677777888888899999988863 PP
+
+  == domain 3  score: 10.5 bits;  conditional E-value: 0.00044
+   HemolysinCabind.aln 371 iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsn 414
+                           i+Gs+  d  kG k +d ++Gg Gndt+  + G + ++gg+g++
+  sp|A1YKW7|RTXA_KINKI 720 IVGSQFSDTFKGSKFADIFHGGDGNDTLEGNDGDDRLFGGNGDD 763
+                           78888888888888888888888888888888888888888765 PP
+
+  == domain 4  score: 22.4 bits;  conditional E-value: 1.2e-07
+   HemolysinCabind.aln 505 dgdwlfgldgddllisdkanvvfvggagndlmeagggnntflfsGnfGqdrilGyqatdklvfmgv 570
+                           + d lfg +gdd+l ++++++ + gg gnd+++ g gn+ ++     G+d +    ++dkl f + 
+  sp|A1YKW7|RTXA_KINKI 752 GDDRLFGGNGDDHLYGGNGDDLLDGGKGNDVINGGDGNDVYISRKGDGNDTLYDSHGSDKLAFADA 817
+                           5689**************************************99999****************985 PP
+
+>> sp|P08715|HLYAP_ECOLX  Hemolysin, plasmid OS=Escherichia coli OX=562 GN=hlyA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.0   0.4       2.7   2.9e+04     392     418 ..     617     643 ..     574     672 .. 0.68
+   2 !   10.9   9.8   0.00035       3.7     373     415 ..     733     775 ..     718     779 .. 0.54
+   3 !   10.8   9.2   0.00036       3.9     367     416 ..     772     824 ..     771     825 .. 0.82
+   4 !   13.9  11.3   4.3e-05      0.46     366     412 ..     819     867 ..     817     908 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: -2.0 bits;  conditional E-value: 2.7
+    HemolysinCabind.aln 392 gaGndtfrdsgGyniilggqgsnvlel 418
+                            g G+d++  s+G   i+ g+g++v+  
+  sp|P08715|HLYAP_ECOLX 617 GDGDDKVFLSAGSANIYAGKGHDVVYY 643
+                            456666666666666666666666544 PP
+
+  == domain 2  score: 10.9 bits;  conditional E-value: 0.00035
+    HemolysinCabind.aln 373 GsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnv 415
+                            Gs+  d+ +G  G+d +eG+ Gnd++  + G + + gg+g++ 
+  sp|P08715|HLYAP_ECOLX 733 GSKFTDIFHGADGDDLIEGNDGNDRLYGDKGNDTLSGGNGDDQ 775
+                            4555555555555555555555555555555555555555443 PP
+
+  == domain 3  score: 10.8 bits;  conditional E-value: 0.00036
+    HemolysinCabind.aln 367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsg...Gyniilggqgsnvl 416
+                            G+  + G dgnd + G  Gn+yl+Gg G+d f+ +g     n+++gg+g++ l
+  sp|P08715|HLYAP_ECOLX 772 GDDQLYGGDGNDKLIGVAGNNYLNGGDGDDEFQVQGnslAKNVLFGGKGNDKL 824
+                            56667899***********************99766222689*****998765 PP
+
+  == domain 4  score: 13.9 bits;  conditional E-value: 4.3e-05
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGy..niilggqg 412
+                            kG+  + Gs+g dl+ GG+G+d l+Gg Gnd +r  +Gy   ii    g
+  sp|P08715|HLYAP_ECOLX 819 KGNDKLYGSEGADLLDGGEGDDLLKGGYGNDIYRYLSGYghHIIDDDGG 867
+                            7888899***************************998872256654333 PP
+
+>> sp|P16535|LKA1A_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.9       0.3   3.3e+03     366     404 ..     602     642 ..     592     664 .. 0.80
+   2 !   13.4   8.6   6.1e-05      0.66     370     417 ..     713     760 ..     704     761 .. 0.94
+   3 !   18.1   9.5   2.2e-06     0.024     373     425 ..     761     816 ..     760     829 .. 0.84
+   4 ?   -3.2   0.0       6.6   7.1e+04     141     194 ..     871     927 ..     854     939 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 0.3
+    HemolysinCabind.aln 366 kGstfiiG..sdgndlikGGkGndyleGgaGndtfrdsgGy 404
+                            + +t ii    +g+d +  G+G+  ++Gg+G d++  s G 
+  sp|P16535|LKA1A_MANHA 602 TKETKIIAklGEGDDNVFVGSGTTEIDGGEGYDRVHYSRGN 642
+                            5566777622489999******************9988774 PP
+
+  == domain 2  score: 13.4 bits;  conditional E-value: 6.1e-05
+    HemolysinCabind.aln 370 fiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                             iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++l+
+  sp|P16535|LKA1A_MANHA 713 EIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDILD 760
+                            59******************************************9997 PP
+
+  == domain 3  score: 18.1 bits;  conditional E-value: 2.2e-06
+    HemolysinCabind.aln 373 GsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkny 425
+                            G +g+d+i GGkGnd l+Gg+G+d f  r   G +ii   +g++ l + +s lk+ 
+  sp|P16535|LKA1A_MANHA 761 GGNGDDFIDGGKGNDLLHGGKGDDIFvhRKGDGNDIITDSDGNDKLSFSDSnLKDL 816
+                            7899********************98667788999*******99998865425655 PP
+
+  == domain 4  score: -3.2 bits;  conditional E-value: 6.6
+    HemolysinCabind.aln 141 rgtsgkresvisdtiddvindllaalgpk.dlak..nyageafdkllgkvaafaaaq 194
+                            r ts + +++i +  ++ ++d l+ +  + +l k  + + +++dkl+ +v+af++ +
+  sp|P16535|LKA1A_MANHA 871 RITSKQVDDLIAKGNGKITQDELSKVVDNyELLKhsKNVTNSLDKLISSVSAFTSSN 927
+                            667777777777777776666655544321233211344578889999999998776 PP
+
+>> sp|Q7BHI8|LKA1B_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.9       0.3   3.3e+03     366     404 ..     602     642 ..     592     664 .. 0.80
+   2 !   13.4   8.6   6.1e-05      0.66     370     417 ..     713     760 ..     704     761 .. 0.94
+   3 !   18.1   9.5   2.2e-06     0.024     373     425 ..     761     816 ..     760     829 .. 0.84
+   4 ?   -3.2   0.0       6.6   7.1e+04     141     194 ..     871     927 ..     854     939 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 0.3
+    HemolysinCabind.aln 366 kGstfiiG..sdgndlikGGkGndyleGgaGndtfrdsgGy 404
+                            + +t ii    +g+d +  G+G+  ++Gg+G d++  s G 
+  sp|Q7BHI8|LKA1B_MANHA 602 TKETKIIAklGEGDDNVFVGSGTTEIDGGEGYDRVHYSRGN 642
+                            5566777622489999******************9988774 PP
+
+  == domain 2  score: 13.4 bits;  conditional E-value: 6.1e-05
+    HemolysinCabind.aln 370 fiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                             iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++l+
+  sp|Q7BHI8|LKA1B_MANHA 713 EIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDILD 760
+                            59******************************************9997 PP
+
+  == domain 3  score: 18.1 bits;  conditional E-value: 2.2e-06
+    HemolysinCabind.aln 373 GsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkny 425
+                            G +g+d+i GGkGnd l+Gg+G+d f  r   G +ii   +g++ l + +s lk+ 
+  sp|Q7BHI8|LKA1B_MANHA 761 GGNGDDFIDGGKGNDLLHGGKGDDIFvhRKGDGNDIITDSDGNDKLSFSDSnLKDL 816
+                            7899********************98667788999*******99998865425655 PP
+
+  == domain 4  score: -3.2 bits;  conditional E-value: 6.6
+    HemolysinCabind.aln 141 rgtsgkresvisdtiddvindllaalgpk.dlak..nyageafdkllgkvaafaaaq 194
+                            r ts + +++i +  ++ ++d l+ +  + +l k  + + +++dkl+ +v+af++ +
+  sp|Q7BHI8|LKA1B_MANHA 871 RITSKQVDDLIAKGNGKITQDELSKVVDNyELLKhsKNVTNSLDKLISSVSAFTSSN 927
+                            667777777777777776666655544321233211344578889999999998776 PP
+
+>> sp|Q9ETX2|LKTA_MANGL  Leukotoxin OS=Mannheimia glucosida OX=85401 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.7      0.79   8.6e+03     375     404 ..     613     642 ..     593     663 .. 0.79
+   2 !   10.2  11.3   0.00057       6.2     371     417 ..     714     760 ..     702     764 .. 0.81
+   3 !   20.6  12.2   3.9e-07    0.0042     366     425 ..     754     816 ..     754     830 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 0.79
+   HemolysinCabind.aln 375 dgndlikGGkGndyleGgaGndtfrdsgGy 404
+                            g+d +  G+G+  ++Gg+G d++  s G 
+  sp|Q9ETX2|LKTA_MANGL 613 AGDDNVFVGSGTTEIDGGEGYDRVHYSRGN 642
+                           578999999999999999999999887764 PP
+
+  == domain 2  score: 10.2 bits;  conditional E-value: 0.00057
+   HemolysinCabind.aln 371 iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                           iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++++
+  sp|Q9ETX2|LKTA_MANGL 714 IIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDIID 760
+                           88888888888888888888888888888888888888888888776 PP
+
+  == domain 3  score: 20.6 bits;  conditional E-value: 3.9e-07
+   HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkny 425
+                           kG+  i G +g+d+i GGkGnd l+Gg+G+d f  r   G +ii   +g++ l + +s lk+ 
+  sp|Q9ETX2|LKTA_MANGL 754 KGDDIIDGGNGDDFIDGGKGNDLLHGGKGDDIFvhRQGDGNDIITDSDGNDKLSFSDSnLKDL 816
+                           7999999************************9866888899*********9999865425655 PP
+
+>> sp|P55118|LKA11_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.4   0.8      0.92     1e+04     375     404 ..     613     642 ..     593     659 .. 0.79
+   2 !   12.0   8.7   0.00016       1.8     370     417 ..     713     760 ..     699     761 .. 0.92
+   3 !   20.9  11.9   3.2e-07    0.0035     366     425 ..     754     816 ..     754     830 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -0.4 bits;  conditional E-value: 0.92
+    HemolysinCabind.aln 375 dgndlikGGkGndyleGgaGndtfrdsgGy 404
+                             g+d +  G+G+  ++Gg+G d++  s G 
+  sp|P55118|LKA11_MANHA 613 AGDDNVFVGSGTTEIDGGEGYDRVHYSRGN 642
+                            578999999999999999999999887764 PP
+
+  == domain 2  score: 12.0 bits;  conditional E-value: 0.00016
+    HemolysinCabind.aln 370 fiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                             iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++++
+  sp|P55118|LKA11_MANHA 713 EIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGKDGNDRLFGGKGDDIID 760
+                            59*****************************************99876 PP
+
+  == domain 3  score: 20.9 bits;  conditional E-value: 3.2e-07
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkny 425
+                            kG+  i G +g+d+i GGkGnd l+Gg+G+d f  r   G +ii   +g++ l + +s lk+ 
+  sp|P55118|LKA11_MANHA 754 KGDDIIDGGNGDDFIDGGKGNDLLHGGKGDDIFvhRQGDGNDIITDSDGNDKLSFSDSnLKDL 816
+                            7999999************************9866888899*********9999865425655 PP
+
+>> sp|P55123|LKTA_PASSP  Leukotoxin OS=Pasteurella haemolytica-like sp. (strain 5943B) OX=53500 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.9      0.64     7e+03     366     403 ..     598     637 ..     588     663 .. 0.76
+   2 !   14.3  12.3   3.3e-05      0.35     372     416 ..     720     764 ..     699     765 .. 0.91
+   3 !   16.7   8.7   5.9e-06     0.064     367     406 ..     760     800 ..     759     824 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 0.1 bits;  conditional E-value: 0.64
+   HemolysinCabind.aln 366 kGstfiiGs..dgndlikGGkGndyleGgaGndtfrdsgG 403
+                           + +t ii    dgnd +  G+G+  ++Gg+G d++  s G
+  sp|P55123|LKTA_PASSP 598 TKETKIIANlgDGNDDVFIGSGTTEVDGGNGLDRVHYSRG 637
+                           45666776433899999999*************9988766 PP
+
+  == domain 2  score: 14.3 bits;  conditional E-value: 3.3e-05
+   HemolysinCabind.aln 372 iGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvl 416
+                            Gs+ +d  +GG G d ++G+aGnd++    G++ii gg+g++ +
+  sp|P55123|LKTA_PASSP 720 KGSKFDDAFHGGDGVDNIDGNAGNDRLFGGKGFDIIDGGDGDDFI 764
+                           59999************************************9866 PP
+
+  == domain 3  score: 16.7 bits;  conditional E-value: 5.9e-06
+   HemolysinCabind.aln 367 GstfiiGsdgndlikGGkGndyleGga.GndtfrdsgGyni 406
+                           G+ fi G +g+d+++GGkGnd l   + Gnd + dsgG + 
+  sp|P55123|LKTA_PASSP 760 GDDFIDGGQGDDILHGGKGNDILCTVKgGNDSISDSGGNDR 800
+                           899******************99765527********9754 PP
+
+>> sp|Q9EV32|LKA16_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   8.4   9.8e-05       1.1     369     417 ..     712     760 ..     658     760 .. 0.89
+   2 ?   18.8  10.4   1.4e-06     0.015     366     424 ..     754     815 ..     754     828 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 9.8e-05
+    HemolysinCabind.aln 369 tfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                              iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++++
+  sp|Q9EV32|LKA16_MANHA 712 EEIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDIID 760
+                            459*****************************************99876 PP
+
+  == domain 2  score: 18.8 bits;  conditional E-value: 1.4e-06
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkn 424
+                            kG+  i G +g+d+i GGkGnd l+Gg+G+d f  r   G + i   +g++ l + +s lk+
+  sp|Q9EV32|LKA16_MANHA 754 KGDDIIDGGNGDDFIDGGKGNDLLHGGKGDDIFvhRQGDGNDSITESEGNDKLSFSDSnLKD 815
+                            6889999************************9865777888999999999988876542555 PP
+
+>> sp|Q9EV33|LKA14_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   8.4   9.8e-05       1.1     369     417 ..     712     760 ..     658     760 .. 0.89
+   2 ?   18.8  10.4   1.4e-06     0.015     366     424 ..     754     815 ..     754     828 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 9.8e-05
+    HemolysinCabind.aln 369 tfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                              iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++++
+  sp|Q9EV33|LKA14_MANHA 712 EEIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDIID 760
+                            459*****************************************99876 PP
+
+  == domain 2  score: 18.8 bits;  conditional E-value: 1.4e-06
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkn 424
+                            kG+  i G +g+d+i GGkGnd l+Gg+G+d f  r   G + i   +g++ l + +s lk+
+  sp|Q9EV33|LKA14_MANHA 754 KGDDIIDGGNGDDFIDGGKGNDLLHGGKGDDIFvhRQGDGNDSITESEGNDKLSFSDSnLKD 815
+                            6889999************************9865777888999999999988876542555 PP
+
+>> sp|P0C085|LKA7B_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   8.4   9.8e-05       1.1     369     417 ..     712     760 ..     658     760 .. 0.89
+   2 ?   18.8  10.4   1.4e-06     0.015     366     424 ..     754     815 ..     754     828 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 9.8e-05
+    HemolysinCabind.aln 369 tfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                              iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++++
+  sp|P0C085|LKA7B_MANHA 712 EEIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDIID 760
+                            459*****************************************99876 PP
+
+  == domain 2  score: 18.8 bits;  conditional E-value: 1.4e-06
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkn 424
+                            kG+  i G +g+d+i GGkGnd l+Gg+G+d f  r   G + i   +g++ l + +s lk+
+  sp|P0C085|LKA7B_MANHA 754 KGDDIIDGGNGDDFIDGGKGNDLLHGGKGDDIFvhRQGDGNDSITESEGNDKLSFSDSnLKD 815
+                            6889999************************9865777888999999999988876542555 PP
+
+>> sp|Q9EV27|LKA2E_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   8.4   9.8e-05       1.1     369     417 ..     712     760 ..     658     760 .. 0.89
+   2 ?   18.8  10.4   1.4e-06     0.015     366     424 ..     754     815 ..     754     828 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 9.8e-05
+    HemolysinCabind.aln 369 tfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                              iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++++
+  sp|Q9EV27|LKA2E_MANHA 712 EEIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDIID 760
+                            459*****************************************99876 PP
+
+  == domain 2  score: 18.8 bits;  conditional E-value: 1.4e-06
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkn 424
+                            kG+  i G +g+d+i GGkGnd l+Gg+G+d f  r   G + i   +g++ l + +s lk+
+  sp|Q9EV27|LKA2E_MANHA 754 KGDDIIDGGNGDDFIDGGKGNDLLHGGKGDDIFvhRQGDGNDSITESEGNDKLSFSDSnLKD 815
+                            6889999************************9865777888999999999988876542555 PP
+
+>> sp|Q9EV30|LKA2A_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.3      0.58   6.2e+03     375     404 ..     613     642 ..     594     665 .. 0.77
+   2 ?    9.5  12.1   0.00088       9.5     371     412 ..     723     764 ..     697     765 .. 0.64
+   3 ?   18.2  13.1   2.1e-06     0.022     366     424 ..     754     815 ..     753     822 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 0.2 bits;  conditional E-value: 0.58
+    HemolysinCabind.aln 375 dgndlikGGkGndyleGgaGndtfrdsgGy 404
+                             g+d +  G+G+  ++Gg+G d++  s G 
+  sp|Q9EV30|LKA2A_MANHA 613 AGDDNVFVGSGTTEIDGGEGYDRVHYSRGN 642
+                            578999999999999999999999887764 PP
+
+  == domain 2  score: 9.5 bits;  conditional E-value: 0.00088
+    HemolysinCabind.aln 371 iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqg 412
+                              Gs+ nd  +GG G d ++G+ Gnd++    G +ii gg+g
+  sp|Q9EV30|LKA2A_MANHA 723 FRGSKFNDAFQGGDGVDTIDGNDGNDRLFGGKGDDIIDGGNG 764
+                            236666666666666666666666666666666666666665 PP
+
+  == domain 3  score: 18.2 bits;  conditional E-value: 2.1e-06
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkn 424
+                            kG+  i G +g+d+i GGkGnd l+Gg+G+d f  r   G +ii   +g++ l + +s lk+
+  sp|Q9EV30|LKA2A_MANHA 754 KGDDIIDGGNGDDFIDGGKGNDLLHGGRGDDIFvhRKGDGNDIISDSDGNDKLSFSDSnLKD 815
+                            799999*************************98667888999********999886542555 PP
+
+>> sp|Q9EV31|LKA13_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   8.3   9.9e-05       1.1     370     417 ..     713     760 ..     703     761 .. 0.92
+   2 ?   18.8  10.3   1.4e-06     0.015     366     424 ..     754     815 ..     754     828 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 9.9e-05
+    HemolysinCabind.aln 370 fiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                             iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++++
+  sp|Q9EV31|LKA13_MANHA 713 EIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDIID 760
+                            59*****************************************99886 PP
+
+  == domain 2  score: 18.8 bits;  conditional E-value: 1.4e-06
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs.lkn 424
+                            kG+  i G +g+d+i GGkGnd l+Gg+G+d f  r   G + i   +g++ l + +s lk+
+  sp|Q9EV31|LKA13_MANHA 754 KGDDIIDGGNGDDFIDGGKGNDLLHGGKGDDIFvhRQGDGNDSITESEGNDKLSFSDSnLKD 815
+                            6889999************************9865777888999999999988876542555 PP
+
+>> sp|P55117|LKTA_BIBTR  Leukotoxin OS=Bibersteinia trehalosi OX=47735 GN=lktA PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   9.1   0.00013       1.4     369     417 ..     714     762 ..     655     763 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00013
+   HemolysinCabind.aln 369 tfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                             iiG+  nd+ kG k nd ++Gg G dt+  + G + ++gg+g+++++
+  sp|P55117|LKTA_BIBTR 714 EEIIGTSHNDIFKGSKFNDAFNGGDGVDTIDGNDGNDRLFGGKGDDIID 762
+                           459*****************************************99876 PP
+
+>> sp|P0C081|LKA2B_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   1.0      0.34   3.7e+03     366     404 ..     602     642 ..     592     662 .. 0.80
+   2 ?   11.5  10.4   0.00022       2.4     371     417 ..     714     760 ..     702     761 .. 0.94
+   3 ?   16.5  13.6     7e-06     0.076     366     421 ..     754     811 ..     752     823 .. 0.84
+   4 ?   -2.7   0.0       4.5   4.9e+04     141     194 ..     871     928 ..     850     939 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 1.0 bits;  conditional E-value: 0.34
+    HemolysinCabind.aln 366 kGstfiiG..sdgndlikGGkGndyleGgaGndtfrdsgGy 404
+                            + +t ii    +g+d +  G+G+  ++Gg+G d++  s G 
+  sp|P0C081|LKA2B_MANHA 602 TKETKIIAklGEGDDNVFVGSGTTEIDGGEGYDRVHYSRGN 642
+                            5566777622489999******************9988774 PP
+
+  == domain 2  score: 11.5 bits;  conditional E-value: 0.00022
+    HemolysinCabind.aln 371 iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                            iiG+  nd+ kG + nd ++Gg G dt+  +gG + ++gg+g+++++
+  sp|P0C081|LKA2B_MANHA 714 IIGTSHNDIFKGSQFNDAFNGGDGVDTIDGNGGNDRLFGGKGDDIID 760
+                            9*****************************************99886 PP
+
+  == domain 3  score: 16.5 bits;  conditional E-value: 7e-06
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs 421
+                            kG+  i G dg+d+i GGkGnd l+Gg+G+d f  r   G + i    g++ l + +s
+  sp|P0C081|LKA2B_MANHA 754 KGDDIIDGGDGDDFIDGGKGNDLLHGGRGDDIFvhRQGDGNDSITEAGGHDRLSFSDS 811
+                            7999999************************986677788899999999999887654 PP
+
+  == domain 4  score: -2.7 bits;  conditional E-value: 4.5
+    HemolysinCabind.aln 141 rgtsgkresvisdtiddvi..ndllaalgpkdlaknya..geafdkllgkvaafaaaq 194
+                            r ts + +++i +  d++i  ndl++ +++ +l kn +   +++dkl+ +v+ f++ +
+  sp|P0C081|LKA2B_MANHA 871 RITSKQVDELIAKGKDNKIdkNDLANVVNSYELLKNSRnvTNSLDKLISSVSSFTSSN 928
+                            7889999999999888887224566666666777776511578999999999998765 PP
+
+>> sp|P0C082|LKA2C_MANHA  Leukotoxin OS=Mannheimia haemolytica OX=75985 GN=lktA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   1.0      0.34   3.7e+03     366     404 ..     602     642 ..     592     662 .. 0.80
+   2 ?   11.5  10.4   0.00022       2.4     371     417 ..     714     760 ..     702     761 .. 0.94
+   3 ?   16.5  13.6     7e-06     0.076     366     421 ..     754     811 ..     752     823 .. 0.84
+   4 ?   -2.7   0.0       4.5   4.9e+04     141     194 ..     871     928 ..     850     939 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 1.0 bits;  conditional E-value: 0.34
+    HemolysinCabind.aln 366 kGstfiiG..sdgndlikGGkGndyleGgaGndtfrdsgGy 404
+                            + +t ii    +g+d +  G+G+  ++Gg+G d++  s G 
+  sp|P0C082|LKA2C_MANHA 602 TKETKIIAklGEGDDNVFVGSGTTEIDGGEGYDRVHYSRGN 642
+                            5566777622489999******************9988774 PP
+
+  == domain 2  score: 11.5 bits;  conditional E-value: 0.00022
+    HemolysinCabind.aln 371 iiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvle 417
+                            iiG+  nd+ kG + nd ++Gg G dt+  +gG + ++gg+g+++++
+  sp|P0C082|LKA2C_MANHA 714 IIGTSHNDIFKGSQFNDAFNGGDGVDTIDGNGGNDRLFGGKGDDIID 760
+                            9*****************************************99886 PP
+
+  == domain 3  score: 16.5 bits;  conditional E-value: 7e-06
+    HemolysinCabind.aln 366 kGstfiiGsdgndlikGGkGndyleGgaGndtf..rdsgGyniilggqgsnvlelqqs 421
+                            kG+  i G dg+d+i GGkGnd l+Gg+G+d f  r   G + i    g++ l + +s
+  sp|P0C082|LKA2C_MANHA 754 KGDDIIDGGDGDDFIDGGKGNDLLHGGRGDDIFvhRQGDGNDSITEAGGHDRLSFSDS 811
+                            7999999************************986677788899999999999887654 PP
+
+  == domain 4  score: -2.7 bits;  conditional E-value: 4.5
+    HemolysinCabind.aln 141 rgtsgkresvisdtiddvi..ndllaalgpkdlaknya..geafdkllgkvaafaaaq 194
+                            r ts + +++i +  d++i  ndl++ +++ +l kn +   +++dkl+ +v+ f++ +
+  sp|P0C082|LKA2C_MANHA 871 RITSKQVDELIAKGKDNKIdkNDLANVVNSYELLKNSRnvTNSLDKLISSVSSFTSSN 928
+                            7889999999999888887224566666666777776511578999999999998765 PP
+
+>> sp|Q11137|ZAPA_PROMI  Serralysin OS=Proteus mirabilis OX=584 GN=zapA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   4.2       1.2   1.3e+04     520     575 ..     273     328 ..     253     341 .. 0.60
+   2 ?   17.3   8.5     4e-06     0.044     367     416 ..     346     395 ..     329     411 .. 0.56
+
+  Alignments for each domain:
+  == domain 1  score: -0.8 bits;  conditional E-value: 1.2
+   HemolysinCabind.aln 520 sdkanvvfvggagndlme....agggnntflfsGnfGqdrilGyqatdklvfmgvsGvda 575
+                           s+ + + +     nd +       ggn+tf fsG f qd+++  +a++   f +v G++ 
+  sp|Q11137|ZAPA_PROMI 273 SNTGIDYYTATDSNDKLIfsvwDSGGNDTFDFSG-FYQDQLIDLRAGN---FSDVGGLQK 328
+                           3333344444444443221122468999*****9.6688888887775...677777655 PP
+
+  == domain 2  score: 17.3 bits;  conditional E-value: 4e-06
+   HemolysinCabind.aln 367 GstfiiGsdgndlikGGkGndyleGgaGndtfrdsgGyniilggqgsnvl 416
+                           G+  i G d+++ + GG+G+d + G  Gn+t+    G + ++gg gsn++
+  sp|Q11137|ZAPA_PROMI 346 GNDIIHGNDADNTLIGGEGDDIIYGHSGNNTIYGGRGQDTLHGGTGSNTF 395
+                           44444455555555555555555555555555555555555555555443 PP
+
+>> sp|P63459|FABD_MYCBO  Malonyl CoA-acyl carrier protein transacylase OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.1   0.00015       1.6     189     219 ..      73     103 ..      34     145 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00015
+   HemolysinCabind.aln 189 afaaaqGlsGkdvlvsGhslGGlgvnsladl 219
+                           ++a    l+Gkdv+v+Ghs+G +++ ++a++
+  sp|P63459|FABD_MYCBO  73 ELARRCVLAGKDVIVAGHSVGEIAAYAIAGV 103
+                           45666779****************9998875 PP
+
+>> sp|P9WNG4|FABD_MYCTO  Malonyl CoA-acyl carrier protein transacylase OS=Mycobacterium tuberculosis (strain CDC 1551 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.1   0.00015       1.6     189     219 ..      73     103 ..      34     145 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00015
+   HemolysinCabind.aln 189 afaaaqGlsGkdvlvsGhslGGlgvnsladl 219
+                           ++a    l+Gkdv+v+Ghs+G +++ ++a++
+  sp|P9WNG4|FABD_MYCTO  73 ELARRCVLAGKDVIVAGHSVGEIAAYAIAGV 103
+                           45666779****************9998875 PP
+
+>> sp|P9WNG5|FABD_MYCTU  Malonyl CoA-acyl carrier protein transacylase OS=Mycobacterium tuberculosis (strain ATCC 25618 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.1   0.00015       1.6     189     219 ..      73     103 ..      34     145 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00015
+   HemolysinCabind.aln 189 afaaaqGlsGkdvlvsGhslGGlgvnsladl 219
+                           ++a    l+Gkdv+v+Ghs+G +++ ++a++
+  sp|P9WNG5|FABD_MYCTU  73 ELARRCVLAGKDVIVAGHSVGEIAAYAIAGV 103
+                           45666779****************9998875 PP
+
+>> sp|Q9XTR8|LIP1_CAEEL  Lipase ZK262.3 OS=Caenorhabditis elegans OX=6239 GN=txt-8 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.0   0.00019         2     130     211 ..      89     167 ..      35     180 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00019
+   HemolysinCabind.aln 130 aGklesigiafrgtsgkresvisdtiddvindllaalgpkdlaknyageafdkllgkvaafaaaqGlsGkdvlvsGhslGGl 211
+                           +  l++i++ frgt    + +++  +  + +    ++g   l ++y + + +k  + v +  +++     dv v+GhslGG 
+  sp|Q9XTR8|LIP1_CAEEL  89 SDVLQQITVVFRGTKTSSQLLLEGWTTLKPSSDFYGMG---LVNTYFRSGHEKTWQYVQDALSISQYRNYDVYVTGHSLGGA 167
+                           55688999******777777777777777777777776...999****************9999****************94 PP
+
+>> sp|Q5P9I2|RS20_ANAMM  Small ribosomal subunit protein bS20 OS=Anaplasma marginale (strain St. Maries) OX=234826 GN=rp
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.2   0.00028       3.1     112     176 ..      24      85 ..       7      94 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00028
+   HemolysinCabind.aln 112 ekaavstaqvevlakydaaGklesigiafrgtsgkresvisdtid.dvindllaalgpkdlaknya 176
+                           +k+ v ++  + la ++++G+le+  +afr++    es i++ ++ +v+++  aa ++k la +++
+  sp|Q5P9I2|RS20_ANAMM  24 RKSRVRNSVKKFLAVLESKGHLEDAVTAFRAA----ESNIHKCVNkGVMHRNTAARKVKSLAAKLK 85 
+                           4667777778899******************7....888888876156777788888998887764 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (617 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     15118  (0.0263535); expected 11473.2 (0.02)
+Passed bias filter:                    11191  (0.019508); expected 11473.2 (0.02)
+Passed Vit filter:                       936  (0.00163163); expected 573.7 (0.001)
+Passed Fwd filter:                        53  (9.23891e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              53  [number of targets reported over threshold]
+# CPU time: 7.80u 0.21s 00:00:08.01 Elapsed: 00:00:02.10
+# Mc/sec: 60914.70
+//
+[ok]

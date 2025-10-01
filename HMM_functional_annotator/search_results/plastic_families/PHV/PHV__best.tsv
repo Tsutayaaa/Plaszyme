@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PHV.aln	sp|P52090|PHA1_PAULE	414	431	1.4e-165	556.2	3.2e-169	1.9e-165	555.8	2	400	12	392	2	396	0.99	1	1	0.8839907192575406	0.9637681159420289	PHV

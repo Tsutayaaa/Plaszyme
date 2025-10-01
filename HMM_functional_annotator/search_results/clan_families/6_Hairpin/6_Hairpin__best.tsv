@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+6_Hairpin.aln	sp|D4AZ24|ENG1_ARTBC	909	714	9.8e-247	825.4	2.6e-251	1.3e-246	825.1	1	710	188	901	188	904	0.96	1	1	1.0	0.7810781078107811	6_Hairpin

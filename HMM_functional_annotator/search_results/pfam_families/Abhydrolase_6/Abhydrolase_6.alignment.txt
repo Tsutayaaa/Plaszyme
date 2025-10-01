@@ -1,0 +1,1359 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Abhydrolase_6.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Abhydrolase_6/Abhydrolase_6.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Abhydrolase_6/Abhydrolase_6.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Abhydrolase_6.aln  [M=293]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+   1.2e-164  551.6   0.0   1.4e-164  551.4   0.0    1.0  1  sp|Q4W8C9|3HBOH_CUPNH      3-hydroxybutyrate-oligomer hydrola
+    0.00019   25.7   0.0    0.00028   25.2   0.0    1.2  1  sp|P26174|BCHO_RHOCA       Magnesium-chelatase 30 kDa subunit
+    0.00055   24.2   0.0    0.00091   23.5   0.0    1.3  1  sp|A2BGU9|SERHL_DANRE      Serine hydrolase-like protein OS=D
+     0.0037   21.5   0.2      0.066   17.4   0.0    2.1  2  sp|Q59093|ELH1_ACIAD       3-oxoadipate enol-lactonase 1 OS=A
+     0.0059   20.8   0.0       0.74   13.9   0.0    2.1  2  sp|P9WNH0|BPOC_MYCTO       Putative non-heme bromoperoxidase 
+     0.0059   20.8   0.0       0.74   13.9   0.0    2.1  2  sp|P9WNH1|BPOC_MYCTU       Putative non-heme bromoperoxidase 
+      0.006   20.8   0.0        4.4   11.4   0.0    2.1  2  sp|I6XU97|EST45_MYCTU      Esterase Rv0045c OS=Mycobacterium 
+  ------ inclusion threshold ------
+      0.021   19.0   0.0      0.033   18.4   0.0    1.3  1  sp|P19076|DMPD_PSEUF       2-hydroxymuconate semialdehyde hyd
+      0.021   19.0   0.0       0.33   15.1   0.0    2.0  2  sp|Q9H4I8|SEHL2_HUMAN      Serine hydrolase-like protein 2 OS
+      0.023   18.9   0.0      0.032   18.4   0.0    1.1  1  sp|A0A242M8J4|EPOXH_CABSO  Epoxide hydrolase OS=Caballeronia 
+      0.033   18.4   0.0        2.6   12.2   0.0    2.1  2  sp|Q6F9F4|TGND_ACIAD       (E)-2-((N-methylformamido)methylen
+      0.053   17.7   0.1          3   11.9   0.0    2.1  2  sp|P0A573|Y2734_MYCBO      Uncharacterized protein Mb2734 OS=
+      0.053   17.7   0.1          3   11.9   0.0    2.1  2  sp|P9WNH2|Y2715_MYCTO      Uncharacterized protein MT2788 OS=
+      0.053   17.7   0.1          3   11.9   0.0    2.1  2  sp|P9WNH3|Y2715_MYCTU      Uncharacterized protein Rv2715 OS=
+      0.064   17.4   0.0      0.089   17.0   0.0    1.1  1  sp|O07937|YRAK_BACSU       Uncharacterized hydrolase YraK OS=
+      0.075   17.2   0.0       0.11   16.7   0.0    1.2  1  sp|P23133|TODF_PSEP1       2-hydroxy-6-oxo-2,4-heptadienoate 
+      0.084   17.0   0.9         22    9.1   0.0    2.9  3  sp|P64304|DHMA2_MYCBO      Haloalkane dehalogenase 2 OS=Mycob
+      0.084   17.0   0.9         22    9.1   0.0    2.9  3  sp|P9WMS0|DHMA2_MYCTO      Haloalkane dehalogenase 2 OS=Mycob
+      0.084   17.0   0.9         22    9.1   0.0    2.9  3  sp|P9WMS1|DHMA2_MYCTU      Haloalkane dehalogenase 2 OS=Mycob
+      0.086   17.0   0.0          1   13.5   0.0    2.0  2  sp|B9JLT6|RUTD_RHIR8       Putative carbamate hydrolase RutD 
+       0.13   16.4   0.0       0.31   15.2   0.0    1.6  2  sp|P23974|MENH_BACSU       Putative 2-succinyl-6-hydroxy-2,4-
+       0.13   16.4   0.0       0.14   16.3   0.0    1.1  1  sp|Q9NQF3|SERHL_HUMAN      Serine hydrolase-like protein OS=H
+       0.18   16.0   0.0       0.38   14.9   0.0    1.5  1  sp|Q988D4|AAMHY_RHILO      2-(acetamidomethylene)succinate hy
+       0.19   15.9   0.0       0.32   15.1   0.0    1.3  1  sp|P07383|TPES_PSEPU       Tropinesterase OS=Pseudomonas puti
+       0.19   15.9   0.3        0.3   15.2   0.2    1.4  1  sp|B1M5I5|RUTD_METRJ       Putative carbamate hydrolase RutD 
+       0.21   15.7   0.0        1.6   12.8   0.0    1.9  2  sp|Q57427|Y193_HAEIN       Putative esterase/lipase HI_0193 O
+       0.31   15.2   0.0         32    8.6   0.0    2.1  2  sp|Q6Q2C2|HYES_PIG         Bifunctional epoxide hydrolase 2 O
+       0.68   14.1   0.1         30    8.7   0.0    2.1  2  sp|B0RMQ9|BIOH_XANCB       Pimeloyl-[acyl-carrier protein] me
+       0.68   14.1   0.1         30    8.7   0.0    2.1  2  sp|Q4UZP1|BIOH_XANC8       Pimeloyl-[acyl-carrier protein] me
+       0.68   14.1   0.1         30    8.7   0.0    2.1  2  sp|Q8PDF3|BIOH_XANCP       Pimeloyl-[acyl-carrier protein] me
+       0.84   13.8   0.0        1.2   13.2   0.0    1.2  1  sp|B8H3S9|DHMA_CAUVN       Haloalkane dehalogenase OS=Cauloba
+       0.84   13.8   0.0        1.2   13.2   0.0    1.2  1  sp|Q9A919|DHMA_CAUVC       Haloalkane dehalogenase OS=Cauloba
+        1.2   13.2   0.1        2.8   12.0   0.1    1.5  2  sp|Q9XG98|KPRS1_SPIOL      Ribose-phosphate pyrophosphokinase
+        1.3   13.1   0.0         43    8.1   0.0    2.2  2  sp|A7NE28|RF3_FRATF        Peptide chain release factor 3 OS=
+        1.3   13.1   0.0         43    8.1   0.0    2.2  2  sp|Q0BKK2|RF3_FRATO        Peptide chain release factor 3 OS=
+        1.3   13.1   0.0         43    8.1   0.0    2.2  2  sp|Q2A1V8|RF3_FRATH        Peptide chain release factor 3 OS=
+        1.4   13.0   0.0         46    8.0   0.0    2.2  2  sp|B2SF23|RF3_FRATM        Peptide chain release factor 3 OS=
+        1.4   13.0   0.0         46    8.0   0.0    2.2  2  sp|A4IW75|RF3_FRATW        Peptide chain release factor 3 OS=
+        1.4   13.0   0.0          2   12.5   0.0    1.2  1  sp|Q15493|RGN_HUMAN        Regucalcin OS=Homo sapiens OX=9606
+        1.4   13.0   0.0         47    8.0   0.0    2.2  2  sp|Q14JV7|RF3_FRAT1        Peptide chain release factor 3 OS=
+        1.4   13.0   0.0         47    8.0   0.0    2.2  2  sp|Q5NIF4|RF3_FRATT        Peptide chain release factor 3 OS=
+        1.5   12.9   0.0        2.3   12.4   0.0    1.3  1  sp|B7KWT4|RUTD_METC4       Putative carbamate hydrolase RutD 
+        1.5   12.9   0.0        1.7   12.7   0.0    1.1  1  sp|Q0SSI9|RBSD_CLOPS       D-ribose pyranase OS=Clostridium p
+        1.5   12.9   0.0         46    8.0   0.0    2.2  2  sp|A0Q892|RF3_FRATN        Peptide chain release factor 3 OS=
+        2.2   12.4   0.3         75    7.4   0.0    2.1  2  sp|P00632|ELH2_ACIAD       3-oxoadipate enol-lactonase 2 OS=A
+        2.5   12.2   0.1         20    9.3   0.1    2.1  1  sp|D5VGV3|RUTD_CAUST       Putative carbamate hydrolase RutD 
+        2.6   12.2   0.1        7.7   10.6   0.0    1.8  2  sp|P0DO70|EPH3_SIRGR       Epoxide hydrolase 3 OS=Siraitia gr
+        2.6   12.1   0.0         75    7.4   0.0    2.1  2  sp|P80299|HYES_RAT         Bifunctional epoxide hydrolase 2 O
+        2.6   12.1   0.0        6.6   10.8   0.0    1.6  2  sp|A7FNV8|BIOH_YERP3       Pimeloyl-[acyl-carrier protein] me
+        2.6   12.1   0.0        6.6   10.8   0.0    1.6  2  sp|A9R4D0|BIOH_YERPG       Pimeloyl-[acyl-carrier protein] me
+        2.6   12.1   0.0        6.6   10.8   0.0    1.6  2  sp|B1JHZ5|BIOH_YERPY       Pimeloyl-[acyl-carrier protein] me
+        2.6   12.1   0.0        6.6   10.8   0.0    1.6  2  sp|Q74Y45|BIOH_YERPE       Pimeloyl-[acyl-carrier protein] me
+        2.8   12.1   0.0        6.7   10.8   0.0    1.6  2  sp|B2K5V7|BIOH_YERPB       Pimeloyl-[acyl-carrier protein] me
+        2.8   12.1   0.0        6.7   10.8   0.0    1.6  2  sp|Q664J8|BIOH_YERPS       Pimeloyl-[acyl-carrier protein] me
+        2.9   12.0   0.0        4.2   11.5   0.0    1.4  1  sp|Q7CWX3|RUTD_AGRFC       Putative carbamate hydrolase RutD 
+          3   12.0   0.0        4.3   11.4   0.0    1.2  1  sp|Q2PFX5|RGN_MACFA        Regucalcin OS=Macaca fascicularis 
+        3.2   11.8   0.0        4.8   11.3   0.0    1.2  1  sp|Q8PDW8|OLEB_XANCP       Cis-3-alkyl-4-alkyloxetan-2-one de
+        3.5   11.7   0.0        5.3   11.1   0.0    1.4  1  sp|B6EPQ0|BIOH_ALISL       Pimeloyl-[acyl-carrier protein] me
+        3.8   11.6   0.0        5.4   11.1   0.0    1.2  1  sp|B4RF90|DHMA_PHEZH       Haloalkane dehalogenase OS=Phenylo
+          4   11.6   0.0        4.5   11.4   0.0    1.1  1  sp|Q0TPX4|RBSD_CLOP1       D-ribose pyranase OS=Clostridium p
+          4   11.5   0.1         14    9.7   0.1    1.7  2  sp|Q42581|KPRS1_ARATH      Ribose-phosphate pyrophosphokinase
+        4.1   11.5   0.0        7.3   10.7   0.0    1.3  1  sp|O31581|YFHM_BACSU       AB hydrolase superfamily protein Y
+        4.1   11.5   0.0        5.5   11.1   0.0    1.1  1  sp|O32234|YVAM_BACSU       AB hydrolase superfamily protein Y
+        4.1   11.5   0.0        9.5   10.3   0.0    1.6  2  sp|Q6DRD9|ABHDB_DANRE      sn-1-specific diacylglycerol lipas
+          5   11.2   0.0          7   10.7   0.0    1.2  1  sp|Q5R837|RGN_PONAB        Regucalcin OS=Pongo abelii OX=9601
+        5.7   11.0   0.0        6.4   10.9   0.0    1.1  1  sp|Q8XJX2|RBSD_CLOPE       D-ribose pyranase OS=Clostridium p
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q4W8C9|3HBOH_CUPNH  3-hydroxybutyrate-oligomer hydrolase OS=Cupriavidus necator (strain ATCC 17699 / DSM 428 / KCT
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  551.4   0.0  1.6e-168  1.4e-164       1     293 []       1     293 []       1     293 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 551.4 bits;  conditional E-value: 1.6e-168
+      Abhydrolase_6.aln   1 melssrlfllqlisllllivtalreWgdpanprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltva 88 
+                            m++s+rl+++q+is+++l+++a++eWgdpanprvl++a++lt++++dfdtvasal++d+rvv+PdvaGr+rse+lada++y+v+++v+
+  sp|Q4W8C9|3HBOH_CUPNH   1 MSASPRLGFVQCISPAGLHRMAYHEWGDPANPRVLVCAHGLTRTGRDFDTVASALCGDYRVVCPDVAGRGRSEWLADANGYVVPQYVS 88 
+                            9*************************************************************************************** PP
+
+      Abhydrolase_6.aln  89 dyvllvarlrvekvdWikisrgGliaydlavlnkahvrgvlltdvaaklaPdlvervevilelPvrfktleeGkaylstlaasfarft 176
+                            d+v+l+arl+vekvdW+++s+gGli+++la+l+k++vr++ll+dv++klaP++ver++++l+lPvrfkt+eeG+ayl+t++asf+r+t
+  sp|Q4W8C9|3HBOH_CUPNH  89 DMVTLIARLNVEKVDWFGTSMGGLIGMGLAGLPKSPVRKLLLNDVGPKLAPSAVERIGAYLGLPVRFKTFEEGLAYLQTISASFGRHT 176
+                            **************************************************************************************** PP
+
+      Abhydrolase_6.aln 177 leaWrelnakvlkPldntdklemalhydPrlavtfvksikelidageaaltdiyeavkGavlvvrgassdlllresvlesvaraksls 264
+                            +e+Wrelna++lkP+++td+le++lhydP+lav+f+ks++e+i+ageaal++++ea++G+vlvvrga+sdlllre+v+e+var+k++s
+  sp|Q4W8C9|3HBOH_CUPNH 177 PEQWRELNAAILKPVQGTDGLEWGLHYDPQLAVPFRKSTPEAIAAGEAALWRSFEAIEGPVLVVRGAQSDLLLRETVAEMVARGKHVS 264
+                            **************************************************************************************** PP
+
+      Abhydrolase_6.aln 265 ivevedvshlitavdPdsiailPqfftga 293
+                            +vev+dv+h++t+vdP++iai+Pqfftga
+  sp|Q4W8C9|3HBOH_CUPNH 265 SVEVPDVGHAPTFVDPAQIAIAPQFFTGA 293
+                            ***************************97 PP
+
+>> sp|P26174|BCHO_RHOCA  Magnesium-chelatase 30 kDa subunit OS=Rhodobacter capsulatus OX=1061 GN=bchO PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.2   0.0   3.2e-08   0.00028      28     119 ..      32     122 ..      21     146 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 25.2 bits;  conditional E-value: 3.2e-08
+     Abhydrolase_6.aln  28 dpanprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliayd 116
+                            pa+  vll  ++l   +  f ++   l a++rv +Pd+ G++ s   a     l   ++ d+  l ++l+v+ +  i+ s gG ia++
+  sp|P26174|BCHO_RHOCA  32 GPADGPVLLLLHGLGASGHSFRKMIPGLSARYRVIVPDLPGHGCSRSTARNRFGL-KPMAEDLWKLCQHLNVTPAAVIGHSAGGAIALQ 119
+                           589999****************************************999766665.55689***************************9 PP
+
+     Abhydrolase_6.aln 117 lav 119
+                           la 
+  sp|P26174|BCHO_RHOCA 120 LAL 122
+                           984 PP
+
+>> sp|A2BGU9|SERHL_DANRE  Serine hydrolase-like protein OS=Danio rerio OX=7955 GN=serhl PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.5   0.0   1.1e-07   0.00091      26     120 ..      37     130 ..      32     173 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 23.5 bits;  conditional E-value: 1.1e-07
+      Abhydrolase_6.aln  26 WgdpanprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGli 113
+                            W  p+  r +l+ ++   ++  f+t+   l  d r va d  G++ s h  d   y  + +vad+  +v+ l+ ++   i+ s+gG +
+  sp|A2BGU9|SERHL_DANRE  37 W-GPSHGRPVLCLHGWADNSGTFNTLVPLLPNDWRFVAIDFPGHGLSSHRPDGCFYAFPFYVADVRRVVEALQWKRFSIIGHSMGGNV 123
+                            8.69999*******************************************************************************99 PP
+
+      Abhydrolase_6.aln 114 aydlavl 120
+                            a   ++l
+  sp|A2BGU9|SERHL_DANRE 124 AGMFSAL 130
+                            8555554 PP
+
+>> sp|Q59093|ELH1_ACIAD  3-oxoadipate enol-lactonase 1 OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) OX=629
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.4   0.0   7.6e-06     0.066      48     137 ..      43     129 ..      16     161 .. 0.80
+   2 ?    2.3   0.0      0.29   2.6e+03     236     283 ..     208     254 ..     178     263 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 17.4 bits;  conditional E-value: 7.6e-06
+     Abhydrolase_6.aln  48 fd.tvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlavlnkahvrgvlltdvaa 135
+                           ++ +v +al +++rvv+ d  G++ s+ + ++  + +     d+  ++  l++ek+ + +is+gGl a+ l   + a    + +++ aa
+  sp|Q59093|ELH1_ACIAD  43 WQpQV-AALKSQYRVVTYDTRGHGQSDVIENTTLQNLG---EDVLDILDALNIEKAHFCGISMGGLTALWLGIYQAARFYSITVANSAA 127
+                           33255.5999*****************99888777655...566667899*******************99999999888888888887 PP
+
+     Abhydrolase_6.aln 136 kl 137
+                           k 
+  sp|Q59093|ELH1_ACIAD 128 KI 129
+                           75 PP
+
+  == domain 2  score: 2.3 bits;  conditional E-value: 0.29
+     Abhydrolase_6.aln 236 avlvvrgassdlllresvlesvarakslsivevedvshlitavdPdsi 283
+                           + l++ g s d +   +  e +++  + +  ev d shl  +++P++ 
+  sp|Q59093|ELH1_ACIAD 208 PTLIIAG-SADPVTTITDGEFMQQHIQCNQFEVIDASHLSNIEQPEKF 254
+                           5566444.55666667777888888899999*************9874 PP
+
+>> sp|P9WNH0|BPOC_MYCTO  Putative non-heme bromoperoxidase BpoC OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.9   0.0   8.5e-05      0.74      31     125 ..      13     104 ..       1     147 [. 0.80
+   2 ?    5.1   0.0     0.041   3.5e+02     228     286 ..     194     252 ..     174     259 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 13.9 bits;  conditional E-value: 8.5e-05
+     Abhydrolase_6.aln  31 nprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlav 119
+                           +p v++  ++   ++   ++v + l a +r  + d  G + +e   +a+++    +vad   l++ l +  +  +++s+g  ia +l v
+  sp|P9WNH0|BPOC_MYCTO  13 DPVVFIAGRGGAGRTWHPHQVPAFLAAGYRCITFDNRGIGATE---NAEGFTTQTMVADTAALIETLDIAPARVVGVSMGAFIAQELMV 98 
+                           5666666555555456667***********************9...6899999*********************************998 PP
+
+     Abhydrolase_6.aln 120 lnkahv 125
+                           +    v
+  sp|P9WNH0|BPOC_MYCTO  99 VAPELV 104
+                           765543 PP
+
+  == domain 2  score: 5.1 bits;  conditional E-value: 0.041
+     Abhydrolase_6.aln 228 diyeavkGavlvvrgassdlllresvlesvara.kslsivevedvshlitavdPdsiail 286
+                            +y+++  +vlv  g   d++    + + va a  + + ++++d +hl  +++P+ +  +
+  sp|P9WNH0|BPOC_MYCTO 194 PAYRNIAAPVLV-IGFADDVVTPPYLGREVADAlPNGRYLQIPDAGHLGFFERPEAVNTA 252
+                           57999999***9.78888888655544444444134455668*************99765 PP
+
+>> sp|P9WNH1|BPOC_MYCTU  Putative non-heme bromoperoxidase BpoC OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.9   0.0   8.5e-05      0.74      31     125 ..      13     104 ..       1     147 [. 0.80
+   2 ?    5.1   0.0     0.041   3.5e+02     228     286 ..     194     252 ..     174     259 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 13.9 bits;  conditional E-value: 8.5e-05
+     Abhydrolase_6.aln  31 nprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlav 119
+                           +p v++  ++   ++   ++v + l a +r  + d  G + +e   +a+++    +vad   l++ l +  +  +++s+g  ia +l v
+  sp|P9WNH1|BPOC_MYCTU  13 DPVVFIAGRGGAGRTWHPHQVPAFLAAGYRCITFDNRGIGATE---NAEGFTTQTMVADTAALIETLDIAPARVVGVSMGAFIAQELMV 98 
+                           5666666555555456667***********************9...6899999*********************************998 PP
+
+     Abhydrolase_6.aln 120 lnkahv 125
+                           +    v
+  sp|P9WNH1|BPOC_MYCTU  99 VAPELV 104
+                           765543 PP
+
+  == domain 2  score: 5.1 bits;  conditional E-value: 0.041
+     Abhydrolase_6.aln 228 diyeavkGavlvvrgassdlllresvlesvara.kslsivevedvshlitavdPdsiail 286
+                            +y+++  +vlv  g   d++    + + va a  + + ++++d +hl  +++P+ +  +
+  sp|P9WNH1|BPOC_MYCTU 194 PAYRNIAAPVLV-IGFADDVVTPPYLGREVADAlPNGRYLQIPDAGHLGFFERPEAVNTA 252
+                           57999999***9.78888888655544444444134455668*************99765 PP
+
+>> sp|I6XU97|EST45_MYCTU  Esterase Rv0045c OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=Rv0045c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.5   0.0    0.0079        69      22     135 ..      41     149 ..      33     189 .. 0.82
+   2 !   11.4   0.0    0.0005       4.4     224     282 ..     227     286 ..     217     293 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 7.5 bits;  conditional E-value: 0.0079
+      Abhydrolase_6.aln  22 alreWgdpanprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWi.kis 108
+                            +  +Wg  + prv+    + +  a  +dtv   l     + a d+ G++ s +  d +    ++  ++   +v r     ++++ ++s
+  sp|I6XU97|EST45_MYCTU  41 SALRWGG-SAPRVIFLHGGGQN-AHTWDTVIVGLGE--PALAVDLPGHGHSAWREDGNY--SPQLNSETLAPVLRELAPGAEFVvGMS 122
+                            5669965.56999887777666.9999999887754..34555667*******998775..59************999999986377* PP
+
+      Abhydrolase_6.aln 109 rgGliaydlavlnkahvrgvlltdvaa 135
+                             gGl a+ la++    v +++l dv++
+  sp|I6XU97|EST45_MYCTU 123 LGGLTAIRLAAMAPDLVGELVLVDVTP 149
+                            ***********9998888888877765 PP
+
+  == domain 2  score: 11.4 bits;  conditional E-value: 0.0005
+      Abhydrolase_6.aln 224 aaltdiyeavkGavlvvrgassdlllresvlesvarakslsive.vedvshlitavdPds 282
+                            a l+d  +a+  ++ +vrg ss ++  +  +e   ra + + v  ve  +h +  ++P  
+  sp|I6XU97|EST45_MYCTU 227 AGLWDDVDALSAPITLVRGGSSGFVTDQDTAELHRRATHFRGVHiVEKSGHSVQSDQPRA 286
+                            5689*************************************99757999*******9975 PP
+
+>> sp|P19076|DMPD_PSEUF  2-hydroxymuconate semialdehyde hydrolase OS=Pseudomonas sp. (strain CF600) OX=79676 GN=dmpD PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.4   0.0   3.8e-06     0.033      51     131 ..      51     130 ..      15     141 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 3.8e-06
+     Abhydrolase_6.aln  51 vasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlavlnkahvrgvllt 131
+                           v   l    rv aPd+ G ++se  ada+       v   v ++  l++e++d ++ s gG ia+ la      vr ++l 
+  sp|P19076|DMPD_PSEUF  51 VMPELAKSRRVIAPDMLGFGYSERPADAQYN-RDVWVDHAVGVLDALEIEQADLVGNSFGGGIALALAIRHPERVRRLVLM 130
+                           5555667789*****************9855.5667777888999***********************9999999988775 PP
+
+>> sp|Q9H4I8|SEHL2_HUMAN  Serine hydrolase-like protein 2 OS=Homo sapiens OX=9606 GN=SERHL2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.1   0.0   3.8e-05      0.33      20     114 ..      21     114 ..       1     169 [. 0.88
+   2 ?    2.2   0.0      0.33   2.9e+03     203     235 ..     250     284 ..     213     307 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 15.1 bits;  conditional E-value: 3.8e-05
+      Abhydrolase_6.aln  20 vtalreWgdpanprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWiki 107
+                             +a + Wg    p vl + ++   +a  fd++   l  d+  va d  G++ s h++    y +  +v+++  +va l+ ++   ++ 
+  sp|Q9H4I8|SEHL2_HUMAN  21 HIAAKAWGSLQGPPVL-CLHGWLDNASSFDRLIPLLPQDFYYVAMDFGGHGLSSHYSPGVPYYLQTFVSEIRRVVAALKWNRFSILGH 107
+                            47899*****999986.88999999*************************************************************** PP
+
+      Abhydrolase_6.aln 108 srgGlia 114
+                            s gG+++
+  sp|Q9H4I8|SEHL2_HUMAN 108 SFGGVVG 114
+                            ****996 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.33
+      Abhydrolase_6.aln 203 ydPrlavtfvksikelidageaaltdiyeavk..G 235
+                            +d r   + ++s+  +id ++++l + ++ v+  G
+  sp|Q9H4I8|SEHL2_HUMAN 250 FDSRQNYSEKESLSFMIDTMKSTLKEQFQFVEvpG 284
+                            77777777788888899999999999999988544 PP
+
+>> sp|A0A242M8J4|EPOXH_CABSO  Epoxide hydrolase OS=Caballeronia sordidicola OX=196367 GN=PAMC26510_32755 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.4   0.0   3.7e-06     0.032      22     120 ..      25     123 ..      19     152 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 3.7e-06
+          Abhydrolase_6.aln  22 alreWgdpanprvllraesltkqavdfd.tvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdW 104
+                                +l+   + a p vl +   +   +  +  ++ +   a +r+ aPd+ G +rs   ada  y    t+ d+  l+  l++  +  
+  sp|A0A242M8J4|EPOXH_CABSO  25 SLHVTEQGAGPAVLFCHGFPDT-SYTWRrQMNAIASAGYRAIAPDMRGYGRSSAPADASLYTPLHTTGDLIGLLDALKISSAVL 107
+                                6666677899999999777766.555543666666789********************************************99 PP
+
+          Abhydrolase_6.aln 105 ikisrgGliaydlavl 120
+                                ++ + g + a+++a +
+  sp|A0A242M8J4|EPOXH_CABSO 108 VGHDWGATHAWNAALM 123
+                                9999999999999876 PP
+
+>> sp|Q6F9F4|TGND_ACIAD  (E)-2-((N-methylformamido)methylene)succinate hydrolase OS=Acinetobacter baylyi (strain ATCC 33
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.0     0.075   6.6e+02      92     174 ..      80     157 ..      18     172 .. 0.55
+   2 ?   12.2   0.0    0.0003       2.6     219     288 ..     187     256 ..     180     260 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 4.3 bits;  conditional E-value: 0.075
+     Abhydrolase_6.aln  92 llvarlrvekvdWikisrgGliaydlavlnkahvrgvlltdvaaklaPdlvervevilelPvrfktleeGkay.lstlaasfar 174
+                             +  l++  v+  + s+g li+ +++v     v+ +++ +   k+     +r  vi     r ++l++G      +l ++f++
+  sp|Q6F9F4|TGND_ACIAD  80 ECIHTLNLGPVNLAGHSMGSLITTGVSVTRPDLVKRMAVLNGVYKRTH--AAREAVIQ----RAEALKQGHLDiETPLQRWFGQ 157
+                           344555555555555555555555555544444433333222222111..12222222....2334666655523456666665 PP
+
+  == domain 2  score: 12.2 bits;  conditional E-value: 0.0003
+     Abhydrolase_6.aln 219 idageaaltdiyeavkGavlvvrgassdlllresvlesvarakslsivevedvshlitavdPdsiailPq 288
+                            + g+    d +  ++ + lv+ g++      e  ++++ +ak+   + +e+  h++    P+++  + q
+  sp|Q6F9F4|TGND_ACIAD 187 FAQGDLVYADGWSDIECPALVLTGTDDPNSTAEMTIQMAHQAKHGTAIVIENERHMVNLTAPEKVNQAMQ 256
+                           5677888889999***********99999999999****************************9988765 PP
+
+>> sp|P0A573|Y2734_MYCBO  Uncharacterized protein Mb2734 OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) OX=233
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.0   0.00034         3      34     138 ..      40     142 ..      23     154 .. 0.80
+   2 ?    3.7   0.0      0.11   9.5e+02     205     287 ..     204     290 ..     201     296 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.00034
+      Abhydrolase_6.aln  34 vllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydla.vl 120
+                            +ll  +++  ++  ++ v + l  ++ v aPd+ G++ s+       y v  ++  +  l++ l +e+v  ++ s gG +a++ a  +
+  sp|P0A573|Y2734_MYCBO  40 ILL-IHGIGDNSTTWNGVHAKLAQRFTVIAPDLLGHGQSDKP--RADYSVAAYANGMRDLLSVLDIERVTIVGHSLGGGVAMQFAyQF 124
+                            443.57777778889999999******************974..23378999*******************************98346 PP
+
+      Abhydrolase_6.aln 121 nkahvrgvlltdvaakla 138
+                            ++   r +l++  +  + 
+  sp|P0A573|Y2734_MYCBO 125 PQLVDRLILVSAGGVTKD 142
+                            777777777766665555 PP
+
+  == domain 2  score: 3.7 bits;  conditional E-value: 0.11
+      Abhydrolase_6.aln 205 Prlavtfvksikelida...geaaltdiyeavkGavlvvrgassdlllresvlesvarakslsivev.edvshlitavdPds.iailP 287
+                            P  + +f ++++ ++d+   + + l + y     +v ++ g+ +d++l    ++++  a   s +e+ e+ +h +  +dP++ i i+ 
+  sp|P0A573|Y2734_MYCBO 204 PTASAAFGRTLRAVVDWrgqMVTMLDRCYLTEAIPVQIIWGT-KDVVLPVRHAHMAHAAMPGSQLEIfEGSGHFPFHDDPARfIDIVE 290
+                            555666777777777772223344456665555677777675.6787766666666666555555544799*********97355555 PP
+
+>> sp|P9WNH2|Y2715_MYCTO  Uncharacterized protein MT2788 OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=83
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.0   0.00034         3      34     138 ..      40     142 ..      23     154 .. 0.80
+   2 ?    3.7   0.0      0.11   9.5e+02     205     287 ..     204     290 ..     201     296 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.00034
+      Abhydrolase_6.aln  34 vllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydla.vl 120
+                            +ll  +++  ++  ++ v + l  ++ v aPd+ G++ s+       y v  ++  +  l++ l +e+v  ++ s gG +a++ a  +
+  sp|P9WNH2|Y2715_MYCTO  40 ILL-IHGIGDNSTTWNGVHAKLAQRFTVIAPDLLGHGQSDKP--RADYSVAAYANGMRDLLSVLDIERVTIVGHSLGGGVAMQFAyQF 124
+                            443.57777778889999999******************974..23378999*******************************98346 PP
+
+      Abhydrolase_6.aln 121 nkahvrgvlltdvaakla 138
+                            ++   r +l++  +  + 
+  sp|P9WNH2|Y2715_MYCTO 125 PQLVDRLILVSAGGVTKD 142
+                            777777777766665555 PP
+
+  == domain 2  score: 3.7 bits;  conditional E-value: 0.11
+      Abhydrolase_6.aln 205 Prlavtfvksikelida...geaaltdiyeavkGavlvvrgassdlllresvlesvarakslsivev.edvshlitavdPds.iailP 287
+                            P  + +f ++++ ++d+   + + l + y     +v ++ g+ +d++l    ++++  a   s +e+ e+ +h +  +dP++ i i+ 
+  sp|P9WNH2|Y2715_MYCTO 204 PTASAAFGRTLRAVVDWrgqMVTMLDRCYLTEAIPVQIIWGT-KDVVLPVRHAHMAHAAMPGSQLEIfEGSGHFPFHDDPARfIDIVE 290
+                            555666777777777772223344456665555677777675.6787766666666666555555544799*********97355555 PP
+
+>> sp|P9WNH3|Y2715_MYCTU  Uncharacterized protein Rv2715 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.0   0.00034         3      34     138 ..      40     142 ..      23     154 .. 0.80
+   2 ?    3.7   0.0      0.11   9.5e+02     205     287 ..     204     290 ..     201     296 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.00034
+      Abhydrolase_6.aln  34 vllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydla.vl 120
+                            +ll  +++  ++  ++ v + l  ++ v aPd+ G++ s+       y v  ++  +  l++ l +e+v  ++ s gG +a++ a  +
+  sp|P9WNH3|Y2715_MYCTU  40 ILL-IHGIGDNSTTWNGVHAKLAQRFTVIAPDLLGHGQSDKP--RADYSVAAYANGMRDLLSVLDIERVTIVGHSLGGGVAMQFAyQF 124
+                            443.57777778889999999******************974..23378999*******************************98346 PP
+
+      Abhydrolase_6.aln 121 nkahvrgvlltdvaakla 138
+                            ++   r +l++  +  + 
+  sp|P9WNH3|Y2715_MYCTU 125 PQLVDRLILVSAGGVTKD 142
+                            777777777766665555 PP
+
+  == domain 2  score: 3.7 bits;  conditional E-value: 0.11
+      Abhydrolase_6.aln 205 Prlavtfvksikelida...geaaltdiyeavkGavlvvrgassdlllresvlesvarakslsivev.edvshlitavdPds.iailP 287
+                            P  + +f ++++ ++d+   + + l + y     +v ++ g+ +d++l    ++++  a   s +e+ e+ +h +  +dP++ i i+ 
+  sp|P9WNH3|Y2715_MYCTU 204 PTASAAFGRTLRAVVDWrgqMVTMLDRCYLTEAIPVQIIWGT-KDVVLPVRHAHMAHAAMPGSQLEIfEGSGHFPFHDDPARfIDIVE 290
+                            555666777777777772223344456665555677777675.6787766666666666555555544799*********97355555 PP
+
+>> sp|O07937|YRAK_BACSU  Uncharacterized hydrolase YraK OS=Bacillus subtilis (strain 168) OX=224308 GN=yraK PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.0   0.0     1e-05     0.089      34     119 ..      26     110 ..      14     127 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 17.0 bits;  conditional E-value: 1e-05
+     Abhydrolase_6.aln  34 vllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlav 119
+                           +ll  ++   +a  f+ va  l   + vv+ d  G+ rs+     ++y v   + d + l+a++  + +  ++ s g +i++dl  
+  sp|O07937|YRAK_BACSU  26 ILL-VHGGGGDADKFHHVANHLANWYTVVTYDRRGHSRSNLANQIEGYRVETHSDDAHRLLAKITNKPAYVFGSSSGAVIGLDLCI 110
+                           444.4566666999********************************************************************9975 PP
+
+>> sp|P23133|TODF_PSEP1  2-hydroxy-6-oxo-2,4-heptadienoate hydrolase OS=Pseudomonas putida (strain ATCC 700007 / DSM 689
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.7   0.0   1.2e-05      0.11      13     128 ..      11     125 ..       3     136 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 16.7 bits;  conditional E-value: 1.2e-05
+     Abhydrolase_6.aln  13 isllllivtalreWgdpanprvllraesltkqa.vdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrve 100
+                           + l++ i t l++     np vl+   ++  +a  ++ tv   l  + rv aPd+ G ++++       y v   va +  ++  l+++
+  sp|P23133|TODF_PSEP1  11 MVLAGGIETNLHDV-GAGNPVVLVHGSGPGVTAwANWRTVMPELSRHRRVIAPDMVGFGFTQRPH-GIHYGVESWVAHLAGILDALELD 97 
+                           55778889999999.578***********998835788***********************9754.556899***************** PP
+
+     Abhydrolase_6.aln 101 kvdWikisrgGliaydlavlnkahvrgv 128
+                           +vd ++ s gG +++  a      vr +
+  sp|P23133|TODF_PSEP1  98 RVDLVGNSFGGALSLAFAIRFPHRVRRL 125
+                           ************9999887655555554 PP
+
+>> sp|P64304|DHMA2_MYCBO  Haloalkane dehalogenase 2 OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   0.0    0.0026        22      30     133 ..      33     134 ..      23     164 .. 0.81
+   2 ?    3.9   0.1     0.097   8.4e+02      50      69 ..     178     197 ..     169     207 .. 0.83
+   3 ?    0.7   0.1      0.89   7.8e+03     265     286 ..     259     280 ..     245     283 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.0026
+      Abhydrolase_6.aln  30 anprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydl 117
+                            + p +ll+   +t  +  +  +  al  ++r vaPd  G + se  +   +y +   +  +   v +l +++   ++ + gG i++ +
+  sp|P64304|DHMA2_MYCBO  33 TGPPILLCHGNPTW-SFLYRDIIVALRDRFRCVAPDYLGFGLSERPSG-FGYQIDEHARVIGEFVDHLGLDRYLSMGQDWGGPISMAV 118
+                            67889999999998.778889999********************8764.5778888888899999999999999999999******** PP
+
+      Abhydrolase_6.aln 118 avlnkahvrgvlltdv 133
+                            av     vrgv+l + 
+  sp|P64304|DHMA2_MYCBO 119 AVERADRVRGVVLGNT 134
+                            *9999999*9998654 PP
+
+  == domain 2  score: 3.9 bits;  conditional E-value: 0.097
+      Abhydrolase_6.aln  50 tvasaliadsrvvaPdvaGr 69 
+                            + +sa++a++r+v P+ a r
+  sp|P64304|DHMA2_MYCBO 178 RPSSAVMAHYRAVQPNAAAR 197
+                            558************98876 PP
+
+  == domain 3  score: 0.7 bits;  conditional E-value: 0.89
+      Abhydrolase_6.aln 265 ivevedvshlitavdPdsiail 286
+                             ve+++  h i  + Pd+ia +
+  sp|P64304|DHMA2_MYCBO 259 LVELPNAKHFIQEDAPDRIAAA 280
+                            69*****************975 PP
+
+>> sp|P9WMS0|DHMA2_MYCTO  Haloalkane dehalogenase 2 OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   0.0    0.0026        22      30     133 ..      33     134 ..      23     164 .. 0.81
+   2 ?    3.9   0.1     0.097   8.4e+02      50      69 ..     178     197 ..     169     207 .. 0.83
+   3 ?    0.7   0.1      0.89   7.8e+03     265     286 ..     259     280 ..     245     283 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.0026
+      Abhydrolase_6.aln  30 anprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydl 117
+                            + p +ll+   +t  +  +  +  al  ++r vaPd  G + se  +   +y +   +  +   v +l +++   ++ + gG i++ +
+  sp|P9WMS0|DHMA2_MYCTO  33 TGPPILLCHGNPTW-SFLYRDIIVALRDRFRCVAPDYLGFGLSERPSG-FGYQIDEHARVIGEFVDHLGLDRYLSMGQDWGGPISMAV 118
+                            67889999999998.778889999********************8764.5778888888899999999999999999999******** PP
+
+      Abhydrolase_6.aln 118 avlnkahvrgvlltdv 133
+                            av     vrgv+l + 
+  sp|P9WMS0|DHMA2_MYCTO 119 AVERADRVRGVVLGNT 134
+                            *9999999*9998654 PP
+
+  == domain 2  score: 3.9 bits;  conditional E-value: 0.097
+      Abhydrolase_6.aln  50 tvasaliadsrvvaPdvaGr 69 
+                            + +sa++a++r+v P+ a r
+  sp|P9WMS0|DHMA2_MYCTO 178 RPSSAVMAHYRAVQPNAAAR 197
+                            558************98876 PP
+
+  == domain 3  score: 0.7 bits;  conditional E-value: 0.89
+      Abhydrolase_6.aln 265 ivevedvshlitavdPdsiail 286
+                             ve+++  h i  + Pd+ia +
+  sp|P9WMS0|DHMA2_MYCTO 259 LVELPNAKHFIQEDAPDRIAAA 280
+                            69*****************975 PP
+
+>> sp|P9WMS1|DHMA2_MYCTU  Haloalkane dehalogenase 2 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   0.0    0.0026        22      30     133 ..      33     134 ..      23     164 .. 0.81
+   2 ?    3.9   0.1     0.097   8.4e+02      50      69 ..     178     197 ..     169     207 .. 0.83
+   3 ?    0.7   0.1      0.89   7.8e+03     265     286 ..     259     280 ..     245     283 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.0026
+      Abhydrolase_6.aln  30 anprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydl 117
+                            + p +ll+   +t  +  +  +  al  ++r vaPd  G + se  +   +y +   +  +   v +l +++   ++ + gG i++ +
+  sp|P9WMS1|DHMA2_MYCTU  33 TGPPILLCHGNPTW-SFLYRDIIVALRDRFRCVAPDYLGFGLSERPSG-FGYQIDEHARVIGEFVDHLGLDRYLSMGQDWGGPISMAV 118
+                            67889999999998.778889999********************8764.5778888888899999999999999999999******** PP
+
+      Abhydrolase_6.aln 118 avlnkahvrgvlltdv 133
+                            av     vrgv+l + 
+  sp|P9WMS1|DHMA2_MYCTU 119 AVERADRVRGVVLGNT 134
+                            *9999999*9998654 PP
+
+  == domain 2  score: 3.9 bits;  conditional E-value: 0.097
+      Abhydrolase_6.aln  50 tvasaliadsrvvaPdvaGr 69 
+                            + +sa++a++r+v P+ a r
+  sp|P9WMS1|DHMA2_MYCTU 178 RPSSAVMAHYRAVQPNAAAR 197
+                            558************98876 PP
+
+  == domain 3  score: 0.7 bits;  conditional E-value: 0.89
+      Abhydrolase_6.aln 265 ivevedvshlitavdPdsiail 286
+                             ve+++  h i  + Pd+ia +
+  sp|P9WMS1|DHMA2_MYCTU 259 LVELPNAKHFIQEDAPDRIAAA 280
+                            69*****************975 PP
+
+>> sp|B9JLT6|RUTD_RHIR8  Putative carbamate hydrolase RutD OS=Rhizobium rhizogenes (strain K84 / ATCC BAA-868) OX=311403
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.0   0.00012         1      53     119 ..      34      99 ..       9     131 .. 0.84
+   2 ?    1.6   0.0       0.5   4.3e+03     227     282 ..     191     246 ..     162     254 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 0.00012
+     Abhydrolase_6.aln  53 saliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlav 119
+                            al +d+r+v+ d  G +r+     +d   +  ++ d+  + arl++++ d+++   gGli++d+a 
+  sp|B9JLT6|RUTD_RHIR8  34 EALATDFRIVTYDHRGTGRTGGD-VPDTGGISAMADDVLEIAARLQLDRFDFMGHALGGLIGLDIAL 99 
+                           589999**********9999753.3666678888888888889*********************995 PP
+
+  == domain 2  score: 1.6 bits;  conditional E-value: 0.5
+     Abhydrolase_6.aln 227 tdiyeavkGavlvvrgassdlllresvlesvarakslsivevedvs.hlitavdPds 282
+                            d   +++ + lv  g++ dll+  +     a++ s   + + d + h++ +v+P++
+  sp|B9JLT6|RUTD_RHIR8 191 DDRLSEIRTPTLV-VGTRDDLLVPYTRSVRLAEGLSAAELALSDFGaHAVNVVEPEE 246
+                           4567789999999.799*****98875444444444444555676449999999986 PP
+
+>> sp|P23974|MENH_BACSU  Putative 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase OS=Bacillus subtilis (s
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.2   0.0   3.6e-05      0.31      33     129 ..      25     120 ..      11     140 .. 0.79
+   2 ?   -1.9   0.0       5.8     5e+04     225     243 ..     206     224 ..     192     268 .. 0.55
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 3.6e-05
+     Abhydrolase_6.aln  33 rvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlavln 121
+                             +++ ++ t  ++   t    ++ dsr    d  G++ ++   + + y   + v+d+  +  +l+++kv  i+ s+gG +ay  a   
+  sp|P23974|MENH_BACSU  25 EAVVCLHGFTG-SKQSWTFLDEMLPDSRLIKIDCLGHGETDAPLNGKRYSTTRQVSDLAEIFDQLKLHKVKLIGYSMGGRLAYSFAMTY 112
+                           55667777766.333345556678899999999999999999999999************************************99765 PP
+
+     Abhydrolase_6.aln 122 kahvrgvl 129
+                              v  ++
+  sp|P23974|MENH_BACSU 113 PERVSALV 120
+                           55554444 PP
+
+  == domain 2  score: -1.9 bits;  conditional E-value: 5.8
+     Abhydrolase_6.aln 225 altdiyeavkGavlvvrga 243
+                           +l+   e+++ +vl++ g 
+  sp|P23974|MENH_BACSU 206 SLWSRVEEIDVPVLLICGE 224
+                           4455555555555555444 PP
+
+>> sp|Q9NQF3|SERHL_HUMAN  Serine hydrolase-like protein OS=Homo sapiens OX=9606 GN=SERHL PE=5 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.3   0.0   1.6e-05      0.14      20     114 ..      21     114 ..       2     172 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 1.6e-05
+      Abhydrolase_6.aln  20 vtalreWgdpanprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWiki 107
+                             +a + Wg    p vl + ++   +a  fd++   l  d+  va d  G++ s h++    y +  +v+++  +va l+ ++   ++ 
+  sp|Q9NQF3|SERHL_HUMAN  21 HIAAKAWGSLQGPPVL-CLHGWLDNASSFDRLIPLLPQDFYYVAMDFGGHGLSSHYSPGVPYYLQTFVSEIRRVVAALKWNRFSILGH 107
+                            378999***9999986.88999999*************************************************************** PP
+
+      Abhydrolase_6.aln 108 srgGlia 114
+                            s gG+++
+  sp|Q9NQF3|SERHL_HUMAN 108 SFGGVVG 114
+                            ****996 PP
+
+>> sp|Q988D4|AAMHY_RHILO  2-(acetamidomethylene)succinate hydrolase OS=Mesorhizobium japonicum (strain LMG 29417 / CECT 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.0   4.4e-05      0.38     224     281 ..     209     266 ..     194     276 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 4.4e-05
+      Abhydrolase_6.aln 224 aaltdiyeavkGavlvvrgassdlllresvlesvarakslsivevedvshlitavdPd 281
+                            + l+ +y+ v  +vl+vrg ss l+  ++++++      l +v v++  h +  v P+
+  sp|Q988D4|AAMHY_RHILO 209 SDLVPAYRDVTKPVLIVRGESSKLVSAAALAKTSRLRPDLPVVVVPGADHYVNEVSPE 266
+                            667789*********************************************9999996 PP
+
+>> sp|P07383|TPES_PSEPU  Tropinesterase OS=Pseudomonas putida OX=303 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.1   0.0   3.7e-05      0.32      17     139 ..      22     141 ..      15     152 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 15.1 bits;  conditional E-value: 3.7e-05
+     Abhydrolase_6.aln  17 llivtalreWgdpanprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWi 105
+                             i++ + eWg+p+   vll  ++ t +++ f  +a  l  d r  a d+ G++ +        y v  ++ d+   + ++ ++    i
+  sp|P07383|TPES_PSEPU  22 DAIKMRYVEWGNPSGDPVLLL-HGYTDTSRAFSSLAPFLSKDKRYLALDLRGHGGTSI--PKCCYYVSDFAEDVSDFIDKMGLHNTTVI 107
+                           56899*********9999885.899999************************998865..45678999999999999999999999999 PP
+
+     Abhydrolase_6.aln 106 kisrgGliaydlavlnkahvrgvlltdvaaklaP 139
+                           + s+g + a  la++   +v  ++l   a k  P
+  sp|P07383|TPES_PSEPU 108 GHSMGSMTAGVLASIHPDKVSRLVLISTALKTGP 141
+                           9999999998888887776666666666666555 PP
+
+>> sp|B1M5I5|RUTD_METRJ  Putative carbamate hydrolase RutD OS=Methylobacterium radiotolerans (strain ATCC 27329 / DSM 18
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.2   0.2   3.4e-05       0.3      29     120 ..      11     101 ..       4     151 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 3.4e-05
+     Abhydrolase_6.aln  29 panprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydl 117
+                           pa  r +l   +l   a  f    +al a++rvv+ d  G +rs     +d   v+ ++ d   ++    +e++d ++   gGlia+++
+  sp|B1M5I5|RUTD_METRJ  11 PAGGRPVLLSPGLGGAAGYFAPQMAALTARFRVVTYDHRGTGRSPGRLAPDHD-VPAMARDARAVLDAAGIERADVVGHALGGLIALQM 98 
+                           6777777777777777888887788*******************988888876.699999***************************99 PP
+
+     Abhydrolase_6.aln 118 avl 120
+                           a  
+  sp|B1M5I5|RUTD_METRJ  99 ALD 101
+                           964 PP
+
+>> sp|Q57427|Y193_HAEIN  Putative esterase/lipase HI_0193 OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.0   0.00018       1.6      18     134 ..      32     145 ..      22     151 .. 0.85
+   2 ?    1.1   0.0      0.69     6e+03     183     283 ..     175     276 ..     133     285 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 0.00018
+     Abhydrolase_6.aln  18 livtalreWgdpanprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWik 106
+                           l    +++  +  n  vl+  ++l  +  ++  +a a   ++ +   d+  ++ s h    + +l+   + d+  ++ +l++ kv  i+
+  sp|Q57427|Y193_HAEIN  32 LLNYQFHQVKQTINTPVLIFIHGLFGDMDNLGVIARAFSEHYSILRIDLRNHGHSFHSEKMNYQLM---AEDVIAVIRHLNLSKVILIG 117
+                           556678888888999999999999997777779999999999999999999999999999998876...57999*************** PP
+
+     Abhydrolase_6.aln 107 isrgGliaydlavlnkahvrgvlltdva 134
+                            s+gG  a+ +++l    v ++++ d +
+  sp|Q57427|Y193_HAEIN 118 HSMGGKTAMKITALCPELVEKLIVIDMS 145
+                           ************9998888888877765 PP
+
+  == domain 2  score: 1.1 bits;  conditional E-value: 0.69
+     Abhydrolase_6.aln 183 lnakvlkPldntdkle.malhydPrlavtfvksikelidageaaltdiyeavk..Gavlvvrgassdlllresvlesvarakslsivev 268
+                           +   + + +++ d  + m   +d + a  f+ ++  l +    a    +e+v+   + l ++g +s  +  e   +  ++  +     +
+  sp|Q57427|Y193_HAEIN 175 AKPILKQEINDEDVVQfMLKSFDVNSADCFRFNLTALFNN--YANIMDWEKVRvfTPTLFIKGGNSSYIKIENSEKILEQFPNATAFTI 261
+                           4444444556666666444468888888888888776543..34444566666558899999999999998888888889999999999 PP
+
+     Abhydrolase_6.aln 269 edvshlitavdPdsi 283
+                           ++ +h + a++Pd +
+  sp|Q57427|Y193_HAEIN 262 NGSGHWVHAEKPDFV 276
+                           999999999999976 PP
+
+>> sp|Q6Q2C2|HYES_PIG  Bifunctional epoxide hydrolase 2 OS=Sus scrofa OX=9823 GN=EPHX2 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.6   0.0    0.0037        32      57     130 ..     284     357 ..     257     408 .. 0.82
+   2 ?    4.4   0.0     0.068   5.9e+02     237     283 ..     489     534 ..     482     539 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 8.6 bits;  conditional E-value: 0.0037
+   Abhydrolase_6.aln  57 adsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlavlnkahvrgvll 130
+                         a +rv a d+ G + s    + + y +     d+v+ +++l + ++ +i+ + gG++ +++a +    vr v+ 
+  sp|Q6Q2C2|HYES_PIG 284 AGFRVLAVDMKGYGESSAPPEIEEYSLEVLCKDMVTFLNKLGLSQAVFIGHDWGGVLVWNMALFYPERVRAVAS 357
+                         6689999999888888777777889999999*******************************999888888763 PP
+
+  == domain 2  score: 4.4 bits;  conditional E-value: 0.068
+   Abhydrolase_6.aln 237 vlvvrgassdlllresvle.svarakslsivevedvshlitavdPdsi 283
+                         ++v   a++dl+l+  + + + +   +l+   ++d++h   +++P+++
+  sp|Q6Q2C2|HYES_PIG 489 LMV--TAENDLVLHPKMSKhMENWIPHLKRGHIKDCGHWTQIDKPAEL 534
+                         444..799*******98761556789*******************987 PP
+
+>> sp|B0RMQ9|BIOH_XANCB  Pimeloyl-[acyl-carrier protein] methyl ester esterase OS=Xanthomonas campestris pv. campestris 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0      0.12     1e+03     102     144 ..      72     118 ..      54     159 .. 0.83
+   2 ?    8.7   0.0    0.0034        30     239     288 ..     197     246 ..     177     251 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 3.6 bits;  conditional E-value: 0.12
+     Abhydrolase_6.aln 102 vdWikisrgGliaydlavlnkahvrgvlltdvaakla.....Pdlver 144
+                           + W++ s gGl a+ +a+  + +vr +++   +++       Pd+ver
+  sp|B0RMQ9|BIOH_XANCB  72 AVWVGWSLGGLFALHAAA-TQPQVRALAMIAATPRFVrgsdwPDAVER 118
+                           66************9887.68899999999988885323333777777 PP
+
+  == domain 2  score: 8.7 bits;  conditional E-value: 0.0034
+     Abhydrolase_6.aln 239 vvrgassdlllresvlesvarakslsivevedvshlitavdPdsiailPq 288
+                            + g +  l+  + +  ++ara + + + +++ +h++   + d++a + +
+  sp|B0RMQ9|BIOH_XANCB 197 WIAGQRDRLVPAAGMHAAAARAPHAQALTIDGGGHAPFLGHADQVAEALH 246
+                           55555555555566******************************998755 PP
+
+>> sp|Q4UZP1|BIOH_XANC8  Pimeloyl-[acyl-carrier protein] methyl ester esterase OS=Xanthomonas campestris pv. campestris 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0      0.12     1e+03     102     144 ..      72     118 ..      54     159 .. 0.83
+   2 ?    8.7   0.0    0.0034        30     239     288 ..     197     246 ..     177     251 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 3.6 bits;  conditional E-value: 0.12
+     Abhydrolase_6.aln 102 vdWikisrgGliaydlavlnkahvrgvlltdvaakla.....Pdlver 144
+                           + W++ s gGl a+ +a+  + +vr +++   +++       Pd+ver
+  sp|Q4UZP1|BIOH_XANC8  72 AVWVGWSLGGLFALHAAA-TQPQVRALAMIAATPRFVrgsdwPDAVER 118
+                           66************9887.68899999999988885323333777777 PP
+
+  == domain 2  score: 8.7 bits;  conditional E-value: 0.0034
+     Abhydrolase_6.aln 239 vvrgassdlllresvlesvarakslsivevedvshlitavdPdsiailPq 288
+                            + g +  l+  + +  ++ara + + + +++ +h++   + d++a + +
+  sp|Q4UZP1|BIOH_XANC8 197 WIAGQRDRLVPAAGMHAAAARAPHAQALTIDGGGHAPFLGHADQVAEALH 246
+                           55555555555566******************************998755 PP
+
+>> sp|Q8PDF3|BIOH_XANCP  Pimeloyl-[acyl-carrier protein] methyl ester esterase OS=Xanthomonas campestris pv. campestris 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0      0.12     1e+03     102     144 ..      72     118 ..      54     159 .. 0.83
+   2 ?    8.7   0.0    0.0034        30     239     288 ..     197     246 ..     177     251 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 3.6 bits;  conditional E-value: 0.12
+     Abhydrolase_6.aln 102 vdWikisrgGliaydlavlnkahvrgvlltdvaakla.....Pdlver 144
+                           + W++ s gGl a+ +a+  + +vr +++   +++       Pd+ver
+  sp|Q8PDF3|BIOH_XANCP  72 AVWVGWSLGGLFALHAAA-TQPQVRALAMIAATPRFVrgsdwPDAVER 118
+                           66************9887.68899999999988885323333777777 PP
+
+  == domain 2  score: 8.7 bits;  conditional E-value: 0.0034
+     Abhydrolase_6.aln 239 vvrgassdlllresvlesvarakslsivevedvshlitavdPdsiailPq 288
+                            + g +  l+  + +  ++ara + + + +++ +h++   + d++a + +
+  sp|Q8PDF3|BIOH_XANCP 197 WIAGQRDRLVPAAGMHAAAARAPHAQALTIDGGGHAPFLGHADQVAEALH 246
+                           55555555555566******************************998755 PP
+
+>> sp|B8H3S9|DHMA_CAUVN  Haloalkane dehalogenase OS=Caulobacter vibrioides (strain NA1000 / CB15N) OX=565050 GN=dhmA PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.0   0.00014       1.2      29     118 ..      43     133 ..      30     152 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00014
+     Abhydrolase_6.aln  29 panprvllraesltkqavdfdtvasaliad.srvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliayd 116
+                           p + r +l  ++    a  + +v + l+a+ +rvvaPd+ G +rs+  a    y   + va +   +++  ++ +  +  + gGli++ 
+  sp|B8H3S9|DHMA_CAUVN  43 PKDQRPILLMHGEPSWAYLYRKVIAELVAKgHRVVAPDLVGFGRSDKPAKRTDYTYERHVAWMSAWLEQNDLKDIVLFCQDWGGLIGLR 131
+                           55666666667766667788887777777548*******************************************************97 PP
+
+     Abhydrolase_6.aln 117 la 118
+                           l 
+  sp|B8H3S9|DHMA_CAUVN 132 LV 133
+                           63 PP
+
+>> sp|Q9A919|DHMA_CAUVC  Haloalkane dehalogenase OS=Caulobacter vibrioides (strain ATCC 19089 / CIP 103742 / CB 15) OX=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.0   0.00014       1.2      29     118 ..      43     133 ..      30     152 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00014
+     Abhydrolase_6.aln  29 panprvllraesltkqavdfdtvasaliad.srvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliayd 116
+                           p + r +l  ++    a  + +v + l+a+ +rvvaPd+ G +rs+  a    y   + va +   +++  ++ +  +  + gGli++ 
+  sp|Q9A919|DHMA_CAUVC  43 PKDQRPILLMHGEPSWAYLYRKVIAELVAKgHRVVAPDLVGFGRSDKPAKRTDYTYERHVAWMSAWLEQNDLKDIVLFCQDWGGLIGLR 131
+                           55666666667766667788887777777548*******************************************************97 PP
+
+     Abhydrolase_6.aln 117 la 118
+                           l 
+  sp|Q9A919|DHMA_CAUVC 132 LV 133
+                           63 PP
+
+>> sp|Q9XG98|KPRS1_SPIOL  Ribose-phosphate pyrophosphokinase 1 OS=Spinacia oleracea OX=3562 GN=PRS1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.7   0.0        10   8.7e+04     138     166 ..      34      65 ..      21      69 .. 0.72
+   2 ?   12.0   0.1   0.00032       2.8      54     149 ..     181     288 ..     164     310 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: -2.7 bits;  conditional E-value: 10
+      Abhydrolase_6.aln 138 aPdlvervevilelP...vrfktleeGkayls 166
+                             P l + +  +++l    +++k + +G  y++
+  sp|Q9XG98|KPRS1_SPIOL  34 NPALAQEIACYMGLQlgkIKIKRFADGEIYVQ 65 
+                            57777777777776422267888999988886 PP
+
+  == domain 2  score: 12.0 bits;  conditional E-value: 0.00032
+      Abhydrolase_6.aln  54 aliad.srvvaPdvaGr....yrsehladadiylvml.....tvadyvllvarlrvekvdWiki..srgGliaydlavlnkahvrgvl 129
+                            ++++d   vv+Pdv G      ++  l+da   +v +      va+++ l+  ++ + +  ++   + +G+i+ ++a l +  +r+v 
+  sp|Q9XG98|KPRS1_SPIOL 181 TICSDdLVVVSPDVGGVararAFAKKLSDAPLAIVDKrrhghNVAEVMNLIGDVKGKVAVMVDDmiDTAGTISKGAALLHQEGAREVY 268
+                            45555146789***9976666889999999999997522222688888888877755554444233899******************* PP
+
+      Abhydrolase_6.aln 130 ltdvaaklaPdlvervevil 149
+                                 a   P ++er+   l
+  sp|Q9XG98|KPRS1_SPIOL 269 ACSTHAVFSPPAIERLSSGL 288
+                            ***************97655 PP
+
+>> sp|A7NE28|RF3_FRATF  Peptide chain release factor 3 OS=Francisella tularensis subsp. holarctica (strain FTNF002-00 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.1   0.0     0.005        43     213     246 ..     203     236 ..     187     246 .. 0.93
+   2 ?    2.4   0.0      0.28   2.4e+03     135     167 ..     387     417 ..     359     432 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 8.1 bits;  conditional E-value: 0.005
+    Abhydrolase_6.aln 213 ksikelidageaaltdiyeavkGavlvvrgassd 246
+                          k+ik l++a ++ + d ye ++  + +vrgas++
+  sp|A7NE28|RF3_FRATF 203 KKIKGLANAKDSIGIDLYEDLEMEIDLVRGASHE 236
+                          789**********************999****97 PP
+
+  == domain 2  score: 2.4 bits;  conditional E-value: 0.28
+    Abhydrolase_6.aln 135 aklaPdlvervevilelPvrfktleeGkaylst 167
+                          +  aP++++rv+  l+ P+++k+l++G+  ls 
+  sp|A7NE28|RF3_FRATF 387 PNFAPEIFKRVK--LNDPLKMKALQKGLVQLSE 417
+                          7789******86..99***********998764 PP
+
+>> sp|Q0BKK2|RF3_FRATO  Peptide chain release factor 3 OS=Francisella tularensis subsp. holarctica (strain OSU18) OX=393
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.1   0.0     0.005        43     213     246 ..     203     236 ..     187     246 .. 0.93
+   2 ?    2.4   0.0      0.28   2.4e+03     135     167 ..     387     417 ..     359     432 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 8.1 bits;  conditional E-value: 0.005
+    Abhydrolase_6.aln 213 ksikelidageaaltdiyeavkGavlvvrgassd 246
+                          k+ik l++a ++ + d ye ++  + +vrgas++
+  sp|Q0BKK2|RF3_FRATO 203 KKIKGLANAKDSIGIDLYEDLEMEIDLVRGASHE 236
+                          789**********************999****97 PP
+
+  == domain 2  score: 2.4 bits;  conditional E-value: 0.28
+    Abhydrolase_6.aln 135 aklaPdlvervevilelPvrfktleeGkaylst 167
+                          +  aP++++rv+  l+ P+++k+l++G+  ls 
+  sp|Q0BKK2|RF3_FRATO 387 PNFAPEIFKRVK--LNDPLKMKALQKGLVQLSE 417
+                          7789******86..99***********998764 PP
+
+>> sp|Q2A1V8|RF3_FRATH  Peptide chain release factor 3 OS=Francisella tularensis subsp. holarctica (strain LVS) OX=37661
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.1   0.0     0.005        43     213     246 ..     203     236 ..     187     246 .. 0.93
+   2 ?    2.4   0.0      0.28   2.4e+03     135     167 ..     387     417 ..     359     432 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 8.1 bits;  conditional E-value: 0.005
+    Abhydrolase_6.aln 213 ksikelidageaaltdiyeavkGavlvvrgassd 246
+                          k+ik l++a ++ + d ye ++  + +vrgas++
+  sp|Q2A1V8|RF3_FRATH 203 KKIKGLANAKDSIGIDLYEDLEMEIDLVRGASHE 236
+                          789**********************999****97 PP
+
+  == domain 2  score: 2.4 bits;  conditional E-value: 0.28
+    Abhydrolase_6.aln 135 aklaPdlvervevilelPvrfktleeGkaylst 167
+                          +  aP++++rv+  l+ P+++k+l++G+  ls 
+  sp|Q2A1V8|RF3_FRATH 387 PNFAPEIFKRVK--LNDPLKMKALQKGLVQLSE 417
+                          7789******86..99***********998764 PP
+
+>> sp|B2SF23|RF3_FRATM  Peptide chain release factor 3 OS=Francisella tularensis subsp. mediasiatica (strain FSC147) OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.0   0.0    0.0053        46     213     246 ..     203     236 ..     187     246 .. 0.93
+   2 ?    2.4   0.0      0.28   2.4e+03     135     167 ..     387     417 ..     359     432 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 8.0 bits;  conditional E-value: 0.0053
+    Abhydrolase_6.aln 213 ksikelidageaaltdiyeavkGavlvvrgassd 246
+                          k+ik l++a +a + d ye ++  + +vrgas++
+  sp|B2SF23|RF3_FRATM 203 KKIKGLANAKDAIGIDLYEDLEMEIDLVRGASHE 236
+                          789**********************999****97 PP
+
+  == domain 2  score: 2.4 bits;  conditional E-value: 0.28
+    Abhydrolase_6.aln 135 aklaPdlvervevilelPvrfktleeGkaylst 167
+                          +  aP++++rv+  l+ P+++k+l++G+  ls 
+  sp|B2SF23|RF3_FRATM 387 PNFAPEIFKRVK--LNDPLKMKALQKGLVQLSE 417
+                          7789******86..99***********998764 PP
+
+>> sp|A4IW75|RF3_FRATW  Peptide chain release factor 3 OS=Francisella tularensis subsp. tularensis (strain WY96-3418) OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.0   0.0    0.0053        46     213     246 ..     203     236 ..     187     246 .. 0.93
+   2 ?    2.4   0.0      0.28   2.4e+03     135     167 ..     387     417 ..     359     432 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 8.0 bits;  conditional E-value: 0.0053
+    Abhydrolase_6.aln 213 ksikelidageaaltdiyeavkGavlvvrgassd 246
+                          k+ik l++a +a + d ye ++  + +vrgas++
+  sp|A4IW75|RF3_FRATW 203 KKIKGLANAKDAIGIDLYEDLEMEIDLVRGASHE 236
+                          789**********************999****97 PP
+
+  == domain 2  score: 2.4 bits;  conditional E-value: 0.28
+    Abhydrolase_6.aln 135 aklaPdlvervevilelPvrfktleeGkaylst 167
+                          +  aP++++rv+  l+ P+++k+l++G+  ls 
+  sp|A4IW75|RF3_FRATW 387 PNFAPEIFKRVK--LNDPLKMKALQKGLVQLSE 417
+                          7789******86..99***********998764 PP
+
+>> sp|Q15493|RGN_HUMAN  Regucalcin OS=Homo sapiens OX=9606 GN=RGN PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.0   0.00024         2     147     198 ..      52     100 ..      27     135 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.00024
+    Abhydrolase_6.aln 147 vilelPvrfktleeGkaylstlaasfarftleaWrelnakvlkPldntdkle 198
+                          v +++Pv   +l +   y+ t+   f      +W+e  a vl  +dn +k +
+  sp|Q15493|RGN_HUMAN  52 VTMDAPVSSVALRQSGGYVATIGTKFC---ALNWKEQSAVVLATVDNDKKNN 100
+                          6799******************98765...679**************98865 PP
+
+>> sp|Q14JV7|RF3_FRAT1  Peptide chain release factor 3 OS=Francisella tularensis subsp. tularensis (strain FSC 198) OX=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.0   0.0    0.0054        47     213     246 ..     203     236 ..     190     246 .. 0.92
+   2 ?    2.4   0.0      0.28   2.4e+03     135     167 ..     387     417 ..     359     432 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 8.0 bits;  conditional E-value: 0.0054
+    Abhydrolase_6.aln 213 ksikelidageaaltdiyeavkGavlvvrgassd 246
+                          k+ik l++a +a + d ye ++  + +vrgas++
+  sp|Q14JV7|RF3_FRAT1 203 KKIKGLANAKDAIGIDLYEDLEMEIDLVRGASHE 236
+                          789**********************999****97 PP
+
+  == domain 2  score: 2.4 bits;  conditional E-value: 0.28
+    Abhydrolase_6.aln 135 aklaPdlvervevilelPvrfktleeGkaylst 167
+                          +  aP++++rv+  l+ P+++k+l++G+  ls 
+  sp|Q14JV7|RF3_FRAT1 387 PNFAPEIFKRVK--LNDPLKMKALQKGLVQLSE 417
+                          7789******86..99***********998764 PP
+
+>> sp|Q5NIF4|RF3_FRATT  Peptide chain release factor 3 OS=Francisella tularensis subsp. tularensis (strain SCHU S4 / Sch
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.0   0.0    0.0054        47     213     246 ..     203     236 ..     190     246 .. 0.92
+   2 ?    2.4   0.0      0.28   2.4e+03     135     167 ..     387     417 ..     359     432 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 8.0 bits;  conditional E-value: 0.0054
+    Abhydrolase_6.aln 213 ksikelidageaaltdiyeavkGavlvvrgassd 246
+                          k+ik l++a +a + d ye ++  + +vrgas++
+  sp|Q5NIF4|RF3_FRATT 203 KKIKGLANAKDAIGIDLYEDLEMEIDLVRGASHE 236
+                          789**********************999****97 PP
+
+  == domain 2  score: 2.4 bits;  conditional E-value: 0.28
+    Abhydrolase_6.aln 135 aklaPdlvervevilelPvrfktleeGkaylst 167
+                          +  aP++++rv+  l+ P+++k+l++G+  ls 
+  sp|Q5NIF4|RF3_FRATT 387 PNFAPEIFKRVK--LNDPLKMKALQKGLVQLSE 417
+                          7789******86..99***********998764 PP
+
+>> sp|B7KWT4|RUTD_METC4  Putative carbamate hydrolase RutD OS=Methylorubrum extorquens (strain CM4 / NCIMB 13688) OX=440
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0   0.00026       2.3      24     131 ..       7     114 ..       3     161 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00026
+     Abhydrolase_6.aln  24 reWgdpanprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGl 112
+                           +e   pa  r +l   +l   a  f      l  ++rvv+ d  G +rs    ++    +  ++ d+  l+ +l +  +d ++   gGl
+  sp|B7KWT4|RUTD_METC4   7 HEVHGPAGGRTVLLSPGLGGSAHYFAPQVPVLAERFRVVTYDHRGTGRSPSPLEPGHD-IAAMARDVLALLDHLGIGTADIVGHALGGL 94 
+                           6666789999999999999999999966678999****************99999665.677899************************ PP
+
+     Abhydrolase_6.aln 113 iaydlavlnka.hvrgvllt 131
+                           ia++la        r v+++
+  sp|B7KWT4|RUTD_METC4  95 IALQLALTHPErVGRIVVIN 114
+                           *****976544222333333 PP
+
+>> sp|Q0SSI9|RBSD_CLOPS  D-ribose pyranase OS=Clostridium perfringens (strain SM101 / Type A) OX=289380 GN=rbsD PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0    0.0002       1.7      85     156 ..      24      96 ..      17     114 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 0.0002
+     Abhydrolase_6.aln  85 ltvadyvllvarlrvekvdWiki.srgGliaydlavlnkahvrgvlltdvaaklaPdlvervevil.elPvrfk 156
+                           l   d  l++ + + e++d   i   +G i    a l++ +v +vl+++++ k  P+l+ +++ i+ +  + f 
+  sp|Q0SSI9|RBSD_CLOPS  24 LAIGDCGLPIPK-ETERIDLALIkGVPGFIETLKAILEELQVEEVLIAKETEKVSPELFTKIKEIIkDTKITFI 96 
+                           566677777765.4688998888789************************************765514555555 PP
+
+>> sp|A0Q892|RF3_FRATN  Peptide chain release factor 3 OS=Francisella tularensis subsp. novicida (strain U112) OX=401614
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.0   0.0    0.0053        46     213     246 ..     203     236 ..     187     246 .. 0.93
+   2 ?    2.3   0.0       0.3   2.6e+03     135     167 ..     387     417 ..     361     432 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 8.0 bits;  conditional E-value: 0.0053
+    Abhydrolase_6.aln 213 ksikelidageaaltdiyeavkGavlvvrgassd 246
+                          k+ik l++a +a + d ye ++  + +vrgas++
+  sp|A0Q892|RF3_FRATN 203 KKIKGLANAKDAIGIDLYEDLEMEIDLVRGASHE 236
+                          789**********************999****97 PP
+
+  == domain 2  score: 2.3 bits;  conditional E-value: 0.3
+    Abhydrolase_6.aln 135 aklaPdlvervevilelPvrfktleeGkaylst 167
+                          +  aP++++rv+  l+ P+++k+l++G+  ls 
+  sp|A0Q892|RF3_FRATN 387 PNFAPEIFKRVK--LNDPLKMKALQKGLVQLSE 417
+                          6789******86..99***********998764 PP
+
+>> sp|P00632|ELH2_ACIAD  3-oxoadipate enol-lactonase 2 OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) OX=629
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.4   0.0    0.0086        75      60     137 ..      55     130 ..      16     163 .. 0.81
+   2 ?    3.3   0.2      0.15   1.3e+03     223     283 ..     196     255 ..     187     261 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 7.4 bits;  conditional E-value: 0.0086
+     Abhydrolase_6.aln  60 rvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlavlnkahvrgvlltdvaakl 137
+                            v + d  G++ s        y + +  +d+  l+ +l++ ++ + +is+gGl +  la        +v++++ aak 
+  sp|P00632|ELH2_ACIAD  55 FVICYDTRGHGASSTPV--GPYRIDQLGTDVIALLDHLQIPQATFCGISMGGLTGQWLAIHFPERFNQVIVANTAAKI 130
+                           55666666666555433..347899999***************************99998877778888888888775 PP
+
+  == domain 2  score: 3.3 bits;  conditional E-value: 0.15
+     Abhydrolase_6.aln 223 eaaltdiyeavkGavlvvrgassdlllresvlesvaraksl..sivevedvshlitavdPdsi 283
+                           ea      + +  +vlv+ ga+  +    +v++     +++  s++ev + sh+  +++P+  
+  sp|P00632|ELH2_ACIAD 196 EADVRPQLQRISIPVLVIAGAQDPV---TTVADGQFLCEHIvhSTLEVLEASHISNVEQPQAF 255
+                           5556667899999*******99876...467777777777644789********999999865 PP
+
+>> sp|D5VGV3|RUTD_CAUST  Putative carbamate hydrolase RutD OS=Caulobacter segnis (strain ATCC 21756 / DSM 7131 / JCM 782
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.3   0.1    0.0023        20      24     130 ..      14     117 ..       6     212 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 9.3 bits;  conditional E-value: 0.0023
+     Abhydrolase_6.aln  24 reWgdpanprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGl 112
+                           + W   a   v+l   +l   a  +     al  +  vv+ d  G +rs     +  y v  ++ d+v ++  l ++k+  ++   gG 
+  sp|D5VGV3|RUTD_CAUST  14 HGW-PVAGREVVLLSSGLGGSAAFWAPQMKALTERWPVVTYDHRGTGRSVRALPPGPYSVDDMAQDMVKVMDALGLTKAHVVGHAAGGN 101
+                           556.233344666667777766666667789999999**************************************************** PP
+
+     Abhydrolase_6.aln 113 iaydlavlnkahvrgvll 130
+                            ++ la ln+   r + l
+  sp|D5VGV3|RUTD_CAUST 102 AGLALA-LNHP-DRLGKL 117
+                           999887.4443.333333 PP
+
+>> sp|P0DO70|EPH3_SIRGR  Epoxide hydrolase 3 OS=Siraitia grosvenorii OX=190515 GN=EPH3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0   0.00088       7.7      59     115 ..      52     108 ..      46     146 .. 0.92
+   2 ?   -1.7   0.1       4.8   4.2e+04     265     284 ..     287     306 ..     285     313 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.00088
+     Abhydrolase_6.aln  59 srvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliay 115
+                           +r+ aPd+ G + ++  a +  y     v d+v  + +l +ekv  ++ + g +ia+
+  sp|P0DO70|EPH3_SIRGR  52 YRAIAPDLRGYGDTDSPASPTSYTALHIVGDLVGALDELGIEKVFLVGHDWGAIIAW 108
+                           9*******************************************9999999999986 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 4.8
+     Abhydrolase_6.aln 265 ivevedvshlitavdPdsia 284
+                           +v v+d  h i  ++P++i 
+  sp|P0DO70|EPH3_SIRGR 287 VVVVKDACHFINQERPQEIN 306
+                           67899***********9996 PP
+
+>> sp|P80299|HYES_RAT  Bifunctional epoxide hydrolase 2 OS=Rattus norvegicus OX=10116 GN=Ephx2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.4   0.0    0.0087        75      57     155 ..     282     379 ..     259     409 .. 0.84
+   2 ?    2.4   0.0      0.27   2.4e+03     237     284 ..     488     534 ..     475     539 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 7.4 bits;  conditional E-value: 0.0087
+   Abhydrolase_6.aln  57 adsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlavlnkahvrgvlltdvaaklaPd.lverve 146
+                         a +rv a d+ G + s    + + y + l   ++v+ +++l + ++ +i+ + +G++ +++a +    vr v+ +++++ + P+  v  +e
+  sp|P80299|HYES_RAT 282 AGFRVLAIDMKGYGDSSSPPEIEEYAMELLCEEMVTFLNKLGIPQAVFIGHDWAGVLVWNMALFHPERVRAVA-SLNTPLMPPNpEVSPME 371
+                         678999999999999999999999*****************************************99999887.56666666653588899 PP
+
+   Abhydrolase_6.aln 147 vilelPvrf 155
+                         vi  +Pv f
+  sp|P80299|HYES_RAT 372 VIRSIPV-F 379
+                         9999999.4 PP
+
+  == domain 2  score: 2.4 bits;  conditional E-value: 0.27
+   Abhydrolase_6.aln 237 vlvvrgassdlllresvle.svarakslsivevedvshlitavdPdsia 284
+                         ++v   a++d++lr  + + + +    l+   +ed++h   +++P+++ 
+  sp|P80299|HYES_RAT 488 LMV--TAEKDIVLRPEMSKnMENWIPFLKRGHIEDCGHWTQIEKPAEVN 534
+                         344..7999*****99765155667889999**************9986 PP
+
+>> sp|A7FNV8|BIOH_YERP3  Pimeloyl-[acyl-carrier protein] methyl ester esterase OS=Yersinia pseudotuberculosis serotype O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   0.0   0.00076       6.6      87     129 ..      61     103 ..      45     118 .. 0.86
+   2 ?   -2.5   0.0       8.4   7.3e+04     263     285 ..     225     247 ..     209     252 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00076
+     Abhydrolase_6.aln  87 vadyvllvarlrvekvdWikisrgGliaydlavlnkahvrgvl 129
+                            ad+   va+   +++ W++ s+gGl+a ++a  +   vrg++
+  sp|A7FNV8|BIOH_YERP3  61 LADMAERVAQQAPKQALWLGWSMGGLVASQIALSQPECVRGLI 103
+                           69****************************9976666666654 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 8.4
+     Abhydrolase_6.aln 263 lsivevedvshlitavdPdsiai 285
+                            ++v +++ +h++ + +P++ a 
+  sp|A7FNV8|BIOH_YERP3 225 TQSVVMQGAAHAPFISHPNDFAK 247
+                           57888999999999999988775 PP
+
+>> sp|A9R4D0|BIOH_YERPG  Pimeloyl-[acyl-carrier protein] methyl ester esterase OS=Yersinia pestis bv. Antiqua (strain An
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   0.0   0.00076       6.6      87     129 ..      61     103 ..      45     118 .. 0.86
+   2 ?   -2.5   0.0       8.4   7.3e+04     263     285 ..     225     247 ..     209     252 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00076
+     Abhydrolase_6.aln  87 vadyvllvarlrvekvdWikisrgGliaydlavlnkahvrgvl 129
+                            ad+   va+   +++ W++ s+gGl+a ++a  +   vrg++
+  sp|A9R4D0|BIOH_YERPG  61 LADMAERVAQQAPKQALWLGWSMGGLVASQIALSQPECVRGLI 103
+                           69****************************9976666666654 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 8.4
+     Abhydrolase_6.aln 263 lsivevedvshlitavdPdsiai 285
+                            ++v +++ +h++ + +P++ a 
+  sp|A9R4D0|BIOH_YERPG 225 TQSVVMQGAAHAPFISHPNDFAK 247
+                           57888999999999999988775 PP
+
+>> sp|B1JHZ5|BIOH_YERPY  Pimeloyl-[acyl-carrier protein] methyl ester esterase OS=Yersinia pseudotuberculosis serotype O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   0.0   0.00076       6.6      87     129 ..      61     103 ..      45     118 .. 0.86
+   2 ?   -2.5   0.0       8.4   7.3e+04     263     285 ..     225     247 ..     209     252 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00076
+     Abhydrolase_6.aln  87 vadyvllvarlrvekvdWikisrgGliaydlavlnkahvrgvl 129
+                            ad+   va+   +++ W++ s+gGl+a ++a  +   vrg++
+  sp|B1JHZ5|BIOH_YERPY  61 LADMAERVAQQAPKQALWLGWSMGGLVASQIALSQPECVRGLI 103
+                           69****************************9976666666654 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 8.4
+     Abhydrolase_6.aln 263 lsivevedvshlitavdPdsiai 285
+                            ++v +++ +h++ + +P++ a 
+  sp|B1JHZ5|BIOH_YERPY 225 TQSVVMQGAAHAPFISHPNDFAK 247
+                           57888999999999999988775 PP
+
+>> sp|Q74Y45|BIOH_YERPE  Pimeloyl-[acyl-carrier protein] methyl ester esterase OS=Yersinia pestis OX=632 GN=bioH PE=3 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   0.0   0.00076       6.6      87     129 ..      61     103 ..      45     118 .. 0.86
+   2 ?   -2.5   0.0       8.4   7.3e+04     263     285 ..     225     247 ..     209     252 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00076
+     Abhydrolase_6.aln  87 vadyvllvarlrvekvdWikisrgGliaydlavlnkahvrgvl 129
+                            ad+   va+   +++ W++ s+gGl+a ++a  +   vrg++
+  sp|Q74Y45|BIOH_YERPE  61 LADMAERVAQQAPKQALWLGWSMGGLVASQIALSQPECVRGLI 103
+                           69****************************9976666666654 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 8.4
+     Abhydrolase_6.aln 263 lsivevedvshlitavdPdsiai 285
+                            ++v +++ +h++ + +P++ a 
+  sp|Q74Y45|BIOH_YERPE 225 TQSVVMQGAAHAPFISHPNDFAK 247
+                           57888999999999999988775 PP
+
+>> sp|B2K5V7|BIOH_YERPB  Pimeloyl-[acyl-carrier protein] methyl ester esterase OS=Yersinia pseudotuberculosis serotype I
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   0.0   0.00077       6.7      87     129 ..      61     103 ..      45     116 .. 0.85
+   2 ?   -2.5   0.0       8.4   7.3e+04     263     285 ..     225     247 ..     209     252 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00077
+     Abhydrolase_6.aln  87 vadyvllvarlrvekvdWikisrgGliaydlavlnkahvrgvl 129
+                            ad+   va+   +++ W++ s+gGl+a ++a  +   vrg++
+  sp|B2K5V7|BIOH_YERPB  61 LADMAERVAQQAPKQALWLGWSMGGLVASQIALSQPECVRGLI 103
+                           69****************************9976666666654 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 8.4
+     Abhydrolase_6.aln 263 lsivevedvshlitavdPdsiai 285
+                            ++v +++ +h++ + +P++ a 
+  sp|B2K5V7|BIOH_YERPB 225 TQSVVMQGAAHAPFISHPNDFAK 247
+                           57888999999999999988775 PP
+
+>> sp|Q664J8|BIOH_YERPS  Pimeloyl-[acyl-carrier protein] methyl ester esterase OS=Yersinia pseudotuberculosis serotype I
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   0.0   0.00077       6.7      87     129 ..      61     103 ..      45     116 .. 0.85
+   2 ?   -2.5   0.0       8.4   7.3e+04     263     285 ..     225     247 ..     209     252 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00077
+     Abhydrolase_6.aln  87 vadyvllvarlrvekvdWikisrgGliaydlavlnkahvrgvl 129
+                            ad+   va+   +++ W++ s+gGl+a ++a  +   vrg++
+  sp|Q664J8|BIOH_YERPS  61 LADMAERVAQQAPKQALWLGWSMGGLVASQIALSQPECVRGLI 103
+                           69****************************9976666666654 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 8.4
+     Abhydrolase_6.aln 263 lsivevedvshlitavdPdsiai 285
+                            ++v +++ +h++ + +P++ a 
+  sp|Q664J8|BIOH_YERPS 225 TQSVVMQGAAHAPFISHPNDFAK 247
+                           57888999999999999988775 PP
+
+>> sp|Q7CWX3|RUTD_AGRFC  Putative carbamate hydrolase RutD OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.0   0.00048       4.2      54     121 ..      35     101 ..       8     164 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.00048
+     Abhydrolase_6.aln  54 aliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlavln 121
+                           al  ++r+v+ d  G +r+     +++  +  ++ d+  +v+ l++ek  +++   gGli++d+a  +
+  sp|Q7CWX3|RUTD_AGRFC  35 ALSDHFRIVTYDHRGTGRTGGEVPTEGG-ISAMADDVLEIVSALNLEKFHFMGHALGGLIGLDIALRQ 101
+                           5666778888888888888777766665.566778888999**********************99543 PP
+
+>> sp|Q2PFX5|RGN_MACFA  Regucalcin OS=Macaca fascicularis OX=9541 GN=RGN PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0    0.0005       4.3     147     198 ..      52     100 ..      29     128 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.0005
+    Abhydrolase_6.aln 147 vilelPvrfktleeGkaylstlaasfarftleaWrelnakvlkPldntdkle 198
+                          v +++Pv   +l +   y+ t+   f      +W+e  a vl  +dn +k +
+  sp|Q2PFX5|RGN_MACFA  52 VTMDAPVSSVALRQSGGYVATIGTKFC---ALNWEEQSAVVLATVDNDKKNN 100
+                          6799******************98765...679**************98865 PP
+
+>> sp|Q8PDW8|OLEB_XANCP  Cis-3-alkyl-4-alkyloxetan-2-one decarboxylase OS=Xanthomonas campestris pv. campestris (strain 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.0   0.00055       4.8      21     135 ..      21     141 ..      16     148 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00055
+     Abhydrolase_6.aln  21 talreWgdpanprvllraesltkqavdfdtvasaliadsrvvaPdvaGryrsehlada.di.....ylvmltvadyvllvarlrvekvd 103
+                           +++ +   p++  v++  ++    +  +  + s l  ++r  +Pd  G + s+   da d      y +   v d+  l+++l ++   
+  sp|Q8PDW8|OLEB_XANCP  21 MSYLDE-GPSDGEVVVMLHGNPSWGYLWRHLVSGLSDRYRCIVPDHIGMGLSDKPDDApDAqprydYTLQSRVDDLDRLLQHLGITGPI 108
+                           666655.588899999999999999999999********************99987753332232367888999************999 PP
+
+     Abhydrolase_6.aln 104 Wiki.srgGliaydlavlnkahvrgvlltdvaa 135
+                            + + + gG+i+++ a   +a+v+ +++t+ aa
+  sp|Q8PDW8|OLEB_XANCP 109 TLAVhDWGGMIGFGWALSHHAQVKRLVITNTAA 141
+                           9998899********************999887 PP
+
+>> sp|B6EPQ0|BIOH_ALISL  Pimeloyl-[acyl-carrier protein] methyl ester esterase OS=Aliivibrio salmonicida (strain LFI1238
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0   0.00061       5.3      39     134 ..      20     108 ..       2     133 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00061
+     Abhydrolase_6.aln  39 esltkqavdfdtvasaliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlavlnkahvrg 127
+                           ++   ++  ++ +   l +++rv + d++G ++s  l  ad         ++v  v     ek  W++ s gGlia ++a      v +
+  sp|B6EPQ0|BIOH_ALISL  20 HGWGMNGAVWQPIVEKLSSQYRVHTVDLSGYGYSAELGSADFD-------EMVAQVLAQAPEKSAWLGWSLGGLIATQAALTAPDRVSQ 101
+                           5555555555666666777777777777777777777766653.......455555556779***************999765555555 PP
+
+     Abhydrolase_6.aln 128 vlltdva 134
+                           ++    +
+  sp|B6EPQ0|BIOH_ALISL 102 LITVASS 108
+                           5444444 PP
+
+>> sp|B4RF90|DHMA_PHEZH  Haloalkane dehalogenase OS=Phenylobacterium zucineum (strain HLK1) OX=450851 GN=dhmA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0   0.00063       5.4      54     118 ..      69     133 ..      38     161 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00063
+     Abhydrolase_6.aln  54 aliadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydla 118
+                            + a +r+ aPd+ G +rs+  ad   y   + va +   ++ + +  +  +  + gGli++ l 
+  sp|B4RF90|DHMA_PHEZH  69 LVAAGHRAIAPDLVGFGRSDKPADRGDYTYARHVAWMSAWLEAVDLRGAYLFCQDWGGLIGLRLV 133
+                           577899******************************************************99864 PP
+
+>> sp|Q0TPX4|RBSD_CLOP1  D-ribose pyranase OS=Clostridium perfringens (strain ATCC 13124 / DSM 756 / JCM 1290 / NCIMB 61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0   0.00052       4.5      85     156 ..      24      96 ..      17     114 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00052
+     Abhydrolase_6.aln  85 ltvadyvllvarlrvekvdWiki.srgGliaydlavlnkahvrgvlltdvaaklaPdlvervevil.elPvrfk 156
+                           l   d  l++ + + e++d   i   +G i    a l++ +v +vl+++++ k  P+l+  ++ i+ +  + f 
+  sp|Q0TPX4|RBSD_CLOP1  24 LAIGDCGLPIPK-ETERIDLALIkGVPGFIETLKAILEELQVEEVLIAKETEKVSPELFTEIKEIIkDTKITFI 96 
+                           566677777765.4688998888789**********************************99765415555555 PP
+
+>> sp|Q42581|KPRS1_ARATH  Ribose-phosphate pyrophosphokinase 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=PRS1 PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.3   0.0       3.6   3.2e+04     118     166 ..      80     132 ..      77     138 .. 0.74
+   2 ?    9.7   0.1    0.0017        14      58     149 ..     253     355 ..     237     384 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: -1.3 bits;  conditional E-value: 3.6
+      Abhydrolase_6.aln 118 avlnkahvr.gvlltdvaaklaPdlvervevilelP...vrfktleeGkayls 166
+                            a ++k+  r ++ l++ +    P l + +  +++l    v +k + +G  y++
+  sp|Q42581|KPRS1_ARATH  80 ARMEKSVNRtNTRLKLFSGTANPALAQEIAWYMGLDlgkVNIKRFADGEIYVQ 132
+                            55666655524567888888889999999999888433388999999999987 PP
+
+  == domain 2  score: 9.7 bits;  conditional E-value: 0.0017
+      Abhydrolase_6.aln  58 dsrvvaPdvaGr....yrsehladadiylvml.....tvadyvllvarlrvekvdWiki..srgGliaydlavlnkahvrgvlltdva 134
+                            d  vv+Pdv G      ++  l+da   +v +      va+++ l+  +r + +  ++   + +G+i  ++a l +  +r+v      
+  sp|Q42581|KPRS1_ARATH 253 DLVVVSPDVGGVararAFAKKLSDAPLAIVDKrrsghNVAEVMNLIGDVRGKVAIMVDDmiDTAGTIVKGAALLHQEGAREVYACCTH 340
+                            556899999997666688899999999999762222246777778877775554444323489************************* PP
+
+      Abhydrolase_6.aln 135 aklaPdlvervevil 149
+                            a   P ++er+   l
+  sp|Q42581|KPRS1_ARATH 341 AVFSPPAIERLSGGL 355
+                            **********96433 PP
+
+>> sp|O31581|YFHM_BACSU  AB hydrolase superfamily protein YfhM OS=Bacillus subtilis (strain 168) OX=224308 GN=yfhM PE=3 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   0.00084       7.3      55     119 ..      50     114 ..      37     136 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00084
+     Abhydrolase_6.aln  55 liadsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlav 119
+                           + a +rv aPd  G   s+     d y +     d+  l+++   ek+  i+ + gG +a+ la+
+  sp|O31581|YFHM_BACSU  50 VDAGYRVIAPDQRGYNLSDKPEGIDSYRIDTLRDDIIGLITQFTDEKAIVIGHDWGGAVAWHLAS 114
+                           6689*********************************************************9996 PP
+
+>> sp|O32234|YVAM_BACSU  AB hydrolase superfamily protein YvaM OS=Bacillus subtilis (strain 168) OX=224308 GN=yvaM PE=2 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0   0.00064       5.5      57     117 ..      44     102 ..      20     122 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00064
+     Abhydrolase_6.aln  57 adsrvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydl 117
+                            ++rv  Pd++G++ s+h+  +    +  ++ ++   +  l+++k+  ++ s gGlia  +
+  sp|O32234|YVAM_BACSU  44 KHFRVIFPDLSGHGDSDHIDQPA--SISYYANEIAQFMDALHIDKAVLFGYSAGGLIAQHI 102
+                           568****************9886..4899****************************9765 PP
+
+>> sp|Q6DRD9|ABHDB_DANRE  sn-1-specific diacylglycerol lipase ABHD11 OS=Danio rerio OX=7955 GN=abhd11 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0    0.0011       9.5      35     138 ..      70     172 ..      51     191 .. 0.68
+   2 ?   -2.5   0.0       8.6   7.5e+04     263     281 ..     287     305 ..     248     313 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0011
+      Abhydrolase_6.aln  35 llraesltkqavdfdtvasaliads..rvvaPdvaGryrsehladadiylvmltvadyvllvarlrvekvdWikisrgGliaydlavl 120
+                            l+  ++l     +f+ +a +l+ +   +v + d   +++s h     +     +++d+  l+ +l++ k   i+ s+gG +a+  a  
+  sp|Q6DRD9|ABHDB_DANRE  70 LVFLHGLFGSKSNFHSIAKSLVQRTgrKVLTIDARNHGKSPHS---PVLTYDTMTSDLTHLLGQLHIGKCVLIGHSMGGKVAMTTALS 154
+                            5555666666666777776666664212222222222333332...2223345689****************************9987 PP
+
+      Abhydrolase_6.aln 121 nkahvrgvlltdvaakla 138
+                            +   v  +++ d ++ l 
+  sp|Q6DRD9|ABHDB_DANRE 155 QPNLVERLVVVDISPSLT 172
+                            777787788888777664 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 8.6
+      Abhydrolase_6.aln 263 lsivevedvshlitavdPd 281
+                             +i  ++d sh i a++P 
+  sp|Q6DRD9|ABHDB_DANRE 287 ADIQYIPDASHWIHADKPL 305
+                            4455579999999999984 PP
+
+>> sp|Q5R837|RGN_PONAB  Regucalcin OS=Pongo abelii OX=9601 GN=RGN PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   0.00081         7     144     198 ..      51     100 ..      26     135 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.00081
+    Abhydrolase_6.aln 144 rvevilelPvrfktleeGkaylstlaasfarftleaWrelnakvlkPldntdkle 198
+                          r  v +++Pv   +l +   y+ t+   f      +W+e  a vl  +dn +k +
+  sp|Q5R837|RGN_PONAB  51 R--VTVDAPVSSVALHRSGDYVATIGTKFC---ALNWKEQSAVVLATVDNDKKNN 100
+                          3..5679******************98765...679**************98865 PP
+
+>> sp|Q8XJX2|RBSD_CLOPE  D-ribose pyranase OS=Clostridium perfringens (strain 13 / Type A) OX=195102 GN=rbsD PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0   0.00073       6.4      85     159 ..      24      99 ..      17     120 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00073
+     Abhydrolase_6.aln  85 ltvadyvllvarlrvekvdWiki.srgGliaydlavlnkahvrgvlltdvaaklaPdlvervevil.elPvrfktle 159
+                           l   d  l++ + + e++d   i   +G i    a l++ +v +vl+++++ k  P+l+  ++ i+ +  + f + e
+  sp|Q8XJX2|RBSD_CLOPE  24 LAIGDCGLPIPK-ETERIDLALIkGVPGFIETLKAILEELQVEEVLIAKETEKVSPELFIEIKEIIkDTKITFISHE 99 
+                           566677777765.4688998888789*********************************999655415666665544 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (293 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     13308  (0.0231984); expected 11473.2 (0.02)
+Passed bias filter:                    11464  (0.0199839); expected 11473.2 (0.02)
+Passed Vit filter:                       851  (0.00148345); expected 573.7 (0.001)
+Passed Fwd filter:                        66  (0.000115051); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              66  [number of targets reported over threshold]
+# CPU time: 4.25u 0.19s 00:00:04.44 Elapsed: 00:00:01.68
+# Mc/sec: 36104.54
+//
+[ok]

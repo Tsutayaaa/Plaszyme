@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+BD-FAE.aln	sp|Q8K4H1|KFA_MOUSE	305	293	3.6e-28	103.5	3.9e-31	5e-28	103.1	37	277	60	296	45	303	0.79	1	1	0.8088737201365188	0.7901639344262295	BD-FAE

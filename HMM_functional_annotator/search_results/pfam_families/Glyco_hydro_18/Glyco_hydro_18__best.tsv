@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Glyco_hydro_18.aln	sp|P32470|CHI1_APHAL	423	428	5e-164	551.2	1.1e-167	5.9e-164	551.0	41	426	37	422	16	423	0.98	1	1	0.9018691588785047	0.9125295508274232	Glyco_hydro_18

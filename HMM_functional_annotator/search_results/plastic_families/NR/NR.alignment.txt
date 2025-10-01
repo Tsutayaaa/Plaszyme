@@ -1,0 +1,69 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/NR.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/NR/NR.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/NR/NR.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       NR.aln  [M=414]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+   4.4e-192  643.3   0.2   4.9e-192  643.1   0.2    1.0  1  sp|Q3L8N0|LCP_STRK3  Rubber oxygenase OS=Streptomyces sp. (st
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q3L8N0|LCP_STRK3  Rubber oxygenase OS=Streptomyces sp. (strain K30) OX=256642 GN=lcp PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  643.1   0.2  8.5e-198  4.9e-192       1     413 [.       1     406 [.       1     407 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 643.1 bits;  conditional E-value: 8.5e-198
+               NR.aln   1 meelsrrraltlvvalGlaaalaaat.aaaaplltwssagSvlgsaceGkpdatglgadPrslvDdeadpvivrvieegkvpevnkllkq 89 
+                          m+ +srrr+l++++alG+++al+aat a a+pl+tws+++Sv+g+         g+g+dP++++D+eadpv+++vi++g+vp+vn+llkq
+  sp|Q3L8N0|LCP_STRK3   1 MDGFSRRRMLMTGGALGAVGALGAATrALARPLWTWSPSASVAGT---------GVGVDPEYVWDEEADPVLAAVIDRGEVPAVNALLKQ 81 
+                          899***********************999***************9.........************************************ PP
+
+               NR.aln  90 WvrNdqplPggLPselrdfledarklPsWaDkakleravefekkkdllvsllyglasglisTaipeearavyyskggadlsakdriaKta 179
+                          W+rNdq+lPggLP +lr+f+e+ar++PsWaDka+l+r+++f+k+k+++v++lygl+sgl+sTaip+e+ravyyskggad+  kdriaKta
+  sp|Q3L8N0|LCP_STRK3  82 WTRNDQALPGGLPGDLREFMEHARRMPSWADKAALDRGAQFSKTKGIYVGALYGLGSGLMSTAIPRESRAVYYSKGGADM--KDRIAKTA 169
+                          ********************************************************************************..******** PP
+
+               NR.aln 180 klGydiselgaykPrgamvvTavktrlvhaavrhllPrsplWkr.sapekipisqadimvtwhslatyvmqklkkWkvpivaaeseaflh 268
+                          +lGydi++l+ay P+g+m+vTavktr+vhaavrhllP+sp+W++ s+++kipisqadimvtwhslat+vm+k+k+W v++++a++ea+lh
+  sp|Q3L8N0|LCP_STRK3 170 RLGYDIGDLDAYLPHGSMIVTAVKTRMVHAAVRHLLPQSPAWSQtSGGQKIPISQADIMVTWHSLATFVMRKMKQWGVRVNTADAEAYLH 259
+                          ****************************************************************************************** PP
+
+               NR.aln 269 vwqvaahllgvadeylPatwaeadiqskkvldpilagtkeGavLtdallglvaeldlgltrpllgafsryilgdkvgdllglarepvlep 358
+                          vwqv+ah+lgv+dey+Patw++a++qsk+vldpila+t+eG++Lt+ llg+vaeld+gltrpl+gafsry+lg++vgd++gla++pvle+
+  sp|Q3L8N0|LCP_STRK3 260 VWQVSAHMLGVSDEYIPATWDAANAQSKQVLDPILAHTPEGEALTEVLLGIVAELDAGLTRPLIGAFSRYTLGGEVGDMIGLAKQPVLER 349
+                          ****************************************************************************************** PP
+
+               NR.aln 359 lvetaWpllvalreGllpv..veeerwlldeflrklvllflselrpisieiPtvnra 413
+                          l++taWpllva+reGl+p+  v++++w+l+e+lrk+vllflse+r+i+i+iP+vnr+
+  sp|Q3L8N0|LCP_STRK3 350 LIATAWPLLVAFREGLIPLpaVPAVLWTLEEALRKFVLLFLSEGRRIAIDIPDVNRP 406
+                          ******************999***********************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (414 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     14083  (0.0245493); expected 11473.2 (0.02)
+Passed bias filter:                    12221  (0.0213035); expected 11473.2 (0.02)
+Passed Vit filter:                       832  (0.00145033); expected 573.7 (0.001)
+Passed Fwd filter:                         1  (1.74319e-06); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 5.28u 0.20s 00:00:05.48 Elapsed: 00:00:01.60
+# Mc/sec: 53693.02
+//
+[ok]

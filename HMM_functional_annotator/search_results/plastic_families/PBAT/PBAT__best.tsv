@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PBAT.aln	sp|F7IX06|PETH2_THEAE	300	294	2.3e-49	173.9	3.3e-52	2.9e-49	173.5	4	279	60	299	10	300	0.92	1	1	0.8163265306122449	0.92	PBAT

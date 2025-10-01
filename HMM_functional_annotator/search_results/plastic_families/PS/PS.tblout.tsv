@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+# ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+sp|O06836|STYC_PSEFL  -          PS.aln               -            3.9e-85  288.7   4.0   4.4e-85  288.5   4.0   1.0   1   0   0   1   1   1   1 Styrene-oxide isomerase OS=Pseudomonas fluorescens OX=294 GN=styC PE=1 SV=1
+sp|Q21EC5|NHAA3_SACD2 -          PS.aln               -               0.64   14.7   0.8        59    8.3   0.2   2.8   2   0   0   2   2   2   0 Na(+)/H(+) antiporter NhaA 3 OS=Saccharophagus degradans (strain 2-40 / ATCC 43961 / DSM 17024) OX=203122 GN=nhaA3 PE=3 SV=1
+sp|P86935|GPI10_TRYBB -          PS.aln               -                1.3   13.7   0.4       4.1   12.0   0.0   2.0   2   0   0   2   2   2   0 GPI mannosyltransferase 3 OS=Trypanosoma brucei brucei OX=5702 GN=GPI10 PE=2 SV=1
+sp|Q7Z269|SP4_POLDO   -          PS.aln               -                4.8   11.8   0.0       7.6   11.2   0.0   1.3   1   0   0   1   1   1   0 Venom serine protease OS=Polistes dominula OX=743375 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PS.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/PS/PS.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/PS/PS.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PS.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 12:58:01 2025
+# [ok]

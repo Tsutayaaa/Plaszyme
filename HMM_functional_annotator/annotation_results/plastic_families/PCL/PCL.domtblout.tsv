@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+afb51f2a48           -            545 PCL.aln              -            261   1.9e-06   22.2   0.0   1   1   8.7e-08   3.4e-06   21.4   0.0    28   160    76   240     1   292 0.71 -
+59bb4d8994           -            545 PCL.aln              -            261   4.9e-06   20.9   0.0   1   1   4.1e-07   1.6e-05   19.2   0.0    28   160    76   240     1   289 0.69 -
+4fd7439f5f           -            545 PCL.aln              -            261   5.4e-06   20.8   0.0   1   1   4.4e-07   1.7e-05   19.1   0.0    28   160    76   240     1   289 0.70 -
+9c28e36175           -            545 PCL.aln              -            261   7.3e-06   20.3   0.0   1   1     3e-07   1.2e-05   19.6   0.0    26   161    78   241     6   297 0.72 -
+e542ce1613           -            545 PCL.aln              -            261   7.6e-06   20.3   0.0   1   1   3.3e-07   1.3e-05   19.5   0.0    26   161    78   241     3   294 0.71 -
+54b0f51654           -            548 PCL.aln              -            261   9.8e-06   19.9   0.0   1   1   5.4e-07   2.1e-05   18.8   0.0    26   161    81   244    67   295 0.72 -
+f41c6d89a0           -            555 PCL.aln              -            261   1.9e-05   19.0   0.0   1   1   9.2e-07   3.7e-05   18.0   0.0    26   160    81   243    67   341 0.78 -
+03f3222488           -            548 PCL.aln              -            261     2e-05   18.9   0.0   1   1   1.1e-06   4.4e-05   17.8   0.0    26   160    81   243    64   292 0.73 -
+114e6d2abe           -            545 PCL.aln              -            261   2.5e-05   18.6   0.0   1   1   1.1e-06   4.2e-05   17.8   0.0    26   161    78   241     3   294 0.71 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PCL.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/plastic_families/PCL/PCL.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/plastic_families/PCL/PCL.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/PCL.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 12:47:13 2025
+# [ok]

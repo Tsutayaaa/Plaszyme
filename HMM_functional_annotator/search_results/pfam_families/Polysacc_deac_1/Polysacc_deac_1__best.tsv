@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Polysacc_deac_1.aln	sp|P50325|CDA_AMYRO	421	508	3.6e-114	387.2	5.3e-116	5.8e-112	379.9	1	505	1	419	1	421	0.88	1	1	0.8248031496062992	1.1995249406175772	Polysacc_deac_1

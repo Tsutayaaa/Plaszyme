@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+PHO.aln	sp|P26495|PHAZ_ECTOL	283	316	2.1e-118	400.1	2.5e-121	2.3e-118	399.9	55	315	2	278	1	279	0.99	1	1	0.8765822784810127	0.9222614840989399	PHO

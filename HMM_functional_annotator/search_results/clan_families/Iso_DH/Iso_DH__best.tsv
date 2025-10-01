@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+Iso_DH.aln	sp|Q3C1E1|TPHB_COMSP	315	315	4.4e-219	730.8	2e-222	4.9e-219	730.6	1	315	1	315	1	315	1.0	1	1	1.0	1.0	Iso_DH

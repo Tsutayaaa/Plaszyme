@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+114e6d2abe           -            545 COesterase.aln       -            500     1e-65  217.2   0.0   1   1   3.7e-67   1.5e-65  216.7   0.0     8   421    27   477    22   508 0.78 -
+e542ce1613           -            545 COesterase.aln       -            500     5e-65  215.0   0.0   1   1     2e-66     8e-65  214.3   0.0     8   425    27   481    22   510 0.76 -
+03f3222488           -            548 COesterase.aln       -            500   5.4e-65  214.8   0.0   1   1     2e-66   7.8e-65  214.3   0.0     8   422    30   481    26   510 0.81 -
+f41c6d89a0           -            555 COesterase.aln       -            500   2.1e-64  212.9   0.0   1   1   7.5e-66     3e-64  212.4   0.0     8   422    30   481    26   512 0.81 -
+54b0f51654           -            548 COesterase.aln       -            500   1.9e-63  209.7   0.0   1   1     7e-65   2.8e-63  209.2   0.0     8   422    30   481    26   510 0.81 -
+9c28e36175           -            545 COesterase.aln       -            500   6.1e-63  208.1   0.0   1   1   2.2e-64   8.7e-63  207.6   0.0     8   421    27   477    22   508 0.78 -
+4fd7439f5f           -            545 COesterase.aln       -            500   1.4e-62  206.9   0.0   1   1   5.5e-64   2.2e-62  206.2   0.0     9   454    28   507    23   511 0.79 -
+afb51f2a48           -            545 COesterase.aln       -            500     2e-62  206.3   0.0   1   1   8.1e-64   3.2e-62  205.7   0.0     9   454    28   507    23   511 0.79 -
+59bb4d8994           -            545 COesterase.aln       -            500   9.1e-62  204.2   0.0   1   1   3.6e-63   1.4e-61  203.5   0.0     9   453    28   506    23   511 0.78 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/COesterase.hmm
+# Target file:     /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta
+# Option settings: hmmsearch --tblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/COesterase/COesterase.tblout.tsv --domtblout /gpfs/work/bio/yueqingxing22/igem/HMM/annotation_results/pfam_families/COesterase/COesterase.domtblout.tsv --cpu 4 /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/COesterase.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/data/unknown_sequences/proteins_converted.fasta 
+# Current dir:     /gpfs/work/bio/yueqingxing22/igem/HMM/scripts
+# Date:            Thu Aug 28 13:05:26 2025
+# [ok]

@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+ISP-domain.aln	sp|Q3C1E3|TPDA1_COMSP	413	413	1e-300	1001.3	1.8e-304	1.1e-300	1001.1	1	413	1	413	1	413	1.0	1	1	1.0	1.0	ISP-domain

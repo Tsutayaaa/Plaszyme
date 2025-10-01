@@ -1,0 +1,2392 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Cutinase.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Cutinase/Cutinase.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Cutinase/Cutinase.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Cutinase.aln  [M=208]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+    2.3e-90  306.9   0.0    2.6e-90  306.7   0.0    1.0  1  sp|P00590|CUTI1_FUSVN      Cutinase 1 OS=Fusarium vanettenii 
+    7.2e-90  305.3   0.1    8.1e-90  305.1   0.1    1.0  1  sp|Q99174|CUTI_FUSSC       Cutinase OS=Fusarium solani subsp.
+    1.5e-88  301.0   0.0    1.6e-88  300.8   0.0    1.0  1  sp|Q96UT0|CUTI2_FUSVN      Cutinase 2 OS=Fusarium vanettenii 
+    8.3e-88  298.5   0.0    9.3e-88  298.4   0.0    1.0  1  sp|Q96US9|CUTI3_FUSVN      Cutinase 3 OS=Fusarium vanettenii 
+    3.2e-75  257.4   0.1    3.6e-75  257.2   0.1    1.0  1  sp|B8MVS3|CUTI1_ASPFN      Probable cutinase 1 OS=Aspergillus
+    3.2e-75  257.4   0.1    3.6e-75  257.2   0.1    1.0  1  sp|P52956|CUTI1_ASPOR      Cutinase 1 OS=Aspergillus oryzae (
+    3.9e-72  247.3   0.5    4.3e-72  247.2   0.5    1.0  1  sp|P41744|CUTI_ALTBR       Cutinase OS=Alternaria brassicicol
+    5.9e-72  246.8   1.8    7.2e-72  246.5   1.8    1.0  1  sp|B8NCM8|CUTI3_ASPFN      Probable cutinase 1 OS=Aspergillus
+    2.1e-71  245.0   1.5    2.5e-71  244.7   1.5    1.0  1  sp|Q2U199|CUTI3_ASPOR      Probable cutinase 3 OS=Aspergillus
+    1.4e-70  242.2   0.3    1.6e-70  242.1   0.3    1.0  1  sp|A1CVT3|CUTI2_NEOFI      Probable cutinase 2 OS=Neosartorya
+    1.5e-70  242.2   0.3    1.6e-70  242.0   0.3    1.0  1  sp|P11373|CUTI1_COLGL      Cutinase 1 OS=Colletotrichum gloeo
+    1.7e-70  242.0   0.6    1.9e-70  241.8   0.6    1.0  1  sp|B0Y537|CUTI2_ASPFC      Probable cutinase 2 OS=Aspergillus
+    1.7e-70  242.0   0.6    1.9e-70  241.8   0.6    1.0  1  sp|Q4WQV2|CUTI2_ASPFU      Probable cutinase 2 OS=Aspergillus
+    7.9e-70  239.8   0.1    8.9e-70  239.6   0.1    1.0  1  sp|P30272|CUTI1_PYRO7      Cutinase CUT1 OS=Pyricularia oryza
+      3e-69  237.9   1.5    3.2e-69  237.8   1.5    1.0  1  sp|A1D9W1|CUTI3_NEOFI      Probable cutinase 3 OS=Neosartorya
+      3e-69  237.9   1.9    3.3e-69  237.8   1.9    1.0  1  sp|Q0CNE3|CUTI3_ASPTN      Probable cutinase 3 OS=Aspergillus
+    8.3e-69  236.5   0.2    9.2e-69  236.3   0.2    1.0  1  sp|B6H2E9|CUTI2_PENRW      Probable cutinase 2 OS=Penicillium
+    1.3e-68  235.8   0.0    1.5e-68  235.7   0.0    1.0  1  sp|B0XRY3|CUTI1_ASPFC      Probable cutinase 1 OS=Aspergillus
+    1.3e-68  235.8   0.0    1.5e-68  235.7   0.0    1.0  1  sp|Q4X1N0|CUTI1_ASPFU      Probable cutinase 1 OS=Aspergillus
+    1.9e-68  235.3   0.5    2.5e-68  234.9   0.5    1.1  1  sp|B8NBB2|CUTI2_ASPFN      Probable cutinase 2 OS=Aspergillus
+    2.6e-68  234.9   0.1    2.8e-68  234.7   0.1    1.0  1  sp|A1DGN0|CUTI1_NEOFI      Probable cutinase 1 OS=Neosartorya
+    6.6e-68  233.5   0.3    7.9e-68  233.3   0.3    1.0  1  sp|Q2TZY7|CUTI2_ASPOR      Probable cutinase 2 OS=Aspergillus
+      8e-68  233.2   1.3      1e-67  232.9   1.3    1.1  1  sp|A2R2W3|CUTI1_ASPNC      Probable cutinase 1 OS=Aspergillus
+    9.2e-68  233.1   0.8      1e-67  232.9   0.8    1.0  1  sp|P10951|CUTI_COLTU       Cutinase OS=Colletotrichum truncat
+    1.5e-67  232.3   0.4    1.7e-67  232.2   0.4    1.0  1  sp|Q0CD01|CUTI1_ASPTN      Probable cutinase 1 OS=Aspergillus
+    2.2e-67  231.8   0.2    2.5e-67  231.6   0.2    1.0  1  sp|Q5B2C1|CUTI1_EMENI      Cutinase 1 OS=Emericella nidulans 
+    4.2e-67  230.9   2.0    4.5e-67  230.8   2.0    1.0  1  sp|B0YEP5|CUTI3_ASPFC      Probable cutinase 3 OS=Aspergillus
+    4.2e-67  230.9   2.0    4.5e-67  230.8   2.0    1.0  1  sp|Q4W9Z4|CUTI3_ASPFU      Probable cutinase 3 OS=Aspergillus
+    8.3e-67  229.9   0.8    9.1e-67  229.8   0.8    1.0  1  sp|Q5AX00|CUTI3_EMENI      Cutinase 3 OS=Emericella nidulans 
+    3.9e-66  227.7   0.3    4.2e-66  227.6   0.3    1.0  1  sp|Q0CRP4|CUTI5_ASPTN      Probable cutinase 5 OS=Aspergillus
+    7.1e-66  226.9   0.3    7.8e-66  226.7   0.3    1.0  1  sp|Q0CW01|CUTI4_ASPTN      Probable cutinase 4 OS=Aspergillus
+    9.7e-66  226.4   0.1    1.2e-65  226.2   0.1    1.1  1  sp|Q5AVY9|CUTI2_EMENI      Cutinase 2 OS=Emericella nidulans 
+    1.8e-65  225.5   0.3      2e-65  225.4   0.3    1.0  1  sp|A1C9G0|CUTI3_ASPCL      Probable cutinase 3 OS=Aspergillus
+    2.4e-65  225.1   0.1    2.7e-65  225.0   0.1    1.0  1  sp|Q0CES4|CUTI2_ASPTN      Probable cutinase 2 OS=Aspergillus
+    7.7e-65  223.5   0.0    8.4e-65  223.4   0.0    1.0  1  sp|P29292|CUTI_DIDRA       Cutinase OS=Didymella rabiei OX=54
+    6.8e-64  220.4   0.0    7.5e-64  220.3   0.0    1.0  1  sp|A1CSZ4|CUTI1_ASPCL      Probable cutinase 1 OS=Aspergillus
+    4.4e-63  217.8   0.0    5.4e-63  217.5   0.0    1.1  1  sp|A5ABE6|CUTI2_ASPNC      Probable cutinase 2 OS=Aspergillus
+    1.8e-57  199.5   0.2    2.2e-57  199.2   0.2    1.1  1  sp|B6HLS9|CUTI1_PENRW      Probable cutinase 1 OS=Penicillium
+    4.2e-54  188.4   5.5    4.6e-54  188.3   5.5    1.0  1  sp|G4MZV6|CUTI2_PYRO7      Cutinase CUT2 OS=Pyricularia oryza
+    2.4e-53  185.9   1.3    2.8e-53  185.7   1.3    1.0  1  sp|Q8TGB8|CUTI_MONFR       Cutinase OS=Monilinia fructicola O
+    3.3e-53  185.5   0.7    3.6e-53  185.4   0.7    1.0  1  sp|Q00298|CUTI_BOTFU       Cutinase OS=Botryotinia fuckeliana
+    5.3e-48  168.5   0.0    6.2e-48  168.3   0.0    1.1  1  sp|A0A024SC78|CUTI1_HYPJR  Cutinase OS=Hypocrea jecorina (str
+    5.3e-48  168.5   0.0    6.2e-48  168.3   0.0    1.1  1  sp|G0RH85|CUTI1_HYPJQ      Cutinase OS=Hypocrea jecorina (str
+    4.1e-47  165.6   0.0    4.7e-47  165.4   0.0    1.1  1  sp|A8QPD8|CUTI1_TRIHA      Cutinase cut1 OS=Trichoderma harzi
+    1.8e-45  160.2   0.1      2e-45  160.1   0.1    1.0  1  sp|B9U443|CUTI1_COPCI      Cutinase CUT1 OS=Coprinopsis ciner
+    2.9e-45  159.5   1.4    3.2e-45  159.4   1.4    1.0  1  sp|Q9Y7G8|CUTI_PYRBR       Cutinase pbc1 OS=Pyrenopeziza bras
+    3.5e-43  152.7   1.5    4.3e-43  152.5   1.5    1.0  1  sp|P63880|CULP1_MYCBO      Carboxylesterase Culp1 OS=Mycobact
+    3.5e-43  152.7   1.5    4.3e-43  152.5   1.5    1.0  1  sp|P9WP42|CULP1_MYCTO      Carboxylesterase Culp1 OS=Mycobact
+    3.5e-43  152.7   1.5    4.3e-43  152.5   1.5    1.0  1  sp|P9WP43|CULP1_MYCTU      Carboxylesterase Culp1 OS=Mycobact
+    4.8e-42  149.0   0.3      6e-42  148.7   0.3    1.1  1  sp|Q8X1P1|CUTI_BLUHO       Cutinase OS=Blumeria hordei OX=286
+    2.2e-40  143.6   1.2    2.8e-40  143.3   1.2    1.0  1  sp|C8VJF5|CUTI4_EMENI      Cutinase 4 OS=Emericella nidulans 
+    2.6e-39  140.1   5.9      4e-39  139.5   5.9    1.2  1  sp|A6WFI5|CUTI_KINRD       Cutinase OS=Kineococcus radiotoler
+    2.1e-36  130.6   0.1    2.4e-36  130.4   0.1    1.0  1  sp|O06319|CULP4_MYCTU      Phospholipase Culp4 OS=Mycobacteri
+      1e-33  121.8   0.1    1.3e-33  121.5   0.1    1.1  1  sp|P9WP38|CULP3_MYCTO      Probable carboxylesterase Culp3 OS
+      1e-33  121.8   0.1    1.3e-33  121.5   0.1    1.1  1  sp|P0A537|CULP3_MYCBO      Probable carboxylesterase Culp3 OS
+      1e-33  121.8   0.1    1.3e-33  121.5   0.1    1.1  1  sp|P9WP39|CULP3_MYCTU      Probable carboxylesterase Culp3 OS
+    1.2e-30  111.9   0.0    1.4e-30  111.6   0.0    1.0  1  sp|P63882|CULP2_MYCBO      Probable carboxylesterase Culp2 OS
+    1.2e-30  111.9   0.0    1.4e-30  111.6   0.0    1.0  1  sp|P9WP40|CULP2_MYCTO      Probable carboxylesterase Culp2 OS
+    1.2e-30  111.9   0.0    1.4e-30  111.6   0.0    1.0  1  sp|P9WP41|CULP2_MYCTU      Probable carboxylesterase Culp2 OS
+    1.5e-24   91.9   0.0    1.8e-24   91.6   0.0    1.0  1  sp|O06793|CULP5_MYCTU      Probable carboxylesterase Culp5 OS
+    4.3e-20   77.3   0.7    5.5e-20   77.0   0.7    1.1  1  sp|Q79FA4|CULP7_MYCTU      Probable carboxylesterase Culp7 OS
+    5.2e-20   77.1   5.2    5.9e-20   76.9   5.2    1.1  1  sp|O59893|AXE2_TALPU       Acetylxylan esterase 2 OS=Talaromy
+      4e-18   70.9   5.4    5.4e-18   70.5   5.4    1.1  1  sp|Q99034|AXE1_HYPJE       Acetylxylan esterase OS=Hypocrea j
+    1.6e-17   69.0   6.9      2e-17   68.6   6.9    1.1  1  sp|A0A2J8C362|CUTI1_VERDA  Cutinase 11 OS=Verticillium dahlia
+    5.1e-12   51.0   0.0      2e-11   49.0   0.0    1.8  1  sp|O53581|CULP6_MYCTU      Carboxylesterase/lipase Culp6 OS=M
+    1.5e-11   49.4   0.3    1.5e-10   46.1   0.3    2.1  1  sp|Q8NLR5|CUP6H_CORGL      Carboxylesterase Culp6 homolog OS=
+    3.3e-10   45.0   0.0    7.3e-10   43.9   0.0    1.6  1  sp|A0R619|CUP6H_MYCS2      Carboxylesterase Culp6 homolog OS=
+    4.2e-05   28.4   0.3       0.11   17.2   0.0    2.1  2  sp|I1RLL3|FGL3_GIBZE       Secreted mono- and diacylglycerol 
+    0.00055   24.7   0.0     0.0007   24.4   0.0    1.2  1  sp|O64205|LYSB_BPMD2       Endolysin B OS=Mycobacterium phage
+    0.00079   24.2   0.6     0.0031   22.3   0.6    1.9  1  sp|B8NIB8|FAEA_ASPFN       Probable feruloyl esterase A OS=As
+    0.00097   23.9   0.0     0.0013   23.5   0.0    1.2  1  sp|Q05328|LYSB_BPML5       Endolysin B OS=Mycobacterium phage
+     0.0012   23.7   0.2      0.011   20.4   0.0    2.3  2  sp|P61869|MDLA_PENCY       Secreted mono- and diacylglycerol 
+     0.0012   23.7   0.2      0.011   20.4   0.0    2.3  2  sp|P61870|MDLA_PENCA       Secreted mono- and diacylglycerol 
+     0.0015   23.3   0.2     0.0042   21.8   0.0    1.8  1  sp|O42815|FAEA_ASPTU       Feruloyl esterase A OS=Aspergillus
+     0.0019   23.0   0.4      0.007   21.1   0.4    1.9  1  sp|Q2UNW5|FAEA_ASPOR       Probable feruloyl esterase A OS=As
+     0.0019   22.9   1.5     0.0046   21.7   0.1    2.2  1  sp|Q0CBM7|FAEA_ASPTN       Probable feruloyl esterase A OS=As
+     0.0089   20.8   0.9      0.027   19.2   0.1    2.1  1  sp|A2QSY5|FAEA_ASPNC       Probable feruloyl esterase A OS=As
+  ------ inclusion threshold ------
+      0.013   20.2   2.7      0.095   17.4   2.7    2.7  1  sp|Q9P979|FAEA_ASPAW       Feruloyl esterase A OS=Aspergillus
+      0.014   20.1   1.5      0.028   19.1   0.2    2.1  1  sp|O42807|FAEA_ASPNG       Feruloyl esterase A OS=Aspergillus
+       0.03   19.1   0.7       0.36   15.5   0.1    2.6  2  sp|Q9HE20|NHL1_FUSSL       Secreted mono- and diacylglycerol 
+      0.062   18.0   1.3    2.3e+02    6.3   0.1    3.1  3  sp|Q03EY2|MURG_PEDPA       UDP-N-acetylglucosamine--N-acetylm
+      0.092   17.4   0.0       0.14   16.9   0.0    1.3  1  sp|Q6BSS8|APTH1_DEBHA      Acyl-protein thioesterase 1 OS=Deb
+       0.15   16.8   0.0       0.31   15.7   0.0    1.5  1  sp|Q54T49|APT11_DICDI      Acyl-protein thioesterase 1 homolo
+       0.19   16.5   0.3        5.2   11.7   0.1    2.2  2  sp|A5UCW8|MURG_HAEIE       UDP-N-acetylglucosamine--N-acetylm
+       0.38   15.4   0.0       0.57   14.9   0.0    1.2  1  sp|Q5AGD1|APTH1_CANAL      Acyl-protein thioesterase 1 OS=Can
+       0.49   15.1   0.0        0.7   14.6   0.0    1.2  1  sp|Q6CGL4|APTH1_YARLI      Acyl-protein thioesterase 1 OS=Yar
+       0.64   14.7   0.1          1   14.0   0.1    1.3  1  sp|O75608|LYPA1_HUMAN      Acyl-protein thioesterase 1 OS=Hom
+       0.65   14.7   0.1          1   14.0   0.1    1.3  1  sp|Q5RBR7|LYPA1_PONAB      Acyl-protein thioesterase 1 OS=Pon
+        0.9   14.2   0.0        1.4   13.6   0.0    1.3  1  sp|Q3MHR0|LYPA1_BOVIN      Acyl-protein thioesterase 1 OS=Bos
+          1   14.0   0.0        1.4   13.6   0.0    1.2  1  sp|Q6FW75|APTH1_CANGA      Acyl-protein thioesterase 1 OS=Can
+        1.1   13.9   0.0        2.4   12.8   0.0    1.4  1  sp|Q74Z47|PPME1_EREGS      Protein phosphatase methylesterase
+        1.2   13.8   0.0        1.9   13.1   0.0    1.3  1  sp|O77821|LYPA1_RABIT      Acyl-protein thioesterase 1 OS=Ory
+        1.2   13.8   0.0        1.9   13.1   0.0    1.3  1  sp|P97823|LYPA1_MOUSE      Acyl-protein thioesterase 1 OS=Mus
+        1.3   13.7   0.2        1.7   13.4   0.2    1.1  1  sp|Q3MFA7|RL6_TRIV2        Large ribosomal subunit protein uL
+        1.3   13.7   0.0        3.2   12.4   0.0    1.5  1  sp|O59952|LIP_THELA        Lipase OS=Thermomyces lanuginosus 
+        1.5   13.5   0.1        2.5   12.8   0.1    1.3  1  sp|P70470|LYPA1_RAT        Acyl-protein thioesterase 1 OS=Rat
+        1.8   13.2   0.0        8.3   11.1   0.0    2.1  1  sp|A0A098D6U0|ZEA1_GIBZE   Non-reducing polyketide synthase Z
+        1.8   13.2   0.1        2.3   12.9   0.1    1.1  1  sp|Q8YPJ3|RL6_NOSS1        Large ribosomal subunit protein uL
+        1.9   13.2   0.0        2.6   12.7   0.0    1.2  1  sp|Q9VKH6|PPT2_DROME       Lysosomal thioesterase PPT2 homolo
+        2.5   12.8   0.0        4.1   12.1   0.0    1.4  1  sp|S3E7P4|GLON_GLAL2       Probable thioesterase gloN OS=Glar
+        2.5   12.8   0.4         25    9.5   0.1    2.2  2  sp|W3VKA4|LIPA_MOEAP       Lipase A OS=Moesziomyces aphidis O
+        2.7   12.7   0.1        3.8   12.2   0.1    1.2  1  sp|B2ITP1|RL6_NOSP7        Large ribosomal subunit protein uL
+        2.9   12.5   0.2         34    9.1   0.0    2.1  2  sp|Q4QLF8|MURG_HAEI8       UDP-N-acetylglucosamine--N-acetylm
+        3.1   12.5   0.0        5.6   11.6   0.0    1.4  1  sp|O95372|LYPA2_HUMAN      Acyl-protein thioesterase 2 OS=Hom
+        3.1   12.5   0.0        5.6   11.6   0.0    1.4  1  sp|Q9WTL7|LYPA2_MOUSE      Acyl-protein thioesterase 2 OS=Mus
+        3.1   12.5   0.0        5.6   11.6   0.0    1.3  1  sp|Q9QYL8|LYPA2_RAT        Acyl-protein thioesterase 2 OS=Rat
+        3.2   12.4   0.3        7.9   11.1   0.1    1.7  1  sp|Q0I1D3|MURG_HISS1       UDP-N-acetylglucosamine--N-acetylm
+        4.3   12.0   0.0        5.9   11.5   0.0    1.2  1  sp|P0CL94|APTH1_CRYNJ      Acyl-protein thioesterase 1 OS=Cry
+        4.3   12.0   0.0        5.9   11.5   0.0    1.2  1  sp|P0CL95|APTH1_CRYNB      Acyl-protein thioesterase 1 OS=Cry
+        4.6   11.9   0.0        6.1   11.5   0.0    1.3  1  sp|Q6CJK6|APTH1_KLULA      Acyl-protein thioesterase 1 OS=Klu
+        4.7   11.9   1.5    1.9e+03    3.4   0.1    3.1  4  sp|Q8HXZ7|CD209_PANTR      CD209 antigen OS=Pan troglodytes O
+        4.9   11.8   0.0          6   11.5   0.0    1.3  1  sp|Q12354|APTH1_YEAST      Acyl-protein thioesterase 1 OS=Sac
+        5.4   11.7   0.0        7.8   11.2   0.0    1.2  1  sp|Q59295|HEM2_RUMJO       Delta-aminolevulinic acid dehydrat
+        6.2   11.5   0.8    6.7e+02    4.8   0.1    2.7  4  sp|Q8HY12|CLC4M_HYLLA      C-type lectin domain family 4 memb
+        6.4   11.4   0.0        9.5   10.9   0.0    1.2  1  sp|A0A8R9Z5V5|LIP4_MALRS   Secreted mono- and diacylglycerol 
+        6.5   11.4   0.0        9.6   10.9   0.0    1.2  1  sp|A0A3G2S8R6|LIP4_MALR7   Secreted mono- and diacylglycerol 
+        7.2   11.3   0.9    6.7e+02    4.8   0.2    2.7  3  sp|Q8HY10|CLC4M_NOMCO      C-type lectin domain family 4 memb
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|P00590|CUTI1_FUSVN  Cutinase 1 OS=Fusarium vanettenii OX=2747968 GN=CUT1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  306.7   0.0   5.3e-94   2.6e-90       1     208 []       1     225 [.       1     225 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 306.7 bits;  conditional E-value: 5.3e-94
+           Cutinase.aln   1 mkfallvlalaalasaapvse...eleaRq...........gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiq 74 
+                            mkf++l+++laa+asa+p+s+   eleaRq           g+sa+C+dvi+i+aRg+te+gnlG ++Gp++as+lesa++k++v+iq
+  sp|P00590|CUTI1_FUSVN   1 MKFFALTTLLAATASALPTSNpaqELEARQlgrttrddlinGNSASCRDVIFIYARGSTETGNLG-TLGPSIASNLESAFGKDGVWIQ 87 
+                            9*******************9999*****************************************.********************** PP
+
+           Cutinase.aln  75 gvg..YaAdlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsi 158
+                            gvg  Y+A+lgd  l++gts+a+i+e+++l+++a++kcP+a+l+agGYSQGaal+aa+ie+l++a+rdk++g+vlfG+tkn+qnrg+i
+  sp|P00590|CUTI1_FUSVN  88 GVGgaYRATLGDnaLPRGTSSAAIREMLGLFQQANTKCPDATLIAGGYSQGAALAAASIEDLDSAIRDKIAGTVLFGYTKNLQNRGRI 175
+                            **************************************************************************************** PP
+
+           Cutinase.aln 159 psypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvra 208
+                            p+ypa+rtkvfCn+GDlvC+g+livaa+Hl+Yg darg a+eFli+kvra
+  sp|P00590|CUTI1_FUSVN 176 PNYPADRTKVFCNTGDLVCTGSLIVAAPHLAYGPDARGPAPEFLIEKVRA 225
+                            ************************************************85 PP
+
+>> sp|Q99174|CUTI_FUSSC  Cutinase OS=Fusarium solani subsp. cucurbitae OX=2747967 GN=CUTA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  305.1   0.1   1.7e-93   8.1e-90       1     208 []       1     225 [.       1     225 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 305.1 bits;  conditional E-value: 1.7e-93
+          Cutinase.aln   1 mkfallvlalaalasaapvse...eleaRq...........gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqg 75 
+                           mkf++l++ laa+asa+p+s+   eleaRq           g+sa+C+dvi+i+aRg+te+gnlG ++Gp++as+lesa+++++v+iqg
+  sp|Q99174|CUTI_FUSSC   1 MKFFALTTFLAATASALPTSNpaqELEARQlgrttrddlinGNSASCADVIFIYARGSTETGNLG-TLGPSIASNLESAFGTDGVWIQG 88 
+                           9*******************9999*****************************************.*********************** PP
+
+          Cutinase.aln  76 vg..YaAdlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsips 160
+                           vg  Y+A+lgd  l++gts+a+i+e+++l+++a++kcP+a+l+agGYSQGaal+aa+ie+l++a+rdk++g+vlfG+tkn+qnrg+ip+
+  sp|Q99174|CUTI_FUSSC  89 VGgaYRATLGDnaLPRGTSSAAIREMLGLFQQANTKCPDATLIAGGYSQGAALAAASIEDLDSAIRDKIAGTVLFGYTKNLQNRGRIPN 177
+                           ***************************************************************************************** PP
+
+          Cutinase.aln 161 ypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvra 208
+                           ypa+rtkvfCnvGDlvC+g+livaa+Hl+Yg darg a+eFli+kvra
+  sp|Q99174|CUTI_FUSSC 178 YPADRTKVFCNVGDLVCTGSLIVAAPHLAYGPDARGPAPEFLIEKVRA 225
+                           **********************************************85 PP
+
+>> sp|Q96UT0|CUTI2_FUSVN  Cutinase 2 OS=Fusarium vanettenii OX=2747968 GN=CUT2 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  300.8   0.0   3.4e-92   1.6e-88       1     208 []       1     226 [.       1     226 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 300.8 bits;  conditional E-value: 3.4e-92
+           Cutinase.aln   1 mkfallvlalaalasaapvse...eleaRq............gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsi 73 
+                            mkf++l+++laa+asa+p+s+   eleaRq            g+sa+C+dvi+i+aRg+te+gnlG ++Gp++asklesa+++++v+i
+  sp|Q96UT0|CUTI2_FUSVN   1 MKFFALTTLLAATASALPTSHpvqELEARQlgggttrndltnGNSASCADVIFIYARGSTETGNLG-TLGPSIASKLESAFGRDGVWI 87 
+                            9*******************9999******************************************.********************* PP
+
+           Cutinase.aln  74 qgvg..YaAdlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgs 157
+                            qgvg  Y+A+lgd  l++gts+a+i+e+++l+++a++kcP+a+l+agGYSQGaal aa++e+l++a+rdk++g+vlfG+tkn+qn+g+
+  sp|Q96UT0|CUTI2_FUSVN  88 QGVGgaYRATLGDnsLPRGTSSAAIREMLGLFQQANTKCPDATLIAGGYSQGAALGAASVEDLDSAIRDKIAGTVLFGYTKNLQNHGR 175
+                            **************************************************************************************** PP
+
+           Cutinase.aln 158 ipsypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvra 208
+                            ip++pa+rtkvfCn+GDlvC+g+li+aa+Hl+Yg darg a+eFli+kvra
+  sp|Q96UT0|CUTI2_FUSVN 176 IPNFPADRTKVFCNTGDLVCTGSLIIAAPHLTYGPDARGPAPEFLIEKVRA 226
+                            *************************************************85 PP
+
+>> sp|Q96US9|CUTI3_FUSVN  Cutinase 3 OS=Fusarium vanettenii OX=2747968 GN=CUT3 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  298.4   0.0   1.9e-91   9.3e-88       1     208 []       1     226 [.       1     226 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 298.4 bits;  conditional E-value: 1.9e-91
+           Cutinase.aln   1 mkfallvlalaalasaapvse...eleaRq............gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsi 73 
+                            mkf++l+++laa+ sa+p+s+   eleaRq            g+sa+C+dvi+i+aRg+te+gnlG ++Gp++asklesa+++++v+i
+  sp|Q96US9|CUTI3_FUSVN   1 MKFFALTTLLAATDSALPTSHpvqELEARQlgggttrndltnGNSASCADVIFIYARGSTETGNLG-TLGPSIASKLESAFGRDGVWI 87 
+                            9*******************9999******************************************.********************* PP
+
+           Cutinase.aln  74 qgvg..YaAdlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgs 157
+                            qgvg  Y+A+lgd  l++gts+a+i+e+++l+++ ++kcP+a+l+agGYSQGaal+aa++e+l++a+rdk++g+vlfG+tkn+qn+g+
+  sp|Q96US9|CUTI3_FUSVN  88 QGVGgaYRATLGDnsLPRGTSSAAIREMLGLFQQPNTKCPDATLIAGGYSQGAALAAASVEDLDSAIRDKIAGTVLFGYTKNLQNHGR 175
+                            **************************************************************************************** PP
+
+           Cutinase.aln 158 ipsypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvra 208
+                            ip++pa+rtkvfCn+GDlvC+g+li+aa+Hl+Yg darg a+eFli+kvra
+  sp|Q96US9|CUTI3_FUSVN 176 IPNFPADRTKVFCNTGDLVCTGSLIIAAPHLTYGPDARGPAPEFLIEKVRA 226
+                            *************************************************85 PP
+
+>> sp|B8MVS3|CUTI1_ASPFN  Probable cutinase 1 OS=Aspergillus flavus (strain ATCC 200026 / FGSC A1120 / IAM 13836 / NRRL 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  257.2   0.1   7.3e-79   3.6e-75       1     206 [.       1     212 [.       1     213 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 257.2 bits;  conditional E-value: 7.3e-79
+           Cutinase.aln   1 mkfallvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            m+++++v+alaa+a+a+pv  +l++Rq        +++C+ +++ifaR++tepg lG+s+Gp+++++l+ a s ++v++qgvg  Y+A
+  sp|B8MVS3|CUTI1_ASPFN   1 MHLRNIVIALAATAVASPV--DLQDRQltggdeLRDGPCKPITFIFARASTEPGLLGISTGPAVCNRLKLARS-GDVACQGVGprYTA 85 
+                            8999**************8..9********998678************************************8.899*********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dl++  l++gts+a+iae+++l+++a++kcP++++vagGYSQG+a+++ ai++lsa+v+dk+kgvvlfG+t+n+q+rg+i+++p++++
+  sp|B8MVS3|CUTI1_ASPFN  86 DLPSnaLPEGTSQAAIAEAQGLFEQAVSKCPDTQIVAGGYSQGTAVMNGAIKRLSADVQDKIKGVVLFGYTRNAQERGQIANFPKDKV 173
+                            ***99*********************************************************************************** PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            kv+C+vGDlvC g+liva++H+sY sd+ g+a++Fl+s++
+  sp|B8MVS3|CUTI1_ASPFN 174 KVYCAVGDLVCLGTLIVAPPHFSYLSDT-GDASDFLLSQL 212
+                            ***************************9.78******998 PP
+
+>> sp|P52956|CUTI1_ASPOR  Cutinase 1 OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=cutL1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  257.2   0.1   7.3e-79   3.6e-75       1     206 [.       1     212 [.       1     213 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 257.2 bits;  conditional E-value: 7.3e-79
+           Cutinase.aln   1 mkfallvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            m+++++v+alaa+a+a+pv  +l++Rq        +++C+ +++ifaR++tepg lG+s+Gp+++++l+ a s ++v++qgvg  Y+A
+  sp|P52956|CUTI1_ASPOR   1 MHLRNIVIALAATAVASPV--DLQDRQltggdeLRDGPCKPITFIFARASTEPGLLGISTGPAVCNRLKLARS-GDVACQGVGprYTA 85 
+                            8999**************8..9********998678************************************8.899*********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dl++  l++gts+a+iae+++l+++a++kcP++++vagGYSQG+a+++ ai++lsa+v+dk+kgvvlfG+t+n+q+rg+i+++p++++
+  sp|P52956|CUTI1_ASPOR  86 DLPSnaLPEGTSQAAIAEAQGLFEQAVSKCPDTQIVAGGYSQGTAVMNGAIKRLSADVQDKIKGVVLFGYTRNAQERGQIANFPKDKV 173
+                            ***99*********************************************************************************** PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            kv+C+vGDlvC g+liva++H+sY sd+ g+a++Fl+s++
+  sp|P52956|CUTI1_ASPOR 174 KVYCAVGDLVCLGTLIVAPPHFSYLSDT-GDASDFLLSQL 212
+                            ***************************9.78******998 PP
+
+>> sp|P41744|CUTI_ALTBR  Cutinase OS=Alternaria brassicicola OX=29001 GN=CUTAB1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  247.2   0.5   8.8e-76   4.3e-72       5     207 ..       3     207 ..       1     208 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 247.2 bits;  conditional E-value: 8.8e-76
+          Cutinase.aln   5 llvlalaalasaapvseeleaRqgssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaAdlgd..lsqgt 89 
+                           +l l+l+   +a+ + +ele+   ss aC++ i+ifaRg+te gn+G  vGp  a++lesa++ ++v++qgvg  Y+A l +  l+ gt
+  sp|P41744|CUTI_ALTBR   3 NLNLLLSKPCQASTTRNELETG--SSDACPRTIFIFARGSTEAGNMGALVGPFTANALESAYGASNVWVQGVGgpYTAGLVEnaLPAGT 89 
+                           5667889999999999999986..9*******************************************************9999***** PP
+
+          Cutinase.aln  90 saagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvfCnvGDlvCe 178
+                           s+a+i+e++rl++ aa+kcPn+ + agGYSQGaa++ +ai  lsaav+d++kgvvlfG+tkn+qn g+ip++p+s+t ++C++GDlvC+
+  sp|P41744|CUTI_ALTBR  90 SQAAIREAQRLFNLAASKCPNTPITAGGYSQGAAVMSNAIPGLSAAVQDQIKGVVLFGYTKNLQNGGRIPNFPTSKTTIYCETGDLVCN 178
+                           ***************************************************************************************** PP
+
+          Cutinase.aln 179 gglivaaaHlsYgsdargeaaeFliskvr 207
+                           g+li+++aHl Y+++a ++a+ Fl ++++
+  sp|P41744|CUTI_ALTBR 179 GTLIITPAHLLYSDEAAVQAPTFLRAQID 207
+                           *************************9996 PP
+
+>> sp|B8NCM8|CUTI3_ASPFN  Probable cutinase 1 OS=Aspergillus flavus (strain ATCC 200026 / FGSC A1120 / IAM 13836 / NRRL 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  246.5   1.8   1.5e-75   7.2e-72       4     207 ..       6     222 ..       2     223 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 246.5 bits;  conditional E-value: 1.5e-75
+           Cutinase.aln   4 allvlalaalasaapvse....eleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..Ya 79 
+                            +llv alaala+a+p++e    +leaRq       +++aC+dv+lifaRg+te gn+G+ +Gp+l+s+l+s+l+ ++v++qgvg  Y+
+  sp|B8NCM8|CUTI3_ASPFN   6 SLLVSALAALAAASPIAEpadqSLEARQlgssndLTNGACKDVTLIFARGSTEMGNMGTVIGPPLCSALKSKLGADKVACQGVGglYT 93 
+                            67889999*******99999999******999987889************************************************** PP
+
+           Cutinase.aln  80 Adlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasr 165
+                              l +  l+q t+  +i  +++l+++a +kcPn+++vagGYSQG+a++ +a++qlsa+v+dkvkgvv fG t+n+q++g+ip+yp+++
+  sp|B8NCM8|CUTI3_ASPFN  94 GGLMQnaLPQNTDPGAISTAKSLFEQASTKCPNTQIVAGGYSQGSAVIDNAVQQLSAEVKDKVKGVVFFGFTRNLQDKGQIPNYPKDN 181
+                            ***9999********************************************************************************* PP
+
+           Cutinase.aln 166 tkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                            +kvfC++GDlvC+g+liv+aaHl+Y+ +a   aa+Fl+skv+
+  sp|B8NCM8|CUTI3_ASPFN 182 VKVFCAMGDLVCDGTLIVTAAHLTYTINAPE-AASFLASKVQ 222
+                            *****************************76.********98 PP
+
+>> sp|Q2U199|CUTI3_ASPOR  Probable cutinase 3 OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=AO09001100
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  244.7   1.5   5.2e-75   2.5e-71       4     207 ..       6     222 ..       2     223 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 244.7 bits;  conditional E-value: 5.2e-75
+           Cutinase.aln   4 allvlalaalasaapvse....eleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..Ya 79 
+                            +llv alaala+++p++e    +leaRq       +++aC+dv+lifaRg+te gn+G+ +Gp+l+s+l+s+l+ ++v++qgvg  Y+
+  sp|Q2U199|CUTI3_ASPOR   6 SLLVSALAALAAGSPIAEpadqSLEARQlgssndLTNGACKDVTLIFARGSTEMGNMGTVIGPPLCSSLKSKLGADKVACQGVGglYT 93 
+                            6788999999999999999999*******999987889************************************************** PP
+
+           Cutinase.aln  80 Adlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasr 165
+                              l +  l+q t+  +i  +++l+++a +kcPn+++vagGYSQG+a++ +a++qlsa+v+dkvkgvv fG t+n+q++g+ip+yp+++
+  sp|Q2U199|CUTI3_ASPOR  94 GGLMQnaLPQNTDPGAISTAKSLFEQASTKCPNTQIVAGGYSQGSAVIDNAVQQLSAEVKDKVKGVVFFGFTRNLQDKGQIPNYPKDN 181
+                            ***9999********************************************************************************* PP
+
+           Cutinase.aln 166 tkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                            +kvfC++GDlvC+g+liv+aaHl+Y+ +a   aa+Fl+skv+
+  sp|Q2U199|CUTI3_ASPOR 182 VKVFCAMGDLVCDGTLIVTAAHLTYTINAPE-AASFLASKVQ 222
+                            *****************************76.********98 PP
+
+>> sp|A1CVT3|CUTI2_NEOFI  Probable cutinase 2 OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  242.1   0.3   3.2e-74   1.6e-70       1     206 [.       1     212 [.       1     214 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 242.1 bits;  conditional E-value: 3.2e-74
+           Cutinase.aln   1 mkfallvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            m+++ll+lala la+a+pv  ++++Rq        ++aC+ +++ifaR++tepg lG+s+Gp+++++l++a   ++v++qgvg  Y+A
+  sp|A1CVT3|CUTI2_NEOFI   1 MNLRLLTLALAGLAAASPV--AIQERQfssgneLRDGACKPITFIFARASTEPGLLGMSTGPAVCNNLKAAKP-GQVACQGVGpaYTA 85 
+                            889999************9..78****9998876789*********************************997.899*********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dlg+  l++ ts a+i+e+v l+k+aa+kcP++++vagGYSQG+a++  +i++l+ +v++k+kgvvlfG+t+n+q+rg+i+++p++++
+  sp|A1CVT3|CUTI2_NEOFI  86 DLGSnaLPENTSPAAINEAVDLFKQAASKCPDTQIVAGGYSQGTAVMDGSIKRLPDEVKEKIKGVVLFGYTRNAQERGQIANFPKDKV 173
+                            ***99*********************************************************************************** PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            k++C++GDlvC+g+liv+aaH++Yg+++ g+aa+Fl+ k+
+  sp|A1CVT3|CUTI2_NEOFI 174 KIYCAMGDLVCDGTLIVTAAHFTYGANT-GDAARFLLGKL 212
+                            ***************************9.78*****9998 PP
+
+>> sp|P11373|CUTI1_COLGL  Cutinase 1 OS=Colletotrichum gloeosporioides OX=474922 GN=CUTA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  242.0   0.3   3.3e-74   1.6e-70       1     206 [.       1     223 [.       1     224 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 242.0 bits;  conditional E-value: 3.3e-74
+           Cutinase.aln   1 mkfallvlalaalasaapvse....eleaRq.........gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqg 75 
+                            mkf  ++ ++ +la+aapv      +le+Rq         gss+aC++vi ifaR++tepgn+G+s+Gp +a++le  ++ ++v++qg
+  sp|P11373|CUTI1_COLGL   1 MKFLSVLSLAITLAAAAPVEVetgvALETRQsstrneletGSSSACPKVIYIFARASTEPGNMGISAGPIVADALERIYGANNVWVQG 88 
+                            999999999999******98889999************************************************************** PP
+
+           Cutinase.aln  76 vg..YaAdlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsip 159
+                            vg  Y Adl++  l+ gts+a+i+e+ rl++ a++kcPna +v+gGYSQG+a++a +i+ ls+++++++kgvvlfG+tkn+qn+g+ip
+  sp|P11373|CUTI1_COLGL  89 VGgpYLADLASnfLPDGTSSAAINEARRLFTLANTKCPNAAIVSGGYSQGTAVMAGSISGLSTTIKNQIKGVVLFGYTKNLQNLGRIP 176
+                            **********9***************************************************************************** PP
+
+           Cutinase.aln 160 sypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            ++ +s+t+v+C + D+vC g+l++ +aH+ Y++da ++a++Fl +++
+  sp|P11373|CUTI1_COLGL 177 NFETSKTEVYCDIADAVCYGTLFILPAHFLYQTDAAVAAPRFLQARI 223
+                            *******************************************9887 PP
+
+>> sp|B0Y537|CUTI2_ASPFC  Probable cutinase 2 OS=Aspergillus fumigatus (strain CBS 144.89 / FGSC A1163 / CEA10) OX=45180
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  241.8   0.6   3.8e-74   1.9e-70       1     207 [.       1     213 [.       1     214 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 241.8 bits;  conditional E-value: 3.8e-74
+           Cutinase.aln   1 mkfallvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            m+++ll+lala la+a+pv  ++e+Rq        ++aC+ +++ifaR++tepg +G s+Gp+++++l++a   ++v++qgvg  Y+A
+  sp|B0Y537|CUTI2_ASPFC   1 MNLRLLTLALAGLAAASPV--AIEERQlssgneLRNGACKPITFIFARASTEPGLMGLSTGPAVCNSLKAAKP-GQVACQGVGpaYTA 85 
+                            889999************9..78****9998876689*********************************997.899*********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dl++  l++ ts+a+i+e+++l+k+aa+kcP++++vagGYSQG+a++  +i++l+ +v++++kgvvlfG+t+n+q+rg+i+++p++++
+  sp|B0Y537|CUTI2_ASPFC  86 DLASnaLPENTSQAAINEAMELFKQAASKCPDTQIVAGGYSQGTAVMDGSIKRLPEEVKERIKGVVLFGYTRNAQERGQIANFPKDKV 173
+                            ***99*********************************************************************************** PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                            k++C++GDlvC+g+liv+aaH++Yg+++ g+aa+Fl+ k++
+  sp|B0Y537|CUTI2_ASPFC 174 KIYCAMGDLVCDGTLIVTAAHFTYGANT-GDAARFLLGKLT 213
+                            ***************************9.78******9986 PP
+
+>> sp|Q4WQV2|CUTI2_ASPFU  Probable cutinase 2 OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  241.8   0.6   3.8e-74   1.9e-70       1     207 [.       1     213 [.       1     214 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 241.8 bits;  conditional E-value: 3.8e-74
+           Cutinase.aln   1 mkfallvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            m+++ll+lala la+a+pv  ++e+Rq        ++aC+ +++ifaR++tepg +G s+Gp+++++l++a   ++v++qgvg  Y+A
+  sp|Q4WQV2|CUTI2_ASPFU   1 MNLRLLTLALAGLAAASPV--AIEERQlssgneLRNGACKPITFIFARASTEPGLMGLSTGPAVCNSLKAAKP-GQVACQGVGpaYTA 85 
+                            889999************9..78****9998876689*********************************997.899*********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dl++  l++ ts+a+i+e+++l+k+aa+kcP++++vagGYSQG+a++  +i++l+ +v++++kgvvlfG+t+n+q+rg+i+++p++++
+  sp|Q4WQV2|CUTI2_ASPFU  86 DLASnaLPENTSQAAINEAMELFKQAASKCPDTQIVAGGYSQGTAVMDGSIKRLPEEVKERIKGVVLFGYTRNAQERGQIANFPKDKV 173
+                            ***99*********************************************************************************** PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                            k++C++GDlvC+g+liv+aaH++Yg+++ g+aa+Fl+ k++
+  sp|Q4WQV2|CUTI2_ASPFU 174 KIYCAMGDLVCDGTLIVTAAHFTYGANT-GDAARFLLGKLT 213
+                            ***************************9.78******9986 PP
+
+>> sp|P30272|CUTI1_PYRO7  Cutinase CUT1 OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) OX=242507 GN=CU
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  239.6   0.1   1.8e-73   8.9e-70       1     208 []       1     227 [.       1     227 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 239.6 bits;  conditional E-value: 1.8e-73
+           Cutinase.aln   1 mkfallvlalaalasaapvse......eleaRq..........gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvs 72 
+                            m+f++++l+l alasa+p+++      eleaRq          g++aaC++vilifaR+++e gn+G s+G+++as+le ++  ++++
+  sp|P30272|CUTI1_PYRO7   1 MQFITVALTLIALASASPIATnvekpsELEARQlnsvrndlisGNAAACPSVILIFARASGEVGNMGLSAGTNVASALEREFR-NDIW 87 
+                            99*****************99999**********************************************************5.999* PP
+
+           Cutinase.aln  73 iqgvg..YaAdlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrg 156
+                            +qgvg  Y+A+l+   l+ gt + +i+e++r ++ a++kcPna +vagGYSQG+a++ +a+++++aav+d++kgvvlfG+tkn+qnrg
+  sp|P30272|CUTI1_PYRO7  88 VQGVGdpYDAALSPnfLPAGTTQGAIDEAKRMFTLANTKCPNAAVVAGGYSQGTAVMFNAVSEMPAAVQDQIKGVVLFGYTKNLQNRG 175
+                            ************9899************************************************************************ PP
+
+           Cutinase.aln 157 sipsypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvra 208
+                            +ip++p+++t+v+Cn+ D+vC g+l+  +aH+ Y+++++ +a+++li+++ra
+  sp|P30272|CUTI1_PYRO7 176 RIPDFPTEKTEVYCNASDAVCFGTLFLLPAHFLYTTESSIAAPNWLIRQIRA 227
+                            *************************************************985 PP
+
+>> sp|A1D9W1|CUTI3_NEOFI  Probable cutinase 3 OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  237.8   1.5   6.6e-73   3.2e-69       6     207 ..       7     216 ..       1     217 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 237.8 bits;  conditional E-value: 6.6e-73
+           Cutinase.aln   6 lvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaAdlgd. 84 
+                             v+ la+la aap+++ ++aRq       +s++C+dv++ifaRg+te+gn+G +vGp ++s+l++ l++++v++qgvg  Y+A+l+  
+  sp|A1D9W1|CUTI3_NEOFI   7 FVAGLATLALAAPAPQ-IQARQgmssneLESGPCRDVTFIFARGSTEQGNMGFIVGPGVCSSLKNDLGSDKVACQGVGgaYTAQLAPn 93 
+                            56678999*****887.*****9998887799*****************************************************999 PP
+
+           Cutinase.aln  85 .lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvfCn 171
+                             lsq t++a+i+ ++  ++ a++kcPn+k+vagGYSQG+a++ +ai+ l+++++ kvkgvvlfG t+n  ++g+ip+yp+++tk++C+
+  sp|A1D9W1|CUTI3_NEOFI  94 fLSQNTDQASIDAATDMFDLANTKCPNTKIVAGGYSQGSAVIDNAIQALDSDLKAKVKGVVLFGFTRNVVDKGQIPGYPKDQTKIYCA 181
+                            9*************************************************************************************** PP
+
+           Cutinase.aln 172 vGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                             GDlvC+++li++aaHlsYg+da+  aa+Fl+skv+
+  sp|A1D9W1|CUTI3_NEOFI 182 LGDLVCDNTLIITAAHLSYGADADD-AAKFLASKVQ 216
+                            ***********************76.********97 PP
+
+>> sp|Q0CNE3|CUTI3_ASPTN  Probable cutinase 3 OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN=ATEG_04
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  237.8   1.9   6.6e-73   3.3e-69       5     207 ..       6     218 .]       1     218 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 237.8 bits;  conditional E-value: 6.6e-73
+           Cutinase.aln   5 llvlalaalasaapvse.eleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaAdlg 83 
+                            +lv+alaala+a+pv+e +l++Rq       +++ C+dv++ifaRg+te+gn+G  vGp+++++l++ l++++v++qgvg  Y+A l+
+  sp|Q0CNE3|CUTI3_ASPTN   6 VLVAALAALAVATPVPEnSLQERQlmssndVEDGVCRDVTFIFARGSTEQGNMGFVVGPEVCTSLKADLGSGKVACQGVGgaYTASLA 93 
+                            678999**********999*******99987789*****************************************************9 PP
+
+           Cutinase.aln  84 d..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvf 169
+                               ls  t+ ++i+ ++ l+++a+a+cPn+++vagGYSQG+a++ ++i+ l+a++++kvkgvvlfG t+n+q++g+ip+yp++ +kv+
+  sp|Q0CNE3|CUTI3_ASPTN  94 PnfLSANTDPQSIQAATDLFEKAVANCPNTQIVAGGYSQGSAVMDNSIQALPADIQEKVKGVVLFGFTRNLQDNGQIPNYPKEDVKVY 181
+                            9999999********************************************************************************* PP
+
+           Cutinase.aln 170 CnvGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                            C+ GDlvC+g+li+++aH++Yg +a g+aa+Fl+skv+
+  sp|Q0CNE3|CUTI3_ASPTN 182 CALGDLVCSGTLIITPAHMTYGVNA-GDAAQFLASKVQ 218
+                            *************************.78********95 PP
+
+>> sp|B6H2E9|CUTI2_PENRW  Probable cutinase 2 OS=Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsi
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  236.3   0.2   1.9e-72   9.2e-69       1     206 [.       1     211 [.       1     212 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 236.3 bits;  conditional E-value: 1.9e-72
+           Cutinase.aln   1 mkfallvlalaalasaapvseeleaRq.......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..Ya 79 
+                            m+f ll l+la la+a p+    e+Rq         +++C+ v++ifaR++te+g lG s+Gp++++ l+sa + ++v++qgvg  Y+
+  sp|B6H2E9|CUTI2_PENRW   1 MNFKLLSLLLAGLATAGPI----EQRQtsssgneLRDGPCQPVTFIFARASTEQGLLGGSTGPAVCNDLKSARN-QEVACQGVGpkYQ 83 
+                            8999**************5....788877777665679**********************************96.999********** PP
+
+           Cutinase.aln  80 Adlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasr 165
+                            A+l++  l+ gts ++i+e+++l+++aa+kcP++++vagGYSQG+a+++ ai +ls a++d++kgvvlfG+t+n+q++++ip++p+++
+  sp|B6H2E9|CUTI2_PENRW  84 ATLAAnsLPAGTSDEAIEEAKGLFEQAASKCPDTQIVAGGYSQGTAVMHGAIPKLSDAIKDQIKGVVLFGDTRNQQDNEQIPDFPKDK 171
+                            ***9999********************************************************************************* PP
+
+           Cutinase.aln 166 tkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            tk++C+vGD+vC+g+livaa+H+sY +da g+a++Fl++k+
+  sp|B6H2E9|CUTI2_PENRW 172 TKIYCAVGDQVCHGSLIVAAPHFSYVADA-GDASRFLVEKL 211
+                            *****************************.78*******98 PP
+
+>> sp|B0XRY3|CUTI1_ASPFC  Probable cutinase 1 OS=Aspergillus fumigatus (strain CBS 144.89 / FGSC A1163 / CEA10) OX=45180
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.7   0.0     3e-72   1.5e-68       2     206 ..       2     211 .]       1     211 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 235.7 bits;  conditional E-value: 3e-72
+           Cutinase.aln   2 kfallvlalaalasaapvseeleaRq.......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            kf  ++l+laa+a+a+pv  +++ Rq         +++C+ +++ifaRg+tepg lG+++Gp ++++l+     ++v++qgvg  Y A
+  sp|B0XRY3|CUTI1_ASPFC   2 KF--ALLSLAAMAVASPV--AIDVRQtaitgdeLRTGPCEPITFIFARGSTEPGLLGITTGPGVCNALKLSRP-GQVACQGVGpaYIA 84 
+                            44..56889999*****9..56778877998876789*********************************997.899*********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dl++  l+qgts+ +i+e+ +l+k aa+kcP++k+vagGYSQGaa+++ ai++l+++v++ +kgvvlfG+t+nkq+ g+ip++p++rt
+  sp|B0XRY3|CUTI1_ASPFC  85 DLASnfLPQGTSQVAIDEAAGLFKLAASKCPDTKIVAGGYSQGAAVMHGAIRNLPSNVQNMIKGVVLFGDTRNKQDGGRIPNFPTDRT 172
+                            ***9************************************************************************************ PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            k++C++GDlvC+g+li+++aHlsYg+d  + a++Fl+skv
+  sp|B0XRY3|CUTI1_ASPFC 173 KIYCAFGDLVCDGTLIITPAHLSYGDDVPS-ATSFLLSKV 211
+                            ***************************987.******997 PP
+
+>> sp|Q4X1N0|CUTI1_ASPFU  Probable cutinase 1 OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.7   0.0     3e-72   1.5e-68       2     206 ..       2     211 .]       1     211 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 235.7 bits;  conditional E-value: 3e-72
+           Cutinase.aln   2 kfallvlalaalasaapvseeleaRq.......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            kf  ++l+laa+a+a+pv  +++ Rq         +++C+ +++ifaRg+tepg lG+++Gp ++++l+     ++v++qgvg  Y A
+  sp|Q4X1N0|CUTI1_ASPFU   2 KF--ALLSLAAMAVASPV--AIDVRQtaitgdeLRTGPCEPITFIFARGSTEPGLLGITTGPGVCNALKLSRP-GQVACQGVGpaYIA 84 
+                            44..56889999*****9..56778877998876789*********************************997.899*********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dl++  l+qgts+ +i+e+ +l+k aa+kcP++k+vagGYSQGaa+++ ai++l+++v++ +kgvvlfG+t+nkq+ g+ip++p++rt
+  sp|Q4X1N0|CUTI1_ASPFU  85 DLASnfLPQGTSQVAIDEAAGLFKLAASKCPDTKIVAGGYSQGAAVMHGAIRNLPSNVQNMIKGVVLFGDTRNKQDGGRIPNFPTDRT 172
+                            ***9************************************************************************************ PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            k++C++GDlvC+g+li+++aHlsYg+d  + a++Fl+skv
+  sp|Q4X1N0|CUTI1_ASPFU 173 KIYCAFGDLVCDGTLIITPAHLSYGDDVPS-ATSFLLSKV 211
+                            ***************************987.******997 PP
+
+>> sp|B8NBB2|CUTI2_ASPFN  Probable cutinase 2 OS=Aspergillus flavus (strain ATCC 200026 / FGSC A1120 / IAM 13836 / NRRL 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  234.9   0.5   5.1e-72   2.5e-68       1     207 [.       1     213 [.       1     214 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 234.9 bits;  conditional E-value: 5.1e-72
+           Cutinase.aln   1 mkfallvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            m+++ll+lalaa+a+a+pv  ++++Rq        +++C+ +++ifaR++tepg lG+s+Gp++++ l+ a + ++v++qgvg  Y+A
+  sp|B8NBB2|CUTI2_ASPFN   1 MNLRLLTLALAAVAAASPV--DIQERQlsggneLRDGSCKPITFIFARASTEPGLLGISTGPAVCNGLKMAKA-GQVACQGVGpkYTA 85 
+                            889999************8..99******9888678*********************************9996.899*********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dl++  l++ ts a+i+e++ l+++a++kcP++++vagGYSQG+a++  +i++l+ +v++k+kgvvlfG+t+n+q++g+i+++p++++
+  sp|B8NBB2|CUTI2_ASPFN  86 DLASnaLPENTSPAAIQEAQDLFQQAVTKCPDTQIVAGGYSQGTAVMDDSIKRLPDNVKEKIKGVVLFGYTRNAQEHGQIANFPKDKV 173
+                            ***99*********************************************************************************** PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                            kv+C+vGD vC+g+liv +aH++Y  ++ gea++Fl+ k++
+  sp|B8NBB2|CUTI2_ASPFN 174 KVYCAVGDMVCDGTLIVGPAHFTYLGNT-GEATQFLLGKLS 213
+                            ***************************9.78******9986 PP
+
+>> sp|A1DGN0|CUTI1_NEOFI  Probable cutinase 1 OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  234.7   0.1   5.8e-72   2.8e-68       2     206 ..       2     211 .]       1     211 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 234.7 bits;  conditional E-value: 5.8e-72
+           Cutinase.aln   2 kfallvlalaalasaapvseeleaRq.......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            kf  ++l+laa+a+a+pv  +++ Rq         +++C+ +++ifaRg+tepg lG+++Gp ++++l+     ++v++qgvg  Y A
+  sp|A1DGN0|CUTI1_NEOFI   2 KF--ALLSLAAMAVASPV--AIDVRQtaiagdeLRTGPCEPITFIFARGSTEPGLLGITTGPGVCNALKLSRP-GQVACQGVGpaYIA 84 
+                            44..5688999******9..56778888998876789*********************************997.899*********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dl++  l+qgt++ +i+e+ +l+k aa+kcPn+k+vagGYSQGaa+++ ai++l+++v++ +kgvvlfG+t+nkq+ g+ip++p++rt
+  sp|A1DGN0|CUTI1_NEOFI  85 DLASnfLPQGTNQIAIDEAAGLFKLAASKCPNTKIVAGGYSQGAAVMHGAIRNLPSDVQNMIKGVVLFGDTRNKQDGGRIPNFPTDRT 172
+                            ***9************************************************************************************ PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            k++C++GDlvC+g+li++aaHlsYg+d  + a++Fl+skv
+  sp|A1DGN0|CUTI1_NEOFI 173 KIYCAFGDLVCDGTLIITAAHLSYGDDVPN-ATSFLLSKV 211
+                            ***************************977.******997 PP
+
+>> sp|Q2TZY7|CUTI2_ASPOR  Probable cutinase 2 OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=AO09001100
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  233.3   0.3   1.6e-71   7.9e-68       1     204 [.       1     210 [.       1     213 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 233.3 bits;  conditional E-value: 1.6e-71
+           Cutinase.aln   1 mkfallvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            m+++ll+lalaa+a+a+pv  ++++Rq        +++C+ +++ifaR++tepg lG+s+Gp++++ l+ a + ++v++qgvg  Y+A
+  sp|Q2TZY7|CUTI2_ASPOR   1 MNLRLLTLALAAVAAASPV--DIQERQlsggneLRDGSCKPITFIFARASTEPGLLGISTGPAVCNGLKMAKA-GQVACQGVGpkYTA 85 
+                            889999************8..99******9888678*********************************9996.899*********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dl++  l++ ts a+i+e++ l+++a++kcP++++vagGYSQG+a++  +i++l+ +v++k+kgvvlfG+t+n+q++g+i+++p++++
+  sp|Q2TZY7|CUTI2_ASPOR  86 DLASnaLPENTSPAAIQEAQDLFQQAVTKCPDTQIVAGGYSQGTAVMDDSIKRLPDNVKEKIKGVVLFGYTRNAQEHGQIANFPKDKV 173
+                            ***99*********************************************************************************** PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFlis 204
+                            kv+C+vGD vC+g+liv +aH++Y  ++ gea++Fl+ 
+  sp|Q2TZY7|CUTI2_ASPOR 174 KVYCAVGDMVCDGTLIVGPAHFTYLGNT-GEATQFLLG 210
+                            ***************************9.78****975 PP
+
+>> sp|A2R2W3|CUTI1_ASPNC  Probable cutinase 1 OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513) OX=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  232.9   1.3   2.1e-71     1e-67       8     207 ..      11     225 ..       4     226 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 232.9 bits;  conditional E-value: 2.1e-71
+           Cutinase.aln   8 lalaalasaapvse...eleaRq.........gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaAd 81 
+                            ++la+la ++p+++   +l aRq          ++++C+dv+lifaRg+te gn+G+ +Gp+l+++l+s+l++++v++qgvg  Y+A 
+  sp|A2R2W3|CUTI1_ASPNC  11 ASLATLALSTPLATdaeNLYARQfgtgstaneLEQGSCKDVTLIFARGSTELGNMGTVIGPPLCDNLKSKLGSDKVACQGVGgqYSAG 98 
+                            5677778888877777799********999886789**************************************************** PP
+
+           Cutinase.aln  82 lgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtk 167
+                            l +  l+q t+  +i  +++ +++a++kcPn+k+vagGYSQG+a++ +a+++ls++v+d+vkgvvlfG t+n q++g+ip+yp++ +k
+  sp|A2R2W3|CUTI1_ASPNC  99 LVQnaLPQNTDPGSISAAKQMFEEANSKCPNTKIVAGGYSQGSAVIDNAVQELSTTVKDQVKGVVLFGFTRNVQDHGQIPNYPKDDVK 186
+                            *9999*********************************************************************************** PP
+
+           Cutinase.aln 168 vfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                            v+C+vGDlvC+ +l+v+a Hl+Yg da g+aa+Fl++kv+
+  sp|A2R2W3|CUTI1_ASPNC 187 VYCAVGDLVCDDTLVVTAMHLTYGMDA-GDAASFLAEKVQ 225
+                            ***************************.78********98 PP
+
+>> sp|P10951|CUTI_COLTU  Cutinase OS=Colletotrichum truncatum OX=5467 GN=CUTA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  232.9   0.8   2.1e-71     1e-67       1     206 [.       1     227 [.       1     228 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 232.9 bits;  conditional E-value: 2.1e-71
+          Cutinase.aln   1 mkfallvlalaalasaapvse.......eleaRq.........gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsi 73 
+                           mkf  ++ ++++l++aapv         +leaRq         gss++C++vi ifaR++tepgn+G+s+Gp +a++les+++ ++v++
+  sp|P10951|CUTI_COLTU   1 MKFLSIISLAVSLVAAAPVEVgldtgvaNLEARQsstrnelesGSSSNCPKVIYIFARASTEPGNMGISAGPIVADALESRYGASQVWV 89 
+                           9999***************99999***************************************************************** PP
+
+          Cutinase.aln  74 qgvg..YaAdlgd...lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgs 157
+                           qgvg  Y+Adl++   +++gts  +i+e++rl++ a++kcPn+ +vagGYSQG+a++a++i++ls+++++++kgvvl   tkn+qn+g+
+  sp|P10951|CUTI_COLTU  90 QGVGgpYSADLASnfiIPEGTSRVAINEAKRLFTLANTKCPNSAVVAGGYSQGTAVMASSISELSSTIQNQIKGVVLSAITKNLQNLGR 178
+                           ************99999************************************************************************ PP
+
+          Cutinase.aln 158 ipsypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                           ip++ +s+t+v+C+  D+vC g+l++ +aH+ Y++da ++a++Fl++++
+  sp|P10951|CUTI_COLTU 179 IPNFSTSKTEVYCALADAVCYGTLFILPAHFLYQADAATSAPRFLAARI 227
+                           *********************************************9987 PP
+
+>> sp|Q0CD01|CUTI1_ASPTN  Probable cutinase 1 OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN=ATEG_08
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  232.2   0.4   3.5e-71   1.7e-67       1     206 [.       1     209 []       1     209 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 232.2 bits;  conditional E-value: 3.5e-71
+           Cutinase.aln   1 mkfallvlalaalasaapvseeleaRq...gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaAdlg 83 
+                            mk+ +++++l+ l++a+p+  +le+Rq      +aC+++++ifaR++te+g lG s+Gp +++ l+ a   ++v++qgv   Y+Adl+
+  sp|Q0CD01|CUTI1_ASPTN   1 MKLLTVLTLLTGLVAASPI--DLEKRQrneLRVGACEEITFIFARASTETGYLGGSTGPGVCNGLKLARV-GQVACQGVAprYTADLA 85 
+                            99999*************9..9*****7665579********************************9996.899************** PP
+
+           Cutinase.aln  84 d..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvf 169
+                            +  l+qgts+a+i+e+v+l++ aa+kcPn+k+vagGYSQG+a++++ai  l+ ++++ +kgvvlfG+t+n+q+ g+ip++p+++tk++
+  sp|Q0CD01|CUTI1_ASPTN  86 SnfLPQGTSQAAIDEAVELFQLAASKCPNTKIVAGGYSQGTAVMHNAIPALPDNIKNMIKGVVLFGDTRNQQDGGRIPNFPTDKTKIY 173
+                            9*************************************************************************************** PP
+
+           Cutinase.aln 170 CnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            C+vGDlvCeg+l+++aaH++Y ++  ++a +Fl+++v
+  sp|Q0CD01|CUTI1_ASPTN 174 CAVGDLVCEGTLVITAAHFTYMANV-ADAVSFLLARV 209
+                            **********************999.67****99886 PP
+
+>> sp|Q5B2C1|CUTI1_EMENI  Cutinase 1 OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  231.6   0.2     5e-71   2.5e-67       3     206 ..       5     213 .]       1     213 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 231.6 bits;  conditional E-value: 5e-71
+           Cutinase.aln   3 fallvlalaalasaapvseeleaRq.....gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaAdlg 83 
+                            + l++ +laa+++a p+   l++Rq       +++C+dv++ifaRg+te g lG++vGp+ ++ l+ +   ++v++qgv   Y Adl+
+  sp|Q5B2C1|CUTI1_EMENI   5 LHLALSLLAAIVAANPI--RLDQRQitgneLRDGSCHDVTFIFARGSTELGYLGSTVGPATCNVLKLRKP-GQVACQGVApaYIADLA 89 
+                            77888999999999998..89****99888678*********************************9986.899************** PP
+
+           Cutinase.aln  84 d..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvf 169
+                            +  l+qgt++ +i+e+++l++ aa+kcPn+k+vagGYSQGaa+++aai++ls++v+d++kgvvlfG+t+nkq+ g+ip++p+++tk++
+  sp|Q5B2C1|CUTI1_EMENI  90 SnfLPQGTNQIAINEAKSLFELAASKCPNTKIVAGGYSQGAAVMHAAISTLSSTVQDQIKGVVLFGDTRNKQDGGRIPNFPTDKTKII 177
+                            9*************************************************************************************** PP
+
+           Cutinase.aln 170 CnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            C++GDlvCeg+l+++aaHlsY +d    aa+Fl+ k+
+  sp|Q5B2C1|CUTI1_EMENI 178 CAFGDLVCEGTLVITAAHLSYIDDVPD-AADFLVGKL 213
+                            ***********************9965.*****9885 PP
+
+>> sp|B0YEP5|CUTI3_ASPFC  Probable cutinase 3 OS=Aspergillus fumigatus (strain CBS 144.89 / FGSC A1163 / CEA10) OX=45180
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  230.8   2.0   9.3e-71   4.5e-67       6     207 ..       7     216 ..       1     217 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 230.8 bits;  conditional E-value: 9.3e-71
+           Cutinase.aln   6 lvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaAdlgd. 84 
+                             v+ la+la a+p+++ ++aRq       +s++C+dv++ifaRg+te+gn+G +vGp ++s+l++ l++++v++qgvg  Y+A+l+  
+  sp|B0YEP5|CUTI3_ASPFC   7 FVAGLATLALAVPAPQ-IQARQgmssneLESGPCRDVTFIFARGSTEQGNMGLIVGPGVCSSLKKDLGSDKVACQGVGgaYTAQLAPn 93 
+                            4567889999999877.*****9998887799*****************************************************999 PP
+
+           Cutinase.aln  85 .lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvfCn 171
+                             lsq t++a+i+ ++  ++ a++kcPn+k+vagGYSQG+a++ ++i+ l ++++ kvkgvvlfG t+n  ++g+ip+yp+++tk++C+
+  sp|B0YEP5|CUTI3_ASPFC  94 fLSQNTNQASINAATDMFDLANTKCPNTKIVAGGYSQGSAVIDNTIQALGSDLKAKVKGVVLFGFTRNVADKGQIPGYPKDQTKIYCA 181
+                            9*************************************************************************************** PP
+
+           Cutinase.aln 172 vGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                            vGD vC ++li+++aHl+Yg+da g+aa+Fl+skv+
+  sp|B0YEP5|CUTI3_ASPFC 182 VGDMVCVNTLIITPAHLTYGADA-GDAAKFLASKVQ 216
+                            ***********************.78********97 PP
+
+>> sp|Q4W9Z4|CUTI3_ASPFU  Probable cutinase 3 OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  230.8   2.0   9.3e-71   4.5e-67       6     207 ..       7     216 ..       1     217 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 230.8 bits;  conditional E-value: 9.3e-71
+           Cutinase.aln   6 lvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaAdlgd. 84 
+                             v+ la+la a+p+++ ++aRq       +s++C+dv++ifaRg+te+gn+G +vGp ++s+l++ l++++v++qgvg  Y+A+l+  
+  sp|Q4W9Z4|CUTI3_ASPFU   7 FVAGLATLALAVPAPQ-IQARQgmssneLESGPCRDVTFIFARGSTEQGNMGLIVGPGVCSSLKKDLGSDKVACQGVGgaYTAQLAPn 93 
+                            4567889999999877.*****9998887799*****************************************************999 PP
+
+           Cutinase.aln  85 .lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvfCn 171
+                             lsq t++a+i+ ++  ++ a++kcPn+k+vagGYSQG+a++ ++i+ l ++++ kvkgvvlfG t+n  ++g+ip+yp+++tk++C+
+  sp|Q4W9Z4|CUTI3_ASPFU  94 fLSQNTNQASINAATDMFDLANTKCPNTKIVAGGYSQGSAVIDNTIQALGSDLKAKVKGVVLFGFTRNVADKGQIPGYPKDQTKIYCA 181
+                            9*************************************************************************************** PP
+
+           Cutinase.aln 172 vGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                            vGD vC ++li+++aHl+Yg+da g+aa+Fl+skv+
+  sp|Q4W9Z4|CUTI3_ASPFU 182 VGDMVCVNTLIITPAHLTYGADA-GDAAKFLASKVQ 216
+                            ***********************.78********97 PP
+
+>> sp|Q5AX00|CUTI3_EMENI  Cutinase 3 OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  229.8   0.8   1.9e-70   9.1e-67       1     206 [.       1     219 [.       1     221 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 229.8 bits;  conditional E-value: 1.9e-70
+           Cutinase.aln   1 mkfal.lvlalaalasaapvse....eleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg 77 
+                            m+f + l++ala+l+ a+p+++    +le+Rq       + + C++v +ifaRg+te gn+G  vGp ++s+l+s l++++v++qgvg
+  sp|Q5AX00|CUTI3_EMENI   1 MRFHTiLLAALASLVIATPLPSdtdvSLERRQsmnsndLEKGDCKSVAFIFARGSTEIGNMGFVVGPGVCSNLKSTLGSDKVACQGVG 88 
+                            665550456789999****99999999*****99988766899********************************************* PP
+
+           Cutinase.aln  78 ..YaAdlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsy 161
+                              Y+A l++  l+  t++ +i+e+v+ ++ a akcP++++vagGYSQG+a++ +ai++l+ ++rd+vkgvvlfG t+n+q++g+ip+y
+  sp|Q5AX00|CUTI3_EMENI  89 gaYTAGLIQnaLPANTDSGSIKEAVKMFDLA-AKCPDTQIVAGGYSQGSAVIDNAIQKLDDSTRDRVKGVVLFGFTRNLQDKGQIPGY 175
+                            *******9999**************999865.79****************************************************** PP
+
+           Cutinase.aln 162 pasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            p+++tkv+C+vGDlvC+g+li++a H++Yg +a g+aa+Fl+s+v
+  sp|Q5AX00|CUTI3_EMENI 176 PKDQTKVYCAVGDLVCSGTLIITASHMTYGLNA-GDAAKFLASQV 219
+                            *********************************.78*******99 PP
+
+>> sp|Q0CRP4|CUTI5_ASPTN  Probable cutinase 5 OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN=ATEG_03
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  227.6   0.3   8.5e-70   4.2e-66       4     206 ..       6     218 ..       1     220 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 227.6 bits;  conditional E-value: 8.5e-70
+           Cutinase.aln   4 allvlalaalasaapvse.eleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaAdl 82 
+                            +ll++a+aa++ a p++  eleaRq       +++ C+ v+lifaRg+te gn+G ++G + +++l+ al++++v++qgvg  Y+A l
+  sp|Q0CRP4|CUTI5_ASPTN   6 TLLLTAFAAVSLANPIPApELEARQiinandLENGVCKPVVLIFARGSTELGNMGAIAGMPTCNALKLALGSQNVACQGVGgaYTASL 93 
+                            56789999********999*********98766899**************************************************** PP
+
+           Cutinase.aln  83 gd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkv 168
+                            +   l+  t++a+i+e+++ ++ a ++cPn+++vagGYSQG+a++ ++i++l+  +++kvkgvvlfG t+n+q++g+ip+yp+++tkv
+  sp|Q0CRP4|CUTI5_ASPTN  94 IPnfLPANTNQASIREATGVFEMAHTRCPNSQIVAGGYSQGSAVMDNTIQDLPDVIKNKVKGVVLFGFTRNLQDLGRIPNYPKEQTKV 181
+                            98899999******************************************************************************** PP
+
+           Cutinase.aln 169 fCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            +C+vGDlvC g+li+++aHl+Y+ +a   aa+Fl+s v
+  sp|Q0CRP4|CUTI5_ASPTN 182 ICAVGDLVCVGTLIITPAHLTYTLNAPE-AAQFLASMV 218
+                            **************************76.*****9987 PP
+
+>> sp|Q0CW01|CUTI4_ASPTN  Probable cutinase 4 OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN=ATEG_02
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  226.7   0.3   1.6e-69   7.8e-66       5     207 ..       6     218 ..       1     219 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 226.7 bits;  conditional E-value: 1.6e-69
+           Cutinase.aln   5 llvlalaalasaapvse.eleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaAdlg 83 
+                            llv++l+ala+a pv+  +leaRq       +++ C+ v+lifaRg+te+gn+G ++G + +++l+++l++++v++qgvg  Y+A l+
+  sp|Q0CW01|CUTI4_ASPTN   6 LLVASLSALAAAGPVPPsALEARQsesasdLENGICKPVVLIFARGSTESGNMGYIAGMPTCNALKTKLGSDQVACQGVGgaYTAGLI 93 
+                            678999*********9879*****88777645678****************************************************9 PP
+
+           Cutinase.aln  84 d..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvf 169
+                               l++ t++a+i+e+++ ++ a ++cP+a++vagGYSQG+a++  +i+ l+ +++  vkgvvlfG t+n+q++g+ip+yp+++tkv+
+  sp|Q0CW01|CUTI4_ASPTN  94 PnfLPNNTDQASIDEATKMFDLAHTQCPDAQIVAGGYSQGTAVMDGSIQALPDDIKSTVKGVVLFGFTRNLQDNGQIPNYPKDQTKVI 181
+                            889************************************************************************************* PP
+
+           Cutinase.aln 170 CnvGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                            C+ GDlvC+g+li+++aHl+Y   a geaaeFl+skv+
+  sp|Q0CW01|CUTI4_ASPTN 182 CAPGDLVCDGTLIITPAHLTYALYA-GEAAEFLASKVS 218
+                            ***********************99.78********97 PP
+
+>> sp|Q5AVY9|CUTI2_EMENI  Cutinase 2 OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  226.2   0.1   2.4e-69   1.2e-65       1     206 [.       1     216 [.       1     218 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 226.2 bits;  conditional E-value: 2.4e-69
+           Cutinase.aln   1 mkfallvl.alaalasaapvseeleaRq........gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg.. 77 
+                            m+f ll l ala l++a+p+  +l++Rq          ++ C+ v++ifaR++tepg lG+s+Gp++++ l++  s ++v++qgvg  
+  sp|Q5AVY9|CUTI2_EMENI   1 MHFKLLSLaALAGLSVASPL--NLDERQlgsssgndLRDGDCKPVTFIFARASTEPGLLGMSTGPAVCNDLKADASLGGVACQGVGpk 86 
+                            67776655156778999997..89*****999988766899*********************************************** PP
+
+           Cutinase.aln  78 YaAdlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypa 163
+                            Y+A l++  l+qgts+a+i+e+++l++ aa+kcP++++vagGYSQG+a+++ ai +ls +++dk++gvvlfG+t+nkq+ g+i ++p+
+  sp|Q5AVY9|CUTI2_EMENI  87 YTAGLAEnaLPQGTSSAAINEAKELFELAASKCPDTRIVAGGYSQGTAVMHGAIPDLSDEIKDKIAGVVLFGDTRNKQDGGQIKNFPK 174
+                            ******99******************************************************************************** PP
+
+           Cutinase.aln 164 srtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            +++k++C++GDlvC+g+l+v+aaH++Y +++ gea+++l +++
+  sp|Q5AVY9|CUTI2_EMENI 175 DKIKIYCATGDLVCDGTLVVTAAHFTYVANT-GEASKWLEQQL 216
+                            ******************************9.77999998887 PP
+
+>> sp|A1C9G0|CUTI3_ASPCL  Probable cutinase 3 OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 816 / NCTC 38
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  225.4   0.3   4.1e-69     2e-65       1     206 [.       1     215 []       1     215 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 225.4 bits;  conditional E-value: 4.1e-69
+           Cutinase.aln   1 mkfa.llvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..Ya 79 
+                            m+f+ llv ala+la+aap+++ leaRq       ++++C+dv++ifaRg+te+gn+G +vGp+ +++l+ +l++++v++qgvg  Y+
+  sp|A1C9G0|CUTI3_ASPCL   1 MHFRaLLVSALATLAMAAPAPT-LEARQslssneLENGPCRDVTFIFARGSTEQGNMGFIVGPPTCTALKLKLGSDKVACQGVGgaYT 87 
+                            66551567789999*****887.*****9999886789************************************************** PP
+
+           Cutinase.aln  80 Adlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasr 165
+                            A+l    lsq t+ ++ia ++  ++ a +kcPn+k+v+gGYSQG+a++ ++++ l+ +++ +vk++vlfG t+n  +rg+ip+yp+++
+  sp|A1C9G0|CUTI3_ASPCL  88 ANLLPnfLSQNTDPKSIAAATDMFQLARTKCPNTKIVTGGYSQGSAVIDNSVKALDDDLKSRVKAAVLFGFTRNVVDRGQIPNYPKDQ 175
+                            **98779********************************************************************************* PP
+
+           Cutinase.aln 166 tkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            +kv+C+vGD vC ++li++aaHl+Yg  a+  aa+Fl+sk+
+  sp|A1C9G0|CUTI3_ASPCL 176 VKVYCAVGDMVCYNTLIITAAHLTYGIYAND-AANFLVSKL 215
+                            ****************************965.******996 PP
+
+>> sp|Q0CES4|CUTI2_ASPTN  Probable cutinase 2 OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN=ATEG_07
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  225.0   0.1   5.5e-69   2.7e-65       1     206 [.       1     215 [.       1     216 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 225.0 bits;  conditional E-value: 5.5e-69
+           Cutinase.aln   1 mkfallvlalaalasaapvseeleaRq.............gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqg 75 
+                            m++ ll+lala+la+a p+ +     q               ++ C+ v++ifaR++te+g lG s+Gp+l+++l+sal  ++v++qg
+  sp|Q0CES4|CUTI2_ASPTN   1 MNYKLLTLALASLAAANPIER-----QrkihpavlsggdeLRNGDCQPVTFIFARASTEQGLLGGSTGPALCNRLKSAL--DGVACQG 81 
+                            8999**************955.....334778888888776689***********************************..6999*** PP
+
+           Cutinase.aln  76 vg..YaAdlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsip 159
+                            vg  Y+A+l++  l++gts ++i+e+++l++ aa+kcP++++vagGYSQG+a+++ ai  l+ a++dk+kgvvlfG+t+n+q++g+ip
+  sp|Q0CES4|CUTI2_ASPTN  82 VGpkYQATLAAnaLPKGTSDEAIEEAQSLFQLAAEKCPDTQIVAGGYSQGTAVMHGAIPGLDDALKDKIKGVVLFGDTRNQQDNGQIP 169
+                            *********9999*************************************************************************** PP
+
+           Cutinase.aln 160 sypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            ++p++++k++C++GD vC g+livaa+H+sY +d    aa+Fl+sk+
+  sp|Q0CES4|CUTI2_ASPTN 170 DFPKDKIKIYCAAGDMVCYGTLIVAAPHFSYIADVPD-AADFLVSKL 215
+                            **********************************965.*******98 PP
+
+>> sp|P29292|CUTI_DIDRA  Cutinase OS=Didymella rabiei OX=5454 GN=CUT PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  223.4   0.0   1.7e-68   8.4e-65       8     207 ..      11     222 ..       1     223 [] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 223.4 bits;  conditional E-value: 1.7e-68
+          Cutinase.aln   8 lalaalasaapvse.eleaRq...........gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaAdl 82 
+                             ++ ++ a+   +  le Rq           gss++C+++ilifaRg+te gn+G s+Gp++as+le+ ++ +++++qgvg  Y+Adl
+  sp|P29292|CUTI_DIDRA  11 GEASPIVLALR--RtTLEVRQldpiirseleqGSSSSCPKAILIFARGSTEIGNMGVSAGPAVASALEA-YGADQIWVQGVGgpYTADL 96 
+                           33333344443..1479999999999999999***********************************86.678**************** PP
+
+          Cutinase.aln  83 gd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvf 169
+                           ++  l+ gts+++i+e+vrl+++a++kcP++ +vagGYSQG+a++a ai +l+a vr +v g+vlfG+t+n+qn++ i +yp++  +v+
+  sp|P29292|CUTI_DIDRA  97 PSnfLPGGTSQSAINEAVRLFNEANTKCPSTPIVAGGYSQGTAVMAGAIPKLDA-VRARVVGTVLFGYTQNQQNNKGIKDYPQEDLQVY 184
+                           *999************************************************96.899******************************* PP
+
+          Cutinase.aln 170 CnvGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                           C+vGDlvC+g+li++  H+ Y ++a g a+eFl sk++
+  sp|P29292|CUTI_DIDRA 185 CEVGDLVCDGTLIITVSHFLYLEEAAGPAPEFLKSKIG 222
+                           ************************************96 PP
+
+>> sp|A1CSZ4|CUTI1_ASPCL  Probable cutinase 1 OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 816 / NCTC 38
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  220.3   0.0   1.5e-67   7.5e-64       2     206 ..       2     211 .]       1     211 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 220.3 bits;  conditional E-value: 1.5e-67
+           Cutinase.aln   2 kfallvlalaalasaapvseeleaRq.......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            kf  ++lalaa+a a+pv   l++Rq         +++C+ +++ifaR++tepg lG+s+Gp +++ l+ a    +v++qgvg  Y+A
+  sp|A1CSZ4|CUTI1_ASPCL   2 KF--ALLALAAVALASPV--TLDERQiaipeneLRTGPCEPITFIFARASTEPGLLGISTGPGVCNGLKLARP-FKVACQGVGpaYTA 84 
+                            44..45788999999998..79********998778***********************************97.889*********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dl++  l+qgt + +i+e++ l+k aa+kcP++++vagGYSQG+a+++ ai++l+ +v++ ++gvvlfG+t+nkq+ g+ip++p++rt
+  sp|A1CSZ4|CUTI1_ASPCL  85 DLASnfLPQGTTQVAIDEATDLFKLAASKCPDTQIVAGGYSQGTAVMHGAIRNLPDNVKNLIRGVVLFGDTRNKQDGGRIPNFPTDRT 172
+                            ***9************************************************************************************ PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            k++C+ GDlvCeg+l+++aaH++Y+ +  g a +Fl+sk+
+  sp|A1CSZ4|CUTI1_ASPCL 173 KIYCALGDLVCEGTLVITAAHFTYTVNVPG-AVAFLLSKL 211
+                            ****************************99.99***9996 PP
+
+>> sp|A5ABE6|CUTI2_ASPNC  Probable cutinase 2 OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513) OX=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  217.5   0.0   1.1e-66   5.4e-63       1     206 [.       1     212 [.       1     214 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 217.5 bits;  conditional E-value: 1.1e-66
+           Cutinase.aln   1 mkfallvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            mk+   +l la la+a+p+   l +Rq        +++C+ +i+ifaR++tepg lG+s+Gp++++ l+ a + ++v +qgvg  Y+A
+  sp|A5ABE6|CUTI2_ASPNC   1 MKLPYFLLGLAGLAAASPM--GLAERQlsdgneLRDGSCKPIIFIFARASTEPGLLGISTGPAVCNDLKMAKA-GQVLCQGVGpaYTA 85 
+                            7777788899999999997..6899999998876789********************************9996.899*********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dl +  l+  ts a+i e  +l+k aa+kcPn++++agGYSQG+a++  +i+ql+ +v+dk+kgvvlfG+t+n+q+ g+i ++p++++
+  sp|A5ABE6|CUTI2_ASPNC  86 DLMSnaLPDNTSPAAISESESLFKLAASKCPNSQILAGGYSQGTAVMDDSIKQLPDDVKDKIKGVVLFGYTRNAQEGGQIGNFPKDKV 173
+                            **999*********************************************************************************** PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            k++C++GDlvC+g+liv+aaH++Y  ++ gea+++l sk+
+  sp|A5ABE6|CUTI2_ASPNC 174 KIYCAMGDLVCDGTLIVTAAHFTYVMNT-GEASQWLESKL 212
+                            ***************************9.77999999887 PP
+
+>> sp|B6HLS9|CUTI1_PENRW  Probable cutinase 1 OS=Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsi
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  199.2   0.2   4.4e-61   2.2e-57       1     206 [.       1     207 [.       1     208 [] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 199.2 bits;  conditional E-value: 4.4e-61
+           Cutinase.aln   1 mkfallvlalaalasaapvseeleaRq......gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvg..YaA 80 
+                            mkf+ll+lala+ a a+p+  +++aR         ++ C+d+++ifaR++tepg l     +  ++++++    ++v++qgvg  Y+A
+  sp|B6HLS9|CUTI1_PENRW   1 MKFSLLALALATAAFASPM--DIDARAlsegneLRNGDCKDITFIFARASTEPGLLI---LTHPNDRMSK---PGKVACQGVGpkYTA 80 
+                            9*****************7..88999888877766899***************9554...2333444433...36899********** PP
+
+           Cutinase.aln  81 dlgd..lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrt 166
+                            dl++  l+  ts a+iae+++l+++aa+kcP+++++agGYSQG+a++  +i++ls++v+ k+kgv+lfG+t+n+q+rg+i ++ +++t
+  sp|B6HLS9|CUTI1_PENRW  81 DLPSnaLPGNTSPAAIAEAQGLFEQAAKKCPDTQILAGGYSQGTAVMDGSIKKLSSDVQAKIKGVALFGYTRNAQERGQIQGFDKDKT 168
+                            ***999********************************************************************************** PP
+
+           Cutinase.aln 167 kvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            k++C+vGD vC+g+l+++aaH++Y +da + a+++l+sk+
+  sp|B6HLS9|CUTI1_PENRW 169 KIYCAVGDMVCQGTLVITAAHFTYVADAGA-ATRWLVSKL 207
+                            ****************************65.*****9998 PP
+
+>> sp|G4MZV6|CUTI2_PYRO7  Cutinase CUT2 OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) OX=242507 GN=CU
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  188.3   5.5   9.5e-58   4.6e-54       3     206 ..       5     214 .]       1     214 [] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 188.3 bits;  conditional E-value: 9.5e-58
+           Cutinase.aln   3 fallvlalaalasaapvseeleaRq........gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdl 82 
+                            ++++++ laa+asa+pv   le+Rq         +s++C+dv+l +aRgtt+ gn+G+  Gp+l ++l+++l+   v++qgv Y+A l
+  sp|G4MZV6|CUTI2_PYRO7   5 LSIATAILAATASAMPV---LETRQtvgttaneFTSGGCKDVVLLYARGTTQAGNMGQEPGPELGNALKARLGAARVAVQGVAYSASL 89 
+                            67788899999999997...9*********998889***************************************************9 PP
+
+           Cutinase.aln  83 gd.lsqgtsaagiaeiv.rllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkv 168
+                               l+ g + a+ a    +l+ ++a++cPna++v+ GYSQGaalv+ a+e  +aavr ++++ v fG+t+++q+ g+ip+  as+t +
+  sp|G4MZV6|CUTI2_PYRO7  90 LGnLNPGGAPANEATSFrTLIGQVASQCPNARIVVSGYSQGAALVHRAVEGATAAVRARIAAGVTFGDTQKQQDGGRIPGLDASKTLI 177
+                            877999999998876651578999**************************************************************** PP
+
+           Cutinase.aln 169 fCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            +Cn+GD vCeg+li++aaH  Yg+ a gea +F++++v
+  sp|G4MZV6|CUTI2_PYRO7 178 ICNTGDRVCEGTLIITAAHSGYGARA-GEAVDFIAARV 214
+                            ***********************999.78****99876 PP
+
+>> sp|Q8TGB8|CUTI_MONFR  Cutinase OS=Monilinia fructicola OX=38448 GN=CUT1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  185.7   1.3   5.7e-57   2.8e-53       7     203 ..      11     196 ..       1     200 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 185.7 bits;  conditional E-value: 5.7e-57
+          Cutinase.aln   7 vlalaalasaapvseeleaRqgssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagia 95 
+                           +l+l   a aap++e +eaR     aCs v++ifaRgtte+++lG+ +Gp++ ++l+s ++ +sv++ gv YaAd++ + +g +  g++
+  sp|Q8TGB8|CUTI_MONFR  11 LLLLPLSAIAAPTGE-IEAR-----ACSTVTVIFARGTTETPTLGTVIGPQFLAALKSSFG-GSVTMNGVPYAADVPGFLKGGDPTGSK 92 
+                           45566678999*987.****.....8**********************************7.999************************ PP
+
+          Cutinase.aln  96 eivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvfCnvGDlvCeggliva 184
+                            + + ++sa+++cPn+klv+ GYSQG++lv++a +ql+aa+  k++++v+fG+++n +    + ++pa +tk++C++GD++C++g ++ 
+  sp|Q8TGB8|CUTI_MONFR  93 VMANMVSSALSSCPNTKLVISGYSQGGQLVHNAAKQLPAATTAKIAAAVIFGDPDNGS---PVQGVPAAKTKIICHAGDNICQHGSMIL 178
+                           *******************************************************999...7888899********************* PP
+
+          Cutinase.aln 185 aaHlsYgsdargeaaeFli 203
+                           ++Hl+Yg da++ aa+F+ 
+  sp|Q8TGB8|CUTI_MONFR 179 MPHLTYGMDATA-AAAFVK 196
+                           **********77.888864 PP
+
+>> sp|Q00298|CUTI_BOTFU  Cutinase OS=Botryotinia fuckeliana OX=40559 GN=cutA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  185.4   0.7   7.4e-57   3.6e-53       7     204 ..      11     198 ..       1     201 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 185.4 bits;  conditional E-value: 7.4e-57
+          Cutinase.aln   7 vlalaalasaapvseeleaRqgssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagia 95 
+                           +l+l   + aap+++ +eaR     aCsdv++ifaRgtte+g+lG+ vGp++ ++l+sal+++sv++ gv Y+Ad++ + qg + ag++
+  sp|Q00298|CUTI_BOTFU  11 ALLLPLSVLAAPTGS-IEAR-----ACSDVTVIFARGTTETGTLGTVVGPPFLAALKSALGSSSVTMNGVDYPADVPGFLQGGDPAGSQ 93 
+                           4555667899**988.****.....8*************************************************************** PP
+
+          Cutinase.aln  96 eivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvfCnvGDlvCeggliva 184
+                            + + ++s++++cP++klv+ GYSQG++lv++a + l+a++  k++++v+fG+++n      + ++ a+rt ++C++GD++C+gg ++ 
+  sp|Q00298|CUTI_BOTFU  94 TMATMVTSTLSSCPDTKLVISGYSQGGQLVHNAAKLLPAETTAKISSAVIFGDPDNGD---PVQGVSADRTDIICHAGDNICQGGSLIL 179
+                           ******************************************************9987...7888899********************* PP
+
+          Cutinase.aln 185 aaHlsYgsdargeaaeFlis 204
+                            aHl+Yg d+++ aa+F+ +
+  sp|Q00298|CUTI_BOTFU 180 LAHLTYGMDTTA-AAAFVKK 198
+                           **********76.8899865 PP
+
+>> sp|A0A024SC78|CUTI1_HYPJR  Cutinase OS=Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  168.3   0.0   1.3e-51   6.2e-48       3     203 ..       4     244 ..       1     248 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 168.3 bits;  conditional E-value: 1.3e-51
+               Cutinase.aln   3 fallvlalaalasaapvse..eleaRq...........................................gssaaCsdvilifa 41 
+                                +a+l+++la  a a p +   ++++R                                             ++ +C dv++ fa
+  sp|A0A024SC78|CUTI1_HYPJR   4 LAILTTLLAGHAFAYPKPApqSVNRRDwpsineflselakvmpigdtitaacdlisdgedaaaslfgiseTENDPCGDVTVLFA 87 
+                                55666667766666655444467777777777777777777777777777778888888888888888877789********** PP
+
+               Cutinase.aln  42 RgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalv 125
+                                Rgt +pgn+G  vGp + ++l++al++r++ ++gv Y+A ++d+  g+ ++gi ++ +++ks++++cPn+klv+gGYSQG+ +v
+  sp|A0A024SC78|CUTI1_HYPJR  88 RGTCDPGNVGVLVGPWFFDSLQTALGSRTLGVKGVPYPASVQDFLSGSVQNGI-NMANQIKSVLQSCPNTKLVLGGYSQGSMVV 170
+                                ********************************************998887777.79**************************** PP
+
+               Cutinase.aln 126 aaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFli 203
+                                ++a ++l+aa+  k+++vvlfG++   +    ++++ a +t v+C+ GD++C+gg i+  +Hl+Y +da++ aa+F++
+  sp|A0A024SC78|CUTI1_HYPJR 171 HNAASNLDAATMSKISAVVLFGDPYYGK---PVANFDAAKTLVVCHDGDNICQGGDIILLPHLTYAEDADT-AAAFVV 244
+                                ************************9877...8*************************************99.889987 PP
+
+>> sp|G0RH85|CUTI1_HYPJQ  Cutinase OS=Hypocrea jecorina (strain QM6a) OX=431241 GN=TRIREDRAFT_60489 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  168.3   0.0   1.3e-51   6.2e-48       3     203 ..       4     244 ..       1     248 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 168.3 bits;  conditional E-value: 1.3e-51
+           Cutinase.aln   3 fallvlalaalasaapvse..eleaRq...........................................gssaaCsdvilifaRgtt 45 
+                            +a+l+++la  a a p +   ++++R                                             ++ +C dv++ faRgt 
+  sp|G0RH85|CUTI1_HYPJQ   4 LAILTTLLAGHAFAYPKPApqSVNRRDwpsineflselakvmpigdtitaacdlisdgedaaaslfgiseTENDPCGDVTVLFARGTC 91 
+                            55666667766666655444467777777777777777777777777777778888888888888888877789************** PP
+
+           Cutinase.aln  46 epgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqls 133
+                            +pgn+G  vGp + ++l++al++r++ ++gv Y+A ++d+  g+ ++gi ++ +++ks++++cPn+klv+gGYSQG+ +v++a ++l+
+  sp|G0RH85|CUTI1_HYPJQ  92 DPGNVGVLVGPWFFDSLQTALGSRTLGVKGVPYPASVQDFLSGSVQNGI-NMANQIKSVLQSCPNTKLVLGGYSQGSMVVHNAASNLD 178
+                            ****************************************998887777.79************************************ PP
+
+           Cutinase.aln 134 aavrdkvkgvvlfGntknkqnrgsipsypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFli 203
+                            aa+  k+++vvlfG++   +    ++++ a +t v+C+ GD++C+gg i+  +Hl+Y +da++ aa+F++
+  sp|G0RH85|CUTI1_HYPJQ 179 AATMSKISAVVLFGDPYYGK---PVANFDAAKTLVVCHDGDNICQGGDIILLPHLTYAEDADT-AAAFVV 244
+                            ****************9877...8*************************************99.889987 PP
+
+>> sp|A8QPD8|CUTI1_TRIHA  Cutinase cut1 OS=Trichoderma harzianum OX=5544 GN=cut1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  165.4   0.0   9.6e-51   4.7e-47      27     202 ..      63     243 ..       1     247 [. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 165.4 bits;  conditional E-value: 9.6e-51
+           Cutinase.aln  27 q..........gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksa 104
+                                        ++ aC dv++ faRgt +pgn+G  vGp + ++le+al +++v ++gv Y+A ++ +  g+ ++gi ++ +++ks+
+  sp|A8QPD8|CUTI1_TRIHA  63 DvaadlfdisnTENDACGDVTVLFARGTCDPGNVGVLVGPWFFNSLETALPNKKVGVKGVPYPASVQGFLSGSVQPGI-DMANQIKSV 149
+                            0334444444456789*******************************************************9999998.89******* PP
+
+           Cutinase.aln 105 aakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvfCnvGDlvCegglivaaaHlsYgs 192
+                             ++cPn+klv+gGYSQG+ +v++a ++l+aa+  kv++vvlfG++ +      +++y as++ v+C+ GD++C+gg ++  +Hl+Y +
+  sp|A8QPD8|CUTI1_TRIHA 150 ISSCPNTKLVLGGYSQGSMVVHNAASNLDAATMAKVSAVVLFGDPYDGR---PVANYDASKVLVVCHDGDNICQGGDFILLPHLTYAE 234
+                            *********************************************9876...8*********************************** PP
+
+           Cutinase.aln 193 dargeaaeFl 202
+                            da++ aa+F+
+  sp|A8QPD8|CUTI1_TRIHA 235 DADT-AAAFV 243
+                            **99.77776 PP
+
+>> sp|B9U443|CUTI1_COPCI  Cutinase CUT1 OS=Coprinopsis cinerea OX=5346 GN=CUT1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  160.1   0.1   4.1e-49     2e-45       1     205 [.       1     198 [.       1     199 [] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 160.1 bits;  conditional E-value: 4.1e-49
+           Cutinase.aln   1 mkfallvlalaal..asaapvseeleaRqgssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdls 86 
+                            mkf++l++++     a aapv+ ele+Rq     C+dv + faRgt+e g+lG+ vGp l+++++ a+  +sv + g+ Y+A ++ + 
+  sp|B9U443|CUTI1_COPCI   1 MKFTTLATLALGAvsALAAPVT-ELESRQ---LFCRDVYVFFARGTGEVGTLGTVVGPGLSAAVKLAVR-DSVEFEGIDYPALVSGYL 83 
+                            8888777766555015556654.6****8...89**********************************5.99***********99999 PP
+
+           Cutinase.aln  87 qgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvfCnvGD 174
+                             g +  g + + ++++++a++cPnak+ + GYSQGa++++ a +qlsaa + +v gvv fG++ ++    + p+  +sr k +CnvGD
+  sp|B9U443|CUTI1_COPCI  84 AGGDRGGARTMANKVSQTASRCPNAKIFISGYSQGAQVTHLAARQLSAADQARVTGVVTFGDPYRDD---ALPGGLQSRRKTYCNVGD 168
+                            9***************************************************************998...78**************** PP
+
+           Cutinase.aln 175 lvCegglivaaaHlsYgsdargeaaeFlisk 205
+                            l+C g     a+H++Ygsd+   aa++++++
+  sp|B9U443|CUTI1_COPCI 169 LICAGLPTLLAPHFTYGSDTPD-AARWIAAR 198
+                            *******************976.77766655 PP
+
+>> sp|Q9Y7G8|CUTI_PYRBR  Cutinase pbc1 OS=Pyrenopeziza brassicae OX=76659 GN=pbc1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  159.4   1.4   6.4e-49   3.2e-45       1     206 [.       1     201 [.       1     203 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 159.4 bits;  conditional E-value: 6.4e-49
+          Cutinase.aln   1 mkfallvlalaalasaapvseeleaRqgssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgt 89 
+                           mk ++l  +l+   +a++++  +++  +ss +C++++++faRgt+epgn+G   Gpt+ ++le  ++ + vs+qgv Y A +  + qg 
+  sp|Q9Y7G8|CUTI_PYRBR   1 MKVTALGNTLTGFGQALATTLGVDTT-SSSPNCAEMMVVFARGTSEPGNVGLFSGPTFFDALEVMMGAGAVSVQGVEYGASIEGFLQGG 88 
+                           66667777788888898888888888.7999**************************************************999***** PP
+
+          Cutinase.aln  90 saagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvfCnvGDlvCe 178
+                           + ag+a + + ++ ++++cPnak+v+ GYSQG++lv++a + l+aa+  k+++ v+fG++++ +    i++   s+++v+C+ G ++C+
+  sp|Q9Y7G8|CUTI_PYRBR  89 DPAGSAAMAGIVEGTVQNCPNAKIVMSGYSQGGQLVHNAAAMLPAATMAKISSLVIFGDPNDGK---PIANADPSKVMVVCHPGHNICD 174
+                           ************************************************************9877...8********************* PP
+
+          Cutinase.aln 179 gglivaaaHlsYgsdargeaaeFliskv 206
+                           g  +v  +Hl+Y++da +eaa F++++ 
+  sp|Q9Y7G8|CUTI_PYRBR 175 GRDLVLVEHLTYSRDA-VEAATFAAARA 201
+                           ****************.88*****9876 PP
+
+>> sp|P63880|CULP1_MYCBO  Carboxylesterase Culp1 OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=B
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.5   1.5   8.7e-47   4.3e-43      10     206 ..      13     213 ..       4     215 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 152.5 bits;  conditional E-value: 8.7e-47
+           Cutinase.aln  10 laalasaapvseeleaRqgssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaei 97 
+                            ++a++ a+  s     R + + +Csd+ ++faRgt + + lG  vG++++++l+s++++rs+ +++v+Y+A   d  ++++++g++++
+  sp|P63880|CULP1_MYCBO  13 VVATTLALV-SAPAGGRAAHADPCSDIAVVFARGTHQASGLG-DVGEAFVDSLTSQVGGRSIGVYAVNYPAS--DDYRASASNGSDDA 96 
+                            333333332.22235588999*********************.9****************************..66677********* PP
+
+           Cutinase.aln  98 vrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr........gsipsypasrtkvfCnvGDlvC 177
+                             ++++ ++a+cPn+++v+gGYSQGa+++  + + ++ av+d+v++v+lfG++++             +i   ++s+t  +C+  D++C
+  sp|P63880|CULP1_MYCBO  97 SAHIQRTVASCPNTRIVLGGYSQGATVIDLSTSAMPPAVADHVAAVALFGEPSSGFSSmlwgggslPTIGPLYSSKTINLCAPDDPIC 184
+                            *****************************************************9988889999777788889**************** PP
+
+           Cutinase.aln 178 egglivaaaHlsYgsdarg.eaaeFliskv 206
+                            +gg    +aH+sY +   + +aa F+++++
+  sp|P63880|CULP1_MYCBO 185 TGGGN-IMAHVSYVQSGMTsQAATFAANRL 213
+                            98865.578*****999999*******998 PP
+
+>> sp|P9WP42|CULP1_MYCTO  Carboxylesterase Culp1 OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=M
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.5   1.5   8.7e-47   4.3e-43      10     206 ..      13     213 ..       4     215 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 152.5 bits;  conditional E-value: 8.7e-47
+           Cutinase.aln  10 laalasaapvseeleaRqgssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaei 97 
+                            ++a++ a+  s     R + + +Csd+ ++faRgt + + lG  vG++++++l+s++++rs+ +++v+Y+A   d  ++++++g++++
+  sp|P9WP42|CULP1_MYCTO  13 VVATTLALV-SAPAGGRAAHADPCSDIAVVFARGTHQASGLG-DVGEAFVDSLTSQVGGRSIGVYAVNYPAS--DDYRASASNGSDDA 96 
+                            333333332.22235588999*********************.9****************************..66677********* PP
+
+           Cutinase.aln  98 vrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr........gsipsypasrtkvfCnvGDlvC 177
+                             ++++ ++a+cPn+++v+gGYSQGa+++  + + ++ av+d+v++v+lfG++++             +i   ++s+t  +C+  D++C
+  sp|P9WP42|CULP1_MYCTO  97 SAHIQRTVASCPNTRIVLGGYSQGATVIDLSTSAMPPAVADHVAAVALFGEPSSGFSSmlwgggslPTIGPLYSSKTINLCAPDDPIC 184
+                            *****************************************************9988889999777788889**************** PP
+
+           Cutinase.aln 178 egglivaaaHlsYgsdarg.eaaeFliskv 206
+                            +gg    +aH+sY +   + +aa F+++++
+  sp|P9WP42|CULP1_MYCTO 185 TGGGN-IMAHVSYVQSGMTsQAATFAANRL 213
+                            98865.578*****999999*******998 PP
+
+>> sp|P9WP43|CULP1_MYCTU  Carboxylesterase Culp1 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.5   1.5   8.7e-47   4.3e-43      10     206 ..      13     213 ..       4     215 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 152.5 bits;  conditional E-value: 8.7e-47
+           Cutinase.aln  10 laalasaapvseeleaRqgssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaei 97 
+                            ++a++ a+  s     R + + +Csd+ ++faRgt + + lG  vG++++++l+s++++rs+ +++v+Y+A   d  ++++++g++++
+  sp|P9WP43|CULP1_MYCTU  13 VVATTLALV-SAPAGGRAAHADPCSDIAVVFARGTHQASGLG-DVGEAFVDSLTSQVGGRSIGVYAVNYPAS--DDYRASASNGSDDA 96 
+                            333333332.22235588999*********************.9****************************..66677********* PP
+
+           Cutinase.aln  98 vrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr........gsipsypasrtkvfCnvGDlvC 177
+                             ++++ ++a+cPn+++v+gGYSQGa+++  + + ++ av+d+v++v+lfG++++             +i   ++s+t  +C+  D++C
+  sp|P9WP43|CULP1_MYCTU  97 SAHIQRTVASCPNTRIVLGGYSQGATVIDLSTSAMPPAVADHVAAVALFGEPSSGFSSmlwgggslPTIGPLYSSKTINLCAPDDPIC 184
+                            *****************************************************9988889999777788889**************** PP
+
+           Cutinase.aln 178 egglivaaaHlsYgsdarg.eaaeFliskv 206
+                            +gg    +aH+sY +   + +aa F+++++
+  sp|P9WP43|CULP1_MYCTU 185 TGGGN-IMAHVSYVQSGMTsQAATFAANRL 213
+                            98865.578*****999999*******998 PP
+
+>> sp|Q8X1P1|CUTI_BLUHO  Cutinase OS=Blumeria hordei OX=2867405 GN=CUT1 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  148.7   0.3   1.2e-45     6e-42      12     206 ..      16     236 .]       4     236 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 148.7 bits;  conditional E-value: 1.2e-45
+          Cutinase.aln  12 alasaapvse....eleaRq............................gssaaCsdvilifaRgttepgnlGk..svGptlasklesal 66 
+                            +++aapv++    +    q                            g +++C+ +ilifa+gt+e+gn+G+  s Gp+  s+l++a+
+  sp|Q8X1P1|CUTI_BLUHO  16 CIVTAAPVTNvnftS---IQvssmqhiaainkasffsptalpanatenGLTGSCKPIILIFAKGTGENGNVGDgsSPGPAWFSELRNAI 101
+                           555566665553331...223333356666666666666666666666899********************987799************ PP
+
+          Cutinase.aln  67 skrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr 155
+                           +++++++qgv Y+Ad+  +  g + +g+++ ++  ++a+++cPn+k+v+gGYSQGa+++++a +  s  v  ++++vvlfG++  ++  
+  sp|Q8X1P1|CUTI_BLUHO 102 GEDKIAVQGVQYEADVFGYLVGGDPEGSQNYLTITNQAVTQCPNSKIVIGGYSQGAQITHNAAQLYSPLVTSRIAAVVLFGDPYTDKPV 190
+                           ******************999*******************************************99*******************9977 PP
+
+          Cutinase.aln 156 gsipsypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                           g+++    s +  +C+ GD +C+g+ +   +Hl+Y+++a+  aa+F+++++
+  sp|Q8X1P1|CUTI_BLUHO 191 GQVS---PSSVLEICHDGDIICTGSGGP-DPHLTYSKNATC-AAKFVLDRI 236
+                           7765...6889************99875.79********77.*****9886 PP
+
+>> sp|C8VJF5|CUTI4_EMENI  Cutinase 4 OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  143.3   1.2   5.6e-44   2.8e-40      27     205 ..      35     220 ..      15     222 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 143.3 bits;  conditional E-value: 5.6e-44
+           Cutinase.aln  27 q...................gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagia 95 
+                            q                     +++C+++++ifaRgtte gn+G+ vGp++ ++l+s  +++  +iqgv Y+Ad ++ + +   +g  
+  sp|C8VJF5|CUTI4_EMENI  35 QvtptaplprlrgsstsndvTDNSGCKELTFIFARGTTEIGNMGTVVGPKVGEALKSLTGNKA-AIQGVDYPAD-AAGNAALGGSGGP 120
+                            3333333344444445555556799********************************998666.**********.4455557788999 PP
+
+           Cutinase.aln  96 eivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnrgsipsypasrtkvfCnvGDlvCeggliv 183
+                             + +l+++a+++cP++k+v+gGYSQGa +v++a ++ls+    +v g+v fG++ + q+ ++i     ++ k fC+ GD+vC +g  v
+  sp|C8VJF5|CUTI4_EMENI 121 KMASLVETALKQCPDTKIVLGGYSQGAMVVHNAASKLSSG---QVVGAVTFGDPFKSQKPDNI-----DQFKTFCASGDPVCLNGANV 200
+                            9************************************985...899************77666.....78899**********99765 PP
+
+           Cutinase.aln 184 aaaHlsYgsdargeaaeFlisk 205
+                             +aHlsYg+da++ aa+Fl+s+
+  sp|C8VJF5|CUTI4_EMENI 201 -MAHLSYGNDAQT-AAQFLVSA 220
+                            .68********98.9****986 PP
+
+>> sp|A6WFI5|CUTI_KINRD  Cutinase OS=Kineococcus radiotolerans (strain ATCC BAA-149 / DSM 14245 / SRS30216) OX=266940 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  139.5   5.9   8.1e-43     4e-39      12     207 ..      13     219 ..       6     220 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 139.5 bits;  conditional E-value: 8.1e-43
+          Cutinase.aln  12 alasaapvseeleaRq..gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaeiv 98 
+                           a a+ a+++ +l a    +++a+Csdv+++faRgt+e++ lG  vG +++++l+ +ls+r+v+  +v YaA     sq+++ +g   + 
+  sp|A6WFI5|CUTI_KINRD  13 AAAVVAATGAALLAGSspAAAATCSDVDVVFARGTGETPGLG-VVGGPFVRSLTGELSDRTVTSHAVDYAAS---SSQASAGPGATAMS 97 
+                           223333334444444445889*********************.*****************************...99************ PP
+
+          Cutinase.aln  99 rllksaaakcPnaklvagGYSQGaalvaaai.........eqlsaavrdkvkgvvlfGntknkqnr..gsipsypasrtkvfCnvGDlv 176
+                           ++++++aa+cP++++v+gGYSQGa+++  a+         + ++a+++ +v++vv+fGn+  +++r   + +s++  + k++Cn  D v
+  sp|A6WFI5|CUTI_KINRD  98 AHVREVAAACPSTRFVLGGYSQGATVTDIALgirtgtttgTPVPAELAGRVAAVVVFGNPLGLSGRtiATASSTYGPKSKDYCNSSDSV 186
+                           **************************************9999************************777899***************** PP
+
+          Cutinase.aln 177 Ce.gglivaaaHlsYgsdarg.eaaeFliskvr 207
+                           C       +  HlsY s+ ++ ++a+F++  vr
+  sp|A6WFI5|CUTI_KINRD 187 CGsAPKTGTGGHLSYASNGSTtDGARFAAGLVR 219
+                           *955677899*********999*****987665 PP
+
+>> sp|O06319|CULP4_MYCTU  Phospholipase Culp4 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=cut4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  130.4   0.1     5e-40   2.4e-36      12     206 ..      25     226 .]      16     226 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 130.4 bits;  conditional E-value: 5e-40
+           Cutinase.aln  12 alasaapvse...eleaRqgssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiae 96 
+                            a a aa++     +l     +sa+C+d+ ++faRgt+ep+ lG  vG++++s+l+++ + +s+ ++gv+Y+A+ gd+    +a g ++
+  sp|O06319|CULP4_MYCTU  25 AAAFAAATLLltpALAPP--ASAGCPDAEVVFARGTGEPPGLG-RVGQAFVSSLRQQTN-KSIGTYGVNYPAN-GDFLA--AADGAND 105
+                            333333322222234443..79*********************.*************95.999**********.99988..788999* PP
+
+           Cutinase.aln  97 ivrllksaaakcPnaklvagGYSQGaalvaaai..........eqlsaavrdkvkgvvlfGntknkqnr..gsipsypasrtkvfCnv 172
+                            +  ++++ a++c  ++lv+gGYSQGaa++              + l+ a+ d++++++lfGn++ + +    + + ++ s+t  +Cn 
+  sp|O06319|CULP4_MYCTU 106 ASDHIQQMASACRATRLVLGGYSQGAAVIDIVTaaplpglgftQPLPPAADDHIAAIALFGNPSGRAGGlmSALTPQFGSKTINLCNN 193
+                            ***************************9865545689*****999*******************99986668899999********** PP
+
+           Cutinase.aln 173 GDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                            GD++C+ g     aHl Y    +++aa+F++s++
+  sp|O06319|CULP4_MYCTU 194 GDPICSDGNR-WRAHLGYVPGMTNQAARFVASRI 226
+                            ******9876.578****************9986 PP
+
+>> sp|P9WP38|CULP3_MYCTO  Probable carboxylesterase Culp3 OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.5   0.1   2.6e-37   1.3e-33      30     208 .]      41     228 ..      17     228 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 121.5 bits;  conditional E-value: 2.6e-37
+           Cutinase.aln  30 saaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnaklvagG 117
+                            + +C+d+ + faRgt+ep+ +G  vG++++++l+++ +  ++ ++ v+YaA      q +   g +++++++ks a++cPn+klv+gG
+  sp|P9WP38|CULP3_MYCTO  41 ADGCPDAEVTFARGTGEPPGIG-RVGQAFVDSLRQQTG-MEIGVYPVNYAAS---RLQLHGGDGANDAISHIKSMASSCPNTKLVLGG 123
+                            679*******************.**************7.889**********...4444778999*********************** PP
+
+           Cutinase.aln 118 YSQGaalvaaai..........eqlsaavrdkvkgvvlfGntknkqnr..gsipsypasrtkvfCnvGDlvCeggliva.aaHls.Yg 191
+                            YSQGa+++              + l+aa +d+v++v++fGn++n+ +    s +  + s+  ++Cn  D++C+ g ++  + H++ Y 
+  sp|P9WP38|CULP3_MYCTO 124 YSQGATVIDIVAgvplgsisfgSPLPAAYADNVAAVAVFGNPSNRAGGslSSLSPLFGSKAIDLCNPTDPICHVGPGNEfSGHIDdYI 211
+                            *******976666799****************************998645889999*****************887776156995498 PP
+
+           Cutinase.aln 192 sdargeaaeFliskvra 208
+                               +++aa+F+++++ra
+  sp|P9WP38|CULP3_MYCTO 212 PTYTTQAASFVVQRLRA 228
+                            99999********9975 PP
+
+>> sp|P0A537|CULP3_MYCBO  Probable carboxylesterase Culp3 OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) OX=23
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.5   0.1   2.7e-37   1.3e-33      28     208 .]      39     228 ..      18     228 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 121.5 bits;  conditional E-value: 2.7e-37
+           Cutinase.aln  28 gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnaklva 115
+                            + + +C+d+ + faRgt+ep+ +G  vG++++++l+++ +  ++ ++ v+YaA      q +   g +++++++ks a++cPn+klv+
+  sp|P0A537|CULP3_MYCBO  39 AFADGCPDAEVTFARGTGEPPGIG-RVGQAFVDSLRQQTG-MEIGVYPVNYAAS---RLQLHGGDGANDAISHIKSMASSCPNTKLVL 121
+                            44689*******************.**************7.889**********...4444778999********************* PP
+
+           Cutinase.aln 116 gGYSQGaalvaaai..........eqlsaavrdkvkgvvlfGntknkqnr..gsipsypasrtkvfCnvGDlvCeggliva.aaHls. 189
+                            gGYSQGa+++              + l+aa +d+v++v++fGn++n+ +    s +  + s+  ++Cn  D++C+ g ++  + H++ 
+  sp|P0A537|CULP3_MYCBO 122 GGYSQGATVIDIVAgvplgsisfgSPLPAAYADNVAAVAVFGNPSNRAGGslSSLSPLFGSKAIDLCNPTDPICHVGPGNEfSGHIDg 209
+                            *********976666799****************************998645889999*****************8877761579965 PP
+
+           Cutinase.aln 190 YgsdargeaaeFliskvra 208
+                            Y    +++aa+F+++++ra
+  sp|P0A537|CULP3_MYCBO 210 YIPTYTTQAASFVVQRLRA 228
+                            8888888********9975 PP
+
+>> sp|P9WP39|CULP3_MYCTU  Probable carboxylesterase Culp3 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.5   0.1   2.7e-37   1.3e-33      28     208 .]      39     228 ..      18     228 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 121.5 bits;  conditional E-value: 2.7e-37
+           Cutinase.aln  28 gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnaklva 115
+                            + + +C+d+ + faRgt+ep+ +G  vG++++++l+++ +  ++ ++ v+YaA      q +   g +++++++ks a++cPn+klv+
+  sp|P9WP39|CULP3_MYCTU  39 AFADGCPDAEVTFARGTGEPPGIG-RVGQAFVDSLRQQTG-MEIGVYPVNYAAS---RLQLHGGDGANDAISHIKSMASSCPNTKLVL 121
+                            44689*******************.**************7.889**********...4444778999********************* PP
+
+           Cutinase.aln 116 gGYSQGaalvaaai..........eqlsaavrdkvkgvvlfGntknkqnr..gsipsypasrtkvfCnvGDlvCeggliva.aaHls. 189
+                            gGYSQGa+++              + l+aa +d+v++v++fGn++n+ +    s +  + s+  ++Cn  D++C+ g ++  + H++ 
+  sp|P9WP39|CULP3_MYCTU 122 GGYSQGATVIDIVAgvplgsisfgSPLPAAYADNVAAVAVFGNPSNRAGGslSSLSPLFGSKAIDLCNPTDPICHVGPGNEfSGHIDg 209
+                            *********976666799****************************998645889999*****************8877761579965 PP
+
+           Cutinase.aln 190 YgsdargeaaeFliskvra 208
+                            Y    +++aa+F+++++ra
+  sp|P9WP39|CULP3_MYCTU 210 YIPTYTTQAASFVVQRLRA 228
+                            8888888********9975 PP
+
+>> sp|P63882|CULP2_MYCBO  Probable carboxylesterase Culp2 OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) OX=23
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.6   0.0   2.8e-34   1.4e-30      28     206 ..      40     229 ..       8     230 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 111.6 bits;  conditional E-value: 2.8e-34
+           Cutinase.aln  28 gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnaklva 115
+                             ++aaC+d+ ++faRg  ep+ +G +vG++++s+l+s+++ ++v +++v Y+Ad    +  +   g +++ ++++s a++cPn++lv 
+  sp|P63882|CULP2_MYCBO  40 PATAACPDAEVVFARGRFEPPGIG-TVGNAFVSALRSKVN-KNVGVYAVKYPAD----N--QIDVGANDMSAHIQSMANSCPNTRLVP 119
+                            3579********************.**************6.899**********....3..467899********************* PP
+
+           Cutinase.aln 116 gGYSQGaalvaaai..........eqlsaavrdkvkgvvlfGntknkqnr.gsipsypasrtkvfCnvGDlvCe.....gglivaaaH 187
+                            gGYS Gaa++ + +          + l+    +++++v+lfGn ++  +   + +  +++rt  +C+  D+vC+     +   + ++H
+  sp|P63882|CULP2_MYCBO 120 GGYSLGAAVTDVVLavptqmwgftNPLPPGSDEHIAAVALFGNGSQWVGPiTNFSPAYNDRTIELCHGDDPVCHpadpnTWEANWPQH 207
+                            *********9998888*******999*****************999885434555679***************98877334466799* PP
+
+           Cutinase.aln 188 ls..Ygsdarg.eaaeFliskv 206
+                            l+  Y s   + +aa+F++ k+
+  sp|P63882|CULP2_MYCBO 208 LAgaYVSSGMVnQAADFVAGKL 229
+                            *644888887799*****9987 PP
+
+>> sp|P9WP40|CULP2_MYCTO  Probable carboxylesterase Culp2 OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.6   0.0   2.8e-34   1.4e-30      28     206 ..      40     229 ..       8     230 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 111.6 bits;  conditional E-value: 2.8e-34
+           Cutinase.aln  28 gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnaklva 115
+                             ++aaC+d+ ++faRg  ep+ +G +vG++++s+l+s+++ ++v +++v Y+Ad    +  +   g +++ ++++s a++cPn++lv 
+  sp|P9WP40|CULP2_MYCTO  40 PATAACPDAEVVFARGRFEPPGIG-TVGNAFVSALRSKVN-KNVGVYAVKYPAD----N--QIDVGANDMSAHIQSMANSCPNTRLVP 119
+                            3579********************.**************6.899**********....3..467899********************* PP
+
+           Cutinase.aln 116 gGYSQGaalvaaai..........eqlsaavrdkvkgvvlfGntknkqnr.gsipsypasrtkvfCnvGDlvCe.....gglivaaaH 187
+                            gGYS Gaa++ + +          + l+    +++++v+lfGn ++  +   + +  +++rt  +C+  D+vC+     +   + ++H
+  sp|P9WP40|CULP2_MYCTO 120 GGYSLGAAVTDVVLavptqmwgftNPLPPGSDEHIAAVALFGNGSQWVGPiTNFSPAYNDRTIELCHGDDPVCHpadpnTWEANWPQH 207
+                            *********9998888*******999*****************999885434555679***************98877334466799* PP
+
+           Cutinase.aln 188 ls..Ygsdarg.eaaeFliskv 206
+                            l+  Y s   + +aa+F++ k+
+  sp|P9WP40|CULP2_MYCTO 208 LAgaYVSSGMVnQAADFVAGKL 229
+                            *644888887799*****9987 PP
+
+>> sp|P9WP41|CULP2_MYCTU  Probable carboxylesterase Culp2 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.6   0.0   2.8e-34   1.4e-30      28     206 ..      40     229 ..       8     230 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 111.6 bits;  conditional E-value: 2.8e-34
+           Cutinase.aln  28 gssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnaklva 115
+                             ++aaC+d+ ++faRg  ep+ +G +vG++++s+l+s+++ ++v +++v Y+Ad    +  +   g +++ ++++s a++cPn++lv 
+  sp|P9WP41|CULP2_MYCTU  40 PATAACPDAEVVFARGRFEPPGIG-TVGNAFVSALRSKVN-KNVGVYAVKYPAD----N--QIDVGANDMSAHIQSMANSCPNTRLVP 119
+                            3579********************.**************6.899**********....3..467899********************* PP
+
+           Cutinase.aln 116 gGYSQGaalvaaai..........eqlsaavrdkvkgvvlfGntknkqnr.gsipsypasrtkvfCnvGDlvCe.....gglivaaaH 187
+                            gGYS Gaa++ + +          + l+    +++++v+lfGn ++  +   + +  +++rt  +C+  D+vC+     +   + ++H
+  sp|P9WP41|CULP2_MYCTU 120 GGYSLGAAVTDVVLavptqmwgftNPLPPGSDEHIAAVALFGNGSQWVGPiTNFSPAYNDRTIELCHGDDPVCHpadpnTWEANWPQH 207
+                            *********9998888*******999*****************999885434555679***************98877334466799* PP
+
+           Cutinase.aln 188 ls..Ygsdarg.eaaeFliskv 206
+                            l+  Y s   + +aa+F++ k+
+  sp|P9WP41|CULP2_MYCTU 208 LAgaYVSSGMVnQAADFVAGKL 229
+                            *644888887799*****9987 PP
+
+>> sp|O06793|CULP5_MYCTU  Probable carboxylesterase Culp5 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.6   0.0   3.7e-28   1.8e-24      58     206 ..       9     173 ..       4     174 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 91.6 bits;  conditional E-value: 3.7e-28
+           Cutinase.aln  58 lasklesalskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalv....aaai.........eql 132
+                            + ++l+s+++++s+ ++gv Y+A+ +d++   + agi ++ ++++++aa+cP++klv+gG+SQGaa++    aaai         + +
+  sp|O06793|CULP5_MYCTU   9 FIDALRSKIGEKSMGVYGVDYPAT-TDFPT--AMAGIYDAGTHVEQTAANCPQSKLVLGGFSQGAAVMgfvtAAAIpdgapldapRPM 93 
+                            6789********************.88998..99********************************8533225666***999999899 PP
+
+           Cutinase.aln 133 saavrdkvkgvvlfGntknkqnr......gsipsypasrtkvfCnvGDlvCegglivaaaHlsYgsdarg.eaaeFliskv 206
+                            + +v+d+v++v lfG ++ +  +        i   +a++t ++C+ GD+vC++g ++ aaH  Y +d  + +aa F++ ++
+  sp|O06793|CULP5_MYCTU  94 PPEVADHVAAVTLFGMPSVAFMHsigappIVIGPLYAEKTIQLCAPGDPVCSSG-GNWAAHNGYADDGMVeQAAVFAAGRL 173
+                            *****************998877787787788999****************876.67889*********999****98765 PP
+
+>> sp|Q79FA4|CULP7_MYCTU  Probable carboxylesterase Culp7 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.0   0.7   1.1e-23   5.5e-20      63     206 ..      21     187 .]      15     187 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 77.0 bits;  conditional E-value: 1.1e-23
+           Cutinase.aln  63 esalskrsvsiqgvgYaAdlgd.....lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaal...vaaai...........eq 131
+                             s+++ +s+ +++v+Y+A   d     +++ t   gi+++ ++++s a +cP+++ v+gGYSQGaa+   v++a+           + 
+  sp|Q79FA4|CULP7_MYCTU  21 VSQVGAKSLGVYAVNYPAS-NDfassdFPK-TVIDGIRDAGSHIQSMAMSCPQTRQVLGGYSQGAAVagyVTSAVvppavpvqavpAP 106
+                            589999************7.4444477999.999********************************9333355559******998888 PP
+
+           Cutinase.aln 132 lsaavrdkvkgvvlfGntknkqnr......gsipsypasrtkvfCnvGDlvCegglivaaaHlsYgsdarg.eaaeFliskv 206
+                            +  +v+++v++v lfG ++ +          +i   ++ +t ++C+ GD +C  g     aH  Y  +  + ++a+F++s++
+  sp|Q79FA4|CULP7_MYCTU 107 MAPEVANHVAAVTLFGAPSAQFLGqygappIAIGPLYQPKTLQLCADGDSICGDGNS-PVAHGLYAVNGMVgQGANFAASRL 187
+                            8999**************987633577777789999****************98765.568999*9999988******9975 PP
+
+>> sp|O59893|AXE2_TALPU  Acetylxylan esterase 2 OS=Talaromyces purpureogenus OX=1266744 GN=axe-2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.9   5.2   1.2e-23   5.9e-20       7     206 ..       8     233 ..       1     234 [] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 76.9 bits;  conditional E-value: 1.2e-23
+          Cutinase.aln   7 vlalaalasaapvseeleaRqgssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgd......lsqgt 89 
+                           + +l   a+a p+   +e+R     +C+ + +  aR tt ++  G     t+++ + sa+ +++    +++Y+A  g+         ++
+  sp|O59893|AXE2_TALPU   8 ASLLGLGAAAIPLEGVMEKR-----SCPAIHVFGARETTASPGYG--SSSTVVNGVLSAYPGST--AEAINYPACGGQsscggaSYSSS 87 
+                           44555668889998899999.....8****************677..55899999999999888..99******866566666423336 PP
+
+          Cutinase.aln  90 saagiaeivrllksaaakcPnaklvagGYSQGaalvaaai..............eqlsaavrdkvkgvvlfGntknkqnr......... 155
+                            a+gia + + ++s +++cP++k+v+ GYSQG+ ++ +a+               qls+++ + vk+++ +G+++ + ++         
+  sp|O59893|AXE2_TALPU  88 VAQGIAAVASAVNSFNSQCPSTKIVLVGYSQGGEIMDVALcgggdpnqgytntaVQLSSSAVNMVKAAIFMGDPMFRAGLsyevgtcaa 176
+                           6899************************************************999********************************** PP
+
+          Cutinase.aln 156 .......gsipsypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskv 206
+                                     +   a ++k++C + D+ C +g  +aa H  Ygs+  ++a +F+ sk+
+  sp|O59893|AXE2_TALPU 177 ggfdqrpAGFSCPSAAKIKSYCDASDPYCCNGS-NAATHQGYGSEYGSQALAFVKSKL 233
+                           ***9887555556679*************9875.7899****************9997 PP
+
+>> sp|Q99034|AXE1_HYPJE  Acetylxylan esterase OS=Hypocrea jecorina OX=51453 GN=axe1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.5   5.4   1.1e-21   5.4e-18       6     207 ..      10     238 ..       5     239 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 70.5 bits;  conditional E-value: 1.1e-21
+          Cutinase.aln   6 lvlalaalasaapvse.eleaRqgssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgd.....lsqg 88 
+                           l+l+ a la+++pv    + +Rq     C+ + +  aR tt ++  G s  + ++  ++++ ++      +++Y+A  g+     +s +
+  sp|Q99034|AXE1_HYPJE  10 LLLSQAFLATGSPVDGeTVVKRQ-----CPAIHVFGARETTVSQGYG-SSATVVNLVIQAHPGTT---SEAIVYPACGGQascggISYA 89 
+                           56778889999999654777785.....****************999.55566666666665543...355555554333333348888 PP
+
+          Cutinase.aln  89 tsa.agiaeivrllksaaakcPnaklvagGYSQGaalvaaai..............eqlsaavrdkvkgvvlfGntknkqnr....... 155
+                           +s  +g++ + + +++  ++cP+++lv+ GYSQGa++  +a+                l+a +  +vk+++ +G+++n +++       
+  sp|Q99034|AXE1_HYPJE  90 NSVvNGTNAAAAAINNFHNSCPDTQLVLVGYSQGAQIFDNALcgggdpgegitntaVPLTAGAVSAVKAAIFMGDPRNIHGLpynvgtc 178
+                           875268889999*****************************************9887899999************************** PP
+
+          Cutinase.aln 156 ..........gsipsypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                                     g +    as++k++C + D+ C +g      H  Yg++   +a +F+ s+++
+  sp|Q99034|AXE1_HYPJE 179 ttqgfdarpaGFV-CPSASKIKSYCDAADPYCCTGN-DPNVHQGYGQEYGQQALAFINSQLS 238
+                           *****98885444.45689*************8775.5668****************99986 PP
+
+>> sp|A0A2J8C362|CUTI1_VERDA  Cutinase 11 OS=Verticillium dahliae OX=27337 GN=VD0003_g7577 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.6   6.9   4.1e-21     2e-17       9     207 ..       5     230 ..       1     231 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 68.6 bits;  conditional E-value: 4.1e-21
+               Cutinase.aln   9 alaalasaapvseeleaRqgssaaCsdvilifaRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgd.....lsq 87 
+                                al   a+a+ +s  l +Rq    +C+++ +  aR tt  +  G s+G+ ++  l +a+ +++    +++Y+A  g+     +s 
+  sp|A0A2J8C362|CUTI1_VERDA   5 ALLLAAQALVASAGLIERQ----SCPSIHVFGARETTVGPGYG-SAGTVVNLIL-NAYPGST--AEAIVYPACGGQsscggISY 80 
+                                3444556666666899997....9**************99999.9998776555.5666566..79999999855567778999 PP
+
+               Cutinase.aln  88 gtsa.agiaeivrllksaaakcPnaklvagGYSQGaalvaaai..............eqlsaavrdkvkgvvlfGntknkqnr. 155
+                                g+sa +g++ + + ++s +++cPn+++v+ GYSQG++++ +a+                l+a++  +vk+++l+G ++ + +  
+  sp|A0A2J8C362|CUTI1_VERDA  81 GNSAmQGTNAVASAVNSFNQRCPNTQIVLVGYSQGGQIMDNALcgggdpgsgitntaVPLTASAVTAVKAAILMGSPRYRAGFp 164
+                                98864789999999****************************************988789*********************99* PP
+
+               Cutinase.aln 156 ................gsipsypasrtkvfCnvGDlvCegglivaaaHlsYgsdargeaaeFliskvr 207
+                                                g +     s+++ +C   D+ C +g  ++a H  Yg     +a  F+ sk++
+  sp|A0A2J8C362|CUTI1_VERDA 165 ynvgtctaqgfaarpaGFV-CPSGSKIQNYCDSPDPYCCTG-NNQAVHQGYGGVYGQAALTFVRSKLN 230
+                                *********9998885444.44589*************876.57889*****99999999**999986 PP
+
+>> sp|O53581|CULP6_MYCTU  Carboxylesterase/lipase Culp6 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=833
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.0   0.0   4.1e-15     2e-11      30     178 ..      69     272 ..      54     283 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 49.0 bits;  conditional E-value: 4.1e-15
+           Cutinase.aln  30 saaCsdvilifaRgttepgnlGk.........svGptlasklesalskrsvsiqgvgYaAdlgd.......lsq.gtsaagiaeivrl 100
+                            +a+C+dv +i   gt e++   +          +  +++  + ++++   v ++ v Y+A++ +       +s   + a+g++ +v+ 
+  sp|O53581|CULP6_MYCTU  69 DASCPDVQMISVPGTWESSPQQNplnpvqfpkALLLKVTGPIAQQFAPARVQTYTVAYTAQFHNplttdnqMSYnDSRAEGTRAMVAA 156
+                            689999999999998886543321111222223345667778999999*************98885545553331345679******* PP
+
+           Cutinase.aln 101 lksaaakcPnaklvagGYSQGaalvaaaieql...saav.rdkvkgvvlfGntknkqnr............................. 155
+                            +++ +++cP +++v+ G+SQGa ++    +++    + v +d v gv l+ + +++q+                              
+  sp|O53581|CULP6_MYCTU 157 MTDMNNRCPLTSYVLIGFSQGAVIAGDVASDIgngRGPVdEDLVLGVTLIADGRRQQGVgnqvppsprgegaeitlhevpvlsglglt 244
+                            ************************999999996555555367899************9999*************************** PP
+
+           Cutinase.aln 156 ......gsipsypasrtkvfCnvGDlvCe 178
+                                  g   +    rt+ +C+ GDl+C 
+  sp|O53581|CULP6_MYCTU 245 mtgprpGG-FGALDGRTNEICAQGDLICA 272
+                            **666433.345678*************8 PP
+
+>> sp|Q8NLR5|CUP6H_CORGL  Carboxylesterase Culp6 homolog OS=Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.1   0.3   3.1e-14   1.5e-10      56     181 ..      87     260 ..      38     267 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 46.1 bits;  conditional E-value: 3.1e-14
+           Cutinase.aln  56 ptlasklesalskrsvsiqgvgYaAdlgd......lsq.gtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaav 136
+                             ++++ l++++s ++v +    Y+A++ +      +s   + ++g+a + ++l ++ ++cP +++++ G+SQGa ++    +q+ ++ 
+  sp|Q8NLR5|CUP6H_CORGL  87 LSITQPLQERYSADDVKVWTLPYTAQFRNinsqneMSYdDSRNEGTAKMNEELINTHNECPATEFIIVGFSQGAVIAGDVAAQIGSEQ 174
+                            3577889999****************9886444442221245789*******************************999999995543 PP
+
+           Cutinase.aln 137 ....rdkvkgvvlfGntknkqnr...................................gsip..sypasrtkvfCnvGDlvCeggl 181
+                                +d v+gv+l+ + +++ +                                    g+    ++ ++r++++C+  D++C+  +
+  sp|Q8NLR5|CUP6H_CORGL 175 gvipADSVRGVALIADGRREPGVgqfpgtfvdgigaevtlqplnllvqpivpgatmrgGRAGgfGVLNDRVQDICAPNDAICDAPV 260
+                            223579***************9999********************************95554115689**************9654 PP
+
+>> sp|A0R619|CUP6H_MYCS2  Carboxylesterase Culp6 homolog OS=Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.9   0.0   1.5e-13   7.3e-10      29     178 ..      69     273 ..      12     283 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 43.9 bits;  conditional E-value: 1.5e-13
+           Cutinase.aln  29 ssaaCsdvilifaRgttepgnlGk.........svGptlasklesalskrsvsiqgvgYaAdlgd.......lsqg.tsaagiaeivr 99 
+                            +sa C+dv+++   gt e++   +         s+  ++++ l ++++ + + ++ + Y+A++ +       +s   + a+g++  v+
+  sp|A0R619|CUP6H_MYCS2  69 QSADCPDVMMVSIPGTWESSPTDDpfnptqfplSLMSNISKPLAEQFGPDRLQVYTTPYTAQFHNpfaadkqMSYNdSRAEGMRTTVK 156
+                            6899********9999998765543333333335666777778899999*************98886655553333145679999*** PP
+
+           Cutinase.aln 100 llksaaakcPnaklvagGYSQGaalvaaaieql...saav.rdkvkgvvlfGntknkqnr............................ 155
+                             +++ + +cP +++v++G+SQGa ++    +++    + v +d v gv l+ + +++ +                             
+  sp|A0R619|CUP6H_MYCS2 157 AMTDMNDRCPLTSYVIAGFSQGAVIAGDIASDIgngRGPVdEDLVLGVTLIADGRRQMGVgqdvgpnpagqgaeitlhevpalsalgl 244
+                            ***********************999888888864445552567889999999998888899************************** PP
+
+           Cutinase.aln 156 .......gsipsypasrtkvfCnvGDlvCe 178
+                                   g   +   +rt+++C  GDl+C+
+  sp|A0R619|CUP6H_MYCS2 245 tmtgprpGG-FGALDNRTNQICGSGDLICS 273
+                            ***766433.356789*************8 PP
+
+>> sp|I1RLL3|FGL3_GIBZE  Secreted mono- and diacylglycerol lipase 3 OS=Gibberella zeae (strain ATCC MYA-4620 / CBS 12365
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.5   0.1    0.0053        26       5      90 ..      16     108 ..      10     130 .. 0.71
+   2 !   17.2   0.0   2.2e-05      0.11      91     131 ..     147     190 ..     136     213 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 9.5 bits;  conditional E-value: 0.0053
+          Cutinase.aln   5 llvlalaalasaapvseeleaRqgssaaCsdvilifaRgttepgnlGk...svGptlas.klesalskrsvsiqgvg.YaAdlgd...l 85 
+                           ++v+++a + +a +v+++ ++Rq+s+ + + + + ++ ++ ++   G+   + G ++ + +l +a+++++ ++q ++ Y+ +       
+  sp|I1RLL3|FGL3_GIBZE  16 ITVALAAITNVANAVPTDATKRQDSNLPFPLAHFTNTVASVQNTYCGPtanTPGVKFGDqTLLHAIGDGD-TVQRTNiYHSESLGiivA 103
+                           3445555566677777799****************************84445587776515778888777.899999998874443334 PP
+
+          Cutinase.aln  86 sqgts 90 
+                           sqgt+
+  sp|I1RLL3|FGL3_GIBZE 104 SQGTN 108
+                           44444 PP
+
+  == domain 2  score: 17.2 bits;  conditional E-value: 2.2e-05
+          Cutinase.aln  91 aagiaeivrllksaaakcPnaklvagGYSQGaal...vaaaieq 131
+                           ++g  ++ + l+++ ++ Pn ++++ G SQGaa+   +a ai++
+  sp|I1RLL3|FGL3_GIBZE 147 SKGWTDVSAALADTIKQFPNDQIIVTGHSQGAAIsllTALAIQN 190
+                           67889999************************972214445544 PP
+
+>> sp|O64205|LYSB_BPMD2  Endolysin B OS=Mycobacterium phage D29 OX=28369 GN=12 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.4   0.0   1.4e-07    0.0007      73     154 ..      36     124 ..       5     167 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 24.4 bits;  conditional E-value: 1.4e-07
+          Cutinase.aln  73 iqgvg.YaAdlgd.lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaai........eqlsaavrdkvkgvvlfGntkn 151
+                            q +g Y+A+    ++  + ++g+ae++ +++  + ++P a + ++GYSQGa +v + +         +l+     ++k v+  Gn+++
+  sp|O64205|LYSB_BPMD2  36 WQPIGnYPAAAFPmWP--SVEKGVAELILQIELKLDADPYADFAMAGYSQGAIVVGQVLkhhilpptGRLH-RFLHRLKKVIFWGNPMR 121
+                           3455569998444233..5789********************************99999544444433333.34468999999999988 PP
+
+          Cutinase.aln 152 kqn 154
+                           +++
+  sp|O64205|LYSB_BPMD2 122 QKG 124
+                           876 PP
+
+>> sp|B8NIB8|FAEA_ASPFN  Probable feruloyl esterase A OS=Aspergillus flavus (strain ATCC 200026 / FGSC A1120 / IAM 13836
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.3   0.6   6.3e-07    0.0031      96     194 ..     131     275 ..     126     280 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 22.3 bits;  conditional E-value: 6.3e-07
+          Cutinase.aln  96 eivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr............................. 155
+                           ++ +l++++a++ P+ +lv+ G S Ga ++a + +qlsa+ ++ +  v  fG+++  ++                              
+  sp|B8NIB8|FAEA_ASPFN 131 QVEGLVQQQASQYPDYSLVITGHSLGASMAAITAAQLSATYNN-I-TVYTFGEPRTGNQAyasyvdetfqatnpdatkfyrvthtndgi 217
+                           677899*******************************998875.5.6999****98877789999999999999999999999999999 PP
+
+          Cutinase.aln 156 ...............gsipsypasrtkvfCnvGDlv..Ce..gglivaaaHlsYgsda 194
+                                          +  +  p+   +++   GD v  Ce  gg +v+ aH++Y   a
+  sp|B8NIB8|FAEA_ASPFN 218 pnlpptsqgyvhhgtEYWSVEPHGPQNMYLCLGDEVqcCEaqGGQGVNDAHVTYFGMA 275
+                           9999999988877765556666666677777888877566778888999999986655 PP
+
+>> sp|Q05328|LYSB_BPML5  Endolysin B OS=Mycobacterium phage L5 OX=31757 GN=12 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.5   0.0   2.6e-07    0.0013      73     154 ..      36     124 ..       5     162 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 23.5 bits;  conditional E-value: 2.6e-07
+          Cutinase.aln  73 iqgvg.YaAdlgd.lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaai........eqlsaavrdkvkgvvlfGntkn 151
+                            q +g Y+A+    ++  + ++g+ae++ +++  + ++P a + ++GYSQGa +v + +         +l+     +++ v+  Gn+++
+  sp|Q05328|LYSB_BPML5  36 WQPIGnYPAAAFPmWP--SVEKGVAELILQIELKLDADPYADFALAGYSQGAIVVGQVLkhhiinprGRLH-RFLHRLRKVIFWGNPMR 121
+                           3455569998444233..5789*******************************999888544444433333.33357777777777777 PP
+
+          Cutinase.aln 152 kqn 154
+                           +++
+  sp|Q05328|LYSB_BPML5 122 QKG 124
+                           765 PP
+
+>> sp|P61869|MDLA_PENCY  Secreted mono- and diacylglycerol lipase A OS=Penicillium cyclopium OX=60167 GN=mdlA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.1       2.9   1.4e+04       3      31 ..       5      31 ..       1      71 [. 0.60
+   2 !   20.4   0.0   2.3e-06     0.011      95     135 ..     147     187 ..     134     227 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 0.5 bits;  conditional E-value: 2.9
+          Cutinase.aln  3 fallvlalaalasaapvseeleaRqgssa 31
+                          f++++ a+a+l  a+p   +l++R  s++
+  sp|P61869|MDLA_PENCY  5 FFTALSAVASLGYALPG--KLQSRDVSTS 31
+                          66677777777777773..5777753333 PP
+
+  == domain 2  score: 20.4 bits;  conditional E-value: 2.3e-06
+          Cutinase.aln  95 aeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaa 135
+                           ++i+++lk+++a++Pn +lv+ G S Gaa+++ a ++l ++
+  sp|P61869|MDLA_PENCY 147 DDIIKELKEVVAQNPNYELVVVGHSLGAAVATLAATDLRGK 187
+                           699********************************999764 PP
+
+>> sp|P61870|MDLA_PENCA  Secreted mono- and diacylglycerol lipase A OS=Penicillium camembertii OX=5075 GN=mdlA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.1       2.9   1.4e+04       3      31 ..       5      31 ..       1      71 [. 0.60
+   2 !   20.4   0.0   2.3e-06     0.011      95     135 ..     147     187 ..     134     227 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 0.5 bits;  conditional E-value: 2.9
+          Cutinase.aln  3 fallvlalaalasaapvseeleaRqgssa 31
+                          f++++ a+a+l  a+p   +l++R  s++
+  sp|P61870|MDLA_PENCA  5 FFTALSAVASLGYALPG--KLQSRDVSTS 31
+                          66677777777777773..5777753333 PP
+
+  == domain 2  score: 20.4 bits;  conditional E-value: 2.3e-06
+          Cutinase.aln  95 aeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaa 135
+                           ++i+++lk+++a++Pn +lv+ G S Gaa+++ a ++l ++
+  sp|P61870|MDLA_PENCA 147 DDIIKELKEVVAQNPNYELVVVGHSLGAAVATLAATDLRGK 187
+                           699********************************999764 PP
+
+>> sp|O42815|FAEA_ASPTU  Feruloyl esterase A OS=Aspergillus tubingensis OX=5068 GN=faeA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.8   0.0   8.5e-07    0.0042      96     194 ..     131     274 ..     126     279 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 21.8 bits;  conditional E-value: 8.5e-07
+          Cutinase.aln  96 eivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr............................. 155
+                           ++ +l+++++++ P+  l + G S Ga l+a + +qlsa+  d+++    fG+++++q                               
+  sp|O42815|FAEA_ASPTU 131 QVESLVQQQVSQFPDYALTVTGHSLGASLAALTAAQLSATY-DNIR-LYTFGEPRSNQAFasymndafqasspdttqyfrvthandgip 217
+                           5667899******************************9876.5786.678******99889**************************** PP
+
+          Cutinase.aln 156 ..............gsipsypasrtkvfCnvGDlv..Ce..gglivaaaHlsYgsda 194
+                                         +  +  p s  + f  +GD v  Ce  gg +v+ aH++Y   +
+  sp|O42815|FAEA_ASPTU 218 nlppadegyahgvvEYWSVDPYSAQNTFVCTGDEVqcCEaqGGQGVNNAHTTYFGMT 274
+                           **********666544444455777778889998876778899**********7555 PP
+
+>> sp|Q2UNW5|FAEA_ASPOR  Probable feruloyl esterase A OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=fa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.1   0.4   1.4e-06     0.007      96     194 ..     131     275 ..     126     280 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 21.1 bits;  conditional E-value: 1.4e-06
+          Cutinase.aln  96 eivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr............................. 155
+                           ++ +l++++a++ P+ +lv+ G S Ga ++a + +qlsa+ ++ +  v  fG+++  ++                              
+  sp|Q2UNW5|FAEA_ASPOR 131 QVEGLIHQQASQYPDYSLVVTGHSLGASMAAITAAQLSATYNN-I-TVYTFGEPRTGNQAyasyvdetfqatnpdatkfyrvthtndgi 217
+                           6678999******************************998875.5.6999****98877789999999999999999999999999999 PP
+
+          Cutinase.aln 156 ...............gsipsypasrtkvfCnvGDlv..Ce..gglivaaaHlsYgsda 194
+                                          +  +  p+   +++   GD v  Ce  gg +v+ aH++Y   a
+  sp|Q2UNW5|FAEA_ASPOR 218 pnlpptsqgyvhhgtEYWSVEPHGPQNMYLCLGDEVqcCEaqGGQGVNDAHVTYFGMA 275
+                           9999999988877765556666666677777888877566778888999999986655 PP
+
+>> sp|Q0CBM7|FAEA_ASPTN  Probable feruloyl esterase A OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.7   0.1   9.3e-07    0.0046      95     194 ..     130     275 ..     124     280 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 21.7 bits;  conditional E-value: 9.3e-07
+          Cutinase.aln  95 aeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr............................ 155
+                           +++++l+k++a + P+ +l + G S Ga +++ a +qls++   ++     fG++++ ++                             
+  sp|Q0CBM7|FAEA_ASPTN 130 DQVMSLVKEQADQYPDYTLTVTGHSLGASMATLAAAQLSGTYD-NI-TLYTFGEPRSGNEAfasymndkftatsadttkyfrvthsndg 216
+                           6788999********************************9986.55.4788*****999999*************************** PP
+
+          Cutinase.aln 156 ................gsipsypasrtkvfCnvGDlv..Ce..gglivaaaHlsYgsda 194
+                                           +  +  p s  + +  +GD v  Ce  gg +v+ aH++Y   +
+  sp|Q0CBM7|FAEA_ASPTN 217 ipnlppaeqgyvhggvEYWSVDPYSAQNTYVCTGDEVqcCEaqGGQGVNDAHTTYFGMT 275
+                           *********99997774445556666666666888877577889999******996655 PP
+
+>> sp|A2QSY5|FAEA_ASPNC  Probable feruloyl esterase A OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A15
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.2   0.1   5.4e-06     0.027      96     194 ..     131     275 ..     126     280 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 19.2 bits;  conditional E-value: 5.4e-06
+          Cutinase.aln  96 eivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr............................. 155
+                           ++ +l+k++a++ P+  l + G S Ga ++a + +qlsa+   +v+    fG++++ ++                              
+  sp|A2QSY5|FAEA_ASPNC 131 QVESLVKQQASQYPDYALTVTGHSLGASMAALTAAQLSATYD-NVR-LYTFGEPRSGNQAfasymndafqvsspettqyfrvthsndgi 217
+                           5667899******************************98765.676.678****99888899*************************** PP
+
+          Cutinase.aln 156 ...............gsipsypasrtkvfCnvGDlv..Ce..gglivaaaHlsYgsda 194
+                                          +  +  p s  + f  +GD v  Ce  gg +v+ aH++Y   +
+  sp|A2QSY5|FAEA_ASPNC 218 pnlppaeqgyahggvEYWSVDPYSAQNTFVCTGDEVqcCEaqGGQGVNDAHTTYFGMT 275
+                           ************777555666677777777789988767788999********97655 PP
+
+>> sp|Q9P979|FAEA_ASPAW  Feruloyl esterase A OS=Aspergillus awamori OX=105351 GN=faeA PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.4   2.7   1.9e-05     0.095      96     194 ..     131     275 ..     126     280 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 17.4 bits;  conditional E-value: 1.9e-05
+          Cutinase.aln  96 eivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr............................. 155
+                           ++ +l+k+++++ P+  l + G S Ga l+a + +qlsa+  d+++    fG++++ ++                              
+  sp|Q9P979|FAEA_ASPAW 131 QVESLVKQQVSQYPDYALTVTGHSLGASLAALTAAQLSATY-DNIR-LYTFGEPRSGNQAfasymndafqasspdttqyfrvthandgi 217
+                           5667899******************************9876.5776.678****9988889**************************** PP
+
+          Cutinase.aln 156 ...............gsipsypasrtkvfCnvGDlv..Ce..gglivaaaHlsYgsda 194
+                                          +  +  p s  + f  +GD v  Ce  gg +v+ aH++Y   +
+  sp|Q9P979|FAEA_ASPAW 218 pnlppveqgyahggvEYWSVDPYSAQNTFVCTGDEVqcCEaqGGQGVNNAHTTYFGMT 275
+                           ************777555666777777777789988767788999*********7655 PP
+
+>> sp|O42807|FAEA_ASPNG  Feruloyl esterase A OS=Aspergillus niger OX=5061 GN=faeA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   19.1   0.2   5.8e-06     0.028      96     194 ..     131     275 ..     126     280 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 19.1 bits;  conditional E-value: 5.8e-06
+          Cutinase.aln  96 eivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr............................. 155
+                           ++ +l+k++a++ P+  l + G S Ga ++a + +qlsa+   +v+    fG++++ ++                              
+  sp|O42807|FAEA_ASPNG 131 QVESLVKQQASQYPDYALTVTGHSLGASMAALTAAQLSATYD-NVR-LYTFGEPRSGNQAfasymndafqvsspettqyfrvthsndgi 217
+                           5667899******************************98765.676.678****99888899*************************** PP
+
+          Cutinase.aln 156 ...............gsipsypasrtkvfCnvGDlv..Ce..gglivaaaHlsYgsda 194
+                                          +  +  p s  + f  +GD v  Ce  gg +v+ aH++Y   +
+  sp|O42807|FAEA_ASPNG 218 pnlppadegyahggvEYWSVDPYSAQNTFVCTGDEVqcCEaqGGQGVNDAHTTYFGMT 275
+                           ************777555666677777777789988767788999********97655 PP
+
+>> sp|Q9HE20|NHL1_FUSSL  Secreted mono- and diacylglycerol lipase 1 OS=Fusarium solani OX=169388 GN=NHL1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.5   0.1   7.3e-05      0.36      93     132 ..     150     189 ..       1     195 [. 0.71
+   2 ?   -1.2   0.0       9.7   4.8e+04     163     196 ..     262     297 ..     238     301 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 7.3e-05
+          Cutinase.aln  93 giaeivrllksaaakcPnaklvagGYSQGaalvaaaieql 132
+                             a+i++ +++a++++P  k+v+ G S G+a++++a + l
+  sp|Q9HE20|NHL1_FUSSL 150 VAANIKAAVSAAKTANPTFKFVVTGHSLGGAVATVAAAYL 189
+                           46789999**************************998877 PP
+
+  == domain 2  score: -1.2 bits;  conditional E-value: 9.7
+          Cutinase.aln 163 asrtkvfCnvGDlvCeggli..vaaaHlsYgsdarg 196
+                           +s +kv   +   +C+gg i     aH++Y +   +
+  sp|Q9HE20|NHL1_FUSSL 262 VSEIKVCDGIANVMCNGGTIglDILAHITYFQSMAT 297
+                           455555445677789977652246799999877655 PP
+
+>> sp|Q03EY2|MURG_PEDPA  UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglu
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.0      0.55   2.7e+03      97     121 ..      17      41 ..       6      47 .. 0.88
+   2 ?    6.3   0.1     0.048   2.3e+02     102     139 ..      86     123 ..      78     136 .. 0.82
+   3 ?    6.1   0.0     0.057   2.8e+02      97     158 ..     141     203 ..     135     213 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 2.9 bits;  conditional E-value: 0.55
+          Cutinase.aln  97 ivrllksaaakcPnaklvagGYSQG 121
+                           +++l+k+++++ P+++++  G S G
+  sp|Q03EY2|MURG_PEDPA  17 ALALIKQVKQSEPDSQILYVGTSKG 41 
+                           67899******************99 PP
+
+  == domain 2  score: 6.3 bits;  conditional E-value: 0.048
+          Cutinase.aln 102 ksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdk 139
+                           k +++  P++ l +gGY  Ga + aa++  +++ ++++
+  sp|Q03EY2|MURG_PEDPA  86 KMVKEFKPDVVLGTGGYVSGAVVFAASMMGVPTVIHEQ 123
+                           5566778*********************9999988765 PP
+
+  == domain 3  score: 6.1 bits;  conditional E-value: 0.057
+          Cutinase.aln  97 ivrllksaaakcPnaklvagGYSQGaalvaaaieql.saavrdkvkgvvlfGntknkqnrgsi 158
+                           i   +++aa++ P +k+v+ G    + +++   + l +  + dkv  v++fG  + +++ +++
+  sp|Q03EY2|MURG_PEDPA 141 IAISFEAAASQFPTKKVVLTGNPRATEVAQIKPSGLsQFGLDDKVPTVLIFGGSRGAEKINQV 203
+                           6678999*********************99999999455899**********99888766666 PP
+
+>> sp|Q6BSS8|APTH1_DEBHA  Acyl-protein thioesterase 1 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.9   0.0   2.8e-05      0.14     104     136 ..     110     142 ..      82     171 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 16.9 bits;  conditional E-value: 2.8e-05
+           Cutinase.aln 104 aaakcPnaklvagGYSQGaalvaaaieqlsaav 136
+                             ++  P  k+++gG+SQGaa+  a+++ l+ +v
+  sp|Q6BSS8|APTH1_DEBHA 110 DNHDIPADKIIIGGFSQGAAVSLATVALLDFKV 142
+                            46678******************9999887554 PP
+
+>> sp|Q54T49|APT11_DICDI  Acyl-protein thioesterase 1 homolog 1 OS=Dictyostelium discoideum OX=44689 GN=DDB_G0282005 PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.7   0.0   6.4e-05      0.31      88     125 ..      90     127 ..      76     147 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 6.4e-05
+           Cutinase.aln  88 gtsaagiaeivrllksaaakcPnaklvagGYSQGaalv 125
+                              ++++i e + + +   +k P +++++gG+SQGaal 
+  sp|Q54T49|APT11_DICDI  90 VDESKNIIETIIKHEMEEEKIPAERIIIGGFSQGAALS 127
+                            556778888888889999******************85 PP
+
+>> sp|A5UCW8|MURG_HAEIE  UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglu
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0      0.66   3.3e+03     105     157 ..      90     155 ..      76     165 .. 0.74
+   2 ?   11.7   0.1    0.0011       5.2     112     182 ..     182     269 ..     175     292 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 2.6 bits;  conditional E-value: 0.66
+          Cutinase.aln 105 aakcPnaklvagGYSQGaalvaaai.............eqlsaavrdkvkgvvlfGntknkqnrgs 157
+                           +++ P+a l +gGY  G a vaa +             + l+ ++  k+++ vl   ++  +n + 
+  sp|A5UCW8|MURG_HAEIE  90 QEEKPDAVLGMGGYVSGPAGVAAKLcgvpiilheqnaiAGLTNKLLGKIASCVLQAFPTAFSNAEV 155
+                           57889999******9999999888877777777776667777777777777777777766666655 PP
+
+  == domain 2  score: 11.7 bits;  conditional E-value: 0.0011
+          Cutinase.aln 112 klvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr................gsipsypasrtkvfCnvGDl.vCeggli 182
+                           ++++ G SQGa + + ++ ++ a+++dk++    +G+   ++ r                +++++ +a    v+C  G l vCe + +
+  sp|A5UCW8|MURG_HAEIE 182 RVLVVGGSQGARVLNHTLPKVVAQIADKLEVRHQVGKGAVEEVRqlygenleqvkitefiDNMAEAYAWADVVICRSGALtVCEIAAV 269
+                           5677888**********************99999999888888888999999999999988888888888899999998548984433 PP
+
+>> sp|Q5AGD1|APTH1_CANAL  Acyl-protein thioesterase 1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.0   0.00012      0.57     107     136 ..     109     138 ..      92     148 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 0.00012
+           Cutinase.aln 107 kcPnaklvagGYSQGaalvaaaieqlsaav 136
+                            + P +k+++gG+SQGaa+  a+++ l++++
+  sp|Q5AGD1|APTH1_CANAL 109 NIPLEKIIIGGFSQGAAISLATLALLDTKI 138
+                            56999******************9999877 PP
+
+>> sp|Q6CGL4|APTH1_YARLI  Acyl-protein thioesterase 1 OS=Yarrowia lipolytica (strain CLIB 122 / E 150) OX=284591 GN=YALI
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.6   0.0   0.00014       0.7      82     126 ..      77     126 ..      57     140 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 14.6 bits;  conditional E-value: 0.00014
+           Cutinase.aln  82 lgdlsqgtsaagiaeivrllks.....aaakcPnaklvagGYSQGaalva 126
+                            l++++ +++++gi e v++l+s     + a  P +++v+gG+SQG a+  
+  sp|Q6CGL4|APTH1_YARLI  77 LANVNAAQDQEGILESVGRLESlikeeTDAGVPANRIVIGGFSQGCAVSL 126
+                            44488899999*****9999872211134557999***********9865 PP
+
+>> sp|O75608|LYPA1_HUMAN  Acyl-protein thioesterase 1 OS=Homo sapiens OX=9606 GN=LYPLA1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.0   0.1   0.00021         1      91     125 ..      90     125 ..      76     141 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 14.0 bits;  conditional E-value: 0.00021
+           Cutinase.aln  91 aagiaeivrllks.aaakcPnaklvagGYSQGaalv 125
+                            +++ ++i++l+++ +++  P++++++gG+SQG+al 
+  sp|O75608|LYPA1_HUMAN  90 KQAAENIKALIDQeVKNGIPSNRIILGGFSQGGALS 125
+                            5677788888876145678**************986 PP
+
+>> sp|Q5RBR7|LYPA1_PONAB  Acyl-protein thioesterase 1 OS=Pongo abelii OX=9601 GN=LYPLA1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.0   0.1   0.00021         1      91     125 ..      90     125 ..      76     141 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 14.0 bits;  conditional E-value: 0.00021
+           Cutinase.aln  91 aagiaeivrllks.aaakcPnaklvagGYSQGaalv 125
+                            +++ ++i++l+++ +++  P++++++gG+SQG+al 
+  sp|Q5RBR7|LYPA1_PONAB  90 KQAAENIKALIDQeVKNGIPSNRIILGGFSQGGALS 125
+                            5677788888876145678**************986 PP
+
+>> sp|Q3MHR0|LYPA1_BOVIN  Acyl-protein thioesterase 1 OS=Bos taurus OX=9913 GN=LYPLA1 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.6   0.0   0.00029       1.4      91     125 ..      90     125 ..      76     141 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 0.00029
+           Cutinase.aln  91 aagiaeivrllks.aaakcPnaklvagGYSQGaalv 125
+                            +++ +++++l+++ +++  P++++++gG+SQG+al 
+  sp|Q3MHR0|LYPA1_BOVIN  90 KQAAENVKALIDQeVKNGIPSNRIILGGFSQGGALS 125
+                            5666777777765145668**************986 PP
+
+>> sp|Q6FW75|APTH1_CANGA  Acyl-protein thioesterase 1 OS=Candida glabrata (strain ATCC 2001 / BCRC 20586 / JCM 3761 / NB
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.6   0.0   0.00029       1.4     111     136 ..     111     136 ..      78     164 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 0.00029
+           Cutinase.aln 111 aklvagGYSQGaalvaaaieqlsaav 136
+                            +++++gG+SQGaal+ a+  +l+ ++
+  sp|Q6FW75|APTH1_CANGA 111 QNIIVGGFSQGAALALASAVTLNNKI 136
+                            57999************998887665 PP
+
+>> sp|Q74Z47|PPME1_EREGS  Protein phosphatase methylesterase 1 OS=Eremothecium gossypii (strain ATCC 10895 / CBS 109.51 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.0   0.00049       2.4      93     146 ..     169     222 ..     150     236 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 0.00049
+           Cutinase.aln  93 giaeivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlf 146
+                             i+ +++++ + +    + ++v+ G S G+ + ++a + +++a+r kv gv++f
+  sp|Q74Z47|PPME1_EREGS 169 VIKTLQQRILQHKIPKEKLSIVLLGHSLGGSICTTAFNAMESALRSKVVGVAIF 222
+                            455555555555444455678*******************************99 PP
+
+>> sp|O77821|LYPA1_RABIT  Acyl-protein thioesterase 1 OS=Oryctolagus cuniculus OX=9986 GN=LYPLA1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.0   0.00039       1.9      92     125 ..      91     125 ..      63     141 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 0.00039
+           Cutinase.aln  92 agiaeivrllks.aaakcPnaklvagGYSQGaalv 125
+                            ++ + +++l+++ +++  P++++++gG+SQG+al 
+  sp|O77821|LYPA1_RABIT  91 QAAETVKALIDQeVKNGIPSNRIILGGFSQGGALS 125
+                            344444455544155668**************986 PP
+
+>> sp|P97823|LYPA1_MOUSE  Acyl-protein thioesterase 1 OS=Mus musculus OX=10090 GN=Lypla1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.0   0.00039       1.9      92     125 ..      91     125 ..      63     141 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 0.00039
+           Cutinase.aln  92 agiaeivrllks.aaakcPnaklvagGYSQGaalv 125
+                            ++ + +++l+++ +++  P++++++gG+SQG+al 
+  sp|P97823|LYPA1_MOUSE  91 QAAETVKALIDQeVKNGIPSNRIILGGFSQGGALS 125
+                            344444455544155668**************986 PP
+
+>> sp|Q3MFA7|RL6_TRIV2  Large ribosomal subunit protein uL6 OS=Trichormus variabilis (strain ATCC 29413 / PCC 7937) OX=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.2   0.00034       1.7      41     119 ..      58     137 ..      45     151 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 0.00034
+         Cutinase.aln  41 aRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgd....lsqgtsaagiaeivrllksaaakcPnaklvagGYS 119
+                          +R + +   l  ++  ++++ +++ ++ r + iqgvgY+A+++     l+ g s++   e    ++ a+++  n+++++ GY 
+  sp|Q3MFA7|RL6_TRIV2  58 TRTSRQLHGLSRTLVANMVEGVSQGFQ-RRLEIQGVGYRAQVQGrnliLNMGYSHQVQIEPPDGIQFAVEN--NTNVIVSGYD 137
+                          899999999999999*********996.888**********998899999999999999999999888876..5778888885 PP
+
+>> sp|O59952|LIP_THELA  Lipase OS=Thermomyces lanuginosus OX=5541 GN=LIP PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0   0.00065       3.2      96     135 ..     145     184 ..     131     196 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00065
+         Cutinase.aln  96 eivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaa 135
+                           + +++++a+ + P+ ++v  G S G+al+++a ++l ++
+  sp|O59952|LIP_THELA 145 TLRQKVEDAVREHPDYRVVFTGHSLGGALATVAGADLRGN 184
+                          345689***************************9999876 PP
+
+>> sp|P70470|LYPA1_RAT  Acyl-protein thioesterase 1 OS=Rattus norvegicus OX=10116 GN=Lypla1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.1    0.0005       2.5      93     125 ..      92     125 ..      77     141 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 0.0005
+         Cutinase.aln  93 giaeivrllks.aaakcPnaklvagGYSQGaalv 125
+                          + + +++l+++ +++  P++++++gG+SQG+al 
+  sp|P70470|LYPA1_RAT  92 AAETVKALIDQeVKNGIPSNRIILGGFSQGGALS 125
+                          33444445544155668**************986 PP
+
+>> sp|A0A098D6U0|ZEA1_GIBZE  Non-reducing polyketide synthase ZEA1 OS=Gibberella zeae (strain ATCC MYA-4620 / CBS 123657
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0    0.0017       8.3      93     146 ..    1815    1868 ..    1792    1886 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.0017
+              Cutinase.aln   93 giaeivrllksaa.akcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlf 146 
+                                gi  + r +++a+ ++ P+ ++v+gG+S Ga l+    +ql aa r kv++ +l+
+  sp|A0A098D6U0|ZEA1_GIBZE 1815 GITGAARFITEALmKAQPEGTFVLGGFSGGAMLAYEVCRQLAAANR-KVDSLMLI 1868
+                                55566666666651568************************98877.89888887 PP
+
+>> sp|Q8YPJ3|RL6_NOSS1  Large ribosomal subunit protein uL6 OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.1   0.00047       2.3      41     119 ..      58     137 ..      35     151 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00047
+         Cutinase.aln  41 aRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgd....lsqgtsaagiaeivrllksaaakcPnaklvagGYS 119
+                          +R + +   l  ++  ++++ +++ ++ r + iqgvgY+A+++     l+ g s++   e    ++ ++++  n+++++ GY 
+  sp|Q8YPJ3|RL6_NOSS1  58 TRTSRQLHGLSRTLVANMVEGVSQGFQ-RRLEIQGVGYRAQVQGrnlvLNMGYSHQVQIEPPDGIQFVVEN--NTNVIVSGYD 137
+                          899999999999999*********996.888**********998899999999999999988888888876..5667888885 PP
+
+>> sp|Q9VKH6|PPT2_DROME  Lysosomal thioesterase PPT2 homolog OS=Drosophila melanogaster OX=7227 GN=Ppt2 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00053       2.6      95     133 ..      75     112 ..      31     122 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 0.00053
+          Cutinase.aln  95 aeivrllksaaakcPnaklvagGYSQGaalvaaaieqls 133
+                           +++   l+++ +  P+  +++ GYSQG+ l+ aai++l+
+  sp|Q9VKH6|PPT2_DROME  75 DQVRDYLNEVGKLHPEG-IIVLGYSQGGLLARAAIQSLP 112
+                           45555566666667765.56679*************995 PP
+
+>> sp|S3E7P4|GLON_GLAL2  Probable thioesterase gloN OS=Glarea lozoyensis (strain ATCC 20868 / MF5171) OX=1116229 GN=gloN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.0   0.00084       4.1      91     153 ..      64     127 ..      44     179 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00084
+          Cutinase.aln  91 aagiaeivr.llksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkq 153
+                           ++gia + +  ++  +a  P+ ++++gG+S G+ ++ +a + ls + + kv g+v++  t   +
+  sp|S3E7P4|GLON_GLAL2  64 ENGIASMAEyYVNLIKATYPSGHILLGGWSLGGLIAIQAAHILSNDPELKVVGIVMIDSTFPVE 127
+                           5667776652478889999*************************************98887655 PP
+
+>> sp|W3VKA4|LIPA_MOEAP  Lipase A OS=Moesziomyces aphidis OX=84754 GN=PaG_04054 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   0.0       2.1     1e+04       5      27 ..      10      32 ..       3      87 .. 0.80
+   2 ?    9.5   0.1    0.0051        25      78     130 ..     166     216 ..     150     238 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 1.0 bits;  conditional E-value: 2.1
+          Cutinase.aln  5 llvlalaalasaapvseeleaRq 27
+                           l++a++a + aap++e l++R 
+  sp|W3VKA4|LIPA_MOEAP 10 SLLAAATAAVLAAPATETLDRRA 32
+                          4556777888999*999999996 PP
+
+  == domain 2  score: 9.5 bits;  conditional E-value: 0.0051
+          Cutinase.aln  78 YaAdlgd.lsqgtsaagiaeivrllksaaakcPnaklvagGYSQGaalvaaaie 130
+                           ++A++++ +   ++  +i + +r lk+ ++   ++k+ ++GYS Ga +++ a +
+  sp|W3VKA4|LIPA_MOEAP 166 FKAAFIAgY---EEGMAILDGIRALKNYQNLPSDSKVALEGYSGGAHATVWATS 216
+                           555533222...3467999*********99999*************99987765 PP
+
+>> sp|B2ITP1|RL6_NOSP7  Large ribosomal subunit protein uL6 OS=Nostoc punctiforme (strain ATCC 29133 / PCC 73102) OX=637
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.1   0.00077       3.8      41     105 ..      58     125 ..      55     150 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 0.00077
+         Cutinase.aln  41 aRgttepgnlGksvGptlasklesalskrsvsiqgvgYaAdlgd....lsqgtsaagiaeivrllksaa 105
+                          +R +++   l  ++  ++++ +++ ++ r + iqgvgY+A+l+     l+ g s++   e    ++ a+
+  sp|B2ITP1|RL6_NOSP7  58 TRTSKQLHGLSRTLVANMVEGVSQGFQ-RRLEIQGVGYRAQLQGrnlvLNMGYSHQVQIEPPDGIQFAV 125
+                          89999*999999999**********96.888**********9987877778887777666666665555 PP
+
+>> sp|Q4QLF8|MURG_HAEI8  UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglu
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.0       1.7   8.5e+03     105     129 ..      90     114 ..      76     159 .. 0.72
+   2 ?    9.1   0.0    0.0069        34     112     190 ..     182     278 ..     175     293 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 1.7
+          Cutinase.aln 105 aakcPnaklvagGYSQGaalvaaai 129
+                           +++ P+a l +gGY  G a vaa +
+  sp|Q4QLF8|MURG_HAEI8  90 QEEKPDAVLGMGGYVSGPAGVAAKL 114
+                           6789***********9999888877 PP
+
+  == domain 2  score: 9.1 bits;  conditional E-value: 0.0069
+          Cutinase.aln 112 klvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr................gsipsypasrtkvfCnvGDl.vCe.ggli 182
+                           ++++ G SQGa + + ++ ++ a+++dk++    +G+   ++                  +++++ +a    v+C  G l vCe  +++
+  sp|Q4QLF8|MURG_HAEI8 182 RVLVVGGSQGARVLNHTLPKVVAQLADKLELRHQVGKGAVEEVSqlygenleqvkitefiDNMAEAYAWADVVICRSGALtVCEiAAVG 270
+                           5677888*********************9988888876655544568888888888888888888888888889998874488865566 PP
+
+          Cutinase.aln 183 vaaaHlsY 190
+                           vaa  + +
+  sp|Q4QLF8|MURG_HAEI8 271 VAAIFVPF 278
+                           66655555 PP
+
+>> sp|O95372|LYPA2_HUMAN  Acyl-protein thioesterase 2 OS=Homo sapiens OX=9606 GN=LYPLA2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0    0.0011       5.6      92     125 ..      94     128 ..      82     137 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.0011
+           Cutinase.aln  92 agiaeivrllksa.aakcPnaklvagGYSQGaalv 125
+                            ++ ++i++l+++  ++  P +++v+gG+SQG+al 
+  sp|O95372|LYPA2_HUMAN  94 KAAENIKALIEHEmKNGIPANRIVLGGFSQGGALS 128
+                            556677777765515568**************985 PP
+
+>> sp|Q9WTL7|LYPA2_MOUSE  Acyl-protein thioesterase 2 OS=Mus musculus OX=10090 GN=Lypla2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0    0.0011       5.6      92     125 ..      94     128 ..      82     137 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.0011
+           Cutinase.aln  92 agiaeivrllksa.aakcPnaklvagGYSQGaalv 125
+                            ++ ++i++l+++  ++  P +++v+gG+SQG+al 
+  sp|Q9WTL7|LYPA2_MOUSE  94 KAAENIKALIEHEmKNGIPANRIVLGGFSQGGALS 128
+                            556677777765515568**************985 PP
+
+>> sp|Q9QYL8|LYPA2_RAT  Acyl-protein thioesterase 2 OS=Rattus norvegicus OX=10116 GN=Lypla2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0    0.0011       5.6      92     125 ..      94     128 ..      82     137 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.0011
+         Cutinase.aln  92 agiaeivrllksa.aakcPnaklvagGYSQGaalv 125
+                          ++ ++i++l+++  ++  P +++v+gG+SQG+al 
+  sp|Q9QYL8|LYPA2_RAT  94 KAAENIKALIEHEmKNGIPANRIVLGGFSQGGALS 128
+                          556677777765515568**************985 PP
+
+>> sp|Q0I1D3|MURG_HISS1  UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglu
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.1    0.0016       7.9     105     183 ..     176     275 ..     170     300 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.0016
+          Cutinase.aln 105 aakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkqnr....................gsipsypasrtkvfCnvG 173
+                           ++ c   k+++ G SQGa + ++ + ++ a++ ++++ v  +G  + ++                      + i++ +a    v+C  G
+  sp|Q0I1D3|MURG_HISS1 176 NTTCETLKVLVVGGSQGAHILNTILPEVLAQLPNRLEIVHQVGSGSVENVTalyhdkvnltqesvqitefiDDIAQAYAWADIVICRSG 264
+                           778999999******************************99998766555467999999999999999999999999999999999999 PP
+
+          Cutinase.aln 174 Dl.vCeggliv 183
+                            l vCe + + 
+  sp|Q0I1D3|MURG_HISS1 265 ALtVCELAAVG 275
+                           75489854443 PP
+
+>> sp|P0CL94|APTH1_CRYNJ  Acyl-protein thioesterase 1 OS=Cryptococcus neoformans var. neoformans serotype D (strain JEC2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.0    0.0012       5.9     104     126 ..     105     127 ..      77     163 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.0012
+           Cutinase.aln 104 aaakcPnaklvagGYSQGaalva 126
+                            + +  P++++v+gG+SQG+a+ +
+  sp|P0CL94|APTH1_CRYNJ 105 VDSGIPENRIVLGGFSQGGAISV 127
+                            34557**************9865 PP
+
+>> sp|P0CL95|APTH1_CRYNB  Acyl-protein thioesterase 1 OS=Cryptococcus neoformans var. neoformans serotype D (strain B-35
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.0    0.0012       5.9     104     126 ..     105     127 ..      77     163 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.0012
+           Cutinase.aln 104 aaakcPnaklvagGYSQGaalva 126
+                            + +  P++++v+gG+SQG+a+ +
+  sp|P0CL95|APTH1_CRYNB 105 VDSGIPENRIVLGGFSQGGAISV 127
+                            34557**************9865 PP
+
+>> sp|Q6CJK6|APTH1_KLULA  Acyl-protein thioesterase 1 OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.0    0.0013       6.1     111     129 ..     111     129 ..      87     186 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.0013
+           Cutinase.aln 111 aklvagGYSQGaalvaaai 129
+                            +++++gG+SQGaal+ a+ 
+  sp|Q6CJK6|APTH1_KLULA 111 ENIILGGFSQGAALTLAST 129
+                            4799***********9986 PP
+
+>> sp|Q8HXZ7|CD209_PANTR  CD209 antigen OS=Pan troglodytes OX=9598 GN=CD209 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   0.1      0.38   1.9e+03      58     111 ..      63     117 ..      55     124 .. 0.87
+   2 ?    1.6   0.0       1.3   6.3e+03      68     118 ..     120     170 ..     110     192 .. 0.65
+   3 ?    2.7   0.1      0.62     3e+03      64     105 ..     185     226 ..     146     236 .. 0.55
+   4 ?    2.7   0.1      0.62     3e+03      66     112 ..     210     256 ..     200     276 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 3.4 bits;  conditional E-value: 0.38
+           Cutinase.aln  58 lasklesalskrsvsiqgvg.YaAdlgdlsqgtsaagiaeivrllksaaakcPna 111
+                            + s+++++ s+++v  q+    +A++g+ls+ +  + i + +++lk+a+ + P++
+  sp|Q8HXZ7|CD209_PANTR  63 VPSSISQEESRQDVIYQNLTqLKAAVGELSEKSKLQEIYQELTQLKAAVGELPEK 117
+                            6688999999999999998889*********999999999999999999888875 PP
+
+  == domain 2  score: 1.6 bits;  conditional E-value: 1.3
+           Cutinase.aln  68 krsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnaklvagGY 118
+                            ++++ +  +  +A++g+l++ +  + i + +++lk+a+ + P+++ + + Y
+  sp|Q8HXZ7|CD209_PANTR 120 QQEIYQELTRLKAAVGELPEKSKMQEIYQELTRLKAAVGELPEKSKMQEIY 170
+                            455444445577888888888888888888888888888888776666655 PP
+
+  == domain 3  score: 2.7 bits;  conditional E-value: 0.62
+           Cutinase.aln  64 salskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaa 105
+                            ++  ++++ +  +  +A++g+l++ + ++ i + +++lk+a+
+  sp|Q8HXZ7|CD209_PANTR 185 EKSKQQEIYQELTRLKAAVGELPEKSKQQEIYQELTQLKAAV 226
+                            233333333333335555555555555555555555555554 PP
+
+  == domain 4  score: 2.7 bits;  conditional E-value: 0.62
+           Cutinase.aln  66 lskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnak 112
+                              ++++ +  +  +A++g+l++ + ++ i + +++lk+a+ + P+++
+  sp|Q8HXZ7|CD209_PANTR 210 SKQQEIYQELTQLKAAVGELPEKSKQQEIYQELTRLKAAVGELPEKS 256
+                            45555555556677888888888888888888888888777777665 PP
+
+>> sp|Q12354|APTH1_YEAST  Acyl-protein thioesterase 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.0    0.0012         6     111     132 ..     111     132 ..      79     203 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.0012
+           Cutinase.aln 111 aklvagGYSQGaalvaaaieql 132
+                            +++++gG+SQGaal+ a+  +l
+  sp|Q12354|APTH1_YEAST 111 EQIIIGGFSQGAALALATSVTL 132
+                            5799*********998765555 PP
+
+>> sp|Q59295|HEM2_RUMJO  Delta-aminolevulinic acid dehydratase (Fragment) OS=Ruminiclostridium josui OX=1499 GN=hemB PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0    0.0016       7.8     131     157 ..      61      87 ..      52     121 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.0016
+          Cutinase.aln 131 qlsaavrdkvkgvvlfGntknkqnrgs 157
+                            ++aa++  vk+v+lfG +k+k ++gs
+  sp|Q59295|HEM2_RUMJO  61 AIEAALKADVKSVLLFGLPKHKDEKGS 87 
+                           6899*******************9964 PP
+
+>> sp|Q8HY12|CLC4M_HYLLA  C-type lectin domain family 4 member M OS=Hylobates lar OX=9580 GN=CLEC4M PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.8   0.1      0.14   6.7e+02      58     118 ..      75     136 ..      71     155 .. 0.84
+   2 ?    0.4   0.0       3.2   1.6e+04      73     111 ..     160     198 ..     141     206 .. 0.77
+   3 ?    2.9   0.0      0.52   2.5e+03      64     111 ..     197     244 ..     181     252 .. 0.76
+   4 ?    0.9   0.0       2.2   1.1e+04      64      95 ..     220     251 ..     209     277 .. 0.50
+
+  Alignments for each domain:
+  == domain 1  score: 4.8 bits;  conditional E-value: 0.14
+           Cutinase.aln  58 lasklesalskrsvsiqgvg.YaAdlgdlsqgtsaagiaeivrllksaaakcPnaklvagGY 118
+                            + s+l+++ s+++v  q+    +A++g+ls+ +  + i + + +lk+a+ + P+++ + + Y
+  sp|Q8HY12|CLC4M_HYLLA  75 VPSSLSQEQSEQDVIYQNLTqLKAAVGELSEKSKLQEIYQELIQLKAAVGELPEKSTLQEIY 136
+                            567899999999*999998889*********999999*99999******9999999888777 PP
+
+  == domain 2  score: 0.4 bits;  conditional E-value: 3.2
+           Cutinase.aln  73 iqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPna 111
+                            +  +  +A++g+l++ + ++ i + +++lk+a+ + P++
+  sp|Q8HY12|CLC4M_HYLLA 160 QELTRLKAAVGELPEKSKQQEIYQELTRLKAAVGELPEK 198
+                            444557899999999999999999999999998888875 PP
+
+  == domain 3  score: 2.9 bits;  conditional E-value: 0.52
+           Cutinase.aln  64 salskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPna 111
+                            ++  ++++ +  +  +A++g+l++ + ++ i + +++lk+a+ + P++
+  sp|Q8HY12|CLC4M_HYLLA 197 EKSKQQEIYQELTRLKAAVGELPEKSKQQEIYQELTRLKAAVGELPDQ 244
+                            455556655555668899999999999999999999999999888886 PP
+
+  == domain 4  score: 0.9 bits;  conditional E-value: 2.2
+           Cutinase.aln  64 salskrsvsiqgvgYaAdlgdlsqgtsaagia 95 
+                            ++  ++++ +  +  +A++g+l+  + ++ i 
+  sp|Q8HY12|CLC4M_HYLLA 220 EKSKQQEIYQELTRLKAAVGELPDQSKQQQIY 251
+                            33333333333334555555555544444444 PP
+
+>> sp|A0A8R9Z5V5|LIP4_MALRS  Secreted mono- and diacylglycerol lipase LIP4 OS=Malassezia restricta OX=76775 GN=LIP4 PE=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0    0.0019       9.5      96     153 ..     144     201 ..     124     226 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.0019
+              Cutinase.aln  96 eivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkq 153
+                               e+ +++ + +++  ++++ + G S Gaa+++ a  +l+  + d +   + fG ++  +
+  sp|A0A8R9Z5V5|LIP4_MALRS 144 EVYEQIVKFQKQFNDKRVTTTGHSLGAAMAVLAAMDLNKRLDDGIYRSFAFGMPRTGN 201
+                               6667777778888899999**********************************98765 PP
+
+>> sp|A0A3G2S8R6|LIP4_MALR7  Secreted mono- and diacylglycerol lipase LIP4 OS=Malassezia restricta (strain ATCC 96810 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0     0.002       9.6      96     153 ..     144     201 ..     124     226 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.002
+              Cutinase.aln  96 eivrllksaaakcPnaklvagGYSQGaalvaaaieqlsaavrdkvkgvvlfGntknkq 153
+                               e+ +++ + +++  ++++ + G S Gaa+++ a  +l+  + d +   + fG ++  +
+  sp|A0A3G2S8R6|LIP4_MALR7 144 EVYEQIVKFQKQFNDKRVTTTGHSLGAAMAVLAAMDLNKRLDDGIYRSFAFGMPRTGN 201
+                               6667777778888899999**********************************98765 PP
+
+>> sp|Q8HY10|CLC4M_NOMCO  C-type lectin domain family 4 member M OS=Nomascus concolor OX=29089 GN=CLEC4M PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.8   0.2      0.14   6.7e+02      60     118 ..      77     136 ..      74     169 .. 0.83
+   2 ?    0.2   0.0       3.6   1.7e+04      74     111 ..     161     198 ..     147     205 .. 0.80
+   3 ?    3.0   0.0      0.49   2.4e+03      64     112 ..     197     245 ..     186     260 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 4.8 bits;  conditional E-value: 0.14
+           Cutinase.aln  60 sklesalskrsvsiqgvg.YaAdlgdlsqgtsaagiaeivrllksaaakcPnaklvagGY 118
+                            s+l+++ s+++v  q+    +A++g+ls+ +  + i + +++lk+a+ + P+++ + + Y
+  sp|Q8HY10|CLC4M_NOMCO  77 SSLSQEQSEQDVIYQNLTqLKAAVGELSEKSKLQEIYQELTQLKAAVGELPEKSRLQEIY 136
+                            578889999999999988899**9*****999999999999**99999999988777766 PP
+
+  == domain 2  score: 0.2 bits;  conditional E-value: 3.6
+           Cutinase.aln  74 qgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPna 111
+                              +  +A++g+l++ + ++ i + +++lk+a+ + P++
+  sp|Q8HY10|CLC4M_NOMCO 161 ELTQLKAAVGELPEKSKQQEIYQELTRLKAAVGELPEK 198
+                            44558899999999999999999999999999888875 PP
+
+  == domain 3  score: 3.0 bits;  conditional E-value: 0.49
+           Cutinase.aln  64 salskrsvsiqgvgYaAdlgdlsqgtsaagiaeivrllksaaakcPnak 112
+                            ++  ++++ +  +  +A++g+l++ + ++ i + +++lk+a+ + P+++
+  sp|Q8HY10|CLC4M_NOMCO 197 EKSKQQEIYQELTRLKAAVGELPEKSKQQEIYQELTRLKAAVGELPDQS 245
+                            4555566555556689999999999999999999999999999999875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (208 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     15379  (0.0268085); expected 11473.2 (0.02)
+Passed bias filter:                    11943  (0.0208189); expected 11473.2 (0.02)
+Passed Vit filter:                       888  (0.00154795); expected 573.7 (0.001)
+Passed Fwd filter:                       118  (0.000205696); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):             117  [number of targets reported over threshold]
+# CPU time: 3.49u 0.17s 00:00:03.66 Elapsed: 00:00:01.59
+# Mc/sec: 27190.39
+//
+[ok]

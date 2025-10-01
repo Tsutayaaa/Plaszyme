@@ -1,0 +1,296 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/SGNH_hydrolase.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/SGNH_hydrolase/SGNH_hydrolase.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/clan_families/SGNH_hydrolase/SGNH_hydrolase.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       SGNH_hydrolase.aln  [M=201]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+      2e-79  271.1   0.4    2.2e-79  270.9   0.4    1.0  1  sp|Q9HZY8|EST_PSEAE    Esterase TesA OS=Pseudomonas aeruginos
+    5.8e-41  145.5   0.0    6.7e-41  145.3   0.0    1.0  1  sp|P0ADA1|TESA_ECOLI   Thioesterase 1/protease 1/lysophosphol
+    5.8e-41  145.5   0.0    6.7e-41  145.3   0.0    1.0  1  sp|P0ADA2|TESA_ECOL6   Thioesterase 1/protease 1/lysophosphol
+      1e-40  144.7   0.0    1.3e-40  144.4   0.0    1.0  1  sp|Q07792|ESTE_VIBMI   Arylesterase OS=Vibrio mimicus OX=674 
+  ------ inclusion threshold ------
+       0.18   16.6   0.0       0.22   16.3   0.0    1.1  1  sp|P54451|YQEF_BACSU   Uncharacterized lipoprotein YqeF OS=Ba
+        1.1   14.0   0.0        1.5   13.6   0.0    1.2  1  sp|P41134|ID1_HUMAN    DNA-binding protein inhibitor ID-1 OS=
+        1.5   13.6   0.2        2.3   13.0   0.2    1.3  1  sp|Q00017|RHA1_ASPAC   Rhamnogalacturonan acetylesterase OS=A
+        1.6   13.4   0.2        2.8   12.7   0.2    1.3  1  sp|Q6FCS8|HISZ_ACIAD   ATP phosphoribosyltransferase regulato
+          3   12.6   0.4        6.3   11.5   0.4    1.5  1  sp|A1K6S0|EFTS_AZOSB   Elongation factor Ts OS=Azoarcus sp. (
+        3.2   12.5   0.1        4.6   12.0   0.1    1.2  1  sp|B0U330|KDSB_XYLFM   3-deoxy-manno-octulosonate cytidylyltr
+        3.4   12.4   0.0        5.8   11.7   0.0    1.3  1  sp|D4AZY1|A1751_ARTBC  Probable 1-alkyl-2-acetylglycerophosph
+        3.8   12.3   0.0        5.5   11.7   0.0    1.2  1  sp|Q1IIY8|ARGR_KORVE   Arginine repressor OS=Koribacter versa
+        4.3   12.1   0.6    1.9e+02    6.7   0.0    2.7  3  sp|A4SRH0|CYSG2_AERS4  Siroheme synthase 2 OS=Aeromonas salmo
+        5.2   11.8   0.0        7.3   11.3   0.0    1.2  1  sp|Q87BW1|KDSB_XYLFT   3-deoxy-manno-octulosonate cytidylyltr
+        5.4   11.8   0.0        7.6   11.3   0.0    1.2  1  sp|B2I6C4|KDSB_XYLF2   3-deoxy-manno-octulosonate cytidylyltr
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q9HZY8|EST_PSEAE  Esterase TesA OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  270.9   0.4   5.8e-84   2.2e-79       1     201 []       1     201 []       1     201 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 270.9 bits;  conditional E-value: 5.8e-84
+   SGNH_hydrolase.aln   1 mkkyalaGalalafnifealagtllvvgdsisaaleldsrddWvallekrlseeGfedsvvnasiskdtsaggaarlsallaehkpelvi 90 
+                          m++  l+G lal+   ++a a tllvvgdsisaal+ld++++Wvall+krl +eG++  vvnasis+dtsagg arl allae+kp lv+
+  sp|Q9HZY8|EST_PSEAE   1 MRALLLSGCLALVLLTQQAAAQTLLVVGDSISAALGLDTSQGWVALLQKRLADEGYDYRVVNASISGDTSAGGLARLPALLAEEKPALVV 90 
+                          8999************************************************************************************** PP
+
+   SGNH_hydrolase.aln  91 lelggnddlrkqPpaqlqqklaslveksqkagakvlllglklPakygvryttafadvftdlaeqkqvslvpfflegvggvPgmeqadgil 180
+                          +elggnd+lr+  paqlqq+las+ +k++ +gakvlllg++lP++yg ry  af  v+   a+q +  lvpfflegvggv gm+qadgi+
+  sp|Q9HZY8|EST_PSEAE  91 IELGGNDGLRGMAPAQLQQNLASMAQKARAEGAKVLLLGIQLPPNYGPRYIEAFSRVYGAVAAQEKTALVPFFLEGVGGVQGMMQADGIH 180
+                          ****************************************************************************************** PP
+
+   SGNH_hydrolase.aln 181 paeaaqeilldnvwPtlkall 201
+                          pa aaq  ll+nvwPtlk+ll
+  sp|Q9HZY8|EST_PSEAE 181 PALAAQPRLLENVWPTLKPLL 201
+                          *******************97 PP
+
+>> sp|P0ADA1|TESA_ECOLI  Thioesterase 1/protease 1/lysophospholipase L1 OS=Escherichia coli (strain K12) OX=83333 GN=tes
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  145.3   0.0   1.7e-45   6.7e-41      18     201 .]      24     204 ..      10     204 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 145.3 bits;  conditional E-value: 1.7e-45
+    SGNH_hydrolase.aln  18 ealagtllvvgdsisaaleldsrddWvallekrlseeGfedsvvnasiskdtsaggaarlsallaehkpelvilelggnddlrkqPpaq 106
+                            a a tll++gds+sa + + ++  W all+ +      + svvnasis+dts  g arl all++h+p  v++elggnd+lr+  p q
+  sp|P0ADA1|TESA_ECOLI  24 AAAADTLLILGDSLSAGYRMSASAAWPALLNDKWQS---KTSVVNASISGDTSQQGLARLPALLKQHQPRWVLVELGGNDGLRGFQPQQ 109
+                           57799***********************99988875...579*********************************************** PP
+
+    SGNH_hydrolase.aln 107 lqqklaslveksqkagakvlllglklPakygvryttafadvftdlaeqkqvslvpfflegvggvPgmeqadgilpaeaaqeilldnvwP 195
+                            +q l  +++ ++ a+a+ ll+ ++lPa+yg ry  af  ++  la++  v l+pff+e v   P+ +q dgi+p++ aq  + d +  
+  sp|P0ADA1|TESA_ECOLI 110 TEQTLRQILQDVKAANAEPLLMQIRLPANYGRRYNEAFSAIYPKLAKEFDVPLLPFFMEEVYLKPQWMQDDGIHPNRDAQPFIADWMAK 198
+                           *************************************************************************************9999 PP
+
+    SGNH_hydrolase.aln 196 tlkall 201
+                            l++l+
+  sp|P0ADA1|TESA_ECOLI 199 QLQPLV 204
+                           999986 PP
+
+>> sp|P0ADA2|TESA_ECOL6  Thioesterase 1/protease 1/lysophospholipase L1 OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  145.3   0.0   1.7e-45   6.7e-41      18     201 .]      24     204 ..      10     204 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 145.3 bits;  conditional E-value: 1.7e-45
+    SGNH_hydrolase.aln  18 ealagtllvvgdsisaaleldsrddWvallekrlseeGfedsvvnasiskdtsaggaarlsallaehkpelvilelggnddlrkqPpaq 106
+                            a a tll++gds+sa + + ++  W all+ +      + svvnasis+dts  g arl all++h+p  v++elggnd+lr+  p q
+  sp|P0ADA2|TESA_ECOL6  24 AAAADTLLILGDSLSAGYRMSASAAWPALLNDKWQS---KTSVVNASISGDTSQQGLARLPALLKQHQPRWVLVELGGNDGLRGFQPQQ 109
+                           57799***********************99988875...579*********************************************** PP
+
+    SGNH_hydrolase.aln 107 lqqklaslveksqkagakvlllglklPakygvryttafadvftdlaeqkqvslvpfflegvggvPgmeqadgilpaeaaqeilldnvwP 195
+                            +q l  +++ ++ a+a+ ll+ ++lPa+yg ry  af  ++  la++  v l+pff+e v   P+ +q dgi+p++ aq  + d +  
+  sp|P0ADA2|TESA_ECOL6 110 TEQTLRQILQDVKAANAEPLLMQIRLPANYGRRYNEAFSAIYPKLAKEFDVPLLPFFMEEVYLKPQWMQDDGIHPNRDAQPFIADWMAK 198
+                           *************************************************************************************9999 PP
+
+    SGNH_hydrolase.aln 196 tlkall 201
+                            l++l+
+  sp|P0ADA2|TESA_ECOL6 199 QLQPLV 204
+                           999986 PP
+
+>> sp|Q07792|ESTE_VIBMI  Arylesterase OS=Vibrio mimicus OX=674 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  144.4   0.0   3.3e-45   1.3e-40      21     187 ..      20     186 ..       6     196 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 144.4 bits;  conditional E-value: 3.3e-45
+    SGNH_hydrolase.aln  21 agtllvvgdsisaaleldsrddWvallekrlseeGfedsvvnasiskdtsaggaarlsallaehkpelvilelggnddlrkqPpaqlqq 109
+                              llv+gds+sa +++   + W +ll   l+e+G +  v+n sis+dt++ g arl  ll++h p+lv++elg nd+lr+ Pp     
+  sp|Q07792|ESTE_VIBMI  20 SEKLLVLGDSLSAGYQMPIEKSWPSLLPDALLEHGQDVTVINGSISGDTTGNGLARLPQLLDQHTPDLVLIELGANDGLRGFPPKVITS 108
+                           5679************************************************************************************* PP
+
+    SGNH_hydrolase.aln 110 klaslveksqkagakvlllglklPakygvryttafadvftdlaeqkqvslvpfflegvggvPgmeqadgilpaeaaqe 187
+                           +l+ ++   +  ga+v ++ +++P++yg ry+ +f d++  lae++qv+l+pffle v + P+ ++ dg++p+  aq 
+  sp|Q07792|ESTE_VIBMI 109 NLSKMISLIKDSGANVVMMQIRVPPNYGKRYSDMFYDIYPKLAEHQQVQLMPFFLEHVITKPEWMMDDGLHPKPEAQP 186
+                           ************************************************************************988885 PP
+
+>> sp|P54451|YQEF_BACSU  Uncharacterized lipoprotein YqeF OS=Bacillus subtilis (strain 168) OX=224308 GN=yqeF PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.3   0.0   5.7e-06      0.22      40     130 ..      46     139 ..      24     210 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 5.7e-06
+    SGNH_hydrolase.aln  40 rddWvallekrlseeGfedsvvnasiskdtsaggaarlsallaehkpelvilelggndd..l.rkqPpaq...lqqklaslveksqkag 122
+                            ++Wv +l+    e G+ d + na i ++t+     r+ + + ++kp+++ + +g nd   l  ++P      ++ +l  ++e+s+k g
+  sp|P54451|YQEF_BACSU  46 AQQWVNILK--TAERGNLD-ILNAGIGGQTTEDARLRFQTDVLDQKPKYLFIMFGTNDAaiLtEGKPRVSkqrFRENLVYFIEESRKHG 131
+                           466999886..57999876.88*********999999999888999***********98442357787764556789************ PP
+
+    SGNH_hydrolase.aln 123 akvlllgl 130
+                            k  l+  
+  sp|P54451|YQEF_BACSU 132 IKPILMTC 139
+                           **999975 PP
+
+>> sp|P41134|ID1_HUMAN  DNA-binding protein inhibitor ID-1 OS=Homo sapiens OX=9606 GN=ID1 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.6   0.0   3.8e-05       1.5      64     122 ..      41      99 ..      27     119 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 3.8e-05
+   SGNH_hydrolase.aln  64 siskdtsaggaarlsallaehkpelvilelggn.ddlrkqPpaqlqqklaslveksqkag 122
+                          +is+ + +g  arl all+e++ ++++ ++ g    l++  p+  q +  s ve  q+  
+  sp|P41134|ID1_HUMAN  41 AISRCA-GGAGARLPALLDEQQVNVLLYDMNGCySRLKELVPTLPQNRKVSKVEILQHVI 99 
+                          455443.44669******************775256777666666666778888777655 PP
+
+>> sp|Q00017|RHA1_ASPAC  Rhamnogalacturonan acetylesterase OS=Aspergillus aculeatus OX=5053 GN=rha1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.2   5.9e-05       2.3       8      98 ..       4      93 ..       1     100 [. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 5.9e-05
+    SGNH_hydrolase.aln  8 Galalafnifealagtllvvgdsisaalel.dsrddWvallekrlseeGfedsvvnasiskdtsaggaarlsallaehkpelvilelggnd 97
+                           ala +f++  ala+t+ + gds  a  +     ++W   l   ls +  +d v   s +  t  g    ++ ++   + ++vi+e+g nd
+  sp|Q00017|RHA1_ASPAC  4 AALAPLFFLPSALATTVYLAGDSTMAKNGGgSGTNGWGEYLASYLSATVVNDAVAGRSARSYTREGRFENIADVVT--AGDYVIVEFGHND 92
+                          689999****************98776655156789***************************9998888888876..5689********9 PP
+
+    SGNH_hydrolase.aln 98 d 98
+                          +
+  sp|Q00017|RHA1_ASPAC 93 G 93
+                          8 PP
+
+>> sp|Q6FCS8|HISZ_ACIAD  ATP phosphoribosyltransferase regulatory subunit OS=Acinetobacter baylyi (strain ATCC 33305 / B
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.2   7.3e-05       2.8      73     113 ..     339     380 ..     330     387 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 7.3e-05
+    SGNH_hydrolase.aln  73 gaarlsallaehkpe.lvilelggnddlrkqPpaqlqqklas 113
+                              +l   +a+ +++ l +++l gnddl+  P+a ++ +la 
+  sp|Q6FCS8|HISZ_ACIAD 339 QDQQLLGAIAQARQNgLRVIQLLGNDDLSSVPYATHKMELAQ 380
+                           4555555566666653889******************99995 PP
+
+>> sp|A1K6S0|EFTS_AZOSB  Elongation factor Ts OS=Azoarcus sp. (strain BH72) OX=418699 GN=tsf PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.4   0.00016       6.3      10     125 ..      51     166 ..      44     179 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.00016
+    SGNH_hydrolase.aln  10 lalafnifealagtllvvgdsisaaleldsrddWvallekrlseeGfedsvvnasiskdtsaggaarlsallaehkpelvilelggndd 98 
+                            a+a    e ++gt l    +++a++el+   d+va ++  +   G    +v++    d +a  a  l     e  +  ++ ++g n  
+  sp|A1K6S0|EFTS_AZOSB  51 KAAARVTAEGIVGTYLSADGKLAAMVELNCETDFVAKNDDFIGLAGSLATLVATKNPADVEALSALELDGQTVEAFRTALVGKIGENIT 139
+                           5778888999*******999**********************99999999999988888888777777776667667777777777777 PP
+
+    SGNH_hydrolase.aln  99 lrkqPpaqlqqklaslveksqkagakv 125
+                           +r+    + + ++as v    k g  v
+  sp|A1K6S0|EFTS_AZOSB 140 VRRFSRIEAKGQVASYVHAGAKIGVLV 166
+                           777777777777777777666666555 PP
+
+>> sp|B0U330|KDSB_XYLFM  3-deoxy-manno-octulosonate cytidylyltransferase OS=Xylella fastidiosa (strain M12) OX=405440 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.1   0.00012       4.6      33      99 ..      41     109 ..      31     143 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00012
+    SGNH_hydrolase.aln  33 aaleldsrddWvallekrlseeGfedsvvnasiskdtsaggaarls..allaehkpelvilelggnddl 99 
+                           +al   +r+ Wva  + r+ e     + v  +i  +t   g+ rl+  a +a   pe+ +++l g++ +
+  sp|B0U330|KDSB_XYLFM  41 RALSAGAREVWVATDDVRIAEAVASLDGVHVAITANTHLSGSDRLAecARIAGWDPEVCVVNLQGDEPF 109
+                           7889999**************************************744789999*********877644 PP
+
+>> sp|D4AZY1|A1751_ARTBC  Probable 1-alkyl-2-acetylglycerophosphocholine esterase OS=Arthroderma benhamiae (strain ATCC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   0.00015       5.8      10      78 ..      95     163 ..      90     183 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00015
+     SGNH_hydrolase.aln  10 lalafnifealagtllvvgdsisaaleldsrddWvallekrlseeGfedsvvnasiskdtsaggaarls 78 
+                             +  +++ + la+  + v  ++ + +++ds+ d  ++   ++s+ G+   +v +si ++ s+ g + ++
+  sp|D4AZY1|A1751_ARTBC  95 ASGGHWVDGLLAASRIRVCADVKKGYQTDSHGDNHGIPILLFSPGGNTTRLVYSSIAQTISSAGYTVIT 163
+                            45579*********9999******************************************997776655 PP
+
+>> sp|Q1IIY8|ARGR_KORVE  Arginine repressor OS=Koribacter versatilis (strain Ellin345) OX=204669 GN=argR PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   0.00014       5.5      36     113 ..      63     141 ..      56     146 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00014
+    SGNH_hydrolase.aln  36 eldsrddWvallekrlseeGfedsvvnasiskdtsaggaarlsalla.ehkpelvilelggnddl.rkqPpaqlqqklas 113
+                           e ds+  W+   e+++ e  ++ ++ + ++  +tsag a  ++a l+ e+ pe v+  +gg+d +   +P  +   kl s
+  sp|Q1IIY8|ARGR_KORVE  63 EDDSNAAWLPSVERLIREFVYDVKIAQNTVVVKTSAGSAQPVAAALDaEGWPE-VVGTVGGDDTIfVVTPSNKDAEKLQS 141
+                           4577777********************************99998776266666.55678888876245666666666666 PP
+
+>> sp|A4SRH0|CYSG2_AERS4  Siroheme synthase 2 OS=Aeromonas salmonicida (strain A449) OX=382245 GN=cysG2 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0    0.0049   1.9e+02      69     118 ..     125     174 ..      56     253 .. 0.85
+   2 ?   -3.2   0.0       5.2     2e+05      82     127 ..     345     393 ..     316     396 .. 0.53
+   3 ?    3.0   0.0     0.066   2.5e+03       5      32 ..     417     445 ..     413     455 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.0049
+     SGNH_hydrolase.aln  69 tsaggaarlsallaehkpelvilelggnddlrkqPpaqlqqklaslveks 118
+                            +s+g a  l  ll e  + l+   lgg  +l+++   + +q l+s+ ++ 
+  sp|A4SRH0|CYSG2_AERS4 125 SSGGKAPVLVRLLRERLESLLPRHLGGLTELSGRVRDKAKQVLSSISDRR 174
+                            5677778899***********************************99875 PP
+
+  == domain 2  score: -3.2 bits;  conditional E-value: 5.2
+     SGNH_hydrolase.aln  82 aehkpelvilelggnddlrkqPpaq....lqqklaslveksqkagakvll 127
+                             +h++  v +     +   k+P  q     qq l   +  ++ ++ + +l
+  sp|A4SRH0|CYSG2_AERS4 345 RDHAQSAVFITG-HCQKEGKEPDWQqlavTQQTLVIYMGLMRSEHIQQQL 393
+                            445555555442.2222222222222222677777777777777777666 PP
+
+  == domain 3  score: 3.0 bits;  conditional E-value: 0.066
+     SGNH_hydrolase.aln   5 alaGala.lafnifealagtllvvgdsis 32 
+                            +l+G+la la  +++a+ + l+v+g+ +s
+  sp|A4SRH0|CYSG2_AERS4 417 VLTGTLAeLAVLAQQAVSPSLIVIGEVVS 445
+                            5778887467889************9998 PP
+
+>> sp|Q87BW1|KDSB_XYLFT  3-deoxy-manno-octulosonate cytidylyltransferase OS=Xylella fastidiosa (strain Temecula1 / ATCC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.0   0.00019       7.3      32      99 ..      35     104 ..      25     138 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00019
+    SGNH_hydrolase.aln  32 saaleldsrddWvallekrlseeGfedsvvnasiskdtsaggaarls..allaehkpelvilelggnddl 99 
+                            +al + +r+ Wva  + r+ e     + v  ++  +t   g+ rl+  a +a   pe+ +++l g++ +
+  sp|Q87BW1|KDSB_XYLFT  35 ERALSTGAREVWVATDDVRIAEAVASLDGVHVAMTANTHLSGSDRLAecARIAGWDPEVCVVNLQGDEPF 104
+                           47999*******************99999999******999****9744789999*********877644 PP
+
+>> sp|B2I6C4|KDSB_XYLF2  3-deoxy-manno-octulosonate cytidylyltransferase OS=Xylella fastidiosa (strain M23) OX=405441 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.0    0.0002       7.6      32      99 ..      40     109 ..      30     143 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.0002
+    SGNH_hydrolase.aln  32 saaleldsrddWvallekrlseeGfedsvvnasiskdtsaggaarls..allaehkpelvilelggnddl 99 
+                            +al + +r+ Wva  + r+ e     + v  ++  +t   g+ rl+  a +a   pe+ +++l g++ +
+  sp|B2I6C4|KDSB_XYLF2  40 ERALSTGAREVWVATDDVRIAEAVASLDGVHVAMTANTHLSGSDRLAecARIAGWDPEVCVVNLQGDEPF 109
+                           47999*******************99999999******999****9744789999*********877644 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (201 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     16207  (0.0282519); expected 11473.2 (0.02)
+Passed bias filter:                    13668  (0.0238259); expected 11473.2 (0.02)
+Passed Vit filter:                       792  (0.00138061); expected 573.7 (0.001)
+Passed Fwd filter:                        15  (2.61478e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              15  [number of targets reported over threshold]
+# CPU time: 3.42u 0.17s 00:00:03.59 Elapsed: 00:00:01.56
+# Mc/sec: 26640.98
+//
+[ok]

@@ -1,0 +1,1901 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/plastic_families/hmm/Impranil.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/Impranil/Impranil.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/plastic_families/Impranil/Impranil.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Impranil.aln  [M=309]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+   5.9e-151  507.0   8.5   7.3e-151  506.7   8.5    1.0  1  sp|P0DX29|PETH1_AMYMS     Cutinase OS=Amycolatopsis mediterra
+   1.5e-135  456.4   3.6   1.8e-135  456.1   3.6    1.2  1  sp|Q9L2J6|BHETH_STRCO     Bis(hydroxyethyl) terephthalate hyd
+   3.2e-117  396.2   2.3   3.7e-117  396.0   2.3    1.0  1  sp|Q47RJ6|PETH2_THEFY     Cutinase OS=Thermobifida fusca (str
+   3.2e-117  396.2   2.3   3.7e-117  396.0   2.3    1.0  1  sp|Q6A0I4|PETH2_THEFU     Cutinase cut2 OS=Thermobifida fusca
+   8.5e-117  394.8   2.8     1e-116  394.6   2.8    1.0  1  sp|D4Q9N1|PETH1_THEAE     Cutinase est1 OS=Thermobifida alba 
+     2e-116  393.6   1.5   2.3e-116  393.4   1.5    1.0  1  sp|G8GER6|PETH1_THEFU     Cutinase cut1 OS=Thermobifida fusca
+     2e-116  393.6   1.5   2.3e-116  393.4   1.5    1.0  1  sp|Q47RJ7|PETH1_THEFY     Cutinase OS=Thermobifida fusca (str
+     1e-114  388.0   0.5   1.1e-114  387.9   0.5    1.0  1  sp|E9LVH8|PETH1_THECS     Cutinase 1 (Fragment) OS=Thermobifi
+   6.3e-114  385.4   0.3     7e-114  385.2   0.3    1.0  1  sp|E9LVH9|PETH2_THECS     Cutinase 2 (Fragment) OS=Thermobifi
+   1.3e-112  381.0   2.4   1.6e-112  380.8   2.4    1.0  1  sp|F7IX06|PETH2_THEAE     Cutinase est2 OS=Thermobifida alba 
+   3.3e-103  350.2   5.9   3.9e-103  349.9   5.9    1.0  1  sp|G9BY57|PETH_UNKP       Leaf-branch compost cutinase OS=Unk
+    1.4e-96  328.4  11.4    1.6e-96  328.2  11.4    1.0  1  sp|A0A0K8P6T7|PETH_PISS1  Poly(ethylene terephthalate) hydrol
+    2.9e-75  258.4   0.7    3.4e-75  258.2   0.7    1.1  1  sp|P19833|LIP1_MORS1      Lipase 1 OS=Moraxella sp. (strain T
+      7e-07   33.8   0.0    8.1e-07   33.6   0.0    1.1  1  sp|F8QQ74|NAAC_BRASZ      Probable 2-oxo-3-(5-oxofuran-2-ylid
+    0.00012   26.4   0.0      0.016   19.4   0.0    2.1  2  sp|Q28262|PAFA_CANLF      Platelet-activating factor acetylhy
+    0.00028   25.2   0.0      0.035   18.3   0.0    2.3  2  sp|P83006|PAFA2_RAT       Platelet-activating factor acetylhy
+    0.00089   23.6   0.0       0.42   14.8   0.0    2.1  2  sp|Q99390|YPT2_ECOLX      Uncharacterized 31.7 kDa protein in
+     0.0012   23.1   0.0     0.0025   22.1   0.0    1.5  1  sp|Q90678|PAFA_CHICK      Platelet-activating factor acetylhy
+     0.0016   22.7   0.0      0.094   16.9   0.0    2.4  2  sp|Q8VDG7|PAFA2_MOUSE     Platelet-activating factor acetylhy
+     0.0024   22.2   0.0      0.049   17.9   0.0    2.0  2  sp|G2JHL6|AIDA_ACIBM      Quorum-quenching protein AidA OS=Ac
+     0.0029   21.9   0.1     0.0052   21.1   0.1    1.3  1  sp|P76049|YCJY_ECOLI      Uncharacterized protein YcjY OS=Esc
+     0.0046   21.2   0.1     0.0073   20.6   0.1    1.2  1  sp|A0A7L8UVC6|FFSE_ASPFV  Hydrolase ffsE OS=Aspergillus flavi
+     0.0049   21.1   0.2      0.027   18.7   0.1    2.0  2  sp|Q94LX1|CLH1_CITUN      Chlorophyllase-1, chloroplastic OS=
+     0.0051   21.1   0.1     0.0078   20.5   0.1    1.2  1  sp|Q01609|Y2218_PSEAE     Uncharacterized protein PA2218 OS=P
+     0.0051   21.1   0.0       0.72   14.0   0.0    2.5  2  sp|P70683|PAFA_CAVPO      Platelet-activating factor acetylhy
+     0.0062   20.8   0.0          3   12.0   0.0    2.1  2  sp|P29368|YPT1_ECOLX      Uncharacterized 31.7 kDa protein in
+     0.0066   20.7   0.1      0.066   17.4   0.0    2.0  2  sp|Q49SP7|TPSCS_POGCB     Gamma-curcumene synthase OS=Pogoste
+     0.0075   20.5   0.1      0.012   19.9   0.1    1.2  1  sp|A0A1W5T1Y7|POXO_PENOX  Hydrolyase poxO OS=Penicillium oxal
+  ------ inclusion threshold ------
+      0.011   19.9   0.1       0.02   19.1   0.1    1.4  1  sp|Q9MV14|CLH1_CITSI      Chlorophyllase-1, chloroplastic OS=
+      0.015   19.6   0.1      0.023   18.9   0.1    1.2  1  sp|S8ASK9|POXO_PENO1      Hydrolyase poxO OS=Penicillium oxal
+       0.02   19.2   0.0      0.076   17.2   0.0    1.9  2  sp|A0A6J4B4M6|LUC6_FUSSX  Hydrolase LUC6 OS=Fusarium sp. OX=2
+      0.022   19.0   0.0        0.4   14.9   0.0    2.1  2  sp|Q13093|PAFA_HUMAN      Platelet-activating factor acetylhy
+      0.023   18.9   0.0       0.78   13.9   0.0    2.1  2  sp|Q28017|PAFA_BOVIN      Platelet-activating factor acetylhy
+      0.024   18.9   0.0      0.091   17.0   0.0    1.8  2  sp|Q99487|PAFA2_HUMAN     Platelet-activating factor acetylhy
+      0.033   18.4   0.0       0.19   15.9   0.0    2.0  2  sp|P79106|PAFA2_BOVIN     Platelet-activating factor acetylhy
+      0.033   18.4   0.2      0.054   17.7   0.2    1.2  1  sp|Q7MUW6|PTP_PORGI       Prolyl tripeptidyl peptidase OS=Por
+      0.034   18.4   0.2      0.054   17.7   0.2    1.2  1  sp|B2RJX3|PTP_PORG3       Prolyl tripeptidyl peptidase OS=Por
+      0.051   17.8   0.0       0.37   15.0   0.0    1.9  2  sp|Q4WAZ8|PSOB_ASPFU      Alpha/beta hydrolase psoB OS=Asperg
+      0.057   17.6   0.0        1.7   12.8   0.0    2.1  2  sp|Q60963|PAFA_MOUSE      Platelet-activating factor acetylhy
+      0.059   17.6   0.0        0.2   15.9   0.0    1.7  2  sp|G4MVZ4|ORFZB_PYRO7     Hydrolase ORFZ OS=Pyricularia oryza
+      0.073   17.3   0.1       0.13   16.5   0.1    1.4  1  sp|P39298|YJFP_ECOLI      Esterase YjfP OS=Escherichia coli (
+      0.078   17.2   0.0       0.15   16.3   0.0    1.4  1  sp|Q0V6Q1|PHMG_PHANO      Hydrolase phmG OS=Phaeosphaeria nod
+       0.08   17.2   0.0       0.14   16.4   0.0    1.4  1  sp|Q6F3I7|DAP4_PSEMX      Dipeptidyl aminopeptidase 4 OS=Pseu
+      0.092   17.0   0.2      0.092   17.0   0.2    1.9  2  sp|F0XS04|DAPB_GROCL      Probable dipeptidyl-aminopeptidase 
+      0.095   16.9   0.3         24    9.0   0.1    2.1  2  sp|P29715|BPOA2_KITAU     Non-haem bromoperoxidase BPO-A2 OS=
+       0.13   16.4   0.1       0.46   14.7   0.1    1.8  1  sp|O64252|PRXH_BPMD2      Putative non-heme haloperoxidase OS
+       0.14   16.4   0.1       0.22   15.7   0.1    1.3  1  sp|A1CJQ1|DAPB_ASPCL      Probable dipeptidyl-aminopeptidase 
+       0.14   16.4   0.0       0.28   15.4   0.0    1.5  1  sp|P9WEZ7|ACRC_ASPA1      Hydrolase acrC OS=Aspergillus acule
+        0.2   15.9   0.0       0.35   15.1   0.0    1.3  1  sp|W7N6P0|FUS2_GIBM7      20-hydroxy-prefusarin hydrolase FUS
+       0.22   15.7   0.2         24    9.0   0.1    2.1  2  sp|O31168|PRXC_KITAU      Non-heme chloroperoxidase OS=Kitasa
+       0.22   15.7   0.0       0.35   15.0   0.0    1.2  1  sp|B6HFS8|DAPB_PENRW      Probable dipeptidyl-aminopeptidase 
+        0.3   15.3   0.0        0.5   14.5   0.0    1.3  1  sp|S0EE80|FUS2_GIBF5      20-hydroxy-prefusarin hydrolase FUS
+        0.4   14.9   0.0       0.65   14.2   0.0    1.2  1  sp|Q93NG6|DHPON_PAENI     2,6-dihydropseudooxynicotine hydrol
+       0.42   14.8   0.0       0.62   14.2   0.0    1.2  1  sp|Q8R1G2|CMBL_MOUSE      Carboxymethylenebutenolidase homolo
+       0.51   14.5   0.0       0.85   13.8   0.0    1.2  1  sp|C7YYG9|DAPB_FUSV7      Probable dipeptidyl-aminopeptidase 
+       0.54   14.4   0.0        3.6   11.7   0.0    1.9  2  sp|Q22943|PAFA_CAEEL      Platelet-activating factor acetylhy
+        0.7   14.1   0.0        1.2   13.3   0.0    1.3  1  sp|E3S9K3|DAPB_PYRTT      Probable dipeptidyl-aminopeptidase 
+       0.79   13.9   0.0        7.3   10.7   0.0    2.0  2  sp|P75311|ESL2_MYCPN      Putative esterase/lipase 2 OS=Mycop
+       0.82   13.8   0.0        1.3   13.2   0.0    1.2  1  sp|P9WIK8|PAPA1_MYCTO     2'-acyl-2-O-sulfo-trehalose (hydrox
+       0.82   13.8   0.0        1.3   13.2   0.0    1.2  1  sp|A1KQF9|PAPA1_MYCBP     2'-acyl-2-O-sulfo-trehalose (hydrox
+       0.82   13.8   0.0        1.3   13.2   0.0    1.2  1  sp|A5U9F3|PAPA1_MYCTA     2'-acyl-2-O-sulfo-trehalose (hydrox
+       0.82   13.8   0.0        1.3   13.2   0.0    1.2  1  sp|P9WIK9|PAPA1_MYCTU     2'-acyl-2-O-sulfo-trehalose (hydrox
+       0.82   13.8   0.0        1.3   13.2   0.0    1.2  1  sp|Q7TVK9|PAPA1_MYCBO     2'-acyl-2-O-sulfo-trehalose (hydrox
+       0.85   13.8   0.1        1.3   13.2   0.1    1.3  1  sp|P0A573|Y2734_MYCBO     Uncharacterized protein Mb2734 OS=M
+       0.85   13.8   0.1        1.3   13.2   0.1    1.3  1  sp|P9WNH2|Y2715_MYCTO     Uncharacterized protein MT2788 OS=M
+       0.85   13.8   0.1        1.3   13.2   0.1    1.3  1  sp|P9WNH3|Y2715_MYCTU     Uncharacterized protein Rv2715 OS=M
+       0.86   13.8   0.6         17    9.5   0.7    2.9  2  sp|P94388|CAH_BACSU       Cephalosporin-C deacetylase OS=Baci
+       0.93   13.7   0.1        1.4   13.1   0.1    1.2  1  sp|A6GYW4|GSA_FLAPJ       Glutamate-1-semialdehyde 2,1-aminom
+       0.97   13.6   0.0        1.5   12.9   0.0    1.2  1  sp|Q55EQ3|Y9086_DICDI     Uncharacterized abhydrolase domain-
+          1   13.5   0.1          2   12.6   0.1    1.4  1  sp|C5P334|DAPB_COCP7      Probable dipeptidyl-aminopeptidase 
+          1   13.5   0.1          2   12.6   0.1    1.4  1  sp|E9CUF4|DAPB_COCPS      Probable dipeptidyl-aminopeptidase 
+        1.1   13.4   0.2          2   12.6   0.2    1.3  1  sp|A4QYQ5|DAPB_PYRO7      Probable dipeptidyl-aminopeptidase 
+        1.1   13.4   0.0          2   12.6   0.0    1.3  1  sp|P70948|YITV_BACSU      Putative esterase YitV OS=Bacillus 
+        1.4   13.1   0.1        2.7   12.2   0.1    1.4  1  sp|B0XYK8|DAPB_ASPFC      Probable dipeptidyl-aminopeptidase 
+        1.4   13.1   0.1        2.7   12.2   0.1    1.4  1  sp|Q4WX13|DAPB_ASPFU      Probable dipeptidyl-aminopeptidase 
+        1.4   13.0   0.1        3.1   11.9   0.1    1.5  1  sp|A1D7R6|DAPB_NEOFI      Probable dipeptidyl-aminopeptidase 
+        1.5   13.0   0.0        2.5   12.3   0.0    1.2  1  sp|C4JHY5|DAPB_UNCRE      Probable dipeptidyl-aminopeptidase 
+        1.6   12.9   0.1          3   12.0   0.1    1.3  1  sp|Q96VT7|DAPB_ASPNG      Dipeptidyl-aminopeptidase B OS=Aspe
+        1.9   12.6   0.0        2.4   12.3   0.0    1.1  1  sp|Q51758|EST1_PSEFL      Carboxylesterase 1 OS=Pseudomonas f
+        1.9   12.6   0.0        3.5   11.8   0.0    1.3  1  sp|Q18253|DPF2_CAEEL      Dipeptidyl peptidase family member 
+          2   12.6   0.0        3.3   11.9   0.0    1.2  1  sp|Q0CXB1|DAPB_ASPTN      Probable dipeptidyl-aminopeptidase 
+        2.1   12.5   0.0        5.1   11.2   0.0    1.6  1  sp|E9ETL5|DAPB_METRA      Probable dipeptidyl-aminopeptidase 
+        2.5   12.2   0.1        4.4   11.5   0.1    1.3  1  sp|Q5B934|DAPB_EMENI      Probable dipeptidyl-aminopeptidase 
+        2.5   12.2   0.0        4.5   11.4   0.0    1.3  1  sp|P97321|SEPR_MOUSE      Prolyl endopeptidase FAP OS=Mus mus
+        2.6   12.2   0.0        4.7   11.4   0.0    1.3  1  sp|Q08E20|ESTD_BOVIN      S-formylglutathione hydrolase OS=Bo
+        2.9   12.0   0.0        7.3   10.7   0.0    1.6  1  sp|E9ED72|DAPB_METAQ      Probable dipeptidyl-aminopeptidase 
+        3.1   11.9   0.0        4.7   11.3   0.0    1.2  1  sp|A5FIM3|GSA_FLAJ1       Glutamate-1-semialdehyde 2,1-aminom
+        3.3   11.9   0.1        4.4   11.4   0.1    1.1  1  sp|C6XMG3|FTSQ_HIRBI      Cell division protein FtsQ OS=Hirsc
+        3.3   11.8   0.0         98    7.0   0.0    2.1  2  sp|Q55921|PRXC_SYNY3      Putative non-heme chloroperoxidase 
+        3.4   11.8   0.0        5.4   11.1   0.0    1.3  1  sp|Q8X8L4|DLHH_ECO57      Putative carboxymethylenebutenolida
+        3.5   11.8   0.0        4.1   11.6   0.0    1.2  1  sp|Q7TP52|CMBL_RAT        Carboxymethylenebutenolidase homolo
+        3.5   11.8   0.1        5.9   11.0   0.1    1.2  1  sp|C5GVF3|DAPB_AJEDR      Probable dipeptidyl-aminopeptidase 
+        3.5   11.8   0.1        5.9   11.0   0.1    1.2  1  sp|C5JC30|DAPB_BLAGS      Probable dipeptidyl-aminopeptidase 
+        3.9   11.6   0.0        5.4   11.1   0.0    1.3  1  sp|O34973|YTAP_BACSU      Putative hydrolase YtaP OS=Bacillus
+          4   11.6   0.0        5.5   11.1   0.0    1.2  1  sp|Q54M29|Y6239_DICDI     Serine hydrolase-like protein DDB_G
+        4.8   11.3   0.0         12   10.0   0.0    1.6  2  sp|O06734|YISY_BACSU      AB hydrolase superfamily protein Yi
+        4.8   11.3   0.0        7.6   10.7   0.0    1.2  1  sp|Q9P7E9|YDZF_SCHPO      Putative dipeptidyl aminopeptidase 
+        5.3   11.2   0.1          9   10.4   0.1    1.3  1  sp|D5GM60|DAPB_TUBMM      Probable dipeptidyl-aminopeptidase 
+        5.3   11.2   0.0         12   10.0   0.0    1.5  1  sp|Q6V1X1|DPP8_HUMAN      Dipeptidyl peptidase 8 OS=Homo sapi
+        5.7   11.1   0.0        9.4   10.4   0.0    1.3  1  sp|A0A8F4NUL3|PYDG_ACRSP  Alpha/beta hydrolase pydG OS=Acremo
+        5.7   11.1   0.0         13    9.9   0.0    1.5  1  sp|Q80YA7|DPP8_MOUSE      Dipeptidyl peptidase 8 OS=Mus muscu
+        5.8   11.1   0.3         11   10.1   0.0    1.6  1  sp|Q0UVK7|DAPB_PHANO      Probable dipeptidyl-aminopeptidase 
+          6   11.0   0.0        9.2   10.4   0.0    1.2  1  sp|A0A8F4NU75|GKAG_PENCI  Alpha/beta hydrolase gkaG OS=Penici
+        8.2   10.5   3.6      1e+02    7.0   0.2    2.8  2  sp|G2QJR6|GCE2_THET4      4-O-methyl-glucuronoyl methylestera
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|P0DX29|PETH1_AMYMS  Cutinase OS=Amycolatopsis mediterranei (strain S699) OX=713604 GN=cut1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  506.7   8.5  1.3e-154  7.3e-151      17     309 .]      29     309 .]      19     309 .] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 506.7 bits;  conditional E-value: 1.3e-154
+           Impranil.aln  17 galllsasafatnppadpppgaespyergpdptvssleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvale 104
+                            g ++l+a a+ t   a p+p+a +pyergpdpt++s+ea++gs+at+tv+vsrlavsgfgggtiyypt+t++gt++a++++pgf+a +
+  sp|P0DX29|PETH1_AMYMS  29 G-VVLAALAL-TTGVAAPAPAAANPYERGPDPTTASIEATSGSFATSTVTVSRLAVSGFGGGTIYYPTTTTAGTFGALSIAPGFTATQ 114
+                            3.34445555.55678899********************************************************************* PP
+
+           Impranil.aln 105 ssidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaa 192
+                            ssi+wlgp+lasqgfvv+tidtlttsdqpdsr+rqlla+ldyl++qss     vrsrids rlgvvghsmggggtle+ars+++l+aa
+  sp|P0DX29|PETH1_AMYMS 115 SSIAWLGPRLASQGFVVFTIDTLTTSDQPDSRGRQLLASLDYLTQQSS-----VRSRIDSTRLGVVGHSMGGGGTLEAARSRPTLQAA 197
+                            ************************************************.....*********************************** PP
+
+           Impranil.aln 193 iplagwdlvktyagrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrflded 280
+                            +pl++wdl+k ++ + +vptlvv+aq+d+vapva+h+ipfy +lps+l++aylelr+ash+a+ns    n+++akytlswlkrf+d+d
+  sp|P0DX29|PETH1_AMYMS 198 VPLTAWDLTKNWS-TLQVPTLVVGAQSDTVAPVASHSIPFYTSLPSTLDRAYLELRGASHFAPNS---PNTTIAKYTLSWLKRFIDND 281
+                            *************.***************************************************...9******************* PP
+
+           Impranil.aln 281 tryeqflcgpihssdlkiseyrgncpyng 309
+                            tryeqflc pi+s++l+is+yrgncp+ng
+  sp|P0DX29|PETH1_AMYMS 282 TRYEQFLC-PIPSTSLSISDYRGNCPHNG 309
+                            ********.******************98 PP
+
+>> sp|Q9L2J6|BHETH_STRCO  Bis(hydroxyethyl) terephthalate hydrolase OS=Streptomyces coelicolor (strain ATCC BAA-471 / A3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  456.1   3.6  3.3e-139  1.8e-135      33     307 ..      44     308 ..       3     310 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 456.1 bits;  conditional E-value: 3.3e-139
+           Impranil.aln  33 dpppgaespyergpdptvssleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvalessidwlgpklasqgfv 120
+                              + +a++pyergp+pt ss+ea rg+y+   + vs lav+gfgggtiyyptst +gt++a+v++pgf+a +ssi+wlgp+lasqgfv
+  sp|Q9L2J6|BHETH_STRCO  44 PGAQAADNPYERGPAPTESSIEALRGPYSVADTSVSSLAVTGFGGGTIYYPTSTSDGTFGAVVIAPGFTAYQSSIAWLGPRLASQGFV 131
+                            234579********************************************************************************** PP
+
+           Impranil.aln 121 vltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyagrv 208
+                            v+tidt+tt dqpdsr+rqllaaldyl+ +ss     vr+rids rlgv+ghsmggggtle+a+s+++l+aaipl++w+l k++   v
+  sp|Q9L2J6|BHETH_STRCO 132 VFTIDTNTTLDQPDSRGRQLLAALDYLTGRSS-----VRGRIDSGRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKSWP-EV 213
+                            ********************************.....************************************************.9* PP
+
+           Impranil.aln 209 rvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrfldedtryeqflcgpihssdl 296
+                             +ptlvv+a+ d++apva+ha pfy  lpss ++aylel+na+h+++n+   sn+++aky++swlkrf+d+dtryeqflc p +  +l
+  sp|Q9L2J6|BHETH_STRCO 214 STPTLVVGADGDTIAPVASHAEPFYSGLPSSTDRAYLELNNATHFSPNT---SNTTIAKYSISWLKRFIDDDTRYEQFLC-PLPRPSL 297
+                            *************************************************...****************************.******* PP
+
+           Impranil.aln 297 kiseyrgncpy 307
+                             i eyrgncp+
+  sp|Q9L2J6|BHETH_STRCO 298 TIEEYRGNCPH 308
+                            **********9 PP
+
+>> sp|Q47RJ6|PETH2_THEFY  Cutinase OS=Thermobifida fusca (strain YX) OX=269800 GN=TfH PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  396.0   2.3  6.8e-121  3.7e-117      17     307 ..      19     301 .]       3     301 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 396.0 bits;  conditional E-value: 6.8e-121
+           Impranil.aln  17 galllsasafatnppadpppgaespyergpdptvssleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvale 104
+                             +   +a+a++t     +p+ a +pyergp+pt + leas+g+++ +  +vsrl+ sgfgggtiyyp    + t++a+++ pg++  e
+  sp|Q47RJ6|PETH2_THEFY  19 QVTAAAATALVTAVSLAAPAHAANPYERGPNPTDALLEASSGPFSVSEENVSRLSASGFGGGTIYYPRE--NNTYGAVAISPGYTGTE 104
+                            33344567788889999999***********************************************99..99*************** PP
+
+           Impranil.aln 105 ssidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaa 192
+                            +si+wlg ++as+gfvv+tidt tt dqpdsra ql+aal+++i+++s   s vrsrids+rl v+ghsmggggtl+ a  ++ lkaa
+  sp|Q47RJ6|PETH2_THEFY 105 ASIAWLGERIASHGFVVITIDTITTLDQPDSRAEQLNAALNHMINRAS---STVRSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKAA 189
+                            ************************************************...99*********************************** PP
+
+           Impranil.aln 193 iplagwdlvktyagrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrflded 280
+                            ipl++w+l k ++  v vptl+++a+ d++apva+ha pfyn+lpss+ kaylel +a+h+a+n     n+++ ky+++wlkrf+d+d
+  sp|Q47RJ6|PETH2_THEFY 190 IPLTPWHLNKNWS-SVTVPTLIIGADLDTIAPVATHAKPFYNSLPSSISKAYLELDGATHFAPNI---PNKIIGKYSVAWLKRFVDND 273
+                            *************.9*************************************************9...9******************* PP
+
+           Impranil.aln 281 tryeqflc.gpihssdlkiseyrgncpy 307
+                            try qflc gp +    ++ eyr  cp+
+  sp|Q47RJ6|PETH2_THEFY 274 TRYTQFLCpGPRDGLFGEVEEYRSTCPF 301
+                            ********6677777789*********7 PP
+
+>> sp|Q6A0I4|PETH2_THEFU  Cutinase cut2 OS=Thermobifida fusca OX=2021 GN=cut2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  396.0   2.3  6.8e-121  3.7e-117      17     307 ..      19     301 .]       3     301 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 396.0 bits;  conditional E-value: 6.8e-121
+           Impranil.aln  17 galllsasafatnppadpppgaespyergpdptvssleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvale 104
+                             +   +a+a++t     +p+ a +pyergp+pt + leas+g+++ +  +vsrl+ sgfgggtiyyp    + t++a+++ pg++  e
+  sp|Q6A0I4|PETH2_THEFU  19 QVTAAAATALVTAVSLAAPAHAANPYERGPNPTDALLEASSGPFSVSEENVSRLSASGFGGGTIYYPRE--NNTYGAVAISPGYTGTE 104
+                            33344567788889999999***********************************************99..99*************** PP
+
+           Impranil.aln 105 ssidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaa 192
+                            +si+wlg ++as+gfvv+tidt tt dqpdsra ql+aal+++i+++s   s vrsrids+rl v+ghsmggggtl+ a  ++ lkaa
+  sp|Q6A0I4|PETH2_THEFU 105 ASIAWLGERIASHGFVVITIDTITTLDQPDSRAEQLNAALNHMINRAS---STVRSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKAA 189
+                            ************************************************...99*********************************** PP
+
+           Impranil.aln 193 iplagwdlvktyagrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrflded 280
+                            ipl++w+l k ++  v vptl+++a+ d++apva+ha pfyn+lpss+ kaylel +a+h+a+n     n+++ ky+++wlkrf+d+d
+  sp|Q6A0I4|PETH2_THEFU 190 IPLTPWHLNKNWS-SVTVPTLIIGADLDTIAPVATHAKPFYNSLPSSISKAYLELDGATHFAPNI---PNKIIGKYSVAWLKRFVDND 273
+                            *************.9*************************************************9...9******************* PP
+
+           Impranil.aln 281 tryeqflc.gpihssdlkiseyrgncpy 307
+                            try qflc gp +    ++ eyr  cp+
+  sp|Q6A0I4|PETH2_THEFU 274 TRYTQFLCpGPRDGLFGEVEEYRSTCPF 301
+                            ********6677777789*********7 PP
+
+>> sp|D4Q9N1|PETH1_THEAE  Cutinase est1 OS=Thermobifida alba OX=53522 GN=est1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  394.6   2.8  1.9e-120    1e-116      17     307 ..      15     296 .]       4     296 .] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 394.6 bits;  conditional E-value: 1.9e-120
+           Impranil.aln  17 galllsasafatnppadpppgaespyergpdptvssleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvale 104
+                             a+ ++a+a at + a +p+ a +pyergp+pt s+lea +g+++ +  r srl   gfgggtiyyp    + t++ai++ pg++  +
+  sp|D4Q9N1|PETH1_THEAE  15 RAVAVAAAAAATVALA-APAQAANPYERGPNPTESMLEARSGPFSVSEERASRLGADGFGGGTIYYPRE--NNTYGAIAISPGYTGTQ 99 
+                            3455566666666555.5667889*******************************************99..99*************** PP
+
+           Impranil.aln 105 ssidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaa 192
+                            ssi+wlg ++as+gfvv++idt+tt dqpdsrarql+aaldy+++++s   s vr+rid++rl v+ghsmggggtl+ a  ++ lkaa
+  sp|D4Q9N1|PETH1_THEAE 100 SSIAWLGERIASHGFVVIAIDTNTTLDQPDSRARQLNAALDYMLTDAS---SSVRNRIDASRLAVMGHSMGGGGTLRLASQRPDLKAA 184
+                            *********************************************999...89*********************************** PP
+
+           Impranil.aln 193 iplagwdlvktyagrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrflded 280
+                            ipl++w+l k++   + vptl+++a+ d++apv++h+ pfyn++pss +kaylel+na+h+a+n    +n+++  y+++wlkrf+ded
+  sp|D4Q9N1|PETH1_THEAE 185 IPLTPWHLNKSWR-DITVPTLIIGADLDTIAPVSSHSEPFYNSIPSSTDKAYLELNNATHFAPNI---TNKTIGMYSVAWLKRFVDED 268
+                            ************9.99************************************************9...9******************* PP
+
+           Impranil.aln 281 tryeqflc.gpihssdlkiseyrgncpy 307
+                            try qflc gp      ++ eyr  cp+
+  sp|D4Q9N1|PETH1_THEAE 269 TRYTQFLCpGPRTGLLSDVDEYRSTCPF 296
+                            ********44444445689********7 PP
+
+>> sp|G8GER6|PETH1_THEFU  Cutinase cut1 OS=Thermobifida fusca OX=2021 GN=cut_1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  393.4   1.5  4.2e-120  2.3e-116      20     307 ..      40     319 .]      19     319 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 393.4 bits;  conditional E-value: 4.2e-120
+           Impranil.aln  20 llsasafatnppadpppgaespyergpdptvssleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvalessi 107
+                              +a+a++t     +p+ a +pyergp+pt + lea +g+++ +  r sr+   gfgggtiyyp    + t++a+++ pg++  ++s+
+  sp|G8GER6|PETH1_THEFU  40 AAAATALVTAVSLAAPAHAANPYERGPNPTDALLEARSGPFSVSEERASRFGADGFGGGTIYYPRE--NNTYGAVAISPGYTGTQASV 125
+                            33566778888899999***********************************************99..99****************** PP
+
+           Impranil.aln 108 dwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaipl 195
+                            +wlg ++as+gfvv+tidt+tt dqpdsrarql+aaldy+i+++s   s+vrsrids+rl v+ghsmggggtl+ a  ++ lkaaipl
+  sp|G8GER6|PETH1_THEFU 126 AWLGERIASHGFVVITIDTNTTLDQPDSRARQLNAALDYMINDAS---SAVRSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKAAIPL 210
+                            ********************************************9...99************************************** PP
+
+           Impranil.aln 196 agwdlvktyagrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrfldedtry 283
+                            ++w+l k ++  vrvptl+++a+ d++apv +ha pfyn+lp+s+ kaylel +a+h+a+n     n+++ ky+++wlkrf+d+dtry
+  sp|G8GER6|PETH1_THEFU 211 TPWHLNKNWS-SVRVPTLIIGADLDTIAPVLTHARPFYNSLPTSISKAYLELDGATHFAPNI---PNKIIGKYSVAWLKRFVDNDTRY 294
+                            **********.9*************************************************9...9********************** PP
+
+           Impranil.aln 284 eqflc.gpihssdlkiseyrgncpy 307
+                             qflc gp +    ++ eyr  cp+
+  sp|G8GER6|PETH1_THEFU 295 TQFLCpGPRDGLFGEVEEYRSTCPF 319
+                            *****6677777789*********7 PP
+
+>> sp|Q47RJ7|PETH1_THEFY  Cutinase OS=Thermobifida fusca (strain YX) OX=269800 GN=Tfu_0882 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  393.4   1.5  4.2e-120  2.3e-116      20     307 ..      40     319 .]      19     319 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 393.4 bits;  conditional E-value: 4.2e-120
+           Impranil.aln  20 llsasafatnppadpppgaespyergpdptvssleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvalessi 107
+                              +a+a++t     +p+ a +pyergp+pt + lea +g+++ +  r sr+   gfgggtiyyp    + t++a+++ pg++  ++s+
+  sp|Q47RJ7|PETH1_THEFY  40 AAAATALVTAVSLAAPAHAANPYERGPNPTDALLEARSGPFSVSEERASRFGADGFGGGTIYYPRE--NNTYGAVAISPGYTGTQASV 125
+                            33566778888899999***********************************************99..99****************** PP
+
+           Impranil.aln 108 dwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaipl 195
+                            +wlg ++as+gfvv+tidt+tt dqpdsrarql+aaldy+i+++s   s+vrsrids+rl v+ghsmggggtl+ a  ++ lkaaipl
+  sp|Q47RJ7|PETH1_THEFY 126 AWLGERIASHGFVVITIDTNTTLDQPDSRARQLNAALDYMINDAS---SAVRSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKAAIPL 210
+                            ********************************************9...99************************************** PP
+
+           Impranil.aln 196 agwdlvktyagrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrfldedtry 283
+                            ++w+l k ++  vrvptl+++a+ d++apv +ha pfyn+lp+s+ kaylel +a+h+a+n     n+++ ky+++wlkrf+d+dtry
+  sp|Q47RJ7|PETH1_THEFY 211 TPWHLNKNWS-SVRVPTLIIGADLDTIAPVLTHARPFYNSLPTSISKAYLELDGATHFAPNI---PNKIIGKYSVAWLKRFVDNDTRY 294
+                            **********.9*************************************************9...9********************** PP
+
+           Impranil.aln 284 eqflc.gpihssdlkiseyrgncpy 307
+                             qflc gp +    ++ eyr  cp+
+  sp|Q47RJ7|PETH1_THEFY 295 TQFLCpGPRDGLFGEVEEYRSTCPF 319
+                            *****6677777789*********7 PP
+
+>> sp|E9LVH8|PETH1_THECS  Cutinase 1 (Fragment) OS=Thermobifida cellulosilytica OX=144786 GN=cut1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  387.9   0.5    2e-118  1.1e-114      40     307 ..       3     262 .]       1     262 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 387.9 bits;  conditional E-value: 2e-118
+           Impranil.aln  40 spyergpdptvssleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvalessidwlgpklasqgfvvltidtl 127
+                            +pyergp+pt + leas+g+++ +  +vsrl+ sgfgggtiyyp    + t++a+++ pg++  e+si+wlg ++as+gfvv+tidt 
+  sp|E9LVH8|PETH1_THECS   3 NPYERGPNPTDALLEASSGPFSVSEENVSRLSASGFGGGTIYYPRE--NNTYGAVAISPGYTGTEASIAWLGERIASHGFVVITIDTI 88 
+                            9*******************************************99..99************************************** PP
+
+           Impranil.aln 128 ttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyagrvrvptlvv 215
+                            tt dqpdsra ql+aal+++i+++s   s vrsrids+rl v+ghsmggggtl+ a  ++ lkaaipl++w+l k ++  v vptl++
+  sp|E9LVH8|PETH1_THECS  89 TTLDQPDSRAEQLNAALNHMINRAS---STVRSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKAAIPLTPWHLNKNWS-SVTVPTLII 172
+                            *************************...99************************************************.9******** PP
+
+           Impranil.aln 216 aaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrfldedtryeqflc.gpihssdlkiseyr 302
+                            +a+ d++apva+ha pfyn+lpss+ kaylel +a+h+a+n     n+++ ky+++wlkrf+d+dtry qflc gp +    ++ eyr
+  sp|E9LVH8|PETH1_THECS 173 GADLDTIAPVATHAKPFYNSLPSSISKAYLELDGATHFAPNI---PNKIIGKYSVAWLKRFVDNDTRYTQFLCpGPRDGLFGEVEEYR 257
+                            *****************************************9...9***************************6677777789***** PP
+
+           Impranil.aln 303 gncpy 307
+                              cp+
+  sp|E9LVH8|PETH1_THECS 258 STCPF 262
+                            ****7 PP
+
+>> sp|E9LVH9|PETH2_THECS  Cutinase 2 (Fragment) OS=Thermobifida cellulosilytica OX=144786 GN=cut2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  385.2   0.3  1.3e-117    7e-114      40     307 ..       3     262 .]       1     262 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 385.2 bits;  conditional E-value: 1.3e-117
+           Impranil.aln  40 spyergpdptvssleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvalessidwlgpklasqgfvvltidtl 127
+                            +pyergp+pt + lea +g+++ +  r sr+   gfgggtiyyp    + t++a+++ pg++  ++s++wlg ++as+gfvv+tidt+
+  sp|E9LVH9|PETH2_THECS   3 NPYERGPNPTDALLEARSGPFSVSEERASRFGADGFGGGTIYYPRE--NNTYGAVAISPGYTGTQASVAWLGERIASHGFVVITIDTN 88 
+                            9*******************************************99..99************************************** PP
+
+           Impranil.aln 128 ttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyagrvrvptlvv 215
+                            tt dqpdsrarql+aaldy+i+++s   s+vrsrids+rl v+ghsmggggtl+ a  ++ lkaaipl++w+l k ++  vrvptl++
+  sp|E9LVH9|PETH2_THECS  89 TTLDQPDSRARQLNAALDYMINDAS---SAVRSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKAAIPLTPWHLNKNWS-SVRVPTLII 172
+                            ************************9...99************************************************.9******** PP
+
+           Impranil.aln 216 aaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrfldedtryeqflc.gpihssdlkiseyr 302
+                            +a+ d++apv +ha pfyn+lp+s+ kaylel +a+h+a+n     n+++ ky+++wlkrf+d+dtry qflc gp +    ++ eyr
+  sp|E9LVH9|PETH2_THECS 173 GADLDTIAPVLTHARPFYNSLPTSISKAYLELDGATHFAPNI---PNKIIGKYSVAWLKRFVDNDTRYTQFLCpGPRDGLFGEVEEYR 257
+                            *****************************************9...9***************************6677777789***** PP
+
+           Impranil.aln 303 gncpy 307
+                              cp+
+  sp|E9LVH9|PETH2_THECS 258 STCPF 262
+                            ****7 PP
+
+>> sp|F7IX06|PETH2_THEAE  Cutinase est2 OS=Thermobifida alba OX=53522 GN=est2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  380.8   2.4  2.9e-116  1.6e-112      17     307 ..      18     300 .]       5     300 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 380.8 bits;  conditional E-value: 2.9e-116
+           Impranil.aln  17 galllsasafatnppadpppgaespyergpdptvssleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvale 104
+                             a   +a+a+++  +  +p+ a +pyergp+pt s+lea +g+++ +  r sr+   gfgggtiyyp    + t++ai++ pg++  +
+  sp|F7IX06|PETH2_THEAE  18 RATAAAATAVVATVALAAPAQAANPYERGPNPTESMLEARSGPFSVSEERASRFGADGFGGGTIYYPRE--NNTYGAIAISPGYTGTQ 103
+                            33344555555556666788899********************************************99..99*************** PP
+
+           Impranil.aln 105 ssidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaa 192
+                            ssi+wlg ++as+gfvv++idt+tt dqpdsrarql+aaldy+++++s   s+vr+rid++rl v+ghsmggggtl+ a  ++ lkaa
+  sp|F7IX06|PETH2_THEAE 104 SSIAWLGERIASHGFVVIAIDTNTTLDQPDSRARQLNAALDYMLTDAS---SAVRNRIDASRLAVMGHSMGGGGTLRLASQRPDLKAA 188
+                            *********************************************999...99*********************************** PP
+
+           Impranil.aln 193 iplagwdlvktyagrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrflded 280
+                            ipl++w+l k++   + vptl+++a+ d++a v+ h+ pfyn++ps  +kaylel +ash+a+n    +n+++  y+++wlkrf+ded
+  sp|F7IX06|PETH2_THEAE 189 IPLTPWHLNKSWR-DITVPTLIIGAEYDTIASVTLHSKPFYNSIPSPTDKAYLELDGASHFAPNI---TNKTIGMYSVAWLKRFVDED 272
+                            ************9.99************************************************9...9******************* PP
+
+           Impranil.aln 281 tryeqflc.gpihssdlkiseyrgncpy 307
+                            try qflc gp      ++ eyr  cp+
+  sp|F7IX06|PETH2_THEAE 273 TRYTQFLCpGPRTGLLSDVEEYRSTCPF 300
+                            ********44444445689********7 PP
+
+>> sp|G9BY57|PETH_UNKP  Leaf-branch compost cutinase OS=Unknown prokaryotic organism OX=2725 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  349.9   5.9  7.1e-107  3.9e-103      17     307 ..      14     291 ..       3     293 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 349.9 bits;  conditional E-value: 7.1e-107
+         Impranil.aln  17 galllsasafatnppadpppgaespyergpdptvssleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvaless 106
+                           a ll+ +a+a   ++    +  +py+rgp+pt s l a  g+++  t +vsrl+vsgfggg iyypt+ ++ t++ i++ pg++a  ss
+  sp|G9BY57|PETH_UNKP  14 MAALLALAAWALVWASPSVEAQSNPYQRGPNPTRSALTA-DGPFSVATYTVSRLSVSGFGGGVIYYPTG-TSLTFGGIAMSPGYTADASS 101
+                          334445555555555555566789*************87.6****************************.899***************** PP
+
+         Impranil.aln 107 idwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaipla 196
+                          ++wlg +las+gfvvl i+t++ +d pdsra ql aal+yl + s    s+vr+r+d++rl v ghsmggggtl++a  +++lkaa+pl+
+  sp|G9BY57|PETH_UNKP 102 LAWLGRRLASHGFVVLVINTNSRFDYPDSRASQLSAALNYLRTSSP---SAVRARLDANRLAVAGHSMGGGGTLRIAEQNPSLKAAVPLT 188
+                          *****************************************87666...99*************************************** PP
+
+         Impranil.aln 197 gwdlvktyagrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrfldedtryeqf 286
+                          +w++ kt+   + vp l+v+a+ad+vapv+ haipfy++lps+  k y+el nash+a+ns   +n +++ yt+sw+k ++d+dtry qf
+  sp|G9BY57|PETH_UNKP 189 PWHTDKTFN--TSVPVLIVGAEADTVAPVSQHAIPFYQNLPSTTPKVYVELDNASHFAPNS---NNAAISVYTISWMKLWVDNDTRYRQF 273
+                          ********9..789***********************************************...************************** PP
+
+         Impranil.aln 287 lcgpihssdlkiseyrgncpy 307
+                          lc   +  d  +s++r n  +
+  sp|G9BY57|PETH_UNKP 274 LC---NVNDPALSDFRTNNRH 291
+                          **...6788999****99766 PP
+
+>> sp|A0A0K8P6T7|PETH_PISS1  Poly(ethylene terephthalate) hydrolase OS=Piscinibacter sakaiensis OX=1547922 GN=ISF6_4831 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  328.2  11.4  2.9e-100   1.6e-96      21     305 ..      10     289 ..       2     290 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 328.2 bits;  conditional E-value: 2.9e-100
+              Impranil.aln  21 lsasafatnppa.dpppgaespyergpdptvssleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvale 104
+                               + a+++    ++  ++ +  +py+rgp+pt++sleas g+++ r+ +vsr   sg+g gt+yypt+ + gt++ai+++pg++a +
+  sp|A0A0K8P6T7|PETH_PISS1  10 MQAAVLGGLMAVsAAATAQTNPYARGPNPTAASLEASAGPFTVRSFTVSRP--SGYGAGTVYYPTN-AGGTVGAIAIVPGYTARQ 91 
+                               444444333333033445679*****************************9..************9.99**************** PP
+
+              Impranil.aln 105 ssidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrl 189
+                               ssi+w+gp+las+gfvv+tidt++t dqp sr+ q +aal  + s + + +sp+ +++d+ r+gv+g+smgggg+l  a  +++l
+  sp|A0A0K8P6T7|PETH_PISS1  92 SSIKWWGPRLASHGFVVITIDTNSTLDQPSSRSSQQMAALRQVASLNGTSSSPIYGKVDTARMGVMGWSMGGGGSLISAANNPSL 176
+                               ************************************************************************************* PP
+
+              Impranil.aln 190 kaaiplagwdlvktyagrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlk 274
+                               kaa p a+wd    ++  v vptl++a++ d +apv + a p+y+++  +  k +le++++sh +ansg  ++  + k +++w+k
+  sp|A0A0K8P6T7|PETH_PISS1 177 KAAAPQAPWDSSTNFS-SVTVPTLIFACENDSIAPVNSSALPIYDSMSRN-AKQFLEINGGSHSCANSGNSNQALIGKKGVAWMK 259
+                               ***************9.9****************************9766.799**************999999*********** PP
+
+              Impranil.aln 275 rfldedtryeqflcgpihssdlkiseyrg.nc 305
+                               rf+d+dtry+ f c  ++  + ++s++r  nc
+  sp|A0A0K8P6T7|PETH_PISS1 260 RFMDNDTRYSTFAC-ENP-NSTRVSDFRTaNC 289
+                               **************.444.55679**995367 PP
+
+>> sp|P19833|LIP1_MORS1  Lipase 1 OS=Moraxella sp. (strain TA144) OX=77152 GN=lip1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  258.2   0.7   6.1e-79   3.4e-75      56     302 ..      76     314 ..      21     319 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 258.2 bits;  conditional E-value: 6.1e-79
+          Impranil.aln  56 srgsyatrtvrvsrlavsgfgggtiyyptstv.egtlaaivvipgfvalessidwlgpklasqgfvvltidtlttsdqpdsrarqllaa 143
+                            +g+++ rt r+sr +  gfgggti+ypt++   g l+ai+v+pg+v+ e si+w+gp+las gfvv+ti+t++ +d+pdsra ql+aa
+  sp|P19833|LIP1_MORS1  76 DNGPFSIRTKRISRQSAKGFGGGTIHYPTNASgCGLLGAIAVVPGYVSYENSIKWWGPRLASWGFVVITINTNSIYDDPDSRAAQLNAA 164
+                           57***************************8642689***************************************************** PP
+
+          Impranil.aln 144 ldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyagrvrvptlvvaaqadivapvaahaipf 232
+                           ld +i +++     v s+id +rlg +g+smgggg+l+ a  +++++a +pla+++  k+y   v++ptlv+a++ d +a    +a  f
+  sp|P19833|LIP1_MORS1 165 LDNMIADDT-----VGSMIDPKRLGAIGWSMGGGGALKLATERSTVRAIMPLAPYHD-KSYG-EVKTPTLVIACEDDRIAETKKYANAF 246
+                           ******999.....*****************************************86.6676.9************************* PP
+
+          Impranil.aln 233 ynrlpsslekaylelrnashyaansgglsndvlakytlswlkrfldedtryeqflcgp.ihssdlkiseyr 302
+                           y +      k  +e++n+sh+++    +++  l+k +++w++r++++dtr+++flc+  + s + +is y 
+  sp|P19833|LIP1_MORS1 247 YKNAIG--PKMKVEVNNGSHFCPSY-RFNEILLSKPGIAWMQRYINNDTRFDKFLCANeNYSKSPRISAYD 314
+                           *75433..4888***********88.99999*************************752567788999885 PP
+
+>> sp|F8QQ74|NAAC_BRASZ  Probable 2-oxo-3-(5-oxofuran-2-ylidene)propanoate lactonase OS=Bradyrhizobium sp. OX=376 GN=naa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.6   0.0   1.5e-10   8.1e-07      68     195 ..       9     144 ..       1     178 [. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 33.6 bits;  conditional E-value: 1.5e-10
+          Impranil.aln  68 srlavsgfgggtiyy.ptstvegtlaaivvipgfvalessidwlgpklasqgfvvltidtlttsdqpd.srarqllaaldylisqsssr 154
+                             + +   g   + y    +v g l a++v+p +  +++ i+ +   la  gfv l id  +  ++pd s a +++ a++ l +++  +
+  sp|F8QQ74|NAAC_BRASZ   9 DWVDIGTNGESRLAYlARPVVTGRLPAVIVMPAIHGINTYIKDVAIDLAKAGFVALLIDIHSPEQEPDlSNAEKIQIAVETLDDRKVLK 97 
+                           5555555555555551445789*********************************************988999***9999998776543 PP
+
+          Impranil.aln 155 ..tspvr.....sridsdrlgvvghsmggggtlevarsegrlkaaipl 195
+                              ++vr     + + +drlg++g+ +gg  +l +ar  + ++ ++ +
+  sp|F8QQ74|NAAC_BRASZ  98 dvDAAVRyleqhAAVRADRLGILGFCVGGTYALLAAR-TPAIRVSVGF 144
+                           1134555333337899********************5.6778776654 PP
+
+>> sp|Q28262|PAFA_CANLF  Platelet-activating factor acetylhydrolase OS=Canis lupus familiaris OX=9615 GN=PLA2G7 PE=2 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.7   0.0     0.087   4.8e+02      94     130 ..     147     183 ..     134     198 .. 0.83
+   2 !   19.4   0.0     3e-06     0.016     150     211 ..     256     312 ..     238     322 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 4.7 bits;  conditional E-value: 0.087
+          Impranil.aln  94 ivvipgfvalessidwlgpklasqgfvvltidtltts 130
+                           iv   g+ a ++  + +g  las+gf+v +i+   +s
+  sp|Q28262|PAFA_CANLF 147 IVFSHGLGAFRTIYSAIGIDLASHGFIVAAIEHRDGS 183
+                           666778888888888899************9987665 PP
+
+  == domain 2  score: 19.4 bits;  conditional E-value: 3e-06
+          Impranil.aln 150 qsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyagrvrvp 211
+                            +      ++  id d++ v+ghs+gg   l++   + r++  i l +w l    a  +r+p
+  sp|Q28262|PAFA_CANLF 256 VE-----QLKDSIDRDKIAVIGHSFGGATVLQALSEDQRFRCGIALDAWMLPLDDAIYSRIP 312
+                           43.....37899**********************9999***********9876666666666 PP
+
+>> sp|P83006|PAFA2_RAT  Platelet-activating factor acetylhydrolase 2, cytoplasmic OS=Rattus norvegicus OX=10116 GN=Pafah
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.5   0.0       0.1   5.7e+02      87     128 ..      96     137 ..      80     158 .. 0.80
+   2 !   18.3   0.0   6.4e-06     0.035     158     199 ..     219     260 ..     213     289 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 4.5 bits;  conditional E-value: 0.1
+         Impranil.aln  87 vegtlaaivvipgfvalessidwlgpklasqgfvvltidtlt 128
+                           e  +  i++  g+   + s + +   las+gfvv +i+   
+  sp|P83006|PAFA2_RAT  96 KESGYPLIILSHGLGGFRVSYSAFCMELASRGFVVAAIEHRD 137
+                          55666677888888889999999999**********998654 PP
+
+  == domain 2  score: 18.3 bits;  conditional E-value: 6.4e-06
+         Impranil.aln 158 vrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwd 199
+                          +++ id +r+ v+ghs+gg  ++ +   e++++ ai l +w 
+  sp|P83006|PAFA2_RAT 219 LKGSIDMSRVAVMGHSFGGATAILALTQEAQFRCAIALDAWM 260
+                          6899******************99999**************6 PP
+
+>> sp|Q99390|YPT2_ECOLX  Uncharacterized 31.7 kDa protein in traX-finO intergenic region OS=Escherichia coli OX=562 PE=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.8   0.0   7.6e-05      0.42     110     193 ..      45     127 ..      17     140 .. 0.73
+   2 ?    7.0   0.0     0.018     1e+02     205     276 ..     217     285 ..     192     286 .] 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 7.6e-05
+          Impranil.aln 110 lgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaai 193
+                           +   ++  gf  +t d     +    r+r + a  +     s    +  +  id +r+g+ g s+ggg  + +a  + r+k  +
+  sp|Q99390|YPT2_ECOLX  45 FANAFTEAGFATITFDYRGFGESDGERGRLVPAM-QTEDIISVINWAEKQECIDNQRIGLWGTSLGGGHVFSAAAQDQRVKCIV 127
+                           5556677899999999877666667788766543.32222233345778899**********************9999999876 PP
+
+  == domain 2  score: 7.0 bits;  conditional E-value: 0.018
+          Impranil.aln 205 agrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrf 276
+                           a++v++p l+v a  d v p       +y+ + s+ +  y e  +a+hy    g++ +  +a     w+k+ 
+  sp|Q99390|YPT2_ECOLX 217 AAKVQCPVLIVIAGQDSVNPPE-QGKALYDAVASGTKELYEE-ADACHYDIYEGAFFER-VAAVQTQWFKKH 285
+                           5699***************975.67889*******9887766.6899**9999666554.556667888875 PP
+
+>> sp|Q90678|PAFA_CHICK  Platelet-activating factor acetylhydrolase OS=Gallus gallus OX=9031 GN=PLA2G7 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.1   0.0   4.5e-07    0.0025     157     218 ..     250     314 ..     213     363 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 22.1 bits;  conditional E-value: 4.5e-07
+          Impranil.aln 157 pvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdl...vktyagrvrvptlvvaaq 218
+                            ++  +d++r+ v+ghs+gg   +e    e r++  i l +w l    +ty + v+ p l + ++
+  sp|Q90678|PAFA_CHICK 250 HLKDSVDTSRIAVMGHSFGGATVIESLSKEIRFRCGIALDAWMLpvgDDTYQSSVQQPLLFINSE 314
+                           56789**********************999************98433479********9988765 PP
+
+>> sp|Q8VDG7|PAFA2_MOUSE  Platelet-activating factor acetylhydrolase 2, cytoplasmic OS=Mus musculus OX=10090 GN=Pafah2 P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0      0.23   1.3e+03      93     126 ..     102     135 ..      78     152 .. 0.82
+   2 !   16.9   0.0   1.7e-05     0.094     158     200 ..     219     261 ..     214     373 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 3.3 bits;  conditional E-value: 0.23
+           Impranil.aln  93 aivvipgfvalessidwlgpklasqgfvvltidt 126
+                             i++  g+   ++s + +   las+gfvv +++ 
+  sp|Q8VDG7|PAFA2_MOUSE 102 LIILSHGLGGFRASYSAFCMELASRGFVVAAVEH 135
+                            5777788888899999999**********99875 PP
+
+  == domain 2  score: 16.9 bits;  conditional E-value: 1.7e-05
+           Impranil.aln 158 vrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdl 200
+                            +++ id +r+ v+ghs+gg  ++ +   e +++ ai l +w  
+  sp|Q8VDG7|PAFA2_MOUSE 219 LKGSIDRNRVAVMGHSFGGATAVLALTQEVQFRCAIALDAWMF 261
+                            6899****************9999999**************63 PP
+
+>> sp|G2JHL6|AIDA_ACIBM  Quorum-quenching protein AidA OS=Acinetobacter baumannii (strain MDR-ZJ06) OX=497978 GN=aidA PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.0   8.9e-06     0.049      81     198 ..      29     145 ..      23     167 .. 0.79
+   2 ?    2.2   0.0       0.5   2.8e+03     206     226 ..     236     256 ..     221     285 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 8.9e-06
+          Impranil.aln  81 yyptstvegtlaaivvipgfval.essidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrs..ridsdr 166
+                           y pt+ v+     iv++ g+    +  +  +  ++ ++g+  l  d    + + + + rqll+    l + ++   +  rs  +id +r
+  sp|G2JHL6|AIDA_ACIBM  29 YRPTTEVA--TPMIVMAHGLGGTrRMRLTAFAERFVAEGYACLVFDYRY-FGDSEGQPRQLLDIKSQLEDWKA-AIAYARSldKIDPNR 113
+                           66666444..45588888887551567889999999******9999875.66678999****99999988877.4555555338***** PP
+
+          Impranil.aln 167 lgvvghsmggggtlevarsegrlkaaiplagw 198
+                           + + g s+ggg  l +a  ++rl a i  +++
+  sp|G2JHL6|AIDA_ACIBM 114 VVIWGTSFGGGHVLATAANDNRLAAVISQCPF 145
+                           **************************988876 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.5
+          Impranil.aln 206 grvrvptlvvaaqadivapva 226
+                           +r+++p l   +++d vap  
+  sp|G2JHL6|AIDA_ACIBM 236 SRIQAPVLFCVCDTDSVAPSK 256
+                           4799***************75 PP
+
+>> sp|P76049|YCJY_ECOLI  Uncharacterized protein YcjY OS=Escherichia coli (strain K12) OX=83333 GN=ycjY PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.1   0.1   9.4e-07    0.0052      80     203 ..      22     147 ..      16     158 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 21.1 bits;  conditional E-value: 9.4e-07
+          Impranil.aln  80 iyyptstveg.tlaaivv.ipgfvalessidwlgpklasqgfvvltidtltt.........sdqpdsrarqllaaldylisqsssrtsp 157
+                           iy+p    e   + aiv+  pg    e +   +  kla +gfv ++ d+             ++p  r+ ++ a +dyl++        
+  sp|P76049|YCJY_ECOLI  22 IYFPPKFDETrQYQAIVLsHPGGGVKEQTAGTYAKKLAEKGFVTIAYDASYQgesggeprqLENPYIRTEDISAVIDYLTTL------- 103
+                           677665433214667776359999999999999*************998643111111111345556666666666666655....... PP
+
+          Impranil.aln 158 vrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvkt 203
+                             s +d  r+g +g   g g t ++a  + r+ka   +++ ++ + 
+  sp|P76049|YCJY_ECOLI 104 --SYVDNTRIGAMGICAGAGYTANAAIQDRRIKAIGTVSAVNIGSI 147
+                           ..569****************************9888777776665 PP
+
+>> sp|A0A7L8UVC6|FFSE_ASPFV  Hydrolase ffsE OS=Aspergillus flavipes OX=41900 GN=ffsE PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.6   0.1   1.3e-06    0.0073     161     205 ..     254     297 ..     233     314 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 20.6 bits;  conditional E-value: 1.3e-06
+              Impranil.aln 161 ridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktya 205
+                                +d +r+ vvg smgg  +l++a s++r+ka + + ++  +  + 
+  sp|A0A7L8UVC6|FFSE_ASPFV 254 TLDLSRIAVVGASMGGYYALRAA-SDPRIKACLSIDPFYDMWDFG 297
+                               6899*******************.*********999876555554 PP
+
+>> sp|Q94LX1|CLH1_CITUN  Chlorophyllase-1, chloroplastic OS=Citrus unshiu OX=55188 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.7   0.1   4.9e-06     0.027      84     197 ..      57     170 ..      20     197 .. 0.80
+   2 ?    0.0   0.0       2.4   1.3e+04     252     291 ..     261     304 ..     255     315 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 18.7 bits;  conditional E-value: 4.9e-06
+          Impranil.aln  84 tstvegtlaaivvipgfvalessidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldy..lisqsssrtspvrsridsdrlgvv 170
+                           t + +gt+  i  + g    + s + +  ++as+gf+v++ +  t+   p+s + +l++a +    + q   +  p  +  + + + v+
+  sp|Q94LX1|CLH1_CITUN  57 TPAEKGTFNVILFLHGTSLSNKSYSKIFDHIASHGFIVVAPQLYTS-IPPPSATNELNSAAEVaeWLPQGLQQNLPENTEANVSLVAVM 144
+                           55569************9999*****************99877665.57999999**999764224567777889************** PP
+
+          Impranil.aln 171 ghsmggggtlevarsegrlkaaiplag 197
+                           ghs gg  ++  +  +  + a i l +
+  sp|Q94LX1|CLH1_CITUN 145 GHSRGGQTAFALS-LRYGFGAVIGLDP 170
+                           ****998777665.5666666666655 PP
+
+  == domain 2  score: 0.0 bits;  conditional E-value: 2.4
+          Impranil.aln 252 hyaansggls...ndvlakytlswlkrfldedtr.yeqflcgpi 291
+                           +++ n+          ++   +++lk f+d d+  + q+l  p 
+  sp|Q94LX1|CLH1_CITUN 261 YFCKNGNESRdpmRRCVSGIVVAFLKDFFDGDAEdFRQILKDPS 304
+                           5777764332111346777899********99743788887765 PP
+
+>> sp|Q01609|Y2218_PSEAE  Uncharacterized protein PA2218 OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.5   0.1   1.4e-06    0.0078      81     205 ..      90     215 ..      78     226 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 20.5 bits;  conditional E-value: 1.4e-06
+           Impranil.aln  81 yyptstvegtlaaivvipgfval.essidwlgpklasqgfvvltidtlttsd...qpdsrarqllaaldylisqsssrtspvrsrids 164
+                            y p +     l aiv+   f a+ e s   +   +a +gfv l+ d   t +   qp   a    ++ d+    +      +   ++ 
+  sp|Q01609|Y2218_PSEAE  90 YLPKNRGGDRLPAIVIGGPFGAVkEQSSGLYAQTMAERGFVTLAFDPSYTGEsggQPRNVASPDINTEDFSAAVDF---ISLLPEVNR 174
+                            6666666667899999988887625677889999************765443122565555555555555444443...44567899* PP
+
+           Impranil.aln 165 drlgvvghsmggggtlevarsegrlkaaiplagwdlvktya 205
+                            +r+gv+g    gg +l++   + r+ka +  + +d+++  +
+  sp|Q01609|Y2218_PSEAE 175 ERIGVIGICGWGGMALNAVAVDKRVKAVVTSTMYDMTRVMS 215
+                            *****************999****************99876 PP
+
+>> sp|P70683|PAFA_CAVPO  Platelet-activating factor acetylhydrolase OS=Cavia porcellus OX=10141 GN=PLA2G7 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4   0.0      0.11   6.2e+02      94     126 ..     147     179 ..     137     188 .. 0.83
+   2 !   14.0   0.0   0.00013      0.72     157     203 ..     255     301 ..     212     334 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 4.4 bits;  conditional E-value: 0.11
+          Impranil.aln  94 ivvipgfvalessidwlgpklasqgfvvltidt 126
+                           i+   g+ a +s  + +g  las+gf+v +++ 
+  sp|P70683|PAFA_CAVPO 147 IIFSHGLGAFRSIYSAIGIELASHGFIVAAVEH 179
+                           55667888889999999***********98875 PP
+
+  == domain 2  score: 14.0 bits;  conditional E-value: 0.00013
+          Impranil.aln 157 pvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvkt 203
+                            +++ +d +++ ++ghs+gg   +++   + r++  i l +w     
+  sp|P70683|PAFA_CAVPO 255 QLKGSLDRSKVAIIGHSFGGATVIQTLSEDQRFRCGIALDPWMFPVG 301
+                           57899*********************98999***********76555 PP
+
+>> sp|P29368|YPT1_ECOLX  Uncharacterized 31.7 kDa protein in traX-finO intergenic region OS=Escherichia coli OX=562 PE=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.0   0.0   0.00054         3     110     193 ..      45     127 ..      17     139 .. 0.72
+   2 ?    7.0   0.0     0.018     1e+02     205     276 ..     217     285 ..     192     286 .] 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00054
+          Impranil.aln 110 lgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaai 193
+                           +   ++  gf  +t d     +    r+r + a  +     s    +  +  id +r+g+ g s+ggg  + +   + r+k  +
+  sp|P29368|YPT1_ECOLX  45 FANAFTEAGFATITFDYRGFGESDGERGRLVPAM-QTEDIISVINWAEKQECIDNQRIGLWGTSLGGGHVFSARAQDQRVKCIV 127
+                           5556677899999999877666667788766543.32222233345778899****************9998887788888765 PP
+
+  == domain 2  score: 7.0 bits;  conditional E-value: 0.018
+          Impranil.aln 205 agrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrf 276
+                           a++v++p l+v a  d v p       +y+ + s+ +  y e  +a+hy    g++ +  +a     w+k+ 
+  sp|P29368|YPT1_ECOLX 217 AAKVQCPVLIVIAGQDSVNPPE-QGKALYDAVASGTKELYEE-ADACHYDIYEGAFFER-VAAVQTQWFKKH 285
+                           5699***************975.67889*******9887766.6899**9999666554.556667888875 PP
+
+>> sp|Q49SP7|TPSCS_POGCB  Gamma-curcumene synthase OS=Pogostemon cablin OX=28511 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.6   0.0       1.6   8.8e+03     264     295 ..     335     366 ..     331     372 .. 0.87
+   2 !   17.4   0.0   1.2e-05     0.066      95     153 ..     408     469 ..     393     480 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 0.6 bits;  conditional E-value: 1.6
+           Impranil.aln 264 vlakytlswlkrfldedtryeqflcgpihssd 295
+                            ++ ++ +sw   f  + t  eq+l +p   ++
+  sp|Q49SP7|TPSCS_POGCB 335 IVYRFVMSWSEDFERDATIKEQMLATPYFKAE 366
+                            6789*********************9987666 PP
+
+  == domain 2  score: 17.4 bits;  conditional E-value: 1.2e-05
+           Impranil.aln  95 vvipgfv.alessidwl..gpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsss 153
+                            v+ p +  a +  idwl   p+las   +v+      +s+q +s++ +++++ld  ++q  +
+  sp|Q49SP7|TPSCS_POGCB 408 VISPYLNsATQKNIDWLlsQPRLASSTAIVMRCCNDLGSNQRESKGGEVMTSLDCYMKQHGA 469
+                            3445554156899***8667**********************************87777653 PP
+
+>> sp|A0A1W5T1Y7|POXO_PENOX  Hydrolyase poxO OS=Penicillium oxalicum OX=69781 GN=poxO PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.9   0.1   2.1e-06     0.012     143     219 ..     212     284 ..     202     304 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 19.9 bits;  conditional E-value: 2.1e-06
+              Impranil.aln 143 aldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyagrvrvptlvvaaqa 219
+                                ld+l+       +    ++d +r+ vvg smgg  +l++a +++r+ a + + ++  +  +  +   p+l+ a +a
+  sp|A0A1W5T1Y7|POXO_PENOX 212 VLDFLTAYMQ--QN-PSVQLDLSRVAVVGASMGGYYALRAA-ADPRIGACVSIDPFYDMWDFVRNHVSPALLNAWNA 284
+                               5667665554..12.23579*********************.9*********9997776666656666777766655 PP
+
+>> sp|Q9MV14|CLH1_CITSI  Chlorophyllase-1, chloroplastic OS=Citrus sinensis OX=2711 GN=CHLASE1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   19.1   0.1   3.7e-06      0.02      81     197 ..      56     170 ..      20     197 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 19.1 bits;  conditional E-value: 3.7e-06
+          Impranil.aln  81 yyptstvegtlaaivvipgfvalessidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldy..lisqsssrtspvrsridsdrl 167
+                             p++  +gt+  i  + g    + s + +  ++as+gf+v++ +  t+   p+s + +l++a +    + q   +  p  +  + + +
+  sp|Q9MV14|CLH1_CITSI  56 VTPAG--KGTFNVILFLHGTSLSNKSYSKIFDHIASHGFIVVAPQLYTS-IPPPSATNELNSAAEVaeWLPQGLQQNLPENTEANVSLV 141
+                           44555..9************9999*****************99877665.57999999**999764224567777889*********** PP
+
+          Impranil.aln 168 gvvghsmggggtlevarsegrlkaaiplag 197
+                            v+ghs gg  ++  +  +  + a i l +
+  sp|Q9MV14|CLH1_CITSI 142 AVMGHSRGGQTAFALS-LRYGFGAVIGLDP 170
+                           *******998777665.5666666666655 PP
+
+>> sp|S8ASK9|POXO_PENO1  Hydrolyase poxO OS=Penicillium oxalicum (strain 114-2 / CGMCC 5302) OX=933388 GN=poxO PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.9   0.1   4.1e-06     0.023     143     219 ..     212     284 ..     202     304 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 18.9 bits;  conditional E-value: 4.1e-06
+          Impranil.aln 143 aldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyagrvrvptlvvaaqa 219
+                            ld+l+       +    ++d +r+ vvg smgg  +l++a  ++r+ a + + ++  +  +  +   p+l+ a +a
+  sp|S8ASK9|POXO_PENO1 212 VLDFLTAYMQ--QN-PSVQLDLSRVAVVGASMGGYYALRAA-VDPRIGACVSIDPFYDMWDFVRNHVSPALLNAWNA 284
+                           5667665554..12.23579*********************.9********99997776666656666777766655 PP
+
+>> sp|A0A6J4B4M6|LUC6_FUSSX  Hydrolase LUC6 OS=Fusarium sp. OX=29916 GN=LUC6 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.2   0.0   1.4e-05     0.076      83     195 ..     144     259 ..     121     276 .. 0.69
+   2 ?   -1.8   0.0       8.5   4.7e+04     199     236 ..     332     369 ..     326     374 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 17.2 bits;  conditional E-value: 1.4e-05
+              Impranil.aln  83 ptstvegtlaaivvipgfvalessidwlgpkla.sqgfvvltidtltt.....sdqpdsr...arqllaaldylisqsssrtspv 158
+                               p   v+g +  +v   gf + +  + ++g   a  +g+ v++ d          d+   r        + ld++i +     +pv
+  sp|A0A6J4B4M6|LUC6_FUSSX 144 PHHQVSGKIPVVVQTGGFDSTQEELYYYGAAGAlPRGYAVFSFDGPGQglslrKDKLYLRpdwEHVTSKVLDHVIGEL----APV 224
+                               445688888888889999999999999998877358999999997543111112322222100223334455555444....488 PP
+
+              Impranil.aln 159 rsridsdrlgvvghsmggggtlevarsegrlkaaipl 195
+                                  +d drl v g s+gg  +l++a +++r+ka +  
+  sp|A0A6J4B4M6|LUC6_FUSSX 225 H-NLDVDRLAVFGASLGGYLSLRAA-ADPRVKAVVSC 259
+                               6.58*********************.9******9854 PP
+
+  == domain 2  score: -1.8 bits;  conditional E-value: 8.5
+              Impranil.aln 199 dlvktyagrvrvptlvvaaqadivapvaahaipfynrl 236
+                                l + y +++++ptl+ +a           a p++++l
+  sp|A0A6J4B4M6|LUC6_FUSSX 332 SLKDGYLSKIKCPTLITGAADSFYFTPQQNAHPIFDSL 369
+                               566778889999***99986555444455666666665 PP
+
+>> sp|Q13093|PAFA_HUMAN  Platelet-activating factor acetylhydrolase OS=Homo sapiens OX=9606 GN=PLA2G7 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0      0.74   4.1e+03      99     126 ..     152     179 ..     143     191 .. 0.77
+   2 ?   14.9   0.0   7.2e-05       0.4     140     200 ..     245     300 ..     238     322 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 1.7 bits;  conditional E-value: 0.74
+          Impranil.aln  99 gfvalessidwlgpklasqgfvvltidt 126
+                           g+ a ++  + +g  las+gf+v +++ 
+  sp|Q13093|PAFA_HUMAN 152 GLGAFRTLYSAIGIDLASHGFIVAAVEH 179
+                           555666666678999********98875 PP
+
+  == domain 2  score: 14.9 bits;  conditional E-value: 7.2e-05
+          Impranil.aln 140 llaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdl 200
+                           +++ald   + +      ++  id +++ v+ghs+gg   +++   + r++  i l +w  
+  sp|Q13093|PAFA_HUMAN 245 VKNALDLKFDMEQ-----LKDSIDREKIAVIGHSFGGATVIQTLSEDQRFRCGIALDAWMF 300
+                           5666666555555.....8899*********************98999***********65 PP
+
+>> sp|Q28017|PAFA_BOVIN  Platelet-activating factor acetylhydrolase OS=Bos taurus OX=9913 GN=PLA2G7 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0      0.38   2.1e+03      98     129 ..     151     182 ..     137     190 .. 0.79
+   2 ?   13.9   0.0   0.00014      0.78     157     200 ..     258     301 ..     241     322 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 2.7 bits;  conditional E-value: 0.38
+          Impranil.aln  98 pgfvalessidwlgpklasqgfvvltidtltt 129
+                            g+ a ++  + +g  las+gf+v +++   +
+  sp|Q28017|PAFA_BOVIN 151 HGLGAFRTIYSAIGIDLASHGFIVAAVEHRDG 182
+                           566666667777899*********99987665 PP
+
+  == domain 2  score: 13.9 bits;  conditional E-value: 0.00014
+          Impranil.aln 157 pvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdl 200
+                            ++  id d++ ++ghs+gg   +++   + r++  i l +w  
+  sp|Q28017|PAFA_BOVIN 258 QLKDSIDRDKIAIIGHSFGGATVIQTLSEDQRFRCGIALDAWMF 301
+                           47889*********************98999***********75 PP
+
+>> sp|Q99487|PAFA2_HUMAN  Platelet-activating factor acetylhydrolase 2, cytoplasmic OS=Homo sapiens OX=9606 GN=PAFAH2 PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.6   0.0       7.4   4.1e+04      98     122 ..     108     132 ..      93     140 .. 0.74
+   2 ?   17.0   0.0   1.6e-05     0.091     158     199 ..     221     262 ..     216     287 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 7.4
+           Impranil.aln  98 pgfvalessidwlgpklasqgfvvl 122
+                             g+ a ++  + +   las+gfvv 
+  sp|Q99487|PAFA2_HUMAN 108 HGLGAFRTLYSAFCMELASRGFVVA 132
+                            5566666666667789*******96 PP
+
+  == domain 2  score: 17.0 bits;  conditional E-value: 1.6e-05
+           Impranil.aln 158 vrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwd 199
+                            +++ id +r+ v+ghs+gg  ++ +   e++++ a+ l +w 
+  sp|Q99487|PAFA2_HUMAN 221 LKGNIDMSRVAVMGHSFGGATAILALAKETQFRCAVALDAWM 262
+                            6899***************999888889************96 PP
+
+>> sp|P79106|PAFA2_BOVIN  Platelet-activating factor acetylhydrolase 2, cytoplasmic OS=Bos taurus OX=9913 GN=PAFAH2 PE=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0       3.1   1.7e+04      94     123 ..     104     133 ..      88     149 .. 0.77
+   2 ?   15.9   0.0   3.5e-05      0.19     158     213 ..     221     278 ..     215     293 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 3.1
+           Impranil.aln  94 ivvipgfvalessidwlgpklasqgfvvlt 123
+                            i+   g+ a ++  + +   las+gfvv  
+  sp|P79106|PAFA2_BOVIN 104 IIFSHGMGAFRTVYSAFCMELASRGFVVAV 133
+                            56666777777777888899*******975 PP
+
+  == domain 2  score: 15.9 bits;  conditional E-value: 3.5e-05
+           Impranil.aln 158 vrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwd..lvktyagrvrvptl 213
+                            +++ id +r+ v+ghs+gg  ++ +   e +++ a+ l +w   l + +  ++r p +
+  sp|P79106|PAFA2_BOVIN 221 LKGGIDVSRVAVMGHSFGGATAILALAKEMQFRCAVALDAWMfpLEHDFYPTARGPIF 278
+                            6789***************999888879*************62234445556666655 PP
+
+>> sp|Q7MUW6|PTP_PORGI  Prolyl tripeptidyl peptidase OS=Porphyromonas gingivalis (strain ATCC BAA-308 / W83) OX=242619 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.7   0.2   9.7e-06     0.054     104     188 ..     531     618 ..     524     642 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 17.7 bits;  conditional E-value: 9.7e-06
+         Impranil.aln 104 essidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldy..lisqsss.rtspvrsridsdrlgvvghsmggggtlevarsegr 188
+                          +ss+  +   +a +g+ v+t+d+  + ++  +  + +   l    + +q         +s +d+dr+gv g+s gg  t +   ++g 
+  sp|Q7MUW6|PTP_PORGI 531 RSSVGGWDIYMAQKGYAVFTVDSRGSANRGAAFEQVIHRRLGQteMADQMCGvDFLKSQSWVDADRIGVHGWSYGGFMTTNLMLTHGD 618
+                          799999999***************9999999998888888865114445442134566789***************988776655554 PP
+
+>> sp|B2RJX3|PTP_PORG3  Prolyl tripeptidyl peptidase OS=Porphyromonas gingivalis (strain ATCC 33277 / DSM 20709 / CIP 10
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.7   0.2   9.7e-06     0.054     104     188 ..     531     618 ..     524     642 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 17.7 bits;  conditional E-value: 9.7e-06
+         Impranil.aln 104 essidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldy..lisqsss.rtspvrsridsdrlgvvghsmggggtlevarsegr 188
+                          +ss+  +   +a +g+ v+t+d+  + ++  +  + +   l    + +q         +s +d+dr+gv g+s gg  t +   ++g 
+  sp|B2RJX3|PTP_PORG3 531 RSSVGGWDIYMAQKGYAVFTVDSRGSANRGAAFEQVIHRRLGQteMADQMCGvDFLKSQSWVDADRIGVHGWSYGGFMTTNLMLTHGD 618
+                          799999999***************9999999998888888865114445442134566789***************988776655554 PP
+
+>> sp|Q4WAZ8|PSOB_ASPFU  Alpha/beta hydrolase psoB OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   0.0   6.8e-05      0.37     161     206 ..     234     278 ..     219     288 .. 0.86
+   2 ?    0.3   0.0       1.9   1.1e+04     202     239 ..     348     384 ..     324     428 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 6.8e-05
+          Impranil.aln 161 ridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyag 206
+                            +d d + v g smgg  +l++a +++r+ka + + g+   +++ g
+  sp|Q4WAZ8|PSOB_ASPFU 234 ELDLDHIAVTGASMGGYFALRAA-ADPRIKACVSVDGFYSLSSFVG 278
+                           579999*****************.9***********9999888875 PP
+
+  == domain 2  score: 0.3 bits;  conditional E-value: 1.9
+          Impranil.aln 202 ktyagrvrvptlvvaaqadivapvaahaipfynrlpss 239
+                           + y + v++ptlv +a a      a+ +  +y+ l s 
+  sp|Q4WAZ8|PSOB_ASPFU 348 E-YLADVKCPTLVTGAGASFYFDPATTTDKIYDCLTSL 384
+                           4.445899********9998888888888888766543 PP
+
+>> sp|Q60963|PAFA_MOUSE  Platelet-activating factor acetylhydrolase OS=Mus musculus OX=10090 GN=Pla2g7 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0      0.36     2e+03      94     127 ..     146     179 ..     136     219 .. 0.83
+   2 ?   12.8   0.0   0.00031       1.7     157     200 ..     256     299 ..     247     351 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 2.7 bits;  conditional E-value: 0.36
+          Impranil.aln  94 ivvipgfvalessidwlgpklasqgfvvltidtl 127
+                           iv   g+ a ++  + +g  las+gf+v t++  
+  sp|Q60963|PAFA_MOUSE 146 IVFSHGLGAFRTIYSAIGIGLASNGFIVATVEHR 179
+                           66667777777888889999**********9864 PP
+
+  == domain 2  score: 12.8 bits;  conditional E-value: 0.00031
+          Impranil.aln 157 pvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdl 200
+                            ++  id  ++ ++ghs+gg   l++   + r++  + l +w  
+  sp|Q60963|PAFA_MOUSE 256 QLKDAIDETKIALMGHSFGGATVLQALSEDQRFRCGVALDPWMY 299
+                           56789**********************8999***********74 PP
+
+>> sp|G4MVZ4|ORFZB_PYRO7  Hydrolase ORFZ OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) OX=242507 GN=O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.9   0.0   3.6e-05       0.2     161     220 ..     231     289 ..     210     302 .. 0.86
+   2 ?   -1.7   0.0       8.1   4.5e+04     207     238 ..     345     376 ..     329     381 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 3.6e-05
+           Impranil.aln 161 ridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyagrvrvptlvvaaqad 220
+                             +d++r+   g s+gg  +l++a +++r+ka + l +      +a     pt++ a +a 
+  sp|G4MVZ4|ORFZB_PYRO7 231 DLDTSRIAFSGCSLGGYFALRAA-ADPRVKACVSLDPLYSFWDFAMEHVSPTFINAWEAG 289
+                            58*********************.9************99999999999999999887775 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 8.1
+           Impranil.aln 207 rvrvptlvvaaqadivapvaahaipfynrlps 238
+                            rv++p lv +a   +      h++ +yn+l +
+  sp|G4MVZ4|ORFZB_PYRO7 345 RVQCPVLVSGASHSLYLEGNHHTMRIYNELVN 376
+                            8999*******99999999999*****99977 PP
+
+>> sp|P39298|YJFP_ECOLI  Esterase YjfP OS=Escherichia coli (strain K12) OX=83333 GN=yjfP PE=4 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.5   0.1   2.3e-05      0.13      82     227 ..      18     174 ..      14     187 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 16.5 bits;  conditional E-value: 2.3e-05
+          Impranil.aln  82 yptstvegtlaaivvipgfvalessidwlgpklasqgfvvltidt.lttsdqpdsrarqllaaldylisqsssrtspvrsrid...... 163
+                           yp +  +  l  ++   gf++     +++   la  g+ v+  d+   +s      ar+l++  + l++      + +r+ i       
+  sp|P39298|YJFP_ECOLI  18 YPVGQKDTPLPCVIFYHGFTSSSLVYSYFAVALAQAGLRVIMPDApDHGSRFSGDAARRLNQFWQILLQSMQ-EFTTLRAAIAeenwll 105
+                           999999999999999***********************9988887256778888899999999988886655.6667787775222222 PP
+
+          Impranil.aln 164 sdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyagrvrvptlv..vaaqa....divapvaa 227
+                            drl v g smg   +l ++  +++++ +  + g     + a r+  p l+   aaq     +ivap+a 
+  sp|P39298|YJFP_ECOLI 106 DDRLAVGGASMGAMTALGITARHPTVRCTASMMGSGYFTSLA-RSLFPPLIpeTAAQQnefnNIVAPLAE 174
+                           58*****************999******99999999998888.999999994434543222257777775 PP
+
+>> sp|Q0V6Q1|PHMG_PHANO  Hydrolase phmG OS=Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173) OX=321614 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.3   0.0   2.7e-05      0.15     153     201 ..     239     286 ..     233     303 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 2.7e-05
+          Impranil.aln 153 srtspvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlv 201
+                           +    v   +d dr+ v g smgg  +l++a  ++r+ka + + ++  +
+  sp|Q0V6Q1|PHMG_PHANO 239 TLKREVGVELDLDRIAVAGASMGGYYALRAA-KDSRIKACVAIDPFYDM 286
+                           4556678889*********************.899*****999886544 PP
+
+>> sp|Q6F3I7|DAP4_PSEMX  Dipeptidyl aminopeptidase 4 OS=Pseudoxanthomonas mexicana OX=128785 GN=dap4 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.4   0.0   2.5e-05      0.14     108     205 ..     545     649 ..     475     661 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 16.4 bits;  conditional E-value: 2.5e-05
+          Impranil.aln 108 dwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrt...spvrsridsdrlgvvghsmggggtlev.arsegrl... 189
+                           +++   la qg+vv+t+d   t  +  + +  l      +  ++  r       ++ +d  r+gv g+s gg  tl   a+ +      
+  sp|Q6F3I7|DAP4_PSEMX 545 SFFNQYLAQQGYVVFTLDNRGTPRRGAAFGGALYGKQGTVEVDDQLRGiewLKSQAFVDPARIGVYGWSNGGYMTLMLlAKHDEAYacg 633
+                           4667789*************99999988888887666555544444431114556789*****************98624433333111 PP
+
+          Impranil.aln 190 kaaiplagwdlvktya 205
+                            a  p++ w l +t+ 
+  sp|Q6F3I7|DAP4_PSEMX 634 VAGAPVTDWALYDTHY 649
+                           3567999999988864 PP
+
+>> sp|F0XS04|DAPB_GROCL  Probable dipeptidyl-aminopeptidase B OS=Grosmannia clavigera (strain kw1407 / UAMH 11150) OX=65
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.2   0.2       5.8   3.2e+04     176     225 ..     253     302 ..     175     325 .. 0.73
+   2 ?   17.0   0.2   1.7e-05     0.092     102     199 ..     752     857 ..     746     893 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: -1.2 bits;  conditional E-value: 5.8
+          Impranil.aln 176 gggtlevarsegrlkaaiplagwdlvktyagrvrvptlvvaaqadivapv 225
+                            g t ++  s+++   +  l g d+ + +   + +  +++ + +++v p+
+  sp|F0XS04|DAPB_GROCL 253 AGKTYRIGSSKASKDMSKVLLGVDVQSNWRHSSTAAYFILEVATQTVQPL 302
+                           46788888888888888888888888888888888888888888888775 PP
+
+  == domain 2  score: 17.0 bits;  conditional E-value: 1.7e-05
+          Impranil.aln 102 alessidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqs...ssrtspvrsridsdrlgvvghsmggggtlevarse. 186
+                           + e s+d+     as g+vv+t+d   t     s    +   l  + s +   +++  +    id drl + g+s gg  tl++   + 
+  sp|F0XS04|DAPB_GROCL 752 THEFSVDFQSYVAASLGYVVVTVDPRGTGFAGRSNRVVVRGRLGVVESHDhiaAAQHWASLPYIDGDRLAIWGWSYGGFTTLKTLEQDa 840
+                           5678999999999***********875544444433334444444443330002233455668******************99764331 PP
+
+          Impranil.aln 187 gr.lk...aaiplagwd 199
+                           gr ++   a  p++ w 
+  sp|F0XS04|DAPB_GROCL 841 GRtFRygiAVAPVTDWR 857
+                           22122111444666665 PP
+
+>> sp|P29715|BPOA2_KITAU  Non-haem bromoperoxidase BPO-A2 OS=Kitasatospora aureofaciens OX=1894 GN=bpoA2 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.2   0.0      0.03   1.7e+02      89     190 ..      22     116 ..      12     171 .. 0.81
+   2 ?    9.0   0.1    0.0043        24     183     252 ..     191     258 ..     184     275 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 6.2 bits;  conditional E-value: 0.03
+           Impranil.aln  89 gtlaaivvipgfvalessidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmgg 176
+                            gt   +v+i gf     s +     l   g+ v+t d   ++ q      q  +  dy +  +    + v   +d +   +vg+smg 
+  sp|P29715|BPOA2_KITAU  22 GTGQPVVLIHGFPLSGHSWERQSAALLDAGYRVITYDRR-GFGQS----SQPTTGYDYDTFAAD--LNTVLETLDLQDAVLVGFSMGT 102
+                            777788899999888888888899999999999999964.66654....466778888887666..7789999*************** PP
+
+           Impranil.aln 177 ggtlevarsegrlk 190
+                            g   +   s g+ +
+  sp|P29715|BPOA2_KITAU 103 GEVARYVSSYGTAR 116
+                            *9988877766554 PP
+
+  == domain 2  score: 9.0 bits;  conditional E-value: 0.0043
+           Impranil.aln 183 arsegrlkaaiplagwdl.vktyagrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnash 252
+                            a s g + aa   ++w +  ++   r+ vp+l++    d   p+   a  f+  lps+    y+e+++a h
+  sp|P29715|BPOA2_KITAU 191 AASGGFFAAAAAPTTWYTdFRADIPRIDVPALILHGTGDRTLPIENTARVFHKALPSA---EYVEVEGAPH 258
+                            55666666666556665415666779******************************96...6999999988 PP
+
+>> sp|O64252|PRXH_BPMD2  Putative non-heme haloperoxidase OS=Mycobacterium phage D29 OX=28369 GN=59.2 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.7   0.1   8.3e-05      0.46      87     195 ..      18     120 ..      11     141 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.7 bits;  conditional E-value: 8.3e-05
+          Impranil.aln  87 vegtlaaivvipgfvalessidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmg 175
+                           + gt a +v + g+     + + +  +la +gf v+++d+         r+  l     + +++ +  t      +d +r    ghsmg
+  sp|O64252|PRXH_BPMD2  18 TVGTGAPLVFLHGLSVSAKAYEEMLTRLAEHGFRVIALDAANH-----GRSGSL--PTGHTVEDMTRVTLKTLDELDIHRAIFAGHSMG 99 
+                           678888899999998888888888899*********9997643.....222222..2234444444455667789************** PP
+
+          Impranil.aln 176 gggtlevarseg.rlkaaipl 195
+                           gg  +e+a  ++ r+ aa+ l
+  sp|O64252|PRXH_BPMD2 100 GGMVVEIAARHPhRVAAAVLL 120
+                           ******875554277777765 PP
+
+>> sp|A1CJQ1|DAPB_ASPCL  Probable dipeptidyl-aminopeptidase B OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.7   0.1   4.1e-05      0.22     104     184 ..     681     764 ..     672     821 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 4.1e-05
+          Impranil.aln 104 essidwlgpklasqgfvvltidtlttsdqpdsrarql.laaldylisqs...ssrtspvrsridsdrlgvvghsmggggtlevar 184
+                           + sid+     +s g++v+t+d   t      +ar +    l +   ++   +++  + +s +d +r+ + g+s+gg  tl++  
+  sp|A1CJQ1|DAPB_ASPCL 681 KFSIDFQSYVASSLGYIVVTVDGRGTGHI-GRKARCIvRGNLGFYEARDqiaTAKIWAAKSYVDESRMAIWGWSFGGFMTLKTLE 764
+                           5689999999999*********9877654.455665515567776655501144556789******************9998653 PP
+
+>> sp|P9WEZ7|ACRC_ASPA1  Hydrolase acrC OS=Aspergillus aculeatus (strain ATCC 16872 / CBS 172.66 / WB 5094) OX=690307 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.4   0.0   5.1e-05      0.28      94     200 ..     165     275 ..     148     289 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 15.4 bits;  conditional E-value: 5.1e-05
+          Impranil.aln  94 ivvipgfvalessidwlgpkla.sqgfvvltidtlttsdqpdsrarqllaaldylisqsssrt.s..pvrsridsdrlgvvghsmgggg 178
+                           +++  gf + +  + ++gp  a  +g+ vlt +           + +l    ++++++    + s  +    id +r+ vvg s+gg  
+  sp|P9WEZ7|ACRC_ASPA1 165 LIMTGGFDSTQEELYFFGPAAAlPRGYAVLTFEGPGQGICLRRDGLRLRPDWEHVTTKVLDVVeSqlAKDYPIDLERVAVVGASLGGYF 253
+                           5667788888888888888877357888888876544333333333444444443333322110100123459**************** PP
+
+          Impranil.aln 179 tlevarsegrlkaaipl.agwdl 200
+                           +l++a +++r++a +   a +dl
+  sp|P9WEZ7|ACRC_ASPA1 254 ALRAA-ADPRVRACVSCdACYDL 275
+                           *****.9******9975244555 PP
+
+>> sp|W7N6P0|FUS2_GIBM7  20-hydroxy-prefusarin hydrolase FUS2 OS=Gibberella moniliformis (strain M3125 / FGSC 7600) OX=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.1   0.0   6.3e-05      0.35      89     196 ..     150     260 ..     137     279 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 15.1 bits;  conditional E-value: 6.3e-05
+          Impranil.aln  89 gtlaaivvipgfvalessidwlgpkla.sqgfvvltidtlttsdqpdsrar.qllaaldylisqsss.rtspvrs..ridsdrlgvvgh 172
+                           g +  +    gf + +  + ++g   a  +g+ v++ d       p   ++ +l +  +y++sq     t  +     +d +rl + g 
+  sp|W7N6P0|FUS2_GIBM7 150 GKIPVVLQTGGFDSTQEELYFYGAAGAlPRGYAVFSFDGPG-QGLPLRVGKlKLRTDWEYVVSQVLDfVTDDIAPeyDLDLERLAIFGA 237
+                           55555666778999999999999887635899999999764.4455544442678888999999865145555441157899******* PP
+
+          Impranil.aln 173 smggggtlevarsegrlkaaipla 196
+                           s+gg  +l++a  ++r+ka i   
+  sp|W7N6P0|FUS2_GIBM7 238 SLGGYLSLRAA-VDPRIKACISCD 260
+                           ***********.9*******9754 PP
+
+>> sp|O31168|PRXC_KITAU  Non-heme chloroperoxidase OS=Kitasatospora aureofaciens OX=1894 GN=cpo PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9   0.0     0.077   4.2e+02      94     190 ..      27     116 ..      15     171 .. 0.76
+   2 ?    9.0   0.1    0.0043        24     183     252 ..     191     258 ..     184     275 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 4.9 bits;  conditional E-value: 0.077
+          Impranil.aln  94 ivvipgfvalessidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlev 182
+                           +v+i gf     s +     l   g+ v+t d   ++ q      q  +  dy +  +    + v   +d +   +vg+smg g   + 
+  sp|O31168|PRXC_KITAU  27 VVLIHGFPLSGHSWERQSAALLDAGYRVITYDRR-GFGQS----SQPTTGYDYDTFAAD--LNTVLETLDLQDAVLVGFSMGTGEVARY 108
+                           6667777776777777777777777777777754.55553....455667788776655..67799999999999********999888 PP
+
+          Impranil.aln 183 arsegrlk 190
+                             s g+ +
+  sp|O31168|PRXC_KITAU 109 VSSYGTAR 116
+                           77766554 PP
+
+  == domain 2  score: 9.0 bits;  conditional E-value: 0.0043
+          Impranil.aln 183 arsegrlkaaiplagwdl.vktyagrvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnash 252
+                           a s g + aa   ++w +  ++   r+ vp+l++    d   p+   a  f+  lps+    y+e+++a h
+  sp|O31168|PRXC_KITAU 191 AASGGFFAAAAAPTTWYTdFRADIPRIDVPALILHGTGDRTLPIENTARVFHKALPSA---EYVEVEGAPH 258
+                           55666666666556665415666779******************************96...6999999988 PP
+
+>> sp|B6HFS8|DAPB_PENRW  Probable dipeptidyl-aminopeptidase B OS=Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   0.0   6.4e-05      0.35     113     186 ..     691     767 ..     674     798 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 6.4e-05
+          Impranil.aln 113 klasqgfvvltidtl.ttsdqpdsrarqllaaldy..lisqsssrtspvrsridsdrlgvvghsmggggtlevarse 186
+                             +  g++v+t+d   t++   ++r+    +   y  + + ++++  + +s +d +r+ v g+s gg  tl+v   +
+  sp|B6HFS8|DAPB_PENRW 691 VASNLGYIVVTVDGRgTGFIGREARCLVRGNIGHYeaIDQIETAKIWASKSYVDESRMAVWGWSYGGYMTLKVLEQD 767
+                           444569*******864889888888766555555521455577888999**********************997543 PP
+
+>> sp|S0EE80|FUS2_GIBF5  20-hydroxy-prefusarin hydrolase FUS2 OS=Gibberella fujikuroi (strain CBS 195.34 / IMI 58289 / N
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.5   0.0   9.1e-05       0.5      89     195 ..     150     259 ..     137     278 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 9.1e-05
+          Impranil.aln  89 gtlaaivvipgfvalessidwlgpkla.sqgfvvltidtlttsdqpdsrar.qllaaldylisqsss.rtspvrsr..idsdrlgvvgh 172
+                           g +  +    gf + +  + ++g   a  +g+ v++ d       p   ++ +l +  +y++sq     t  v     +d +rl + g 
+  sp|S0EE80|FUS2_GIBF5 150 GKIPVVLQTGGFDSTQEELYFYGAAGAlPRGYAVFSFDGPG-QGLPLRVGKlKLRTDWEYVVSQVLDfVTDDVAPEydLDLERLAIFGA 237
+                           55556666779999999999999887736899999999764.4555544442788889999999865156677654227889******* PP
+
+          Impranil.aln 173 smggggtlevarsegrlkaaipl 195
+                           s+gg  +l++a  ++r+ka +  
+  sp|S0EE80|FUS2_GIBF5 238 SLGGYLSLRAA-VDPRIKACVSC 259
+                           ***********.9******9865 PP
+
+>> sp|Q93NG6|DHPON_PAENI  2,6-dihydropseudooxynicotine hydrolase OS=Paenarthrobacter nicotinovorans OX=29320 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.2   0.0   0.00012      0.65     161     204 ..     205     248 ..     185     257 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 14.2 bits;  conditional E-value: 0.00012
+           Impranil.aln 161 ridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvkty 204
+                             i  d +gv+g s+gg  +l+ a  e+rl a i   g+   + +
+  sp|Q93NG6|DHPON_PAENI 205 AIRNDAIGVLGRSLGGNYALKSAACEPRLAACISWGGFSDLDYW 248
+                            577899***************************98887665555 PP
+
+>> sp|Q8R1G2|CMBL_MOUSE  Carboxymethylenebutenolidase homolog OS=Mus musculus OX=10090 GN=Cmbl PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.2   0.0   0.00011      0.62     158     226 ..     117     185 ..     100     197 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 14.2 bits;  conditional E-value: 0.00011
+          Impranil.aln 158 vrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyagrvrvptlvvaaqadivapva 226
+                           +r +  ++++g+vg+  gg    +v  + + ++a + + g    +    + + ptl + a+ d+v p+ 
+  sp|Q8R1G2|CMBL_MOUSE 117 LRQQCHAQKIGIVGFCWGGVVVHQVMTAYPDIRAGVSVYGIIRDSEDVYNLKNPTLFIFAENDTVIPLE 185
+                           67788899*****************************99975555444459***************986 PP
+
+>> sp|C7YYG9|DAPB_FUSV7  Probable dipeptidyl-aminopeptidase B OS=Fusarium vanettenii (strain ATCC MYA-4622 / CBS 123669 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.8   0.0   0.00015      0.85     107     185 ..     680     761 ..     669     793 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 13.8 bits;  conditional E-value: 0.00015
+          Impranil.aln 107 idwlgpklasqgfvvltidtl.ttsdqpdsr....ar.qllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevars 185
+                           +d+     a+ g++v+t+d   t++   + r    ++  + +a d++   +s    + r  +d++rl + g+s gg  tl++   
+  sp|C7YYG9|DAPB_FUSV7 680 VDFQAYVAAALGYLVITVDPRgTGFLGRKHRvtvrSKlGVHEAHDHIAAAAS---FASRPYVDAERLAIWGWSYGGFTTLKTLEQ 761
+                           5666666788999999999763666544444111043247889999988888...67899*******************987533 PP
+
+>> sp|Q22943|PAFA_CAEEL  Platelet-activating factor acetylhydrolase homolog 2 OS=Caenorhabditis elegans OX=6239 GN=paf-2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.0       2.2   1.2e+04     108     126 ..     125     143 ..     102     159 .. 0.78
+   2 ?   11.7   0.0   0.00065       3.6     164     216 ..     229     283 ..     213     302 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 0.1 bits;  conditional E-value: 2.2
+          Impranil.aln 108 dwlgpklasqgfvvltidt 126
+                           + +   las+g+vv +++ 
+  sp|Q22943|PAFA_CAEEL 125 STYCTSLASHGYVVAAVEH 143
+                           5566789999999998875 PP
+
+  == domain 2  score: 11.7 bits;  conditional E-value: 0.00065
+          Impranil.aln 164 sdrlgvvghsmggggtlevarsegrlkaaiplagwd..lvktyagrvrvptlvva 216
+                            +   v+ghs+gg  +l  +   + ++ ai + gw   l +t   +++ ptl + 
+  sp|Q22943|PAFA_CAEEL 229 MSSASVIGHSFGGATSLASSAYTTDFQKAIVFDGWMypLDSTQQEQAKQPTLFLN 283
+                           56678*************9999*************63378999999999**9875 PP
+
+>> sp|E3S9K3|DAPB_PYRTT  Probable dipeptidyl-aminopeptidase B OS=Pyrenophora teres f. teres (strain 0-1) OX=861557 GN=da
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.3   0.0   0.00021       1.2     114     199 ..     689     782 ..     676     823 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 0.00021
+          Impranil.aln 114 lasqgfvvltidtl.ttsdqpdsrarqllaaldyli...sqsssrtspvrsridsdrlgvvghsmggggtlevarseg..rlk...aai 193
+                            a  g++v+t+d   t++   + r+      l y     + ++++  + +  +d+drl + g+s+gg  tl++   +g  ++k   a  
+  sp|E3S9K3|DAPB_PYRTT 689 AANLGYIVVTVDGRgTGFLGRKLRCIT-RGNLGYYEahdQIAAAKIWASKKYVDADRLAIWGWSFGGFNTLKTLEQDGgqTFKygmAVA 776
+                           577899999999863556555555433.344555541113345566778899*******************987665521222222455 PP
+
+          Impranil.aln 194 plagwd 199
+                           p++ w 
+  sp|E3S9K3|DAPB_PYRTT 777 PVTDWR 782
+                           666665 PP
+
+>> sp|P75311|ESL2_MYCPN  Putative esterase/lipase 2 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129 / Subtype 1) OX=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0    0.0013       7.3     166     210 ..      90     135 ..      61     152 .. 0.81
+   2 ?    1.0   0.0       1.2   6.6e+03     204     228 ..     196     220 ..     188     249 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.0013
+          Impranil.aln 166 rlgvvghsmggggt.levarsegrlkaaiplagwdlvktyagrvrv 210
+                           ++ +vghsmgg  + l  a  + r+ka + +a+ + ++   ++ r+
+  sp|P75311|ESL2_MYCPN  90 KVVLVGHSMGGAIAvLVNAVLRERIKALVLVAPMNQTSFVVSKKRI 135
+                           44579******9651667889**************99977666665 PP
+
+  == domain 2  score: 1.0 bits;  conditional E-value: 1.2
+          Impranil.aln 204 yagrvrvptlvvaaqadivapvaah 228
+                           y +    ptlvv    div+p  a 
+  sp|P75311|ESL2_MYCPN 196 YNAIKDKPTLVVLGSNDIVTPTKAS 220
+                           6666778**************8664 PP
+
+>> sp|P9WIK8|PAPA1_MYCTO  2'-acyl-2-O-sulfo-trehalose (hydroxy)phthioceranyltransferase PapA1 OS=Mycobacterium tuberculo
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.0   0.00023       1.3      40      99 ..     371     436 ..     346     455 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00023
+           Impranil.aln  40 spyergpdptvs...sleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtl...aaivvipg 99 
+                            sp  r p+p  s   +++a  g+ ++ t    +l v  +  g + yp st+ g +   aa v+ p 
+  sp|P9WIK8|PAPA1_MYCTO 371 SPSLRRPQPLFSlvnFFDAQVGPLSAVTKLFEGLNVGTYSDGRVTYPLSTMVGRFdetAASVLFPD 436
+                            678899999755222789**********************************98844345555554 PP
+
+>> sp|A1KQF9|PAPA1_MYCBP  2'-acyl-2-O-sulfo-trehalose (hydroxy)phthioceranyltransferase PapA1 OS=Mycobacterium bovis (st
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.0   0.00023       1.3      40      99 ..     371     436 ..     346     455 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00023
+           Impranil.aln  40 spyergpdptvs...sleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtl...aaivvipg 99 
+                            sp  r p+p  s   +++a  g+ ++ t    +l v  +  g + yp st+ g +   aa v+ p 
+  sp|A1KQF9|PAPA1_MYCBP 371 SPSLRRPQPLFSlvnFFDAQVGPLSAVTKLFEGLNVGTYSDGRVTYPLSTMVGRFdetAASVLFPD 436
+                            678899999755222789**********************************98844345555554 PP
+
+>> sp|A5U9F3|PAPA1_MYCTA  2'-acyl-2-O-sulfo-trehalose (hydroxy)phthioceranyltransferase PapA1 OS=Mycobacterium tuberculo
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.0   0.00023       1.3      40      99 ..     371     436 ..     346     455 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00023
+           Impranil.aln  40 spyergpdptvs...sleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtl...aaivvipg 99 
+                            sp  r p+p  s   +++a  g+ ++ t    +l v  +  g + yp st+ g +   aa v+ p 
+  sp|A5U9F3|PAPA1_MYCTA 371 SPSLRRPQPLFSlvnFFDAQVGPLSAVTKLFEGLNVGTYSDGRVTYPLSTMVGRFdetAASVLFPD 436
+                            678899999755222789**********************************98844345555554 PP
+
+>> sp|P9WIK9|PAPA1_MYCTU  2'-acyl-2-O-sulfo-trehalose (hydroxy)phthioceranyltransferase PapA1 OS=Mycobacterium tuberculo
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.0   0.00023       1.3      40      99 ..     371     436 ..     346     455 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00023
+           Impranil.aln  40 spyergpdptvs...sleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtl...aaivvipg 99 
+                            sp  r p+p  s   +++a  g+ ++ t    +l v  +  g + yp st+ g +   aa v+ p 
+  sp|P9WIK9|PAPA1_MYCTU 371 SPSLRRPQPLFSlvnFFDAQVGPLSAVTKLFEGLNVGTYSDGRVTYPLSTMVGRFdetAASVLFPD 436
+                            678899999755222789**********************************98844345555554 PP
+
+>> sp|Q7TVK9|PAPA1_MYCBO  2'-acyl-2-O-sulfo-trehalose (hydroxy)phthioceranyltransferase PapA1 OS=Mycobacterium bovis (st
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.0   0.00023       1.3      40      99 ..     371     436 ..     346     455 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00023
+           Impranil.aln  40 spyergpdptvs...sleasrgsyatrtvrvsrlavsgfgggtiyyptstvegtl...aaivvipg 99 
+                            sp  r p+p  s   +++a  g+ ++ t    +l v  +  g + yp st+ g +   aa v+ p 
+  sp|Q7TVK9|PAPA1_MYCBO 371 SPSLRRPQPLFSlvnFFDAQVGPLSAVTKLFEGLNVGTYSDGRVTYPLSTMVGRFdetAASVLFPD 436
+                            678899999755222789**********************************98844345555554 PP
+
+>> sp|P0A573|Y2734_MYCBO  Uncharacterized protein Mb2734 OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) OX=233
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.1   0.00024       1.3     144     189 ..      82     127 ..      24     158 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00024
+           Impranil.aln 144 ldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrl 189
+                             dy +   ++    + s +d +r+ +vghs+ggg +++ a   ++l
+  sp|P0A573|Y2734_MYCBO  82 ADYSVAAYANGMRDLLSVLDIERVTIVGHSLGGGVAMQFAYQFPQL 127
+                            36666666666777889*******************9999777766 PP
+
+>> sp|P9WNH2|Y2715_MYCTO  Uncharacterized protein MT2788 OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=83
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.1   0.00024       1.3     144     189 ..      82     127 ..      24     158 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00024
+           Impranil.aln 144 ldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrl 189
+                             dy +   ++    + s +d +r+ +vghs+ggg +++ a   ++l
+  sp|P9WNH2|Y2715_MYCTO  82 ADYSVAAYANGMRDLLSVLDIERVTIVGHSLGGGVAMQFAYQFPQL 127
+                            36666666666777889*******************9999777766 PP
+
+>> sp|P9WNH3|Y2715_MYCTU  Uncharacterized protein Rv2715 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.1   0.00024       1.3     144     189 ..      82     127 ..      24     158 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00024
+           Impranil.aln 144 ldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrl 189
+                             dy +   ++    + s +d +r+ +vghs+ggg +++ a   ++l
+  sp|P9WNH3|Y2715_MYCTU  82 ADYSVAAYANGMRDLLSVLDIERVTIVGHSLGGGVAMQFAYQFPQL 127
+                            36666666666777889*******************9999777766 PP
+
+>> sp|P94388|CAH_BACSU  Cephalosporin-C deacetylase OS=Bacillus subtilis (strain 168) OX=224308 GN=cah PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.5   0.7    0.0031        17     160     193 ..     168     201 ..      46     223 .. 0.79
+   2 ?    0.4   0.0       1.8     1e+04     186     236 ..     236     284 ..     228     293 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 9.5 bits;  conditional E-value: 0.0031
+         Impranil.aln 160 sridsdrlgvvghsmggggtlevarsegrlkaai 193
+                            +d  r+gv g s ggg t+ +a      kaa+
+  sp|P94388|CAH_BACSU 168 DEVDETRIGVTGGSQGGGLTIAAAALSDIPKAAV 201
+                          46899****************9996666667776 PP
+
+  == domain 2  score: 0.4 bits;  conditional E-value: 1.8
+         Impranil.aln 186 egrlkaaiplagwdlvktyagrvrvptlvvaaqadivapvaahaipfynrl 236
+                          e++++a   l+ +d+++  a rv+vp l+     d v+p ++     yn+l
+  sp|P94388|CAH_BACSU 236 ETEVQAMKTLSYFDIMNL-ADRVKVPVLMSIGLIDKVTPPST-VFAAYNHL 284
+                          667888889999998765.66********9999999999644.44556666 PP
+
+>> sp|A6GYW4|GSA_FLAPJ  Glutamate-1-semialdehyde 2,1-aminomutase OS=Flavobacterium psychrophilum (strain ATCC 49511 / DS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.1   0.00025       1.4      64     166 ..      94     197 ..      67     211 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 0.00025
+         Impranil.aln  64 tvrvsrlavsgfgg.gtiyyptstvegtlaaivvipgfvalessidwlgpkl.asqgfvvltidtlttsdqpdsrarqllaaldylisqs 151
+                           + +++lavs       i +  s +e  ++ai ++ gf+  +  i++ g     s+ f++ +     t+  p+s +    +a d l+   
+  sp|A6GYW4|GSA_FLAPJ  94 ETEIAKLAVSMVSNiDKIRFVNSGTEACMSAIRLARGFTKRDKIIKFAGCYHgHSDSFLIQAGSGAITFGSPNSPGVTSGTAKDTLLASY 183
+                          3578999999887636899******************************8652799********************99999999987655 PP
+
+         Impranil.aln 152 ssrtspvrsridsdr 166
+                                v++  d+++
+  sp|A6GYW4|GSA_FLAPJ 184 N-DIQNVKNLFDANK 197
+                          4.5777777777765 PP
+
+>> sp|Q55EQ3|Y9086_DICDI  Uncharacterized abhydrolase domain-containing protein DDB_G0269086 OS=Dictyostelium discoideum
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.0   0.00028       1.5     208     280 ..     210     279 ..     188     298 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00028
+           Impranil.aln 208 vrvptlvvaaqadiva.pvaahaipfynrlpsslekaylelrnashyaansgglsndvlakytlswlkrflded 280
+                              +p l+v a+ d ++ p a  +  fy+r+ps+++k+    +n  h + n   ++ + +  y l w+k  +++ 
+  sp|Q55EQ3|Y9086_DICDI 210 FDTPLLLVHANDDKITcPKA--SQQFYDRVPSTVDKTLKLWENMYHEVHNE--FAKEEFVTYILEWIKERIENA 279
+                            56799999999987751555..568************99999999*99999..88999999*******999875 PP
+
+>> sp|C5P334|DAPB_COCP7  Probable dipeptidyl-aminopeptidase B OS=Coccidioides posadasii (strain C735) OX=222929 GN=DAPB 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.1   0.00036         2     116     185 ..     694     766 ..     677     796 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00036
+          Impranil.aln 116 sqgfvvltidtl.ttsdqpdsrarqlla..aldylisqsssrtspvrsridsdrlgvvghsmggggtlevars 185
+                             g++v+t+d   t++   ++r+    +    + + + +++++   rs +d+ r+ + g+s gg  tl++   
+  sp|C5P334|DAPB_COCP7 694 NLGYIVVTVDGRgTGFIGRKARCAVRGNlgHYEAIDQIETAKAWGKRSYVDAGRMAIWGWSYGGFMTLKTLEQ 766
+                           459*******863778877777644444004444556677888999********************9997643 PP
+
+>> sp|E9CUF4|DAPB_COCPS  Probable dipeptidyl-aminopeptidase B OS=Coccidioides posadasii (strain RMSCC 757 / Silveira) OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.1   0.00036         2     116     185 ..     694     766 ..     677     796 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00036
+          Impranil.aln 116 sqgfvvltidtl.ttsdqpdsrarqlla..aldylisqsssrtspvrsridsdrlgvvghsmggggtlevars 185
+                             g++v+t+d   t++   ++r+    +    + + + +++++   rs +d+ r+ + g+s gg  tl++   
+  sp|E9CUF4|DAPB_COCPS 694 NLGYIVVTVDGRgTGFIGRKARCAVRGNlgHYEAIDQIETAKAWGKRSYVDAGRMAIWGWSYGGFMTLKTLEQ 766
+                           459*******863778877777644444004444556677888999********************9997643 PP
+
+>> sp|A4QYQ5|DAPB_PYRO7  Probable dipeptidyl-aminopeptidase B OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.2   0.00036         2     101     199 ..     690     796 ..     684     808 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00036
+          Impranil.aln 101 valessidwlgpklasqgfvvltidtl.ttsdqpdsra..rqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarse 186
+                           v+ + s+d+     as g++v+t d   t++   + r   r  l  ++   + ++++  +  + +d +r+ + g+s gg  tl++  ++
+  sp|A4QYQ5|DAPB_PYRO7 690 VSQKFSVDFQSYVAASLGYIVVTFDGRgTGFIGRKNRVlvRSRLGEIEAQDQIAAAKHWASLGYVDPSRIAIWGWSYGGFQTLKTLEAD 778
+                           56778999999999***********87366665555531144444444444445666778889*****************999865433 PP
+
+          Impranil.aln 187 g.....rlkaaiplagwd 199
+                           +        a  p++ w 
+  sp|A4QYQ5|DAPB_PYRO7 779 AgrtfsYGMAVAPVTDWR 796
+                           211010234555666665 PP
+
+>> sp|P70948|YITV_BACSU  Putative esterase YitV OS=Bacillus subtilis (strain 168) OX=224308 GN=yitV PE=4 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.0   0.00036         2     160     197 ..     103     140 ..      89     153 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00036
+          Impranil.aln 160 sridsdrlgvvghsmggggtlevarsegrlkaaiplag 197
+                           + id  r+g+ g smgg  tl +  +   +ka + l g
+  sp|P70948|YITV_BACSU 103 GLIDGGRIGLAGTSMGGITTLGALTAYDWIKAGVSLMG 140
+                           78**********************99******999976 PP
+
+>> sp|B0XYK8|DAPB_ASPFC  Probable dipeptidyl-aminopeptidase B OS=Aspergillus fumigatus (strain CBS 144.89 / FGSC A1163 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.1   0.00048       2.7     112     185 ..     693     769 ..     677     801 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 0.00048
+          Impranil.aln 112 pklasqgfvvltidtl.ttsdqpdsrarqllaaldyli...sqsssrtspvrsridsdrlgvvghsmggggtlevars 185
+                              +s g++v+t+d   t++   ++r+  +   l +     + ++++  + +s +d  r+ + g+s+gg  tl++   
+  sp|B0XYK8|DAPB_ASPFC 693 YVASSLGYIVVTVDGRgTGFIGRKARCI-VRGNLGFYEahdQIATAKMWAAKSYVDETRMAIWGWSFGGFMTLKTLEQ 769
+                           555788********86366665555543.33455554411133455667899*******************9987533 PP
+
+>> sp|Q4WX13|DAPB_ASPFU  Probable dipeptidyl-aminopeptidase B OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 10135
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.1   0.00048       2.7     112     185 ..     693     769 ..     677     801 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 0.00048
+          Impranil.aln 112 pklasqgfvvltidtl.ttsdqpdsrarqllaaldyli...sqsssrtspvrsridsdrlgvvghsmggggtlevars 185
+                              +s g++v+t+d   t++   ++r+  +   l +     + ++++  + +s +d  r+ + g+s+gg  tl++   
+  sp|Q4WX13|DAPB_ASPFU 693 YVASSLGYIVVTVDGRgTGFIGRKARCI-VRGNLGFYEahdQIATAKMWAAKSYVDETRMAIWGWSFGGFMTLKTLEQ 769
+                           555788********86366665555543.33455554411133455667899*******************9987533 PP
+
+>> sp|A1D7R6|DAPB_NEOFI  Probable dipeptidyl-aminopeptidase B OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.1   0.00057       3.1     112     185 ..     693     769 ..     677     801 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.00057
+          Impranil.aln 112 pklasqgfvvltidtl.ttsdqpdsrarqllaaldyli...sqsssrtspvrsridsdrlgvvghsmggggtlevars 185
+                              +s g++v+t+d   t++   ++r+  +   l +     + ++++  + +s +d  r+ + g+s+gg  tl++   
+  sp|A1D7R6|DAPB_NEOFI 693 YVASSLGYIVVTVDGRgTGFIGRKARCI-VRGNLGFYEahdQIATAKMWAAKSYVDETRMAIWGWSFGGFMTLKTLEQ 769
+                           555788********86366665555543.33455554411133455667899*******************9997643 PP
+
+>> sp|C4JHY5|DAPB_UNCRE  Probable dipeptidyl-aminopeptidase B OS=Uncinocarpus reesii (strain UAMH 1704) OX=336963 GN=DAP
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.0   0.00045       2.5     115     200 ..     690     783 ..     673     798 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00045
+          Impranil.aln 115 asqgfvvltidtl.ttsdqpdsra..rqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtleva.rsegr.lk...aaipl 195
+                           +  g++v+t+d   t++   ++r+  r+ l   + + + +++++   r  +d+ r+ + g+s gg  tl++  r  g+ ++   a  p+
+  sp|C4JHY5|DAPB_UNCRE 690 SNLGYIVVTVDGRgTGFIGRKARCvvRDNLGHYEAIDQIETAKAWGKRPYVDATRMAIWGWSYGGFMTLKTLeRDAGQtFQygmAVAPV 778
+                           3459*******863778777777622444444455566678888999*********************997513333212222255677 PP
+
+          Impranil.aln 196 agwdl 200
+                           + w+ 
+  sp|C4JHY5|DAPB_UNCRE 779 TDWQF 783
+                           77765 PP
+
+>> sp|Q96VT7|DAPB_ASPNG  Dipeptidyl-aminopeptidase B OS=Aspergillus niger OX=5061 GN=dapB PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.1   0.00054         3     104     185 ..     667     751 ..     662     782 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00054
+          Impranil.aln 104 essidwlgpklasqgfvvltidtl.ttsdqpdsrarqllaaldylisqsssrtspv...rsridsdrlgvvghsmggggtlevars 185
+                           + sid+     +s g++v+t+d   t++   ++r+  +   l y    +   t+ +   +  +d  r+ + g+s gg  tl++   
+  sp|Q96VT7|DAPB_ASPNG 667 KFSIDFQSYVASSLGYIVVTVDGRgTGFSGRKTRC-IVRGNLGYYEAYDQITTANLwgeKPYVDETRMSIWGWSYGGFMTLKTLEQ 751
+                           56889888888999********8736676666665.45677888877777667665222567*****************9997643 PP
+
+>> sp|Q51758|EST1_PSEFL  Carboxylesterase 1 OS=Pseudomonas fluorescens OX=294 GN=estA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.0   0.00043       2.4     158     227 ..      99     175 ..      79     194 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00043
+          Impranil.aln 158 vrsridsdrlgvvghsmggggtleva..rsegrlkaaiplagw.....dlvktyagrvrvptlvvaaqadivapvaa 227
+                            r+ id++r+ + g+s gg   +++a  + eg l   i l+++     +  +  a++ r+ptl +  q d v   a 
+  sp|Q51758|EST1_PSEFL  99 QRTGIDTSRIFLAGFSQGGAVVFHTAfkKWEGPLGGVIALSTYaptfdNDLQLSASQQRIPTLCLHGQYDEVVQNAM 175
+                           5899*******************999434579999999998873333333456677999*********999877664 PP
+
+>> sp|Q18253|DPF2_CAEEL  Dipeptidyl peptidase family member 2 OS=Caenorhabditis elegans OX=6239 GN=dpf-2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.0   0.00064       3.5     160     204 ..     678     724 ..     662     736 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00064
+          Impranil.aln 160 sridsdrlgvvghsmggggtleva.rsegr.lkaaiplagwdlvkty 204
+                           + id dr+ v+g+s gg  t ++a + +g+ +k ai +a+    k y
+  sp|Q18253|DPF2_CAEEL 678 GFIDEDRIAVMGWSYGGFLTSKIAiKDQGElVKCAISIAPVTDFKYY 724
+                           78******************99983344543799**99998777666 PP
+
+>> sp|Q0CXB1|DAPB_ASPTN  Probable dipeptidyl-aminopeptidase B OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.0    0.0006       3.3     113     185 ..     689     764 ..     672     794 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.0006
+          Impranil.aln 113 klasqgfvvltidtl.ttsdqpdsrarqllaaldylisq...sssrtspvrsridsdrlgvvghsmggggtlevars 185
+                             +  g++v+t+d   t++   ++r+  +   l y       ++++  + +s +d +r+ + g+s gg  tl++   
+  sp|Q0CXB1|DAPB_ASPTN 689 VASNLGYIVVTLDGRgTGFIGREARC-IIRGNLGYYEAHdqiTAAKMFAEKSYVDESRMAIWGWSYGGFMTLKTLEQ 764
+                           445569*******8636677777665.467778887654111455667789*******************9997643 PP
+
+>> sp|E9ETL5|DAPB_METRA  Probable dipeptidyl-aminopeptidase B OS=Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00093       5.1     108     184 ..     692     771 ..     683     805 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00093
+          Impranil.aln 108 dwlgpklasqgfvvltidtl.ttsdqpdsrarqllaaldylisqss...srtspvrsridsdrlgvvghsmggggtlevar 184
+                           d+     +s g++v+tid   t++   + r   + + l  l  q+    ++       +d +rl + g+s gg  tl++  
+  sp|E9ETL5|DAPB_METRA 692 DFQSYVASSLGYLVVTIDPRgTGFLGRQHR-VVVRSQLGVLEAQDHiaaAKHYSSLPYVDPSRLAIWGWSYGGFQTLKTLE 771
+                           5555556789********872555444444.3455556666655541003444555689***************9998643 PP
+
+>> sp|Q5B934|DAPB_EMENI  Probable dipeptidyl-aminopeptidase B OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.1   0.00079       4.4     108     185 ..     675     755 ..     663     787 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.00079
+          Impranil.aln 108 dwlgpklasqgfvvltidtl.ttsdqpdsrarqllaaldy..lisqsssrtspvrsridsdrlgvvghsmggggtlevars 185
+                           d+     as g++v+t+d   t++    +r+    +   y  + + ++++  + +  +d +r+ + g+s gg  tl++   
+  sp|Q5B934|DAPB_EMENI 675 DFQSYVAASLGYIVVTVDGRgTGFIGRAARCIIRGNIGHYeaIDQIATAKNWAQKPYVDESRMAIWGWSYGGFMTLKTLEQ 755
+                           555566799*********863778777777755555555521334455667788999*****************9987643 PP
+
+>> sp|P97321|SEPR_MOUSE  Prolyl endopeptidase FAP OS=Mus musculus OX=10090 GN=Fap PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0   0.00081       4.5     106     205 ..     554     657 ..     539     669 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00081
+          Impranil.aln 106 sidwlgpklasqgfvvltidtlttsdqpdsrarqllaald.ylisq..sssrtspvrsridsdrlgvvghsmggg.gtlevarsegrlk 190
+                           +++w+    + +g+v+  +d   t  q d     +   l  y +++  ++ r     + id +r+ + g+s gg   +l  a   g +k
+  sp|P97321|SEPR_MOUSE 554 AVNWITYLASKEGIVIALVDGRGTAFQGDKFLHAVYRKLGvYEVEDqlTAVRKFIEMGFIDEERIAIWGWSYGGYvSSLALASGTGLFK 642
+                           46677655555799999999999999999998888888862444331134455566789**************9636799999999999 PP
+
+          Impranil.aln 191 aaiplagwdlvktya 205
+                             i +a+    + ya
+  sp|P97321|SEPR_MOUSE 643 CGIAVAPVSSWEYYA 657
+                           888666644444443 PP
+
+>> sp|Q08E20|ESTD_BOVIN  S-formylglutathione hydrolase OS=Bos taurus OX=9913 GN=ESD PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0   0.00084       4.7     162     187 ..     138     163 ..     124     184 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00084
+          Impranil.aln 162 idsdrlgvvghsmggggtlevarseg 187
+                           +d +r+ v ghsmgg g+l +a  ++
+  sp|Q08E20|ESTD_BOVIN 138 VDPQRMSVFGHSMGGHGALICALKNP 163
+                           799***************99886554 PP
+
+>> sp|E9ED72|DAPB_METAQ  Probable dipeptidyl-aminopeptidase B OS=Metarhizium acridum (strain CQMa 102) OX=655827 GN=DAPB
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0    0.0013       7.3     114     184 ..     697     770 ..     683     804 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.0013
+          Impranil.aln 114 lasqgfvvltidtl.ttsdqpdsrarqllaaldylisqss...srtspvrsridsdrlgvvghsmggggtlevar 184
+                            +s g++v+tid   t++   + r   + + l  l  q+    ++       +d +rl + g+s gg  tl++  
+  sp|E9ED72|DAPB_METAQ 697 ASSLGYLVVTIDPRgTGFLGRQHR-VVVRSQLGVLEAQDHiaaAKHYSSLPYVDPSRLAIWGWSYGGFQTLKTLE 770
+                           4678********872555444444.3455556666555541003444555689***************9998643 PP
+
+>> sp|A5FIM3|GSA_FLAJ1  Glutamate-1-semialdehyde 2,1-aminomutase OS=Flavobacterium johnsoniae (strain ATCC 17061 / DSM 2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.0   0.00086       4.7      65     166 ..      95     197 ..      75     215 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00086
+         Impranil.aln  65 vrvsrlavsgfgg.gtiyyptstvegtlaaivvipgfvalessidwlgpkl.asqgfvvltidtlttsdqpdsrarqllaaldylisqss 152
+                          + ++ lavs       i +  s +e  ++ai ++ gf+  +  i++ g     s+ f++ +     t+  p+s +    +a d l+ +  
+  sp|A5FIM3|GSA_FLAJ1  95 TEIAALAVSMVPNiDKIRFVNSGTEACMSAIRLARGFTKRDKIIKFAGCYHgHSDSFLIQAGSGAVTFGSPNSPGVTEGTAKDTLLAKYN 184
+                          56777888877542679999999*************************8652799********************999999999988766 PP
+
+         Impranil.aln 153 srtspvrsridsdr 166
+                               v++ i++++
+  sp|A5FIM3|GSA_FLAJ1 185 -DLENVKTLIEANK 197
+                          .5777888777765 PP
+
+>> sp|C6XMG3|FTSQ_HIRBI  Cell division protein FtsQ OS=Hirschia baltica (strain ATCC 49814 / DSM 5838 / IFAM 1418) OX=58
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.1   0.00079       4.4      54     126 ..      29     103 ..       8     129 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00079
+          Impranil.aln  54 easrgsyatrtvrvsrlavsgfgggtiyyptstvegtlaaivvipgfvalessidwlgpklasqgf..vvltidt 126
+                           + s+ ++ t t+    +av+ + gg++      ++g l a +   gf+  + si+ l p+  ++ +  v + +d+
+  sp|C6XMG3|FTSQ_HIRBI  29 QLSTYAFGTVTAGAVMVAVAAWMGGSLASIDERIQGGLDATAKSAGFTVTKISIEGLDPRTKADVLnaVAIPVDS 103
+                           4577789999999999*******************************************9887655114444455 PP
+
+>> sp|Q55921|PRXC_SYNY3  Putative non-heme chloroperoxidase OS=Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.0      0.34   1.8e+03     144     195 ..      72     123 ..      14     136 .. 0.64
+   2 ?    7.0   0.0     0.018        98     207     254 ..     215     258 ..     191     270 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 2.8 bits;  conditional E-value: 0.34
+          Impranil.aln 144 ldylisqsssrtspvrsridsdrlgvvghsmggggtlevar..segrlkaaipl 195
+                            dy +  +      + +++d +   +vg+smg g   +        r++ a+ +
+  sp|Q55921|PRXC_SYNY3  72 YDYDTFAAD--LHTLMTKLDLQNTVLVGFSMGTGEVTRYLGkyGSERVQKAVLM 123
+                           455544444..455677899999999******9987665420134456666555 PP
+
+  == domain 2  score: 7.0 bits;  conditional E-value: 0.018
+          Impranil.aln 207 rvrvptlvvaaqadivapvaahaipfynrlpsslekaylelrnashya 254
+                           r+ vptl++  +ad + p+ + a+    rlp+ ++ + le+  +  +a
+  sp|Q55921|PRXC_SYNY3 215 RIDVPTLIIHGDADRILPLESTAA----RLPKRIKNSQLEIIPGGPHA 258
+                           6789****************9985....78888888888876555544 PP
+
+>> sp|Q8X8L4|DLHH_ECO57  Putative carboxymethylenebutenolidase OS=Escherichia coli O157:H7 OX=83334 GN=ysgA PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0   0.00099       5.4     139     238 ..     119     209 ..     106     229 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00099
+          Impranil.aln 139 qllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyagrvrvptlvvaaqadivapvaa 227
+                           q+la ld++ s +s      r+  d +rl + g+  gg  t   a  +++lkaa+   g     t     + p   v   +d+ apv  
+  sp|Q8X8L4|DLHH_ECO57 119 QVLADLDHVASWAS------RNGGDVHRLMITGFCWGGRITWLYAAHNPQLKAAVAWYG---KLTGDKSLNSPKQPVDIATDLNAPVLG 198
+                           88888999988888......8889*****************88888********96544...444444567788888888899999876 PP
+
+          Impranil.aln 228 haipfynrlps 238
+                               + n++p+
+  sp|Q8X8L4|DLHH_ECO57 199 LYGGLDNSIPQ 209
+                           55555555553 PP
+
+>> sp|Q7TP52|CMBL_RAT  Carboxymethylenebutenolidase homolog OS=Rattus norvegicus OX=10116 GN=Cmbl PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   0.00074       4.1     159     229 ..     118     188 ..      33     202 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00074
+        Impranil.aln 159 rsridsdrlgvvghsmggggtlevarsegrlkaaiplagwdlvktyagrvrvptlvvaaqadivapvaaha 229
+                         + +  ++++g+vg+  gg    +v  + ++++a + + g    +    + + ptl + a+ d v p+   +
+  sp|Q7TP52|CMBL_RAT 118 KQQCHAQKIGIVGFCWGGIVVHHVMTTYPEVRAGVSVYGIIRDSEDVYNLKNPTLFIFAENDAVIPLEQVS 188
+                         4556789*****************************99975555444459***************987665 PP
+
+>> sp|C5GVF3|DAPB_AJEDR  Probable dipeptidyl-aminopeptidase B OS=Ajellomyces dermatitidis (strain ER-3 / ATCC MYA-2586) 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.1    0.0011       5.9     101     187 ..     679     768 ..     674     800 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.0011
+          Impranil.aln 101 valessidwlgpklasqgfvvltidtlttsdqpdsrarql.laaldyli...sqsssrtspvrsridsdrlgvvghsmggggtlevars 185
+                           v+ + s+d+     ++ g++v+t+d   t      +ar +    l +     + ++++  + +  +d +r+ + g+s gg  tl++   
+  sp|C5GVF3|DAPB_AJEDR 679 VSKKFSVDFQSYVASTLGYIVVTVDGRGTGHIG-RKARCIiRGNLGHYEardQIETAKKWAAKPYVDESRMAIWGWSYGGFMTLKTLEQ 766
+                           56677888877777778********98766544.4455441455654440113345566788999******************998755 PP
+
+          Impranil.aln 186 eg 187
+                           +g
+  sp|C5GVF3|DAPB_AJEDR 767 DG 768
+                           44 PP
+
+>> sp|C5JC30|DAPB_BLAGS  Probable dipeptidyl-aminopeptidase B OS=Blastomyces gilchristii (strain SLH14081) OX=559298 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.1    0.0011       5.9     101     187 ..     679     768 ..     674     800 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.0011
+          Impranil.aln 101 valessidwlgpklasqgfvvltidtlttsdqpdsrarql.laaldyli...sqsssrtspvrsridsdrlgvvghsmggggtlevars 185
+                           v+ + s+d+     ++ g++v+t+d   t      +ar +    l +     + ++++  + +  +d +r+ + g+s gg  tl++   
+  sp|C5JC30|DAPB_BLAGS 679 VSKKFSVDFQSYVASTLGYIVVTVDGRGTGHIG-RKARCIiRGNLGHYEardQIETAKKWAAKPYVDESRMAIWGWSYGGFMTLKTLEQ 766
+                           56677888877777778********98766544.4455441455654440113345566788999******************998755 PP
+
+          Impranil.aln 186 eg 187
+                           +g
+  sp|C5JC30|DAPB_BLAGS 767 DG 768
+                           44 PP
+
+>> sp|O34973|YTAP_BACSU  Putative hydrolase YtaP OS=Bacillus subtilis (strain 168) OX=224308 GN=ytaP PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0   0.00098       5.4     157     196 ..     153     192 ..      98     203 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00098
+          Impranil.aln 157 pvrsridsdrlgvvghsmggggtlevarsegrlkaaipla 196
+                             rs ++ dr+g +g smgg  +  +a  + r+k  + l+
+  sp|O34973|YTAP_BACSU 153 QSRSDVQPDRIGTIGMSMGGLMAWWTAALDDRIKVCVDLC 192
+                           34788999************99999998999999988876 PP
+
+>> sp|Q54M29|Y6239_DICDI  Serine hydrolase-like protein DDB_G0286239 OS=Dictyostelium discoideum OX=44689 GN=DDB_G028623
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0     0.001       5.5      99     191 ..      42     129 ..      30     169 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.001
+           Impranil.aln  99 gfvalessidwlgpklasqgfvvltidtlttsdqpdsrarqllaaldylisqsssrtspvrsridsdrlgvvghsmggggtlevarse 186
+                            g+     + d++ p la +g+ +++id       p+  +   l   dy+++        v   ++ + + ++ghsmg g +  va s 
+  sp|Q54M29|Y6239_DICDI  42 GWLDNANTFDFIAPILAEKGIRIIAIDFIGHGLSPHKPSWCNLYYTDYITQVLD-----VAEALQWKTFSIMGHSMGAGIASIVAASM 124
+                            66666778999*****************999999999888888999**999877.....9999****************999999999 PP
+
+           Impranil.aln 187 grlka 191
+                            ++l  
+  sp|Q54M29|Y6239_DICDI 125 PHLVE 129
+                            98754 PP
+
+>> sp|O06734|YISY_BACSU  AB hydrolase superfamily protein YisY OS=Bacillus subtilis (strain 168) OX=224308 GN=yisY PE=3 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.8   0.0       8.4   4.6e+04     169     184 ..      92     108 ..      70     120 .. 0.68
+   2 ?   10.0   0.0    0.0021        12     181     225 ..     183     225 ..     179     266 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -1.8 bits;  conditional E-value: 8.4
+          Impranil.aln 169 vvghsmggggtle.var 184
+                           + g+smgg  +++ +ar
+  sp|O06734|YISY_BACSU  92 LAGFSMGGAIAIRyMAR 108
+                           56999999988773355 PP
+
+  == domain 2  score: 10.0 bits;  conditional E-value: 0.0021
+          Impranil.aln 181 evarsegrlkaaiplagwdlvktyagrvrvptlvvaaqadivapv 225
+                           e++ s g++++ i l   dl k  a  ++vptl++  + d +ap 
+  sp|O06734|YISY_BACSU 183 EAS-SYGTIHSGIALRDEDLRKELA-AIKVPTLILHGRKDRIAPF 225
+                           444.99*******************.9****************96 PP
+
+>> sp|Q9P7E9|YDZF_SCHPO  Putative dipeptidyl aminopeptidase C14C4.15c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0    0.0014       7.6     161     204 ..     707     753 ..     661     776 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.0014
+          Impranil.aln 161 ridsdrlgvvghsmggggtlevarsegrlka...aiplagwdlvkty 204
+                            id +r+g+ g+s+gg  tl++      +k+     p++ w   ++y
+  sp|Q9P7E9|YDZF_SCHPO 707 YIDRHRVGIWGWSFGGYLTLKILENADFIKTgavVAPVTDWRYYDAY 753
+                           6999******************9999999862113488888877766 PP
+
+>> sp|D5GM60|DAPB_TUBMM  Probable dipeptidyl-aminopeptidase B OS=Tuber melanosporum (strain Mel28) OX=656061 GN=DAPB PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.1    0.0016         9     101     185 ..     671     758 ..     665     790 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.0016
+          Impranil.aln 101 valessidwlgpklasqgfvvltidtl.ttsdqpdsrarqllaaldylisqsssrtspv...rsridsdrlgvvghsmggggtlevars 185
+                           v+   sid+     a   ++v+t+d   t++   ++r   +   l y    +   t+ +   ++ +d +r+ + g+s gg  tl++   
+  sp|D5GM60|DAPB_TUBMM 671 VSKSFSIDFQAYIAAGLEYIVVTVDGRgTGFIGRKARV-AVRGNLGYWEAHDQIETAKIwgkKGYVDKKRIAIWGWSYGGFMTLKTLEQ 758
+                           5666789999888999999******8725565555554.67889999988777666665332788****************99986533 PP
+
+>> sp|Q6V1X1|DPP8_HUMAN  Dipeptidyl peptidase 8 OS=Homo sapiens OX=9606 GN=DPP8 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.0   0.0    0.0022        12     113     197 ..     691     780 ..     684     795 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.0022
+          Impranil.aln 113 klasqgfvvltidtlttsdqpdsrarqllaaldylisqsssr.....t...spvrsridsdrlgvvghsmggggtlevarsegrl.kaa 192
+                            las g+vv+ id   +      r+ ++  a+ y + q             +     id dr+g+ g+s gg  +l +   ++ + + a
+  sp|Q6V1X1|DPP8_HUMAN 691 TLASLGYVVVVIDNRGSC----HRGLKFEGAFKYKMGQIEIDdqvegLqylASRYDFIDLDRVGIHGWSYGGYLSLMALMQRSDIfRVA 775
+                           589999999999987765....577888888888776644220000111112233579**************99999887776653556 PP
+
+          Impranil.aln 193 iplag 197
+                           i  a+
+  sp|Q6V1X1|DPP8_HUMAN 776 IAGAP 780
+                           64333 PP
+
+>> sp|A0A8F4NUL3|PYDG_ACRSP  Alpha/beta hydrolase pydG OS=Acremonium sp. OX=2046025 GN=pydG PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0    0.0017       9.4     161     198 ..     226     262 ..     208     279 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.0017
+              Impranil.aln 161 ridsdrlgvvghsmggggtlevarsegrlkaaiplagw 198
+                                +d+ rl + g + gg  +l++a +++r+ka i + ++
+  sp|A0A8F4NUL3|PYDG_ACRSP 226 ELDTGRLAMAGAATGGYFALRAA-TNPRVKACISIDPF 262
+                               58*********************.9********99886 PP
+
+>> sp|Q80YA7|DPP8_MOUSE  Dipeptidyl peptidase 8 OS=Mus musculus OX=10090 GN=Dpp8 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.9   0.0    0.0024        13     113     197 ..     685     774 ..     678     789 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.0024
+          Impranil.aln 113 klasqgfvvltidtlttsdqpdsrarqllaaldylisqsssr........tspvrsridsdrlgvvghsmggggtlevarsegrl.kaa 192
+                            las g+vv+ id   +      r+ ++  a+ y + q             +     id dr+g+ g+s gg  +l +   ++ + + a
+  sp|Q80YA7|DPP8_MOUSE 685 TLASLGYVVVVIDNRGSC----HRGLKFEGAFKYKMGQIEIDdqveglqyLASQYDFIDLDRVGIHGWSYGGYLSLMALMQRSDIfRVA 769
+                           589999999999987665....46777777777766664421000010012334457***************99999887776653556 PP
+
+          Impranil.aln 193 iplag 197
+                           i  a+
+  sp|Q80YA7|DPP8_MOUSE 770 IAGAP 774
+                           64333 PP
+
+>> sp|Q0UVK7|DAPB_PHANO  Probable dipeptidyl-aminopeptidase B OS=Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.0     0.002        11     114     187 ..     693     769 ..     675     799 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.002
+          Impranil.aln 114 lasqgfvvltidtl.ttsdqpdsrarqllaaldy..lisqsssrtspvrsridsdrlgvvghsmggggtlevarseg 187
+                            a  g++v+t+d   t++   + r+    +   y    + ++++  + +  +d+++l + g+s gg  tl++   +g
+  sp|Q0UVK7|DAPB_PHANO 693 AANLGYIVVTVDGRgTGFLGRKLRCITRDNIGYYeaYDQIAAAKMWAAKKYVDAEKLAIWGWSYGGFTTLKTIEMDG 769
+                           57789999999976367776666654444433331144556678889999********************9876544 PP
+
+>> sp|A0A8F4NU75|GKAG_PENCI  Alpha/beta hydrolase gkaG OS=Penicillium citrinum OX=5077 GN=gkaG PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0    0.0017       9.2     144     199 ..     214     265 ..     208     281 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.0017
+              Impranil.aln 144 ldylisqsssrtspvrsridsdrlgvvghsmggggtlevarsegrlkaaiplagwd 199
+                               ldy+ s + sr       +d dr+ v g + gg  +l++a +++r+ka + + ++ 
+  sp|A0A8F4NU75|GKAG_PENCI 214 LDYFSSLAKSR---PDLELDLDRIAVAGAATGGYFALRAA-TDARIKACVAVDPFF 265
+                               56665555533...34579*********************.9******99877643 PP
+
+>> sp|G2QJR6|GCE2_THET4  4-O-methyl-glucuronoyl methylesterase OS=Thermothelomyces thermophilus (strain ATCC 42464 / BCR
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.0   0.2     0.018     1e+02     158     194 ..     198     234 ..     182     263 .. 0.82
+   2 ?    3.3   0.0      0.24   1.3e+03      91     113 ..     292     314 ..     280     322 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.018
+          Impranil.aln 158 vrsridsdrlgvvghsmggggtlevarsegrlkaaip 194
+                             s id++rlgv g s  g g++ +     r+  +ip
+  sp|G2QJR6|GCE2_THET4 198 QASGIDTKRLGVTGCSRNGKGAFITGALVDRIALTIP 234
+                           4578*************99998877667777777777 PP
+
+  == domain 2  score: 3.3 bits;  conditional E-value: 0.24
+          Impranil.aln  91 laaivvipgfvalessidwlgpk 113
+                           laa++v  g++  e  idwlgp 
+  sp|G2QJR6|GCE2_THET4 292 LAALIVPRGLAVFENNIDWLGPV 314
+                           78888999*************95 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (309 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     15604  (0.0272007); expected 11473.2 (0.02)
+Passed bias filter:                    11984  (0.0208904); expected 11473.2 (0.02)
+Passed Vit filter:                      1066  (0.00185824); expected 573.7 (0.001)
+Passed Fwd filter:                       104  (0.000181292); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):             104  [number of targets reported over threshold]
+# CPU time: 4.63u 0.17s 00:00:04.80 Elapsed: 00:00:01.77
+# Mc/sec: 36157.76
+//
+[ok]

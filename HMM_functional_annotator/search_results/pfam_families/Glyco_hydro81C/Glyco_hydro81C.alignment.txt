@@ -1,0 +1,550 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/Glyco_hydro81C.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Glyco_hydro81C/Glyco_hydro81C.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/Glyco_hydro81C/Glyco_hydro81C.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Glyco_hydro81C.aln  [M=714]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+   9.8e-247  825.4  12.2   1.3e-246  825.1  12.2    1.0  1  sp|D4AZ24|ENG1_ARTBC      Glucan endo-1,3-beta-D-glucosidase 
+   5.7e-174  584.9  20.0   6.9e-174  584.6  20.0    1.0  1  sp|Q09850|ENG2_SCHPO      Ascus wall glucan endo-1,3-beta-D-g
+   3.6e-166  559.2  20.7   6.3e-166  558.3  20.7    1.4  1  sp|P53753|ENG1_YEAST      Glucan endo-1,3-beta-D-glucosidase 
+   1.2e-157  531.0  19.4   1.2e-157  531.0  19.4    1.9  1  sp|Q5AIR7|ENG1_CANAL      Glucan endo-1,3-beta-D-glucosidase 
+   1.2e-156  527.7   2.0   1.4e-156  527.5   2.0    1.0  1  sp|Q12168|ENG2_YEAST      Glucan endo-1,3-beta-D-glucosidase 
+   3.5e-150  506.3  15.8     5e-150  505.8  15.8    1.1  1  sp|Q9UT45|ENG1_SCHPO      Primary septum glucan endo-1,3-beta
+    3.1e-90  308.1   0.3    4.1e-90  307.7   0.3    1.0  1  sp|A0A023I7E1|ENG1_RHIMI  Glucan endo-1,3-beta-D-glucosidase 
+    8.1e-41  144.8   0.6    4.5e-38  135.7   0.1    2.0  2  sp|P93159|ENG1_SOYBN      Glucan endo-1,3-beta-D-glucosidase 
+    1.1e-25   94.7   0.7    1.6e-25   94.2   0.7    1.1  1  sp|Q47N06|ENG1_THEFY      Glucan endo-1,3-beta-D-glucosidase 
+      2e-23   87.3   5.9    3.2e-23   86.6   5.9    1.2  1  sp|A3DD66|ENG1_ACET2      Glucan endo-1,3-beta-D-glucosidase 
+    6.7e-18   69.0   5.0    1.2e-17   68.2   5.0    1.3  1  sp|Q9KG76|ENG1_HALH5      Glucan endo-1,3-beta-D-glucosidase 
+  ------ inclusion threshold ------
+          3   10.7   0.0        3.5   10.4   0.0    1.0  1  sp|Q2SGY7|AZOR2_HAHCH     FMN-dependent NADH:quinone oxidored
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|D4AZ24|ENG1_ARTBC  Glucan endo-1,3-beta-D-glucosidase ARB_01444 OS=Arthroderma benhamiae (strain ATCC MYA-4681 / C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  825.1  12.2  2.6e-251  1.3e-246       1     710 [.     188     901 ..     188     904 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 825.1 bits;  conditional E-value: 2.6e-251
+    Glyco_hydro81C.aln   1 mssenifqkalskdappsmiasrpdhpvkrlgiapqegrpistnkfyanfflggqnhatwthpysmlwskgggsskswglavthieakq 89 
+                           m+ ++ifq  ++kd  p+ i sr dhpvk   i    g pistnkfyanfflg q  +t+thpy+m+w+kg   + s+g+a++h+e  q
+  sp|D4AZ24|ENG1_ARTBC 188 MAGQDIFQP-IAKDPIPANIKSRDDHPVKANHIENPTG-PISTNKFYANFFLGNQTSTTFTHPYTMIWAKGDKNASSFGMAISHVEPSQ 274
+                           667889985.89*******************9987766.************************************************** PP
+
+    Glyco_hydro81C.aln  90 qvfg.pdpk..aspaeyfvnpggiqhvilsaaelekstvlttdnltsssvnvnilasaggkpaitfplvqgmgfitgiynestpilqsg 175
+                           +  g p+ k    p  y++np gi+ ++lsa+el+ st ++  +  + s +  +  + g   +itfplvqgmgfit iyn+  p +qs 
+  sp|D4AZ24|ENG1_ARTBC 275 RATGePNNKlpGNPVRYYINPVGIKSLVLSASELKESTTMSVAKPQAFSAQAILRPTGGSSESITFPLVQGMGFITAIYNNLQPAIQSA 363
+                           999856776435799***************************999999988766666667789************************** PP
+
+    Glyco_hydro81C.aln 176 vffrsitqaktapkegvikytivledsskwlvyahstsgqplelsiannslikatskfqgtlqiakspi.daaeavydaasgayatgsa 263
+                           v+fr +  a  +p+ g+ ky i led  +wl+y     g   +l +  n li   + f+g +q+ak p  +  e +yd ++g+yat   
+  sp|D4AZ24|ENG1_ARTBC 364 VLFRKVEPA-GSPQGGIFKYKITLEDDKNWLLYVIPENGADPKLKLEGNKLISGPTGFKGVIQVAKNPSaEEGEGIYDKSAGSYATDIK 451
+                           *****9887.68*******************************************************9626789*************** PP
+
+    Glyco_hydro81C.aln 264 lsgta.kgpagtytmtfskgglkdatlvmfalphlvesfssttkaaatevklqtttkgvatgvvadswtmeekdmpvgmgfapwspslg 351
+                           +sg+     +gty ++f k g k a lvm+alph vesf  +tk +  ++kl tttkg+at  v dswtm e ++p+ m fapw p   
+  sp|D4AZ24|ENG1_ARTBC 452 ISGSVgTDGTGTYKFSFEKAG-KGAPLVMYALPHHVESFDDATKNTKKNMKLSTTTKGMATACVGDSWTMVEGNLPLSMDFAPWKPGSS 539
+                           ***87245689********99.89***************************************************************** PP
+
+    Glyco_hydro81C.aln 352 nigtlspsaissiqkvaasdlkqdmmaqsngdsfyfsgkalakfaqiiyaskdlvkdealakdgltklkaafevwttnknkyplvyeka 440
+                              tls  a  +i+ va  +l qdm  q+n +s+yfsgk l kfa  iy+ ++lv d+a a   l  lk +f+ +  nk++ plvy++ 
+  sp|D4AZ24|ENG1_ARTBC 540 SQVTLSEGAKNAIKAVAGNELSQDMELQTNLNSMYFSGKGLNKFAGAIYTVQELVGDKAAASGPLNSLKESFKRFVDNKQQIPLVYDNV 628
+                           ***************************************************************************************** PP
+
+    Glyco_hydro81C.aln 441 wggivstggyvtgdsgtdfgntnyndhhfhfayfilaasyigyldpgwlashkdyintmvrdtanpssedpyfpvnrgfdwynghswak 529
+                           w g+vs+g y  gd+g dfgnt yndhhfh+ yfil+a+ +g ldp wl + k y+n +vrd+ n   +d +fp  r fdwy ghswak
+  sp|D4AZ24|ENG1_ARTBC 629 WKGVVSSGTYEKGDTGLDFGNTLYNDHHFHYGYFILTAAILGKLDPAWLDANKAYVNMLVRDSGNSVDNDEHFPFSRAFDWYHGHSWAK 717
+                           ***************************************************************************************** PP
+
+    Glyco_hydro81C.aln 530 glfesadgkdqessaedacfayslkmwgktigdanleargnlqlsvvarsiskyflytsdntvqpknfignkvsgilfenkihhttyfg 618
+                           glfes+dgkdqes++ed+ +ay++kmwgkt gd  +eargnl l ++ar++ +yfl   dn  qpknfignkv+gilfenki httyfg
+  sp|D4AZ24|ENG1_ARTBC 718 GLFESSDGKDQESTSEDTMYAYAIKMWGKTSGDKSMEARGNLMLGILARTLNNYFLMKNDNVNQPKNFIGNKVTGILFENKIDHTTYFG 806
+                           ***************************************************************************************** PP
+
+    Glyco_hydro81C.aln 619 anieyiqgihmipllpsssltrtkkfvqeewdtffsddr...akkveggwrgilfanlalidpkqsysffsqesfdnawldggasrtwy 704
+                           an+eyiqgihm+pllp s+ tr+  fv+eew+++f+      a kv ggw+g+l+anla+idp  s+ +f+q s+d + +dggasr wy
+  sp|D4AZ24|ENG1_ARTBC 807 ANLEYIQGIHMLPLLPNSAYTRSAEFVKEEWEAMFASGAaapAEKVTGGWKGVLYANLAIIDPEASWKYFAQPSLDLSSIDGGASRIWY 895
+                           *********************************99876422268********************************************* PP
+
+    Glyco_hydro81C.aln 705 maqaag 710
+                           +a aag
+  sp|D4AZ24|ENG1_ARTBC 896 LAYAAG 901
+                           *****9 PP
+
+>> sp|Q09850|ENG2_SCHPO  Ascus wall glucan endo-1,3-beta-D-glucosidase OS=Schizosaccharomyces pombe (strain 972 / ATCC 2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  584.6  20.0  1.4e-178  6.9e-174      26     713 ..      21     704 ..      11     705 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 584.6 bits;  conditional E-value: 1.4e-178
+    Glyco_hydro81C.aln  26 hpvkrlgiapqegrpistnkfyanfflggqnhatwthpysmlwskgggsskswglavthieakqqvfgpdpkaspaeyfvnpggiqhvi 114
+                           hp   lg++  +  pi tnkfy n+++g +   +w+hpys+ w +g   s  +gla++hi+  q+vfgpdp + p++y+ np g+  +i
+  sp|Q09850|ENG2_SCHPO  21 HPSPPLGLTS-NLFPIQTNKFYGNLYIGTRHNPSWSHPYSVTWLNG---SSYYGLAISHIDDSQRVFGPDPESVPCQYYFNPAGLYSII 105
+                           7777788765.467*****************************987...4579************************************ PP
+
+    Glyco_hydro81C.aln 115 lsaaelekstvlttdnltsssvnvnilasaggkpaitfplvqgmgfitgiynestpilqsgvffrsitqaktapkegvikytivledss 203
+                           +sa e+    +l+ d+    s++  + a++ g  +i +p+v gmgf++g y + tp+++s ++f sit+ + +   g  ky i l d  
+  sp|Q09850|ENG2_SCHPO 106 ISAREFASGNLLSLDQSRHFSIQATLSATTSGSGTIILPIVAGMGFVSGYYTNLTPVFNSSILFSSITKINFS--RG-YKYRIQLTDGK 191
+                           ********************************************************************87765..34.7********** PP
+
+    Glyco_hydro81C.aln 204 kwlvyahstsg.qplelsiannslikatskfqgtlqiakspidaa.....eavydaasgayatgsalsgtakgpagtytmtfskgglkd 286
+                            w++ya  ts    ++l++a ns + +++kf g +qi+k p ++      +++yda++g y+t  +ls    g +g y + f+  g  +
+  sp|Q09850|ENG2_SCHPO 192 IWFLYAFPTSSsSTFNLTLASNSQLTTSTKFTGLIQICKVPNESVnnsypDTIYDASAGVYTTSISLSAQVSGTTGEYWFRFATAGYTN 280
+                           *******98761679**************************987622233579************************************ PP
+
+    Glyco_hydro81C.aln 287 atlvmfalphlvesfssttkaaatevklqtttkgvatgvvadswtmeekdmpvgmgfapwspslgnigtlspsaissiqkvaasdlkqd 375
+                              +mfalph ++sf s t+a  t + l +tt g+     + +w + ek++p  +gf p  p  g   t sp+a+++i+  +a+d++ d
+  sp|Q09850|ENG2_SCHPO 281 LNPLMFALPHHMQSFGSDTQAYKTGLGLASTTMGIMFAYATKTWHLIEKNLPTQVGFLPI-PWNGGSNTYSPTALAAIRAACATDINFD 368
+                           *********************************************************996.6778899********************* PP
+
+    Glyco_hydro81C.aln 376 mmaqsngdsfyfsgkalakfaqiiyaskdlvkdealakdgltklkaafevwttnknkyplvyekawggivstggyvtgdsgtdfgntny 464
+                           ++  sn ds+y sgk +a +aq+   +  ++ d +l++ gltklk a+  +ttn + yplvy+ ++ gi+st gy +    +d+gnt y
+  sp|Q09850|ENG2_SCHPO 369 VVNASNLDSMYTSGKIVAMYAQVCLVASRILGDSTLTNTGLTKLKQAMARFTTNTQMYPLVYDTTYKGIISTAGYSS--PLADYGNTYY 455
+                           *************************9999**********************************************86..568******* PP
+
+    Glyco_hydro81C.aln 465 ndhhfhfayfilaasyigyldpgwlashk.dyintmvrdtanpssedpyfpvnrgfdwynghswakglfesadgkdqessaedacfays 552
+                           ndhhfh+ y i a++ ig ldp wl   +  y+n+++rd+anps  d yf + r fdw+ ghswa g+fes dgkd+es++ed  f y+
+  sp|Q09850|ENG2_SCHPO 456 NDHHFHWGYHIYACAVIGLLDPSWLVNDNiRYVNALLRDSANPSESDTYFAMFRNFDWFVGHSWATGIFESGDGKDEESTSEDFNFLYA 544
+                           *************************976538********************************************************** PP
+
+    Glyco_hydro81C.aln 553 lkmwgktigdanleargnlqlsvvarsiskyflytsdntvqpknfignkvsgilfenkihhttyfganieyiqgihmipllpsssltrt 641
+                            k+wg    d+ l  r nl l+v+  s+  y+  t   +vqp +++gn v+gi f nk+ ++tyf a+    qgihmip  p s   r+
+  sp|Q09850|ENG2_SCHPO 545 TKLWGMVRNDTVLINRANLMLAVLKNSLNTYIYMTPTTSVQPSQILGNYVTGITFMNKVDYATYFSAEEYCKQGIHMIPTTPISGYLRS 633
+                           *******************************************************************98889***************** PP
+
+    Glyco_hydro81C.aln 642 kkfvqeewdtffsddrakkveggwrgilfanlalidpkqsysffsqesfdnawldggasrtwymaqaaglgg 713
+                             +vq++w++ ++    +     w gil++n a+ dpk +y  f+  +f    +d gas+twy+a aag+gg
+  sp|Q09850|ENG2_SCHPO 634 PSYVQQDWNAKIAP-IINTFSNNWTGILWSNYAIYDPKTAYNTFAASTFTADKIDNGASKTWYLAMAAGMGG 704
+                           **********9986.5678899*************************************************9 PP
+
+>> sp|P53753|ENG1_YEAST  Glucan endo-1,3-beta-D-glucosidase 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  558.3  20.7  1.3e-170  6.3e-166       7     712 ..     403    1113 ..     395    1115 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 558.3 bits;  conditional E-value: 1.3e-170
+    Glyco_hydro81C.aln    7 fqkalskdappsmiasrpdhpvkrlgiapqegrpistnkfyanfflggqnhatwthpysmlwskgggsskswglavthieakqqvfg 93  
+                            f +a+s d pp++    p+      g++  +  pi tnkfy+n+++g q+  ++ +pys lw     +s s+g+av h    q  +g
+  sp|P53753|ENG1_YEAST  403 F-NAVSTDEPPTVFDRSPNPMSLADGVS--NDGPIQTNKFYTNLIVGSQESPAFVYPYS-LWKY---TSSSYGFAVQHTTVDQYSYG 482 
+                            4.699******99887776544445554..456*************************9.5764...5789**************** PP
+
+    Glyco_hydro81C.aln   94 pdpkaspaeyfvnpggiqhvilsaaelekstvlttdnltsssvnvnilasaggkpaitfplvqgmgfitgiynestp.ilqsgvffr 179 
+                                +  aey+vnp gi hv++sa++++ s  +  d++t ss  v +  s      + +plvqgmgf tgiy  s    + s v f 
+  sp|P53753|ENG1_YEAST  483 GYDSSGNAEYLVNPLGIAHVVFSASNFDSSMTMQVDEMTLSSTRVVLSESNDSSNYLEIPLVQGMGFATGIYHGSLNaKIGSSVGFN 569 
+                            *************************************************************************99651578889888 PP
+
+    Glyco_hydro81C.aln  180 sit.qaktapkegvikytivledsskwlvyahs...tsgqplelsiannslikatskfqgt.lqiakspidaa.eavydaasgayat 260 
+                            +i  ++ +   +g++ky i l +   wl y       +   + l ++ +  ika++ ++g  +q+a +p ++  e  yd a+g y t
+  sp|P53753|ENG1_YEAST  570 TIVsESSSNLAQGILKYRITLLNGVTWLCYVIGpddLTSTDFSLEVSSEYEIKASASVDGLiIQLAVAPSETDyEVFYDQAAGMYVT 656 
+                            876156667799******************86411145667889999999*********963799999998753888********** PP
+
+    Glyco_hydro81C.aln  261 gsalsgtakgpagtytmtfskggl.kdatlvmfalphlvesfssttkaaatevklqtttkgvatgvvadswtmeekdmpvgmgfapw 346 
+                               l g + g + ty ++++  g     + ++falph   sfs   +   t ++l +ttkgv  g ++ s  +    +   + + pw
+  sp|P53753|ENG1_YEAST  657 NFKLQGVSDGSTATYEFSYTTQGEsASGSTMIFALPHHESSFSDIMQDYYTGIQLASTTKGVMNGYLTTSLQFS-TSLNRQISWLPW 742 
+                            ******************98766515567788**************************************9986.578999****** PP
+
+    Glyco_hydro81C.aln  347 spslg.nigtlspsaissiqkvaasdlkqdmmaqsngdsfyfsgkalakfaqiiyaskdlvkdealakdgltklkaafevwttnknk 432 
+                            s  lg n+   s   +  +  va s+l+  +     g   y+ gk + k++ i+ +  ++++dea +k  l ++k+af++   n + 
+  sp|P53753|ENG1_YEAST  743 SSQLGsNLLEYSKEQLQLLAEVANSELQVSISESISGLNTYYLGKVIDKYSYILLTVSEIIQDEASTKSTLENIKSAFDILLQNEQT 829 
+                            ****978999**********************999**************************************************** PP
+
+    Glyco_hydro81C.aln  433 yplvyekawggivstggyvtgdsgtdfgntnyndhhfhfayfilaasyigyldp....gwlashkdyintmvrdtanpssedpyfpv 515 
+                            ypl+y+  + g+vs+g + +  +  dfgnt yndhhfh+ y+i aa+ igy+d      w a  kd++n++vrd anps +d yf  
+  sp|P53753|ENG1_YEAST  830 YPLIYDTKFNGLVSSGDWGSTSTQYDFGNTYYNDHHFHYGYIIHAAAVIGYVDSklngTWAADNKDWVNSLVRDVANPSEKDEYFAQ 916 
+                            ***************************************************98533337**************************** PP
+
+    Glyco_hydro81C.aln  516 nrgfdwynghswakglfesadgkdqessaedacfayslkmwgktigdanleargnlqlsvvarsiskyflytsdntvqpknfignkv 602 
+                             r fdw+nghswa gl+e  +gk++ess+ed  fay++k+wg tigd  +e rg+l +s++  ++  yf y  dntv+p ++ignkv
+  sp|P53753|ENG1_YEAST  917 SRMFDWFNGHSWAAGLYENGNGKNEESSSEDYNFAYAMKLWGATIGDQSMELRGDLMISIMKDAMNDYFYYQNDNTVEPEEIIGNKV 1003
+                            *************************************************************************************** PP
+
+    Glyco_hydro81C.aln  603 sgilfenkihhttyfganieyiqgihmipllpsssltrtkkfvqeewdtffsddrakkveggwrgilfanlalidpkqsysffsqes 689 
+                            sgilf+n i +ttyfg+n eyi+gihm+p+ p ss  r+  fv+eew+t +       +e gw gil  n al dp +sy+ffs+ +
+  sp|P53753|ENG1_YEAST 1004 SGILFDNIIDYTTYFGTNTEYIHGIHMLPITPVSSNIRSETFVEEEWQTKIE-PIIESIESGWTGILKLNQALFDPVDSYAFFSDST 1089
+                            *************************************************875.67899***************************** PP
+
+    Glyco_hydro81C.aln  690 fdn.awldggasrtwymaqaaglg 712 
+                            fd  ++ld g srtw +a + gl 
+  sp|P53753|ENG1_YEAST 1090 FDSsTYLDNGMSRTWALAFSGGLA 1113
+                            **7369************999986 PP
+
+>> sp|Q5AIR7|ENG1_CANAL  Glucan endo-1,3-beta-D-glucosidase 1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  531.0  19.4  2.4e-162  1.2e-157       8     711 ..     429    1141 ..     423    1144 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 531.0 bits;  conditional E-value: 2.4e-162
+    Glyco_hydro81C.aln    8 qkalskdappsmiasrpdhpvkrlgiapqegrpistnkfyanfflggqnhatwthpysmlwskgggsskswglavthieakqqvfgp 94  
+                             ka+  +app++ a r + p+       ++g+pi tnkfy+n++lg q+   +  py + wsk       +g+av h +  ++vfg 
+  sp|Q5AIR7|ENG1_CANAL  429 FKAIDTNAPPTVFA-RSEIPLTIPAGVDNNGKPIGTNKFYTNLLLGNQDFMVYPLPYGLYWSKT----SYYGFAVQHNNVSDRVFGS 510 
+                            489999****9876.89999999888899*********************************96....479***************8 PP
+
+    Glyco_hydro81C.aln   95 dp..kaspaeyfvnpggiqhvilsaaelekstv.lttdnltsssvnvnilasaggk.paitfplvqgmgfitgiynes.tpilqsgv 176 
+                                +   a y+ np     +i+sa+ + k ++ +   +++  s  v + +s+      + +plvqgmgf+tgiyn   tp+l+s  
+  sp|Q5AIR7|ENG1_CANAL  511 INtnNKGVASYYFNPTNNAELIFSATSFSKDSMhMKVSQMAELSALVTLSSSSNDEsNYLDIPLVQGMGFVTGIYNGNlTPLLNSLF 597 
+                            541155689******************9986552778899999999998877766515689***************6449****977 PP
+
+    Glyco_hydro81C.aln  177 ffrsit.qaktapkegvikytivledsskwlvyahst.sgqplelsiannslikatskfqgt.lqiakspidaa.eavydaasgaya 259 
+                             ++ ++ ++  a    v+ky   l +  +wl+y         ++l + +   +k +  ++g  +q+a +p d   +  ydaa+g y 
+  sp|Q5AIR7|ENG1_CANAL  598 GVKDLSlETSDALLSNVLKYRATLLNNVQWLIYVTLPdKDTDFKLEVEDFYNLKGSKPVDGLiIQVAIAPEDNDnDKYYDAAAGMYV 684 
+                            7777652456688899*****************9765156789999999999***999999537*******98616789******** PP
+
+    Glyco_hydro81C.aln  260 tgsalsgt.akgpagtytmtfskgglkda.tlvmfalphlvesfssttkaaatevklqtttkgvatgvvadswtmeekdmpvgmgfa 344 
+                            tg+++sg+ ++g a +y ++++  g   +   ++falph ++s++ ++  a t + + +ttkg  tg +++   + e  +   + f 
+  sp|Q5AIR7|ENG1_CANAL  685 TGATVSGSvSQGTAASYKFSYTTAGKSSSnNPIVFALPHHMDSLTGSALDALTGITVTSTTKGEMTGFLTNELEFSET-INQDVEFL 770 
+                            ******97368**********9988765516799*************************************9999875.78899*** PP
+
+    Glyco_hydro81C.aln  345 pwspslgnigtlspsaissiqkvaasdlkqdmmaq.sngdsfyfsgkalakfaqiiyaskdlvkdealakdgltklkaafevwttnk 430 
+                            pw+  +    t +   +  +   a  +l  ++ a   n +s yfsgk l k+aqi+    ++++de ++kd l  +k af+v+t nk
+  sp|Q5AIR7|ENG1_CANAL  771 PWTENMTGSLTYTKDQLELLASAANKELAANIAATvKNMNSNYFSGKVLDKYAQILLVVSEIIQDEEVTKDALNAMKDAFKVFTQNK 857 
+                            ******9999*********************99863699************************************************ PP
+
+    Glyco_hydro81C.aln  431 nkyplvyekawggivstggyvtgdsgtdfgntnyndhhfhfayfilaasyigyldp....gwlashkdyintmvrdtanpssedpyf 513 
+                            + ypl+y+  +gg+ st     gd  +dfg + yndh fh+ yfi aa+ +gy+d      w  s kd++n++vrd++nps++d yf
+  sp|Q5AIR7|ENG1_CANAL  858 QYYPLMYDTKFGGVTSTSA-QDGDPNADFGSAYYNDHDFHYGYFIHAAAIVGYVDKklggTWAQSNKDWVNSLVRDASNPSADDTYF 943 
+                            ****************987.58*******************************99644336************************** PP
+
+    Glyco_hydro81C.aln  514 pvnrgfdwynghswakglfesadgkdqessaedacfayslkmwgktigdanleargnlqlsvvarsiskyflytsdntvqpknfign 600 
+                            pv r fdw+ ghswa glf +   k+ ess+e   fa ++k+wgk +gd  +earg l +s++ars   yf y sdntv+pk+++ n
+  sp|Q5AIR7|ENG1_CANAL  944 PVSRMFDWFSGHSWATGLFVT--YKNIESSSESLHFAAAIKLWGKVVGDQSMEARGGLMISIMARSFNMYFYYKSDNTVEPKQILPN 1028
+                            *******************76..699************************************************************* PP
+
+    Glyco_hydro81C.aln  601 kvsgilfenkihhttyfgani...eyiqgihmipllpsssltrtkkfvqeewdtffsddrakkveggwrgilfanlalidpkqsysf 684 
+                            kvsgi+fenk+ +tt+fg+     ey++gihm+p+ psssl r   +vqeew   ++     +v+ gw gil  n al dpk sy f
+  sp|Q5AIR7|ENG1_CANAL 1029 KVSGIFFENKVDYTTFFGTPAdhpEYVHGIHMLPITPSSSLVRKTSYVQEEWKDQIAG-FIDNVDSGWTGILRLNQALFDPKSSYEF 1114
+                            ******************7543349***************************998875.6789************************ PP
+
+    Glyco_hydro81C.aln  685 fsqesfdnawldggasrtwymaqaagl 711 
+                            f+ + +d+ wld g srtw +a aag 
+  sp|Q5AIR7|ENG1_CANAL 1115 FASNNWDDKWLDNGQSRTWSLAFAAGA 1141
+                            *************************95 PP
+
+>> sp|Q12168|ENG2_YEAST  Glucan endo-1,3-beta-D-glucosidase 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) O
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  527.5   2.0  2.9e-161  1.4e-156       2     708 ..      71     775 ..      70     779 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 527.5 bits;  conditional E-value: 2.9e-161
+    Glyco_hydro81C.aln   2 ssenifqk.alsk.dappsmiasrpdhpvkrlgiapqegrpistnkfyanfflggqnhatwthpysmlwskgggsskswglavthieak 88 
+                            s+nifq   ls+  apps+   + +hpv +  i  q   p+ tnkfy+n++l  + +  wthpys+ +s+       +gla  h  a 
+  sp|Q12168|ENG2_YEAST  71 NSDNIFQSpVLSNlKAPPSV-FNKVQHPVPKPNIDDQSVDPLETNKFYTNMLLDDNTQPIWTHPYSIWFSRD---PELFGLAANHTLAS 155
+                           699****8356663577776.5789******************************************99986...578*********** PP
+
+    Glyco_hydro81C.aln  89 qqvfgpdpkaspaeyfvnpggiqhvilsaaelekstvlttdnltsssvnvnilasaggkpaitfplvqgmgfitgiynestpilqsgvf 177
+                           q+vf  d  + p  ++ np  i+  ++ a e+  s  +  +      + + +l s      i fplvqgmgf+t iy +    l+s v 
+  sp|Q12168|ENG2_YEAST 156 QRVF--DTTTNPPRFYFNPTNIKSFVFKAREFVSSNDIKLEFRDMKHMSMCLLMSLSSSQFIEFPLVQGMGFVTAIYHDLGFELRSAVG 242
+                           ****..6788999***************************9999999****************************************** PP
+
+    Glyco_hydro81C.aln 178 frsitqaktapkegvikytivledsskwlvyahsts...gqplelsiannslikatskfqgtlqiakspidaaeavydaasgayatgsa 263
+                           frs+ +      e   ky i le+  +w++y  s      q +++s+ +   i ++ k++g   i++   d+  +  d a+g+y     
+  sp|Q12168|ENG2_YEAST 243 FRSLERISVN--ERYGKYNIQLENNRNWILYLTSPDysfPQDFQISLLDSNTIISSHKINGL--ICQLSADSVPS-IDMAAGCYPVYCD 326
+                           ****987765..5555***************99854222688999999999999999*9996..45556666655.59999******** PP
+
+    Glyco_hydro81C.aln 264 lsg.takgpagtytmtfskgglk.datlvmfalphlvesfssttkaaatevklqtttkgvatgvvadswtmeekdmpvgmgfapwspsl 350
+                           lsg t       y + ++  g     t +m+alph   +f+   +       l++t kg+ tg +++s+ m+  ++p  +gf p + sl
+  sp|Q12168|ENG2_YEAST 327 LSGqTVDEHFTNYRFNYTVAGYSqSGTTLMYALPHHKAAFTPEMQEREIASSLDSTVKGLMTGYLTNSFDMQV-QVPQELGFEPVALSL 414
+                           **94455667889***999887515799*******************************************75.79************* PP
+
+    Glyco_hydro81C.aln 351 gnigtlspsaissiqkvaasdlk.qdmmaqsngdsfyfsgkalakfaqiiyaskdlvkdealakdgltklkaafevwttnknkyplvye 438
+                            +    s   +s i+  a  +++  d   +sn ds+yfsgk lak+a i+y ++ +++de l+k+ l+kl  a+e + +n++  pl y+
+  sp|Q12168|ENG2_YEAST 415 NKKADYSQEKLSKIREAAVQEVQlSDPQQESNIDSMYFSGKILAKYAWILYVTHYILHDENLTKELLSKLTIAMERFISNQQVLPLNYD 503
+                           ******************999974588889*********************************************************** PP
+
+    Glyco_hydro81C.aln 439 kawggivstggyvtgdsgtdfgntnyndhhfhfayfilaasyigyldp........gwlashkdyintmvrdtanpssedpyfpvnrgf 519
+                            +w gi+s+g      s  dfgn+ yndhhfh++y +++a+ i  +d          wl   +d+++ ++rd +    +dpyfp  r f
+  sp|Q12168|ENG2_YEAST 504 VSWKGIISSG-----SSSQDFGNSYYNDHHFHYSYHVITAAIISLVDSdlsgvtnnSWLENNRDWVECLIRDYSGVDNDDPYFPQFRSF 587
+                           *******975.....6999*********************99988774233222227******************************** PP
+
+    Glyco_hydro81C.aln 520 dwynghswakglfesadgkdqessaedacfayslkmwgktigdanleargnlqlsvvarsiskyflytsdntvqpknfignkvsgilfe 608
+                           dw+nghswakglf s dgkd+es++ed   +y++k+wg   g+++l    nlql ++      yfly s+ntvqpk+fignkvsgilfe
+  sp|Q12168|ENG2_YEAST 588 DWFNGHSWAKGLFPSGDGKDEESTSEDVNSCYAIKLWGLVTGNSKLTDIANLQLGIMRNVFQSYFLYESNNTVQPKEFIGNKVSGILFE 676
+                           ***************************************************************************************** PP
+
+    Glyco_hydro81C.aln 609 nkihhttyfganieyiqgihmipllpsssltrtkkfvqeewdtffsddrakkveggwrgilfanlalidpkqsysffsqesfdnawldg 697
+                           nki h+tyfg + +yi+ ih ip+  +ss  rt +fv+eew+  +      +v+ gw+gi++ n+al+dpk sy ffsq  f+  +ld 
+  sp|Q12168|ENG2_YEAST 677 NKIDHATYFGMEPQYIHMIHAIPITSASSWVRTPNFVKEEWEEKMQ-PIIDQVNDGWKGIIMLNMALLDPKFSYDFFSQPDFNRNFLDN 764
+                           ******************************************9875.57899************************************* PP
+
+    Glyco_hydro81C.aln 698 gasrtwymaqa 708
+                           g s tw +a +
+  sp|Q12168|ENG2_YEAST 765 GQSLTWSLAYS 775
+                           ******99965 PP
+
+>> sp|Q9UT45|ENG1_SCHPO  Primary septum glucan endo-1,3-beta-D-glucosidase OS=Schizosaccharomyces pombe (strain 972 / AT
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  505.8  15.8    1e-154    5e-150       5     711 ..      46     737 ..      43     740 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 505.8 bits;  conditional E-value: 1e-154
+    Glyco_hydro81C.aln   5 nifqkalskdappsmiasrpdhpvkrlgiapqe.grpistnkfyanfflggqnhatwthpysmlwskgggsskswglavthieakqqvf 92 
+                           n+f+  +    p s       hpv   g++ +    pi tnkf+ n +lg +    ++ p+   w     s    g++++h + +q+v+
+  sp|Q9UT45|ENG1_SCHPO  46 NVFDSVVDTINPASYFG-TVSHPVTPAGVSTDSlSSPIETNKFFDNNLLGSRTNFMYADPFRYWWQS---SDTMGGICIAHTDDNQRVM 130
+                           67776666666666654.568********9875389**************************99974...566779************* PP
+
+    Glyco_hydro81C.aln  93 gpdpkaspaeyfvnpggiqhvilsaaelekstvlttdnltsssvnvnilasaggkpaitfplvqgmgfitgiynestpilqsgv.ffrs 180
+                             d    p  y+ +p gi  + + a+ +   t    d++   s        +    ++ + l +gm + t +y ++ p + s   ++  
+  sp|Q9UT45|ENG1_SCHPO 131 DTDDTI-P-SYYYEPIGICSLGFGASGITSNTDPIVDEIDQMSARFTF---SWDSSSMQLTLTEGMAVTTAVYTNAIPQIFSSTlYIND 214
+                           988654.4.6888**************************999987665...4455678999***************9966665505555 PP
+
+    Glyco_hydro81C.aln 181 itqaktapkegvikytivledsskwlvyahstsgqplelsiannslikatskfqgtlqiakspid..aaeavydaasgayatgsalsgt 267
+                             +        v ky + + d   wl+y +   g+ l l+ +   ++  +  f+g +qiak p+   +aea+yd+ +g y tg ++sg 
+  sp|Q9UT45|ENG1_SCHPO 215 FVE--VPGTSAVQKYRVTMSDNHVWLIYIY---GDSLTLTESTSQMLVGSNTFNGYIQIAKIPLGdgTAEALYDTYAGVYITGISISGY 298
+                           444..44567899***************87...778999999999999***************953479******************** PP
+
+    Glyco_hydro81C.aln 268 akgpagtytmtfskgglkdatlvmfalphlvesfssttkaaatevklqtttkgvatgvvadswtmeekdmpvgmgfapwspslgnigtl 356
+                                g y++ f+  g      ++f lph v++  s tk   t + l +   g       +s t+ e  +p  +gf pwsp+ g+ig  
+  sp|Q9UT45|ENG1_SCHPO 299 VEDAVGYYSFDFTTAGDTSVEPLFFLLPHQVDTAVSGTKV--TSIVLASLVSGDMNAAAGNSITFAE-AIPQDIGFLPWSPTGGQIG-Y 383
+                           **************************************96..678899999999999999****998.69****************9.6 PP
+
+    Glyco_hydro81C.aln 357 spsaissiqkvaasdlkqdmmaqsngdsfyfsgkalakfaqiiyaskdlvkdealakdgltklkaafevwttnknkyplvyekawggiv 445
+                           s  a+  i  va ++l +d+ a+sn +s+y+sgk lak+a +  + +d++ de+ + + + kl aaf  +  n++ ypl y+++w g+v
+  sp|Q9UT45|ENG1_SCHPO 384 SEEALEIIAEVAGTELGEDFSANSNLNSMYYSGKVLAKYAMLCVTINDILGDETSSEQCIQKLEAAFARFVDNQQIYPLTYDNTWKGVV 472
+                           999************************************************************************************** PP
+
+    Glyco_hydro81C.aln 446 stggyvtgdsgtdfgntnyndhhfhfayfilaasyigyldpgwlas..hkdyintmvrdtanpssedpyfpvnrgfdwynghswakglf 532
+                           s  g ++gds +dfgn+ yndhhfh+ yf+++a+ ig++dp w+ +   k+++n +vrd anpss+dpyfp  r +d y gh wa glf
+  sp|Q9UT45|ENG1_SCHPO 473 SVAG-LSGDSLADFGNSYYNDHHFHYGYFVFTAAVIGHIDPDWINTgnNKEWVNFLVRDVANPSSNDPYFPKHRMIDIYHGHGWASGLF 560
+                           **99.58************************************9753389*************************************** PP
+
+    Glyco_hydro81C.aln 533 esadgkdqessaedacfayslkmwgktigdanleargnlqlsvvarsiskyflytsdntvqpknfignkvsgilfenkihhttyfgani 621
+                           es dgkd+es++ed  f + +k+wg+ igd+++e r n+ l +   ++ ky+ly+ d  vqp  +  n v+gi f nki httyfg+ni
+  sp|Q9UT45|ENG1_SCHPO 561 ESNDGKDEESTSEDYNFFFGMKLWGQVIGDSDMEDRANIILGIERNALNKYMLYA-DGNVQPTSMQPNYVAGITFMNKITHTTYFGTNI 648
+                           ******************************************************7.6679***************************** PP
+
+    Glyco_hydro81C.aln 622 eyiqgihmipllpsssltrtkkfvqeewdtffsddrakkveggwrgilfanlalidpkqsysffsqesfdnawldggasrtwymaqaag 710
+                           eyiqgihm+p+ p s++ r   fv  ew+++++      v+ gwr +l+anla+ +p +sy +fs   f+  +ld gasr+wy+a aag
+  sp|Q9UT45|ENG1_SCHPO 649 EYIQGIHMLPITPISAFIRGPSFVLAEWNALLAS-VIDYVDSGWRSLLYANLAIAEPEESYEYFSSSDFNTDYLDDGASRAWYLAYAAG 736
+                           ******************************9986.6789************************************************** PP
+
+    Glyco_hydro81C.aln 711 l 711
+                           l
+  sp|Q9UT45|ENG1_SCHPO 737 L 737
+                           9 PP
+
+>> sp|A0A023I7E1|ENG1_RHIMI  Glucan endo-1,3-beta-D-glucosidase 1 OS=Rhizomucor miehei OX=4839 GN=ENG1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  307.7   0.3   8.5e-95   4.1e-90      20     691 ..      45     728 ..      35     741 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 307.7 bits;  conditional E-value: 8.5e-95
+        Glyco_hydro81C.aln  20 iasrpdhpvkrlgiapqegrpistnkfyanfflgg.qnha.twthpysmlwskgggsskswglavthieakqqvfgpdpkaspae 102
+                               i     hp   +    ++g+ + tn + +n+f    +n a t   py++    g g     gl++ +  ak  v+g  p +    
+  sp|A0A023I7E1|ENG1_RHIMI  45 IFPEIKHPFEPMYANTENGKIVPTNSWISNLFYPSaDNLApTTPDPYTLRLLDGYGG--NPGLTIRQPSAK--VLGSYPPTNDVP 125
+                               55566899999999999*************998651565524447899888877765..469999888876..677777666666 PP
+
+        Glyco_hydro81C.aln 103 yfvnpggiqhvi..lsaaelekstvlttdnlts...ssvnvnilasaggkpaitfplvqgmgfitgiynestpilqsgvffrsit 182
+                               y      i+ v+  l  +  e s v+   ++t     s n+ + +    +  i fp+v+gm +it  yn+ tp + s   + s+ 
+  sp|A0A023I7E1|ENG1_RHIMI 126 YTDAGYMINSVVvdLRLTSSEWSDVVPDRQVTDwdhLSANLRLSTPQDSNSYIDFPIVRGMAYITANYNNLTPQFLSQHAIISVE 210
+                               555555555555223445667788887777765211577888888889999**********************988887777775 PP
+
+        Glyco_hydro81C.aln 183 qa.ktapke.gv...ikytivledsskwlvyahstsgqplelsiannslikatskfqgtlqiakspidaaeavydaasgayatgs 262
+                                  k +  +       k+ i ++d        +s   +plel   +ns + a+  + g +++ak p    e++ da+   + tg 
+  sp|A0A023I7E1|ENG1_RHIMI 211 ADeKKSDDNtSTfsgRKFKITMNDDPTSTFIIYSLGDKPLELRKQDNSNLVASKPYTGVIRVAKLPAPEFETLLDASRAVWPTGG 295
+                               4313333221221225899999997776666778999************************************************ PP
+
+        Glyco_hydro81C.aln 263 alsgtakgpagt.ytmtfskgglkdatlvmfalphlvesfssttkaaatevklqtttkgvatgvvadswtmeekdm.pvgmgfap 345
+                                +s  +    g+ yt+ + k   ++a l+ +a  h + s+  + +   t++ lq++tkg  t +v + wt+ e ++ pv      
+  sp|A0A023I7E1|ENG1_RHIMI 296 DISARSDDNNGAsYTIKW-KTNSNEAPLLTYAYAHHLTSIDDS-NVKRTDMTLQSATKGPMTALVGNEWTLRETELsPV-----E 373
+                               ****99988875277765.78889***********99999764.56789************************997244.....4 PP
+
+        Glyco_hydro81C.aln 346 wspslg..nigtlspsaissiqkvaasdlkqdmmaqsngdsfyfsgkalakfaqi..iyaskd..lvkdealakdgltklkaafe 424
+                               w p     n  t     ++ i+k  as+  q+    +  +  yfsgk l kfa +  i    d   +++  la+  l klkaaf 
+  sp|A0A023I7E1|ENG1_RHIMI 374 WLPLQAapNPTT-INEIMTEINKDIASNYTQE----TAKEDNYFSGKGLQKFAMLalILNKSDqtQLRNPELAQIALDKLKAAFL 453
+                               555332002222.2344556666666666665....555667**********9742244443412578999************** PP
+
+        Glyco_hydro81C.aln 425 vwttnknkyplvyekawggivstggyvtgdsgtd.....fgntnyndhhfhfayfilaasyigyldpgwlash.kdyintmvrdt 503
+                                +  n +  p+ y+  + giv+  g  t   gtd     fg + y dhh+h  yf+++a+ i +ldp w a + k + ++++rd 
+  sp|A0A023I7E1|ENG1_RHIMI 454 PYLQNEQADPFRYDTLYKGIVAKAGLPTSMGGTDdlsaeFGHSYYSDHHYHQGYFVVTAAIIHHLDPTWNADRlKAWTEALIRDV 538
+                               *************************99887777555555*******************************986499********* PP
+
+        Glyco_hydro81C.aln 504 anpssedpyfpvnrgfdwynghswakglf..esadgkdqessaedacfayslkmwgktigdanleargnlqlsvvarsiskyfly 586
+                                n    d yf   r +dw+ ghswa g+    + dg+dqes  e   f +  k+wg + g++ l     lql+v  r+   yf  
+  sp|A0A023I7E1|ENG1_RHIMI 539 NNANDGDEYFAAFRNWDWFAGHSWAGGIKpdGALDGRDQESVPESVNFYWGAKLWGLATGNTPLTKLASLQLAVTKRTTYEYFWM 623
+                               ***************************9732467*************************************************** PP
+
+        Glyco_hydro81C.aln 587 tsdntvqpknfignkvsgilfenkihhttyfganieyiqgihmipllps.ssltrtkkfvqeewdtffsddrakkveggwrgilf 670
+                                  n  +p n++ nkv gi fe+k  +ttyfg  +eyi+gi+ +p+ p      rt  fv +ewd  +    a  v+  w g+l+
+  sp|A0A023I7E1|ENG1_RHIMI 624 LDGNKNRPENIVRNKVIGIYFEQKTDYTTYFGRFLEYIHGIQQLPMTPElMEYIRTPEFVSQEWDEKLG-AIAPTVQSPWAGVLY 707
+                               ************************************************835789************987.5799*********** PP
+
+        Glyco_hydro81C.aln 671 anlalidpkqsysffsqesfd 691
+                                n a+i+p ++y  + +  +d
+  sp|A0A023I7E1|ENG1_RHIMI 708 LNYAIINPAEAYPALRKVQMD 728
+                               ************887766665 PP
+
+>> sp|P93159|ENG1_SOYBN  Glucan endo-1,3-beta-D-glucosidase OS=Glycine max OX=3847 GN=GBP PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.7   0.0   0.00051        24      39     101 ..      34      95 ..      29     125 .. 0.75
+   2 !  135.7   0.1   9.5e-43   4.5e-38     150     679 ..     125     637 ..     107     659 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 7.7 bits;  conditional E-value: 0.00051
+    Glyco_hydro81C.aln  39 rpistnkfyanfflggqnhatwthpysmlwskgggsskswglavthieakqqvfgpdpkaspa 101
+                            p+ tn f+ nf+l   ++  + hpy +  s     s s+    +      qvf pd   s  
+  sp|P93159|ENG1_SOYBN  34 SPLPTNSFFQNFVLKNGDQQEYIHPYLIK-SSNSSLSLSYPSRQASSAVIFQVFNPDLTISAP 95 
+                           6999**********************765.555566777877777788889999999877654 PP
+
+  == domain 2  score: 135.7 bits;  conditional E-value: 9.5e-43
+    Glyco_hydro81C.aln 150 itfplvqgmgfitgiynestpilqsgvffrsitqaktapkegvikytivledsskwlvyahstsgqplelsiannslikats.kfqgtl 237
+                           ++f lv+g  ++t    + tp+  +   ++si     + ++   kyt  +++   wl+ya s    p++l   n +l   ts  f g +
+  sp|P93159|ENG1_SOYBN 125 LSFFLVRGSPYLTVSVTQPTPLSITT--IHSILSF--SSNDSNTKYTFQFNNGQTWLLYATS----PIKL---NHTLSEITSnAFSGII 202
+                           67888999999998888888875544..4677654..4567789***************976....6666...555666665269**** PP
+
+    Glyco_hydro81C.aln 238 qiakspid..aaeavydaasgayatgsalsgtakgpagtytmtfskgglkdatlvmfalphlvesfssttkaaatevkl.qtttkgvat 323
+                           +ia  p      eav d  s +y     +sg a      + + +         l+++a p  v+ +    +       l   +  g   
+  sp|P93159|ENG1_SOYBN 203 RIALLPDSdsKHEAVLDKYSSCY----PVSGKAVFR-EPFCVEYNWEKKDSGDLLLLAHPLHVQLLRNGDNDVKILEDLkYKSIDGDLV 286
+                           ***99853113467777666666....566766543.446666766666667899999999999888776655443333045678999* PP
+
+    Glyco_hydro81C.aln 324 gvvadswtmeekdmpvgmgfapwspslgnigtlspsai.ssiqkvaasdlkqdmmaqsngdsfyfsgkalakfaqiiyaskdlvkdeal 411
+                           gvv dsw ++   +     f  w   +  i   s   i s++ k     l    ++       yf gk +a+ a+++  + +l   + +
+  sp|P93159|ENG1_SOYBN 287 GVVGDSWVLKTDPL-----FVTWHS-IKGIKEESHDEIvSALSKD-VESLDSSSIT--T-TESYFYGKLIARAARLVLIAEELNYPDVI 365
+                           ********977654.....778975.5556666665550555554.3444444333..3.345899******************99999 PP
+
+    Glyco_hydro81C.aln 412 akdgltklkaafevwttnk.nkyplvyekawggivstggyvtgdsgtdfgntnyndhhfhfayfilaasyigyldpgwlashkdyintm 499
+                            k     lk ++e w         ++++  wggi++  g  + d+g dfg   yndhh+h+ yfi   + +  ldp w   +k    ++
+  sp|P93159|ENG1_SOYBN 366 PKV-RNFLKETIEPWLEGTfSGNGFLHDEKWGGIITQKG--STDAGGDFGFGIYNDHHYHLGYFIYGIAVLTKLDPAWGRKYKPQAYSI 451
+                           986.5789*******865515567899999*****9998..579********************************************* PP
+
+    Glyco_hydro81C.aln 500 vrdtanpsse.dpyfpvnrgfdwynghswakglfesadgkdqessaedacfayslkmwgktigdanleargnlqlsvvarsiskyflyt 587
+                           v+d  n  ++ +  +   r fd y  hswa gl e +dg++qes++e     ys  + g + gda l a g    ++       ++   
+  sp|P93159|ENG1_SOYBN 452 VQDFLNLDTKlNSNYTRLRCFDPYVLHSWAGGLTEFTDGRNQESTSEAVSAYYSAALMGLAYGDAPLVALGSTLTALEIEGTKMWWHVK 540
+                           *****9876537788999*****************************************************988888777777788888 PP
+
+    Glyco_hydro81C.aln 588 sdntvqpknfi.gnkvsgilfenkihhttyfg.an.ieyiqgihmipllpss.sltrtkkfvqe..ewdtffsddrakkveggwrgilf 670
+                              t+  k+f   n+v g+l+ nk     +f  a+  e   gi+++pl p s ++     fv+e  ew t+ + dr   v  gw+g ++
+  sp|P93159|ENG1_SOYBN 541 EGGTLYEKEFTqENRVMGVLWSNKRDTGLWFApAEwKECRLGIQLLPLAPISeAIFSNVDFVKElvEW-TLPALDREGGVGEGWKGFVY 628
+                           889*******8369**********99999996233246778*********7725677889***95455.78899*************** PP
+
+    Glyco_hydro81C.aln 671 anlalidpk 679
+                           a   + d  
+  sp|P93159|ENG1_SOYBN 629 ALEGVYDNE 637
+                           977776655 PP
+
+>> sp|Q47N06|ENG1_THEFY  Glucan endo-1,3-beta-D-glucosidase OS=Thermobifida fusca (strain YX) OX=269800 GN=Lam81A PE=1 S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.2   0.7   3.4e-30   1.6e-25     384     686 ..     380     676 ..     362     699 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 94.2 bits;  conditional E-value: 3.4e-30
+    Glyco_hydro81C.aln 384 sfyfsgkalakfaqiiyaskdlvkdealakdgltklkaafevwttnk...nkyplvyekawggivstggyvtgdsgtdfg.ntnyndhh 468
+                             y++gkal ++aq++  + d +   a     l  lk  +e w t     ++  + y+  w  ++           + fg nt+ ndh 
+  sp|Q47N06|ENG1_THEFY 380 DTYWTGKALGRLAQLVPIA-DSIGYTAGRDALLDLLKNKMEDWLTADgpgDNAQFYYDDQWDTLIGFP--------ASFGsNTELNDHD 459
+                           4699**********99876.5555666555556778*******9986333577899*****9988433........234339******* PP
+
+    Glyco_hydro81C.aln 469 fhfayfilaasyigyldpgwlashk..dyintmvrdtanpssedpyfpvnrgfdwynghswakglfesadgkdqessaedacfayslkm 555
+                           fh+ yfi aa+ i   d  w++  +    + t++rd+ np  +d  fp  r f  y gh wa g    a g++qess+e   fa s  +
+  sp|Q47N06|ENG1_THEFY 460 FHYGYFITAAATIARYDRSWISEERwgPMVTTVLRDANNPDRDDERFPWLRSFSPYAGHGWASGHAGFASGNNQESSSEAMHFAASAAL 548
+                           *********************987633689*********************************************************** PP
+
+    Glyco_hydro81C.aln 556 wgktigdanleargnlqlsvvarsiskyflytsdntvqpknfignkvsgilfenkihhttyfganieyiqgihmipllpss.sltrtkk 643
+                            g  igd +l   g    +  a ++ +y+   +d    p  +    v g+++ +   h  ++    e + gi  +p+   s  l +   
+  sp|Q47N06|ENG1_THEFY 549 LGSLIGDEELRDLGVYLHTTQASAMRRYWQ-NADGDAFPAGYS-HDVVGMVWSDGGDHRIWWDGTPEELYGINYLPITAGSlYLGHDPE 635
+                           **************9888888888888875.678888999885.678899**************************9876614555555 PP
+
+    Glyco_hydro81C.aln 644 fvqeewdtffsddrakkveggwrgilfanlalidpkqsysffs 686
+                                 ++++   r  +    wr i +a  al dp  + + f 
+  sp|Q47N06|ENG1_THEFY 636 HAAAMHQSLV--TRLGRQPQVWRDIHWAHQALSDPDAALAAFE 676
+                           5555555554..4677777889999999999999998887764 PP
+
+>> sp|A3DD66|ENG1_ACET2  Glucan endo-1,3-beta-D-glucosidase OS=Acetivibrio thermocellus (strain ATCC 27405 / DSM 1237 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.6   5.9   6.6e-28   3.2e-23     386     685 ..     327     621 ..     311     635 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 86.6 bits;  conditional E-value: 6.6e-28
+    Glyco_hydro81C.aln 386 yfsgkalakfaqiiyaskdlvkdealakdgl.tklkaafevwttnknkyp...lvyekawggivstggyvtgdsgtdfgntnyndhhfh 470
+                           y+ gk l k++  +  + +l +    akd + + +k+++e w t k+      + y+  wg ++   gy +   g+   + + ndhhfh
+  sp|A3DD66|ENG1_ACET2 327 YWFGKHLGKLSCALPIAEQLGN--ISAKDRFiSFMKSSLEDWFTAKEGETaklFYYDSNWGTLI---GYPSS-YGS---DEELNDHHFH 406
+                           5568888888888888887754..567887516689********997543121568999*9988...55432.343...3689****** PP
+
+    Glyco_hydro81C.aln 471 fayfilaasyigyldpgwlashk..dyintmvrdtanpssedpyfpvnrgfdwynghswakglfesadgkdqessaedacfayslkmwg 557
+                           + yf+ aa+ i   dp w +  +    ++ +++d an   +d  fp  r fd y+ghswa g    adg++qess+e      ++ +wg
+  sp|A3DD66|ENG1_ACET2 407 YGYFLHAAAQIALRDPQWASRDNwgAMVELLIKDIANWDRNDTRFPFLRNFDPYEGHSWASGHAGFADGNNQESSSEAINAWQAIILWG 495
+                           ******************7654322678999**********************************************9998899***** PP
+
+    Glyco_hydro81C.aln 558 ktigdanleargnlqlsvvarsiskyflytsdntvqpknfignkvsgilfenkihhttyf.ganieyiqgihmipllpss.sltrtkkf 644
+                            + g+  +   g    +    ++ +y++    +   p    g + + +++  k  h  ++ g+n e  +gi ++p+  +s  l +  ++
+  sp|A3DD66|ENG1_ACET2 496 EATGNKTIRDLGIYLYTTEVEAVCNYWFDLYKDIFSPS--YGHNYASMVWGGKYCHEIWWnGTNSE-KHGINFLPITAASlYLGKDPNY 581
+                           ************999999999*****999999999886..46666777777777666655166666.69******9876636889999* PP
+
+    Glyco_hydro81C.aln 645 vqeewdtffsddrakkveggwrgilfanlalidpkqsysff 685
+                           ++++++ ++ +  +      w+ i +   al dp  +  ++
+  sp|A3DD66|ENG1_ACET2 582 IKQNYEEMLRECGTS-QPPNWKDIQYMYYALYDPAAAKNMW 621
+                           *******99877655.5689**************8876655 PP
+
+>> sp|Q9KG76|ENG1_HALH5  Glucan endo-1,3-beta-D-glucosidase OS=Halalkalibacterium halodurans (strain ATCC BAA-125 / DSM 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.2   5.0   2.5e-22   1.2e-17     382     621 ..     383     620 ..     373     678 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 68.2 bits;  conditional E-value: 2.5e-22
+    Glyco_hydro81C.aln 382 gdsfyfsgkalakfaqiiyaskdlvkdealakdgltklkaafevwttnknkyplvyekawggivstggyvtgdsgtdfgntnyndhhfh 470
+                           g   y  gk + k+a +   + d + +  la +    lk  +e w    n    +  k         g + g   +    t  ndhhfh
+  sp|Q9KG76|ENG1_HALH5 383 GSDTYELGKYIGKLATLAPIA-DQMGEYELAEQFRGELKDILEDWLQATNASGQLKGKNLFYYNENWGTILGYHAAHSSATRINDHHFH 470
+                           555677788888888776554.55566678999999999999999766665555555555555555555555566666789******** PP
+
+    Glyco_hydro81C.aln 471 fayfilaasyigyldpgwlashk..dyintmvrdtanpssedpyfpvnrgfdwynghswakglfesadgkdqessaedacfayslkmwg 557
+                           + yf+ aa+ i   d  w  s +    i+ ++rd      +d  fp  r fd y g swa gl     g++qess+e       + +w 
+  sp|Q9KG76|ENG1_HALH5 471 YGYFVKAAAEIARADQEWAKSENwgGMIDLLIRDFMAD-RDDDLFPYLRMFDPYSGNSWADGLATFDAGNNQESSSEAMHAWTNVILWA 558
+                           *******************99763379*******9765.67889*******************************99777777899*** PP
+
+    Glyco_hydro81C.aln 558 ktigdanleargnlqlsvvarsiskyflytsdntvqpknfignkvsgilfenkihhttyfgani 621
+                            + g+  l  r     +    +i  yf+    + + p ++ g  +  i +  k+ h+t++ +  
+  sp|Q9KG76|ENG1_HALH5 559 EATGNKALRDRAIYLYTTEMSAINEYFFDV-HQEIFPEEY-GPEIVTINWGGKMDHATWWNSGK 620
+                           ***********9999999999999999766.566889887.888999*********99987644 PP
+
+>> sp|Q2SGY7|AZOR2_HAHCH  FMN-dependent NADH:quinone oxidoreductase 2 OS=Hahella chejuensis (strain KCTC 2396) OX=349521
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0   7.4e-05       3.5     396     506 ..      80     191 ..      71     199 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 7.4e-05
+     Glyco_hydro81C.aln 396 aqiiyaskdlvkdealakdgl.tklkaafevwttnknkyplvyekawggivs.tggyvtgdsgtdfgntnyndhhfhfayfilaasyi 481
+                             ++++as  +v    + + gl + lka f+  t     + +       g+v+    yv   sg+ f n  y  h     y+ +a  y+
+  sp|Q2SGY7|AZOR2_HAHCH  80 VDMLFASELIVLSSPMWNLGLpSVLKAWFDHITRAGRTFRFTDGGDKIGLVAdRKVYVVMASGSAFSNGPYVSHDQFTPYINVAFQYV 167
+                            56777888888888888888834589999999988888888877666666651678*******************9999********* PP
+
+     Glyco_hydro81C.aln 482 gyldpgwlashkdyintmvrdtanp 506
+                            g  d  ++       + + rd a p
+  sp|Q2SGY7|AZOR2_HAHCH 168 GIRDLNFIRIDG-THDPLTRDVAVP 191
+                            **9988875433.334555666555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (714 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     12198  (0.0212634); expected 11473.2 (0.02)
+Passed bias filter:                     9019  (0.0157218); expected 11473.2 (0.02)
+Passed Vit filter:                       567  (0.000988389); expected 573.7 (0.001)
+Passed Fwd filter:                        12  (2.09183e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              12  [number of targets reported over threshold]
+# CPU time: 7.62u 0.20s 00:00:07.82 Elapsed: 00:00:02.12
+# Mc/sec: 69911.37
+//
+[ok]

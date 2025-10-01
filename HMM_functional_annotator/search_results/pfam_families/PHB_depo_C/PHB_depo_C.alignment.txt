@@ -1,0 +1,258 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/PHB_depo_C.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/PHB_depo_C/PHB_depo_C.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/PHB_depo_C/PHB_depo_C.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PHB_depo_C.aln  [M=410]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    8.6e-08   36.5   0.0     0.0091   19.9   0.0    2.1  2  sp|I3R9Z4|PHAC_HALMT   Poly(3-hydroxyalkanoate) polymerase su
+    3.6e-06   31.1   0.0       0.14   16.0   0.0    2.1  2  sp|G0HQZ6|PHAC_HALHT   Poly(3-hydroxyalkanoate) polymerase su
+    4.6e-06   30.8   0.0       0.17   15.8   0.0    2.1  2  sp|Q5UYM0|PHAC_HALMA   Poly(3-hydroxyalkanoate) polymerase su
+    0.00026   25.0   0.0     0.0028   21.6   0.0    2.0  1  sp|P45370|PHAC_ALLVD   Poly(3-hydroxyalkanoate) polymerase su
+     0.0078   20.2   0.0        2.9   11.7   0.0    2.0  2  sp|P73390|PHAC_SYNY3   Poly(3-hydroxyalkanoate) polymerase su
+  ------ inclusion threshold ------
+      0.082   16.8   0.0       0.14   16.1   0.0    1.3  1  sp|Q6BDR8|NSE4_SCHPO   Non-structural maintenance of chromoso
+       0.78   13.6   0.0        1.2   13.0   0.0    1.1  1  sp|P58156|CBPX2_SACS2  Thermostable carboxypeptidase 2 OS=Sac
+       0.89   13.4   0.0        1.3   12.8   0.0    1.1  1  sp|P80092|CBPX1_SACS2  Thermostable carboxypeptidase 1 OS=Sac
+          2   12.3   1.3        2.1   12.1   1.3    1.0  1  sp|Q5FUN5|RL32_GLUOX   Large ribosomal subunit protein bL32 O
+        2.6   11.9   0.0        3.9   11.3   0.0    1.2  1  sp|P54069|BEM46_SCHPO  Protein bem46 OS=Schizosaccharomyces p
+        3.2   11.5   1.4        3.3   11.5   1.4    1.0  1  sp|A5FV67|RL32_ACICJ   Large ribosomal subunit protein bL32 O
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|I3R9Z4|PHAC_HALMT  Poly(3-hydroxyalkanoate) polymerase subunit PhaC OS=Haloferax mediterranei (strain ATCC 33500 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.6   0.0   7.4e-06      0.39      79     191 ..      45     162 ..      13     177 .. 0.70
+   2 !   19.9   0.0   1.8e-07    0.0091     299     406 ..     253     355 ..     206     359 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 14.6 bits;  conditional E-value: 7.4e-06
+        PHB_depo_C.aln  79 eevviekPfckLlhfrkaaddpeivdeprvLlvaPlsGhyatlL...RdtvqalL.adhdvyvtDWadardvPleaGkfdlddyv.... 159
+                           +evv ++   +Llh++ ++++    d p  ++ a +   y   L   R++vq+lL ++ dvy+ DW ++ ++     +  lddyv    
+  sp|I3R9Z4|PHAC_HALMT  45 NEVVYKENKLRLLHYESKTETQ--YDVPILIVYALINRPYILDLqpdRSVVQTLLeQGFDVYLIDWGEPSRLDT---HLTLDDYVtryi 128
+                           5677777778899998888555..4777777777778888776666699******4469*********988754...556666551000 PP
+
+        PHB_depo_C.aln 160 qylvefirtl.Gaet.hviavCqpavpvLaaval 191
+                           +  v+++r   G ++ +++  C  +   +  +al
+  sp|I3R9Z4|PHAC_HALMT 129 DNCVDIVRDRsGQDSiNLLGYCMGGTMSVMYAAL 162
+                           5566777754144557777777766655555555 PP
+
+  == domain 2  score: 19.9 bits;  conditional E-value: 1.8e-07
+        PHB_depo_C.aln 299 lavlDlaaefYLetvekvFqefelargtlevrgrrvrpqaikstalltveGelDdisarGqteaahdLCaglaasrkehlvaagvghYg 387
+                           +  +D+a e Y + +e v+q+ +la++ l  +g++v+ + ++ + +l + Ge D +  +  ++  +dL     +s+ +++++   gh g
+  sp|I3R9Z4|PHAC_HALMT 253 SDGIDVAGETYKQFLEDVYQQNKLAQNELMLDGKQVDLERLE-MPILQIVGEYDHLIPPEASKPFNDL----VPSEDTEVIEGATGHIG 336
+                           4569***********************************986.68999*******9998766666665....45567788999999999 PP
+
+        PHB_depo_C.aln 388 iFaGrrwreevyPlvrdli 406
+                           +    r + ++ P+v d  
+  sp|I3R9Z4|PHAC_HALMT 337 LSVSSRSHGDLWPAVSDWF 355
+                           9999999999999999865 PP
+
+>> sp|G0HQZ6|PHAC_HALHT  Poly(3-hydroxyalkanoate) polymerase subunit PhaC OS=Haloarcula hispanica (strain ATCC 33960 / D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.2   0.0     2e-05         1     123     189 ..     102     172 ..      37     195 .. 0.66
+   2 !   16.0   0.0   2.7e-06      0.14     302     404 ..     268     365 ..     227     371 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 2e-05
+        PHB_depo_C.aln 123 RdtvqalL.adhdvyvtDWadardvPleaGkfdlddyvq....ylvefirtl.Gaet.hviavCqpavpvLaav 189
+                           R++v+ lL a+hdvy+ DW+++ ++     +  lddyv+      v+++r   G ++ +++  C  +   +  +
+  sp|G0HQZ6|PHAC_HALHT 102 RSVVRRLLeAGHDVYLIDWNEPSRLD---QHLTLDDYVNrymdNCVDVVRERsGQDAiNILGYCMGGTMSVMYT 172
+                           899*9999458**********98865...456677766510004556777541444467777777665554444 PP
+
+  == domain 2  score: 16.0 bits;  conditional E-value: 2.7e-06
+        PHB_depo_C.aln 302 lDlaaefYLetvekvFqefelargtlevrgrrvrpqaikstalltveGelDdisarGqteaahdLCaglaasrkehlvaagvghYgiFa 390
+                           +D+a e Y++ +e v+q+ +l ++ le +g++v+ ++i  + +l + Ge D +  +  ++  +d    + as+ ++ ++   gh g+  
+  sp|G0HQZ6|PHAC_HALHT 268 IDVAGEAYVQFLEDVYQDNKLYKNELELNGKHVDLDNID-MPVLQLMGEYDHLIPPEASKPFND----VIASDDTRTIEFSTGHIGLSV 351
+                           79************************************6.6899999****9987654444433....334455666777778888877 PP
+
+        PHB_depo_C.aln 391 GrrwreevyPlvrd 404
+                             + + ++ P v +
+  sp|G0HQZ6|PHAC_HALHT 352 SSSTHADLWPEVAE 365
+                           77777777777766 PP
+
+>> sp|Q5UYM0|PHAC_HALMA  Poly(3-hydroxyalkanoate) polymerase subunit PhaC OS=Haloarcula marismortui (strain ATCC 43049 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.1   0.0   2.1e-05       1.1     123     187 ..     102     170 ..      38     194 .. 0.63
+   2 !   15.8   0.0   3.2e-06      0.17     302     404 ..     268     365 ..     231     371 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 2.1e-05
+        PHB_depo_C.aln 123 RdtvqalL.adhdvyvtDWadardvPleaGkfdlddyvq....ylvefirtl.Gaet.hviavCqpavpvLa 187
+                           R++v+ lL a+hdvy+ DW+++ ++     +  lddyv+      v+++r   G ++ +++  C  +   + 
+  sp|Q5UYM0|PHAC_HALMA 102 RSVVRRLLeAGHDVYLIDWNEPSRLD---QHLTLDDYVNrymdNCVDVVRDRsGQDAiNILGYCMGGTMSVM 170
+                           899**999458**********98765...4667777765100045566665414444677777766655444 PP
+
+  == domain 2  score: 15.8 bits;  conditional E-value: 3.2e-06
+        PHB_depo_C.aln 302 lDlaaefYLetvekvFqefelargtlevrgrrvrpqaikstalltveGelDdisarGqteaahdLCaglaasrkehlvaagvghYgiFa 390
+                           +D+a e Y++ +e v+q+ +l ++ le +g++v+ ++i  + +l + Ge D +  +  ++  +d    + as+ ++ ++   gh g+  
+  sp|Q5UYM0|PHAC_HALMA 268 IDVAGEAYVQFLEDVYQDNKLYKNELELDGKHVDLDNID-MPVLQLMGEYDHLIPPEASKPFND----VIASDDTRTIEFSTGHIGLSV 351
+                           79************************************6.6899999****9987654444433....334455666777778888877 PP
+
+        PHB_depo_C.aln 391 GrrwreevyPlvrd 404
+                             + + ++ P v +
+  sp|Q5UYM0|PHAC_HALMA 352 SSSTHADLWPEVAE 365
+                           77777777777766 PP
+
+>> sp|P45370|PHAC_ALLVD  Poly(3-hydroxyalkanoate) polymerase subunit PhaC OS=Allochromatium vinosum (strain ATCC 17899 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.6   0.0   5.4e-08    0.0028      90     216 ..      53     181 ..      40     355 .] 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 21.6 bits;  conditional E-value: 5.4e-08
+        PHB_depo_C.aln  90 LlhfrkaaddpeivdeprvLlvaPlsGhyatlL...RdtvqalLa.dhdvyvtDWadardvPleaGkfd....lddyvqylvefirtl. 169
+                           L ++ + +++pe ++ p  ++ a +   y t +   R+t++ lLa + dvy+ DW  + +      +      ++ y++  v+++r   
+  sp|P45370|PHAC_ALLVD  53 LYRYDRPEGAPEAQPVPLLIVYALVNRPYMTDIqedRSTIKGLLAtGQDVYLIDWGYPDQADR---ALTlddyINGYIDRCVDYLREAh 138
+                           66888889999988888888899999999997655589******83689******87655433...34400015566778889999753 PP
+
+        PHB_depo_C.aln 170 Gaet.hviavCqpavpvLaavallaeedekaqPrsltliggPiDaras 216
+                           G ++ +++ +Cq +     a +l+ ++ ++ + r l+ + +P+D ++ 
+  sp|P45370|PHAC_ALLVD 139 GVDKvNLLGICQGG-----AFSLMYSALHPDKVRNLVTMVTPVDFKTP 181
+                           777789******96.....77888777777777***********8754 PP
+
+>> sp|P73390|PHAC_SYNY3  Poly(3-hydroxyalkanoate) polymerase subunit PhaC OS=Synechocystis sp. (strain ATCC 27184 / PCC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.7   0.0   5.6e-05       2.9      90     221 ..      70     201 ..      50     207 .. 0.73
+   2 !    6.6   0.0    0.0019     1e+02     303     406 ..     275     374 ..     245     378 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 5.6e-05
+        PHB_depo_C.aln  90 LlhfrkaaddpeivdeprvLlvaPlsGhyatlL...RdtvqalLa.dhdvyvtDWada.rdvPleaGkfdlddyvqylvefirtlGaet 173
+                           L +f+   ++p   + p+ ++ a +   y + L   R+ v+ lL+ + dvy+ DW  + r     + +  l+ y++  v++i +   ++
+  sp|P73390|PHAC_SYNY3  70 LYRFQPVVENPL--PIPVLIVYALVNRPYMVDLqegRSLVANLLKlGLDVYLIDWGYPsRGDRWLTLEDYLSGYLNNCVDIICQRSQQE 156
+                           667777777775..5566666666666677766444778999997579*******8752333334444457888888888886666655 PP
+
+        PHB_depo_C.aln 174 ..hviavCqpavpvLaavallaeedekaqPrsltliggPiDarasptavn 221
+                              ++ vCq +   L+ ++l+    +k+  + l+++ +P+D ++  t +n
+  sp|P73390|PHAC_SYNY3 157 kiTLLGVCQGGTFSLCYASLFP---DKV--KNLVVMVAPVDFEQPGTLLN 201
+                           36789***************96...456..789********998888766 PP
+
+  == domain 2  score: 6.6 bits;  conditional E-value: 0.0019
+        PHB_depo_C.aln 303 DlaaefYLetvekvFqefelargtlevrgrrvrpqaikstalltveGelDdisarGqteaahdLCaglaasrkehlvaagvghYgiFaG 391
+                           D a e Y + ++  +q+ +l +g + + +r v+ ++++ + +l +  e+D + a+    +  +L   l+++    +    vgh g++  
+  sp|P73390|PHAC_SYNY3 275 DQAGETYRQFLKDFYQQNKLIKGEVMIGDRLVDLHNLT-MPILNLYAEKDHLVAPA---SSLALGDYLPENCDYTVQSFPVGHIGMYVS 359
+                           778899*****************************996.6899**********985...56778899999999999999*******999 PP
+
+        PHB_depo_C.aln 392 rrwreevyPlvrdli 406
+                            + + ++ P++ + +
+  sp|P73390|PHAC_SYNY3 360 GKVQRDLPPAIAHWL 374
+                           999999999987765 PP
+
+>> sp|Q6BDR8|NSE4_SCHPO  Non-structural maintenance of chromosome element 4 OS=Schizosaccharomyces pombe (strain 972 / A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.1   0.0   2.6e-06      0.14     129     219 ..      60     147 ..      54     157 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 2.6e-06
+        PHB_depo_C.aln 129 lLadhdvyvtDWadardvPleaGkfdlddyvqylvefirtlGaethviavCqpavpvLaavallaeedekaqPrsltliggPiDarasp 217
+                           lL   +v +   + ar++ +   kf+++ +++ +++f+ +  ++++v  + q   ++ +    la++ ek  P sl l+ gP+  r+  
+  sp|Q6BDR8|NSE4_SCHPO  60 LLLTKTVDLAS-IKARQLHIGRPKFNIELFTKNIKQFLNYPTSHSNVTRI-QEIDTAWSRLGKLASNCEKQ-PASLNLMVGPLSFRKKE 145
+                           55555555544.5789999*********************9999999887.8889999*********9996.**********9988876 PP
+
+        PHB_depo_C.aln 218 ta 219
+                            +
+  sp|Q6BDR8|NSE4_SCHPO 146 RN 147
+                           55 PP
+
+>> sp|P58156|CBPX2_SACS2  Thermostable carboxypeptidase 2 OS=Saccharolobus solfataricus (strain ATCC 35092 / DSM 1617 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0   2.3e-05       1.2     311     403 ..     208     306 ..     207     312 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 2.3e-05
+         PHB_depo_C.aln 311 etvekvFqefelargtlevrgrrvrpqaikstalltve.GelDdis.....arGqteaahdLCaglaasrkehlvaagvghYgiFaGr 392
+                            et++ +F   ++a+  + ++ r+++p +   +++ t+  G +D+i       +G  ++  +  ++ a++  +++v + +g Yg  +  
+  sp|P58156|CBPX2_SACS2 208 ETIDPIFISLQIANAIYGITARQIDPVQPFVISITTIHsGTKDNIIpddaeMQGTIRSLDENVRSKAKDYMRRIVSSICGIYGATCEV 295
+                            79***********************************65999988622211456677777777777777888999************* PP
+
+         PHB_depo_C.aln 393 rwreevyPlvr 403
+                            ++ e+vyP   
+  sp|P58156|CBPX2_SACS2 296 KFMEDVYPITV 306
+                            ********865 PP
+
+>> sp|P80092|CBPX1_SACS2  Thermostable carboxypeptidase 1 OS=Saccharolobus solfataricus (strain ATCC 35092 / DSM 1617 / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.0   2.6e-05       1.3     311     403 ..     208     306 ..     207     312 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 2.6e-05
+         PHB_depo_C.aln 311 etvekvFqefelargtlevrgrrvrpqaikstalltve.GelDdis.....arGqteaahdLCaglaasrkehlvaagvghYgiFaGr 392
+                            et++ +F   ++a+  + ++ r+++p +   +++ t+  G +D+i       +G  ++  +  ++ a++  +++v + +g Yg  +  
+  sp|P80092|CBPX1_SACS2 208 ETIDPIFISLQIANAIYGITARQIDPVQPFIISITTIHsGTKDNIIpddaeMQGTIRSLDENVRSKAKDYMRRIVSSICGIYGATCEV 295
+                            79**********************************965999988622211456677777777777777888999************* PP
+
+         PHB_depo_C.aln 393 rwreevyPlvr 403
+                            ++ e+vyP+  
+  sp|P80092|CBPX1_SACS2 296 KFMEDVYPTTV 306
+                            ********865 PP
+
+>> sp|Q5FUN5|RL32_GLUOX  Large ribosomal subunit protein bL32 OS=Gluconobacter oxydans (strain 621H) OX=290633 GN=rpmF P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   1.3   4.1e-05       2.1     361     387 ..      24      50 ..      17      59 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 4.1e-05
+        PHB_depo_C.aln 361 eaahdLCaglaasrkehlvaagvghYg 387
+                           + ah+ C+   ++++ h+v +++ghY+
+  sp|Q5FUN5|RL32_GLUOX  24 VEAHAECSNCGEMKRPHHVCSHCGHYD 50 
+                           579***********************8 PP
+
+>> sp|P54069|BEM46_SCHPO  Protein bem46 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=bem46 PE=2 S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.0   7.4e-05       3.9     325     397 ..     215     284 ..     199     293 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 7.4e-05
+         PHB_depo_C.aln 325 gtlevrgrrvrpqaikstalltveGelDdisarGqteaahdLCaglaasrkehlvaagvghYgiFaGrrwree 397
+                             + e+   + + ++ik+  +l + Ge+D+i  + q +    LC +    +k+ +   +++h ++  G  + + 
+  sp|P54069|BEM46_SCHPO 215 FCTEIWSSQDEIRKIKKLPVLFLSGEKDEIVPPPQMVLLFGLCGSA---KKKFHSFPKCTHNDTCLGDGYFQV 284
+                            5566666777889******************************974...577888999***999999877655 PP
+
+>> sp|A5FV67|RL32_ACICJ  Large ribosomal subunit protein bL32 OS=Acidiphilium cryptum (strain JF-5) OX=349163 GN=rpmF PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   1.4   6.4e-05       3.3     361     387 ..      24      50 ..      14      65 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 6.4e-05
+        PHB_depo_C.aln 361 eaahdLCaglaasrkehlvaagvghYg 387
+                           + ah+ C+   + ++ h+v  ++ghY+
+  sp|A5FV67|RL32_ACICJ  24 QQAHAECSNCGELKRPHHVCGHCGHYD 50 
+                           469999********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (410 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     12428  (0.0216644); expected 11473.2 (0.02)
+Passed bias filter:                    10531  (0.0183575); expected 11473.2 (0.02)
+Passed Vit filter:                       784  (0.00136666); expected 573.7 (0.001)
+Passed Fwd filter:                        11  (1.91751e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 5.11u 0.18s 00:00:05.29 Elapsed: 00:00:01.69
+# Mc/sec: 50299.61
+//
+[ok]

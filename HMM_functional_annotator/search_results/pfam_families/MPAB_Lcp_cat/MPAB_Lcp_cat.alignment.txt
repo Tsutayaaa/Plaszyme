@@ -1,0 +1,200 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/pfam_families/hmm/MPAB_Lcp_cat.hmm
+# target sequence database:        /gpfs/work/bio/yueqingxing22/igem/HMM/data/database/uniprot_sprot_swiss.fasta
+# per-seq hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/MPAB_Lcp_cat/MPAB_Lcp_cat.tblout.tsv
+# per-dom hits tabular output:     /gpfs/work/bio/yueqingxing22/igem/HMM/search_results/pfam_families/MPAB_Lcp_cat/MPAB_Lcp_cat.domtblout.tsv
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       MPAB_Lcp_cat.aln  [M=404]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+     8e-220  734.5   1.0     9e-220  734.3   1.0    1.0  1  sp|Q3L8N0|LCP_STRK3   Rubber oxygenase OS=Streptomyces sp. (s
+  ------ inclusion threshold ------
+       0.74   13.4   1.8       0.85   13.2   1.8    1.0  1  sp|W8GNV3|B11A_TETBN  M-myrmicitoxin(01)-Tb1a OS=Tetramorium 
+        1.2   12.7   0.0        1.9   12.1   0.0    1.2  1  sp|A8GDC2|PEPT_SERP5  Peptidase T OS=Serratia proteamaculans 
+        3.4   11.2   0.0        5.3   10.6   0.0    1.3  1  sp|Q6HE28|ARGC_BACHK  N-acetyl-gamma-glutamyl-phosphate reduc
+        3.5   11.2   0.0          5   10.7   0.0    1.2  1  sp|B7HB04|ARGC_BACC4  N-acetyl-gamma-glutamyl-phosphate reduc
+        4.3   10.9   0.0        6.2   10.4   0.0    1.2  1  sp|Q731G3|ARGC_BACC1  N-acetyl-gamma-glutamyl-phosphate reduc
+        4.4   10.8   0.0        6.5   10.3   0.0    1.2  1  sp|B7HNP9|ARGC_BACC7  N-acetyl-gamma-glutamyl-phosphate reduc
+        4.4   10.8   0.0        6.5   10.3   0.0    1.2  1  sp|B9IXC9|ARGC_BACCQ  N-acetyl-gamma-glutamyl-phosphate reduc
+        4.7   10.7   0.0        8.6    9.9   0.0    1.4  1  sp|P57323|DAPD_BUCAI  2,3,4,5-tetrahydropyridine-2,6-dicarbox
+        5.1   10.6   0.0        7.6   10.1   0.0    1.2  1  sp|A9VG72|ARGC_BACMK  N-acetyl-gamma-glutamyl-phosphate reduc
+        6.3   10.3   0.0         11    9.6   0.0    1.2  1  sp|Q9JHS2|HIF3A_RAT   Hypoxia-inducible factor 3-alpha OS=Rat
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q3L8N0|LCP_STRK3  Rubber oxygenase OS=Streptomyces sp. (strain K30) OX=256642 GN=lcp PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  734.3   1.0  1.7e-224    9e-220       1     403 [.       1     406 [.       1     407 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 734.3 bits;  conditional E-value: 1.7e-224
+     MPAB_Lcp_cat.aln   1 medlsrrrlllaggalGaagalaaatra...slwawspadsvaGsgaGadpeylwddeadpviadviergkvpevnkllkqwvrndqplp 87 
+                          m+++srrr+l++ggalGa+gal+aatra   +lw+wsp++svaG+g+G+dpey+wd+eadpv+a+vi+rg+vp+vn+llkqw+rndq+lp
+  sp|Q3L8N0|LCP_STRK3   1 MDGFSRRRMLMTGGALGAVGALGAATRAlarPLWTWSPSASVAGTGVGVDPEYVWDEEADPVLAAVIDRGEVPAVNALLKQWTRNDQALP 90 
+                          899*************************9999********************************************************** PP
+
+     MPAB_Lcp_cat.aln  88 aglpsdlrdfleearrlpswadkakledavkfnkkkdtyvgvlyglgsGllstviprearavyyskGGadlkdriaktaklGydigdlna 177
+                          +glp+dlr+f+e+arr+pswadka+l+++++f+k+k++yvg+lyglgsGl+st+ipre+ravyyskGGad+kdriakta+lGydigdl+a
+  sp|Q3L8N0|LCP_STRK3  91 GGLPGDLREFMEHARRMPSWADKAALDRGAQFSKTKGIYVGALYGLGSGLMSTAIPRESRAVYYSKGGADMKDRIAKTARLGYDIGDLDA 180
+                          ****************************************************************************************** PP
+
+     MPAB_Lcp_cat.aln 178 ykpeGelivtavktrlvhaavrhllpqsphwsr.sadekipisqadilvtwhslptyvmrklkkwkvplpeaeseaflhvwqvsahllGv 266
+                          y p+G++ivtavktr+vhaavrhllpqsp+ws+ s+++kipisqadi+vtwhsl+t+vmrk+k+w+v++++a++ea+lhvwqvsah+lGv
+  sp|Q3L8N0|LCP_STRK3 181 YLPHGSMIVTAVKTRMVHAAVRHLLPQSPAWSQtSGGQKIPISQADIMVTWHSLATFVMRKMKQWGVRVNTADAEAYLHVWQVSAHMLGV 270
+                          *********************************99******************************************************* PP
+
+     MPAB_Lcp_cat.aln 267 rdeyipatwaeanaqskqvldpilaptkeGaaladallglvaeldlgltrpllgafsryilgdkvgdllglarepvlealvetawpllva 356
+                          +deyipatw++anaqskqvldpila+t+eG+al+++llg+vaeld+gltrpl+gafsry+lg++vgd++gla++pvle+l++tawpllva
+  sp|Q3L8N0|LCP_STRK3 271 SDEYIPATWDAANAQSKQVLDPILAHTPEGEALTEVLLGIVAELDAGLTRPLIGAFSRYTLGGEVGDMIGLAKQPVLERLIATAWPLLVA 360
+                          ****************************************************************************************** PP
+
+     MPAB_Lcp_cat.aln 357 lreGllpvpaveevlwlldeflrkfvllflselrkpisieiptvnra 403
+                          +reGl+p+pav++vlw+l+e+lrkfvllflse+r +i+i+ip+vnr+
+  sp|Q3L8N0|LCP_STRK3 361 FREGLIPLPAVPAVLWTLEEALRKFVLLFLSEGR-RIAIDIPDVNRP 406
+                          **********************************.***********8 PP
+
+>> sp|W8GNV3|B11A_TETBN  M-myrmicitoxin(01)-Tb1a OS=Tetramorium bicarinatum OX=219812 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   1.8   1.6e-05      0.85      10      70 ..       6      66 ..       2      70 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 1.6e-05
+      MPAB_Lcp_cat.aln 10 llaggalGaagalaaatraslwawspadsvaGsgaGadpeylwddeadpviadviergkvp 70
+                          l +  a+ ++ al  + +a   aw+ ad+ a ++a ad + + d  ad+v    i  gkv 
+  sp|W8GNV3|B11A_TETBN  6 LSLVLAIILVMALMYTPHAEAKAWADADADATAAADADADAVADALADAVAKIKIPWGKVK 66
+                          56667888899999999********************************998888888875 PP
+
+>> sp|A8GDC2|PEPT_SERP5  Peptidase T OS=Serratia proteamaculans (strain 568) OX=399741 GN=pepT PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.0   3.6e-05       1.9     208     271 ..     215     278 ..     208     295 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 3.6e-05
+      MPAB_Lcp_cat.aln 208 wsrsadekipisqadilvtwhslptyvmrklkkwkvplpeaeseaflhvwqvsahllGvrdeyi 271
+                            + +++++ p s++ ++v   sl+t +++ l   + p ++a+ ++f h   + + +   + +yi
+  sp|A8GDC2|PEPT_SERP5 215 VKIVGNNVHPGSAKGVMVNALSLATRIQQALPADETPETTADYQGFYHLSSLKGSVERAEMHYI 278
+                           45689999****************************************9888777666666666 PP
+
+>> sp|Q6HE28|ARGC_BACHK  N-acetyl-gamma-glutamyl-phosphate reductase OS=Bacillus thuringiensis subsp. konkukian (strain 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0001       5.3      39      87 ..     180     229 ..     150     243 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0001
+      MPAB_Lcp_cat.aln  39 vaGsgaGadpeylwddeadpv.iadviergkvpevnkllkqwvrndqplp 87 
+                           v+G+g  +   + + +  d++ i +v e+++vpe++++l +w r+ +p+ 
+  sp|Q6HE28|ARGC_BACHK 180 VSGAGKTPTTMTHFPELYDNLrIYKVNEHQHVPEIEQMLTEWNRETKPIT 229
+                           444444444445578888988578999******************99985 PP
+
+>> sp|B7HB04|ARGC_BACC4  N-acetyl-gamma-glutamyl-phosphate reductase OS=Bacillus cereus (strain B4264) OX=405532 GN=argC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   9.5e-05         5      39      87 ..     180     229 ..     143     238 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 9.5e-05
+      MPAB_Lcp_cat.aln  39 vaGsgaGadpeylwddeadpv.iadviergkvpevnkllkqwvrndqplp 87 
+                           v+G+g  +   + + +  d++ i +v ++++vpe++++l +w  ++qp+ 
+  sp|B7HB04|ARGC_BACC4 180 VSGAGKTPTTMTHFPELYDNLhIYKVNQHQHVPEIEQMLTEWNSESQPIT 229
+                           4444444444455788889884678888999****************985 PP
+
+>> sp|Q731G3|ARGC_BACC1  N-acetyl-gamma-glutamyl-phosphate reductase OS=Bacillus cereus (strain ATCC 10987 / NRS 248) OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0   0.00012       6.2      39      87 ..     180     229 ..     151     244 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.00012
+      MPAB_Lcp_cat.aln  39 vaGsgaGadpeylwddeadpv.iadviergkvpevnkllkqwvrndqplp 87 
+                           v+G+g  +   + + +  d++ i +v e+++vpe++++l +w r+ +p+ 
+  sp|Q731G3|ARGC_BACC1 180 VSGAGKTPTTMTHFPELYDNLrIYKVNEHQHVPEIEQMLAEWNRETKPIT 229
+                           444444444445578888988578999******************99985 PP
+
+>> sp|B7HNP9|ARGC_BACC7  N-acetyl-gamma-glutamyl-phosphate reductase OS=Bacillus cereus (strain AH187) OX=405534 GN=argC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0   0.00012       6.5      39      87 ..     180     229 ..     151     238 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.00012
+      MPAB_Lcp_cat.aln  39 vaGsgaGadpeylwddeadpv.iadviergkvpevnkllkqwvrndqplp 87 
+                           v+G+g  +   + + +  d++ i +v e+++vpe++++l +w r+ +p+ 
+  sp|B7HNP9|ARGC_BACC7 180 VSGAGKTPTTMTHFPELYDNLrIYKVNEHQHVPEIEQMLAEWNRETKPIT 229
+                           444444444445578888988578999******************99985 PP
+
+>> sp|B9IXC9|ARGC_BACCQ  N-acetyl-gamma-glutamyl-phosphate reductase OS=Bacillus cereus (strain Q1) OX=361100 GN=argC PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0   0.00012       6.5      39      87 ..     180     229 ..     151     238 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.00012
+      MPAB_Lcp_cat.aln  39 vaGsgaGadpeylwddeadpv.iadviergkvpevnkllkqwvrndqplp 87 
+                           v+G+g  +   + + +  d++ i +v e+++vpe++++l +w r+ +p+ 
+  sp|B9IXC9|ARGC_BACCQ 180 VSGAGKTPTTMTHFPELYDNLrIYKVNEHQHVPEIEQMLAEWNRETKPIT 229
+                           444444444445578888988578999******************99985 PP
+
+>> sp|P57323|DAPD_BUCAI  2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase OS=Buchnera aphidicola subsp
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.9   0.0   0.00017       8.6     340     387 ..      21      68 ..       6      77 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.00017
+      MPAB_Lcp_cat.aln 340 epvlealvetawpllvalreGllpvpaveevlwlldeflrkfvllfls 387
+                           + +  ++++t + ++ +l +G++ ++  ++  w+ +e l+k vll++ 
+  sp|P57323|DAPD_BUCAI  21 NNLDYEILQTIFRVIKLLNNGIIRISEKKDNTWITHEWLKKAVLLYIY 68 
+                           5556689999999999*****************************985 PP
+
+>> sp|A9VG72|ARGC_BACMK  N-acetyl-gamma-glutamyl-phosphate reductase OS=Bacillus mycoides (strain KBAB4) OX=315730 GN=ar
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.0   0.00015       7.6      38      86 ..     179     228 ..     144     236 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.00015
+      MPAB_Lcp_cat.aln  38 svaGsgaGadpeylwddeadpv.iadviergkvpevnkllkqwvrndqpl 86 
+                            v+G+g  +   + + +  d++ i +v ++++vpe++++l +w r+ +p+
+  sp|A9VG72|ARGC_BACMK 179 GVSGAGKTPTTMTHFPELYDNLhIYKVNQHQHVPEIEQMLTEWNRETKPI 228
+                           35555555555566888899984678888999**************9998 PP
+
+>> sp|Q9JHS2|HIF3A_RAT  Hypoxia-inducible factor 3-alpha OS=Rattus norvegicus OX=10116 GN=Hif3a PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.6   0.0    0.0002        11      43     123 ..     397     477 ..     366     486 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.0002
+     MPAB_Lcp_cat.aln  43 gaGadpeylwddeadpviadviergkvpevnkllkqwvrndqplpaglpsdlrdfleearrlpswadkakledavkfnkkk 123
+                          +  adp+    ++   ++a +++    ++  +  +  +r + plpa lp +l+  le+a+rl +   ++ +e+ ++ ++  
+  sp|Q9JHS2|HIF3A_RAT 397 SLAADPRRFCSPDLRRLMAPILDGPPTAATPSTPQAARRPQSPLPADLPDQLAVGLENAHRLSTARKNKTMETDLDIAQDP 477
+                          56789999999***************99999999****************************9988888888888877665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (404 nodes)
+Target sequences:                     573661  (207922125 residues searched)
+Passed MSV filter:                     15778  (0.027504); expected 11473.2 (0.02)
+Passed bias filter:                    13309  (0.0232001); expected 11473.2 (0.02)
+Passed Vit filter:                       840  (0.00146428); expected 573.7 (0.001)
+Passed Fwd filter:                        11  (1.91751e-05); expected 5.7 (1e-05)
+Initial search space (Z):             573661  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 5.24u 0.21s 00:00:05.45 Elapsed: 00:00:01.73
+# Mc/sec: 48475.75
+//
+[ok]

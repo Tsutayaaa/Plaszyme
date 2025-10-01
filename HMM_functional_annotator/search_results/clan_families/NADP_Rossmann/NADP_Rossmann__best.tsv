@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+NADP_Rossmann.aln	sp|Q9X6U2|BDHA_CUPNH	258	260	1.6e-77	265.4	3.5e-80	1.8e-77	265.2	5	259	1	257	1	258	0.97	1	1	0.9884615384615385	0.9883720930232558	NADP_Rossmann

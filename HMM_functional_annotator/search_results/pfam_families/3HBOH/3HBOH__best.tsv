@@ -1,0 +1,2 @@
+query	hmm	tlen	qlen	full_E	full_score	c_E	i_E	dom_score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	dom_index	dom_of	qcov	hcov	hmm_file
+3HBOH.aln	sp|Q0K9H3|HBOH_CUPNH	718	718	0.0	1492.2	0.0	0.0	1492.0	1	718	1	718	1	718	1.0	1	1	1.0	1.0	3HBOH
